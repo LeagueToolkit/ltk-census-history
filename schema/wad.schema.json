@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "census/wad",
+  "title": "files/<manifest path>/_wad.yaml (census export, format 2)",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "fileId": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{16}$",
+      "description": "the manifest's id for this version of the file; changes whenever its bytes do"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "the tags the manifest gives the file (locales, platforms), sorted; empty for none"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "fileId",
+    "tags"
+  ],
+  "description": "A WAD's own fields: its format version, and the manifest's file id and tags for it. Its entries are files beside it, in the bucket of their path hash's first byte: <xx>/<path hash>.yaml for every entry (schema entry), and for a bin <path hash>.bin/<yy>/<entry hash>.rito, each of its entries as ritobin text, in the bucket of the entry hash's first byte."
+}

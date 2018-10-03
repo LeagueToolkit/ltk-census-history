@@ -1,0 +1,21 @@
+sha256: "94d41706181c5cffd6d45249a1e208004d4e8b9e39cd0858c3b90c8a590b043e"
+checksum: "2a02a37eca8a91fc"
+kind: "skl"
+skeleton:
+ influences: 1
+ joints:
+  - name: "joint1"
+  - name: "jointSpin"
+    parent: "joint1"
+  - name: "jointA"
+    parent: "jointSpin"
+  - name: "jointA_mover"
+    parent: "jointA"
+  - name: "jointB"
+    parent: "jointSpin"
+  - name: "jointB_mover"
+    parent: "jointB"
+  - name: "jointC"
+    parent: "jointSpin"
+  - name: "jointC_mover"
+    parent: "jointC"

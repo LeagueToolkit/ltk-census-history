@@ -1,0 +1,32 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc4c0c7ae = 0x9b67e9f6 {
+        0x2d78c328: string = "CP_FamiliarMarker"
+        0x426d89a3: embed = 0x426d89a3 {
+            0xf5fb07c7: link = 0xdd3500fb
+        }
+        0x45ff5904: embed = 0x6111d8a4 {
+            0xb14c976e: string = "CP_FamiliarMarker.skl"
+            0xd6a00df6: string = "CP_FamiliarMarker.skn"
+            0x3c6468f4: string = "Jinx_Familiar_TX_CM.dds"
+            0x252f6884: f32 = 0.7
+            0x561f4fea: rgba = { 0, 0, 0, 255 }
+        }
+        0x84186f3c: list[embed] = {
+            0x33068165 {
+                0x48130c4f: string = "WaveStar_FamiliarMarker.troy"
+            }
+            0x33068165 {
+                0x48130c4f: string = "WaveStar_FamiliarMarker_Dark.troy"
+                0x1ecb978c: string = "Familiar_Dark_Spine"
+            }
+            0x33068165 {
+                0x48130c4f: string = "WaveStar_FamiliarMarker_Light.troy"
+                0x1ecb978c: string = "Familiar_Light_Spine"
+            }
+        }
+    }
+}

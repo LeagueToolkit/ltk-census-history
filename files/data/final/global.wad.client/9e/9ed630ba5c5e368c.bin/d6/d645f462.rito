@@ -1,0 +1,17 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd645f462 = 0x1265278a {
+        0x146f66af: bool = true
+        0x19efbfdb: string = "DecTime"
+        0x41a8f652: pointer = 0x141c2ec1 {
+            0x74d44065: string = "Speed Down"
+            0xbbe19802: string = "evtDecTime"
+            0x3522f9e3: list[string] = {
+                "evtDecTime"
+            }
+        }
+    }
+}

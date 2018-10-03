@@ -1,0 +1,19 @@
+sha256: "85a6ce38037fb04eb7d2acb6a424f076e16bbb7d97887c5063afbd6b384b0435"
+checksum: "f17c4e6faeaccff1"
+kind: "skl"
+skeleton:
+ influences: 3
+ joints:
+  - name: "PetRoot"
+  - name: "PetSpine1"
+    parent: "PetRoot"
+  - name: "PetSpine2"
+    parent: "PetSpine1"
+  - name: "Pet_L_Clavicle"
+    parent: "PetSpine2"
+  - name: "Pet_R_Clavicle"
+    parent: "PetSpine2"
+  - name: "PetSpine3"
+    parent: "PetSpine2"
+  - name: "PetHead"
+    parent: "PetSpine3"

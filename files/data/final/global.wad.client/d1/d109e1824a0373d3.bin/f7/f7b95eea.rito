@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xf7b95eea = 0xf58450d9 {
+        0x42f8ecb5: string = "SIEGE"
+        0xae7323cb: list[string] = {
+            "SuppressMinionSpawn(1)"
+            "FOWTexture(FogOfWarOverlay_siege.dds)"
+            "DisplayCountdownMissionTimer(1)"
+            "LevelScriptFile(LevelScript_SIEGE.lua)"
+            "DisableMinionGoldGivenOnDeath(1)"
+            "TeamScore0Goal(3000)"
+            "TeamScore1Goal(15)"
+            "TeamScore0Type(Siege_Generator)"
+            "TeamScore1Type(Siege_LaserMinions)"
+            "RecommendedItemProvider(SIEGE)"
+            "RecommendedItemProviderCustom(Siege)"
+            "TerrainINI(terrain_SIEGE.ini)"
+            "MapSkinName(Siege)"
+        }
+    }
+}

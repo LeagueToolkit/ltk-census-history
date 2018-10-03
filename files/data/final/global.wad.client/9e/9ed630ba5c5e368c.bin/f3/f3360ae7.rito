@@ -1,0 +1,18 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xf3360ae7 = 0x843f7edb {
+        0x02490112: string = "CheatAutoCooldown"
+        0x19efbfdb: string = "AutoCooldown"
+        0x41a8f652: pointer = 0x141c2ec1 {
+            0x74d44065: string = "Auto Cooldown"
+            0xee900fd3: string = "<titleLeft>Auto-Refresh Cooldowns</titleLeft><titleRight>@Hotkey@</titleRight><mainText><unique>Toggle</unique> to periodically refresh your Spell and Active Item cooldowns.</mainText>\""
+            0xbbe19802: string = "evtCheatAutoCooldown"
+            0x3522f9e3: list[string] = {
+                "evtCheatAutoCooldown"
+            }
+        }
+    }
+}

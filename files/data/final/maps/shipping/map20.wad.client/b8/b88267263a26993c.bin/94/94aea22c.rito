@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x94aea22c = 0x9b67e9f6 {
+        0x2d78c328: string = "NPC_Hazard_Destructible_1Base"
+        0x426d89a3: embed = 0x426d89a3 {
+            0xf5fb07c7: link = 0x55331865
+        }
+        0x45ff5904: embed = 0x6111d8a4 {
+            0xb14c976e: string = "Cube.skl"
+            0xd6a00df6: string = "Cube.skn"
+            0x561f4fea: rgba = { 0, 0, 0, 255 }
+        }
+        0xe67284f4: option[string] = {
+            "ASSETS/Characters/NPC_Hazard_Destructible_1/HUD/NPC_Destructible_Circle.dds"
+        }
+        0x51c83af8: embed = 0x11b71b5e {
+            0x643cb399: f32 = 500
+            0x3fcb5693: u8 = 6
+        }
+        0x62286e7e: link = 0xf7c94c8e
+    }
+}

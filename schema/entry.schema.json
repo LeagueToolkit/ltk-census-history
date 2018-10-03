@@ -1,0 +1,299 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "census/entry",
+  "title": "files/<manifest path>/<xx>/<path hash>.yaml (census export, format 2)",
+  "description": "One WAD entry: its identity, then what its bytes say under a key of its own -- skeleton, mesh, texture, clip, bank, or a bin's links and objects (its entries' ritobin texts are beside it, <path hash>.bin/<yy>/<entry hash>.rito). The file is named for the entry's path hash (XXH64 of its lowercased path).",
+  "type": "object",
+  "properties": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$",
+      "description": "of the entry's bytes, decompressed; the same anywhere means the same bytes"
+    },
+    "checksum": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{16}$",
+      "description": "as the WAD's table holds it (XXH64 or XXH3 of the stored bytes, by WAD version); absent for a WAD without checksums. Changes when the entry is recompressed."
+    },
+    "kind": {
+      "type": "string",
+      "description": "what the bytes are by their magic (bin, tex, skl, ...); absent when unknown. Says which section follows, if any."
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "a bin's links, the other bins it depends on, sorted; empty for none. With the texts under <path hash>.bin/ they rebuild the bin: version 3, its entries in unsigned entry hash order."
+    },
+    "objects": {
+      "type": "object",
+      "description": "a bin's objects, by entry hash (unsigned order): every object it holds, whether or not it parses (one that does not has no .rito); an entry hash the bin repeats keeps its first object",
+      "properties": {},
+      "additionalProperties": false,
+      "patternProperties": {
+        "^[0-9a-f]{8}$": {
+          "type": "object",
+          "properties": {
+            "class": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{8}$",
+              "description": "the object's class hash"
+            },
+            "content": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$",
+              "description": "SHA-256 of the object's bytes, entry hash to end, as the bin stores them"
+            },
+            "norm": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{16}$",
+              "description": "first 8 bytes of the SHA-256 of the object's bytes after its entry hash: the same object under another entry name has the same norm"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "class",
+            "content"
+          ]
+        }
+      }
+    },
+    "skeleton": {
+      "type": "object",
+      "properties": {
+        "influences": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "asset": {
+          "type": "string"
+        },
+        "joints": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "parent": {
+                "type": [
+                  "string",
+                  "integer"
+                ],
+                "description": "the parent's name, or its ordinal when another joint shares that name; absent for a root"
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "name"
+            ]
+          }
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "influences",
+        "joints"
+      ],
+      "description": "A skeleton's facts. Joints in order, each with its parent's name (or ordinal)."
+    },
+    "mesh": {
+      "type": "object",
+      "properties": {
+        "vertexType": {
+          "type": "string"
+        },
+        "vertices": {
+          "type": "integer"
+        },
+        "indices": {
+          "type": "integer"
+        },
+        "submeshes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "vertices": {
+                "type": "integer"
+              },
+              "indices": {
+                "type": "integer"
+              },
+              "positions": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{16}$"
+              },
+              "rounded": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{16}$"
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "vertices",
+              "indices",
+              "positions",
+              "rounded"
+            ]
+          }
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "vertexType",
+        "vertices",
+        "indices",
+        "submeshes"
+      ],
+      "description": "A mesh's facts. Submeshes in order, with the hashes of their positions as stored and rounded."
+    },
+    "texture": {
+      "type": "object",
+      "properties": {
+        "format": {
+          "type": "string"
+        },
+        "width": {
+          "type": "integer"
+        },
+        "height": {
+          "type": "integer"
+        },
+        "mips": {
+          "type": "integer"
+        },
+        "top": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{16}$"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "format",
+        "width",
+        "height",
+        "mips",
+        "top"
+      ]
+    },
+    "clip": {
+      "type": "object",
+      "properties": {
+        "joints": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}$"
+          },
+          "description": "the hash of each joint the clip animates, in stored order"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "joints"
+      ],
+      "description": "an animation clip's joints"
+    },
+    "bank": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "integer"
+        },
+        "bankId": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{8}$"
+        },
+        "media": {
+          "type": "object",
+          "properties": {},
+          "additionalProperties": false,
+          "patternProperties": {
+            "^[0-9a-f]{8}$": {
+              "type": "object",
+              "properties": {
+                "size": {
+                  "type": "integer"
+                },
+                "hash": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{16}$"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "size",
+                "hash"
+              ]
+            }
+          }
+        },
+        "events": {
+          "type": "object",
+          "properties": {},
+          "additionalProperties": false,
+          "patternProperties": {
+            "^[0-9a-f]{8}$": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{8}$"
+              }
+            }
+          }
+        },
+        "header": {
+          "type": "string",
+          "pattern": "^([0-9a-f]{2})*$",
+          "description": "the body of the bank's BKHD section, as hex; for a bank with a HIRC section"
+        },
+        "objects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{8}$",
+                "description": "the object's id; absent for an object too short to hold one"
+              },
+              "type": {
+                "type": "integer",
+                "description": "the object's type byte"
+              },
+              "body": {
+                "type": "string",
+                "pattern": "^([0-9a-f]{2})*$",
+                "description": "the object's bytes after its id, as hex"
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "type",
+              "body"
+            ]
+          },
+          "description": "every object of the bank's HIRC section, in stored order"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "version"
+      ],
+      "description": "a sound bank's wems and, for an events bank, its events with the wem ids their play actions reach, its header and its hierarchy's objects as stored"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "sha256"
+  ]
+}

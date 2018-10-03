@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x064de992 = 0x5e7e5a06 {
+        0xc8e37ef0: string = "MasterYiPassive"
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0xf1f20d72: string = "game_buff_tooltip_MasterYiPassive"
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "MasterYiPassive"
+                0x57b8b11b: link = 0x30d7b387
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Passive_MasterYiPassive_Name"
+                    "KeyTooltip" = "Passive_MasterYiPassive_Tooltip"
+                    "keyTooltipSimple" = "Passive_MasterYiPassive_TooltipSimple"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+sha256: "99a7fd3c79eab08d3bdc4b3bf29e4b574799a1fbe6203b550b22c36d2566779f"
+checksum: "9feef7c7ff4fb698"
+kind: "skl"
+skeleton:
+ influences: 6
+ joints:
+  - name: "cup_root"
+  - name: "Gem"
+    parent: "cup_root"
+  - name: "Cup"
+    parent: "cup_root"
+  - name: "RingOutside"
+    parent: "cup_root"
+  - name: "RingRotator"
+    parent: "RingOutside"
+  - name: "RingInside"
+    parent: "RingRotator"
+  - name: "HandleL"
+    parent: "cup_root"
+  - name: "HandleR"
+    parent: "cup_root"

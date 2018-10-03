@@ -1,0 +1,17 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x1777e5fe = 0x5e7e5a06 {
+        0xc8e37ef0: string = "NPC_Hazard_BubbleGeyser_Debuff_Tooltip"
+        0x56d2be52: pointer = 0x43368569 {
+            0xeed67cd5: list[string] = {
+                "ASSETS/Characters/Nami/HUD/Icons2D/NamiQ.dds"
+            }
+        }
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0xf1f20d72: string = "buff_desc_NPC_Hazard_BubbleGeyser_Debuff"
+        }
+    }
+}

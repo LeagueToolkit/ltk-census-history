@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "census/build",
+  "title": "build/ (census export, format 2)",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "description": "season.patch.build, the build number as RMAN writes it"
+    },
+    "patch": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$"
+    },
+    "manifest": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{16}$",
+      "description": "the RMAN manifest id; for a RADS build a synthetic id, XXH64 of rads/<realm>/<solution>/<version>"
+    },
+    "source": {
+      "enum": [
+        "rman",
+        "rads"
+      ]
+    },
+    "solution": {
+      "type": "string",
+      "description": "RADS: the lol_game_client_sln release"
+    },
+    "release": {
+      "type": "string",
+      "description": "RADS: the lol_game_client project release"
+    },
+    "exe": {
+      "type": "string",
+      "description": "RADS: League of Legends.exe's file version"
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "RMAN: the day the manifest shipped; RADS: the exe's link time"
+    },
+    "legacyBins": {
+      "type": "boolean",
+      "description": "bins use the numbering of complex property kinds before 10.8"
+    },
+    "realms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "patch",
+    "manifest",
+    "source",
+    "date",
+    "legacyBins",
+    "realms"
+  ]
+}

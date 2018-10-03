@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x12891c3a = 0xd4076b6b {
+        0x32728cce: list[u8] = {
+            7
+            1
+            5
+        }
+        0x0eb2f919: string = "STAR"
+        0x1f787f13: pointer = 0x039f4e7c {
+            0x670a76a3: embed = 0xc31e29fe {
+                0x2686a483: f32 = 1.5
+                0x7db59929: u8 = 255
+            }
+            0x614c784c: f32 = 1
+            0xa5c70a5c: f32 = 0.5
+        }
+    }
+}

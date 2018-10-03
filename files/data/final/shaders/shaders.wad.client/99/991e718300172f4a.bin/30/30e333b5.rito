@@ -1,0 +1,116 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x30e333b5 = 0x205255d6 {
+        0x1d369c29: string = "Shaders/StaticMesh/4TextureBlend_WorldProjected"
+        0x48a52ed9: list[embed] = {
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter1"
+                0xd872e2a5: vec4 = { 4, 4, 4, 0.35 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Red_Blend_Power"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Green_Blend_Power"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Blue_Blend_Power"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "OV_Low"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { 0.65, 0.01, 1, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "OV_High"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "WS_Multiplier"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Mid_Tiling"
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter3"
+                0xd872e2a5: vec4 = { 1, 1, 1, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Top_Tiling"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Extra_Tiling"
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter4"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Bottom_Tiling"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+        }
+        0x3291437b: list[embed] = {
+            0x60a292e6 {
+                0x8d39bde6: string = "SHOW_BLUE_MASK"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "SHOW_GREEN_MASK"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "SHOW_PAINTED_A"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "SHOW_RED_MASK"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "USE_A_AS_OVERLAY"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "USE_EXTRAS"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "USE_TOP"
+            }
+        }
+        0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "Middle_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/TerrainBlending/Cobblestone_albedo.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Top_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/TerrainBlending/Vines.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Extras_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/TerrainBlending/Pebles.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Bottom_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/TerrainBlending/sand.dds"
+            }
+        }
+    }
+}

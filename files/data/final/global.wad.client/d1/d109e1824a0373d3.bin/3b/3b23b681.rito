@@ -1,0 +1,18 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3b23b681 = 0xf58450d9 {
+        0x42f8ecb5: string = "TUTORIAL"
+        0xae7323cb: list[string] = {
+            "HumanDeathTimerMod(0.5)"
+            "HumanInnerTurretDamageMod(0.75)"
+            "HumanOuterTurretDamageMod(0.5)"
+            "HumanAmbientGoldMod(1.5)"
+            "ABTest(IGOCursors) ? CursorFileProvider(NewPlayer)"
+            "MapID(12) ? CustomItemInclusionOnly(1)"
+            "MapID(12) ? CustomItems(BasicTutorial)"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x89e3706b = 0xea452f2f {
+        0xfd00d188: map[string,embed] = {
+            "TOURNAMENT_TROPHY" = 0x26178188 {
+                0x3e06fd2b: string = "2367c5c4-6821-454f-a3b9-2615255f6d83"
+            }
+        }
+        0xc364cc96: u32 = 3
+        0x0bec979a: option[string] = {
+            "TrophySystem"
+        }
+        0x572d65ab: option[string] = {
+            "Global/Loadouts/SummonerTrophies.bin"
+        }
+        0x102bc210: string = "summonerTrophy"
+        0x5d50f6bd: list[string] = {
+            "pedestal"
+            "cup"
+            "gem"
+        }
+        0x5dbd6263: map[string,string] = {
+            "TrophyData" = "Loadouts/SummonerTrophies/Trophies/%cup%/Trophy_%gem%"
+            "TrophyPedestalData" = "Loadouts/SummonerTrophies/Pedestals/%pedestal%"
+        }
+        0xdbe2e42d: bool = false
+    }
+}
