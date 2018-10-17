@@ -7,18 +7,14 @@ entries: map[hash,embed] = {
         0xc8e37ef0: string = "NunuR"
         0x56d2be52: pointer = 0x43368569 {
             0xecf3f88d: u32 = 6154
-            0x44b7e8dd: string = "AbsoluteZero"
-            0x74d44065: string = "game_spell_displayname_AbsoluteZero"
-            0xf1f20d72: string = "game_spell_description_AbsoluteZero"
             0x3e1edbdb: list[string] = {
                 "Trait_Ultimate"
                 "Trait_ChannelSpell"
             }
-            0x9a5a3a84: string = "game_spell_tooltip_AbsoluteZero"
-            0x2ea2820c: string = "game_spell_levelup_AbsoluteZero"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
+                    0x246b0d8e: list[f32] = {
                         625
                         625
                         925
@@ -27,9 +23,11 @@ entries: map[hash,embed] = {
                         1275
                         1275
                     }
+                    0x3f95426c: bool = false
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowStartAmount"
+                    0x246b0d8e: list[f32] = {
                         -0.5
                         -0.5
                         -0.5
@@ -38,42 +36,11 @@ entries: map[hash,embed] = {
                         -0.5
                         -0.5
                     }
+                    0x6d3ccfd7: f32 = -0.5
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        110
-                        110
-                        100
-                        90
-                        90
-                        90
-                        90
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxSlowAmount"
+                    0x246b0d8e: list[f32] = {
                         -0.95
                         -0.95
                         -0.95
@@ -82,20 +49,11 @@ entries: map[hash,embed] = {
                         -0.95
                         -0.95
                     }
+                    0x6d3ccfd7: f32 = -0.95
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        6
-                        6
-                        6
-                        6
-                        6
-                        6
-                        6
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "ChannelDuration"
+                    0x246b0d8e: list[f32] = {
                         3
                         3
                         3
@@ -104,31 +62,100 @@ entries: map[hash,embed] = {
                         3
                         3
                     }
+                    0x6d3ccfd7: f32 = 3
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        65
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowDuration"
+                    0x246b0d8e: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                    }
+                    0x6d3ccfd7: f32 = 3
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxShieldDuration"
+                    0x246b0d8e: list[f32] = {
+                        6
+                        6
+                        6
+                        6
+                        6
+                        6
+                        6
+                    }
+                    0x6d3ccfd7: f32 = 6
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ShieldDecayDuration"
+                    0x246b0d8e: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                    }
+                    0x6d3ccfd7: f32 = 3
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseShieldAmount"
+                    0x246b0d8e: list[f32] = {
+                        55
                         65
                         75
                         85
-                        85
-                        85
-                        85
+                        95
+                        105
+                        115
                     }
+                    0x6d3ccfd7: f32 = 55
+                    0xe7b832f2: string = "P + 10"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.3
+                0x005008a6 {
+                    0x19efbfdb: string = "ShieldBonusHealthPercent"
+                    0x246b0d8e: list[f32] = {
+                        0.2
                         0.3
                         0.4
                         0.5
-                        0.5
-                        0.5
-                        0.5
+                        0.6
+                        0.7
+                        0.8
+                    }
+                    0x6d3ccfd7: f32 = 0.2
+                    0xe7b832f2: string = "P + 0.1"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x91b271c4 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x2f89af4d
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x9194b31e
+                            0x4cec2c8a: u8 = 8
+                            0x7d3150ec: u8 = 2
+                        }
+                    }
+                }
+                0xb7d9566c = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 2.5
+                        }
                     }
                 }
             }
-            0x295c2889: f32 = 2.5
             0xfbd16fb5: string = ""
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Nunu/HUD/Icons2D/Nunu_R.dds"
@@ -215,6 +242,33 @@ entries: map[hash,embed] = {
             }
             0x8f73dfe7: u8 = 4
             0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "NunuR"
+                    0x57b8b11b: link = 0x122a9d2c
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_NunuR_Name"
+                        "keyTooltip" = "Spell_NunuR_Tooltip"
+                        "keySummary" = "Spell_NunuR_Summary"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 3
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseDamage"
+                                    0x566f3406: string = "Spell_ListType_Damage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseShieldAmount"
+                                    0x566f3406: string = "Spell_ListType_ShieldAmount"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                }
+                            }
+                        }
+                    }
+                }
                 0x263ba968: list[pointer] = {
                     0x047acadf {
                         0xa831bcc1: option[bool] = {

@@ -30,9 +30,6 @@ entries: map[hash,embed] = {
         0x1bdbaedf: f32 = 3
         0x63ee70e9: f32 = 200
         0xb8f0a725: embed = 0x06ad3499 {
-            0x844b3f31: option[f32] = {
-                -0.05
-            }
             0xf8f757cc: option[f32] = {
                 -0.1
             }
@@ -40,40 +37,8 @@ entries: map[hash,embed] = {
                 0.5
             }
         }
-        0x766c34e6: list[embed] = {
-            0x06ad3499 {
-                0xf8f757cc: option[f32] = {
-                    -0.1
-                }
-                0x5d75bf7b: option[f32] = {
-                    0.5
-                }
-                0x147de9df: option[string] = {
-                    "JayceBasicAttack2"
-                }
-            }
-            0x06ad3499 {
-                0xf8f757cc: option[f32] = {
-                    -0.19
-                }
-                0x147de9df: option[string] = {
-                    "JayceRangedAttack"
-                }
-            }
-            0x06ad3499 {
-                0xf8f757cc: option[f32] = {
-                    -0.19
-                }
-                0x147de9df: option[string] = {
-                    "JayceRangedAttack2"
-                }
-            }
-        }
         0xd67b90f2: list[embed] = {
             0x06ad3499 {
-                0x844b3f31: option[f32] = {
-                    -0.05
-                }
                 0xf8f757cc: option[f32] = {
                     -0.1
                 }
@@ -81,20 +46,12 @@ entries: map[hash,embed] = {
                     "JayceCritAttack"
                 }
             }
-            0x06ad3499 {
-                0xf8f757cc: option[f32] = {
-                    -0.19
-                }
-                0x147de9df: option[string] = {
-                    "JayceRangedCritAttack"
-                }
-            }
         }
         0xbfc37103: list[string] = {
             "JayceToTheSkies"
             "JayceStaticField"
             "JayceThunderingBlow"
-            "JayceStanceHtG"
+            "JayceStanceHtGAbility/JayceStanceHtG"
         }
         0x8c1da1da: list[string] = {
             "JayceShockBlastMis"
@@ -113,6 +70,9 @@ entries: map[hash,embed] = {
             "BaseSpell"
             "BaseSpell"
             "BaseSpell"
+        }
+        0xe27abe56: list[link] = {
+            0xba2e252e
         }
         0xc9fa54bd: string = "game_character_passiveName_Jayce"
         0x23627deb: string = "GarenRecouperate"

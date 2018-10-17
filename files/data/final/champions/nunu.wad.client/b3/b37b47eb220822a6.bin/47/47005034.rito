@@ -11,10 +11,11 @@ entries: map[hash,embed] = {
             0xf1f20d72: string = "game_spell_description_Consume"
             0x9a5a3a84: string = "game_spell_tooltip_Consume"
             0x2ea2820c: string = "game_spell_levelup_Consume"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        340
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "MonsterMinionDamage"
+                    0x246b0d8e: list[f32] = {
+                        180
                         340
                         500
                         660
@@ -22,31 +23,40 @@ entries: map[hash,embed] = {
                         980
                         1140
                     }
+                    0x6d3ccfd7: f32 = 180
+                    0xe7b832f2: string = "P + 160"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        75
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseHealing"
+                    0x246b0d8e: list[f32] = {
+                        30
                         75
                         120
                         165
                         210
                         255
-                        255
+                        300
                     }
+                    0x6d3ccfd7: f32 = 30
+                    0xe7b832f2: string = "P + 45"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        60
+                0x005008a6 {
+                    0x19efbfdb: string = "ChampionDamage"
+                    0x246b0d8e: list[f32] = {
+                        20
                         60
                         100
                         140
                         180
                         220
-                        220
+                        260
                     }
+                    0x6d3ccfd7: f32 = 20
+                    0xe7b832f2: string = "P + 40"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "PercentageOfBonusHP"
+                    0x246b0d8e: list[f32] = {
                         0.1
                         0.1
                         0.1
@@ -55,31 +65,11 @@ entries: map[hash,embed] = {
                         0.1
                         0.1
                     }
+                    0x6d3ccfd7: f32 = 0.1
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "ChampionHealingScalar"
+                    0x246b0d8e: list[f32] = {
                         0.5
                         0.5
                         0.5
@@ -88,20 +78,37 @@ entries: map[hash,embed] = {
                         0.5
                         0.5
                     }
+                    0x6d3ccfd7: f32 = 0.5
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
+                0x005008a6 {
+                    0x19efbfdb: string = "LowHealthThreshhold"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
                     }
+                    0x6d3ccfd7: f32 = 0.5
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "LowHealthHealingScalar"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                    0x6d3ccfd7: f32 = 0.5
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BonusMaxHPDamage"
+                    0x246b0d8e: list[f32] = {
                         0.05
                         0.05
                         0.05
@@ -110,21 +117,47 @@ entries: map[hash,embed] = {
                         0.05
                         0.05
                     }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                    }
+                    0x6d3ccfd7: f32 = 0.05
                 }
             }
-            0x295c2889: f32 = 0.7
-            0xd7141e61: f32 = 0.5
+            0x94572284: map[hash,pointer] = {
+                0x92cb29a1 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x6a93f10e
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.7
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x8426521f
+                            0x4cec2c8a: u8 = 8
+                            0x7d3150ec: u8 = 2
+                        }
+                    }
+                }
+                0x3a24281b = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x568ad503
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xa9541fb7
+                            0x4cec2c8a: u8 = 8
+                            0x7d3150ec: u8 = 2
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.5
+                        }
+                    }
+                }
+                0xc1679f60 = 0x1c0f2a79 {
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0x4734b06c
+                    }
+                    0xb52623c8: hash = 0x92cb29a1
+                }
+            }
             0xfbd16fb5: string = ""
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Nunu/HUD/Icons2D/NunuQ.dds"
@@ -157,24 +190,6 @@ entries: map[hash,embed] = {
             0x5c46e292: f32 = 100
             0x4e47141f: f32 = 10
             0x239f6855: u32 = 2
-            0x1a2c7c10: list[i32] = {
-                0
-                0
-                0
-                1
-                0
-                0
-                0
-                0
-                0
-                0
-                0
-                2
-                2
-                2
-                2
-                2
-            }
             0xd997830a: list[f32] = {
                 60
                 60
@@ -185,6 +200,38 @@ entries: map[hash,embed] = {
             }
             0x77b9f839: u32 = 1
             0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "NunuQ"
+                    0x57b8b11b: link = 0x122a9d2c
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_NunuQ_Name"
+                        "keyCost" = "Spell_NunuQ_Cost"
+                        "keyTooltip" = "Spell_NunuQ_Tooltip"
+                        "keySummary" = "Spell_NunuQ_Summary"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 5
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "MonsterMinionDamage"
+                                    0x566f3406: string = "Spell_NunuQ_MonsterDamage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "ChampionDamage"
+                                    0x566f3406: string = "Spell_NunuQ_ChampionDamage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseHealing"
+                                    0x566f3406: string = "Spell_ListType_Heal"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                }
+                            }
+                        }
+                    }
+                }
                 0x263ba968: list[pointer] = {
                     0x047acadf {
                         0xa831bcc1: option[bool] = {

@@ -6,26 +6,30 @@ entries: map[hash,embed] = {
     0x330030b8 = 0x5e7e5a06 {
         0xc8e37ef0: string = "NunuE"
         0x56d2be52: pointer = 0x43368569 {
-            0x9c677a2c: u32 = 36
+            0x9c677a2c: u32 = 4
             0xecf3f88d: u32 = 6154
             0x74d44065: string = "game_spell_displayname_NunuESnowball"
             0xf1f20d72: string = "game_spell_description_NunuESnowball"
             0x9a5a3a84: string = "game_spell_tooltip_NunuESnowball"
             0x2ea2820c: string = "game_spell_levelup_NunuESnowball"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        16
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        8
                         16
                         24
                         32
                         40
                         48
-                        48
+                        56
                     }
+                    0x6d3ccfd7: f32 = 8
+                    0xe7b832f2: string = "P + 8"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowAmount"
+                    0x246b0d8e: list[f32] = {
                         -0.5
                         -0.5
                         -0.5
@@ -34,9 +38,11 @@ entries: map[hash,embed] = {
                         -0.5
                         -0.5
                     }
+                    0x6d3ccfd7: f32 = -0.5
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowDuration"
+                    0x246b0d8e: list[f32] = {
                         1
                         1
                         1
@@ -45,63 +51,104 @@ entries: map[hash,embed] = {
                         1
                         1
                     }
+                    0x6d3ccfd7: f32 = 1
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.444445
-                        0.444445
-                        0.444445
-                        0.444445
-                        0.444445
-                        0.444445
-                        0.444445
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        20
+                0x005008a6 {
+                    0x19efbfdb: string = "RootDamage"
+                    0x246b0d8e: list[f32] = {
+                        10
                         20
                         30
                         40
                         50
                         60
-                        60
+                        70
+                    }
+                    0x6d3ccfd7: f32 = 10
+                    0xe7b832f2: string = "P + 10"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TotalSpellDuration"
+                    0x246b0d8e: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                    }
+                    0x6d3ccfd7: f32 = 3
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DelayBetweenSnowballs"
+                    0x246b0d8e: list[f32] = {
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                    }
+                    0x6d3ccfd7: f32 = 0.15
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SplashConeLength"
+                    0x246b0d8e: list[f32] = {
+                        225
+                        225
+                        225
+                        225
+                        225
+                        225
+                        225
+                    }
+                    0x6d3ccfd7: f32 = 225
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SplashConeAngle"
+                    0x246b0d8e: list[f32] = {
+                        22.5
+                        22.5
+                        22.5
+                        22.5
+                        22.5
+                        22.5
+                        22.5
+                    }
+                    0x6d3ccfd7: f32 = 22.5
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x29e2947a = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.06
+                        }
                     }
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
+                0x4b16eb68 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xc24238c0
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.8
+                        }
                     }
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.0588
-                        0.0588
-                        0.0588
-                        0.0588
-                        0.0588
-                        0.0588
-                        0.0588
+                0x35cefd8d = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x15fecdbc {
+                            0xd06c375d: f32 = 0.5
+                            0x1cd7e522: f32 = 1.5
+                        }
                     }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                    }
+                    0x08d47ee4: i32 = 1
                 }
             }
             0x295c2889: f32 = 0.06
@@ -143,13 +190,13 @@ entries: map[hash,embed] = {
                 5000
             }
             0xd4c233b3: list[f32] = {
-                690
-                690
-                690
-                690
-                690
-                690
-                690
+                625
+                625
+                625
+                625
+                625
+                625
+                625
             }
             0xb7250b1c: list[f32] = {
                 450
@@ -195,27 +242,64 @@ entries: map[hash,embed] = {
                 0.3
             }
             0x048557ff: embed = 0x7dd1a902 {
-                0x263ba968: list[pointer] = {
-                    0x047acadf {
-                        0xbe0bee70: bool = true
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "NunuE"
+                    0x57b8b11b: link = 0x122a9d2c
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_NunuE_Name"
+                        "keyTooltip" = "Spell_NunuE_Tooltip"
+                        "keySummary" = "Spell_NunuE_Summary"
+                        "keyTooltipExtendedBelowLine" = "Spell_NunuE_TooltipExtendedBelowLine"
                     }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 5
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseDamage"
+                                    0x566f3406: string = "Spell_ListType_Damage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                }
+                            }
+                        }
+                    }
+                }
+                0x263ba968: list[pointer] = {
                     0x3402fe40 {
                         0x4f2cd510: embed = 0xcdb319f6 {
                             0x62e44e6b: u32 = 3
                         }
-                        0x5cc5ea61: option[bool] = {
-                            false
-                        }
+                        0xb2f634ab: f32 = 0
                         0x1d6ab889: embed = 0x1e4b4a7c {
                             0xfc8585d5: list[f32] = {
-                                80
-                                80
-                                80
-                                80
-                                80
-                                80
+                                40
+                                40
+                                40
+                                40
+                                40
+                                40
                             }
                             0x8f99bbe1: u32 = 2
+                        }
+                    }
+                    0x87f69f01 {
+                        0xc85cceeb: embed = 0xcdb319f6 {
+                            0x7100c365: f32 = 625
+                            0x4b23dc69: u32 = 3
+                        }
+                        0x4f2cd510: embed = 0xcdb319f6 {
+                            0x7100c365: f32 = 625
+                            0x4b23dc69: u32 = 3
+                        }
+                        0x7c82be94: u32 = 3
+                        0x381c24c1: bool = true
+                        0xfe497a32: option[f32] = {
+                            45
+                        }
+                        0xeb34d5d7: option[f32] = {
+                            250
                         }
                     }
                 }

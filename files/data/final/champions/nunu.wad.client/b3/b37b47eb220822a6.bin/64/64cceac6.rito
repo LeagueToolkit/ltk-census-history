@@ -11,58 +11,6 @@ entries: map[hash,embed] = {
             0x74d44065: string = "game_character_passiveName_NunuPassive"
             0xf1f20d72: string = "game_character_passiveDescription_NunuPassive"
             0x9a5a3a84: string = "game_buff_tooltip_NunuPassive"
-            0x251a5225: list[embed] = {
-                0x92d4987c {}
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                    }
-                }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-            }
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "MonsterRadius"
@@ -91,6 +39,68 @@ entries: map[hash,embed] = {
                     }
                     0x6d3ccfd7: f32 = 1000
                     0xe7b832f2: string = "P + 0"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BloodBoilBaseDuration"
+                    0x246b0d8e: list[f32] = {
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                    }
+                    0x6d3ccfd7: f32 = 4
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ADRatioForAOE"
+                    0x246b0d8e: list[f32] = {
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                    }
+                    0x6d3ccfd7: f32 = 0.3
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ASIncrease"
+                    0x246b0d8e: list[f32] = {
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                    }
+                    0x6d3ccfd7: f32 = 0.2
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MSIncrease"
+                    0x246b0d8e: list[f32] = {
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                    }
+                    0x6d3ccfd7: f32 = 0.1
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x87060844 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x71cf0419
+                            0x4cec2c8a: u8 = 2
+                        }
+                    }
                 }
             }
             0x295c2889: f32 = 0.5
@@ -160,6 +170,18 @@ entries: map[hash,embed] = {
                 40
             }
             0x8f73dfe7: u8 = 0
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "NunuPassive"
+                    0x57b8b11b: link = 0x30d7b387
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_NunuPassive_Name"
+                        "keyTooltip" = "Spell_NunuPassive_Tooltip"
+                        "keySummary" = "Spell_NunuPassive_Summary"
+                        "keyTooltipExtended" = "Spell_NunuPassive_TooltipExtendedBelowLine"
+                    }
+                }
+            }
         }
         0x7f0f5a79: pointer = 0x4633d794 {
             0xf1f20d72: string = "game_buff_tooltip_NunuPassive"
