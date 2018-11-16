@@ -13,6 +13,8 @@ entries: map[hash,embed] = {
         0x8f7b194f: embed = 0x8f7b194f {
             0xd65bac4d: list[string] = {
                 "Sona"
+                "SonaDJGenre01Skin06"
+                "SonaSkin06Genre01"
                 "SonaSkin06"
             }
             0xf8f29f92: list[embed] = {
@@ -30,14 +32,13 @@ entries: map[hash,embed] = {
                         "Play_mus_skin06_Aggressive_R_OnCast_02"
                         "Play_mus_skin06_Aggressive_R_OnCast_03"
                         "Play_mus_Skin06_Aggressive_select"
-                        "Play_mus_skin06_Aggressive_W_OnCast"
                         "Play_mus_skin06_Ambient_E_OnCast"
                         "Play_mus_skin06_Ambient_Q_OnCast"
                         "Play_mus_skin06_Ambient_R_OnCast_01"
                         "Play_mus_skin06_Ambient_R_OnCast_02"
                         "Play_mus_skin06_Ambient_R_OnCast_03"
                         "Play_mus_Skin06_Ambient_select"
-                        "Play_mus_skin06_Ambient_W_OnCast"
+                        "Play_mus_skin06_Death_LayerReset"
                         "Play_mus_Skin06_genreselect"
                         "Play_mus_skin06_HighEnergy_E_OnCast"
                         "Play_mus_skin06_HighEnergy_Q_OnCast"
@@ -45,7 +46,6 @@ entries: map[hash,embed] = {
                         "Play_mus_skin06_HighEnergy_R_OnCast_02"
                         "Play_mus_skin06_HighEnergy_R_OnCast_03"
                         "Play_mus_Skin06_HighEnergy_select"
-                        "Play_mus_skin06_HighEnergy_W_OnCast"
                         "Play_sfx_SonaSkin06_Death3D_cast"
                         "Play_sfx_SonaSkin06_Joke3D_buffactivate"
                         "Play_sfx_SonaSkin06_Laugh3D_buffactivate"
@@ -70,7 +70,7 @@ entries: map[hash,embed] = {
                     0x2a21ad00: list[string] = {
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Sona/Skins/Base/Sona_Base_VO_audio.bnk"
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Sona/Skins/Base/Sona_Base_VO_events.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Sona/Skins/Base/Sona_Base_VO_events.wpk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Sona/Skins/Base/Sona_Base_VO_audio.wpk"
                     }
                     0x3b13aa4b: bool = true
                 }
@@ -100,10 +100,87 @@ entries: map[hash,embed] = {
                     }
                     0x3b13aa4b: bool = true
                 }
+                0xa4416515 {
+                    0x8d39bde6: string = "SonaDJGenre01_Skin06_SFX_ASYNC"
+                    0x2a21ad00: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/SonaDJGenre01/Skins/Skin06/SonaDJGenre01_Skin06_SFX_audio_async.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/SonaDJGenre01/Skins/Skin06/SonaDJGenre01_Skin06_SFX_events_async.bnk"
+                    }
+                    0x12d8e384: list[string] = {
+                        "Play_sfx_SonaSkin06Genre01_Recall_leadin"
+                        "Play_sfx_SonaSkin06Genre01_Recall_leadout"
+                        "Play_sfx_SonaSkin06Genre01_SonaBasicAttack2_OnCast"
+                        "Play_sfx_SonaSkin06Genre01_SonaBasicAttack2_OnHit"
+                        "Play_sfx_SonaSkin06Genre01_SonaBasicAttack2_OnMissileLaunch"
+                        "Play_sfx_SonaSkin06Genre01_SonaBasicAttack_OnCast"
+                        "Play_sfx_SonaSkin06Genre01_SonaBasicAttack_OnHit"
+                        "Play_sfx_SonaSkin06Genre01_SonaBasicAttack_OnMissileLaunch"
+                        "Play_sfx_SonaSkin06Genre01_SonaCritAttack_OnCast"
+                        "Play_sfx_SonaSkin06Genre01_SonaCritAttack_OnHit"
+                        "Play_sfx_SonaSkin06Genre01_SonaCritAttack_OnMissileLaunch"
+                        "Play_sfx_SonaSkin06Genre01_SonaE_OnCast"
+                        "Play_sfx_SonaSkin06Genre01_SonaEAttack_OnCast"
+                        "Play_sfx_SonaSkin06Genre01_SonaEAttack_OnHit"
+                        "Play_sfx_SonaSkin06Genre01_SonaEAttack_OnMissileLaunch"
+                        "Play_sfx_SonaSkin06Genre01_SonaEAttackUpgrade_OnCast"
+                        "Play_sfx_SonaSkin06Genre01_SonaEAttackUpgrade_OnHit"
+                        "Play_sfx_SonaSkin06Genre01_SonaEAttackUpgrade_OnMissileLaunch"
+                        "Play_sfx_SonaSkin06Genre01_SonaEHaste_buffactivate"
+                        "Play_sfx_SonaSkin06Genre01_SonaPowerChordMissile_OnCast"
+                        "Play_sfx_SonaSkin06Genre01_SonaPowerChordMissile_OnHit"
+                        "Play_sfx_SonaSkin06Genre01_SonaPowerChordMissile_OnMissileLaunch"
+                        "Play_sfx_SonaSkin06Genre01_SonaQ_OnCast"
+                        "Play_sfx_SonaSkin06Genre01_SonaQAttackUpgrade_OnCast"
+                        "Play_sfx_SonaSkin06Genre01_SonaQAttackUpgrade_OnHit"
+                        "Play_sfx_SonaSkin06Genre01_SonaQAttackUpgrade_OnMissileLaunch"
+                        "Play_sfx_SonaSkin06Genre01_SonaQMissile_OnHit"
+                        "Play_sfx_SonaSkin06Genre01_SonaQMissile_OnMissileLaunch"
+                        "Play_sfx_SonaSkin06Genre01_SonaQProc_hit"
+                        "Play_sfx_SonaSkin06Genre01_SonaQProc_missilelaunch"
+                        "Play_sfx_SonaSkin06Genre01_SonaQProcAttacker_buffactivate"
+                        "Play_sfx_SonaSkin06Genre01_SonaQProcAttacker_buffcast"
+                        "Play_sfx_SonaSkin06Genre01_SonaQZone_OnBuffActivate"
+                        "Play_sfx_SonaSkin06Genre01_SonaR_OnBuffActivate"
+                        "Play_sfx_SonaSkin06Genre01_SonaR_OnBuffDeactivate"
+                        "Play_sfx_SonaSkin06Genre01_SonaR_OnCast"
+                        "Play_sfx_SonaSkin06Genre01_SonaR_OnHit"
+                        "Play_sfx_SonaSkin06Genre01_SonaR_OnMissileLaunch"
+                        "Play_sfx_SonaSkin06Genre01_SonaW_OnCast"
+                        "Play_sfx_SonaSkin06Genre01_SonaWAttackUpgrade_OnCast"
+                        "Play_sfx_SonaSkin06Genre01_SonaWAttackUpgrade_OnHit"
+                        "Play_sfx_SonaSkin06Genre01_SonaWAttackUpgrade_OnMissileLaunch"
+                        "Play_sfx_SonaSkin06Genre01_SonaWMissile_OnHit"
+                        "Play_sfx_SonaSkin06Genre01_SonaWMissile_OnMissileLaunch"
+                        "Play_sfx_SonaSkin06Genre01_SonaWShield_buffactivate"
+                        "Play_sfx_SonaSkin06Genre01_SonaWZone_OnBuffActivate"
+                        "Stop_sfx_SonaSkin06Genre01_Recall_leadin"
+                        "Stop_sfx_SonaSkin06Genre01_Recall_leadout"
+                        "Stop_sfx_SonaSkin06Genre01_SonaBasicAttack2_OnMissileLaunch"
+                        "Stop_sfx_SonaSkin06Genre01_SonaBasicAttack_OnMissileLaunch"
+                        "Stop_sfx_SonaSkin06Genre01_SonaCritAttack_OnMissileLaunch"
+                        "Stop_sfx_SonaSkin06Genre01_SonaE_OnCast"
+                        "Stop_sfx_SonaSkin06Genre01_SonaEAttack_OnMissileLaunch"
+                        "Stop_sfx_SonaSkin06Genre01_SonaEAttackUpgrade_OnMissileLaunch"
+                        "Stop_sfx_SonaSkin06Genre01_SonaEHaste_buffactivate"
+                        "Stop_sfx_SonaSkin06Genre01_SonaPowerChordMissile_OnMissileLaunch"
+                        "Stop_sfx_SonaSkin06Genre01_SonaQAttackUpgrade_OnMissileLaunch"
+                        "Stop_sfx_SonaSkin06Genre01_SonaQMissile_OnMissileLaunch"
+                        "Stop_sfx_SonaSkin06Genre01_SonaQProc_missilelaunch"
+                        "Stop_sfx_SonaSkin06Genre01_SonaQProcAttacker_buffactivate"
+                        "Stop_sfx_SonaSkin06Genre01_SonaQZone_OnBuffActivate"
+                        "Stop_sfx_SonaSkin06Genre01_SonaR_OnBuffActivate"
+                        "Stop_sfx_SonaSkin06Genre01_SonaR_OnMissileLaunch"
+                        "Stop_sfx_SonaSkin06Genre01_SonaWAttackUpgrade_OnMissileLaunch"
+                        "Stop_sfx_SonaSkin06Genre01_SonaWMissile_OnMissileLaunch"
+                        "Stop_sfx_SonaSkin06Genre01_SonaWShield_buffactivate"
+                        "Stop_sfx_SonaSkin06Genre01_SonaWZone_OnBuffActivate"
+                    }
+                    0xa8a558ff: bool = true
+                }
             }
         }
         0x426d89a3: embed = 0x426d89a3 {
-            0xf5fb07c7: link = 0xfbb2dfd7
+            0xf5fb07c7: link = 0xa0d682a3
         }
         0x8bb2d7a4: list[string] = {
             "ASSETS/Characters/Sona/HUD/Icons2D/Sona_E_Gold.dds"

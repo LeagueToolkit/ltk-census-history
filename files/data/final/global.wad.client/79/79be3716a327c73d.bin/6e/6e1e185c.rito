@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6e1e185c = 0xb6f03cdd {
+        0x36f7ed41: u32 = 5009
+        0x4e437187: string = "AdaptiveScaling"
+        0x57be823b: string = "ASSETS/Perks/StatMods/StatModsAdaptiveForceScalingIcon.dds"
+        0x49da00a9: bool = false
+        0x452d5fcb: pointer = 0x1ddec1f2 {
+            0x2c13bd72: string = "ASSETS/Perks/StatMods/StatModAdaptiveScaling.lua"
+            0xa51be889: embed = 0xa4e7a4a2 {
+                0x251a5225: map[hash,f32] = {
+                    0x86600d85 = 3
+                    0x92602069 = 1.8
+                    0x3b68cb47 = 22
+                    0x2768abcb = 12
+                }
+            }
+        }
+    }
+}

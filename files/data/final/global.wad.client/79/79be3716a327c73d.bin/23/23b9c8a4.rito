@@ -6,56 +6,34 @@ entries: map[hash,embed] = {
     0x23b9c8a4 = 0xb6f03cdd {
         0x36f7ed41: u32 = 8128
         0x4e437187: string = "DarkHarvest"
+        0xc0d42723: string = "8.23"
         0x2da3f8bf: string = "perk_displayname_DarkHarvest"
         0x3a433020: string = "perk_tooltip_DarkHarvest"
         0x5f2170e9: string = "perk_short_desc_DarkHarvest"
         0xa1ed05f5: string = "perk_long_desc_DarkHarvest"
         0xf5172483: list[string] = {
             "perk_eog_stat_desc_DarkHarvest1"
+            "perk_eog_stat_desc_DarkHarvest2"
         }
-        0xcf491eb4: string = "perk_display_stat_total"
+        0xcf491eb4: string = "perk_display_stat_DarkHarvest"
         0x57be823b: string = "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.dds"
         0x452d5fcb: pointer = 0x1ddec1f2 {
             0x2c13bd72: string = "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.lua"
             0xa51be889: embed = 0xa4e7a4a2 {
                 0x251a5225: map[hash,f32] = {
-                    0x71cd619c = 20
-                    0x5fb9bd8e = 60
+                    0xe212f8bd = 0.5
+                    0x85d8a7e8 = 45
+                    0x68ed6c75 = 50
+                    0x46e315e9 = 80
                     0x382d671b = 0.25
                     0xe30c799f = 0.15
-                    0x5b85ccd8 = 20
-                    0x42e75fa7 = 1
-                    0xaaefa2f1 = 6
-                    0x6b2e2a48 = 2
-                    0xf2c99862 = 4
-                    0xf887d9b2 = 12
-                    0xc73da1db = 150
-                    0xedeb4f26 = 300
-                    0x2153dab3 = -2
-                    0x0695428a = -2
-                }
-                0x90b03cc0: map[hash,embed] = {
-                    0x757179c8 = 0xb12485e0 {
-                        0x98be1607: map[hash,f32] = {
-                            0xaaefa2f1 = 4
-                            0xf2c99862 = 2
-                        }
-                    }
+                    0x12493b62 = 8
+                    0x074cc3cc = 1.5
+                    0xbbae84bb = 4
                 }
             }
         }
         0x0f2abdbe: list[pointer] = {
-            0x3d7822a4 {
-                0x6eac7015: string = "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvestSoulcharged.lua"
-                0xca93d232: embed = 0x5e7e5a06 {
-                    0x7f0f5a79: pointer = 0x4633d794 {
-                        0xf1f20d72: string = "buff_desc_8128ONH"
-                    }
-                }
-                0x280c558b: list[string] = {
-                    ""
-                }
-            }
             0x3d7822a4 {
                 0x6eac7015: string = "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest.lua"
                 0xca93d232: embed = 0x5e7e5a06 {
@@ -64,15 +42,19 @@ entries: map[hash,embed] = {
                     }
                 }
             }
+            0x3d7822a4 {
+                0x6eac7015: string = "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvestCooldown.lua"
+                0xca93d232: embed = 0x5e7e5a06 {
+                    0x7f0f5a79: pointer = 0x4633d794 {
+                        0xf1f20d72: string = "buff_desc_DarkHarvestCooldown"
+                    }
+                }
+                0x280c558b: list[string] = {
+                    "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvest_Grey.dds"
+                }
+            }
         }
         0x8e5b9dba: list[string] = {
-            "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvestHaste.lua"
-            "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvestSoulcharged.lua"
-            "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvestSoulManager.lua"
-            "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvestAreaTriggerChampion.lua"
-            "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvestAreaTriggerNonChampion.lua"
-            "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvestAreaTriggerDeadChampions.lua"
-            "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvestDeadChampionMarker.lua"
             "ASSETS/Perks/Styles/Domination/DarkHarvest/DarkHarvestHasSoulMarker.lua"
         }
         0x5f8284a2: pointer = 0xef3a0f33 {
