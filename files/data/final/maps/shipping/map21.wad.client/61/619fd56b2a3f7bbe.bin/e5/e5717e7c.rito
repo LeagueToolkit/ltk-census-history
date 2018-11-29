@@ -1,0 +1,35 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe5717e7c = 0xff9d3409 {
+        0x8d39bde6: string = "Maps/KitPieces/Project/Models/Gameplay/PRJ_Vent_01/Materials/Env_RedPulse_inst"
+        0x5127f14d: u32 = 0
+        0x28da4278: string = "normal"
+        0xd0ab46b8: list[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "Color_01"
+                0x425ed3ca: vec4 = { 0.56078434, 0.11372549, 0.12156863, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Color_02"
+                0x425ed3ca: vec4 = { 0.29411766, 0.15294118, 0.15294118, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Bloom_Mult"
+                0x425ed3ca: vec4 = { 2, 0, 0, 0 }
+            }
+        }
+        0x844f384e: list[embed] = {
+            0x060a4413 {
+                0x8d39bde6: string = "normal"
+                0x623cd25c: list[embed] = {
+                    0x8537d0c2 {
+                        0x355d5568: link = 0x9a6fd6de
+                    }
+                }
+            }
+        }
+    }
+}

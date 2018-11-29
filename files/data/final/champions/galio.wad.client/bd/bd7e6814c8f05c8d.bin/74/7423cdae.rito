@@ -11,16 +11,16 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BaseDamage"
                     0x246b0d8e: list[f32] = {
-                        20
-                        50
-                        80
+                        30
+                        70
                         110
-                        140
-                        170
-                        200
+                        150
+                        190
+                        230
+                        270
                     }
-                    0x6d3ccfd7: f32 = 20
-                    0xe7b832f2: string = "P + 30"
+                    0x6d3ccfd7: f32 = 30
+                    0xe7b832f2: string = "P + 40"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "SuperQDuration"
@@ -50,18 +50,18 @@ entries: map[hash,embed] = {
                     0xe7b832f2: string = "P + 0"
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "SuperQBaseDamage"
+                    0x19efbfdb: string = "SuperQBasePercentage"
                     0x246b0d8e: list[f32] = {
-                        7
-                        10
-                        13
-                        16
-                        19
-                        22
-                        25
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
                     }
-                    0x6d3ccfd7: f32 = 7
-                    0xe7b832f2: string = "P + 3"
+                    0x6d3ccfd7: f32 = 2
+                    0xe7b832f2: string = "P"
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -71,32 +71,18 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0x03da00f9
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.8
-                        }
-                    }
-                }
-                0x6cc696b3 = 0xb5adf3b2 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0xd173320f
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.2
+                            0x295c2889: f32 = 0.9
                         }
                     }
                 }
                 0x85f4c0e9 = 0xb5adf3b2 {
                     0x50f145c0: list[pointer] = {
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 1e-04
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x79be7972
                         }
-                    }
-                    0x5a2297d3: bool = true
-                }
-                0xe4dc8e23 = 0x1c0f2a79 {
-                    0xb52623c8: hash = 0x6cc696b3
-                    0x2c77adff: pointer = 0x9ef92080 {
-                        0xe202bca9: f32 = 3
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.0133
+                        }
                     }
                 }
                 0x906817a9 = 0x1c0f2a79 {
@@ -167,11 +153,11 @@ entries: map[hash,embed] = {
             }
             0xd997830a: list[f32] = {
                 70
+                75
+                80
                 85
-                100
-                115
-                130
-                130
+                90
+                110
             }
             0x8f73dfe7: u8 = 6
             0x048557ff: embed = 0x7dd1a902 {
@@ -192,11 +178,6 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_GalioQ_WindblastDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "SuperQBaseDamage"
-                                    0xf506c7e6: f32 = 3
-                                    0x566f3406: string = "Spell_GalioQ_TornadoDamage"
-                                }
-                                0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"
                                 }
                                 0x9a1b3505 {
@@ -214,12 +195,12 @@ entries: map[hash,embed] = {
                         0x70f58633: bool = true
                         0x6abab6c7: embed = 0x1e4b4a7c {
                             0xfc8585d5: list[f32] = {
-                                825
-                                825
-                                825
-                                825
-                                825
-                                825
+                                850
+                                850
+                                850
+                                850
+                                850
+                                850
                             }
                             0x8f99bbe1: u32 = 1
                         }

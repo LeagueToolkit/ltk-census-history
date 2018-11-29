@@ -15,42 +15,52 @@ entries: map[hash,embed] = {
             }
             0x9a5a3a84: string = "game_spell_tooltip_JhinR"
             0x2ea2820c: string = "game_spell_levelup_JhinR"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        50
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "Damage"
+                    0x246b0d8e: list[f32] = {
+                        -25
                         50
                         125
                         200
-                        0
-                        0
-                        0
+                        275
+                        350
+                        425
                     }
+                    0x6d3ccfd7: f32 = -25
+                    0xe7b832f2: string = "P + 75"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        200
-                        200
-                        200
-                        200
-                        200
-                        200
-                        200
+                0x005008a6 {
+                    0x19efbfdb: string = "FourthShotMultiplier"
+                    0x246b0d8e: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
                     }
+                    0x6d3ccfd7: f32 = 2
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        80
-                        80
-                        80
-                        80
-                        80
-                        80
-                        80
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowPercent"
+                    0x246b0d8e: list[f32] = {
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
                     }
+                    0x6d3ccfd7: f32 = 0.8
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowDuration"
+                    0x246b0d8e: list[f32] = {
                         0.5
                         0.5
                         0.5
@@ -59,9 +69,12 @@ entries: map[hash,embed] = {
                         0.5
                         0.5
                     }
+                    0x6d3ccfd7: f32 = 0.5
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "PercentMissingAmp"
+                    0x246b0d8e: list[f32] = {
                         2.5
                         2.5
                         2.5
@@ -70,9 +83,12 @@ entries: map[hash,embed] = {
                         2.5
                         2.5
                     }
+                    0x6d3ccfd7: f32 = 2.5
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "MInimumDelayBetweenShots"
+                    0x246b0d8e: list[f32] = {
                         1
                         1
                         1
@@ -81,13 +97,36 @@ entries: map[hash,embed] = {
                         1
                         1
                     }
+                    0x6d3ccfd7: f32 = 1
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
             }
-            0x295c2889: f32 = 0.2
+            0x94572284: map[hash,pointer] = {
+                0xc9e3357d = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x59e94c40
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.2
+                            0x4cec2c8a: u8 = 2
+                        }
+                    }
+                }
+                0xed7a2ac0 = 0x1c0f2a79 {
+                    0xb52623c8: hash = 0xc9e3357d
+                    0x2c77adff: pointer = 0x84a63373 {
+                        0xa066cc28: list[pointer] = {
+                            0x9ef92080 {
+                                0xe202bca9: f32 = 1
+                            }
+                            0x332eb441 {
+                                0xb386dcf1: hash = 0xc4f99250
+                            }
+                        }
+                    }
+                }
+            }
             0xfbd16fb5: string = "Spell4"
             0x0dd57127: string = "Spell4_idle"
             0xeed67cd5: list[string] = {
@@ -182,7 +221,7 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "FourthShotMultiplier"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }

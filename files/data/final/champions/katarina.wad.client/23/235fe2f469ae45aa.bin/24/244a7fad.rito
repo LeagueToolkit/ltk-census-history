@@ -15,20 +15,24 @@ entries: map[hash,embed] = {
             }
             0x9a5a3a84: string = "game_spell_tooltip_KatarinaR"
             0x2ea2820c: string = "game_spell_levelup_KatarinaR"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "DamagePerTick"
+                    0x246b0d8e: list[f32] = {
+                        12.5
                         25
                         37.5
                         50
-                        0
-                        0
-                        0
+                        62.5
+                        75
+                        87.5
                     }
+                    0x6d3ccfd7: f32 = 12.5
+                    0xe7b832f2: string = "P+12.5"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "TicksPerSecond"
+                    0x246b0d8e: list[f32] = {
                         6
                         6
                         6
@@ -37,9 +41,12 @@ entries: map[hash,embed] = {
                         6
                         6
                     }
+                    0x6d3ccfd7: f32 = 6
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "Duration"
+                    0x246b0d8e: list[f32] = {
                         2.5
                         2.5
                         2.5
@@ -48,9 +55,12 @@ entries: map[hash,embed] = {
                         2.5
                         2.5
                     }
+                    0x6d3ccfd7: f32 = 2.5
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "GrievousWoundsDuration"
+                    0x246b0d8e: list[f32] = {
                         3
                         3
                         3
@@ -59,16 +69,38 @@ entries: map[hash,embed] = {
                         3
                         3
                     }
+                    0x6d3ccfd7: f32 = 3
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
             }
-            0x295c2889: f32 = 0.19
-            0xd7141e61: f32 = 0.22
+            0x94572284: map[hash,pointer] = {
+                0xc9e3357d = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xbbd98b36
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.19
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.22
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                        }
+                    }
+                }
+                0x0cdbcb75 = 0x1c0f2a79 {
+                    0xb52623c8: hash = 0xc9e3357d
+                    0x2c77adff: pointer = 0xad106e67 {
+                        0x46144074: pointer = 0x332eb441 {
+                            0xb386dcf1: hash = 0x6df27940
+                        }
+                        0x4914452d: pointer = 0x332eb441 {
+                            0xb386dcf1: hash = 0x2fa0fd0d
+                        }
+                    }
+                }
+            }
             0xfbd16fb5: string = ""
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_R.dds"
@@ -142,7 +174,7 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "DamagePerTick"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_KatarinaRDamagePerKnife"
                                 }

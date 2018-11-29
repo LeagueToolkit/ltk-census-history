@@ -92,6 +92,101 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
             }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "Rockets"
+                    0x246b0d8e: list[f32] = {
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                    }
+                    0x6d3ccfd7: f32 = 5
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        30
+                        60
+                        90
+                        120
+                        150
+                        180
+                        210
+                    }
+                    0x6d3ccfd7: f32 = 30
+                    0xe7b832f2: string = "P + 30"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ExtraHitBaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        6
+                        12
+                        18
+                        24
+                        30
+                        36
+                        42
+                    }
+                    0x6d3ccfd7: f32 = 6
+                    0xe7b832f2: string = "P + 6"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TotalBaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        54
+                        108
+                        162
+                        216
+                        270
+                        324
+                        378
+                    }
+                    0x6d3ccfd7: f32 = 54
+                    0xe7b832f2: string = "P + 30 + (6 * 4)"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x59e94c40 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.45
+                        }
+                    }
+                }
+                0xa2759ddb = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xd23baac2
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.12
+                        }
+                    }
+                }
+                0x1ddee768 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x1319f201
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.93
+                        }
+                    }
+                }
+                0x14cc02b2 = 0x1c0f2a79 {
+                    0xb52623c8: hash = 0xa2759ddb
+                    0x2c77adff: pointer = 0x9ef92080 {
+                        0xe202bca9: f32 = 3
+                    }
+                }
+            }
             0x295c2889: f32 = 0.45
             0xd7141e61: f32 = 0.12
             0xfbd16fb5: string = "Spell2"
@@ -172,6 +267,32 @@ entries: map[hash,embed] = {
             }
             0x8f73dfe7: u8 = 2
             0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "NightmareBotHeimerdingerW"
+                    0x57b8b11b: link = 0x122a9d2c
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_HeimerdingerW_Name"
+                        "keyTooltip" = "Spell_HeimerdingerW_Tooltip"
+                        "keySummary" = "Spell_HeimerdingerW_Summary"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 5
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseDamage"
+                                    0x566f3406: string = "Spell_ListType_Damage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cost"
+                                }
+                            }
+                        }
+                    }
+                }
                 0x263ba968: list[pointer] = {
                     0x3402fe40 {
                         0xc85cceeb: embed = 0xcdb319f6 {

@@ -1,0 +1,46 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xca82b457 = 0xff9d3409 {
+        0x8d39bde6: string = "Maps/KitPieces/Project/Models/Props/prj_ground_modular_06/Materials/prj_ground_modular_06_diffuse_inst"
+        0x5127f14d: u32 = 0
+        0x28da4278: string = "normal"
+        0x0a6f0eb5: list[embed] = {
+            0x0904b150 {
+                0x02e7fb4c: string = "DiffuseTexture"
+                0xb311d4ef: string = "ASSETS/Maps/KitPieces/Project/textures/prj_ground_modular_02_diffuse.dds"
+            }
+            0x0904b150 {
+                0x02e7fb4c: string = "Material"
+                0xb311d4ef: string = "ASSETS/Maps/KitPieces/Project/textures/prj_ground_modular_02_specgloss.dds"
+            }
+        }
+        0xd0ab46b8: list[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "Gloss"
+                0x425ed3ca: vec4 = { 0.5, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "SpecularColor_Multiplier"
+                0x425ed3ca: vec4 = { 0.25, 0, 0, 0 }
+            }
+        }
+        0xdd7ddb9d: list[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_TEXTURE"
+            }
+        }
+        0x844f384e: list[embed] = {
+            0x060a4413 {
+                0x8d39bde6: string = "normal"
+                0x623cd25c: list[embed] = {
+                    0x8537d0c2 {
+                        0x355d5568: link = 0x2af09534
+                    }
+                }
+            }
+        }
+    }
+}

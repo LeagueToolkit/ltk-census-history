@@ -103,6 +103,112 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
             }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxDamage"
+                    0x246b0d8e: list[f32] = {
+                        71.875
+                        112.5
+                        153.125
+                        193.75
+                        234.375
+                        275
+                        315.625
+                    }
+                    0x6d3ccfd7: f32 = 71.875
+                    0xe7b832f2: string = "P + 40.625"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxDamageNL"
+                    0x246b0d8e: list[f32] = {
+                        112.5
+                        153.125
+                        193.75
+                        234.375
+                        275
+                        315.625
+                        356.25
+                    }
+                    0x6d3ccfd7: f32 = 112.5
+                    0xe7b832f2: string = "P + 40.625"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxDamageEvolved"
+                    0x246b0d8e: list[f32] = {
+                        106.375
+                        166.5
+                        226.625
+                        286.75
+                        346.875
+                        407
+                        467.125
+                    }
+                    0x6d3ccfd7: f32 = 106.375
+                    0xe7b832f2: string = "P + 60.125"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxDamageEvolvedNL"
+                    0x246b0d8e: list[f32] = {
+                        166.5
+                        226.625
+                        286.75
+                        346.875
+                        407
+                        467.125
+                        527.25
+                    }
+                    0x6d3ccfd7: f32 = 166.5
+                    0xe7b832f2: string = "P + 60.125"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x07be1036 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x47d0e794
+                        }
+                    }
+                }
+                0x4d6f34ec = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x4330cdc6
+                        }
+                    }
+                }
+                0xb2bd0d2f = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x34e55017
+                        }
+                    }
+                }
+                0x145d4a2d = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x2d590e35
+                        }
+                    }
+                }
+                0xac4e12fa = 0xeabdd4ca {
+                    0x5d6eb9c2: hash = 0x07be1036
+                    0xddec9acf: hash = 0xb2bd0d2f
+                    0xc0482365: pointer = 0x5b1f9358 {
+                        0x02490112: hash = 0x89ae79fa
+                    }
+                    0xcbcac618: u8 = 3
+                    0x37070a8d: u8 = 3
+                }
+                0x92077cb0 = 0xeabdd4ca {
+                    0x5d6eb9c2: hash = 0x4d6f34ec
+                    0xddec9acf: hash = 0x145d4a2d
+                    0xc0482365: pointer = 0x5b1f9358 {
+                        0x02490112: hash = 0x89ae79fa
+                    }
+                    0xcbcac618: u8 = 3
+                    0x37070a8d: u8 = 3
+                }
+            }
             0x295c2889: f32 = 0.35
             0xd7141e61: f32 = 0.4
             0xfbd16fb5: string = "Spell3"
@@ -193,6 +299,34 @@ entries: map[hash,embed] = {
             }
             0x8f73dfe7: u8 = 0
             0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "KaisaQ"
+                    0x57b8b11b: link = 0x122a9d2c
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_KaisaQ_Name"
+                        "keySummary" = "Spell_KaisaQ_Summary"
+                        "keyTooltip" = "Spell_KaisaQ_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 5
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x33c02d93: i32 = 1
+                                    0x566f3406: string = "Spell_ListType_KaisaDamagePerMissile"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "MaxDamage"
+                                    0x566f3406: string = "Spell_AkaliR_MaxDamage"
+                                }
+                            }
+                        }
+                    }
+                }
                 0x263ba968: list[pointer] = {
                     0x047acadf {}
                 }

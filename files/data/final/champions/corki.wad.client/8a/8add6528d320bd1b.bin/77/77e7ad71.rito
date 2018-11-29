@@ -16,87 +16,52 @@ entries: map[hash,embed] = {
             }
             0x9a5a3a84: string = "game_spell_tooltip_MissileBarrage"
             0x2ea2820c: string = "game_spell_levelup_MissileBarrage"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        75
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "RBaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        50
                         75
                         100
                         125
-                        0
-                        0
-                        0
+                        150
+                        175
+                        200
                     }
+                    0x6d3ccfd7: f32 = 50
+                    0xe7b832f2: string = "P + 25"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        15
-                        15
-                        45
-                        75
-                        0
-                        0
-                        0
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        300
-                        300
-                        300
-                        300
-                        300
-                        300
-                        300
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        2
-                        2
-                        2
-                        2
-                        0
-                        0
-                        0
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.15
+                0x005008a6 {
+                    0x19efbfdb: string = "RADRatio"
+                    0x246b0d8e: list[f32] = {
+                        -0.15
                         0.15
                         0.45
                         0.75
-                        0
-                        0
-                        0
+                        1.05
+                        1.35
+                        1.65
                     }
+                    0x6d3ccfd7: f32 = -0.15
+                    0xe7b832f2: string = "P + 0.3"
                 }
-                0x92d4987c {}
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        50
-                        50
-                        50
-                        50
-                        50
-                        50
-                        50
+                0x005008a6 {
+                    0x19efbfdb: string = "RAPRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
                     }
+                    0x6d3ccfd7: f32 = 0.2
+                    0xe7b832f2: string = "P + 0"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        200
-                        200
-                        200
-                        200
-                        200
-                        200
-                        200
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "RBaseMissileRadius"
+                    0x246b0d8e: list[f32] = {
                         200
                         200
                         200
@@ -105,8 +70,59 @@ entries: map[hash,embed] = {
                         200
                         200
                     }
+                    0x6d3ccfd7: f32 = 200
+                    0xe7b832f2: string = "P + 0"
                 }
-                0x92d4987c {}
+                0x005008a6 {
+                    0x19efbfdb: string = "RBigOneMissileRadius"
+                    0x246b0d8e: list[f32] = {
+                        300
+                        300
+                        300
+                        300
+                        300
+                        300
+                        300
+                    }
+                    0x6d3ccfd7: f32 = 300
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "RBigOneMultiplier"
+                    0x246b0d8e: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                    0x6d3ccfd7: f32 = 2
+                    0xe7b832f2: string = "P + 0"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0xb67ef955 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x1be488a9
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x4cd5d2cb
+                            0x4cec2c8a: u8 = 2
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x51ed68ef
+                        }
+                    }
+                }
+                0x36504eb6 = 0x1c0f2a79 {
+                    0xb52623c8: hash = 0xb67ef955
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0x2c212338
+                    }
+                    0xcbcac618: u8 = 3
+                }
             }
             0x295c2889: f32 = 0.2
             0xd7141e61: f32 = 0.2
@@ -220,13 +236,14 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "RBaseDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "RADRatio"
                                     0x33c02d93: i32 = 2
+                                    0xf506c7e6: f32 = 100
                                     0x566f3406: string = "SpellListType_AttackDamageRatio"
                                     0xac307ed6: u32 = 1
                                 }
