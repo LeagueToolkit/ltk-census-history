@@ -10,44 +10,29 @@ entries: map[hash,embed] = {
             0xecf3f88d: u32 = 8193
             0x74d44065: string = "game_spell_displayname_SivirW"
             0xf1f20d72: string = "game_spell_description_SivirW"
+            0x3e1edbdb: list[string] = {
+                "Trait_AttackReset"
+            }
             0x9a5a3a84: string = "game_spell_tooltip_SivirW"
             0x2ea2820c: string = "game_spell_levelup_SivirW"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        4
-                        5
-                        6
-                        7
-                        8
-                        9
-                        10
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
-                        10
-                        20
-                        30
-                        40
-                        50
-                        60
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.45
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BounceADRatio"
+                    0x246b0d8e: list[f32] = {
                         0.5
                         0.55
                         0.6
                         0.65
                         0.7
                         0.75
+                        0.8
                     }
+                    0x6d3ccfd7: f32 = 0.5
+                    0xe7b832f2: string = "P + .05"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BounceAttacks"
+                    0x246b0d8e: list[f32] = {
                         3
                         3
                         3
@@ -56,32 +41,11 @@ entries: map[hash,embed] = {
                         3
                         3
                     }
+                    0x6d3ccfd7: f32 = 3
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        50
-                        60
-                        70
-                        80
-                        90
-                        100
-                        110
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                    }
-                }
-                0x92d4987c {}
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BuffDuration"
+                    0x246b0d8e: list[f32] = {
                         4.75
                         4.5
                         4.25
@@ -90,9 +54,27 @@ entries: map[hash,embed] = {
                         3.5
                         3.25
                     }
+                    0x6d3ccfd7: f32 = 4.75
+                    0xe7b832f2: string = "P -.25"
                 }
-                0x92d4987c {}
-                0x92d4987c {}
+            }
+            0x94572284: map[hash,pointer] = {
+                0xdb634ca8 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x30fca063
+                            0x4cec2c8a: u8 = 2
+                        }
+                    }
+                }
+                0x702d7185 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 1
+                            0x4cec2c8a: u8 = 2
+                        }
+                    }
+                }
             }
             0x295c2889: f32 = 1
             0xeed67cd5: list[string] = {
@@ -173,7 +155,7 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "Cooldown"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BounceADRatio"
                                     0x33c02d93: i32 = 3
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_SivirBounceDamage(totalattackdamage)"

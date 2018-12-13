@@ -13,53 +13,10 @@ entries: map[hash,embed] = {
             0xf1f20d72: string = "game_spell_description_JayceStaticField"
             0x9a5a3a84: string = "game_spell_tooltip_JayceStaticField"
             0x2ea2820c: string = "game_spell_levelup_JayceStaticField"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        15
-                        25
-                        35
-                        45
-                        55
-                        65
-                        75
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        20
-                        25
-                        30
-                        35
-                        40
-                        45
-                        50
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        40
-                        100
-                        160
-                        220
-                        280
-                        340
-                        400
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "ManaGain"
+                    0x246b0d8e: list[f32] = {
                         4
                         6
                         8
@@ -68,12 +25,49 @@ entries: map[hash,embed] = {
                         14
                         16
                     }
+                    0x6d3ccfd7: f32 = 4
+                    0xe7b832f2: string = "P + 2"
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        40
+                        100
+                        160
+                        220
+                        280
+                        340
+                        400
+                    }
+                    0x6d3ccfd7: f32 = 40
+                    0xe7b832f2: string = "P+60"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "Duration"
+                    0x246b0d8e: list[f32] = {
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                    }
+                    0x6d3ccfd7: f32 = 4
+                    0xe7b832f2: string = "P + 0"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x59e94c40 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 1
+                        }
+                    }
+                }
             }
             0x295c2889: f32 = 1
             0xfbd16fb5: string = "Spell2"
@@ -148,12 +142,12 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 6
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 4
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "ManaGain"
                                     0x33c02d93: i32 = 5
                                     0x566f3406: string = "Spell_ListType_ManaReturn"
                                 }

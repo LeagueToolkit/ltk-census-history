@@ -16,10 +16,11 @@ entries: map[hash,embed] = {
             }
             0x9a5a3a84: string = "game_spell_tooltip_JayceToTheSkies"
             0x2ea2820c: string = "game_spell_levelup_JayceToTheSkies"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        10
                         45
                         80
                         115
@@ -27,42 +28,26 @@ entries: map[hash,embed] = {
                         185
                         220
                     }
+                    0x6d3ccfd7: f32 = 10
+                    0xe7b832f2: string = "P + 35"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        2
+                0x005008a6 {
+                    0x19efbfdb: string = "Slow"
+                    0x246b0d8e: list[f32] = {
+                        -0.25
+                        -0.3
+                        -0.35
+                        -0.4
+                        -0.45
+                        -0.5
+                        -0.55
                     }
+                    0x6d3ccfd7: f32 = -0.25
+                    0xe7b832f2: string = "P -.05"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        25
-                        30
-                        35
-                        40
-                        45
-                        50
-                        55
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
-                        20
-                        40
-                        60
-                        80
-                        0
-                        0
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowDuration"
+                    0x246b0d8e: list[f32] = {
                         2
                         2
                         2
@@ -71,12 +56,23 @@ entries: map[hash,embed] = {
                         2
                         2
                     }
+                    0x6d3ccfd7: f32 = 2
+                    0xe7b832f2: string = "P + 0"
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
+            }
+            0x94572284: map[hash,pointer] = {
+                0x59e94c40 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 1.2
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                        }
+                    }
+                }
             }
             0x295c2889: f32 = 1.2
             0xfbd16fb5: string = "Spell1"
@@ -178,7 +174,7 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 6
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
@@ -186,8 +182,9 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "Cooldown"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "Slow"
                                     0x33c02d93: i32 = 3
+                                    0xf506c7e6: f32 = -100
                                     0x566f3406: string = "Spell_ListType_Slow"
                                     0xac307ed6: u32 = 1
                                 }

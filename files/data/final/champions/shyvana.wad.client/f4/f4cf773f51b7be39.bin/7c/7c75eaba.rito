@@ -13,23 +13,28 @@ entries: map[hash,embed] = {
             0xf1f20d72: string = "game_spell_description_ShyvanaDoubleAttack"
             0x3e1edbdb: list[string] = {
                 "PositiveEffect_EmpowerAttack"
+                "Trait_AttackReset"
             }
             0x9a5a3a84: string = "game_spell_tooltip_ShyvanaDoubleAttack"
             0x2ea2820c: string = "game_spell_levelup_ShyvanaDoubleAttack"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        20
-                        20
-                        35
-                        50
-                        65
-                        80
-                        80
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "SecondHitDamage"
+                    0x246b0d8e: list[f32] = {
+                        0.05
+                        0.2
+                        0.35
+                        0.5
+                        0.65
+                        0.8
+                        0.95
                     }
+                    0x6d3ccfd7: f32 = 0.05
+                    0xe7b832f2: string = "P + 0.15"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "CleaveRadius"
+                    0x246b0d8e: list[f32] = {
                         250
                         250
                         250
@@ -38,9 +43,12 @@ entries: map[hash,embed] = {
                         250
                         250
                     }
+                    0x6d3ccfd7: f32 = 250
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "CDReductionOnHit"
+                    0x246b0d8e: list[f32] = {
                         0.5
                         0.5
                         0.5
@@ -49,16 +57,26 @@ entries: map[hash,embed] = {
                         0.5
                         0.5
                     }
+                    0x6d3ccfd7: f32 = 0.5
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
             }
-            0x295c2889: f32 = 1
+            0x94572284: map[hash,pointer] = {
+                0x87c8611a = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 1
+                            0x4cec2c8a: u8 = 2
+                        }
+                    }
+                }
+                0x7da51eae = 0x1c0f2a79 {
+                    0xb52623c8: hash = 0x87c8611a
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0xb285eb3f
+                    }
+                }
+            }
             0xfbd16fb5: string = "Spell3"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Shyvana/HUD/Icons2D/ShyvanaTwinBite.dds"
@@ -137,8 +155,9 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "SecondHitDamage"
                                     0x33c02d93: i32 = 1
+                                    0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_BonusDamage"
                                     0xac307ed6: u32 = 1
                                 }

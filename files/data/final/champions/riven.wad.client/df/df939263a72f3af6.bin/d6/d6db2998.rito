@@ -77,6 +77,98 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
             }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "MinBase"
+                    0x246b0d8e: list[f32] = {
+                        50
+                        100
+                        150
+                        200
+                        250
+                        300
+                        350
+                    }
+                    0x6d3ccfd7: f32 = 50
+                    0xe7b832f2: string = "P + 50"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxBase"
+                    0x246b0d8e: list[f32] = {
+                        150
+                        300
+                        450
+                        600
+                        750
+                        900
+                        1050
+                    }
+                    0x6d3ccfd7: f32 = 150
+                    0xe7b832f2: string = "P + 150"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "Duration"
+                    0x246b0d8e: list[f32] = {
+                        15
+                        15
+                        15
+                        15
+                        15
+                        15
+                        15
+                    }
+                    0x6d3ccfd7: f32 = 15
+                    0xe7b832f2: string = "P + 0"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "PercentBonusAD"
+                    0x246b0d8e: list[f32] = {
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                    }
+                    0x6d3ccfd7: f32 = 0.2
+                    0xe7b832f2: string = "P + 0"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0xfe544f96 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x6250353a
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.6
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                        }
+                    }
+                }
+                0x47d0e794 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x83bfb144
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 1.8
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                        }
+                    }
+                }
+                0xe09cc241 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xc2026c00
+                            0x4cec2c8a: u8 = 2
+                        }
+                    }
+                }
+            }
             0x295c2889: f32 = 0.6
             0xd7141e61: f32 = 1.8
             0xfbd16fb5: string = "Spell4a"
@@ -163,7 +255,7 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "MaxBase"
                                     0x33c02d93: i32 = 2
                                     0x566f3406: string = "Spell_ListType_RivenShockwaveDamage"
                                 }

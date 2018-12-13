@@ -16,53 +16,51 @@ entries: map[hash,embed] = {
             }
             0x9a5a3a84: string = "game_spell_tooltip_CamilleR"
             0x2ea2820c: string = "game_spell_levelup_CamilleR"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        4
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "RPercentCurrentHPDamage"
+                    0x246b0d8e: list[f32] = {
+                        2
                         4
                         6
                         8
-                        150
-                        180
-                        0
+                        10
+                        12
+                        14
                     }
+                    0x6d3ccfd7: f32 = 2
+                    0xe7b832f2: string = "P + 2"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        5
+                0x005008a6 {
+                    0x19efbfdb: string = "ROnHitDamage"
+                    0x246b0d8e: list[f32] = {
+                        0
                         5
                         10
                         15
-                        5
-                        5
-                        5
+                        20
+                        25
+                        30
                     }
+                    0xe7b832f2: string = "P + 5"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        2.5
+                0x005008a6 {
+                    0x19efbfdb: string = "RDuration"
+                    0x246b0d8e: list[f32] = {
+                        1.75
                         2.5
                         3.25
                         4
-                        4
-                        4
-                        4
+                        4.75
+                        5.5
+                        6.25
                     }
+                    0x6d3ccfd7: f32 = 1.75
+                    0xe7b832f2: string = "P + 0.75"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        -0.9
-                        -0.9
-                        -0.9
-                        -0.9
-                        -0.9
-                        -0.9
-                        -0.9
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "RCircleRadius"
+                    0x246b0d8e: list[f32] = {
                         425
                         425
                         425
@@ -71,15 +69,10 @@ entries: map[hash,embed] = {
                         425
                         425
                     }
+                    0x6d3ccfd7: f32 = 425
+                    0xe7b832f2: string = "P + 0"
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
             }
-            0x295c2889: f32 = 1
-            0xd7141e61: f32 = 0.3
             0xfbd16fb5: string = "Spell4"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Camille/HUD/Icons2D/Camille_R.dds"
@@ -148,7 +141,7 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "RDuration"
                                     0x33c02d93: i32 = 3
                                     0x566f3406: string = "Spell_ListType_Duration"
                                 }
@@ -156,12 +149,12 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "Cooldown"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "ROnHitDamage"
                                     0x33c02d93: i32 = 2
                                     0x566f3406: string = "Spell_ListType_BonusDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "RPercentCurrentHPDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_CamilleCurrentHealthDamage"
                                     0xac307ed6: u32 = 1
