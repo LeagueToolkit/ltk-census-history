@@ -13,10 +13,11 @@ entries: map[hash,embed] = {
             0xf1f20d72: string = "game_spell_description_ZedE"
             0x9a5a3a84: string = "game_spell_tooltip_ZedE"
             0x2ea2820c: string = "game_spell_levelup_ZedE"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        40
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        45
                         70
                         95
                         120
@@ -24,9 +25,12 @@ entries: map[hash,embed] = {
                         170
                         195
                     }
+                    0x6d3ccfd7: f32 = 45
+                    0xe7b832f2: string = "P + 25"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "MoveSpeedMod"
+                    0x246b0d8e: list[f32] = {
                         -0.15
                         -0.2
                         -0.25
@@ -35,9 +39,12 @@ entries: map[hash,embed] = {
                         -0.4
                         -0.45
                     }
+                    0x6d3ccfd7: f32 = -0.15
+                    0xe7b832f2: string = "P - .05"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "MoveSpeedModBonus"
+                    0x246b0d8e: list[f32] = {
                         -0.225
                         -0.3
                         -0.375
@@ -46,20 +53,12 @@ entries: map[hash,embed] = {
                         -0.6
                         -0.675
                     }
+                    0x6d3ccfd7: f32 = -0.225
+                    0xe7b832f2: string = "P - 0.075"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowDuration"
+                    0x246b0d8e: list[f32] = {
                         1.5
                         1.5
                         1.5
@@ -68,9 +67,24 @@ entries: map[hash,embed] = {
                         1.5
                         1.5
                     }
+                    0x6d3ccfd7: f32 = 1.5
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "ShadowHitCDR"
+                    0x246b0d8e: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                    0x6d3ccfd7: f32 = 2
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ZedRadius"
+                    0x246b0d8e: list[f32] = {
                         315
                         315
                         315
@@ -79,9 +93,11 @@ entries: map[hash,embed] = {
                         315
                         315
                     }
+                    0x6d3ccfd7: f32 = 315
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "ShadowRadius"
+                    0x246b0d8e: list[f32] = {
                         290
                         290
                         290
@@ -90,12 +106,23 @@ entries: map[hash,embed] = {
                         290
                         290
                     }
+                    0x6d3ccfd7: f32 = 290
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
             }
-            0x295c2889: f32 = 0.8
+            0x94572284: map[hash,pointer] = {
+                0x1ddee768 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.8
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                        }
+                    }
+                }
+            }
             0xfbd16fb5: string = "Spell2"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Zed/HUD/Icons2D/shadowninja_E.dds"
@@ -176,7 +203,7 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }

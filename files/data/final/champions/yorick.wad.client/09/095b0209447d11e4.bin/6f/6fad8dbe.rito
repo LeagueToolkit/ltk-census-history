@@ -15,7 +15,7 @@ entries: map[hash,embed] = {
                 0x0f1ec3ac: u32 = 1
             }
             0x0904b150 {
-                0x02e7fb4c: string = "Bloom_Texture"
+                0x02e7fb4c: string = "Mask_Texture_red"
                 0xb311d4ef: string = "ASSETS/Characters/Yorick/Skins/Skin03/Yorick_Skin03_TX_CM_Glow.dds"
                 0x111ec6d2: u32 = 1
                 0x101ec53f: u32 = 1
@@ -26,6 +26,14 @@ entries: map[hash,embed] = {
             0xde480eef {
                 0x8d39bde6: string = "Bloom_Intensity"
                 0x425ed3ca: vec4 = { 0.5, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Bloom_Color"
+            }
+        }
+        0xdd7ddb9d: list[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_ALPHA"
             }
         }
         0xe6d67ded: map[string,string] = {

@@ -98,30 +98,11 @@ entries: map[hash,embed] = {
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "HealCoefficient"
-                    0x246b0d8e: list[f32] = {
-                        0.15
-                        0.2
-                        0.25
-                        0.3
-                        0.35
-                        0.4
-                        0.45
-                    }
-                    0x6d3ccfd7: f32 = 0.15
-                    0xe7b832f2: string = "P + 0.05"
+                    0xe7b832f2: string = "P + 0"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "HealBase"
-                    0x246b0d8e: list[f32] = {
-                        0
-                        5
-                        10
-                        15
-                        20
-                        25
-                        30
-                    }
-                    0xe7b832f2: string = "(P + 5)"
+                    0xe7b832f2: string = "P +0"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "tAD Ratio"
@@ -160,7 +141,7 @@ entries: map[hash,embed] = {
                         0.5
                         0.5
                     }
-                    0xe7b832f2: string = "0.5"
+                    0xe7b832f2: string = ".5"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "BonusDamageToMinions"
@@ -348,12 +329,6 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cost"
                                     0x566f3406: string = "Spell_ListType_Cost"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "HealCoefficient"
-                                    0xf506c7e6: f32 = 100
-                                    0x566f3406: string = "Spell_ListType_HealPercentOfDamageDealt"
-                                    0xac307ed6: u32 = 1
                                 }
                             }
                         }

@@ -7,6 +7,12 @@ entries: map[hash,embed] = {
         0x87225880: u32 = 1
         0xa977f4ae: i32 = 67013
         0x05040a43: u32 = 4
+        0x5d23843a: list[embed] = {
+            0x3c136fac {
+                0x2ed25c3a: u32 = 24
+                0x6f1dd68b: u32 = 3
+            }
+        }
         0x2d78c328: string = "VayneSkin13"
         0x4c73c8c6: u32 = 1
         0x939e7b29: string = "faction:demacia,gender:female,race:human"
@@ -23,7 +29,7 @@ entries: map[hash,embed] = {
                     0x2a21ad00: list[string] = {
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Vayne/Skins/Base/Vayne_Base_VO_audio.bnk"
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Vayne/Skins/Base/Vayne_Base_VO_events.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Vayne/Skins/Base/Vayne_Base_VO_events.wpk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Vayne/Skins/Base/Vayne_Base_VO_audio.wpk"
                     }
                     0x12d8e384: list[string] = {
                         "Play_vo_Vayne_AttackChampion2D"
@@ -113,8 +119,8 @@ entries: map[hash,embed] = {
             0x80b7f78f: string = "Vayne_Skin12_Coin_MAT"
             0xe9c98281: list[pointer] = {
                 0xce0b9a93 {
-                    0x66379ea0: i32 = 33
-                    0x3c4a4a75: i32 = 35
+                    0xc6a8e023: hash = 0x5a22f14e
+                    0x96dbc896: hash = 0x90b51841
                     0xfaf26cff: f32 = 2
                     0x3288d6d8: f32 = 0
                 }
@@ -136,6 +142,7 @@ entries: map[hash,embed] = {
             }
         }
         0x089aff69: string = "ASSETS/Characters/Vayne/HUD/Vayne_Circle_13.SKINS_Vayne_Skin13.dds"
+        0xd8f64a0d: link = 0xc44885cd
         0xe67284f4: option[string] = {
             "ASSETS/Characters/Vayne/HUD/Vayne_Circle.dds"
         }

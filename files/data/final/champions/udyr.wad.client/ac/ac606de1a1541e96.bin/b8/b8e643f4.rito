@@ -12,9 +12,10 @@ entries: map[hash,embed] = {
             0xf1f20d72: string = "game_spell_description_UdyrPhoenixStance"
             0x9a5a3a84: string = "game_spell_tooltip_UdyrPhoenixStance"
             0x2ea2820c: string = "game_spell_levelup_UdyrPhoenixStance"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "AoEDamagePerTick"
+                    0x246b0d8e: list[f32] = {
                         0
                         10
                         20
@@ -23,9 +24,11 @@ entries: map[hash,embed] = {
                         50
                         60
                     }
+                    0xe7b832f2: string = "P + 10"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "ConeDamage"
+                    0x246b0d8e: list[f32] = {
                         0
                         40
                         80
@@ -34,20 +37,11 @@ entries: map[hash,embed] = {
                         200
                         240
                     }
+                    0xe7b832f2: string = "P + 40"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        8
-                        16
-                        24
-                        32
-                        40
-                        48
-                        56
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "AoETicksPerSecond"
+                    0x246b0d8e: list[f32] = {
                         1
                         1
                         1
@@ -56,9 +50,11 @@ entries: map[hash,embed] = {
                         1
                         1
                     }
+                    0x6d3ccfd7: f32 = 1
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "PhoenixAoEDuration"
+                    0x246b0d8e: list[f32] = {
                         4
                         4
                         4
@@ -67,9 +63,11 @@ entries: map[hash,embed] = {
                         4
                         4
                     }
+                    0x6d3ccfd7: f32 = 4
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "AoERange"
+                    0x246b0d8e: list[f32] = {
                         325
                         325
                         325
@@ -78,9 +76,11 @@ entries: map[hash,embed] = {
                         325
                         325
                     }
+                    0x6d3ccfd7: f32 = 325
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "PhoenixConeRange"
+                    0x246b0d8e: list[f32] = {
                         400
                         400
                         400
@@ -89,9 +89,11 @@ entries: map[hash,embed] = {
                         400
                         400
                     }
+                    0x6d3ccfd7: f32 = 400
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "HitsForConeAttack"
+                    0x246b0d8e: list[f32] = {
                         3
                         3
                         3
@@ -100,12 +102,58 @@ entries: map[hash,embed] = {
                         3
                         3
                     }
+                    0x6d3ccfd7: f32 = 3
+                    0xe7b832f2: string = "P + 0"
                 }
-                0x92d4987c {}
-                0x92d4987c {}
+                0x005008a6 {
+                    0x19efbfdb: string = "AoEDamagePerTickAPRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                    }
+                    0x6d3ccfd7: f32 = 0.25
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ConeAPRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                    }
+                    0x6d3ccfd7: f32 = 0.6
+                }
             }
-            0x295c2889: f32 = 0.6
-            0xd7141e61: f32 = 0.25
+            0x94572284: map[hash,pointer] = {
+                0xdd9d7631 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x5ca857b9
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x7aa9344b
+                        }
+                    }
+                }
+                0xb7844e6f = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x86f27c07
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x945394b6
+                        }
+                    }
+                }
+            }
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Udyr/HUD/Icons2D/Udyr_PhoenixStance.dds"
             }
@@ -176,13 +224,11 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 1
+                                    0x5127f14d: string = "AoEDamagePerTick"
                                     0x566f3406: string = "Spell_ListType_UdyrPulseDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 2
+                                    0x5127f14d: string = "ConeDamage"
                                     0x566f3406: string = "Spell_ListType_UdyrFlameDamage"
                                 }
                             }
