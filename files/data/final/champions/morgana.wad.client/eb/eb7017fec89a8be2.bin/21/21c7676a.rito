@@ -5,24 +5,27 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x21c7676a = 0x23ea1915 {
         0xff675dd4: string = "Morgana"
-        0x17b55a20: f32 = 559.48
+        0x63719185: list[link] = {
+            0xaeb28b0d
+        }
+        0x17b55a20: f32 = 560
         0x0fd6a4da: f32 = 90
         0x4b102e57: f32 = 1.1
         0xcc3ef161: f32 = 0.12
         0xbbd81e0d: embed = 0xce31c975 {
             0x03187eba: u8 = 0
-            0x4a3c4977: f32 = 340.8
+            0x4a3c4977: f32 = 340
             0xd7590121: f32 = 60
             0x4dae8152: f32 = 2.2
             0xd5699a50: f32 = 0.08
         }
-        0x03da00f9: f32 = 55.46
+        0x03da00f9: f32 = 56
         0xae5fa9b7: f32 = 3.5
-        0x0787f1cf: f32 = 25.384
+        0x0787f1cf: f32 = 25
         0xda11ad7b: f32 = 3.8
         0x02b730f7: f32 = 30
         0xbca4dce5: f32 = 0.5
-        0x785214a0: f32 = 335
+        0x785214a0: f32 = 330
         0xc270990a: f32 = 450
         0x7a209a48: f32 = 0.625
         0x60c51c2b: f32 = 0.625
@@ -58,10 +61,10 @@ entries: map[hash,embed] = {
             }
         }
         0xbfc37103: list[string] = {
-            "DarkBindingMissile"
-            "TormentedSoil"
-            "BlackShield"
-            "SoulShackles"
+            "MorganaQ"
+            "MorganaW"
+            "MorganaE"
+            "MorganaR"
         }
         0x8c1da1da: list[string] = {
             "DarkBinding"
@@ -82,8 +85,9 @@ entries: map[hash,embed] = {
             "BaseSpell"
         }
         0xc9fa54bd: string = "game_character_passiveName_Morgana"
-        0x23627deb: string = "Empathize"
-        0xa2bea925: string = "game_character_passiveDescription_Morgana"
+        0x23627deb: string = "MorganaPassive"
+        0xa2bea925: string = ""
+        0xf4b49738: string = "MorganaPassive"
         0xf317b15b: string = "ASSETS/Characters/Morgana/HUD/Icons2D/FallenAngel_Empathize.dds"
         0xba383df4: string = "game_character_lore_Morgana"
         0x88e125fe: string = "game_character_tips_Morgana"
@@ -131,11 +135,6 @@ entries: map[hash,embed] = {
                     0x35afd776: bool = true
                 }
                 2 = 0xd01d25c0 {}
-            }
-            0xdef162f3: list[string] = {
-                "+40% Mana Point regeneration."
-                "+60% Mana Point regeneration."
-                "+80% Mana Point regeneration."
             }
             0x980de4fe: list[embed] = {
                 0x08604b90 {

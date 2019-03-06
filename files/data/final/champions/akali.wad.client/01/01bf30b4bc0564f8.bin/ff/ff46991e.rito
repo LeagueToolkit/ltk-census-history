@@ -51,16 +51,16 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BaseDamage"
                     0x246b0d8e: list[f32] = {
-                        30
-                        60
-                        90
-                        120
+                        45
+                        80
+                        115
                         150
-                        180
-                        210
+                        185
+                        220
+                        255
                     }
-                    0x6d3ccfd7: f32 = 30
-                    0xe7b832f2: string = "P + 30"
+                    0x6d3ccfd7: f32 = 45
+                    0xe7b832f2: string = "P + 35"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "SelfKnockbackRange"
@@ -76,12 +76,38 @@ entries: map[hash,embed] = {
                     0x6d3ccfd7: f32 = 400
                     0xe7b832f2: string = "P"
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "E2Damage"
+                    0x246b0d8e: list[f32] = {
+                        20
+                        50
+                        80
+                        110
+                        140
+                        170
+                        200
+                    }
+                    0x6d3ccfd7: f32 = 20
+                    0xe7b832f2: string = "P + 30"
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x59e94c40 = 0xb5adf3b2 {
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0x03da00f9
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.7
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                        }
+                    }
+                }
+                0xce18ca7a = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xc51e9cf3
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.7
@@ -199,6 +225,10 @@ entries: map[hash,embed] = {
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "E2Damage"
+                                    0x566f3406: string = "Spell_ListType_ExplosionDamage"
                                 }
                             }
                         }

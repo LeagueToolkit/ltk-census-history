@@ -7,52 +7,22 @@ entries: map[hash,embed] = {
         0x87225880: u32 = 1
         0xa977f4ae: i32 = 10006
         0x05040a43: u32 = 3
-        0x2d78c328: string = "MetalWingedJudicator"
+        0x2d78c328: string = "Skin06"
         0x939e7b29: string = "race:angel,gender:female"
-        0x97f7188d: string = "ASSETS/Characters/Kayle/Skins/Skin06/KayleLoadScreen_6.dds"
+        0x68f2b69c: embed = 0x68f2b69c {
+            0xcb522723: list[link] = {
+                0x19deb0fa
+                0x04844d1e
+                0x078451d7
+            }
+        }
+        0x97f7188d: string = "ASSETS/Characters/Kayle/Skins/Skin06/KayleLoadscreen_6.Kayle_Rework.dds"
         0x8f7b194f: embed = 0x8f7b194f {
             0xd65bac4d: list[string] = {
                 "Kayle"
-                "MetalWingedJudicator"
-                "Kayle_MetalWingedJudicator"
+                "KayleSkin06"
             }
             0xf8f29f92: list[embed] = {
-                0xa4416515 {
-                    0x8d39bde6: string = "Kayle_Base_SFX"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Kayle/Skins/Base/Kayle_Base_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Kayle/Skins/Base/Kayle_Base_SFX_events.bnk"
-                    }
-                }
-                0xa4416515 {
-                    0x8d39bde6: string = "Kayle_Skin06_VO"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Kayle/Skins/Skin06/Kayle_Skin06_VO_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Kayle/Skins/Skin06/Kayle_Skin06_VO_events.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Kayle/Skins/Skin06/Kayle_Skin06_VO_events.wpk"
-                    }
-                    0x12d8e384: list[string] = {
-                        "Play_vo_MetalWingedJudicator_Attack2D"
-                        "Play_vo_MetalWingedJudicator_Death3D"
-                        "Play_vo_MetalWingedJudicator_Joke3D"
-                        "Play_vo_MetalWingedJudicator_JudicatorDivineBlessing_OnCast"
-                        "Play_vo_MetalWingedJudicator_JudicatorIntervention_OnCast"
-                        "Play_vo_MetalWingedJudicator_JudicatorReckoning_OnCast"
-                        "Play_vo_MetalWingedJudicator_Laugh3D"
-                        "Play_vo_MetalWingedJudicator_Move2D"
-                        "Play_vo_MetalWingedJudicator_Taunt3D"
-                    }
-                    0x3b13aa4b: bool = true
-                }
-                0xa4416515 {
-                    0x8d39bde6: string = "Kayle_Base_VO"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Kayle/Skins/Base/Kayle_Base_VO_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Kayle/Skins/Base/Kayle_Base_VO_events.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Kayle/Skins/Base/Kayle_Base_VO_events.wpk"
-                    }
-                    0x3b13aa4b: bool = true
-                }
                 0xa4416515 {
                     0x8d39bde6: string = "Kayle_Skin06_SFX"
                     0x2a21ad00: list[string] = {
@@ -60,49 +30,113 @@ entries: map[hash,embed] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Kayle/Skins/Skin06/Kayle_Skin06_SFX_events.bnk"
                     }
                     0x12d8e384: list[string] = {
-                        "Play_sfx_Kayle_MetalWingedJudicator_Death3D_cast"
-                        "Play_sfx_Kayle_MetalWingedJudicator_Joke3D_buffactivate"
-                        "Play_sfx_Kayle_MetalWingedJudicator_Recall_leadout"
-                        "Play_sfx_Kayle_MetalWingedJudicator_Recall_leadout_DOM"
-                        "Play_sfx_Kayle_MetalWingedJudicator_Recall_leadout_DOM_improved"
-                        "Play_sfx_Kayle_MetalWingedJudicator_Recall_leadout_SR"
-                        "Play_sfx_Kayle_MetalWingedJudicator_Recall_leadout_SR_improved"
-                        "Play_sfx_Kayle_MetalWingedJudicator_Recall_override"
-                        "Play_sfx_Kayle_MetalWingedJudicator_Recall_windup"
-                        "Play_sfx_Kayle_MetalWingedJudicator_Taunt3D_buffactivate"
-                        "Play_sfx_MetalWingedJudicator_JudicatorDivineBlessing_buffactivate"
-                        "Play_sfx_MetalWingedJudicator_JudicatorDivineBlessing_OnBuffActivate"
-                        "Play_sfx_MetalWingedJudicator_JudicatorIntervention_OnBuffActivate"
-                        "Play_sfx_MetalWingedJudicator_JudicatorIntervention_OnCast"
-                        "Play_sfx_MetalWingedJudicator_JudicatorReckoning_OnCast"
-                        "Play_sfx_MetalWingedJudicator_JudicatorReckoning_OnHit"
-                        "Play_sfx_MetalWingedJudicator_JudicatorReckoning_OnMissileLaunch"
-                        "Play_sfx_MetalWingedJudicator_JudicatorRighteousFury_OnBuffActivate"
-                        "Play_sfx_MetalWingedJudicator_JudicatorRighteousFury_OnBuffDeactivate"
-                        "Play_sfx_MetalWingedJudicator_JudicatorRighteousFury_OnCast"
-                        "Play_sfx_MetalWingedJudicator_JudicatorRighteousFuryAttack2_OnCast"
-                        "Play_sfx_MetalWingedJudicator_JudicatorRighteousFuryAttack2_OnHit"
-                        "Play_sfx_MetalWingedJudicator_JudicatorRighteousFuryAttack_OnCast"
-                        "Play_sfx_MetalWingedJudicator_JudicatorRighteousFuryAttack_OnHit"
-                        "Play_sfx_MetalWingedJudicator_KayleBasicAttack2_OnCast"
-                        "Play_sfx_MetalWingedJudicator_KayleBasicAttack2_OnHit"
-                        "Play_sfx_MetalWingedJudicator_KayleBasicAttack_OnCast"
-                        "Play_sfx_MetalWingedJudicator_KayleBasicAttack_OnHit"
-                        "Play_sfx_MetalWingedJudicator_KayleCritAttack_OnCast"
-                        "Play_sfx_MetalWingedJudicator_KayleCritAttack_OnHit"
-                        "Play_sfx_MetalWingedJudicator_OdinRecall_OnBuffActivate"
-                        "Play_sfx_MetalWingedJudicator_OdinRecallImproved_OnBuffActivate"
-                        "Play_sfx_MetalWingedJudicator_Recall_OnBuffActivate"
-                        "Play_sfx_MetalWingedJudicator_RecallImproved_OnBuffActivate"
-                        "Stop_sfx_MetalWingedJudicator_JudicatorDivineBlessing_buffactivate"
-                        "Stop_sfx_MetalWingedJudicator_JudicatorDivineBlessing_OnBuffActivate"
-                        "Stop_sfx_MetalWingedJudicator_JudicatorIntervention_OnBuffActivate"
-                        "Stop_sfx_MetalWingedJudicator_JudicatorReckoning_OnMissileLaunch"
-                        "Stop_sfx_MetalWingedJudicator_JudicatorRighteousFury_OnBuffActivate"
-                        "Stop_sfx_MetalWingedJudicator_OdinRecall_OnBuffActivate"
-                        "Stop_sfx_MetalWingedJudicator_OdinRecallImproved_OnBuffActivate"
-                        "Stop_sfx_MetalWingedJudicator_Recall_OnBuffActivate"
-                        "Stop_sfx_MetalWingedJudicator_RecallImproved_OnBuffActivate"
+                        "Play_sfx_kayle_skin06_emote_dance_in_cast"
+                        "Play_sfx_kayle_skin06_emote_dance_loop_buffactivate"
+                        "Play_sfx_kayle_skin06_emote_joke_in_cast"
+                        "Play_sfx_kayle_skin06_emote_joke_loop_buffactivate"
+                        "Play_sfx_kayle_skin06_emote_joke_out_deactivate"
+                        "Play_sfx_KayleSkin06_Death3D_cast"
+                        "Play_sfx_KayleSkin06_KayleBasicAttack2_OnCast"
+                        "Play_sfx_KayleSkin06_KayleBasicAttack2_OnHit"
+                        "Play_sfx_KayleSkin06_KayleBasicAttack3_OnCast"
+                        "Play_sfx_KayleSkin06_KayleBasicAttack3_OnHit"
+                        "Play_sfx_KayleSkin06_KayleBasicAttack3_OnMissileCast"
+                        "Play_sfx_KayleSkin06_KayleBasicAttack4_OnCast"
+                        "Play_sfx_KayleSkin06_KayleBasicAttack4_OnHit"
+                        "Play_sfx_KayleSkin06_KayleBasicAttack4_OnMissileCast"
+                        "Play_sfx_KayleSkin06_KayleBasicAttack_OnCast"
+                        "Play_sfx_KayleSkin06_KayleBasicAttack_OnHit"
+                        "Play_sfx_KayleSkin06_KayleE_OnCast"
+                        "Play_sfx_KayleSkin06_KayleEAttack_OnCast"
+                        "Play_sfx_KayleSkin06_KayleEAttack_OnHit"
+                        "Play_sfx_KayleSkin06_KayleEAttack_OnMissileCast"
+                        "Play_sfx_KayleSkin06_KayleEAttackMelee_OnCast"
+                        "Play_sfx_KayleSkin06_KayleEAttackMelee_OnHit"
+                        "Play_sfx_KayleSkin06_KayleEAttackUpgrade_OnCast"
+                        "Play_sfx_KayleSkin06_KayleEAttackUpgrade_OnHit"
+                        "Play_sfx_KayleSkin06_KayleEAttackUpgrade_OnMissileCast"
+                        "Play_sfx_KayleSkin06_KayleEMagic_hit"
+                        "Play_sfx_KayleSkin06_KayleEnrageConeMis_hit"
+                        "Play_sfx_KayleSkin06_KayleEnrageConeMis_OnMissileCast"
+                        "Play_sfx_KayleSkin06_KayleEnrageConeMisUpgrade_OnMissileCast"
+                        "Play_sfx_KayleSkin06_KayleEnrageReady_buffactivate"
+                        "Play_sfx_KayleSkin06_KaylePassiveCeremony1_cast"
+                        "Play_sfx_KayleSkin06_KaylePassiveCeremony1_cast_self"
+                        "Play_sfx_KayleSkin06_KaylePassiveCeremony2_cast"
+                        "Play_sfx_KayleSkin06_KaylePassiveCeremony2_cast_self"
+                        "Play_sfx_KayleSkin06_KaylePassiveCeremony3_cast"
+                        "Play_sfx_KayleSkin06_KaylePassiveCeremony3_cast_self"
+                        "Play_sfx_KayleSkin06_KaylePassiveCeremony_cast"
+                        "Play_sfx_KayleSkin06_KaylePassiveCeremony_cast_self"
+                        "Play_sfx_KayleSkin06_KayleQ_OnCast"
+                        "Play_sfx_KayleSkin06_KayleQMis_OnHit"
+                        "Play_sfx_KayleSkin06_KayleQMis_OnMissileCast"
+                        "Play_sfx_KayleSkin06_KayleR_hit"
+                        "Play_sfx_KayleSkin06_KayleR_hit_self"
+                        "Play_sfx_KayleSkin06_KayleR_OnCast"
+                        "Play_sfx_KayleSkin06_KayleWHeal_OnCast"
+                        "Play_sfx_KayleSkin06_Recall_leadin"
+                        "Play_sfx_KayleSkin06_Recall_winddown"
+                        "Play_sfx_KayleSkin06_Taunt3D_cast"
+                        "Stop_sfx_KayleSkin06_KaylePassiveCeremony1_cast"
+                        "Stop_sfx_KayleSkin06_KaylePassiveCeremony1_cast_self"
+                        "Stop_sfx_KayleSkin06_KaylePassiveCeremony2_cast"
+                        "Stop_sfx_KayleSkin06_KaylePassiveCeremony2_cast_self"
+                        "Stop_sfx_KayleSkin06_KaylePassiveCeremony3_cast"
+                        "Stop_sfx_KayleSkin06_KaylePassiveCeremony3_cast_self"
+                        "Stop_sfx_KayleSkin06_KaylePassiveCeremony_cast"
+                        "Stop_sfx_KayleSkin06_KaylePassiveCeremony_cast_self"
+                        "Stop_sfx_KayleSkin06_KayleQMis_OnMissileCast"
+                        "Stop_sfx_KayleSkin06_Recall_winddown"
+                    }
+                }
+                0xa4416515 {
+                    0x8d39bde6: string = "Kayle_Skin06_VO"
+                    0x2a21ad00: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Kayle/Skins/Skin06/Kayle_Skin06_VO_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Kayle/Skins/Skin06/Kayle_Skin06_VO_events.bnk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Kayle/Skins/Skin06/Kayle_Skin06_VO_audio.wpk"
+                    }
+                    0x12d8e384: list[string] = {
+                        "Play_vo_KayleSkin06_AttackChampion2D"
+                        "Play_vo_KayleSkin06_AttackChampion2DDariusSkin14"
+                        "Play_vo_KayleSkin06_AttackChampion2DGangplankSkin08"
+                        "Play_vo_KayleSkin06_AttackChampion2DKaisaSkin01"
+                        "Play_vo_KayleSkin06_AttackChampion2DMissFortuneSkin16"
+                        "Play_vo_KayleSkin06_AttackChampion2DMorganaSkin03"
+                        "Play_vo_KayleSkin06_Death3D"
+                        "Play_vo_KayleSkin06_EnemyFirstEncounter3DDariusSkin14"
+                        "Play_vo_KayleSkin06_EnemyFirstEncounter3DGangplankSkin08"
+                        "Play_vo_KayleSkin06_EnemyFirstEncounter3DKaisaSkin01"
+                        "Play_vo_KayleSkin06_EnemyFirstEncounter3DMissFortuneSkin16"
+                        "Play_vo_KayleSkin06_EnemyFirstEncounter3DMorganaSkin03"
+                        "Play_vo_KayleSkin06_FirstMove2D"
+                        "Play_vo_KayleSkin06_Joke3DGeneral"
+                        "Play_vo_KayleSkin06_KayleBasicAttack_SpellCastBasicAttack3D"
+                        "Play_vo_KayleSkin06_KayleE_SpellCast3DE"
+                        "Play_vo_KayleSkin06_KayleQ_SpellCast3DQ"
+                        "Play_vo_KayleSkin06_KayleR_SpellCast3DR"
+                        "Play_vo_KayleSkin06_KayleW_SpellHit3DW"
+                        "Play_vo_KayleSkin06_KillChampion3D"
+                        "Play_vo_KayleSkin06_KillChampion3DDariusSkin14"
+                        "Play_vo_KayleSkin06_KillChampion3DGangplankSkin08"
+                        "Play_vo_KayleSkin06_KillChampion3DKaisaSkin01"
+                        "Play_vo_KayleSkin06_KillChampion3DMissFortuneSkin16"
+                        "Play_vo_KayleSkin06_KillChampion3DMorganaSkin03"
+                        "Play_vo_KayleSkin06_KillChampion3DPentaKill"
+                        "Play_vo_KayleSkin06_Laugh3DGeneral"
+                        "Play_vo_KayleSkin06_MoveOrder2D"
+                        "Play_vo_KayleSkin06_Recall2D"
+                        "Play_vo_KayleSkin06_Respawn2D"
+                        "Play_vo_KayleSkin06_Taunt3DGeneral"
+                    }
+                    0x3b13aa4b: bool = true
+                }
+                0xa4416515 {
+                    0x8d39bde6: string = "Kayle_Base_SFX"
+                    0x2a21ad00: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Kayle/Skins/Base/Kayle_Base_SFX_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Kayle/Skins/Base/Kayle_Base_SFX_events.bnk"
                     }
                 }
             }
@@ -110,53 +144,82 @@ entries: map[hash,embed] = {
         0x426d89a3: embed = 0x426d89a3 {
             0xf5fb07c7: link = 0xaed15406
         }
+        0x8bb2d7a4: list[string] = {
+            ""
+        }
+        0x13ec4bb1: string = "skin_universe_text_10006"
         0x45ff5904: embed = 0x6111d8a4 {
-            0xb14c976e: string = "ASSETS/Characters/Kayle/Skins/Skin06/kayle_metalwinged.skl"
-            0xd6a00df6: string = "ASSETS/Characters/Kayle/Skins/Skin06/kayle_metalwinged.skn"
-            0x3c6468f4: string = "ASSETS/Characters/Kayle/Skins/Skin06/kayle_metalwinged_TX_CM.dds"
-            0xa1f805da: f32 = 1.13
+            0xb14c976e: string = "ASSETS/Characters/Kayle/Skins/Skin06/Kayle_Skin06.Kayle_Rework.skl"
+            0xd6a00df6: string = "ASSETS/Characters/Kayle/Skins/Skin06/Kayle_Skin06.Kayle_Rework.skn"
+            0x3c6468f4: string = "ASSETS/Characters/Kayle/Skins/Skin06/Kayle_Skin06_TX_CM.Kayle_Rework.dds"
+            0xa1f805da: f32 = 1.175
             0x252f6884: f32 = 0.7
+            0x5c7a0332: option[vec3] = {
+                { 125, 150, 125 }
+            }
             0xe4f5f2ff: bool = true
+            0x164ae4e9: bool = false
             0x561f4fea: rgba = { 0, 0, 0, 255 }
+            0x80b7f78f: string = "body_lvl6, body_lvl11, body_lvl16, wings_lvl6, wings_lvl11, wings_lvl16, sword_split_lvl6, sword_combined_lvl6, recall"
+            0x24725910: list[embed] = {
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0xedc0bd7c
+                    0xaad7612c: string = "wings_lvl1"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Kayle/Skins/Skin06/Kayle_Skin06_LV6_TX_CM.Kayle_Rework.dds"
+                    0xaad7612c: string = "body_lvl6"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Kayle/Skins/Skin06/Kayle_Skin06_LV6_TX_CM.Kayle_Rework.dds"
+                    0xaad7612c: string = "sword_split_lvl6"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Kayle/Skins/Skin06/Kayle_Skin06_LV6_TX_CM.Kayle_Rework.dds"
+                    0xaad7612c: string = "sword_combined_lvl6"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Kayle/Skins/Skin06/Kayle_Skin06_LV11_TX_CM.Kayle_Rework.dds"
+                    0xaad7612c: string = "body_lvl11"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Kayle/Skins/Skin06/Kayle_Skin06_LV16_TX_CM.Kayle_Rework.dds"
+                    0xaad7612c: string = "body_lvl16"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x9069fb7e
+                    0xaad7612c: string = "wings_lvl16"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0xecc0bbe9
+                    0xaad7612c: string = "wings_lvl6"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x936a0037
+                    0xaad7612c: string = "wings_lvl11"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Kayle/Skins/Skin06/Kayle_Skin06_Recall_TX_CM.Kayle_Rework.dds"
+                    0xaad7612c: string = "recall"
+                }
+            }
         }
         0x2d0d1f1d: string = "Metal"
-        0x123393ed: list[string] = {
-            "Buffbones"
-            "Propeller"
-        }
         0x84186f3c: list[embed] = {
             0x33068165 {
-                0x9b0300f3: hash = 0x75754ae6
-                0x1ecb978c: string = "R_wing_feather5_3"
-            }
-            0x33068165 {
-                0x9b0300f3: hash = 0xa7f45b0c
-                0x1ecb978c: string = "R_wing_feather4_3"
-            }
-            0x33068165 {
-                0x9b0300f3: hash = 0xa7f45b0c
-                0x1ecb978c: string = "R_wing_feather3_3"
-            }
-            0x33068165 {
-                0x9b0300f3: hash = 0xe9dabaab
-                0x1ecb978c: string = "L_wing_feather5_3"
-            }
-            0x33068165 {
-                0x9b0300f3: hash = 0xed60e979
-                0x1ecb978c: string = "L_wing_feather4_3"
-            }
-            0x33068165 {
-                0x9b0300f3: hash = 0xed60e979
-                0x1ecb978c: string = "L_wing_feather3_3"
+                0x9b0300f3: hash = 0xee71e80a
+                0x1ecb978c: string = "C_Buffbone_Glb_Layout_Loc"
             }
         }
-        0x089aff69: string = "ASSETS/Characters/Kayle/HUD/Kayle_Circle_6.dds"
+        0x089aff69: string = "ASSETS/Characters/Kayle/HUD/Kayle_Circle_6.Kayle_Rework.dds"
+        0xd8f64a0d: link = 0x7f57e457
         0xe67284f4: option[string] = {
-            "ASSETS/Characters/Kayle/HUD/Kayle_Circle.dds"
+            "ASSETS/Characters/Kayle/HUD/Kayle_Circle_0.Kayle_Rework.dds"
         }
         0xac473fef: option[string] = {
-            "ASSETS/Characters/Kayle/HUD/Kayle_Square.dds"
+            "ASSETS/Characters/Kayle/HUD/Kayle_Square.Kayle_Rework.dds"
         }
+        0xe862b379: f32 = 68
         0xb698fb27: list[embed] = {
             0x7ba9ed2e {
                 0x5df7536e: link = 0x259c99b9

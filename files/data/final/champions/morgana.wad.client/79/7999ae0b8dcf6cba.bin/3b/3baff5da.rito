@@ -7,14 +7,21 @@ entries: map[hash,embed] = {
         0x87225880: u32 = 1
         0xa977f4ae: i32 = 25002
         0x2dddbdeb: bool = true
-        0x2d78c328: string = "BakerMorgana"
+        0x2d78c328: string = "Skin02"
         0x939e7b29: string = "gender:female,race:angel,element:dark"
-        0x97f7188d: string = "ASSETS/Characters/Morgana/Skins/Skin02/MorganaLoadScreen_2.dds"
+        0x97f7188d: string = "ASSETS/Characters/Morgana/Skins/Skin02/MorganaLoadscreen_2.Morgana_Rework.dds"
         0x8f7b194f: embed = 0x8f7b194f {
             0xd65bac4d: list[string] = {
                 "Morgana"
             }
             0xf8f29f92: list[embed] = {
+                0xa4416515 {
+                    0x8d39bde6: string = "Morgana_Base_SFX"
+                    0x2a21ad00: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Morgana/Skins/Base/Morgana_Base_SFX_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Morgana/Skins/Base/Morgana_Base_SFX_events.bnk"
+                    }
+                }
                 0xa4416515 {
                     0x8d39bde6: string = "Morgana_Base_VO"
                     0x2a21ad00: list[string] = {
@@ -23,13 +30,6 @@ entries: map[hash,embed] = {
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Morgana/Skins/Base/Morgana_Base_VO_audio.wpk"
                     }
                     0x3b13aa4b: bool = true
-                }
-                0xa4416515 {
-                    0x8d39bde6: string = "Morgana_Base_SFX"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Morgana/Skins/Base/Morgana_Base_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Morgana/Skins/Base/Morgana_Base_SFX_events.bnk"
-                    }
                 }
             }
         }
@@ -41,23 +41,86 @@ entries: map[hash,embed] = {
         }
         0x13ec4bb1: string = "skin_universe_text_25002"
         0x45ff5904: embed = 0x6111d8a4 {
-            0xb14c976e: string = "ASSETS/Characters/Morgana/Skins/Skin02/morgana_baker.skl"
-            0xd6a00df6: string = "ASSETS/Characters/Morgana/Skins/Skin02/morgana_baker.skn"
-            0x3c6468f4: string = "ASSETS/Characters/Morgana/Skins/Skin02/morgana_baker_TX_CM.dds"
-            0xa1f805da: f32 = 1.4
+            0xb14c976e: string = "ASSETS/Characters/Morgana/Skins/Skin02/Morgana_Skin02.Morgana_Rework.skl"
+            0xd6a00df6: string = "ASSETS/Characters/Morgana/Skins/Skin02/Morgana_Skin02.Morgana_Rework.skn"
+            0x3c6468f4: string = "ASSETS/Characters/Morgana/Skins/Skin02/Morgana_Skin02_TX_CM.Morgana_Rework.dds"
+            0xa1f805da: f32 = 1.32
             0x252f6884: f32 = 0.55
+            0x5c7a0332: option[vec3] = {
+                { 100, 145, 100 }
+            }
             0x561f4fea: rgba = { 0, 0, 0, 255 }
+            0x80b7f78f: string = "wings_open flower gingerbreadman"
+            0x24725910: list[embed] = {
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x4427ac86
+                    0xaad7612c: string = "wings_open"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x4427ac86
+                    0xaad7612c: string = "wings_closed"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x4427ac86
+                    0xaad7612c: string = "wings_mid_open"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Morgana/Skins/Skin02/Morgana_Skin02_Flower_TX_CM.Morgana_Rework.dds"
+                    0xaad7612c: string = "flower"
+                }
+            }
+            0xe9c98281: list[pointer] = {
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0xfaf0233c
+                    0x96dbc896: hash = 0x562fb374
+                    0x50271332: hash = 0x933b5bde
+                    0x93b7fa73: f32 = 30
+                    0xfaf26cff: f32 = 1
+                }
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0x5abbcb0f
+                    0x96dbc896: hash = 0x3c5f8d23
+                    0x50271332: hash = 0x933b5bde
+                    0x93b7fa73: f32 = 24
+                    0xfaf26cff: f32 = 2
+                }
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0xe73494d9
+                    0x96dbc896: hash = 0x64fb3d01
+                    0x50271332: hash = 0x933b5bde
+                    0x93b7fa73: f32 = 24
+                    0xfaf26cff: f32 = 2
+                }
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0xa4f51206
+                    0x96dbc896: hash = 0x1fe2735c
+                    0x50271332: hash = 0x933b5bde
+                    0x93b7fa73: f32 = 24
+                    0xfaf26cff: f32 = 2
+                }
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0x41e18598
+                    0x96dbc896: hash = 0x2a91eaa2
+                    0x50271332: hash = 0x933b5bde
+                    0x93b7fa73: f32 = 24
+                    0xfaf26cff: f32 = 2
+                }
+            }
         }
         0x2d0d1f1d: string = "Flesh"
         0x123393ed: list[string] = {
             "Mouth"
         }
-        0x089aff69: string = "ASSETS/Characters/Morgana/HUD/Morgana_Circle_2.dds"
+        0x089aff69: string = "ASSETS/Characters/Morgana/HUD/Morgana_Circle_2.Morgana_Rework.dds"
+        0xd8f64a0d: link = 0x1e87e439
         0xe67284f4: option[string] = {
-            "ASSETS/Characters/Morgana/HUD/Morgana_Circle_0.dds"
+            "ASSETS/Characters/Morgana/HUD/Morgana_Circle_0.Kayle_Rework.dds"
         }
         0xac473fef: option[string] = {
-            "ASSETS/Characters/Morgana/HUD/Morgana_Square_0.dds"
+            "ASSETS/Characters/Morgana/HUD/Morgana_Square.Kayle_Rework.dds"
+        }
+        0x51c83af8: embed = 0x11b71b5e {
+            0x4d5ff2d7: string = "Buffbone_Cstm_Healthbar"
         }
         0x62286e7e: link = 0x03331048
     }

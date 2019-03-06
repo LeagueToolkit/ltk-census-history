@@ -50,18 +50,47 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "RBaseDamage"
                     0x246b0d8e: list[f32] = {
-                        0
+                        -25
                         150
-                        300
-                        450
-                        600
-                        750
-                        900
+                        325
+                        500
+                        675
+                        850
+                        1025
                     }
-                    0xe7b832f2: string = "P + 150"
+                    0x6d3ccfd7: f32 = -25
+                    0xe7b832f2: string = "P + 175"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "SecondaryTargetDamageMultiplier"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                    0x6d3ccfd7: f32 = 1
+                    0xe7b832f2: string = "P + 0"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SecondaryTargetKnockbackDistance"
+                    0x246b0d8e: list[f32] = {
+                        350
+                        350
+                        350
+                        350
+                        350
+                        350
+                        350
+                    }
+                    0x6d3ccfd7: f32 = 350
+                    0xe7b832f2: string = "P + 0"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SecondaryTargetStunDuration"
                     0x246b0d8e: list[f32] = {
                         0.75
                         0.75
@@ -72,6 +101,20 @@ entries: map[hash,embed] = {
                         0.75
                     }
                     0x6d3ccfd7: f32 = 0.75
+                    0xe7b832f2: string = "P + 0"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SecondaryTargetKnockbackDuration"
+                    0x246b0d8e: list[f32] = {
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                    }
+                    0x6d3ccfd7: f32 = 0.25
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -81,7 +124,7 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0x1be488a9
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 1.4
+                            0x295c2889: f32 = 1.1
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
                         }
@@ -100,10 +143,10 @@ entries: map[hash,embed] = {
             }
             0x90fb0576: f32 = 0.25
             0x9ecac3a1: list[f32] = {
-                110
-                110
-                85
-                60
+                120
+                120
+                100
+                80
                 60
                 60
                 60
@@ -166,9 +209,9 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "RBaseDamage"
                                     0x33c02d93: i32 = 1
-                                    0x566f3406: string = "Spell_ListType_TotalDamage"
+                                    0x566f3406: string = "Spell_ListType_BaseDamage"
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"

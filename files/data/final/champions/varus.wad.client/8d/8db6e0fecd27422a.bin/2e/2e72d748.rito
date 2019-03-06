@@ -7,37 +7,12 @@ entries: map[hash,embed] = {
         0xc8e37ef0: string = "VarusQ"
         0x56d2be52: pointer = 0x43368569 {
             0xecf3f88d: u32 = 6154
-            0x44b7e8dd: string = "VarusQ"
-            0x74d44065: string = "game_spell_displayname_VarusQ"
-            0xf1f20d72: string = "game_spell_description_VarusQ"
             0x3e1edbdb: list[string] = {
                 "Trait_ChannelSpell"
             }
-            0x9a5a3a84: string = "game_spell_tooltip_VarusQ"
-            0x2ea2820c: string = "game_spell_levelup_VarusQ"
             0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
-                        10
-                        46
-                        83
-                        120
-                        156
-                        193
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
-                        15
-                        70
-                        125
-                        180
-                        235
-                        290
-                    }
-                }
+                0x92d4987c {}
+                0x92d4987c {}
                 0x92d4987c {
                     0x425ed3ca: list[f32] = {
                         0.15
@@ -148,6 +123,20 @@ entries: map[hash,embed] = {
                     }
                     0x6d3ccfd7: f32 = 1.65
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamageMinTooltip"
+                    0x246b0d8e: list[f32] = {
+                        -26.67
+                        10
+                        46.67
+                        83.34
+                        120.01
+                        156.68
+                        193.35
+                    }
+                    0x6d3ccfd7: f32 = -26.67
+                    0xe7b832f2: string = "P + 36.67"
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0xb3ef3984 = 0xb5adf3b2 {
@@ -183,6 +172,17 @@ entries: map[hash,embed] = {
                         }
                         0x5f5c70a4 {
                             0xb386dcf1: hash = 0x61571ee1
+                            0x4cec2c8a: u8 = 2
+                        }
+                    }
+                }
+                0x52fe101f = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xa878fcc2
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 1.1
                             0x4cec2c8a: u8 = 2
                         }
                     }
@@ -291,6 +291,34 @@ entries: map[hash,embed] = {
             0x77b9f839: u32 = 1
             0x8f73dfe7: u8 = 7
             0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "VarusQ"
+                    0x57b8b11b: link = 0x122a9d2c
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_VarusQ_Name"
+                        "keySummary" = "Spell_VarusQ_Summary"
+                        "keyTooltip" = "Spell_VarusQ_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 5
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseDamageMax"
+                                    0x566f3406: string = "Spell_ListType_MaximumDamage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                    0x566f3406: string = "Spell_ListType_Cooldown"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseCost"
+                                    0x566f3406: string = "Spell_ListType_ManaCost"
+                                }
+                            }
+                        }
+                    }
+                }
                 0x263ba968: list[pointer] = {
                     0x047acadf {
                         0xe013ab15: bool = true
@@ -374,7 +402,15 @@ entries: map[hash,embed] = {
             }
         }
         0x7f0f5a79: pointer = 0x4633d794 {
-            0xf1f20d72: string = "game_buff_tooltip_VarusQ"
+            0xf1f20d72: string = "Buff_VarusQ_Tooltip"
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "VarusQ"
+                0x57b8b11b: link = 0x10f01d27
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Spell_VarusQ_Name"
+                    "KeyTooltip" = "Buff_VarusQ_Tooltip"
+                }
+            }
         }
     }
 }
