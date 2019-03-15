@@ -18,77 +18,103 @@ entries: map[hash,embed] = {
             }
             0x9a5a3a84: string = "game_spell_tooltip_BraumRWrapper"
             0x2ea2820c: string = "game_spell_levelup_BraumRWrapper"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        50
                         150
                         250
                         350
-                        0
-                        0
-                        0
+                        450
+                        550
+                        650
                     }
+                    0x6d3ccfd7: f32 = 50
+                    0xe7b832f2: string = "P + 100"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
+                0x005008a6 {
+                    0x19efbfdb: string = "KnockupDuration"
+                    0x246b0d8e: list[f32] = {
                         0.3
                         0.3
                         0.3
-                        0
-                        0
-                        0
+                        0.3
+                        0.3
+                        0.3
+                        0.3
                     }
+                    0x6d3ccfd7: f32 = 0.3
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
-                        4
-                        4
-                        4
-                        0
-                        0
-                        0
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
-                        40
-                        50
-                        60
-                        0
-                        0
-                        0
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
+                0x005008a6 {
+                    0x19efbfdb: string = "FirstKnockupDuration"
+                    0x246b0d8e: list[f32] = {
+                        0.75
                         1
                         1.25
                         1.5
-                        0
-                        0
-                        0
+                        1.75
+                        2
+                        2.25
+                    }
+                    0x6d3ccfd7: f32 = 0.75
+                    0xe7b832f2: string = "P + 0.25"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MoveSpeedMod"
+                    0x246b0d8e: list[f32] = {
+                        30
+                        40
+                        50
+                        60
+                        70
+                        80
+                        90
+                    }
+                    0x6d3ccfd7: f32 = 30
+                    0xe7b832f2: string = "P + 10"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowZoneDuration"
+                    0x246b0d8e: list[f32] = {
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                    }
+                    0x6d3ccfd7: f32 = 4
+                    0xe7b832f2: string = "P"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowDebuffDuration"
+                    0x246b0d8e: list[f32] = {
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                    }
+                    0x6d3ccfd7: f32 = 0.25
+                    0xe7b832f2: string = "P"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x1ddee768 = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.6
+                        }
                     }
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
-                        0.25
-                        0.25
-                        0.25
-                        0
-                        0
-                        0
-                    }
-                }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
             }
             0x295c2889: f32 = 0.6
             0xfbd16fb5: string = "spell4"
@@ -182,17 +208,17 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "KnockupDuration"
                                     0x33c02d93: i32 = 5
                                     0x566f3406: string = "Spell_ListType_KnockupDuration"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "MoveSpeedMod"
                                     0x33c02d93: i32 = 4
                                     0x566f3406: string = "Spell_ListType_Slow"
                                     0xac307ed6: u32 = 1

@@ -15,42 +15,52 @@ entries: map[hash,embed] = {
             }
             0x9a5a3a84: string = "game_spell_tooltip_FizzR"
             0x2ea2820c: string = "game_spell_levelup_FizzR"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "SmallDamage"
+                    0x246b0d8e: list[f32] = {
+                        50
                         150
                         250
                         350
-                        350
-                        350
-                        350
+                        450
+                        550
+                        650
                     }
+                    0x6d3ccfd7: f32 = 50
+                    0xe7b832f2: string = "P + 100"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
+                0x005008a6 {
+                    0x19efbfdb: string = "MidDamage"
+                    0x246b0d8e: list[f32] = {
+                        125
                         225
                         325
                         425
-                        425
-                        425
-                        425
+                        525
+                        625
+                        725
                     }
+                    0x6d3ccfd7: f32 = 125
+                    0xe7b832f2: string = "P + 100"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
+                0x005008a6 {
+                    0x19efbfdb: string = "BigDamage"
+                    0x246b0d8e: list[f32] = {
+                        200
                         300
                         400
                         500
-                        500
-                        500
-                        500
+                        600
+                        700
+                        800
                     }
+                    0x6d3ccfd7: f32 = 200
+                    0xe7b832f2: string = "P + 100"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "SmallFishSize"
+                    0x246b0d8e: list[f32] = {
                         200
                         200
                         200
@@ -59,9 +69,12 @@ entries: map[hash,embed] = {
                         200
                         200
                     }
+                    0x6d3ccfd7: f32 = 200
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "MidFishSize"
+                    0x246b0d8e: list[f32] = {
                         325
                         325
                         325
@@ -70,9 +83,12 @@ entries: map[hash,embed] = {
                         325
                         325
                     }
+                    0x6d3ccfd7: f32 = 325
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BigFishSize"
+                    0x246b0d8e: list[f32] = {
                         450
                         450
                         450
@@ -81,9 +97,26 @@ entries: map[hash,embed] = {
                         450
                         450
                     }
+                    0x6d3ccfd7: f32 = 450
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "MissileWidthTiers"
+                    0x246b0d8e: list[f32] = {
+                        40
+                        80
+                        120
+                        160
+                        200
+                        240
+                        280
+                    }
+                    0x6d3ccfd7: f32 = 40
+                    0xe7b832f2: string = "P + 40"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxDistance"
+                    0x246b0d8e: list[f32] = {
                         1300
                         1300
                         1300
@@ -92,9 +125,12 @@ entries: map[hash,embed] = {
                         1300
                         1300
                     }
+                    0x6d3ccfd7: f32 = 1300
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "DetonationTime"
+                    0x246b0d8e: list[f32] = {
                         2
                         2
                         2
@@ -103,9 +139,12 @@ entries: map[hash,embed] = {
                         2
                         2
                     }
+                    0x6d3ccfd7: f32 = 2
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowDuration"
+                    0x246b0d8e: list[f32] = {
                         2
                         2
                         2
@@ -114,9 +153,12 @@ entries: map[hash,embed] = {
                         2
                         2
                     }
+                    0x6d3ccfd7: f32 = 2
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowAmount"
+                    0x246b0d8e: list[f32] = {
                         60
                         60
                         60
@@ -125,13 +167,15 @@ entries: map[hash,embed] = {
                         60
                         60
                     }
+                    0x6d3ccfd7: f32 = 60
+                    0xe7b832f2: string = "P"
                 }
             }
             0x94572284: map[hash,pointer] = {
                 0x8592e8a4 = 0xb5adf3b2 {
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xec3b23ad
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.8
@@ -140,8 +184,8 @@ entries: map[hash,embed] = {
                 }
                 0x262c3c02 = 0xb5adf3b2 {
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 2
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xdbe58260
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 1
@@ -150,8 +194,8 @@ entries: map[hash,embed] = {
                 }
                 0x59fc391b = 0xb5adf3b2 {
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 3
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xb07a8b34
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 1.2
@@ -255,17 +299,17 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "SmallDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_FizzR_SmallFishDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "MidDamage"
                                     0x33c02d93: i32 = 2
                                     0x566f3406: string = "Spell_FizzR_MediumFishDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BigDamage"
                                     0x33c02d93: i32 = 3
                                     0x566f3406: string = "Spell_FizzR_LargeFishDamage"
                                 }

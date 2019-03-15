@@ -42,8 +42,8 @@ entries: map[hash,embed] = {
                         4
                         4
                         4
-                        4
-                        4
+                        25000
+                        25000
                     }
                 }
                 0x92d4987c {
@@ -124,19 +124,35 @@ entries: map[hash,embed] = {
                     }
                 }
             }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "OnHitDamageReduction"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                    0x6d3ccfd7: f32 = 0.5
+                    0xe7b832f2: string = ".5"
+                }
+            }
             0x295c2889: f32 = 0.15
             0xfbd16fb5: string = ""
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Urgot/HUD/Icons2D/Urgot_W.dds"
             }
             0x9ecac3a1: list[f32] = {
-                19
-                17
-                15
-                13
-                11
+                12
+                12
                 9
-                7
+                6
+                3
+                0
+                0
             }
             0x18330965: f32 = -1
             0x3a4c4690: f32 = -1
@@ -194,27 +210,27 @@ entries: map[hash,embed] = {
                 0
                 0
                 0
-                2
-                2
-                2
-                2
-                2
-                2
-                2
-                2
-                2
-                2
-                2
-                2
-                2
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+                0
             }
             0xd997830a: list[f32] = {
-                65
-                65
-                65
-                65
-                65
-                65
+                40
+                30
+                20
+                10
+                0
+                0
             }
             0x77b9f839: u32 = 1
             0x8f73dfe7: u8 = 0
@@ -232,9 +248,7 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 1
-                                    0x566f3406: string = "Spell_ListType_ShieldAmount"
+                                    0x5127f14d: string = "Cooldown"
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Effect%dAmount"
@@ -243,7 +257,7 @@ entries: map[hash,embed] = {
                                     0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Cooldown"
+                                    0x5127f14d: string = "Cost"
                                 }
                             }
                         }

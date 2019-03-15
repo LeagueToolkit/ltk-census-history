@@ -34,12 +34,12 @@ entries: map[hash,embed] = {
                         "Play_sfx_FizzSkin10_FizzJumpDelay_hit_trident"
                         "Play_sfx_FizzSkin10_FizzJumpTwo_hit_ground_sm"
                         "Play_sfx_FizzSkin10_FizzJumpTwo_OnCast"
-                        "Play_sfx_FizzSkin10_FizzMarinerDoom_OnCast"
                         "Play_sfx_FizzSkin10_FizzMarinerDoom_pre_OnCast"
                         "Play_sfx_FizzSkin10_FizzMarinerDoomBomb_hit"
                         "Play_sfx_FizzSkin10_FizzMarinerDoomMissile_hit"
                         "Play_sfx_FizzSkin10_FizzPiercingStrike_hit"
                         "Play_sfx_FizzSkin10_FizzPiercingStrike_OnCast"
+                        "Play_sfx_FizzSkin10_FizzR_OnCast"
                         "Play_sfx_FizzSkin10_FizzRMissile_buffactivate"
                         "Play_sfx_FizzSkin10_FizzRMissile_OnMissileLaunch"
                         "Play_sfx_FizzSkin10_FizzSeastonePassive_OnCast"
@@ -66,19 +66,19 @@ entries: map[hash,embed] = {
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Fizz/Skins/Skin10/Fizz_Skin10_VO_audio.wpk"
                     }
                     0x12d8e384: list[string] = {
-                        "Play_vo_FizzSkin10_AttackChampion2D"
+                        "Play_vo_FizzSkin10_Attack2D"
                         "Play_vo_FizzSkin10_Death3D"
                         "Play_vo_FizzSkin10_FizzBasicAttack2_OnCast"
                         "Play_vo_FizzSkin10_FizzBasicAttack_OnCast"
                         "Play_vo_FizzSkin10_FizzCritAttack_OnCast"
-                        "Play_vo_FizzSkin10_FizzE_OnCast"
-                        "Play_vo_FizzSkin10_FizzEicon_OnBuffDeactivate"
-                        "Play_vo_FizzSkin10_FizzQ_OnCast"
-                        "Play_vo_FizzSkin10_FizzR_OnCast"
+                        "Play_vo_FizzSkin10_FizzJump_OnCast"
+                        "Play_vo_FizzSkin10_FizzMarinerDoom_OnCast"
+                        "Play_vo_FizzSkin10_FizzPiercingStrike_OnCast"
+                        "Play_vo_FizzSkin10_FizzTrickSlamSoundDummy_OnBuffActivate"
                         "Play_vo_FizzSkin10_Joke3D"
                         "Play_vo_FizzSkin10_Laugh3D"
-                        "Play_vo_FizzSkin10_MoveOrder2D"
-                        "Play_vo_FizzSkin10_Taunt3DGeneral"
+                        "Play_vo_FizzSkin10_Move2D"
+                        "Play_vo_FizzSkin10_Taunt3D"
                     }
                     0x3b13aa4b: bool = true
                 }
@@ -112,6 +112,7 @@ entries: map[hash,embed] = {
             0x3c6468f4: string = "ASSETS/Characters/Fizz/Skins/Skin10/Fizz_Skin10_TX_CM.dds"
             0xa1f805da: f32 = 1.25
             0x252f6884: f32 = 0.7
+            0x5c7a0332: option[vec3] = {}
             0x80b7f78f: string = "Fizz_Skin10_Recall_Mat Recall_Rope"
             0xf4ba5c9e: string = "Recall_Rope"
             0x24725910: list[embed] = {
