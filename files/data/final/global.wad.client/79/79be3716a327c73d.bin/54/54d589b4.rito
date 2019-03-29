@@ -4,7 +4,7 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x54d589b4 = 0xb6f03cdd {
-        0xc0d42723: string = "8.14"
+        0xc0d42723: string = "9.6"
         0x36f7ed41: u32 = 8120
         0x4e437187: string = "GhostPoro"
         0x2da3f8bf: string = "perk_displayname_GhostPoro"
@@ -13,31 +13,17 @@ entries: map[hash,embed] = {
         0xa1ed05f5: string = "perk_long_desc_GhostPoro"
         0xf5172483: list[string] = {
             "perk_eog_stat_desc_GhostPoro1"
-            "perk_eog_stat_desc_GhostPoro2"
         }
-        0xcf491eb4: string = "perk_display_stat_adaptive"
+        0xcf491eb4: string = "perk_display_stat_GhostPoro"
         0x57be823b: string = "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.dds"
         0x452d5fcb: pointer = 0x1ddec1f2 {
             0x2c13bd72: string = "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoro.lua"
             0xa51be889: embed = 0xa4e7a4a2 {
                 0x251a5225: map[hash,f32] = {
-                    0xec1f44b9 = 300
-                    0x2ac71ccc = 1
-                    0x21f51b94 = 4
-                    0x85d8a7e8 = 60
-                    0x6f039626 = 5
-                    0x2c70a6f8 = 20
-                    0x8298075e = 0.6
-                    0x969826da = 1
-                    0x9623db70 = 3520
-                    0x2dfe639a = 3513
-                    0x6360833a = 3340
-                    0xbdf2b8de = 3363
-                    0xdd8b9219 = 3364
-                    0xf6d0b697 = 198
-                    0x4515e3e5 = 99
-                    0x64762f02 = 90
-                    0x2afdcf24 = 60
+                    0xec1f44b9 = 60
+                    0x6f039626 = 2
+                    0xb652eeca = 10
+                    0x6810ef40 = 10
                 }
                 0x90b03cc0: map[hash,embed] = {
                     0x757179c8 = 0xb12485e0 {
@@ -46,6 +32,11 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x288f3c60 = 0xb12485e0 {
+                        0x98be1607: map[hash,f32] = {
+                            0x85d8a7e8 = 25
+                        }
+                    }
+                    0x8f061404 = 0xb12485e0 {
                         0x98be1607: map[hash,f32] = {
                             0x85d8a7e8 = 25
                         }
@@ -79,6 +70,12 @@ entries: map[hash,embed] = {
             }
             0x3d7822a4 {
                 0x6eac7015: string = "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoroInCombat.lua"
+                0xca93d232: embed = 0x5e7e5a06 {
+                    0x7f0f5a79: pointer = 0x4633d794 {}
+                }
+            }
+            0x3d7822a4 {
+                0x6eac7015: string = "ASSETS/Perks/Styles/Domination/GhostPoro/GhostPoroEnemyBuff.lua"
                 0xca93d232: embed = 0x5e7e5a06 {
                     0x7f0f5a79: pointer = 0x4633d794 {}
                 }

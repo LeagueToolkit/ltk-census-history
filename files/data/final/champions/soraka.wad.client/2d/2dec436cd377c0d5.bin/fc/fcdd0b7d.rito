@@ -11,65 +11,51 @@ entries: map[hash,embed] = {
             0x3b0cf15e: embed = 0x25210743 {
                 0xc8613630: string = "Champion"
             }
-            0x74d44065: string = "game_spell_displayname_SorakaR"
-            0xf1f20d72: string = "game_spell_description_SorakaR"
             0x3e1edbdb: list[string] = {
                 "Trait_Ultimate"
                 "PositiveEffect_Boon"
             }
-            0x9a5a3a84: string = "game_spell_tooltip_SorakaR"
-            0x2ea2820c: string = "game_spell_levelup_SorakaR"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseHeal"
+                    0x246b0d8e: list[f32] = {
+                        50
                         150
                         250
                         350
-                        0
-                        0
-                        0
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
-                        120
-                        90
-                        60
-                        0
-                        0
-                        0
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
-                        250
-                        350
                         450
-                        0
-                        0
-                        0
+                        550
+                        650
+                    }
+                    0x6d3ccfd7: f32 = 50
+                    0xe7b832f2: string = "P + 100"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "HealingAmpForLowHealthAllies"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                    0x6d3ccfd7: f32 = 0.5
+                    0xe7b832f2: string = "P"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0xe6720e9c = 0xb5adf3b2 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x39ce8652
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.55
+                        }
                     }
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                    }
-                }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
             }
             0x295c2889: f32 = 0.55
             0xfbd16fb5: string = "Spell4"
@@ -134,7 +120,7 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BaseHeal"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Healing"
                                 }
