@@ -106,6 +106,22 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
             }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "AssassinCDReduction"
+                    0x246b0d8e: list[f32] = {
+                        8
+                        8
+                        8
+                        8
+                        8
+                        8
+                        8
+                    }
+                    0x6d3ccfd7: f32 = 8
+                    0xe7b832f2: string = "8"
+                }
+            }
             0x295c2889: f32 = 0.4
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_E_Primary.dds"
@@ -160,6 +176,9 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_KaynE_Name"
                         "keySummary" = "Spell_KaynE_Summary"
                         "keyTooltip" = "Spell_KaynE_Tooltip"
+                        "keyCooldown" = "game_spell_cooldown_KaynE"
+                        "keyKaynHackType" = "Spell_KaynE_KaynHackType"
+                        "keyKaynHackValue" = "Spell_KaynE_KaynHackValue"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
@@ -174,9 +193,6 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "Effect%dAmount"
                                     0x33c02d93: i32 = 7
                                     0x566f3406: string = "Spell_ListType_Healing"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "Cooldown"
                                 }
                             }
                         }
