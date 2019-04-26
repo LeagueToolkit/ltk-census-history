@@ -15,105 +15,188 @@ entries: map[hash,embed] = {
             }
             0x9a5a3a84: string = "game_spell_tooltip_GlacialStorm"
             0x2ea2820c: string = "game_spell_levelup_GlacialStorm"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "DamagePerSecond"
+                    0x246b0d8e: list[f32] = {
+                        20
                         40
                         60
                         80
-                        0
-                        0
-                        0
+                        100
+                        120
+                        140
                     }
+                    0x6d3ccfd7: f32 = 20
+                    0xe7b832f2: string = "P + 20"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
+                0x005008a6 {
+                    0x19efbfdb: string = "BonusMultiplier"
+                    0x246b0d8e: list[f32] = {
+                        300
+                        300
+                        300
+                        300
+                        300
+                        300
+                        300
+                    }
+                    0x6d3ccfd7: f32 = 300
+                    0xe7b832f2: string = "P"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ManaCostPerSecond"
+                    0x246b0d8e: list[f32] = {
+                        30
                         40
                         50
                         60
-                        0
-                        0
-                        0
+                        70
+                        80
+                        90
                     }
+                    0x6d3ccfd7: f32 = 30
+                    0xe7b832f2: string = "P + 10"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        300
-                        300
-                        300
-                        300
-                        300
-                        300
-                        300
+                0x005008a6 {
+                    0x19efbfdb: string = "TickRate"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
                     }
+                    0x6d3ccfd7: f32 = 0.5
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowAmount"
+                    0x246b0d8e: list[f32] = {
                         20
                         20
                         30
                         40
-                        0
-                        0
-                        0
-                    }
-                }
-                0x92d4987c {}
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
                         50
-                        50
-                        50
-                        50
-                        0
-                        0
-                        0
+                        60
+                        70
+                    }
+                    0x6d3ccfd7: f32 = 20
+                    0xe7b832f2: string = "N*10 + 10"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ChillDuration"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                    0x6d3ccfd7: f32 = 1
+                    0xe7b832f2: string = "P"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "GrowthTime"
+                    0x246b0d8e: list[f32] = {
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                    }
+                    0x6d3ccfd7: f32 = 1.5
+                    0xe7b832f2: string = "P"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "AdditionalSlowPercentAtMax"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                    0x6d3ccfd7: f32 = 0.5
+                    0xe7b832f2: string = "P"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowDurationAtMaxMultiplier"
+                    0x246b0d8e: list[f32] = {
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                    }
+                    0x6d3ccfd7: f32 = 1.5
+                    0xe7b832f2: string = "P"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "LeashWarning"
+                    0x246b0d8e: list[f32] = {
+                        800
+                        800
+                        800
+                        800
+                        800
+                        800
+                        800
+                    }
+                    0x6d3ccfd7: f32 = 800
+                    0xe7b832f2: string = "P"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "LeashBreak"
+                    0x246b0d8e: list[f32] = {
+                        1000
+                        1000
+                        1000
+                        1000
+                        1000
+                        1000
+                        1000
+                    }
+                    0x6d3ccfd7: f32 = 1000
+                    0xe7b832f2: string = "P"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x14fb8a67 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xfaeb494f
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.125
+                        }
                     }
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        800
-                        800
-                        800
-                        800
-                        800
-                        800
-                        800
+                0xa934909e = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x8cbf9724
+                        }
                     }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        1000
-                        1000
-                        1000
-                        1000
-                        1000
-                        1000
-                        1000
+                    0x2c77adff: pointer = 0x84a63373 {
+                        0xa066cc28: list[pointer] = {
+                            0x332eb441 {
+                                0xb386dcf1: hash = 0x9738309b
+                            }
+                            0x9ef92080 {
+                                0xe202bca9: f32 = 1
+                            }
+                        }
                     }
                 }
             }
@@ -123,13 +206,13 @@ entries: map[hash,embed] = {
                 "ASSETS/Characters/Anivia/HUD/Icons2D/Anivia_R.dds"
             }
             0x9ecac3a1: list[f32] = {
-                10
                 6
                 6
                 6
                 6
                 6
-                10
+                6
+                6
             }
             0x18330965: f32 = -0.5
             0x3a4c4690: f32 = -0.5
@@ -181,9 +264,9 @@ entries: map[hash,embed] = {
                 75
                 75
                 75
-                0
-                0
-                0
+                75
+                75
+                75
             }
             0x8f73dfe7: u8 = 2
             0x048557ff: embed = 0x7dd1a902 {
@@ -200,19 +283,16 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 1
+                                    0x5127f14d: string = "DamagePerSecond"
                                     0x566f3406: string = "Spell_ListType_DamagePerSecond"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 4
+                                    0x5127f14d: string = "SlowAmount"
                                     0x566f3406: string = "Spell_ListType_AniviaChilledSlowAmount"
                                     0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 2
+                                    0x5127f14d: string = "ManaCostPerSecond"
                                     0x566f3406: string = "Spell_ListType_ManaCostPerSecond"
                                 }
                             }

@@ -20,42 +20,38 @@ entries: map[hash,embed] = {
             }
             0x9a5a3a84: string = "game_spell_tooltip_LuluR"
             0x2ea2820c: string = "game_spell_levelup_LuluR"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BonusHealth"
+                    0x246b0d8e: list[f32] = {
+                        150
                         300
                         450
                         600
-                        600
-                        600
-                        0
+                        750
+                        900
+                        1050
                     }
+                    0x6d3ccfd7: f32 = 150
+                    0xe7b832f2: string = "P + 150"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowPercent"
+                    0x246b0d8e: list[f32] = {
+                        15
                         30
                         45
                         60
-                        60
-                        60
-                        0
+                        75
+                        90
+                        105
                     }
+                    0x6d3ccfd7: f32 = 15
+                    0xe7b832f2: string = "P + 15"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BuffDuration"
+                    0x246b0d8e: list[f32] = {
                         7
                         7
                         7
@@ -64,23 +60,63 @@ entries: map[hash,embed] = {
                         7
                         7
                     }
+                    0x6d3ccfd7: f32 = 7
+                    0xe7b832f2: string = "P"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        50
-                        50
-                        50
-                        50
-                        50
-                        50
-                        50
+                0x005008a6 {
+                    0x19efbfdb: string = "AoERadius"
+                    0x246b0d8e: list[f32] = {
+                        400
+                        400
+                        400
+                        400
+                        400
+                        400
+                        400
+                    }
+                    0x6d3ccfd7: f32 = 400
+                    0xe7b832f2: string = "P "
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "KnockbackDuration"
+                    0x246b0d8e: list[f32] = {
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                    }
+                    0x6d3ccfd7: f32 = 0.75
+                    0xe7b832f2: string = "P"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "KnockbackDistance"
+                    0x246b0d8e: list[f32] = {
+                        275
+                        275
+                        275
+                        275
+                        275
+                        275
+                        275
+                    }
+                    0x6d3ccfd7: f32 = 275
+                    0xe7b832f2: string = "P"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0xaf6d44aa = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x5260b352
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.5
+                        }
                     }
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
             }
             0x295c2889: f32 = 0.5
             0xfbd16fb5: string = "Spell4"
@@ -155,13 +191,11 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 1
+                                    0x5127f14d: string = "BonusHealth"
                                     0x566f3406: string = "Spell_ListType_BonusHealth"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 2
+                                    0x5127f14d: string = "SlowPercent"
                                     0x566f3406: string = "Spell_ListType_Slow"
                                     0xac307ed6: u32 = 1
                                 }
