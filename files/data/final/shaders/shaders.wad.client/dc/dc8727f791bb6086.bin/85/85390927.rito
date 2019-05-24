@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x85390927 = 0x344a9a75 {
+        0xe595dd78: list[link] = {
+            0x0819d4cf
+            0xaaff0833
+            0x75de8b64
+        }
+        0x99108c85: list[embed] = {
+            0x3745189b {
+                0x8d39bde6: string = "REFRACT_MAP"
+            }
+            0x3745189b {
+                0x8d39bde6: string = "sDepthTexture"
+            }
+            0x3745189b {
+                0x8d39bde6: string = "SAMPLER_BACK_BUFFER_COPY"
+            }
+            0x3745189b {
+                0x8d39bde6: string = "BLOOM_TEXTURE"
+            }
+            0x3745189b {
+                0x8d39bde6: string = "SAMPLER_GAMMA_LOOK_UP"
+            }
+        }
+    }
+}

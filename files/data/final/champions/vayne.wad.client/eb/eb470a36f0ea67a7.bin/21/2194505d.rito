@@ -18,31 +18,38 @@ entries: map[hash,embed] = {
             }
             0x9a5a3a84: string = "game_spell_tooltip_VayneInquisition"
             0x2ea2820c: string = "game_spell_levelup_VayneInquisition"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        20
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BonusAttackDamage"
+                    0x246b0d8e: list[f32] = {
+                        10
                         20
                         30
                         40
-                        0
-                        0
-                        0
+                        50
+                        60
+                        70
                     }
+                    0x6d3ccfd7: f32 = 10
+                    0xe7b832f2: string = "P + 10"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        8
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDuration"
+                    0x246b0d8e: list[f32] = {
+                        6
                         8
                         10
                         12
-                        0
-                        0
-                        0
+                        14
+                        16
+                        18
                     }
+                    0x6d3ccfd7: f32 = 6
+                    0xe7b832f2: string = "P + 2"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "TumbleStealthDuration"
+                    0x246b0d8e: list[f32] = {
                         1
                         1
                         1
@@ -51,9 +58,11 @@ entries: map[hash,embed] = {
                         1
                         1
                     }
+                    0x6d3ccfd7: f32 = 1
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "MovementSpeed"
+                    0x246b0d8e: list[f32] = {
                         90
                         90
                         90
@@ -62,9 +71,11 @@ entries: map[hash,embed] = {
                         90
                         90
                     }
+                    0x6d3ccfd7: f32 = 90
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "DurationToAdd"
+                    0x246b0d8e: list[f32] = {
                         4
                         4
                         4
@@ -73,9 +84,11 @@ entries: map[hash,embed] = {
                         4
                         4
                     }
+                    0x6d3ccfd7: f32 = 4
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "DamagedMarkerDuration"
+                    0x246b0d8e: list[f32] = {
                         3
                         3
                         3
@@ -84,21 +97,22 @@ entries: map[hash,embed] = {
                         3
                         3
                     }
+                    0x6d3ccfd7: f32 = 3
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        30
+                0x005008a6 {
+                    0x19efbfdb: string = "TumbleCDReduction"
+                    0x246b0d8e: list[f32] = {
+                        20
                         30
                         40
                         50
-                        50
-                        50
-                        50
+                        60
+                        70
+                        80
                     }
+                    0x6d3ccfd7: f32 = 20
+                    0xe7b832f2: string = "P + 10"
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
             }
             0xfbd16fb5: string = "Spell4"
             0xeed67cd5: list[string] = {
@@ -148,8 +162,42 @@ entries: map[hash,embed] = {
                 80
             }
             0x77b9f839: u32 = 1
-            0x8f73dfe7: u8 = 0
             0x5d46764f: pointer = 0x645ba277 {}
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "VayneInquisition"
+                    0x57b8b11b: link = 0x122a9d2c
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_VayneR_Name"
+                        "keyTooltip" = "Spell_VayneR_Tooltip"
+                        "keySummary" = "Spell_VayneR_Summary"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 3
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                    0x566f3406: string = "Spell_ListType_Cooldown"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseDuration"
+                                    0x566f3406: string = "Spell_VayneR_Duration"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BonusAttackDamage"
+                                    0x566f3406: string = "Spell_VayneR_BonusAD"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "TumbleCDReduction"
+                                    0x566f3406: string = "Spell_VayneR_TumbleCDR"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
         0x7f0f5a79: pointer = 0x4633d794 {
             0xf1f20d72: string = "game_buff_tooltip_VayneInquisition"
