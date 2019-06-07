@@ -6,14 +6,22 @@ entries: map[hash,embed] = {
     0x858995dc = 0x9b67e9f6 {
         0x87225880: u32 = 1
         0xa977f4ae: i32 = 82003
-        0x2d78c328: string = "MetalMordekaiser"
+        0x2d78c328: string = "PentakillMordekaiser"
         0x939e7b29: string = "faction:shadowisles,gender:male,element:dark,skinline:pentakill"
-        0x97f7188d: string = "ASSETS/Characters/Mordekaiser/Skins/Skin03/MordekaiserLoadScreen_3.dds"
+        0x97f7188d: string = "ASSETS/Characters/Mordekaiser/Skins/Skin03/MordekaiserLoadscreen_3.MordeVGU.dds"
         0x8f7b194f: embed = 0x8f7b194f {
             0xd65bac4d: list[string] = {
                 "Mordekaiser"
+                "MordekaiserSkin03"
             }
             0xf8f29f92: list[embed] = {
+                0xa4416515 {
+                    0x8d39bde6: string = "Mordekaiser_Base_SFX"
+                    0x2a21ad00: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Mordekaiser/Skins/Base/Mordekaiser_Base_SFX_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Mordekaiser/Skins/Base/Mordekaiser_Base_SFX_events.bnk"
+                    }
+                }
                 0xa4416515 {
                     0x8d39bde6: string = "Mordekaiser_Base_VO"
                     0x2a21ad00: list[string] = {
@@ -24,10 +32,20 @@ entries: map[hash,embed] = {
                     0x3b13aa4b: bool = true
                 }
                 0xa4416515 {
-                    0x8d39bde6: string = "Mordekaiser_Base_SFX"
+                    0x8d39bde6: string = "Mordekaiser_Skin03_SFX"
                     0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Mordekaiser/Skins/Base/Mordekaiser_Base_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Mordekaiser/Skins/Base/Mordekaiser_Base_SFX_events.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Mordekaiser/Skins/Skin03/Mordekaiser_Skin03_SFX_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Mordekaiser/Skins/Skin03/Mordekaiser_Skin03_SFX_events.bnk"
+                    }
+                    0x12d8e384: list[string] = {
+                        "Play_sfx_MordekaiserSkin03_Dance_cast"
+                        "Play_sfx_MordekaiserSkin03_Dance_cast_02"
+                        "Play_sfx_MordekaiserSkin03_Dance_loop"
+                        "Play_sfx_MordekaiserSkin03_Dance_loop_crowd"
+                        "Play_sfx_MordekaiserSkin03_Dance_loop_crowd2"
+                        "Stop_sfx_MordekaiserSkin03_Dance_cast"
+                        "Stop_sfx_MordekaiserSkin03_Dance_loop_crowd"
+                        "Stop_sfx_MordekaiserSkin03_Dance_loop_crowd2"
                     }
                 }
             }
@@ -49,26 +67,57 @@ entries: map[hash,embed] = {
         }
         0x13ec4bb1: string = "skin_universe_text_82003"
         0x45ff5904: embed = 0x6111d8a4 {
-            0xb14c976e: string = "ASSETS/Characters/Mordekaiser/Skins/Skin03/mordekaiser_metal.skl"
-            0xd6a00df6: string = "ASSETS/Characters/Mordekaiser/Skins/Skin03/mordekaiser_metal.skn"
-            0x3c6468f4: string = "ASSETS/Characters/Mordekaiser/Skins/Skin03/mordekaiser_metal_TX_CM.dds"
-            0xa1f805da: f32 = 1.2
+            0xb14c976e: string = "ASSETS/Characters/Mordekaiser/Skins/Skin03/Mordekaiser_Skin03.MordeVGU.skl"
+            0xd6a00df6: string = "ASSETS/Characters/Mordekaiser/Skins/Skin03/Mordekaiser_Skin03.MordeVGU.skn"
+            0x3c6468f4: string = "ASSETS/Characters/Mordekaiser/Skins/Skin03/Mordekaiser_Skin03_TX_CM.MordeVGU.dds"
             0x252f6884: f32 = 0.7
+            0x5c7a0332: option[vec3] = {
+                { 195, 265, 195 }
+            }
+            0x164ae4e9: bool = false
             0x561f4fea: rgba = { 0, 0, 0, 255 }
+            0x80b7f78f: string = "Guitar Speaker Crown Poro_ShadowIsles_Mat"
+            0x24725910: list[embed] = {
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Mordekaiser/Skins/Skin03/Mordekaiser_Skin03_Weapon_TX_CM.MordeVGU.dds"
+                    0xaad7612c: string = "Mace"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Mordekaiser/Skins/Skin03/Mordekaiser_Skin03_Guitar_TX_CM.MordeVGU.dds"
+                    0xaad7612c: string = "Guitar"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Mordekaiser/Skins/Skin03/Mordekaiser_Skin03_Speaker_TX_CM.MordeVGU.dds"
+                    0xaad7612c: string = "Speaker"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Mordekaiser/Skins/Skin03/Mordekaiser_Skin03_Crown_TX_CM.MordeVGU.dds"
+                    0xaad7612c: string = "Crown"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Poro_ShadowIsles_TX_CM.MordeVGU.dds"
+                    0xaad7612c: string = "Poro_ShadowIsles_Mat"
+                }
+            }
         }
         0x2d0d1f1d: string = "Metal"
         0x84186f3c: list[embed] = {
             0x33068165 {
-                0x9b0300f3: hash = 0x879ead30
-                0x1ecb978c: string = "BUFFBONE_CSTM_WEAPON_1"
+                0x9b0300f3: hash = 0xe0d45a2f
+                0x1ecb978c: string = "Buffbone_Glb_Mace_Loc"
+            }
+            0x33068165 {
+                0x9b0300f3: hash = 0xb8512b0b
+                0x1ecb978c: string = "root"
             }
         }
-        0x089aff69: string = "ASSETS/Characters/Mordekaiser/HUD/Mordekaiser_Circle_3.dds"
+        0x089aff69: string = "ASSETS/Characters/Mordekaiser/HUD/Mordekaiser_Circle_3.MordeVGU.dds"
+        0xd8f64a0d: link = 0xb2dcdf01
         0xe67284f4: option[string] = {
-            "ASSETS/Characters/Mordekaiser/HUD/Mordekaiser_Circle_0.dds"
+            "ASSETS/Characters/Mordekaiser/HUD/Mordekaiser_Circle_0.MordeVGU.dds"
         }
         0xac473fef: option[string] = {
-            "ASSETS/Characters/Mordekaiser/HUD/Mordekaiser_Square_0.dds"
+            "ASSETS/Characters/Mordekaiser/HUD/Mordekaiser_Square.MordeVGU.dds"
         }
         0xe862b379: f32 = 30
         0x62286e7e: link = 0xe6330d1e

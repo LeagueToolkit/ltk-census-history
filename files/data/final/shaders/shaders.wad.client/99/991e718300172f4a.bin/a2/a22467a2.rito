@@ -1,0 +1,90 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xa22467a2 = 0x205255d6 {
+        0x1d369c29: string = "Shaders/PostProcess/Distortion_Inverted_Vignette"
+        0x48a52ed9: list[embed] = {
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter0"
+                0xd872e2a5: vec4 = { 0.1, 2, 1, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Distortion_Intensity"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Dist_Vign_Size"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Distortion_Scale"
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { 0, 0.1, 1, 2 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Distortion_ScrollRate"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Invert_Vignette_Size"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Invert_Vignette_Sharpness"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter3"
+                0xd872e2a5: vec4 = { 0.84705883, 0.95686275, 0.9372549, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Invert_Vignette_Color"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter4"
+                0xd872e2a5: vec4 = { 0.7, 0.1, 0.9, 3 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Saturation_Multiplier"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Darken_Vignette_Bias"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Darken_Vignette_Size"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Darken_Vignette_Sharpness"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+        }
+        0x3291437b: list[embed] = {
+            0x60a292e6 {
+                0x8d39bde6: string = "DISTORT"
+            }
+        }
+        0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "Diffuse_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/velvet_Nrm_pyke.dds"
+            }
+        }
+    }
+}
