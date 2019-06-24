@@ -1,0 +1,79 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc0e01d90 = 0x205255d6 {
+        0x1d369c29: string = "Shaders/StaticMesh/TFT_Glow"
+        0x48a52ed9: list[embed] = {
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter0"
+                0xd872e2a5: vec4 = { 0.1882353, 0.41568628, 0.84313726, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Glow_Color_Rim"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter1"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Alpha_R_Opacity"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Alpha_B_Opacity"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "B_Weight_Blend"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "G_Weight_Blend"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { 0, 1, 1, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Alpha_G_Opacity"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "B_Tiling_XY"
+                        0x0640657c: u32 = 6
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "R_Rotation_Speed"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter4"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "B_Scroll_Speed_XY"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+        }
+        0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "Glow_Texture"
+                0x32b374fa: string = "ASSETS/Maps/KitPieces/TFT/textures/TFT_BattleField_CenterDecal.dds"
+            }
+        }
+        0xae29287b: map[string,string] = {
+            "FEATURE_BLOOM" = "1"
+        }
+        0x25b76221: u32 = 1
+    }
+}

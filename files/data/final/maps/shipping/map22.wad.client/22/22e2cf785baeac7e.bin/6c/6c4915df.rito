@@ -1,0 +1,43 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6c4915df = 0x6f870247 {
+        0x19efbfdb: string = "TemplateTrait"
+        0x8bee2972: string = "ASSETS/Perks/Template/7000.dds"
+        0x9e0b0655: list[embed] = {
+            0xc130c1e5 {
+                0x749eab2b: u32 = 25000
+                0x647c1dc9: option[u32] = {
+                    25000
+                }
+                0x02490112: string = "TemplateTraitSpell"
+                0xc13d6d31: list[embed] = {
+                    0x62ff42f4 {
+                        0x8d39bde6: hash = 0xb105e50c
+                        0x425ed3ca: f32 = 420
+                    }
+                }
+            }
+            0xc130c1e5 {
+                0x749eab2b: u32 = 25000
+                0x647c1dc9: option[u32] = {
+                    25000
+                }
+                0x96017380: u8 = 2
+                0x02490112: string = "TemplateTraitSpell2"
+                0xc13d6d31: list[embed] = {
+                    0x62ff42f4 {
+                        0x8d39bde6: hash = 0xb105e50c
+                        0x425ed3ca: f32 = 3.14
+                    }
+                    0x62ff42f4 {
+                        0x8d39bde6: hash = 0x2ee0698f
+                        0x425ed3ca: f32 = 1
+                    }
+                }
+            }
+        }
+    }
+}

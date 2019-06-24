@@ -7,13 +7,10 @@ entries: map[hash,embed] = {
         0xc8e37ef0: string = "TristanaE"
         0x56d2be52: pointer = 0x43368569 {
             0xecf3f88d: u32 = 6282
-            0x74d44065: string = "game_spell_displayname_TristanaE"
-            0xf1f20d72: string = "game_spell_description_TristanaE"
-            0x9a5a3a84: string = "game_spell_tooltip_DetonatingShot"
-            0x2ea2820c: string = "game_spell_levelup_DetonatingShot"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "PassiveBaseDamage"
+                    0x246b0d8e: list[f32] = {
                         30
                         55
                         80
@@ -22,20 +19,12 @@ entries: map[hash,embed] = {
                         155
                         180
                     }
+                    0x6d3ccfd7: f32 = 30
+                    0xe7b832f2: string = "P + 25"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "PassiveRadius"
+                    0x246b0d8e: list[f32] = {
                         300
                         300
                         300
@@ -44,10 +33,25 @@ entries: map[hash,embed] = {
                         300
                         300
                     }
+                    0x6d3ccfd7: f32 = 300
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        70
+                0x005008a6 {
+                    0x19efbfdb: string = "ActiveTowerRadius"
+                    0x246b0d8e: list[f32] = {
+                        600
+                        600
+                        600
+                        600
+                        600
+                        600
+                        600
+                    }
+                    0x6d3ccfd7: f32 = 600
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ActiveBaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        60
                         70
                         80
                         90
@@ -55,10 +59,39 @@ entries: map[hash,embed] = {
                         110
                         120
                     }
+                    0x6d3ccfd7: f32 = 60
+                    0xe7b832f2: string = "P + 10"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.5
+                0x005008a6 {
+                    0x19efbfdb: string = "ActivePerStackAmp"
+                    0x246b0d8e: list[f32] = {
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                    }
+                    0x6d3ccfd7: f32 = 0.3
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ActiveDuration"
+                    0x246b0d8e: list[f32] = {
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                    }
+                    0x6d3ccfd7: f32 = 4
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ActiveBADRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.3
                         0.5
                         0.7
                         0.9
@@ -66,35 +99,83 @@ entries: map[hash,embed] = {
                         1.3
                         1.5
                     }
+                    0x6d3ccfd7: f32 = 0.3
+                    0xe7b832f2: string = "P + 0.2"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
+                0x005008a6 {
+                    0x19efbfdb: string = "ActiveMaxStacks"
+                    0x246b0d8e: list[f32] = {
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
                     }
+                    0x6d3ccfd7: f32 = 4
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        500
-                        500
-                        500
-                        500
-                        500
-                        500
-                        500
+                0x005008a6 {
+                    0x19efbfdb: string = "ActiveRadius"
+                    0x246b0d8e: list[f32] = {
+                        300
+                        300
+                        300
+                        300
+                        300
+                        300
+                        300
                     }
+                    0x6d3ccfd7: f32 = 300
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
             }
-            0x295c2889: f32 = 0.5
-            0xd7141e61: f32 = 0.25
+            0x94572284: map[hash,pointer] = {
+                0x2dc2de2b = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xe8ec14f2
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.25
+                        }
+                    }
+                }
+                0x1e8d73fe = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xd928f29f
+                        }
+                        0xcd156c7f {
+                            0x1cd83c4b: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0x67b851b1
+                            }
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.5
+                        }
+                    }
+                }
+                0x481ba086 = 0x070e3593 {
+                    0x7f93cf4e: hash = 0x1e8d73fe
+                    0x2c77adff: pointer = 0x84a63373 {
+                        0xa066cc28: list[pointer] = {
+                            0x9ef92080 {
+                                0xe202bca9: f32 = 1
+                            }
+                            0xad106e67 {
+                                0x46144074: pointer = 0x332eb441 {
+                                    0xb386dcf1: hash = 0x10364260
+                                }
+                                0x4914452d: pointer = 0x332eb441 {
+                                    0xb386dcf1: hash = 0x3ff396be
+                                }
+                            }
+                        }
+                    }
+                }
+            }
             0xfbd16fb5: string = "Spell3"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Tristana/HUD/Icons2D/Tristana_E.dds"
@@ -197,12 +278,12 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "PassiveBaseDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_TristanaPassiveExplosionDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "ActiveBaseDamage"
                                     0x33c02d93: i32 = 4
                                     0x566f3406: string = "Spell_ListType_TristanaBaseChargeDamage"
                                 }
@@ -210,7 +291,7 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "Cost"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "ActiveBADRatio"
                                     0x33c02d93: i32 = 5
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_AttackDamageBonus"

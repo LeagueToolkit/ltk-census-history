@@ -363,10 +363,22 @@ entries: map[hash,embed] = {
                     { 153, 255, 153, 255 }
                 }
             }
+            "tftActiveRank" = 0x571b1165 {
+                0x3d7e6258: option[rgba] = {
+                    { 239, 239, 239, 255 }
+                }
+            }
+            "tftInactiveRank" = 0x571b1165 {
+                0x3d7e6258: option[rgba] = {
+                    { 105, 105, 105, 255 }
+                }
+            }
         }
         0x8ddbeb4b: string = "ASSETS/UX/Fonts/TextIcons.dds"
         0xf9e1dd39: map[string,embed] = {
-            "scaleMana" = 0xede5bb41 {}
+            "scaleMana" = 0xede5bb41 {
+                0x81e208ef: f32 = 1
+            }
             "scaleManaRegen" = 0xede5bb41 {
                 0x58637fda: vec2 = { 24, 0 }
             }
@@ -375,12 +387,15 @@ entries: map[hash,embed] = {
             }
             "scaleMR" = 0xede5bb41 {
                 0x58637fda: vec2 = { 72, 0 }
+                0x81e208ef: f32 = 2
             }
             "scaleMS" = 0xede5bb41 {
                 0x58637fda: vec2 = { 96, 0 }
+                0x81e208ef: f32 = 1
             }
             "scaleAD" = 0xede5bb41 {
                 0x58637fda: vec2 = { 0, 24 }
+                0x81e208ef: f32 = 2
             }
             "scaleSV" = 0xede5bb41 {
                 0x58637fda: vec2 = { 24, 24 }
@@ -390,25 +405,29 @@ entries: map[hash,embed] = {
             }
             "cooldown" = 0xede5bb41 {
                 0x58637fda: vec2 = { 72, 24 }
-                0x81e208ef: f32 = 2
             }
             "fireball" = 0xede5bb41 {
                 0x58637fda: vec2 = { 96, 24 }
+                0x81e208ef: f32 = 2
             }
             "scaleArmor" = 0xede5bb41 {
                 0x58637fda: vec2 = { 0, 48 }
+                0x81e208ef: f32 = 3
             }
             "scaleAS" = 0xede5bb41 {
                 0x58637fda: vec2 = { 24, 48 }
+                0x81e208ef: f32 = 2
             }
             "scaleCooldown" = 0xede5bb41 {
                 0x58637fda: vec2 = { 48, 48 }
             }
             "scaleCrit" = 0xede5bb41 {
                 0x58637fda: vec2 = { 72, 48 }
+                0x81e208ef: f32 = 3
             }
             "scaleHealth" = 0xede5bb41 {
                 0x58637fda: vec2 = { 96, 48 }
+                0x81e208ef: f32 = 1
             }
             "scaleLS" = 0xede5bb41 {
                 0x58637fda: vec2 = { 0, 72 }
@@ -422,13 +441,140 @@ entries: map[hash,embed] = {
                 0x81e208ef: f32 = 2
             }
             "scaleRange" = 0xede5bb41 {
-                0x58637fda: vec2 = { 0, 96 }
+                0x58637fda: vec2 = { 72, 96 }
             }
             "scaleAPen" = 0xede5bb41 {
-                0x58637fda: vec2 = { 24, 96 }
+                0x58637fda: vec2 = { 96, 96 }
             }
             "scaleHPRegen" = 0xede5bb41 {
+                0x58637fda: vec2 = { 0, 96 }
+            }
+            "tftRightArrow" = 0xede5bb41 {
+                0x58637fda: vec2 = { 20, 96 }
+                0x6747c0fa: vec2 = { 13, 11 }
+            }
+            "goldCoins" = 0xede5bb41 {
                 0x58637fda: vec2 = { 48, 96 }
+                0x6747c0fa: vec2 = { 17, 16 }
+            }
+            "star" = 0xede5bb41 {
+                0x58637fda: vec2 = { 48, 120 }
+                0x6747c0fa: vec2 = { 16, 16 }
+            }
+            "traitDemon" = 0xede5bb41 {
+                0x58637fda: vec2 = { 72, 120 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 4
+            }
+            "traitDragon" = 0xede5bb41 {
+                0x58637fda: vec2 = { 96, 120 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 4
+            }
+            "traitExile" = 0xede5bb41 {
+                0x58637fda: vec2 = { 0, 144 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 3
+            }
+            "traitGlacial" = 0xede5bb41 {
+                0x58637fda: vec2 = { 24, 144 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 2
+            }
+            "traitRobot" = 0xede5bb41 {
+                0x58637fda: vec2 = { 48, 144 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 3
+            }
+            "traitImperial" = 0xede5bb41 {
+                0x58637fda: vec2 = { 72, 144 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 4
+            }
+            "traitNoble" = 0xede5bb41 {
+                0x58637fda: vec2 = { 96, 144 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 3
+            }
+            "traitNinja" = 0xede5bb41 {
+                0x58637fda: vec2 = { 0, 168 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 2
+            }
+            "traitPirate" = 0xede5bb41 {
+                0x58637fda: vec2 = { 24, 168 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 3
+            }
+            "traitPhantom" = 0xede5bb41 {
+                0x58637fda: vec2 = { 48, 168 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 3
+            }
+            "traitWild" = 0xede5bb41 {
+                0x58637fda: vec2 = { 72, 168 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 3
+            }
+            "traitVoid" = 0xede5bb41 {
+                0x58637fda: vec2 = { 96, 168 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 3
+            }
+            "traitYordle" = 0xede5bb41 {
+                0x58637fda: vec2 = { 0, 192 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 4
+            }
+            "traitAssassin" = 0xede5bb41 {
+                0x58637fda: vec2 = { 24, 192 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 3
+            }
+            "traitBlademaster" = 0xede5bb41 {
+                0x58637fda: vec2 = { 48, 192 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 3
+            }
+            "traitBrawler" = 0xede5bb41 {
+                0x58637fda: vec2 = { 72, 192 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 3
+            }
+            "traitElementalist" = 0xede5bb41 {
+                0x58637fda: vec2 = { 96, 192 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 3
+            }
+            "traitGuardian" = 0xede5bb41 {
+                0x58637fda: vec2 = { 0, 216 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 2
+            }
+            "traitGunslinger" = 0xede5bb41 {
+                0x58637fda: vec2 = { 24, 216 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 2
+            }
+            "traitKnight" = 0xede5bb41 {
+                0x58637fda: vec2 = { 48, 216 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 2
+            }
+            "traitRanger" = 0xede5bb41 {
+                0x58637fda: vec2 = { 72, 216 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 3
+            }
+            "traitShapeshifter" = 0xede5bb41 {
+                0x58637fda: vec2 = { 96, 216 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 3
+            }
+            "traitSorcerer" = 0xede5bb41 {
+                0x58637fda: vec2 = { 0, 240 }
+                0x6747c0fa: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 4
             }
         }
     }
