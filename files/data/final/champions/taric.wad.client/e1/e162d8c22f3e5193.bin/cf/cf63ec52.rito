@@ -8,12 +8,6 @@ entries: map[hash,embed] = {
         0x56d2be52: pointer = 0x43368569 {
             0x9c677a2c: u32 = 128
             0xecf3f88d: u32 = 6826
-            0x44b7e8dd: string = "TaricPassiveAttack"
-            0x74d44065: string = "game_spell_displayname_TaricPassiveAttack"
-            0xf1f20d72: string = "game_spell_description_TaricPassiveAttack"
-            0x9a5a3a84: string = "game_spell_tooltip_TaricPassiveAttack"
-            0x2ea2820c: string = "game_spell_levelup_TaricPassiveAttack"
-            0xd7141e61: f32 = 1
             0xfbd16fb5: string = "Passive_Attack1"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Taric/HUD/Icons2D/Taric_Passive.dds"
@@ -34,6 +28,7 @@ entries: map[hash,embed] = {
             0x4c77a6c3: bool = true
             0xd13b3d08: bool = true
             0x1c232eba: bool = true
+            0xf589de4a: pointer = 0x33c0d965 {}
             0xdef080bd: bool = true
             0x1b9cbd9b: list[f32] = {
                 1000
@@ -84,7 +79,15 @@ entries: map[hash,embed] = {
             }
         }
         0x7f0f5a79: pointer = 0x4633d794 {
-            0xf1f20d72: string = "game_buff_tooltip_TaricPassiveAttack"
+            0xf1f20d72: string = "Spell_TaricPassive_Summary"
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "TaricPassiveAttack"
+                0x57b8b11b: link = 0x10f01d27
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Spell_TaricPassive_Name"
+                    "keyTooltip" = "Spell_TaricPassive_Summary"
+                }
+            }
         }
     }
 }

@@ -8,11 +8,10 @@ entries: map[hash,embed] = {
         0x56d2be52: pointer = 0x43368569 {
             0x9c677a2c: u32 = 20
             0xecf3f88d: u32 = 8192
-            0x74d44065: string = "game_spell_displayname_KhazixPassive"
-            0xf1f20d72: string = "game_spell_description_KhazixPassive"
-            0x9a5a3a84: string = "game_spell_tooltip_KhazixPassive"
-            0x2ea2820c: string = "game_spell_levelup_KhazixPassive"
             0xfbd16fb5: string = ""
+            0xeed67cd5: list[string] = {
+                "ASSETS/Characters/KhaZix/HUD/Icons2D/Khazix_P.dds"
+            }
             0x9ecac3a1: list[f32] = {
                 0
                 0
@@ -58,6 +57,17 @@ entries: map[hash,embed] = {
                 0
             }
             0x5d46764f: pointer = 0x645ba277 {}
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "KhazixPassive"
+                    0x57b8b11b: link = 0x30d7b387
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_KhazixPassive_Name"
+                        "keySummary" = "Spell_KhazixPassive_Summary"
+                        "keyTooltip" = "Spell_KhazixPassive_Tooltip"
+                    }
+                }
+            }
         }
         0x7f0f5a79: pointer = 0x4633d794 {
             0xf1f20d72: string = "game_buff_tooltip_KhazixPassive"

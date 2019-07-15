@@ -82,7 +82,7 @@ entries: map[hash,embed] = {
             }
             0x72c16d9e = 0x5bd9a1e6 {
                 0xb49f754e: embed = 0x9a4b299d {
-                    0x0329f1d7: string = "ASSETS/Characters/PetPenguKnight/skins/base/animations/Pengu_Idle.Companions.anm"
+                    0x0329f1d7: string = "ASSETS/Characters/PetPenguKnight/Animations/Pengu_Idle.Companions.anm"
                 }
                 0xd39243c4: hash = 0x3ddc94d8
             }
@@ -227,16 +227,9 @@ entries: map[hash,embed] = {
             }
             0xfb65e91b = 0x5bd9a1e6 {
                 0xb49f754e: embed = 0x9a4b299d {
-                    0x0329f1d7: string = "ASSETS/Characters/PetPenguKnight/skins/base/animations/Pengu_Cast.Companions.anm"
+                    0x0329f1d7: string = "ASSETS/Characters/PetPenguKnight/Animations/Pengu_Cast.Companions.anm"
                 }
                 0xd39243c4: hash = 0x3ddc94d8
-                0xf598463e: map[hash,pointer] = {
-                    0xe80c7281 = 0x9c566034 {
-                        0x9d477e74: string = "Play_sfx_pet_penguknight_cast3d"
-                        0xd91e32ee: bool = false
-                    }
-                }
-                0x8d80922b: u32 = 2
             }
             0x08df004b = 0x5bd9a1e6 {
                 0xb49f754e: embed = 0x9a4b299d {
@@ -267,7 +260,7 @@ entries: map[hash,embed] = {
             }
             0x62b65165 = 0x5bd9a1e6 {
                 0xb49f754e: embed = 0x9a4b299d {
-                    0x0329f1d7: string = "ASSETS/Characters/PetPenguKnight/skins/base/animations/Pengu_Idle_Var.Companions.anm"
+                    0x0329f1d7: string = "ASSETS/Characters/PetPenguKnight/Animations/Pengu_Idle_Var.Companions.anm"
                 }
                 0xd39243c4: hash = 0x3ddc94d8
                 0xf598463e: map[hash,pointer] = {
@@ -306,7 +299,7 @@ entries: map[hash,embed] = {
             }
             0xbc020bf5 = 0x5bd9a1e6 {
                 0xb49f754e: embed = 0x9a4b299d {
-                    0x0329f1d7: string = "ASSETS/Characters/PetPenguKnight/skins/base/animations/Pengu_Idle_Var2.Companions.anm"
+                    0x0329f1d7: string = "ASSETS/Characters/PetPenguKnight/Animations/Pengu_Idle_Var2.Companions.anm"
                 }
                 0xd39243c4: hash = 0x3ddc94d8
                 0xf598463e: map[hash,pointer] = {
@@ -320,9 +313,6 @@ entries: map[hash,embed] = {
                     0x0329f1d7: string = "ASSETS/Characters/PetPenguKnight/skins/base/animations/Pengu_Celebrate.Companions.anm"
                 }
                 0xd39243c4: hash = 0x3ddc94d8
-                0xf598463e: map[hash,pointer] = {
-                    0x43ad09aa = 0x76b94c49 {}
-                }
             }
             0x33b3dba0 = 0x8d30a7c0 {
                 0x078cafd9: list[hash] = {
@@ -343,6 +333,44 @@ entries: map[hash,embed] = {
                 }
                 0xd39243c4: hash = 0x3ddc94d8
                 0x8d80922b: u32 = 5
+            }
+            0x3e034b32 = 0x5bd9a1e6 {
+                0xb49f754e: embed = 0x9a4b299d {
+                    0x0329f1d7: string = "ASSETS/Characters/PetPenguKnight/Animations/Pengu_Cast.Companions.anm"
+                }
+                0xd39243c4: hash = 0x3ddc94d8
+                0xf598463e: map[hash,pointer] = {
+                    0xe80c7281 = 0x9c566034 {
+                        0x9d477e74: string = "Play_sfx_pet_penguknight_cast3d"
+                        0xd91e32ee: bool = false
+                    }
+                }
+            }
+            0xdc648dd7 = 0x5bd9a1e6 {
+                0xb49f754e: embed = 0x9a4b299d {
+                    0x0329f1d7: string = "ASSETS/Characters/PetPenguKnight/skins/base/animations/Pengu_Joke.Companions.anm"
+                }
+                0xd39243c4: hash = 0x3ddc94d8
+                0xf598463e: map[hash,pointer] = {
+                    0xeed2417d = 0x9c566034 {
+                        0x9d477e74: string = "Play_sfx_pet_penguknight_joke3d"
+                        0xd91e32ee: bool = false
+                        0x488bfb2c: bool = true
+                    }
+                }
+            }
+            0x436175ea = 0x5bd9a1e6 {
+                0xb49f754e: embed = 0x9a4b299d {
+                    0x0329f1d7: string = "ASSETS/Characters/PetPenguKnight/skins/base/animations/Pengu_Taunt.Companions.anm"
+                }
+                0xd39243c4: hash = 0x3ddc94d8
+                0xf598463e: map[hash,pointer] = {
+                    0x968821ce = 0x9c566034 {
+                        0x9d477e74: string = "Play_sfx_pet_penguknight_taunt3d"
+                        0xd91e32ee: bool = false
+                        0x488bfb2c: bool = true
+                    }
+                }
             }
         }
         0xde04746e: map[hash,embed] = {
@@ -1050,44 +1078,11 @@ entries: map[hash,embed] = {
             16900014025196136240 = 0x3d7f07ef {
                 0xac251151: f32 = 0.1
             }
-            8269010920418961691 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
+            18115141380989377542 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
             }
-            13222943559606724891 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            8235133515468237083 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            1255103311986944283 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            13987674972129454363 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            18217347594020317467 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            6521702303238842651 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            12167572169725176091 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            3084207953526778139 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            2413106475869530395 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            7642587977497307419 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            18115141380989377542 = 0x1620ad7f {
-                0xca2b847d: hash = 0xb781551b
-            }
-            15476458266264460294 = 0x1620ad7f {
-                0xca2b847d: hash = 0xb781551b
+            15476458266264460294 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
             }
             16844572059196054534 = 0x1620ad7f {
                 0xca2b847d: hash = 0xb781551b
@@ -1112,9 +1107,6 @@ entries: map[hash,embed] = {
             }
             8235133513898777606 = 0x1620ad7f {
                 0xca2b847d: hash = 0xb781551b
-            }
-            7112962158360124422 = 0x3d7f07ef {
-                0xac251151: f32 = 0.1
             }
             8269010918849502214 = 0x3d7f07ef {
                 0xac251151: f32 = 0.1
@@ -1155,17 +1147,17 @@ entries: map[hash,embed] = {
             12895556604998048774 = 0x1620ad7f {
                 0xca2b847d: hash = 0xb781551b
             }
-            18115141379997192549 = 0x1620ad7f {
-                0xca2b847d: hash = 0xb781551b
+            18115141379997192549 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
             }
-            18115141380266356126 = 0x1620ad7f {
-                0xca2b847d: hash = 0xb781551b
+            18115141380266356126 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
             }
-            15476458265272275301 = 0x1620ad7f {
-                0xca2b847d: hash = 0xb781551b
+            15476458265272275301 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
             }
-            15476458265541438878 = 0x1620ad7f {
-                0xca2b847d: hash = 0xb781551b
+            15476458265541438878 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
             }
             16844572058203869541 = 0x1620ad7f {
                 0xca2b847d: hash = 0xb781551b
@@ -1208,12 +1200,6 @@ entries: map[hash,embed] = {
             }
             8235133513175756190 = 0x1620ad7f {
                 0xca2b847d: hash = 0xb781551b
-            }
-            7112962157367939429 = 0x3d7f07ef {
-                0xac251151: f32 = 0.1
-            }
-            7112962157637103006 = 0x3d7f07ef {
-                0xac251151: f32 = 0.1
             }
             8269010917857317221 = 0x3d7f07ef {
                 0xac251151: f32 = 0.1
@@ -1602,86 +1588,35 @@ entries: map[hash,embed] = {
             13590883338882243590 = 0x1620ad7f {
                 0xca2b847d: hash = 0xb781551b
             }
-            18115141382558837019 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            15476458267833919771 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            16844572060765514011 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            16852854063382259995 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            2291038463025604891 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            13630352414864697627 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            11374364256446572827 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
             11374364255832206539 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            7112962159929583899 = 0x1620ad7f {
                 0xca2b847d: hash = 0x08df004b
             }
             7112962159315217611 = 0x1620ad7f {
                 0xca2b847d: hash = 0x08df004b
             }
-            13547403780196526363 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
             13547403779582160075 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            18239173574141536539 = 0x1620ad7f {
                 0xca2b847d: hash = 0x08df004b
             }
             18239173573527170251 = 0x1620ad7f {
                 0xca2b847d: hash = 0x08df004b
             }
-            1374715316502128923 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
             1374715315887762635 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            639229998450207003 = 0x3d7f07ef {
-                0xac251151: f32 = 0.05
-            }
-            1690960926807025947 = 0x1620ad7f {
                 0xca2b847d: hash = 0x08df004b
             }
             1690960926192659659 = 0x1620ad7f {
                 0xca2b847d: hash = 0x08df004b
             }
-            2144300733559073051 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
             2144300732944706763 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            12895556606567508251 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            13590883340451703067 = 0x1620ad7f {
-                0xca2b847d: hash = 0x08df004b
-            }
-            10469693184398453019 = 0x1620ad7f {
                 0xca2b847d: hash = 0x08df004b
             }
             18239173572572077062 = 0x1620ad7f {
                 0xca2b847d: hash = 0xb781551b
             }
-            18115141381495327733 = 0x1620ad7f {
-                0xca2b847d: hash = 0xb781551b
+            18115141381495327733 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
             }
-            15476458266770410485 = 0x1620ad7f {
-                0xca2b847d: hash = 0xb781551b
+            15476458266770410485 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
             }
             16844572059702004725 = 0x1620ad7f {
                 0xca2b847d: hash = 0xb781551b
@@ -1740,11 +1675,11 @@ entries: map[hash,embed] = {
             12895556605503998965 = 0x1620ad7f {
                 0xca2b847d: hash = 0xb781551b
             }
-            18115141380258468428 = 0x1620ad7f {
-                0xca2b847d: hash = 0xb781551b
+            18115141380258468428 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
             }
-            15476458265533551180 = 0x1620ad7f {
-                0xca2b847d: hash = 0xb781551b
+            15476458265533551180 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
             }
             16844572058465145420 = 0x1620ad7f {
                 0xca2b847d: hash = 0xb781551b
@@ -1835,6 +1770,222 @@ entries: map[hash,embed] = {
             }
             9182313508639960478 = 0x1620ad7f {
                 0xca2b847d: hash = 0xb781551b
+            }
+            18115141382558837019 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            15476458267833919771 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            4468497937619872027 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            16844572060765514011 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            4534956809859229979 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            16852854063382259995 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            2291038463025604891 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            13630352414864697627 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            8580522738029291803 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            9182313510932441371 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            15343130298143861019 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            11374364256446572827 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            13222943559606724891 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            8235133515468237083 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            7112962159929583899 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            13547403780196526363 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            8269010920418961691 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            1255103311986944283 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            639229998450207003 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            18239173574141536539 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            1374715316502128923 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            13987674972129454363 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            18217347594020317467 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            6521702303238842651 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            12167572169725176091 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            3084207953526778139 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            1690960926807025947 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            2144300733559073051 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            2413106475869530395 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            7642587977497307419 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            12895556606567508251 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            13590883340451703067 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            10469693184398453019 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            12432335883953629467 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            17332369977816508699 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            16900014028358019355 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            18115141379381480242 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            15476458264656562994 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            4468497934442515250 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            16844572057588157234 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            4534956806681873202 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            16852854060204903218 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            2291038459848248114 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            13630352411687340850 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            8580522734851935026 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            9182313507755084594 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            15343130294966504242 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            11374364253269216050 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            13222943556429368114 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            8235133512290880306 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            7112962156752227122 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            13547403777019169586 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            8269010917241604914 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            1255103308809587506 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            639229995272850226 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            18239173570964179762 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            1374715313324772146 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            13987674968952097586 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            18217347590842960690 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            6521702300061485874 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            12167572166547819314 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            3084207950349421362 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            1690960923629669170 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            2144300730381716274 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            2413106472692173618 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            7642587974319950642 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            12895556603390151474 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            13590883337274346290 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            10469693181221096242 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            12432335880776272690 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            17332369974639151922 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
+            }
+            16900014025180662578 = 0x3d7f07ef {
+                0xac251151: f32 = 0.1
             }
         }
     }

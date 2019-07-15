@@ -44,6 +44,44 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
             }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "MinionReductionModifier"
+                    0x246b0d8e: list[f32] = {
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                    }
+                    0x6d3ccfd7: f32 = 0.25
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "HealRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.1
+                        0.13
+                        0.16
+                        0.19
+                        0.22
+                        0.25
+                        0.28
+                    }
+                    0x6d3ccfd7: f32 = 0.1
+                    0xe7b832f2: string = "P + 0.03"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x1b1a8812 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x83dbe64e
+                        }
+                    }
+                }
+            }
             0x295c2889: f32 = 0.1
             0xd7141e61: f32 = 0.6
             0xfbd16fb5: string = "Spell3"
@@ -60,7 +98,7 @@ entries: map[hash,embed] = {
                 0.75
             }
             0x18330965: f32 = -0.75
-            0x3a4c4690: f32 = -0.75
+            0x3a4c4690: f32 = -1
             0xe321919c: bool = true
             0xd13b3d08: bool = true
             0x1b9cbd9b: list[f32] = {
@@ -119,14 +157,17 @@ entries: map[hash,embed] = {
                 2
             }
             0xd997830a: list[f32] = {
-                40
-                45
                 50
-                55
-                60
-                65
+                50
+                50
+                50
+                50
+                50
             }
             0x77b9f839: u32 = 1
+            0x7c4baddc: option[f32] = {
+                0.35
+            }
             0x048557ff: embed = 0x7dd1a902 {
                 0x2831605b: pointer = 0xa4e13b57 {
                     0xb482c52c: string = "CassiopeiaE"
@@ -146,7 +187,10 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_CassiopeiaEBonusDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Cost"
+                                    0x5127f14d: string = "HealRatio"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_CassiopeiaE_HealRatio"
+                                    0xac307ed6: u32 = 1
                                 }
                             }
                         }

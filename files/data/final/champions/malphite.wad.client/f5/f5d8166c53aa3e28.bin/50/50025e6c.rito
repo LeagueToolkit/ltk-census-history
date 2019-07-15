@@ -7,7 +7,7 @@ entries: map[hash,embed] = {
         0xc8e37ef0: string = "Obduracy"
         0x56d2be52: pointer = 0x43368569 {
             0x9c677a2c: u32 = 4
-            0xecf3f88d: u32 = 15567
+            0xecf3f88d: u32 = 15983
             0x74d44065: string = "game_spell_displayname_Obduracy"
             0xf1f20d72: string = "game_spell_description_Obduracy"
             0x9a5a3a84: string = "game_spell_tooltip_Obduracy"
@@ -27,34 +27,34 @@ entries: map[hash,embed] = {
                 0x92d4987c {
                     0x425ed3ca: list[f32] = {
                         0
-                        15
-                        30
-                        45
+                        20
+                        40
                         60
-                        75
-                        90
+                        80
+                        100
+                        120
                     }
                 }
                 0x92d4987c {
                     0x425ed3ca: list[f32] = {
-                        6
-                        6
-                        6
-                        6
-                        6
-                        6
-                        6
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
                     }
                 }
                 0x92d4987c {
                     0x425ed3ca: list[f32] = {
-                        225
-                        225
-                        225
-                        225
-                        225
-                        225
-                        225
+                        400
+                        400
+                        400
+                        400
+                        400
+                        400
+                        400
                     }
                 }
                 0x92d4987c {
@@ -74,7 +74,158 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
             }
-            0x295c2889: f32 = 0.1
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "ThunderclapBuffDuration"
+                    0x246b0d8e: list[f32] = {
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                    }
+                    0x6d3ccfd7: f32 = 5
+                    0xe7b832f2: string = "P + 0"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ThunderclapBaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        5
+                        20
+                        35
+                        50
+                        65
+                        80
+                        95
+                    }
+                    0x6d3ccfd7: f32 = 5
+                    0xe7b832f2: string = "P + 15"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ThunderclapSlowDamage"
+                    0x246b0d8e: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                    0x6d3ccfd7: f32 = 2
+                    0xe7b832f2: string = "P + 0"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ThunderclapSplashAP"
+                    0x246b0d8e: list[f32] = {
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                    }
+                    0x6d3ccfd7: f32 = 0.2
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ThunderclapSplashArmor"
+                    0x246b0d8e: list[f32] = {
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                    }
+                    0x6d3ccfd7: f32 = 0.1
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ThunderclapBaseDamageAPRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                    }
+                    0x6d3ccfd7: f32 = 0.2
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ThunderclapBaseDamageArmorRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                    }
+                    0x6d3ccfd7: f32 = 0.15
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ThunderclapSplashDamage"
+                    0x246b0d8e: list[f32] = {
+                        0
+                        10
+                        20
+                        30
+                        40
+                        50
+                        60
+                    }
+                    0xe7b832f2: string = "P + 10"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0xf943352d = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x4d036a97
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xb61ae7ed
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xe77c77e5
+                            0x4cec2c8a: u8 = 1
+                        }
+                    }
+                    0xcbcac618: u8 = 0
+                    0x37070a8d: u8 = 1
+                }
+                0x185669f9 = 0x070e3593 {
+                    0x7f93cf4e: hash = 0xf943352d
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0x0e9256cb
+                    }
+                    0xcbcac618: u8 = 0
+                    0x37070a8d: u8 = 1
+                }
+                0x1dbb5920 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x491efe91
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xa2e24a19
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xffe1f707
+                            0x4cec2c8a: u8 = 1
+                        }
+                    }
+                    0xcbcac618: u8 = 0
+                    0x37070a8d: u8 = 1
+                }
+            }
+            0x295c2889: f32 = 0.4
             0xd7141e61: f32 = 0.15
             0xfbd16fb5: string = "Spell1"
             0xeed67cd5: list[string] = {
@@ -92,6 +243,7 @@ entries: map[hash,embed] = {
             0x18330965: f32 = -0.5
             0x3a4c4690: f32 = -0.5
             0xe321919c: bool = true
+            0x7e3432a0: bool = true
             0xb7250b1c: list[f32] = {
                 350
                 350
@@ -125,12 +277,12 @@ entries: map[hash,embed] = {
                 2
             }
             0xd997830a: list[f32] = {
-                25
-                25
-                25
-                25
-                25
-                25
+                30
+                35
+                40
+                45
+                50
+                55
             }
             0x5d46764f: pointer = 0x645ba277 {}
             0x048557ff: embed = 0x7dd1a902 {
@@ -154,9 +306,17 @@ entries: map[hash,embed] = {
                                     0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "ThunderclapBaseDamage"
                                     0x33c02d93: i32 = 2
                                     0x566f3406: string = "Spell_ListType_Damage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "ThunderclapSplashDamage"
+                                    0x566f3406: string = "Spell_Obduracy_Splash_Damage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cost"
+                                    0x566f3406: string = "Spell_ListType_Cost"
                                 }
                             }
                         }

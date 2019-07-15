@@ -25,8 +25,8 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
-                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x8d39bde6: string = "Parameter1"
+                0xd872e2a5: vec4 = { 1, 0, 0.5, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Fresnel_Size"
@@ -37,35 +37,35 @@ entries: map[hash,embed] = {
                         0x0640657c: u32 = 2
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "AlphaControl"
-                        0x0640657c: u32 = 12
-                    }
-                }
-            }
-            0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
-                0xd872e2a5: vec4 = { 0.5, 1, 1, 1 }
-                0x74672198: list[embed] = {
-                    0x14a2befa {
                         0x8d39bde6: string = "TopScroll_Control"
-                        0x0640657c: u32 = 1
+                        0x0640657c: u32 = 4
                     }
                     0x14a2befa {
                         0x8d39bde6: string = "Bloom_Intensity"
-                        0x0640657c: u32 = 2
+                        0x0640657c: u32 = 8
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "TopScroll_Scale"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "TopScroll_Speed"
                         0x0640657c: u32 = 12
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter5"
+                0x8d39bde6: string = "Parameter3"
                 0xd872e2a5: vec4 = { 0, 0, 1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "TopScroll_Speed"
+                        0x8d39bde6: string = "AlphaControl"
                         0x0640657c: u32 = 3
                     }
                     0x14a2befa {
@@ -75,7 +75,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter6"
+                0x8d39bde6: string = "Parameter4"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "TopScroll2_Speed"

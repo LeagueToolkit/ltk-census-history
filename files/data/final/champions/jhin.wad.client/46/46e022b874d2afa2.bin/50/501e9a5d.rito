@@ -4,7 +4,7 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x501e9a5d = 0xcf313c24 {
-        0x5192c999: f32 = 16
+        0x5192c999: f32 = 15
         0x6f5eb901: map[hash,embed] = {
             0x51af37ba = 0xfc27a63e {
                 0x1a116faf: list[embed] = {
@@ -367,7 +367,6 @@ entries: map[hash,embed] = {
                         0xfecc56e5: string = "VOAttackChamp"
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "AttackChampion2D"
-                            0x316428c4: f32 = -1
                         }
                     }
                 }
@@ -378,7 +377,6 @@ entries: map[hash,embed] = {
                         0xfecc56e5: string = "VOFirstMove"
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstMove2D"
-                            0x316428c4: f32 = -1
                         }
                     }
                 }
@@ -460,6 +458,18 @@ entries: map[hash,embed] = {
                         }
                         0x68fee3c4: bool = true
                     }
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "R"
+                        0x2aff6c4a: list[pointer] = {
+                            0x605ed8ec {
+                                0x56d2be52: hash = 0x95584a9b
+                            }
+                        }
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "cast3D"
+                        }
+                        0x68fee3c4: bool = true
+                    }
                 }
             }
             0x0b0f01e9 = 0xfc27a63e {
@@ -468,7 +478,6 @@ entries: map[hash,embed] = {
                         0xfecc56e5: string = "Respawn2D"
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "Respawn2D"
-                            0x316428c4: f32 = -1
                         }
                     }
                 }
@@ -507,7 +516,9 @@ entries: map[hash,embed] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 7
                                 0xf21bb0f8: list[pointer] = {
-                                    0xc6623d61 {}
+                                    0xc6623d61 {
+                                        0x805ea36e: bool = true
+                                    }
                                 }
                             }
                         }
@@ -529,7 +540,9 @@ entries: map[hash,embed] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 7
                                 0xf21bb0f8: list[pointer] = {
-                                    0xc6623d61 {}
+                                    0xc6623d61 {
+                                        0x805ea36e: bool = true
+                                    }
                                 }
                             }
                         }
@@ -551,6 +564,7 @@ entries: map[hash,embed] = {
                             0xc0a5d6dd: string = "Joke3DGeneral"
                             0x683ae1b9: string = "Joke3DGeneral"
                             0x415965e7: string = "Joke3DGeneral"
+                            0xe810044c: string = "Joke3DGeneral"
                         }
                         0x68fee3c4: bool = true
                     }
@@ -584,10 +598,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DAsheSkin11"
-                            0x683ae1b9: string = "FirstEncounter2DAsheSkin11"
-                            0x415965e7: string = "FirstEncounter2DAsheSkin11"
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "FirstEncounter - Dark Star Karma"
@@ -610,9 +623,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DKarmaSkin08"
-                            0x683ae1b9: string = "FirstEncounter2DKarmaSkin08"
-                            0x415965e7: string = "FirstEncounter2DKarmaSkin08"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "FirstEncounter - Dark Star Karma"
@@ -635,9 +648,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DKarmaSkin08"
-                            0x683ae1b9: string = "FirstEncounter2DKarmaSkin08"
-                            0x415965e7: string = "FirstEncounter2DKarmaSkin08"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "FirstEncounter - Dark Star Karma"
@@ -660,9 +673,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DKarmaSkin08"
-                            0x683ae1b9: string = "FirstEncounter2DKarmaSkin08"
-                            0x415965e7: string = "FirstEncounter2DKarmaSkin08"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "FirstEncounter - Dark Star Karma"
@@ -685,9 +698,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DKarmaSkin08"
-                            0x683ae1b9: string = "FirstEncounter2DKarmaSkin08"
-                            0x415965e7: string = "FirstEncounter2DKarmaSkin08"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "FirstEncounter - Dark Star Karma"
@@ -710,9 +723,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DKarmaSkin08"
-                            0x683ae1b9: string = "FirstEncounter2DKarmaSkin08"
-                            0x415965e7: string = "FirstEncounter2DKarmaSkin08"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "FirstEncounter - Dark Star Karma"
@@ -735,9 +748,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DKarmaSkin08"
-                            0x683ae1b9: string = "FirstEncounter2DKarmaSkin08"
-                            0x415965e7: string = "FirstEncounter2DKarmaSkin08"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "FirstEncounter - Dark Star Karma"
@@ -760,9 +773,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DKarmaSkin08"
-                            0x683ae1b9: string = "FirstEncounter2DKarmaSkin08"
-                            0x415965e7: string = "FirstEncounter2DKarmaSkin08"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "FirstEncounter - Dark Star Karma"
@@ -785,9 +798,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DKarmaSkin08"
-                            0x683ae1b9: string = "FirstEncounter2DKarmaSkin08"
-                            0x415965e7: string = "FirstEncounter2DKarmaSkin08"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "FirstEncounter - Dark Star Karma"
@@ -810,9 +823,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DKarmaSkin08"
-                            0x683ae1b9: string = "FirstEncounter2DKarmaSkin08"
-                            0x415965e7: string = "FirstEncounter2DKarmaSkin08"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Odyssey Kayn"
@@ -835,11 +848,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DKaynSkin02"
-                            0x683ae1b9: string = "FirstEncounter2DKaynSkin02"
-                            0x415965e7: string = "FirstEncounter2DKaynSkin02"
                             0x1b80126e: bool = true
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Cosmic Enchantress Lulu"
@@ -866,10 +878,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DCosmic"
-                            0x683ae1b9: string = "FirstEncounter2DCosmic"
-                            0x415965e7: string = "FirstEncounter2DCosmic"
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Cosmic Blade Master Yi"
@@ -892,10 +903,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DCosmic"
-                            0x683ae1b9: string = "FirstEncounter2DCosmic"
-                            0x415965e7: string = "FirstEncounter2DCosmic"
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Cosmic Dawn Rakan"
@@ -918,11 +928,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DRakanSkin01"
-                            0x683ae1b9: string = "FirstEncounter2DRakanSkin01"
-                            0x415965e7: string = "FirstEncounter2DRakanSkin01"
                             0x1b80126e: bool = true
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "FirstEncounter - Dark Star Shaco"
@@ -945,9 +954,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DShacoSkin08"
-                            0x683ae1b9: string = "FirstEncounter2DShacoSkin08"
-                            0x415965e7: string = "FirstEncounter2DShacoSkin08"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "FirstEncounter - Dark Star Shaco"
@@ -970,9 +979,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DShacoSkin08"
-                            0x683ae1b9: string = "FirstEncounter2DShacoSkin08"
-                            0x415965e7: string = "FirstEncounter2DShacoSkin08"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "FirstEncounter - Dark Star Shaco"
@@ -995,9 +1004,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DShacoSkin08"
-                            0x683ae1b9: string = "FirstEncounter2DShacoSkin08"
-                            0x415965e7: string = "FirstEncounter2DShacoSkin08"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "FirstEncounter - Dark Star Shaco"
@@ -1020,9 +1029,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DShacoSkin08"
-                            0x683ae1b9: string = "FirstEncounter2DShacoSkin08"
-                            0x415965e7: string = "FirstEncounter2DShacoSkin08"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "FirstEncounter - Dark Star Shaco"
@@ -1045,9 +1054,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DShacoSkin08"
-                            0x683ae1b9: string = "FirstEncounter2DShacoSkin08"
-                            0x415965e7: string = "FirstEncounter2DShacoSkin08"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "FirstEncounter - Dark Star Shaco"
@@ -1070,9 +1079,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DShacoSkin08"
-                            0x683ae1b9: string = "FirstEncounter2DShacoSkin08"
-                            0x415965e7: string = "FirstEncounter2DShacoSkin08"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "FirstEncounter - Dark Star Shaco"
@@ -1095,9 +1104,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DShacoSkin08"
-                            0x683ae1b9: string = "FirstEncounter2DShacoSkin08"
-                            0x415965e7: string = "FirstEncounter2DShacoSkin08"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Odyssey Sona"
@@ -1120,11 +1129,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DSonaSkin09"
-                            0x683ae1b9: string = "FirstEncounter2DSonaSkin09"
-                            0x415965e7: string = "FirstEncounter2DSonaSkin09"
                             0x1b80126e: bool = true
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Odyssey Sona"
@@ -1147,11 +1155,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DSonaSkin09"
-                            0x683ae1b9: string = "FirstEncounter2DSonaSkin09"
-                            0x415965e7: string = "FirstEncounter2DSonaSkin09"
                             0x1b80126e: bool = true
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Odyssey Sona"
@@ -1174,11 +1181,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DSonaSkin09"
-                            0x683ae1b9: string = "FirstEncounter2DSonaSkin09"
-                            0x415965e7: string = "FirstEncounter2DSonaSkin09"
                             0x1b80126e: bool = true
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Odyssey Sona"
@@ -1201,11 +1207,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DSonaSkin09"
-                            0x683ae1b9: string = "FirstEncounter2DSonaSkin09"
-                            0x415965e7: string = "FirstEncounter2DSonaSkin09"
                             0x1b80126e: bool = true
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Odyssey Sona"
@@ -1228,11 +1233,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DSonaSkin09"
-                            0x683ae1b9: string = "FirstEncounter2DSonaSkin09"
-                            0x415965e7: string = "FirstEncounter2DSonaSkin09"
                             0x1b80126e: bool = true
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Odyssey Sona"
@@ -1255,11 +1259,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DSonaSkin09"
-                            0x683ae1b9: string = "FirstEncounter2DSonaSkin09"
-                            0x415965e7: string = "FirstEncounter2DSonaSkin09"
                             0x1b80126e: bool = true
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Odyssey Sona"
@@ -1282,11 +1285,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DSonaSkin09"
-                            0x683ae1b9: string = "FirstEncounter2DSonaSkin09"
-                            0x415965e7: string = "FirstEncounter2DSonaSkin09"
                             0x1b80126e: bool = true
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Dark Star Thresh"
@@ -1309,8 +1311,7 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DThreshSkin05"
-                            0x683ae1b9: string = "FirstEncounter2DThreshSkin05"
-                            0x415965e7: string = "FirstEncounter2DThreshSkin05"
+                            0x307b0406: u32 = 1
                         }
                         0x68fee3c4: bool = true
                     }
@@ -1335,8 +1336,7 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DVarusSkin06"
-                            0x683ae1b9: string = "FirstEncounter2DVarusSkin06"
-                            0x415965e7: string = "FirstEncounter2DVarusSkin06"
+                            0x307b0406: u32 = 1
                         }
                         0x68fee3c4: bool = true
                     }
@@ -1361,10 +1361,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DXayahSkin01"
-                            0x683ae1b9: string = "FirstEncounter2DXayahSkin01"
-                            0x415965e7: string = "FirstEncounter2DXayahSkin01"
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Cosmic Defender Xin Zhao"
@@ -1392,10 +1391,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DCosmic"
-                            0x683ae1b9: string = "FirstEncounter2DCosmic"
-                            0x415965e7: string = "FirstEncounter2DCosmic"
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Galaxy Slayer Zed"
@@ -1418,11 +1416,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DZedSkin13"
-                            0x683ae1b9: string = "FirstEncounter2DZedSkin13"
-                            0x415965e7: string = "FirstEncounter2DZedSkin13"
                             0x1b80126e: bool = true
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Aurelion Sol"
@@ -1440,8 +1437,7 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DAurelionSol"
-                            0x683ae1b9: string = "FirstEncounter2DAurelionSol"
-                            0x415965e7: string = "FirstEncounter2DAurelionSol"
+                            0x307b0406: u32 = 1
                         }
                         0x68fee3c4: bool = true
                     }
@@ -1461,8 +1457,6 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DShen"
-                            0x683ae1b9: string = "FirstEncounter2DShen"
-                            0x415965e7: string = "FirstEncounter2DShen"
                         }
                         0x68fee3c4: bool = true
                     }
@@ -1481,10 +1475,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DCosmic"
-                            0x683ae1b9: string = "FirstEncounter2DCosmic"
-                            0x415965e7: string = "FirstEncounter2DCosmic"
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Dark Star"
@@ -1501,9 +1494,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DDarkStar"
-                            0x683ae1b9: string = "FirstEncounter2DDarkStar"
-                            0x415965e7: string = "FirstEncounter2DDarkStar"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Encounter - Odyssey"
@@ -1520,9 +1513,9 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "FirstEncounter2DOdyssey"
-                            0x683ae1b9: string = "FirstEncounter2DOdyssey"
-                            0x415965e7: string = "FirstEncounter2DOdyssey"
+                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                 }
             }
@@ -1537,7 +1530,6 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "AttackChampion2D"
-                            0x316428c4: f32 = -1
                         }
                     }
                 }
@@ -1553,7 +1545,6 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "AttackChampion2D"
-                            0x316428c4: f32 = -1
                         }
                     }
                 }
@@ -1569,7 +1560,6 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "AttackChampion2D"
-                            0x316428c4: f32 = -1
                         }
                     }
                 }
@@ -1585,7 +1575,6 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DPentakill"
-                            0x683ae1b9: string = "KillChampion3DPentakill"
                             0x415965e7: string = "KillChampion3DPentakill"
                             0x1b80126e: bool = true
                         }
@@ -1612,11 +1601,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DAsheSkin11"
-                            0x683ae1b9: string = "KillChampion3DAsheSkin11"
                             0x415965e7: string = "KillChampion3DAsheSkin11"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Cosmic Queen Ashe"
@@ -1639,11 +1627,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DAsheSkin11"
-                            0x683ae1b9: string = "KillChampion3DAsheSkin11"
                             0x415965e7: string = "KillChampion3DAsheSkin11"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Cosmic Queen Ashe"
@@ -1666,11 +1653,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DAsheSkin11"
-                            0x683ae1b9: string = "KillChampion3DAsheSkin11"
                             0x415965e7: string = "KillChampion3DAsheSkin11"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Cosmic Queen Ashe"
@@ -1693,11 +1679,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DAsheSkin11"
-                            0x683ae1b9: string = "KillChampion3DAsheSkin11"
                             0x415965e7: string = "KillChampion3DAsheSkin11"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Cosmic Queen Ashe"
@@ -1720,11 +1705,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DAsheSkin11"
-                            0x683ae1b9: string = "KillChampion3DAsheSkin11"
                             0x415965e7: string = "KillChampion3DAsheSkin11"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Cosmic Queen Ashe"
@@ -1747,11 +1731,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DAsheSkin11"
-                            0x683ae1b9: string = "KillChampion3DAsheSkin11"
                             0x415965e7: string = "KillChampion3DAsheSkin11"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Odyssey Kayn"
@@ -1774,11 +1757,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DKayn"
-                            0x683ae1b9: string = "KillChampion3DKayn"
                             0x415965e7: string = "KillChampion3DKayn"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Cosmic Enchantress Lulu"
@@ -1805,11 +1787,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DCosmic"
-                            0x683ae1b9: string = "KillChampion3DCosmic"
                             0x415965e7: string = "KillChampion3DCosmic"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Cosmic Blade Master Yi"
@@ -1832,11 +1813,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DCosmic"
-                            0x683ae1b9: string = "KillChampion3DCosmic"
                             0x415965e7: string = "KillChampion3DCosmic"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Cosmic Dawn Rakan"
@@ -1859,11 +1839,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DRakanSkin01"
-                            0x683ae1b9: string = "KillChampion3DRakanSkin01"
                             0x415965e7: string = "KillChampion3DRakanSkin01"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Odyssey Sona"
@@ -1886,11 +1865,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DSonaSkin09"
-                            0x683ae1b9: string = "KillChampion3DSonaSkin09"
                             0x415965e7: string = "KillChampion3DSonaSkin09"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Odyssey Sona"
@@ -1913,11 +1891,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DSonaSkin09"
-                            0x683ae1b9: string = "KillChampion3DSonaSkin09"
                             0x415965e7: string = "KillChampion3DSonaSkin09"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Odyssey Sona"
@@ -1940,11 +1917,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DSonaSkin09"
-                            0x683ae1b9: string = "KillChampion3DSonaSkin09"
                             0x415965e7: string = "KillChampion3DSonaSkin09"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Odyssey Sona"
@@ -1967,11 +1943,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DSonaSkin09"
-                            0x683ae1b9: string = "KillChampion3DSonaSkin09"
                             0x415965e7: string = "KillChampion3DSonaSkin09"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Odyssey Sona"
@@ -1994,11 +1969,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DSonaSkin09"
-                            0x683ae1b9: string = "KillChampion3DSonaSkin09"
                             0x415965e7: string = "KillChampion3DSonaSkin09"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Odyssey Sona"
@@ -2021,11 +1995,11 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DSonaSkin09"
-                            0x683ae1b9: string = "KillChampion3DSonaSkin09"
                             0x415965e7: string = "KillChampion3DSonaSkin09"
                             0x1b80126e: bool = true
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Odyssey Sona"
@@ -2048,11 +2022,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DSonaSkin09"
-                            0x683ae1b9: string = "KillChampion3DSonaSkin09"
                             0x415965e7: string = "KillChampion3DSonaSkin09"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Dark Star Thresh"
@@ -2075,11 +2048,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DThreshSkin05"
-                            0x683ae1b9: string = "KillChampion3DThreshSkin05"
                             0x415965e7: string = "KillChampion3DThreshSkin05"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Dark Star Varus"
@@ -2102,11 +2074,11 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DVarusSkin06"
-                            0x683ae1b9: string = "KillChampion3DVarusSkin06"
                             0x415965e7: string = "KillChampion3DVarusSkin06"
                             0x1b80126e: bool = true
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Cosmic Dusk Xayah"
@@ -2129,11 +2101,11 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DXayahSkin01"
-                            0x683ae1b9: string = "KillChampion3DXayahSkin01"
                             0x415965e7: string = "KillChampion3DXayahSkin01"
                             0x1b80126e: bool = true
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Cosmic Defender Xin Zhao"
@@ -2161,11 +2133,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DCosmic"
-                            0x683ae1b9: string = "KillChampion3DCosmic"
                             0x415965e7: string = "KillChampion3DCosmic"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Galaxy Slayer Zed"
@@ -2188,11 +2159,11 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DZedSkin13"
-                            0x683ae1b9: string = "KillChampion3DZedSkin13"
                             0x415965e7: string = "KillChampion3DZedSkin13"
                             0x1b80126e: bool = true
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Cosmic"
@@ -2209,11 +2180,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DCosmic"
-                            0x683ae1b9: string = "KillChampion3DCosmic"
                             0x415965e7: string = "KillChampion3DCosmic"
                             0x1b80126e: bool = true
-                            0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Dark Star Skin"
@@ -2230,10 +2200,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DDarkStar"
-                            0x683ae1b9: string = "KillChampion3DDarkStar"
                             0x415965e7: string = "KillChampion3DDarkStar"
-                            0x307b0406: u32 = 1
+                            0x1b80126e: bool = true
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Odyssey Skin"
@@ -2250,10 +2220,10 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3DOdyssey"
-                            0x683ae1b9: string = "KillChampion3DOdyssey"
                             0x415965e7: string = "KillChampion3DOdyssey"
-                            0x307b0406: u32 = 1
+                            0x1b80126e: bool = true
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "Kill Champion"
@@ -2264,21 +2234,20 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3D"
-                            0x683ae1b9: string = "KillChampion3D"
                             0x415965e7: string = "KillChampion3D"
                             0x1b80126e: bool = true
                         }
+                        0x68fee3c4: bool = true
                     }
                 }
             }
             0x373111c9 = 0xfc27a63e {
+                0xc6a8b1d0: f32 = 10
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
                         0xfecc56e5: string = "RecallLeadIn2D"
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "RecallLeadIn2D"
-                            0x683ae1b9: string = "RecallLeadIn2D"
-                            0x415965e7: string = "RecallLeadIn2D"
                         }
                         0x68fee3c4: bool = true
                     }

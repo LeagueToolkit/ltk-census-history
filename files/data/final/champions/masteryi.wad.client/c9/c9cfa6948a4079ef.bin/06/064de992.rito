@@ -5,17 +5,63 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x064de992 = 0x5e7e5a06 {
         0xc8e37ef0: string = "MasterYiPassive"
-        0x7f0f5a79: pointer = 0x4633d794 {
-            0xf1f20d72: string = "game_buff_tooltip_MasterYiPassive"
-            0x2831605b: pointer = 0x5eaafbf6 {
-                0xb482c52c: string = "MasterYiPassive"
-                0x57b8b11b: link = 0x30d7b387
-                0x0381f7e2: map[string,string] = {
-                    "keyName" = "Passive_MasterYiPassive_Name"
-                    "KeyTooltip" = "Passive_MasterYiPassive_Tooltip"
-                    "keyTooltipSimple" = "Passive_MasterYiPassive_TooltipSimple"
+        0x56d2be52: pointer = 0x43368569 {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "StackDuration"
+                    0x246b0d8e: list[f32] = {
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                    }
+                    0x6d3ccfd7: f32 = 4
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "AttackCount"
+                    0x246b0d8e: list[f32] = {
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                    }
+                    0x6d3ccfd7: f32 = 4
                 }
             }
+            0x94572284: map[hash,pointer] = {
+                0x1ddee768 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.5
+                            0x4cec2c8a: u8 = 2
+                        }
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Characters/MasterYi/HUD/Icons2D/MasterYi_Passive1.dds"
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "MasterYiPassive"
+                    0x57b8b11b: link = 0x30d7b387
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Passive_MasterYiPassive_Name"
+                        "keySummary" = "Spell_MasterYiPassive_Summary"
+                        "keyTooltip" = "Passive_MasterYiPassive_Tooltip"
+                        "keyTooltipSimple" = "Passive_MasterYiPassive_TooltipSimple"
+                    }
+                }
+            }
+        }
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0xf1f20d72: string = "Spell_MasterYiPassive_Summary"
         }
     }
 }

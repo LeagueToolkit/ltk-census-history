@@ -45,15 +45,15 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "StunDuration"
                     0x246b0d8e: list[f32] = {
-                        0.5
-                        1.5
-                        2.5
-                        3.5
-                        4.5
-                        5.5
-                        6.5
+                        1
+                        2
+                        3
+                        4
+                        5
+                        6
+                        7
                     }
-                    0x6d3ccfd7: f32 = 0.5
+                    0x6d3ccfd7: f32 = 1
                     0xe7b832f2: string = "P + 1"
                 }
                 0x005008a6 {
@@ -69,6 +69,19 @@ entries: map[hash,embed] = {
                     }
                     0x6d3ccfd7: f32 = 0.75
                     0xe7b832f2: string = "P"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "NumberOfTargets"
+                    0x246b0d8e: list[f32] = {
+                        0
+                        1
+                        2
+                        3
+                        4
+                        5
+                        6
+                    }
+                    0xe7b832f2: string = "P + 1"
                 }
             }
             0x295c2889: f32 = 0.9
@@ -183,6 +196,10 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "StunDuration"
                                     0x566f3406: string = "Spell_ListType_StunDuration"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "NumberOfTargets"
+                                    0x566f3406: string = "Spell_ListType_NumberOfTargets"
                                 }
                             }
                         }
