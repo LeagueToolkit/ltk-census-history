@@ -1,0 +1,29 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x883d8b22 = 0x6f870247 {
+        0x19efbfdb: string = "Guardian"
+        0xc3143d66: string = "tft_trait_displayname_Guardian"
+        0x765f18da: string = "tft_trait_description_Guardian"
+        0xb7161590: string = "%i:traitGuardian%"
+        0x8bee2972: string = "ASSETS/UX/TraitIcons/Trait_Icon_Guardian.dds"
+        0x9e0b0655: list[embed] = {
+            0xc130c1e5 {
+                0x749eab2b: u32 = 2
+                0x647c1dc9: option[u32] = {
+                    25000
+                }
+                0x96017380: u8 = 1
+                0x02490112: string = "TFT_UnitBuffGuardian"
+                0xc13d6d31: list[embed] = {
+                    0x62ff42f4 {
+                        0x8d39bde6: hash = 0xf84984d4
+                        0x425ed3ca: f32 = 50
+                    }
+                }
+            }
+        }
+    }
+}
