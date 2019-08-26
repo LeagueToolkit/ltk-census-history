@@ -9,7 +9,7 @@ entries: map[hash,embed] = {
             0xecf3f88d: u32 = 6154
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
-                    0x19efbfdb: string = "CastDelay"
+                    0x19efbfdb: string = "ManaRefundPercent"
                     0x246b0d8e: list[f32] = {
                         0.5
                         0.5
@@ -20,6 +20,20 @@ entries: map[hash,embed] = {
                         0.5
                     }
                     0x6d3ccfd7: f32 = 0.5
+                    0xe7b832f2: string = "P"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "CastDelay"
+                    0x246b0d8e: list[f32] = {
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                    }
+                    0x6d3ccfd7: f32 = 0.25
                     0xe7b832f2: string = "P"
                 }
                 0x005008a6 {
@@ -67,29 +81,29 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "ShredPercent"
                     0x246b0d8e: list[f32] = {
-                        20
-                        20
-                        20
-                        20
-                        20
-                        20
-                        20
+                        15
+                        15
+                        15
+                        15
+                        15
+                        15
+                        15
                     }
-                    0x6d3ccfd7: f32 = 20
+                    0x6d3ccfd7: f32 = 15
                     0xe7b832f2: string = "P"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "ShredDuration"
                     0x246b0d8e: list[f32] = {
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
                     }
-                    0x6d3ccfd7: f32 = 3
+                    0x6d3ccfd7: f32 = 4
                     0xe7b832f2: string = "P"
                 }
                 0x005008a6 {
@@ -192,16 +206,6 @@ entries: map[hash,embed] = {
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "MissileSpawnOffset"
-                    0x246b0d8e: list[f32] = {
-                        100
-                        100
-                        100
-                        100
-                        100
-                        100
-                        100
-                    }
-                    0x6d3ccfd7: f32 = 100
                     0xe7b832f2: string = "P"
                 }
             }
@@ -242,16 +246,15 @@ entries: map[hash,embed] = {
             0xe321919c: bool = true
             0x534cce1b: bool = false
             0xdf73f8e2: bool = true
-            0x1c232eba: bool = true
             0xf589de4a: pointer = 0x33c0d965 {}
             0x1b9cbd9b: list[f32] = {
-                850
-                850
-                850
-                850
-                850
-                850
-                850
+                900
+                900
+                900
+                900
+                900
+                900
+                900
             }
             0x4e47141f: f32 = 20
             0x1a24e25e: f32 = 60
@@ -283,6 +286,7 @@ entries: map[hash,embed] = {
                 90
             }
             0x5d46764f: pointer = 0x3031745a {}
+            0x00f7e5bc: bool = true
             0x048557ff: embed = 0x7dd1a902 {
                 0x2831605b: pointer = 0xa4e13b57 {
                     0x6386d7d8: bool = true
@@ -292,7 +296,6 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_KayleQ_Name"
                         "keySummary" = "Spell_KayleQ_Summary"
                         "keyTooltip" = "Spell_KayleQ_Tooltip"
-                        "keyTooltipExtendedBelowLine" = "Spell_KayleQ_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {

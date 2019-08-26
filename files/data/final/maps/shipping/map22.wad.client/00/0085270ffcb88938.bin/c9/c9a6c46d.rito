@@ -71,29 +71,28 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BonusHealth"
                     0x246b0d8e: list[f32] = {
-                        125
+                        200
                         300
-                        475
-                        650
-                        825
-                        1000
-                        1175
+                        400
+                        500
+                        600
+                        700
+                        800
                     }
-                    0x6d3ccfd7: f32 = 125
-                    0xe7b832f2: string = "P + 175"
+                    0x6d3ccfd7: f32 = 200
+                    0xe7b832f2: string = "P + 100"
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "ExtraTargets"
+                    0x19efbfdb: string = "Targets"
                     0x246b0d8e: list[f32] = {
-                        -1
                         0
                         1
                         2
                         3
                         4
                         5
+                        6
                     }
-                    0x6d3ccfd7: f32 = -1
                     0xe7b832f2: string = "P + 1"
                 }
                 0x005008a6 {
@@ -123,6 +122,20 @@ entries: map[hash,embed] = {
                     }
                     0x6d3ccfd7: f32 = 1.25
                     0xe7b832f2: string = "P"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x4f553e5f = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x995bf516 {
+                            0x1cd83c4b: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0x5260b352
+                            }
+                            0xb8dcfcbb: f32 = 0.01
+                            0x992cd7eb: string = "noScale"
+                            0xa5749b52: string = "scaleAP"
+                        }
+                    }
                 }
             }
             0xfbd16fb5: string = "Spell4"
@@ -190,8 +203,8 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_BonusHealth"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "ExtraTargets"
-                                    0x566f3406: string = "Spell_ListType_ExtraTargets"
+                                    0x5127f14d: string = "Targets"
+                                    0x566f3406: string = "Spell_ListType_Targets"
                                 }
                             }
                         }

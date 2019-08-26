@@ -1,0 +1,35 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2a42a230 = 0xed237fc4 {
+        0x8ff5f744: list[embed] = {
+            0xf72d6994 {
+                0xb4d66609: u32 = 18
+                0xfbefb0a6: list[pointer] = {
+                    0xee13a4b2 {
+                        0x1e3fcd64: bool = false
+                    }
+                }
+            }
+        }
+        0xcf2f4271: link = 0x2c3e1aa9
+        0x5385fe0a: list[u64] = {
+            40000
+            60000
+            150000
+            150000
+            200000
+        }
+        0x83422eb0: link = 0x50ca74bc
+        0x77a4e581: string = "SingedDamageGiven"
+        0xf66a8ad3: string = "stat_stone_name_damage"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "65df31d9-ffb9-47fa-92f5-07e06dc7b48d"
+            0x13bddc7b: u32 = 99265
+            0x73db4a28: string = "1e6ac39d-f8b2-4d52-af77-7cf2a8427f95"
+        }
+        0x719623aa: string = "stat_stone_description_DamageGiven"
+    }
+}
