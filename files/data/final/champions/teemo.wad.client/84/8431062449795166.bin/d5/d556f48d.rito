@@ -15,9 +15,10 @@ entries: map[hash,embed] = {
             0xf1f20d72: string = "game_spell_description_MoveQuick"
             0x9a5a3a84: string = "game_spell_tooltip_MoveQuick"
             0x2ea2820c: string = "game_spell_levelup_MoveQuick"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "PassiveMSBonus"
+                    0x246b0d8e: list[f32] = {
                         0.06
                         0.1
                         0.14
@@ -26,9 +27,12 @@ entries: map[hash,embed] = {
                         0.26
                         0.3
                     }
+                    0x6d3ccfd7: f32 = 0.06
+                    0xe7b832f2: string = "P + 0.04"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "MSBuffDuration"
+                    0x246b0d8e: list[f32] = {
                         3
                         3
                         3
@@ -37,9 +41,12 @@ entries: map[hash,embed] = {
                         3
                         3
                     }
+                    0x6d3ccfd7: f32 = 3
+                    0xe7b832f2: string = "P + 0"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "ActiveMSBonus"
+                    0x246b0d8e: list[f32] = {
                         0.12
                         0.2
                         0.28
@@ -48,9 +55,12 @@ entries: map[hash,embed] = {
                         0.52
                         0.6
                     }
+                    0x6d3ccfd7: f32 = 0.12
+                    0xe7b832f2: string = "P + 0.08"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "CooldownOnDamageTaken"
+                    0x246b0d8e: list[f32] = {
                         5
                         5
                         5
@@ -59,13 +69,9 @@ entries: map[hash,embed] = {
                         5
                         5
                     }
+                    0x6d3ccfd7: f32 = 5
+                    0xe7b832f2: string = "P + 0"
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
             }
             0xfbd16fb5: string = "Attack2"
             0xeed67cd5: list[string] = {
@@ -127,7 +133,7 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "PassiveMSBonus"
                                     0x33c02d93: i32 = 1
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_MovementSpeed"

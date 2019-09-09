@@ -12,9 +12,10 @@ entries: map[hash,embed] = {
             0xf1f20d72: string = "game_spell_description_ToxicShot"
             0x9a5a3a84: string = "game_spell_tooltip_ToxicShot"
             0x2ea2820c: string = "game_spell_levelup_ToxicShot"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "TickBaseDamage"
+                    0x246b0d8e: list[f32] = {
                         0
                         6
                         12
@@ -23,9 +24,24 @@ entries: map[hash,embed] = {
                         30
                         36
                     }
+                    0xe7b832f2: string = "P + 6"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "TickAPRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                    }
+                    0x6d3ccfd7: f32 = 0.1
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ImpactBaseDamage"
+                    0x246b0d8e: list[f32] = {
                         0
                         10
                         20
@@ -34,20 +50,24 @@ entries: map[hash,embed] = {
                         50
                         60
                     }
+                    0xe7b832f2: string = "P + 10"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
+                0x005008a6 {
+                    0x19efbfdb: string = "ImpactAPRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
                     }
+                    0x6d3ccfd7: f32 = 0.3
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "PoisonDuration"
+                    0x246b0d8e: list[f32] = {
                         4.5
                         4.5
                         4.5
@@ -56,9 +76,12 @@ entries: map[hash,embed] = {
                         4.5
                         4.5
                     }
+                    0x6d3ccfd7: f32 = 4.5
+                    0xe7b832f2: string = "P + 0"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "TickFrequency"
+                    0x246b0d8e: list[f32] = {
                         1
                         1
                         1
@@ -67,15 +90,31 @@ entries: map[hash,embed] = {
                         1
                         1
                     }
+                    0x6d3ccfd7: f32 = 1
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
             }
-            0x295c2889: f32 = 0.3
-            0xd7141e61: f32 = 0.1
+            0x94572284: map[hash,pointer] = {
+                0xbd0dbd75 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x4a7b19bc
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x28d8bf2c
+                        }
+                    }
+                }
+                0xda1493ea = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x973a3117
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x971b7fed
+                        }
+                    }
+                }
+            }
             0xfbd16fb5: string = "Spell4"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Teemo/HUD/Icons2D/Teemo_E.dds"
@@ -147,12 +186,12 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "ImpactBaseDamage"
                                     0x33c02d93: i32 = 2
                                     0x566f3406: string = "Spell_ListType_TeemoImpactDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "TickBaseDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_DamagePerSecond"
                                 }
