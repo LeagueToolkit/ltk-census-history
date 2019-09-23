@@ -4,21 +4,25 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x6f260471 = 0xd186c31a {
-        0xc38f3be5: i32 = 12
+        0xc38f3be5: i32 = -100
         0x19efbfdb: string = "TFT_Item_SwordOfTheDivine"
         0x02490112: string = "TFT_Item_SwordOfTheDivine_Buff"
         0x8b83ba8a: list[link] = {
-            0xbd55879a
-            0x6507a341
+            0x6f260471
+            0x6f260471
         }
         0xc13d6d31: list[embed] = {
             0x62ff42f4 {
                 0x8d39bde6: hash = 0x48ea2af8
                 0x425ed3ca: f32 = 7
             }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x98ac43ce
+                0x425ed3ca: f32 = 50
+            }
         }
-        0xc3143d66: string = "TFT_item_name_SwordoftheDivine"
-        0x765f18da: string = "TFT_item_description_SwordoftheDivine"
+        0xc3143d66: string = "tft_item_name_SwordOfTheDivine2"
+        0x765f18da: string = "tft_item_description_SwordOfTheDivine2"
         0x8bee2972: string = "ASSETS/Maps/Particles/TFT/TFT_Item_SwordOfTheDivine.TFT.dds"
         0x5371e38f: option[rgba] = {
             { 54, 68, 73, 255 }

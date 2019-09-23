@@ -1,0 +1,28 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x76cdaacb = 0xd186c31a {
+        0xc38f3be5: i32 = 10004
+        0x19efbfdb: string = "TFT_Item_FreeDeathblade"
+        0x02490112: string = "TFT_Item_FreeDeathblade_Buff"
+        0xc13d6d31: list[embed] = {
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x55ce8055
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0xd0fcc895
+                0x425ed3ca: f32 = 40
+            }
+        }
+        0xc3143d66: string = "tft_item_name_Deathblade"
+        0x765f18da: string = "tft_item_description_deathblade"
+        0x8bee2972: string = "ASSETS/Maps/Particles/TFT/TFT_Item_DeathBlade.TFT.dds"
+        0x5371e38f: option[rgba] = {
+            { 54, 68, 73, 255 }
+        }
+        0x91d75dff: vec2 = { 0.2, 2 }
+        0x3b2adacd: link = 0xca0f7daf
+    }
+}

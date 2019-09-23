@@ -7,10 +7,20 @@ entries: map[hash,embed] = {
         0x87225880: u32 = 1
         0xa977f4ae: i32 = 518010
         0x05040a43: u32 = 2
+        0x5d23843a: list[embed] = {
+            0x3c136fac {
+                0x2ed25c3a: u32 = 24
+                0x6f1dd68b: u32 = 3
+            }
+        }
         0x2d78c328: string = "NeekoSkin10"
         0x939e7b29: string = "element:light,race:mythical,skinline:starguardian,thememusic:starguardian2019"
-        0x97f7188d: string = "ASSETS/Characters/Neeko/Skins/Skin10/NeekoLoadScreen_10.PIE_C_9_18.dds"
-        0xbc8eefad: string = "ASSETS/Characters/Neeko/Skins/Skin10/NeekoLoadscreen_10_LE.PIE_C_9_18.dds"
+        0x97f7188d: embed = 0xd06263ff {
+            0xb35135fa: string = "ASSETS/Characters/Neeko/Skins/Skin10/NeekoLoadScreen_10.PIE_C_9_18.dds"
+        }
+        0xbc8eefad: embed = 0xd06263ff {
+            0xb35135fa: string = "ASSETS/Characters/Neeko/Skins/Skin10/NeekoLoadscreen_10_LE.PIE_C_9_18.dds"
+        }
         0x8f7b194f: embed = 0x8f7b194f {
             0xd65bac4d: list[string] = {
                 "Neeko"

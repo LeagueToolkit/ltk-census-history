@@ -7,10 +7,6 @@ entries: map[hash,embed] = {
         0xc8e37ef0: string = "SylasQ"
         0x56d2be52: pointer = 0x43368569 {
             0xecf3f88d: u32 = 6154
-            0x74d44065: string = "game_spell_displayname_SylasQ"
-            0xf1f20d72: string = "game_spell_description_SylasQ"
-            0x9a5a3a84: string = "game_spell_tooltip_SylasQ"
-            0x2ea2820c: string = "game_spell_levelup_SylasQ"
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BaseDamage"
@@ -55,7 +51,7 @@ entries: map[hash,embed] = {
                     0xe7b832f2: string = "P + .05"
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "MinionMod"
+                    0x19efbfdb: string = "MinionMonsterMod"
                     0x246b0d8e: list[f32] = {
                         0.55
                         0.55
@@ -80,6 +76,19 @@ entries: map[hash,embed] = {
                     }
                     0x6d3ccfd7: f32 = 180
                     0xe7b832f2: string = "180"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DetonationDelay"
+                    0x246b0d8e: list[f32] = {
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                    }
+                    0x6d3ccfd7: f32 = 0.6
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -111,17 +120,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x4cd2dce8 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0x84471711
-                        }
-                    }
-                    0x5a2297d3: bool = true
-                }
             }
-            0x295c2889: f32 = 0.4
-            0xd7141e61: f32 = 0.7
             0xfbd16fb5: string = "Spell1"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Sylas/HUD/Icons2D/SylasQ.dds"

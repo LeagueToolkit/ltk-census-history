@@ -10,8 +10,12 @@ entries: map[hash,embed] = {
         0x2dddbdeb: bool = true
         0x2d78c328: string = "USACryophoenix"
         0x939e7b29: string = "faction:freljord,race:demigod,gender:female"
-        0x97f7188d: string = "ASSETS/Characters/Anivia/Skins/Skin01/AniviaLoadScreen_1.dds"
-        0xbc8eefad: string = "ASSETS/Characters/Anivia/Skins/Skin01/AniviaLoadScreen_1_LE.dds"
+        0x97f7188d: embed = 0xd06263ff {
+            0xb35135fa: string = "ASSETS/Characters/Anivia/Skins/Skin01/AniviaLoadScreen_1.dds"
+        }
+        0xbc8eefad: embed = 0xd06263ff {
+            0xb35135fa: string = "ASSETS/Characters/Anivia/Skins/Skin01/AniviaLoadScreen_1_LE.dds"
+        }
         0x8f7b194f: embed = 0x8f7b194f {
             0xd65bac4d: list[string] = {
                 "Anivia"
