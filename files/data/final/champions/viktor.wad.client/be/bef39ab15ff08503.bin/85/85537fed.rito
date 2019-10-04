@@ -145,16 +145,16 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "SubsequentBurstBaseDamage"
                     0x246b0d8e: list[f32] = {
-                        50
-                        130
-                        210
-                        290
-                        370
-                        450
-                        530
+                        25
+                        65
+                        105
+                        145
+                        185
+                        225
+                        265
                     }
-                    0x6d3ccfd7: f32 = 50
-                    0xe7b832f2: string = "P+80"
+                    0x6d3ccfd7: f32 = 25
+                    0xe7b832f2: string = "P+40"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "StormDuration"
@@ -168,45 +168,46 @@ entries: map[hash,embed] = {
                         6.5
                     }
                     0x6d3ccfd7: f32 = 6.5
+                    0xe7b832f2: string = "P + 0"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "TickCadence"
                     0x246b0d8e: list[f32] = {
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
                     }
-                    0x6d3ccfd7: f32 = 2
+                    0x6d3ccfd7: f32 = 1
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "MaxTicks"
                     0x246b0d8e: list[f32] = {
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
+                        6
+                        6
+                        6
+                        6
+                        6
+                        6
+                        6
                     }
-                    0x6d3ccfd7: f32 = 3
+                    0x6d3ccfd7: f32 = 6
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "MaxStormSpeed"
                     0x246b0d8e: list[f32] = {
-                        400
-                        400
-                        400
-                        400
-                        400
-                        400
-                        400
+                        325
+                        325
+                        325
+                        325
+                        325
+                        325
+                        325
                     }
-                    0x6d3ccfd7: f32 = 400
+                    0x6d3ccfd7: f32 = 325
                     0xe7b832f2: string = "P + 0"
                 }
                 0x005008a6 {
@@ -238,29 +239,29 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "MaxDistance"
                     0x246b0d8e: list[f32] = {
-                        900
-                        900
-                        900
-                        900
-                        900
-                        900
-                        900
+                        1000
+                        1000
+                        1000
+                        1000
+                        1000
+                        1000
+                        1000
                     }
-                    0x6d3ccfd7: f32 = 900
+                    0x6d3ccfd7: f32 = 1000
                     0xe7b832f2: string = "P + 0"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "AugmentBoost"
                     0x246b0d8e: list[f32] = {
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
                     }
-                    0x6d3ccfd7: f32 = 0.2
+                    0x6d3ccfd7: f32 = 0.25
                     0xe7b832f2: string = "P + 0"
                 }
             }
@@ -281,13 +282,13 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0x475333c2
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.85
+                            0x295c2889: f32 = 0.45
                         }
                     }
                 }
             }
             0x295c2889: f32 = 0.5
-            0xd7141e61: f32 = 0.85
+            0xd7141e61: f32 = 0.45
             0xfbd16fb5: string = "Spell4"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R1.dds"
@@ -340,6 +341,32 @@ entries: map[hash,embed] = {
             0x5d46764f: pointer = 0x9b0f2144 {}
             0x00f7e5bc: bool = true
             0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "ViktorChaosStorm"
+                    0x57b8b11b: link = 0x122a9d2c
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "game_spell_displayname_ViktorChaosStormGuide"
+                        "keyTooltip" = "game_spell_tooltip_ViktorChaosStorm"
+                        "keySummary" = "game_spell_description_ViktorChaosStorm"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "InitialBurstBaseDamage"
+                                    0x566f3406: string = "Spell_ViktorChaosStorm_InitialBurst"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "SubsequentBurstBaseDamage"
+                                    0x566f3406: string = "Spell_ViktorChaosStorm_Ticks"
+                                }
+                            }
+                        }
+                    }
+                }
                 0x263ba968: list[pointer] = {
                     0x047acadf {
                         0xa831bcc1: option[bool] = {

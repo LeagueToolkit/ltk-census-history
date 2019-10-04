@@ -8,17 +8,14 @@ entries: map[hash,embed] = {
         0x56d2be52: pointer = 0x43368569 {
             0x9c677a2c: u32 = 4
             0xecf3f88d: u32 = 14984
-            0x74d44065: string = "game_spell_displayname_GarenQ"
-            0xf1f20d72: string = "game_spell_description_GarenQ"
             0x3e1edbdb: list[string] = {
                 "Trait_AttackReset"
             }
-            0x9a5a3a84: string = "game_spell_tooltip_GarenQ"
-            0x2ea2820c: string = "game_spell_levelup_GarenQ"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        30
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        0
                         30
                         60
                         90
@@ -26,20 +23,11 @@ entries: map[hash,embed] = {
                         150
                         180
                     }
+                    0xe7b832f2: string = "P + 30"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        30
-                        30
-                        30
-                        30
-                        30
-                        30
-                        30
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "SilenceDuration"
+                    0x246b0d8e: list[f32] = {
                         1.5
                         1.5
                         1.5
@@ -48,9 +36,12 @@ entries: map[hash,embed] = {
                         1.5
                         1.5
                     }
+                    0x6d3ccfd7: f32 = 1.5
+                    0xe7b832f2: string = "P + 0"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "MovementSpeedDuration"
+                    0x246b0d8e: list[f32] = {
                         1
                         1.5
                         2
@@ -59,9 +50,25 @@ entries: map[hash,embed] = {
                         3.5
                         4
                     }
+                    0x6d3ccfd7: f32 = 1
+                    0xe7b832f2: string = "P + .5"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "MovementSpeedAmount"
+                    0x246b0d8e: list[f32] = {
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                    }
+                    0x6d3ccfd7: f32 = 0.3
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "AttackWindow"
+                    0x246b0d8e: list[f32] = {
                         4.5
                         4.5
                         4.5
@@ -70,14 +77,35 @@ entries: map[hash,embed] = {
                         4.5
                         4.5
                     }
+                    0x6d3ccfd7: f32 = 4.5
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
+                0x005008a6 {
+                    0x19efbfdb: string = "tADRatio"
+                    0x246b0d8e: list[f32] = {
+                        1.4
+                        1.4
+                        1.4
+                        1.4
+                        1.4
+                        1.4
+                        1.4
+                    }
+                    0x6d3ccfd7: f32 = 1.4
+                }
             }
-            0x295c2889: f32 = 1.4
+            0x94572284: map[hash,pointer] = {
+                0x1ddee768 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x5114133d
+                            0x4cec2c8a: u8 = 2
+                        }
+                    }
+                }
+            }
             0xfbd16fb5: string = "Spell1"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Garen/HUD/Icons2D/Garen_Q.dds"
@@ -140,6 +168,33 @@ entries: map[hash,embed] = {
                 2
             }
             0x5d46764f: pointer = 0x645ba277 {}
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "GarenQ"
+                    0x57b8b11b: link = 0x122a9d2c
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_GarenQ_Name"
+                        "keyTooltip" = "Spell_GarenQ_Tooltip"
+                        "keySummary" = "Spell_GarenQ_Summary"
+                        "keyCost" = "Spell_Cost_NoCost"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 5
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseDamage"
+                                    0x566f3406: string = "Spell_ListType_Damage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "MovementSpeedDuration"
+                                    0x566f3406: string = "Spell_ListType_MovementSpeedDuration"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

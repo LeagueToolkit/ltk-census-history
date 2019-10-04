@@ -4,9 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xdf583f79 = 0x304496f1 {
-        0x1af7caac: list[link] = {
-            0x1aee1aa4
-            0x18ae41d2
+        0x1af7caac: list[embed] = {
+            0xe007e6f5 {
+                0x053a1f33: link = 0x1aee1aa4
+            }
+            0xe007e6f5 {
+                0x053a1f33: link = 0x18ae41d2
+            }
         }
         0xe4e577b8: f32 = 0.1
         0x169231e2: f32 = 720

@@ -4,10 +4,16 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x0cdd1ce4 = 0x304496f1 {
-        0x1af7caac: list[link] = {
-            0x226514f9
-            0x7badebe8
-            0xa5ff057d
+        0x1af7caac: list[embed] = {
+            0xe007e6f5 {
+                0x053a1f33: link = 0x226514f9
+            }
+            0xe007e6f5 {
+                0x053a1f33: link = 0x7badebe8
+            }
+            0xe007e6f5 {
+                0x053a1f33: link = 0xa5ff057d
+            }
         }
         0xe4e577b8: f32 = 0.1
         0x169231e2: f32 = 520

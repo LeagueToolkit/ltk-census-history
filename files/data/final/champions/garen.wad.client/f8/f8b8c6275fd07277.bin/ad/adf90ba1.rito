@@ -10,57 +10,51 @@ entries: map[hash,embed] = {
             0x3b0cf15e: embed = 0x25210743 {
                 0xc8613630: string = "Champion"
             }
-            0x44b7e8dd: string = "GarenR"
-            0x74d44065: string = "game_spell_displayname_GarenR"
-            0xf1f20d72: string = "game_spell_description_GarenR"
             0x3e1edbdb: list[string] = {
                 "Trait_Ultimate"
             }
-            0x9a5a3a84: string = "game_spell_tooltip_GarenR"
-            0x2ea2820c: string = "game_spell_levelup_GarenR"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
+                    0x246b0d8e: list[f32] = {
                         0
-                        175
-                        350
-                        525
-                        0
-                        0
-                        0
+                        150
+                        300
+                        450
+                        600
+                        750
+                        900
                     }
+                    0xe7b832f2: string = "P+150"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
-                        28
-                        33
-                        40
-                        0
-                        0
-                        0
+                0x005008a6 {
+                    0x19efbfdb: string = "ExecuteDamage"
+                    0x246b0d8e: list[f32] = {
+                        0.15
+                        0.2
+                        0.25
+                        0.3
+                        0.35
+                        0.4
+                        0.45
                     }
+                    0x6d3ccfd7: f32 = 0.15
+                    0xe7b832f2: string = "P+0.05"
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
+                0x005008a6 {
+                    0x19efbfdb: string = "RevealDuration"
+                    0x246b0d8e: list[f32] = {
                         1
                         1
                         1
-                        0
-                        0
-                        0
+                        1
+                        1
+                        1
+                        1
                     }
+                    0x6d3ccfd7: f32 = 1
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
             }
-            0x295c2889: f32 = 1
             0xfbd16fb5: string = "Spell4"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Garen/HUD/Icons2D/Garen_R.dds"
@@ -113,6 +107,37 @@ entries: map[hash,embed] = {
             }
             0x00f7e5bc: bool = true
             0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "GarenR"
+                    0x57b8b11b: link = 0x122a9d2c
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_GarenR_Name"
+                        "keyTooltip" = "Spell_GarenR_Tooltip"
+                        "keySummary" = "Spell_GarenR_Summary"
+                        "keyCost" = "Spell_Cost_NoCost"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 3
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseDamage"
+                                    0x33c02d93: i32 = 1
+                                    0x566f3406: string = "Spell_ListType_Damage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "ExecuteDamage"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_PercentMissingHealthDamage"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
+                    }
+                }
                 0x263ba968: list[pointer] = {
                     0x047acadf {
                         0xa831bcc1: option[bool] = {

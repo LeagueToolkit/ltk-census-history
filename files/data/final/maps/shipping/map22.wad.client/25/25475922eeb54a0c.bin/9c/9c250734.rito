@@ -4,9 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x9c250734 = 0x304496f1 {
-        0x1af7caac: list[link] = {
-            0x7badebe8
-            0x8b278900
+        0x1af7caac: list[embed] = {
+            0xe007e6f5 {
+                0x053a1f33: link = 0x7badebe8
+            }
+            0xe007e6f5 {
+                0x053a1f33: link = 0x8b278900
+            }
         }
         0xe4e577b8: f32 = 0.1
         0x169231e2: f32 = 180
@@ -14,7 +18,7 @@ entries: map[hash,embed] = {
         0xb26a2782: f32 = 0
         0xe4e7426c: link = 0xcdba863f
         0xff675dd4: string = "TFT_Poppy"
-        0x17b55a20: f32 = 800
+        0x17b55a20: f32 = 700
         0x4b102e57: f32 = 0
         0xa02a904b: f32 = 50
         0xbbd81e0d: embed = 0xce31c975 {

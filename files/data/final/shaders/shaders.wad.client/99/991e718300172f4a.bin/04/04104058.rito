@@ -26,28 +26,46 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter1"
-                0xd872e2a5: vec4 = { 1, 1, 0, 1 }
+                0xd872e2a5: vec4 = { 0, 1, 1, 50 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "UV_Glow_Opacity"
+                        0x8d39bde6: string = "UV_Rotation"
                         0x0640657c: u32 = 1
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "Radial_Glow_Opacity"
+                        0x8d39bde6: string = "UV_Glow_Opacity"
                         0x0640657c: u32 = 2
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "Diffuse_Offset"
+                        0x8d39bde6: string = "Radial_Glow_Opacity"
                         0x0640657c: u32 = 4
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "Bloom_Factor"
+                        0x8d39bde6: string = "Radial_Frequency"
                         0x0640657c: u32 = 8
                     }
                 }
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { -150, 150, 5, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Radial_Bounds"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Radial_Speed"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Diffuse_Offset"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter3"
                 0xd872e2a5: vec4 = { 1, 1, 1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -57,25 +75,21 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
-                0xd872e2a5: vec4 = { 0, 1, 50, 5 }
+                0x8d39bde6: string = "Parameter4"
+                0xd872e2a5: vec4 = { 0, 1, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Glow_Intensity_Min_Max"
                         0x0640657c: u32 = 3
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "Radial_Frequency"
+                        0x8d39bde6: string = "Bloom_Factor"
                         0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Radial_Speed"
-                        0x0640657c: u32 = 8
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
+                0x8d39bde6: string = "Parameter5"
                 0xd872e2a5: vec4 = { 1, 0.66999316, 0.5000076, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -84,20 +98,13 @@ entries: map[hash,embed] = {
                     }
                 }
             }
-            0x816753d8 {
-                0x8d39bde6: string = "Parameter5"
-                0xd872e2a5: vec4 = { -150, 150, 0, 0 }
-                0x74672198: list[embed] = {
-                    0x14a2befa {
-                        0x8d39bde6: string = "Radial_Bounds"
-                        0x0640657c: u32 = 3
-                    }
-                }
-            }
         }
         0x3291437b: list[embed] = {
             0x60a292e6 {
                 0x8d39bde6: string = "DEBUG_VIEW_GLOW"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "RADIAL_UV_LOCALSPACE_TOGGLE"
             }
             0x60a292e6 {
                 0x8d39bde6: string = "TOGGLE_UV_DIRECTION"
@@ -110,15 +117,6 @@ entries: map[hash,embed] = {
             }
             0x60a292e6 {
                 0x8d39bde6: string = "USE_GLOW_MASK"
-            }
-            0x60a292e6 {
-                0x8d39bde6: string = "USE_GLOW_MASK_B"
-            }
-            0x60a292e6 {
-                0x8d39bde6: string = "USE_GLOW_MASK_G"
-            }
-            0x60a292e6 {
-                0x8d39bde6: string = "USE_GLOW_MASK_R"
             }
             0x60a292e6 {
                 0x8d39bde6: string = "USE_RADIAL_GLOW"
