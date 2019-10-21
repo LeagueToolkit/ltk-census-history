@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe05ebe7e = 0x438850ff {
+        0xcf093b49: string = "TFTSet1"
+        0x082ffaf1: list[link] = {
+            0x2d5b73de
+        }
+        0xd2538e5a: map[string,pointer] = {
+            "TierBagListName" = 0xa188bd55 {
+                0x24f2ec89: string = "TierBags"
+            }
+            "SetNumber" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+            "SetName" = 0xa188bd55 {
+                0x24f2ec89: string = "Base"
+            }
+        }
+    }
+}
