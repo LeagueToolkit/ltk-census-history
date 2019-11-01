@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xdf5ebceb = 0x438850ff {
+        0xcf093b49: string = "TFTSet2"
+        0x082ffaf1: list[link] = {
+            0x1f8b1e5d
+        }
+        0x1bd670a0: u32 = 2
+        0xd2538e5a: map[string,pointer] = {
+            "TierBagListName" = 0xa188bd55 {
+                0x24f2ec89: string = "Set2_TierBags"
+            }
+            "SetNumber" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+            "SetName" = 0xa188bd55 {
+                0x24f2ec89: string = "War of the Elements"
+            }
+            "SetLevelScriptName" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_LevelScript_Set2"
+            }
+            "BotPersonalitiesListName" = 0xa188bd55 {
+                0x24f2ec89: string = "Set2Personalities"
+            }
+        }
+    }
+}

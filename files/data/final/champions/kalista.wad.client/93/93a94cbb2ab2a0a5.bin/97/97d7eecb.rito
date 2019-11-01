@@ -4,6 +4,20 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x97d7eecb = 0x45cd899f {
+        0x868eb76a: list[pointer] = {
+            0x09cde442 {
+                0x2431d42c: option[f32] = {
+                    10
+                }
+                0x5212abee: option[f32] = {
+                    1
+                }
+                0x3d25b8ce: string = "BaseAudio"
+                0xb56e8811: string = "ASSETS/Particles/DefaultColorOverlifetime.dds"
+                0x19bdf4df: u8 = 0
+                0x3559e15b: flag = true
+            }
+        }
         0x6781e762: list[pointer] = {
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -140,9 +154,9 @@ entries: map[hash,embed] = {
                     }
                 }
                 0xb56e8811: string = "ASSETS/Characters/Kalista/Skins/Base/Particles/common_color-dust32.dds"
-                0xfa784eab: u32 = 1
-                0x19bdf4df: u16 = 0
-                0x2674b1b5: u32 = 3
+                0xfa784eab: u8 = 1
+                0x19bdf4df: u8 = 0
+                0x2674b1b5: u8 = 3
                 0x3c6468f4: string = "ASSETS/Characters/Kalista/Skins/Base/Particles/common_DustCloud.dds"
                 0xf1eb7217: embed = 0x04300058 {
                     0xb4b427aa: f32 = 50
@@ -156,14 +170,6 @@ entries: map[hash,embed] = {
                         0x34474c3b: list[f32] = {
                             1
                             2
-                        }
-                        0xcfc9c88e: list[f32] = {
-                            1
-                            2
-                        }
-                        0x00613186: list[f32] = {
-                            0
-                            1
                         }
                     }
                 }
@@ -192,21 +198,8 @@ entries: map[hash,embed] = {
                 }
                 0x5154fb18: vec2 = { 0.5, 0 }
             }
-            0x09cde442 {
-                0x9406ff56: string = "Play_sfx_Rammus_PowerBall_buffdeactivate"
-                0x2431d42c: option[f32] = {
-                    10
-                }
-                0x5212abee: option[f32] = {
-                    1
-                }
-                0x3d25b8ce: string = "BaseAudio"
-                0xb56e8811: string = "ASSETS/Particles/DefaultColorOverlifetime.dds"
-                0x19bdf4df: u16 = 0
-            }
         }
         0xecf1c6bc: string = "Kalista_Base_BA_tar_02"
         0xe7638138: string = "Characters/Kalista/Skins/Skin0/Particles/Kalista_Base_BA_tar_02"
-        0xe0c375ae: string = "Play_sfx_Rammus_PowerBall_buffdeactivate"
     }
 }

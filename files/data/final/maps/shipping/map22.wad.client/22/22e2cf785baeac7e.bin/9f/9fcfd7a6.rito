@@ -4,6 +4,19 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x9fcfd7a6 = 0x01d7548e {
+        0xb40ed25a: embed = 0x54530df7 {
+            0x031fa8db: string = "Play_sfx_tft_action_object_pickup"
+            0x64481cbc: string = "Play_sfx_tft_action_object_drop"
+        }
+        0xba589474: embed = 0x54530df7 {
+            0xe5e634a6: bool = true
+            0xcbe24486: bool = true
+            0x44ab329e: bool = false
+            0xd1296e95: f32 = 0.001
+            0x6d90172b: f32 = 2
+            0x031fa8db: string = "Play_sfx_tft_action_object_pickup"
+            0x64481cbc: string = "Play_sfx_tft_action_object_drop"
+        }
         0x4ff2f38f: list[link] = {
             0x88866617
             0x4d8cdaab
@@ -26,5 +39,6 @@ entries: map[hash,embed] = {
             0xb8c4e4f4
             0x58835b41
         }
+        0x4a191241: link = 0x42fa9bd8
     }
 }

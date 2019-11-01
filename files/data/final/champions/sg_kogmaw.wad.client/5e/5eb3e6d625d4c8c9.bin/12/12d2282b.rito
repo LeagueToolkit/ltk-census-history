@@ -1,0 +1,29 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x12d2282b = 0xed237fc4 {
+        0x8ff5f744: list[embed] = {
+            0xf72d6994 {
+                0xb4d66609: u32 = 42
+            }
+        }
+        0xcf2f4271: link = 0x6ce57a50
+        0x5385fe0a: list[u64] = {
+            10
+            10
+            20
+            25
+            30
+        }
+        0x83422eb0: link = 0xa753b46b
+        0x77a4e581: string = "SG_KogMawStructuresDestroyed"
+        0xf66a8ad3: string = "stat_stone_name_structures_destroyed"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "371401c6-c982-4dd8-88e8-021430307816"
+            0x13bddc7b: u32 = 125620
+            0x73db4a28: string = "d1600ac9-802e-415a-8ace-7e7f6fed5248"
+        }
+    }
+}

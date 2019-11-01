@@ -20,7 +20,7 @@ entries: map[hash,embed] = {
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
                 }
-                0xfa784eab: u32 = 4
+                0xfa784eab: u8 = 4
                 0x83cdeaa1: embed = 0x074f91dd {
                     0xb4b427aa: vec4 = { 0.3137255, 0.9333334, 1, 1 }
                 }
@@ -63,14 +63,6 @@ entries: map[hash,embed] = {
                             { 70, 125, 125 }
                             { 140, 250, 250 }
                         }
-                        0xcfc9c88e: list[vec3] = {
-                            { 0.5, 0.5, 0.5 }
-                            { 1, 1, 1 }
-                        }
-                        0x00613186: list[f32] = {
-                            0
-                            1
-                        }
                     }
                 }
                 0xd4e17a53: embed = 0x68dc32b6 {
@@ -82,14 +74,6 @@ entries: map[hash,embed] = {
                         0x34474c3b: list[vec3] = {
                             { 1.5, 1.5, 1.5 }
                             { 0, 0, 0 }
-                        }
-                        0xcfc9c88e: list[vec3] = {
-                            { 1.5, 1.5, 1.5 }
-                            { 0, 0, 0 }
-                        }
-                        0x00613186: list[f32] = {
-                            0
-                            1
                         }
                     }
                 }
@@ -108,14 +92,6 @@ entries: map[hash,embed] = {
                         0x34474c3b: list[f32] = {
                             0
                             300
-                        }
-                        0xcfc9c88e: list[f32] = {
-                            0
-                            1
-                        }
-                        0x00613186: list[f32] = {
-                            0
-                            1
                         }
                     }
                 }
@@ -287,7 +263,7 @@ entries: map[hash,embed] = {
                         { 0, 1.0000001, 0 }
                     }
                 }
-                0xfa784eab: u32 = 4
+                0xfa784eab: u8 = 4
                 0x83cdeaa1: embed = 0x074f91dd {
                     0xb4b427aa: vec4 = { 0, 1, 0.9176471, 1 }
                     0xbc037de7: pointer = 0x4349c5f5 {
@@ -325,16 +301,6 @@ entries: map[hash,embed] = {
                             { 1, 1, 1, 0 }
                             { 1, 1, 1, 1 }
                             { 1, 1, 1, 0 }
-                        }
-                        0xcfc9c88e: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0 }
-                        }
-                        0x00613186: list[f32] = {
-                            0
-                            0.1
-                            1
                         }
                     }
                 }
@@ -385,14 +351,6 @@ entries: map[hash,embed] = {
                             0
                             100
                         }
-                        0xcfc9c88e: list[f32] = {
-                            0
-                            1
-                        }
-                        0x00613186: list[f32] = {
-                            0
-                            0.4
-                        }
                     }
                 }
                 0x2a552694: embed = 0x04300058 {
@@ -434,7 +392,7 @@ entries: map[hash,embed] = {
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 0.25
                 }
-                0xfa784eab: u32 = 4
+                0xfa784eab: u8 = 4
                 0x83cdeaa1: embed = 0x074f91dd {
                     0xb4b427aa: vec4 = { 0.16470589, 0.5254902, 1, 0.85098046 }
                 }
@@ -455,22 +413,6 @@ entries: map[hash,embed] = {
                             { 0.8018, 0.8018, 0.8018, 0.25 }
                             { 0.557568, 0.557568, 0.557568, 0.075 }
                             { 0.231373, 0.231373, 0.231373, 0 }
-                        }
-                        0xcfc9c88e: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 0.975 }
-                            { 0.899654, 0.899654, 0.899654, 0.475 }
-                            { 0.8018, 0.8018, 0.8018, 0.25 }
-                            { 0.557568, 0.557568, 0.557568, 0.075 }
-                            { 0.231373, 0.231373, 0.231373, 0 }
-                        }
-                        0x00613186: list[f32] = {
-                            0
-                            0.05
-                            0.2
-                            0.35
-                            0.65
-                            1
                         }
                     }
                 }
@@ -541,18 +483,6 @@ entries: map[hash,embed] = {
                             { 0.675, 0.675, 0.675 }
                             { 0.4, 0.4, 0.4 }
                         }
-                        0xcfc9c88e: list[vec3] = {
-                            { 1, 1, 1 }
-                            { 0.825, 0.825, 0.825 }
-                            { 0.675, 0.675, 0.675 }
-                            { 0.4, 0.4, 0.4 }
-                        }
-                        0x00613186: list[f32] = {
-                            0
-                            0.35
-                            0.75
-                            1
-                        }
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Blitzcrank/Skins/Skin21/Particles/Blitzcrank_Skin21_Z_Impact_04.dds"
@@ -602,7 +532,7 @@ entries: map[hash,embed] = {
                 0x8275da98: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 0, 10, 0 }
                 }
-                0xfa784eab: u32 = 1
+                0xfa784eab: u8 = 1
                 0x83cdeaa1: embed = 0x074f91dd {
                     0xb4b427aa: vec4 = { 1, 1, 1, 0.42352945 }
                 }
@@ -617,16 +547,6 @@ entries: map[hash,embed] = {
                             { 1, 1, 1, 0 }
                             { 1, 1, 1, 1 }
                             { 0.231373, 0.231373, 0.231373, 0 }
-                        }
-                        0xcfc9c88e: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 0.231373, 0.231373, 0.231373, 0 }
-                        }
-                        0x00613186: list[f32] = {
-                            0
-                            0.1
-                            1
                         }
                     }
                 }
@@ -697,18 +617,6 @@ entries: map[hash,embed] = {
                             { 0.775, 0.775, 0.775 }
                             { 1, 1, 1 }
                         }
-                        0xcfc9c88e: list[vec3] = {
-                            { 0.4, 0.4, 0.4 }
-                            { 0.55, 0.55, 0.55 }
-                            { 0.775, 0.775, 0.775 }
-                            { 1, 1, 1 }
-                        }
-                        0x00613186: list[f32] = {
-                            0
-                            0.35
-                            0.75
-                            1
-                        }
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Blitzcrank/Skins/Skin21/Particles/Blitzcrank_Skin21_Z_Smoke_03.dds"
@@ -761,7 +669,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x007b14f6: pointer = 0x4beb81fd {}
-                0xfa784eab: u32 = 1
+                0xfa784eab: u8 = 1
                 0x83cdeaa1: embed = 0x074f91dd {
                     0xb4b427aa: vec4 = { 1, 1, 1, 0.42352945 }
                 }
@@ -776,16 +684,6 @@ entries: map[hash,embed] = {
                             { 1, 1, 1, 0 }
                             { 1, 1, 1, 1 }
                             { 0.231373, 0.231373, 0.231373, 0 }
-                        }
-                        0xcfc9c88e: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 0.231373, 0.231373, 0.231373, 0 }
-                        }
-                        0x00613186: list[f32] = {
-                            0
-                            0.1
-                            1
                         }
                     }
                 }
@@ -834,18 +732,6 @@ entries: map[hash,embed] = {
                             { 0.775, 0.775, 0.775 }
                             { 1, 1, 1 }
                         }
-                        0xcfc9c88e: list[vec3] = {
-                            { 0.4, 0.4, 0.4 }
-                            { 0.55, 0.55, 0.55 }
-                            { 0.775, 0.775, 0.775 }
-                            { 1, 1, 1 }
-                        }
-                        0x00613186: list[f32] = {
-                            0
-                            0.35
-                            0.75
-                            1
-                        }
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Blitzcrank/Skins/Skin21/Particles/Blitzcrank_Skin21_Z_Smoke_03.dds"
@@ -856,6 +742,6 @@ entries: map[hash,embed] = {
         0xfd01a9d3: f32 = 1e+05
         0xecf1c6bc: string = "Blitzcrank_Skin21_Recall_Rocket"
         0xe7638138: string = "Characters/Blitzcrank/Skins/Skin21/Particles/Blitzcrank_Skin21_Recall_Rocket"
-        0x9c677a2c: u32 = 199
+        0x9c677a2c: u8 = 199
     }
 }

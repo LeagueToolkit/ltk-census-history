@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x47d070ae = 0x96766ff4 {
+        0xba8affe1: string = "stat_stone_set_description"
+        0x83422eb0: link = 0xcfaae1a8
+        0x8d39bde6: string = "stat_stone_set_name_2"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "87568b55-0590-43f0-8602-f4246253691f"
+            0x13bddc7b: u32 = 66600182
+            0x73db4a28: string = "c9eeb63d-8ec4-41a9-95c8-5ac9cdf99f51"
+        }
+        0xcb67a17d: list[link] = {
+            0x11a49b1e
+            0x01e4156f
+            0x8f0eb466
+        }
+    }
+}

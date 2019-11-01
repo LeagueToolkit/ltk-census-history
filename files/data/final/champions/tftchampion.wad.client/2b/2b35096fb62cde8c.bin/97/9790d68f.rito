@@ -1,0 +1,29 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x9790d68f = 0xed237fc4 {
+        0x8ff5f744: list[embed] = {
+            0xf72d6994 {
+                0xb4d66609: u32 = 42
+            }
+        }
+        0xcf2f4271: link = 0x6ce57a50
+        0x5385fe0a: list[u64] = {
+            10
+            10
+            20
+            25
+            30
+        }
+        0x83422eb0: link = 0x8fb2007f
+        0x77a4e581: string = "TFTChampionStructuresDestroyed"
+        0xf66a8ad3: string = "stat_stone_name_structures_destroyed"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "61f1ef95-1f5b-4eb7-a75f-9678f7ac2c7f"
+            0x13bddc7b: u32 = 125836
+            0x73db4a28: string = "98c1d185-ae19-4ba9-8560-fbb8a4a853e7"
+        }
+    }
+}
