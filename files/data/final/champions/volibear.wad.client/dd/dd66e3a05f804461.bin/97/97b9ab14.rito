@@ -13,6 +13,7 @@ entries: map[hash,embed] = {
             0xf1f20d72: string = "game_spell_description_VolibearQ"
             0x3e1edbdb: list[string] = {
                 "Trait_AttackReset"
+                "Trait_ImmobilizingCCSpell"
             }
             0x9a5a3a84: string = "game_spell_tooltip_VolibearQ"
             0x2ea2820c: string = "game_spell_levelup_VolibearQ"
@@ -156,6 +157,44 @@ entries: map[hash,embed] = {
                 40
             }
             0x5d46764f: pointer = 0x645ba277 {}
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "VolibearQ"
+                    0x57b8b11b: link = 0x122a9d2c
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_VolibearQ_Name"
+                        "keySummary" = "Spell_VolibearQ_Summary"
+                        "keyTooltip" = "Spell_VolibearQ_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 5
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x33c02d93: i32 = 1
+                                    0x566f3406: string = "Spell_ListType_BonusDamage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x33c02d93: i32 = 4
+                                    0x566f3406: string = "Spell_ListType_VolibearBonusMovementSpeedMin"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x33c02d93: i32 = 2
+                                    0x566f3406: string = "Spell_ListType_VolibearBonusMovementSpeedMax"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
         0x7f0f5a79: pointer = 0x4633d794 {
             0xf1f20d72: string = "game_buff_tooltip_VolibearQ"

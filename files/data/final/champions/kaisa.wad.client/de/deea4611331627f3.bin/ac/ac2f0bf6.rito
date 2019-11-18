@@ -18,7 +18,7 @@ entries: map[hash,embed] = {
                 0x5212abee: option[f32] = {
                     1.05
                 }
-                0x42bd7f6b: bool = true
+                0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "Distort"
                 0x9dc3d926: embed = 0x77cf93a8 {
                     0xe5f268dd: embed = 0x68dc32b6 {
@@ -30,7 +30,7 @@ entries: map[hash,embed] = {
                 }
                 0xb56e8811: string = "ASSETS/Shared/Particles/alpha_21.dds"
                 0xfa784eab: u8 = 1
-                0x7b7a7318: i32 = 1
+                0x7b7a7318: i16 = 1
                 0xbc809cdb: pointer = 0x49d51b69 {
                     0xbc5efeaa: f32 = 0.02
                     0xe672d557: string = "ASSETS/Characters/Kaisa/Skins/Base/Particles/Kaisa_Base_Q_Ezreal_Base_Z_distortion_soundwaves_01.dds"
@@ -91,7 +91,7 @@ entries: map[hash,embed] = {
                 0x5212abee: option[f32] = {
                     5
                 }
-                0x42bd7f6b: bool = true
+                0x42bd7f6b: flag = true
                 0xae4f2c3a: pointer = 0xbbc023b8 {
                     0xfa390047: list[embed] = {
                         0x634db850 {
@@ -326,9 +326,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Kaisa/Skins/Skin16/Particles/Kaisa_Skin16_Dagger_Feathers_sharpen.SKINS_Kaisa_Skin16.dds"
-                0x1e67b0f1: i32 = 4
-                0x76f8ad24: i32 = 4
+                0x3c6468f4: string = "ASSETS/Characters/Kaisa/Skins/Skin16/Particles/Kaisa_Skin16_Dagger_Feathers_sharpen.dds"
+                0x1e67b0f1: u16 = 4
+                0x76f8ad24: u16 = 4
                 0x86a84509: vec2 = { 2, 2 }
             }
             0x09cde442 {
@@ -366,7 +366,7 @@ entries: map[hash,embed] = {
                 0x5212abee: option[f32] = {
                     5
                 }
-                0x42bd7f6b: bool = true
+                0x42bd7f6b: flag = true
                 0xae4f2c3a: pointer = 0xbbc023b8 {
                     0xfa390047: list[embed] = {
                         0x634db850 {
@@ -682,8 +682,8 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Kaisa/Skins/Base/Particles/Kaisa_Base_R_debris.dds"
-                0x1e67b0f1: i32 = 4
-                0x76f8ad24: i32 = 4
+                0x1e67b0f1: u16 = 4
+                0x76f8ad24: u16 = 4
                 0x86a84509: vec2 = { 2, 2 }
             }
             0x09cde442 {
@@ -699,7 +699,7 @@ entries: map[hash,embed] = {
                 0x5212abee: option[f32] = {
                     1.05
                 }
-                0x42bd7f6b: bool = true
+                0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "Flash"
                 0x9dc3d926: embed = 0x77cf93a8 {
                     0xe5f268dd: embed = 0x68dc32b6 {
@@ -724,7 +724,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x7b7a7318: i32 = 100
+                0x7b7a7318: i16 = 100
                 0x6563bee8: u8 = 1
                 0x3559e15b: flag = true
                 0xf0eb7084: embed = 0x68dc32b6 {
@@ -744,7 +744,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Kaisa/Skins/Skin16/Particles/Kaisa_Base_Q_cas_smoke.SKINS_Kaisa_Skin16.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Kaisa/Skins/Skin16/Particles/Kaisa_Base_Q_cas_smoke.dds"
                 0x8aa1ffc1: pointer = 0xa8ad8317 {
                     0xffa711fb: string = "ASSETS/Characters/Kaisa/Skins/Base/Particles/Kaisa_Skin01_W_gradient_rgb.dds"
                     0x143f06d1: embed = 0x074f91dd {
@@ -780,7 +780,7 @@ entries: map[hash,embed] = {
                 }
                 0x007b14f6: pointer = 0x8594e839 {
                     0x0d89732d: embed = 0x6a88780b {
-                        0xd467e8c0: string = "ASSETS/Characters/Kaisa/Skins/Skin16/Particles/Kaisa_Skin16_E_ShieldMesh.SKINS_Kaisa_Skin16.scb"
+                        0xd467e8c0: string = "ASSETS/Characters/Kaisa/Skins/Skin16/Particles/Kaisa_Skin16_E_ShieldMesh.scb"
                     }
                 }
                 0xfa784eab: u8 = 4
@@ -800,7 +800,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x7b7a7318: i32 = 4
+                0x7b7a7318: i16 = 4
                 0x3c91cebd: bool = true
                 0x37ddb774: flag = true
                 0xe09d5ebb: flag = true
@@ -898,8 +898,8 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x38344d14: string = "ASSETS/Characters/Kaisa/Skins/Skin16/Particles/Kaisa_Skin16_E_PlasmaMeshTest.SKINS_Kaisa_Skin16.dds"
-                0x1e67b0f1: i32 = 2
+                0x38344d14: string = "ASSETS/Characters/Kaisa/Skins/Skin16/Particles/Kaisa_Skin16_E_PlasmaMeshTest.dds"
+                0x1e67b0f1: u16 = 2
                 0x264afd39: u8 = 2
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0, -3 }
@@ -930,7 +930,7 @@ entries: map[hash,embed] = {
                 }
                 0x324f9f10: u8 = 2
                 0x86a84509: vec2 = { 2, 1 }
-                0x2f2e99f2: string = "ASSETS/Characters/Kaisa/Skins/Skin16/Particles/Kaisa_Skin16_E_Mis_EplasmaShapes.SKINS_Kaisa_Skin16.dds"
+                0x2f2e99f2: string = "ASSETS/Characters/Kaisa/Skins/Skin16/Particles/Kaisa_Skin16_E_Mis_EplasmaShapes.dds"
                 0x164b5733: vec2 = { 2, 2 }
             }
         }

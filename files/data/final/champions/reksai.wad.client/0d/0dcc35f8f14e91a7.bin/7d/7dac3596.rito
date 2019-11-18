@@ -10,6 +10,9 @@ entries: map[hash,embed] = {
             0xecf3f88d: u32 = 15567
             0x74d44065: string = "game_spell_displayname_RekSaiW"
             0xf1f20d72: string = "game_spell_description_RekSaiW"
+            0x3e1edbdb: list[string] = {
+                "Trait_SwapsIntoImmobilizingCCSpell"
+            }
             0x9a5a3a84: string = "game_spell_tooltip_RekSaiW"
             0x2ea2820c: string = "game_spell_levelup_RekSaiW"
             0x251a5225: list[embed] = {
@@ -175,6 +178,28 @@ entries: map[hash,embed] = {
             0x5d46764f: pointer = 0xea5c9896 {}
             0x00f7e5bc: bool = true
             0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "RekSaiW"
+                    0x57b8b11b: link = 0x122a9d2c
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_RekSaiW_Name"
+                        "keySummary" = "Spell_RekSaiW_Summary"
+                        "keyTooltip" = "Spell_RekSaiW_Tooltip"
+                        "keyCost" = "Spell_Cost_NoCost"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 5
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x33c02d93: i32 = 2
+                                    0x566f3406: string = "Spell_ListType_RekSaiWBurrowedDamage"
+                                }
+                            }
+                        }
+                    }
+                }
                 0x263ba968: list[pointer] = {
                     0x047acadf {}
                 }

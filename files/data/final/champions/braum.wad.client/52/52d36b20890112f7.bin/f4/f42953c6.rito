@@ -6,13 +6,13 @@ entries: map[hash,embed] = {
     0xf42953c6 = 0x5e7e5a06 {
         0xc8e37ef0: string = "BraumPassive"
         0x56d2be52: pointer = 0x43368569 {
-            0x44b7e8dd: string = "BraumPassive"
-            0x74d44065: string = "game_spell_displayname_BraumPassive"
-            0xf1f20d72: string = "game_spell_description_BraumPassive"
-            0x9a5a3a84: string = "game_spell_tooltip_BraumPassive"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+            0x3e1edbdb: list[string] = {
+                "Trait_ImmobilizingCCSpell"
+            }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "StackDuration"
+                    0x246b0d8e: list[f32] = {
                         4
                         4
                         4
@@ -21,23 +21,119 @@ entries: map[hash,embed] = {
                         4
                         4
                     }
+                    0x6d3ccfd7: f32 = 4
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
+                0x005008a6 {
+                    0x19efbfdb: string = "StackCap"
+                    0x246b0d8e: list[f32] = {
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                    }
+                    0x6d3ccfd7: f32 = 4
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x1ddee768 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x2421b258 {
+                            0x246b0d8e: list[f32] = {
+                                16
+                                26
+                                36
+                                46
+                                56
+                                66
+                                76
+                                86
+                                96
+                                106
+                                116
+                                126
+                                136
+                                146
+                                156
+                                166
+                                176
+                                186
+                                196
+                                206
+                                216
+                                226
+                                236
+                                246
+                                256
+                                266
+                                276
+                                286
+                                296
+                                306
+                                316
+                            }
+                            0x6d3ccfd7: f32 = 16
+                            0xe7b832f2: string = "P + 10"
+                        }
+                    }
+                }
+                0xcfaae860 = 0x070e3593 {
+                    0x7f93cf4e: hash = 0x1ddee768
+                    0x2c77adff: pointer = 0x9ef92080 {
+                        0xe202bca9: f32 = 0.2
+                    }
+                }
+                0xda9068a6 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5cf69ece {
+                            0xad62f672: f32 = 8
+                            0x7b5d1934: list[embed] = {
+                                0x8e93d8ee {
+                                    0xa77654ae: u32 = 7
+                                    0xd5fd07ed: f32 = -1
+                                }
+                                0x8e93d8ee {
+                                    0xa77654ae: u32 = 13
+                                    0xd5fd07ed: f32 = -1
+                                }
+                            }
+                        }
+                    }
+                }
+                0x29f3d7f1 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5cf69ece {
+                            0xad62f672: f32 = 1.25
+                            0x7b5d1934: list[embed] = {
+                                0x8e93d8ee {
+                                    0xa77654ae: u32 = 7
+                                    0xd5fd07ed: f32 = 0.25
+                                }
+                                0x8e93d8ee {
+                                    0xa77654ae: u32 = 13
+                                    0xd5fd07ed: f32 = 0.25
+                                }
+                            }
+                        }
+                    }
+                }
             }
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Braum/HUD/Icons2D/Braum_Passive.dds"
             }
-        }
-        0x7f0f5a79: pointer = 0x4633d794 {
-            0xf1f20d72: string = "game_buff_tooltip_BraumMark"
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "BraumPassive"
+                    0x57b8b11b: link = 0x30d7b387
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_BraumPassive_Name"
+                        "keyTooltip" = "Spell_BraumPassive_Tooltip"
+                        "keySummary" = "Spell_BraumPassive_Summary"
+                    }
+                }
+            }
         }
     }
 }

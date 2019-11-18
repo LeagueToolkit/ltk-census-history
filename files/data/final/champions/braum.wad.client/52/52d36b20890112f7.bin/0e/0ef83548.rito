@@ -6,16 +6,23 @@ entries: map[hash,embed] = {
     0x0ef83548 = 0x5e7e5a06 {
         0xc8e37ef0: string = "BraumMark"
         0x56d2be52: pointer = 0x43368569 {
-            0x44b7e8dd: string = "BraumPassive"
-            0x74d44065: string = "game_spell_displayname_BraumPassive"
-            0xf1f20d72: string = "game_spell_description_BraumPassive"
-            0x9a5a3a84: string = "game_spell_tooltip_BraumPassive"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Braum/HUD/Icons2D/Braum_Passive.dds"
             }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x375656dd: hash = 0xf42953c6
+            }
         }
         0x7f0f5a79: pointer = 0x4633d794 {
-            0xf1f20d72: string = "game_buff_tooltip_BraumMark"
+            0xf1f20d72: string = "Buff_BraumMark_Tooltip"
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "BraumMark"
+                0x57b8b11b: link = 0x10f01d27
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Spell_BraumPassive_Name"
+                    "keyTooltip" = "Buff_BraumMark_Tooltip"
+                }
+            }
         }
     }
 }

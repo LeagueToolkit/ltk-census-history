@@ -15,7 +15,7 @@ entries: map[hash,embed] = {
                 0x5212abee: option[f32] = {
                     2.5
                 }
-                0x42bd7f6b: bool = true
+                0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "waterTimer"
                 0x33f36f05: bool = true
                 0xb9516a6f: u8 = 2
@@ -25,7 +25,7 @@ entries: map[hash,embed] = {
                 0xc0bf561e: f32 = 0.005
                 0x007b14f6: pointer = 0x8594e839 {
                     0x0d89732d: embed = 0x6a88780b {
-                        0xd467e8c0: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer.ARAMUpdate.scb"
+                        0xd467e8c0: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer.scb"
                     }
                 }
                 0xfa784eab: u8 = 4
@@ -49,16 +49,16 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x7b7a7318: i32 = 1
+                0x7b7a7318: i16 = 1
                 0x3c91cebd: bool = true
                 0x6563bee8: u8 = 1
                 0x27d40903: flag = true
-                0x2ae335b2: bool = false
+                0x2ae335b2: flag = false
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 6, 0, 6 }
                 }
                 0x95111b29: f32 = 0.005
-                0x38344d14: string = "ASSETS/Maps/Particles/BilgeWater/Base_Water.ARAMUpdate.dds"
+                0x38344d14: string = "ASSETS/Maps/Particles/BilgeWater/Base_Water.dds"
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0, 0.6 }
                 }
@@ -99,7 +99,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Shared/Particles/alphaslice_mesh.TFT.dds"
+                0x2f2e99f2: string = "ASSETS/Shared/Particles/alphaslice_mesh.SRX_FX.dds"
                 0x32356474: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0, -0.5 }
                 }
@@ -150,7 +150,7 @@ entries: map[hash,embed] = {
                 0x5212abee: option[f32] = {
                     1
                 }
-                0x42bd7f6b: bool = true
+                0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "underDark"
                 0x33f36f05: bool = true
                 0xca406316: embed = 0x04300058 {
@@ -210,7 +210,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2ae335b2: bool = false
+                0x2ae335b2: flag = false
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 230, 150, 50 }
                 }
@@ -229,7 +229,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x95111b29: f32 = 0.005
-                0x3c6468f4: string = "ASSETS/Shared/Particles/bigglow02.TFT_EnchantedHexes.dds"
+                0x3c6468f4: string = "ASSETS/Shared/Particles/bigglow02.SRE_Base.dds"
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -241,17 +241,17 @@ entries: map[hash,embed] = {
                 0x5212abee: option[f32] = {
                     1
                 }
-                0x42bd7f6b: bool = true
+                0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "TimerBG"
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
                 }
                 0x007b14f6: pointer = 0x8594e839 {
                     0x0d89732d: embed = 0x6a88780b {
-                        0xd467e8c0: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer_Mesh.ARAMUpdate.sco"
+                        0xd467e8c0: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer_Mesh.sco"
                     }
                 }
-                0xb56e8811: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Color_Dash_Timer.ARAMUpdate.dds"
+                0xb56e8811: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Color_Dash_Timer.dds"
                 0xfa784eab: u8 = 1
                 0x3d7e6258: embed = 0x074f91dd {
                     0xb4b427aa: vec4 = { 0.03529412, 0.20392157, 0.11372549, 0.32941177 }
@@ -270,7 +270,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x7b7a7318: i32 = -15
+                0x7b7a7318: i16 = -15
                 0x2674b1b5: u8 = 1
                 0x3c91cebd: bool = true
                 0x6563bee8: u8 = 1
@@ -279,7 +279,7 @@ entries: map[hash,embed] = {
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 90, 0, -180 }
                 }
-                0x2ae335b2: bool = false
+                0x2ae335b2: flag = false
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 25, 25, 0 }
                 }
@@ -304,7 +304,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x95111b29: f32 = 0.004
-                0x38344d14: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer_Ring.ARAMUpdate.dds"
+                0x38344d14: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer_Ring.dds"
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -316,14 +316,14 @@ entries: map[hash,embed] = {
                 0x5212abee: option[f32] = {
                     1
                 }
-                0x42bd7f6b: bool = true
+                0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "timer1"
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
                 }
                 0x007b14f6: pointer = 0x8594e839 {
                     0x0d89732d: embed = 0x6a88780b {
-                        0xd467e8c0: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer_Mesh.ARAMUpdate.sco"
+                        0xd467e8c0: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer_Mesh.sco"
                     }
                 }
                 0xfa784eab: u8 = 4
@@ -344,7 +344,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x7b7a7318: i32 = -10
+                0x7b7a7318: i16 = -10
                 0x2674b1b5: u8 = 1
                 0x3c91cebd: bool = true
                 0x6563bee8: u8 = 1
@@ -353,7 +353,7 @@ entries: map[hash,embed] = {
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 90, 0, -180 }
                 }
-                0x2ae335b2: bool = false
+                0x2ae335b2: flag = false
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 25, 25, 0 }
                 }
@@ -378,11 +378,11 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x95111b29: f32 = 0.004
-                0x38344d14: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer_Ring.ARAMUpdate.dds"
+                0x38344d14: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer_Ring.dds"
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0.32, 0 }
                 }
-                0x2f2e99f2: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer_Ring_Mult.ARAMUpdate.dds"
+                0x2f2e99f2: string = "ASSETS/Maps/Particles/HA/HAUpdate_Backtrack_Timer_Ring_Mult.dds"
                 0x32356474: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { -0.2, -0.1 }
                 }
@@ -433,7 +433,7 @@ entries: map[hash,embed] = {
                 0x5212abee: option[f32] = {
                     1
                 }
-                0x42bd7f6b: bool = true
+                0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "underDark1"
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
@@ -457,7 +457,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x7b7a7318: i32 = -20
+                0x7b7a7318: i16 = -20
                 0x6563bee8: u8 = 1
                 0x3559e15b: flag = true
                 0x27d40903: flag = true
@@ -493,12 +493,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2ae335b2: bool = false
+                0x2ae335b2: flag = false
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 200, 150, 50 }
                 }
                 0x95111b29: f32 = 0.005
-                0x3c6468f4: string = "ASSETS/Shared/Particles/bigglow02.TFT_EnchantedHexes.dds"
+                0x3c6468f4: string = "ASSETS/Shared/Particles/bigglow02.SRE_Base.dds"
             }
             0x09cde442 {
                 0x22e763bc: f32 = 1.3
@@ -514,7 +514,7 @@ entries: map[hash,embed] = {
                 0x5212abee: option[f32] = {
                     2
                 }
-                0x42bd7f6b: bool = true
+                0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "timerDing"
                 0x9dc3d926: embed = 0x77cf93a8 {
                     0xe5f268dd: embed = 0x68dc32b6 {
@@ -545,7 +545,7 @@ entries: map[hash,embed] = {
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 90, 0, 0 }
                 }
-                0x2ae335b2: bool = false
+                0x2ae335b2: flag = false
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 150, 150, 50 }
                 }
@@ -561,7 +561,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/HA/Item_MarinersVengeance_Flare.ARAMUpdate.dds"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/HA/Item_MarinersVengeance_Flare.dds"
             }
         }
         0xecf1c6bc: string = "HAUpdate_Backtrack_Timer"

@@ -1,0 +1,33 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xaffe7fc8 = 0x5e7e5a06 {
+        0xc8e37ef0: string = "SRX_CloudZoneSpeedBuff"
+        0x56d2be52: pointer = 0x43368569 {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "SpeedBuff"
+                    0x246b0d8e: list[f32] = {
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                    }
+                    0x6d3ccfd7: f32 = 0.2
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "Cloud_Zone_Buff.dds"
+            }
+        }
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0xf1f20d72: string = "buff_desc_SRX_CloudZoneSpeedBuff"
+            0xd0066e81: bool = false
+        }
+    }
+}

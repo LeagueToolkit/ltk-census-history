@@ -15,7 +15,7 @@ entries: map[hash,embed] = {
                 0x5212abee: option[f32] = {
                     2
                 }
-                0x42bd7f6b: bool = true
+                0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "Ball"
                 0x33f36f05: bool = true
                 0xca406316: embed = 0x04300058 {
@@ -33,7 +33,7 @@ entries: map[hash,embed] = {
                 0x3d7e6258: embed = 0x074f91dd {
                     0xb4b427aa: vec4 = { 0, 0.20392157, 0.20392157, 1 }
                 }
-                0x7b7a7318: i32 = 10
+                0x7b7a7318: i16 = 10
                 0x3f7567cd: pointer = 0x4112ea83 {
                     0x85a34efd: string = "ASSETS/Shared/Particles/MonkeyKing_Skin05_cube.TFT.dds"
                     0x11bc7060: f32 = -0.2
@@ -106,7 +106,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x7b7a7318: i32 = -20
+                0x7b7a7318: i16 = -20
                 0x37ddb774: flag = true
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 100, 100, 1 }
@@ -160,7 +160,7 @@ entries: map[hash,embed] = {
                 0x5212abee: option[f32] = {
                     2
                 }
-                0x42bd7f6b: bool = true
+                0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "Inner_Light"
                 0x9dc3d926: embed = 0x77cf93a8 {
                     0xff7d0e41: embed = 0x68dc32b6 {
@@ -184,9 +184,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x7b7a7318: i32 = -150
+                0x7b7a7318: i16 = -150
                 0x3559e15b: flag = true
-                0x2ae335b2: bool = false
+                0x2ae335b2: flag = false
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 80, 1, 1 }
                 }
@@ -205,7 +205,7 @@ entries: map[hash,embed] = {
                 0x5212abee: option[f32] = {
                     2
                 }
-                0x42bd7f6b: bool = true
+                0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "Inner_Light1"
                 0xfa41ab8d: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 0, 1, 0 }
@@ -231,7 +231,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x7b7a7318: i32 = 12
+                0x7b7a7318: i16 = 12
                 0x6563bee8: u8 = 1
                 0xddfca826: flag = true
                 0x3559e15b: flag = true
@@ -242,10 +242,10 @@ entries: map[hash,embed] = {
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 5
+                    0xb4b427aa: f32 = 1
                 }
                 0x2a552694: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 0.5
+                    0xb4b427aa: f32 = 2
                     0xbc037de7: pointer = 0xfe064c88 {
                         0xa7084719: list[pointer] = {
                             0x53a6c97e {
@@ -263,7 +263,7 @@ entries: map[hash,embed] = {
                             0
                         }
                         0x34474c3b: list[f32] = {
-                            0.5
+                            2
                         }
                     }
                 }
@@ -273,6 +273,7 @@ entries: map[hash,embed] = {
                 0x5212abee: option[f32] = {
                     2
                 }
+                0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "Inner_Light2"
                 0x9dc3d926: embed = 0x77cf93a8 {
                     0xff7d0e41: embed = 0x68dc32b6 {
@@ -299,14 +300,14 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x7b7a7318: i32 = 10
+                0x7b7a7318: i16 = 10
                 0x3559e15b: flag = true
-                0x2ae335b2: bool = false
+                0x2ae335b2: flag = false
                 0xf0eb7084: embed = 0x68dc32b6 {
-                    0xb4b427aa: vec3 = { 150, 1, 1 }
+                    0xb4b427aa: vec3 = { 80, 1, 1 }
                 }
                 0xd4e17a53: embed = 0x68dc32b6 {
-                    0xb4b427aa: vec3 = { 1, 1.3, 1.3 }
+                    0xb4b427aa: vec3 = { 0.75, 1.3, 1.3 }
                 }
                 0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/Glow.TFT.dds"
             }
@@ -343,7 +344,7 @@ entries: map[hash,embed] = {
                 0x5212abee: option[f32] = {
                     2
                 }
-                0x42bd7f6b: bool = true
+                0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "Inner_Light_skin"
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
@@ -362,16 +363,23 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x7b7a7318: i32 = 20
+                0x7b7a7318: i16 = 20
                 0x19bdf4df: u8 = 0
                 0x2674b1b5: u8 = 3
                 0x6563bee8: u8 = 1
                 0x3559e15b: flag = true
-                0x2ae335b2: bool = false
+                0x2ae335b2: flag = false
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 20, 60, 60 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Ahri/Skins/Skin05/Particles/Ahri_Skin05_W_flash_01.dds"
+                0x8aa1ffc1: pointer = 0xa8ad8317 {
+                    0xffa711fb: string = "ASSETS/Maps/Particles/TFT/TFT_Glb_Gradient.TFT.dds"
+                    0x8bd46035: embed = 0x68dc32b6 {
+                        0xb4b427aa: vec3 = { 7, 0, 0 }
+                    }
+                    0x9e52382f: i32 = 16
+                }
                 0xf1eb7217: embed = 0x04300058 {
                     0xb4b427aa: f32 = 60
                 }
@@ -404,7 +412,7 @@ entries: map[hash,embed] = {
                 0x3d7e6258: embed = 0x074f91dd {
                     0xb4b427aa: vec4 = { 1, 0.6627451, 0.08235294, 1 }
                 }
-                0x7b7a7318: i32 = 10
+                0x7b7a7318: i16 = 10
                 0x2674b1b5: u8 = 3
                 0x3c91cebd: bool = true
                 0x3559e15b: flag = true
@@ -442,11 +450,18 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2ae335b2: bool = false
+                0x2ae335b2: flag = false
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 3, 4.5, 4.5 }
                 }
                 0x38344d14: string = "ASSETS/Characters/TFT_Ahri/Skins/Base/Particles/TFT_Ahri_Base_Q_swirl.TFT.dds"
+                0x8aa1ffc1: pointer = 0xa8ad8317 {
+                    0xffa711fb: string = "ASSETS/Maps/Particles/TFT/TFT_Glb_Gradient.TFT.dds"
+                    0x8bd46035: embed = 0x68dc32b6 {
+                        0xb4b427aa: vec3 = { 7, 0, 0 }
+                    }
+                    0x9e52382f: i32 = 16
+                }
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 3.7, 0 }
                     0xbc037de7: pointer = 0x2e0ea245 {
@@ -744,7 +759,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x7b7a7318: i32 = -1
+                0x7b7a7318: i16 = -1
                 0x3c91cebd: bool = true
                 0x3559e15b: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
@@ -912,7 +927,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x7b7a7318: i32 = 2
+                0x7b7a7318: i16 = 2
                 0x37ddb774: flag = true
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 100, 1, 0 }
