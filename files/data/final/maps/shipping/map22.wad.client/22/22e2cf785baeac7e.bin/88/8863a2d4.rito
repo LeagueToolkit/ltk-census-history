@@ -5,7 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x8863a2d4 = 0xf4a6bb27 {
         0x19efbfdb: string = "TFT_Round_Intro3"
-        0x8bee2972: string = "ASSETS/Characters/TFT_SiegeMinion/HUD/Redmechcannon_Square.TFT.dds"
+        0x8bee2972: string = "ASSETS/Characters/TFT_SiegeMinion/HUD/Redmechcannon_Square.dds"
         0xc3143d66: string = "tft_stage_entity_minions_3"
         0xd20054c0: string = "ASSETS/UX/TFT/StageIcons/MinionsUpcoming.dds"
         0x304b0330: string = "ASSETS/UX/TFT/StageIcons/MinionsCurrent.dds"
@@ -43,11 +43,14 @@ entries: map[hash,embed] = {
             0x85f7d4c8: f32 = 1
         }
         0x78f60753: map[string,pointer] = {
-            "NPC" = 0xa188bd55 {
-                0x24f2ec89: string = "NPCRound3"
-            }
             "RoundType" = 0xa188bd55 {
                 0x24f2ec89: string = "PVERound"
+            }
+            "NPCType" = 0xa188bd55 {
+                0x24f2ec89: string = "Minion"
+            }
+            "NPCName" = 0xa188bd55 {
+                0x24f2ec89: string = "NPCRound3"
             }
         }
     }

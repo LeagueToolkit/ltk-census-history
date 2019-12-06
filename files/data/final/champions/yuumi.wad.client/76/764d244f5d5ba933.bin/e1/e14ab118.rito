@@ -15,28 +15,28 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "MSDuration"
                     0x246b0d8e: list[f32] = {
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
                     }
-                    0x6d3ccfd7: f32 = 2
+                    0x6d3ccfd7: f32 = 3
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "MSAmount"
                     0x246b0d8e: list[f32] = {
-                        25
-                        25
-                        25
-                        25
-                        25
-                        25
-                        25
+                        15
+                        15
+                        15
+                        15
+                        15
+                        15
+                        15
                     }
-                    0x6d3ccfd7: f32 = 25
+                    0x6d3ccfd7: f32 = 15
                     0xe7b832f2: string = "P + 0"
                 }
                 0x005008a6 {
@@ -56,16 +56,30 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "HealAmountMin"
                     0x246b0d8e: list[f32] = {
-                        20
                         30
-                        40
-                        50
-                        60
                         70
-                        80
+                        110
+                        150
+                        190
+                        230
+                        270
                     }
-                    0x6d3ccfd7: f32 = 20
-                    0xe7b832f2: string = "P + 10"
+                    0x6d3ccfd7: f32 = 30
+                    0xe7b832f2: string = "P + 40"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "AttackSpeedAmount"
+                    0x246b0d8e: list[f32] = {
+                        0.2
+                        0.25
+                        0.3
+                        0.35
+                        0.4
+                        0.45
+                        0.5
+                    }
+                    0x6d3ccfd7: f32 = 0.2
+                    0xe7b832f2: string = "P + .05"
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -75,22 +89,7 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0x488a9ea9
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.1
-                        }
-                    }
-                }
-                0xb9eb20de = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0xad106e67 {
-                            0x46144074: pointer = 0x332eb441 {
-                                0xb386dcf1: hash = 0x488a9ea9
-                            }
-                            0x4914452d: pointer = 0x9ef92080 {
-                                0xe202bca9: f32 = 2.3
-                            }
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.4
+                            0x295c2889: f32 = 0.3
                         }
                     }
                 }
@@ -110,24 +109,33 @@ entries: map[hash,embed] = {
                 "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiE.dds"
             }
             0x9ecac3a1: list[f32] = {
-                0.5
-                0.5
-                0.5
-                0.5
-                0.5
-                0.5
-                0.5
+                12
+                12
+                11
+                10
+                9
+                8
+                8
             }
             0x18330965: f32 = -1
             0x3a4c4690: f32 = -1
             0x58cae4d0: list[i32] = {
-                2
-                2
-                2
-                2
-                2
-                2
-                2
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+            }
+            0x8c5d1f1f: list[i32] = {
+                0
+                0
+                0
+                0
+                0
+                0
+                0
             }
             0xda94bd02: list[f32] = {
                 19
@@ -138,7 +146,6 @@ entries: map[hash,embed] = {
                 14
                 13
             }
-            0xab245046: bool = true
             0x10fc84aa: bool = true
             0x1b9cbd9b: list[f32] = {
                 25000
@@ -150,12 +157,12 @@ entries: map[hash,embed] = {
                 25000
             }
             0xd997830a: list[f32] = {
-                30
-                40
-                50
-                60
-                70
-                80
+                100
+                115
+                130
+                145
+                160
+                160
             }
             0x5d46764f: pointer = 0x645ba277 {}
             0x048557ff: embed = 0x7dd1a902 {
@@ -175,20 +182,21 @@ entries: map[hash,embed] = {
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "HealAmountMin"
-                                    0x566f3406: string = "Spell_YuumiSpellShield_LevelUp_HealAmount"
+                                    0x566f3406: string = "Spell_ListType_Healing"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "HealAmountMin"
-                                    0xf506c7e6: f32 = 2.3
-                                    0x566f3406: string = "Spell_YuumiE_LevelUp_BaseMaxHeal"
+                                    0x5127f14d: string = "AttackSpeedAmount"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_AttackSpeed"
+                                    0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Cost"
-                                    0x566f3406: string = "Spell_YuumiSpellShield_LevelUp_ManaCost"
+                                    0x5127f14d: string = "Cooldown"
+                                    0x566f3406: string = "Spell_ListType_Cooldown"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "AmmoRechargeTime"
-                                    0x566f3406: string = "Spell_YuumiE_LevelUp_Ammo"
+                                    0x5127f14d: string = "BaseCost"
+                                    0x566f3406: string = "Spell_ListType_ManaCost"
                                 }
                             }
                         }

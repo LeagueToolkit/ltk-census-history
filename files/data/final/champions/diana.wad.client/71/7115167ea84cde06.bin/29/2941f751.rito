@@ -40,6 +40,7 @@ entries: map[hash,embed] = {
                 }
                 0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "Energy_Flash"
+                0x33f36f05: bool = true
                 0xfa41ab8d: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 10, 20, 10 }
                     0xbc037de7: pointer = 0xacd81180 {
@@ -213,14 +214,14 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x95111b29: f32 = 0.005
-                0x3c6468f4: string = "ASSETS/Characters/Diana/Skins/skin03/Particles/Diana_Skin03_Z_EnergyStreakDark_2x2.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Diana/Skins/skin03/Particles/Diana_Skin03_Z_EnergyStreakDark_2x2.DianaSpellSwap.dds"
                 0x1e67b0f1: u16 = 4
                 0x76f8ad24: u16 = 2
                 0x86a84509: vec2 = { 2, 2 }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 50
+                    0xb4b427aa: f32 = 10
                 }
                 0x2a552694: embed = 0x04300058 {
                     0xb4b427aa: f32 = 0.75
@@ -254,7 +255,7 @@ entries: map[hash,embed] = {
                 0x3bc59eb6: option[f32] = {}
                 0x3d25b8ce: string = "Energy_Flash1"
                 0xfa41ab8d: embed = 0x68dc32b6 {
-                    0xb4b427aa: vec3 = { 10, 20, 10 }
+                    0xb4b427aa: vec3 = { 10, 400, 10 }
                     0xbc037de7: pointer = 0xacd81180 {
                         0xa7084719: list[pointer] = {
                             0x53a6c97e {
@@ -273,7 +274,7 @@ entries: map[hash,embed] = {
                                     1
                                 }
                                 0xe44b7382: list[f32] = {
-                                    0.1
+                                    0.6
                                     1
                                 }
                             }
@@ -292,11 +293,14 @@ entries: map[hash,embed] = {
                             0
                         }
                         0x34474c3b: list[vec3] = {
-                            { 10, 20, 10 }
+                            { 10, 400, 10 }
                         }
                     }
                 }
                 0x9dc3d926: embed = 0x77cf93a8 {
+                    0xff7d0e41: embed = 0x68dc32b6 {
+                        0xb4b427aa: vec3 = { 0, 30, 0 }
+                    }
                     0xe5f268dd: embed = 0x68dc32b6 {
                         0xb4b427aa: vec3 = { 20, -5, 0 }
                     }
@@ -334,22 +338,30 @@ entries: map[hash,embed] = {
                 }
                 0xc0bf561e: f32 = 0.005
                 0x007b14f6: pointer = 0x4beb81fd {}
+                0xb56e8811: string = "ASSETS/Shared/Particles/3161color-hold.SRE_Base.dds"
                 0xfa784eab: u8 = 4
+                0x83cdeaa1: embed = 0x074f91dd {
+                    0xb4b427aa: vec4 = { 1, 1, 1, 0.4899977 }
+                }
                 0x3d7e6258: embed = 0x074f91dd {
                     0xbc037de7: pointer = 0x4349c5f5 {
                         0x5d68eeb5: list[f32] = {
                             0
-                            0.5
+                            0.08029197
+                            0.46836984
+                            0.8296837
                             1
                         }
                         0x34474c3b: list[vec4] = {
                             { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
-                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.9273743 }
+                            { 1, 1, 1, 0.92178774 }
+                            { 1, 0.5019608, 0.33333334, 0.14509805 }
+                            { 1, 0.1882353, 0.13333334, 0 }
                         }
                     }
                 }
-                0x7b7a7318: i16 = 100
+                0x7b7a7318: i16 = 200
                 0xe09d5ebb: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 0, 1, 0 }
@@ -359,11 +371,15 @@ entries: map[hash,embed] = {
                             0x53a6c97e {
                                 0x40c351da: list[f32] = {
                                     0
+                                    0.499
+                                    0.5
                                     1
                                 }
                                 0xe44b7382: list[f32] = {
-                                    0
-                                    360
+                                    -10
+                                    10
+                                    190
+                                    170
                                 }
                             }
                             0x53a6c97e {}
@@ -378,7 +394,7 @@ entries: map[hash,embed] = {
                 }
                 0x2ae335b2: flag = false
                 0xf0eb7084: embed = 0x68dc32b6 {
-                    0xb4b427aa: vec3 = { 80, 150, 0 }
+                    0xb4b427aa: vec3 = { 40, 40, 0 }
                     0xbc037de7: pointer = 0xacd81180 {
                         0xa7084719: list[pointer] = {
                             0x53a6c97e {
@@ -407,7 +423,7 @@ entries: map[hash,embed] = {
                             0
                         }
                         0x34474c3b: list[vec3] = {
-                            { 80, 150, 0 }
+                            { 40, 40, 0 }
                         }
                     }
                 }
@@ -415,18 +431,22 @@ entries: map[hash,embed] = {
                     0xbc037de7: pointer = 0xacd81180 {
                         0x5d68eeb5: list[f32] = {
                             0
-                            0.3
+                            0.12895377
+                            0.2756691
+                            0.5060827
                             1
                         }
                         0x34474c3b: list[vec3] = {
                             { 0.3, 1, 0 }
-                            { 1, 3, 0 }
-                            { 1, 4, 0 }
+                            { 0.6560912, 2.0109465, 0 }
+                            { 0.96279067, 2.632926, 0 }
+                            { 1.1674418, 3.2089994, 0 }
+                            { 1.1116279, 3.7581396, 0 }
                         }
                     }
                 }
                 0x95111b29: f32 = 0.005
-                0x3c6468f4: string = "ASSETS/Characters/Diana/Skins/skin03/Particles/Diana_Skin03_Z_EnergyStreakDark_2x2.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Diana/Skins/skin03/Particles/Diana_Skin03_FireShapes_PSoft.DianaSpellSwap.dds"
                 0x1e67b0f1: u16 = 4
                 0x76f8ad24: u16 = 2
                 0x86a84509: vec2 = { 2, 2 }
@@ -443,6 +463,7 @@ entries: map[hash,embed] = {
                 }
                 0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "GroundLight1"
+                0x33f36f05: bool = true
                 0x9dc3d926: embed = 0x77cf93a8 {
                     0xe5f268dd: embed = 0x68dc32b6 {
                         0xb4b427aa: vec3 = { 0, 1, 0 }
@@ -503,5 +524,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Diana_Skin03_Q_Moonlight_Champ_Self"
         0xe7638138: string = "Characters/Diana/Skins/Skin3/Particles/Diana_Skin03_Q_Moonlight_Champ_Self"
+        0xe0c375ae: string = "Play_sfx_Diana_DianaQ_hit"
     }
 }

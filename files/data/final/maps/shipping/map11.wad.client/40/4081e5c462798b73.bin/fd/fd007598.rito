@@ -4,25 +4,65 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xfd007598 = 0xcd19ef3c {
-        0xac49859c: string = "room_LUNARREVEL"
-        0xe474fea4: string = "Particles_LR.dat"
-        0x95ac5b3d: map[hash,i32] = {
-            0xf1a9e47d = 0
-            0xeea9dfc4 = 0
-            0xefa9e157 = 0
-            0xeca9dc9e = 0
-            0x0995a780 = 0
-            0x5f8fd5ed = 0
-            0x5c8fd134 = 0
-            0x5d8fd2c7 = 0
-            0x5a8fce0e = 0
-            0x188a6b30 = 0
-            0x9da1aeb1 = 0
-            0xba7c6f39 = 0
-            0x6bce5988 = 0
-            0xda901150 = 0
-            0x003258e0 = 0
+        0x960efd81: string = "Maps/MapGeometry/SR/Base_SRX"
+        0x42fcf599: embed = 0x2acfe5ae {
+            0xfe66e5ff: string = "2DLevelMiniMap_SRX.dds"
+            0x6f2107fb: map[hash,embed] = {
+                0x53c208b2 = 0xa1ad51c0 {
+                    0x6327fa09: vec2 = { 14850, 14850 }
+                    0xf9721a78: string = "2DLevelMiniMap_SRX_Infernal.dds"
+                }
+                0x8f6dd7ce = 0xa1ad51c0 {
+                    0x6327fa09: vec2 = { 14850, 14850 }
+                    0xf9721a78: string = "2DLevelMiniMap_SRX_Mountain.dds"
+                }
+                0xe092b0cd = 0xa1ad51c0 {
+                    0x6327fa09: vec2 = { 14850, 14850 }
+                    0xf9721a78: string = "2DLevelMiniMap_SRX_Ocean.dds"
+                }
+                0xf57594b2 = 0xa1ad51c0 {
+                    0x6327fa09: vec2 = { 14850, 14850 }
+                    0xf9721a78: string = "2DLevelMiniMap_SRX_Cloud.dds"
+                }
+            }
         }
+        0xc7c088eb: embed = 0x32a5f174 {
+            0xc7c088eb: list[embed] = {
+                0xe54c014f {
+                    0xdcabad81: string = "GrassTint_SRX_Infernal.dds"
+                    0x603134b8: string = "FogOfWarOverlay_SRX_Infernal.dds"
+                    0x198716d9: string = "NavmeshMaskInfernal.dds"
+                    0x850d4008: link = 0xbd504d03
+                    0x97472c4d: hash = 0x8eab16d9
+                }
+                0xe54c014f {
+                    0xdcabad81: string = "GrassTint_SRX_Mountain.dds"
+                    0x603134b8: string = "FogOfWarOverlay_SRX_Mountain.dds"
+                    0x198716d9: string = "NavmeshMaskMountain.dds"
+                    0x850d4008: link = 0x4d4d915b
+                    0x97472c4d: hash = 0x25f414d7
+                }
+                0xe54c014f {
+                    0xdcabad81: string = "GrassTint_SRX_Ocean.dds"
+                    0x603134b8: string = "FogOfWarOverlay_SRX_Ocean.dds"
+                    0x850d4008: link = 0x6cde7f2a
+                    0x97472c4d: hash = 0xd4705991
+                }
+                0xe54c014f {
+                    0xdcabad81: string = "GrassTint_SRX_Cloud.dds"
+                    0x603134b8: string = "FogOfWarOverlay_SRX_Cloud.dds"
+                    0x850d4008: link = 0xf2886ead
+                    0x97472c4d: hash = 0x1ac6a97e
+                }
+            }
+        }
+        0xe1281da0: string = "ObjectCFG_SRX.cfg"
+        0x1b0063a4: string = ""
+        0x63242493: string = "AIPath_SRX.aimesh_ngrid"
+        0xac49859c: string = ""
+        0x9e14bd6f: string = "Particles_SRX.ini"
+        0xe474fea4: string = ""
+        0xbac3a0fa: string = "GrassTint_SRX.dds"
         0x92a53e77: list[link] = {
             0x610db30b
         }

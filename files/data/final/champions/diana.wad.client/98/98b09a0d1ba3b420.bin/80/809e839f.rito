@@ -19,22 +19,6 @@ entries: map[hash,embed] = {
             }
             0xf8f29f92: list[embed] = {
                 0xa4416515 {
-                    0x8d39bde6: string = "Diana_Base_VO"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Diana/Skins/Base/Diana_Base_VO_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Diana/Skins/Base/Diana_Base_VO_events.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Diana/Skins/Base/Diana_Base_VO_audio.wpk"
-                    }
-                    0x3b13aa4b: bool = true
-                }
-                0xa4416515 {
-                    0x8d39bde6: string = "Diana_Base_SFX"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Diana/Skins/Base/Diana_Base_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Diana/Skins/Base/Diana_Base_SFX_events.bnk"
-                    }
-                }
-                0xa4416515 {
                     0x8d39bde6: string = "Diana_Skin12_VO"
                     0x2a21ad00: list[string] = {
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Diana/Skins/Skin12/Diana_Skin12_VO_audio.bnk"
@@ -44,14 +28,14 @@ entries: map[hash,embed] = {
                     0x12d8e384: list[string] = {
                         "Play_vo_DianaSkin12_AttackChampion2D"
                         "Play_vo_DianaSkin12_Death3D"
-                        "Play_vo_DianaSkin12_DianaArc_cast3D"
                         "Play_vo_DianaSkin12_DianaBasicAttack2_cast3D"
                         "Play_vo_DianaSkin12_DianaBasicAttack3_cast3D"
                         "Play_vo_DianaSkin12_DianaBasicAttack_cast3D"
                         "Play_vo_DianaSkin12_DianaCritAttack_OnCast"
                         "Play_vo_DianaSkin12_DianaOrbs_cast3D"
+                        "Play_vo_DianaSkin12_DianaR_cast3D"
                         "Play_vo_DianaSkin12_DianaTeleport_cast3D"
-                        "Play_vo_DianaSkin12_DianaVortex_cast3D"
+                        "Play_vo_DianaSkin12_DianaVortexUlt_cast3D"
                         "Play_vo_DianaSkin12_Joke3DGeneral"
                         "Play_vo_DianaSkin12_Laugh3DGeneral"
                         "Play_vo_DianaSkin12_MoveOrder2D"
@@ -68,10 +52,6 @@ entries: map[hash,embed] = {
                     0x12d8e384: list[string] = {
                         "Play_sfx_DianaSkin12_Dance3D_buffactivate"
                         "Play_sfx_DianaSkin12_Death3D_cast"
-                        "Play_sfx_DianaSkin12_DianaArc_OnCast"
-                        "Play_sfx_DianaSkin12_DianaArcThrow_hit"
-                        "Play_sfx_DianaSkin12_DianaArcThrow_hit_miss"
-                        "Play_sfx_DianaSkin12_DianaArcThrow_OnMissileLaunch"
                         "Play_sfx_DianaSkin12_DianaBasicAttack2_OnCast"
                         "Play_sfx_DianaSkin12_DianaBasicAttack2_OnHit"
                         "Play_sfx_DianaSkin12_DianaBasicAttack3_OnCast"
@@ -82,19 +62,31 @@ entries: map[hash,embed] = {
                         "Play_sfx_DianaSkin12_DianaCritAttack_OnHit"
                         "Play_sfx_DianaSkin12_DianaOrbs_hit"
                         "Play_sfx_DianaSkin12_DianaOrbs_OnCast"
+                        "Play_sfx_DianaSkin12_DianaPassive_buffactivate"
+                        "Play_sfx_DianaSkin12_DianaPassive_hit"
+                        "Play_sfx_DianaSkin12_DianaQ_hit"
+                        "Play_sfx_DianaSkin12_DianaQ_hit_miss"
+                        "Play_sfx_DianaSkin12_DianaQ_OnCast"
+                        "Play_sfx_DianaSkin12_DianaQInnerMissile_OnMissileCast"
+                        "Play_sfx_DianaSkin12_DianaR_buffactivate"
+                        "Play_sfx_DianaSkin12_DianaR_emp_buffactivate"
+                        "Play_sfx_DianaSkin12_DianaR_emp_hit"
+                        "Play_sfx_DianaSkin12_DianaR_explosion"
+                        "Play_sfx_DianaSkin12_DianaR_hit"
+                        "Play_sfx_DianaSkin12_DianaR_OnCast"
                         "Play_sfx_DianaSkin12_DianaShield_buffactivate"
                         "Play_sfx_DianaSkin12_DianaShield_OnBuffActivate"
                         "Play_sfx_DianaSkin12_DianaShield_OnBuffDeactivate"
-                        "Play_sfx_DianaSkin12_DianaTeleport_hit_end"
-                        "Play_sfx_DianaSkin12_DianaTeleport_hit_success"
+                        "Play_sfx_DianaSkin12_DianaTeleport_hit"
                         "Play_sfx_DianaSkin12_DianaTeleport_missilelaunch"
                         "Play_sfx_DianaSkin12_DianaTeleport_OnCast"
-                        "Play_sfx_DianaSkin12_DianaVortex_OnCast"
+                        "Play_sfx_DianaSkin12_DianaTeleport_reset"
                         "Play_sfx_DianaSkin12_Joke3D_buffactivate"
-                        "Play_sfx_DianaSkin12_Recall_buffactivate"
+                        "Play_sfx_DianaSkin12_Recall3D_buffactivate"
                         "Play_sfx_DianaSkin12_Taunt3D_buffactivate"
-                        "Stop_sfx_DianaSkin12_DianaArcThrow_OnMissileLaunch"
+                        "Stop_sfx_DianaSkin12_DianaQInnerMissile_OnMissileCast"
                         "Stop_sfx_DianaSkin12_DianaShield_OnBuffActivate"
+                        "Stop_sfx_DianaSkin12_DianaTeleport_missilelaunch"
                     }
                 }
             }

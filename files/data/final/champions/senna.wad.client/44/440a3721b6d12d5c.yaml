@@ -1,8 +1,8 @@
-sha256: "b330fc40fd3e13b944787fbd219e410cfe3e597b72b32df0132d8f48918b6161"
-checksum: "e7d9a8823c586ca8"
+sha256: "6be20d6bc222db32a2bb53bfcdeb41de55c26419becc0ea594dae29353794ffe"
+checksum: "67a8d1f6fd21cea0"
 kind: "skl"
 skeleton:
- influences: 113
+ influences: 116
  joints:
   - name: "Root"
   - name: "Spine_Lower"
@@ -125,6 +125,8 @@ skeleton:
     parent: "Cloak_Hood_Root"
   - name: "C_Cloak_Hood2"
     parent: "C_Cloak_Hood1"
+  - name: "Cloak_Hood_end"
+    parent: "C_Cloak_Hood2"
   - name: "L_Pinky1"
     parent: "L_Hand"
   - name: "L_Pinky2"
@@ -242,6 +244,10 @@ skeleton:
   - name: "Gun_Top_LightStone_Part2"
     parent: "Gun_LightStone_Root"
   - name: "Gun_Top_LightStone_Part1"
+    parent: "Gun_LightStone_Root"
+  - name: "Gun_Top_Helper"
+    parent: "Gun_LightStone_Root"
+  - name: "Gun_Bottom_Helper"
     parent: "Gun_LightStone_Root"
   - name: "Gun_Lock"
     parent: "Gun_Handle"

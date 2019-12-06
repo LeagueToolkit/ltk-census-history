@@ -11,12 +11,9 @@ entries: map[hash,embed] = {
             0x3b0cf15e: embed = 0x25210743 {
                 0xc8613630: string = "Champion"
             }
-            0x74d44065: string = "game_spell_displayname_PoroThrowFollowupCast"
-            0xf1f20d72: string = "game_spell_description_PoroThrowFollowupCast"
             0x3e1edbdb: list[string] = {
                 "PositiveEffect_MoveBlock"
             }
-            0x9a5a3a84: string = "game_spell_tooltip_PoroThrowFollowupCast"
             0xfbd16fb5: string = "Spell3"
             0xeed67cd5: list[string] = {
                 "Poro_Poof_Icon.dds"
@@ -71,6 +68,17 @@ entries: map[hash,embed] = {
                 2
             }
             0x5d46764f: pointer = 0x645ba277 {}
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "PoroThrowFollowupCast"
+                    0x57b8b11b: link = 0x3002ad7c
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "game_spell_displayname_PoroThrowFollowupCast"
+                        "keySummary" = "game_spell_description_PoroThrowFollowupCast"
+                        "keyTooltip" = "game_spell_tooltip_PoroThrowFollowupCast"
+                    }
+                }
+            }
         }
     }
 }

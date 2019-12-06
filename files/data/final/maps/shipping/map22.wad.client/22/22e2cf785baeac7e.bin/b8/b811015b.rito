@@ -5,7 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0xb811015b = 0xf4a6bb27 {
         0x19efbfdb: string = "TFT_Round_Wolves"
-        0x8bee2972: string = "ASSETS/Characters/TFT_Murkwolf/HUD/TFT_MurkWolf_Square.TFT.dds"
+        0x8bee2972: string = "ASSETS/Characters/TFT_Murkwolf/HUD/TFT_MurkWolf_Square.dds"
         0xc3143d66: string = "tft_stage_entity_murk_wolf"
         0xd20054c0: string = "ASSETS/UX/TFT/StageIcons/WolvesUpcoming.dds"
         0x304b0330: string = "ASSETS/UX/TFT/StageIcons/WolvesCurrent.dds"
@@ -42,11 +42,14 @@ entries: map[hash,embed] = {
             0x85f7d4c8: f32 = 1
         }
         0x78f60753: map[string,pointer] = {
-            "NPC" = 0xa188bd55 {
-                0x24f2ec89: string = "NPCRoundWolves"
-            }
             "RoundType" = 0xa188bd55 {
                 0x24f2ec89: string = "PVERound"
+            }
+            "NPCType" = 0xa188bd55 {
+                0x24f2ec89: string = "Jungle"
+            }
+            "NPCName" = 0xa188bd55 {
+                0x24f2ec89: string = "NPCRoundWolves"
             }
         }
     }
