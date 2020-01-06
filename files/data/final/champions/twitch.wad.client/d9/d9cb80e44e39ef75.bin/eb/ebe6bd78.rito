@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xebe6bd78 = 0xed237fc4 {
+        0x8ff5f744: list[embed] = {
+            0xf72d6994 {
+                0xb4d66609: u32 = 42
+            }
+        }
+        0xcf2f4271: link = 0x6ce57a50
+        0x5385fe0a: list[u64] = {
+            10
+            10
+            20
+            25
+            30
+        }
+        0x83422eb0: link = 0x114698f1
+        0x77a4e581: string = "TwitchStructuresDestroyed"
+        0xf66a8ad3: string = "stat_stone_name_structures_destroyed"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "d9e899d2-9723-4607-849e-04e6a398d222"
+            0x13bddc7b: u32 = 125416
+            0x73db4a28: string = "7e1cdb66-4503-490c-8e0c-6076560bd44d"
+        }
+        0x719623aa: string = "stat_stone_description_StructuresDestroyed"
+    }
+}

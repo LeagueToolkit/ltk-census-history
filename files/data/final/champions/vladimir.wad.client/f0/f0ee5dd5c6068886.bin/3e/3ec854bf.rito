@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3ec854bf = 0xed237fc4 {
+        0x8ff5f744: list[embed] = {
+            0xf72d6994 {
+                0xb4d66609: u32 = 42
+            }
+        }
+        0xcf2f4271: link = 0x6ce57a50
+        0x5385fe0a: list[u64] = {
+            10
+            10
+            20
+            25
+            30
+        }
+        0x83422eb0: link = 0xa5f5149c
+        0x77a4e581: string = "VladimirStructuresDestroyed"
+        0xf66a8ad3: string = "stat_stone_name_structures_destroyed"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "9f531686-c64c-4ef4-9165-dac7a42aa165"
+            0x13bddc7b: u32 = 125686
+            0x73db4a28: string = "a9c9f2b0-1cbd-481a-8f1e-b83de2494817"
+        }
+        0x719623aa: string = "stat_stone_description_StructuresDestroyed"
+    }
+}
