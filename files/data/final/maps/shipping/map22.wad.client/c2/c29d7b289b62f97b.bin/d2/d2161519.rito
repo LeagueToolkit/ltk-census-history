@@ -47,17 +47,16 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "TADRatio"
                     0x246b0d8e: list[f32] = {
-                        0.25
-                        0.25
+                        0.2
                         0.3
+                        0.4
                         0.5
-                        0.5
-                        0.5
-                        0.5
+                        0.6
+                        0.7
+                        0.8
                     }
-                    0x3f95426c: bool = false
                     0x6d3ccfd7: f32 = 0.2
-                    0xe7b832f2: string = "P + 0.1"
+                    0xe7b832f2: string = "P+0.1"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "AttacksPerSecondCoefficient"
@@ -76,15 +75,15 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "NumShots"
                     0x246b0d8e: list[f32] = {
-                        10
-                        10
-                        10
-                        10
-                        10
-                        10
-                        10
+                        12
+                        12
+                        12
+                        12
+                        12
+                        12
+                        12
                     }
-                    0x6d3ccfd7: f32 = 10
+                    0x6d3ccfd7: f32 = 12
                     0xe7b832f2: string = "P + 0"
                 }
             }
@@ -107,8 +106,14 @@ entries: map[hash,embed] = {
                             0x46144074: pointer = 0x332eb441 {
                                 0xb386dcf1: hash = 0x8befbede
                             }
-                            0x4914452d: pointer = 0x332eb441 {
-                                0xb386dcf1: hash = 0x2fa0fd0d
+                            0x4914452d: pointer = 0xad106e67 {
+                                0x46144074: pointer = 0x332eb441 {
+                                    0xb386dcf1: hash = 0x2fa0fd0d
+                                }
+                                0x4914452d: pointer = 0x5815b0a9 {
+                                    0x295c2889: f32 = 1
+                                    0x4cec2c8a: u8 = 3
+                                }
                             }
                         }
                     }
