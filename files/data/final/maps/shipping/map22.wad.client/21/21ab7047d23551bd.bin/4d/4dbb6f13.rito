@@ -1,0 +1,56 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4dbb6f13 = 0xff9d3409 {
+        0x8d39bde6: string = "Maps/KitPieces/TFT/Odyssey/Models/PaperLantern_A/Materials/ENV_Lantern_inst"
+        0x5127f14d: u32 = 0
+        0x28da4278: string = "normal"
+        0x0a6f0eb5: list[embed] = {
+            0x0904b150 {
+                0x02e7fb4c: string = "Diffuse_Texture"
+                0xb311d4ef: string = "ASSETS/Maps/KitPieces/TFT/Odyssey/Textures/PaperLantern_A.TFT_ArenaSkin_Odyssey.dds"
+                0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
+                0x02e7fb4c: string = "Mask_Texture"
+                0xb311d4ef: string = "ASSETS/Maps/KitPieces/TFT/Odyssey/Textures/PaperLantern_Mask_A.TFT_ArenaSkin_Odyssey.dds"
+                0x101ec53f: u32 = 1
+                0x0f1ec3ac: u32 = 1
+            }
+        }
+        0xd0ab46b8: list[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "Fresnel_Size"
+                0x425ed3ca: vec4 = { 3.5294502, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Dodge_MinValue"
+                0x425ed3ca: vec4 = { 0.5025, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Dodge_MaxValue"
+                0x425ed3ca: vec4 = { 0.805, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Flicker_Rate"
+                0x425ed3ca: vec4 = { 0.875, 0, 0, 0 }
+            }
+        }
+        0xe6d67ded: map[string,string] = {
+            "NO_BAKED_LIGHTING" = "1"
+        }
+        0x844f384e: list[embed] = {
+            0x060a4413 {
+                0x8d39bde6: string = "normal"
+                0x623cd25c: list[embed] = {
+                    0x8537d0c2 {
+                        0x355d5568: link = 0x8e27a372
+                        0x4b0f55ce: bool = false
+                    }
+                }
+            }
+        }
+    }
+}
