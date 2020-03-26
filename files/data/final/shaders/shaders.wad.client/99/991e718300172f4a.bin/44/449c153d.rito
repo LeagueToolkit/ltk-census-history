@@ -1,0 +1,67 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x449c153d = 0x205255d6 {
+        0x1d369c29: string = "Shaders/SkinnedMesh/HKG_FakeSpec_Translucent"
+        0x48a52ed9: list[embed] = {
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter0"
+                0xd872e2a5: vec4 = { 0.55, 0.66, 0.6, 16 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Inside_Color"
+                        0x0640657c: u32 = 7
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Spec_01"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter1"
+                0xd872e2a5: vec4 = { 0.55, 0.6, 0.66, 8 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel_Color"
+                        0x0640657c: u32 = 7
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Spec_02"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { 0.5, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Translucent"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Spec_Offset"
+                        0x0640657c: u32 = 14
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter3"
+                0xd872e2a5: vec4 = { 1, 1, 1, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Sim_Lit_Dir"
+                        0x0640657c: u32 = 7
+                    }
+                }
+            }
+        }
+        0xae29287b: map[string,string] = {
+            "FEATURE_WORLD_NORMAL" = "1"
+            "FEATURE_WORLD_POSITION" = "1"
+        }
+    }
+}

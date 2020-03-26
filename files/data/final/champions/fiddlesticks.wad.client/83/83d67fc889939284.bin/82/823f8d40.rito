@@ -8,13 +8,13 @@ entries: map[hash,embed] = {
         0xa977f4ae: i32 = 9008
         0x05040a43: u32 = 2
         0x2d78c328: string = "FiddlesticksSkin08"
-        0x939e7b29: string = "gender:male,element:dark,skinline:guardianofthesands"
+        0x939e7b29: string = "race:demon,element:dark,skinline:guardianofthesands"
         0x97f7188d: embed = 0xd06263ff {
-            0xb35135fa: string = "ASSETS/Characters/Fiddlesticks/Skins/Skin08/FiddleSticksLoadScreen_8.dds"
+            0xb35135fa: string = "ASSETS/Characters/Fiddlesticks/Skins/Skin08/FiddleSticksLoadscreen_8.FiddleSticksRework.dds"
         }
         0x8f7b194f: embed = 0x8f7b194f {
             0xd65bac4d: list[string] = {
-                "FiddleSticks"
+                "Fiddlesticks"
                 "FiddlesticksSkin08"
             }
             0xf8f29f92: list[embed] = {
@@ -25,33 +25,59 @@ entries: map[hash,embed] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Fiddlesticks/Skins/Skin08/Fiddlesticks_Skin08_SFX_events.bnk"
                     }
                     0x12d8e384: list[string] = {
-                        "Play_sfx_Fiddlesticks_Skin08_Recall_windup"
-                        "Play_sfx_FiddlesticksSkin08_Crowstorm_OnBuffActivate"
-                        "Play_sfx_FiddlesticksSkin08_Crowstorm_OnCast"
-                        "Play_sfx_FiddlesticksSkin08_DrainChannel_OnBuffActivate"
-                        "Play_sfx_FiddlesticksSkin08_DrainChannel_OnCast"
-                        "Play_sfx_FiddlesticksSkin08_FiddlesticksBasicAttack2_OnCast"
-                        "Play_sfx_FiddlesticksSkin08_FiddlesticksBasicAttack2_OnHit"
-                        "Play_sfx_FiddlesticksSkin08_FiddlesticksBasicAttack2_OnMissileLaunch"
-                        "Play_sfx_FiddlesticksSkin08_FiddlesticksBasicAttack_OnCast"
-                        "Play_sfx_FiddlesticksSkin08_FiddlesticksBasicAttack_OnHit"
-                        "Play_sfx_FiddlesticksSkin08_FiddlesticksBasicAttack_OnMissileLaunch"
+                        "Play_sfx_FiddlesticksSkin08_Dance3D_into"
+                        "Play_sfx_FiddlesticksSkin08_Dance3D_loop"
+                        "Play_sfx_FiddlesticksSkin08_Death3D_buffactivate"
+                        "Play_sfx_FiddlesticksSkin08_Death3D_effigies"
+                        "Play_sfx_FiddleSticksSkin08_FiddleSticksBasicAttack2_OnCast"
+                        "Play_sfx_FiddleSticksSkin08_FiddleSticksBasicAttack2_OnHit"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksBasicAttack2_OnMissileCast"
+                        "Play_sfx_FiddleSticksSkin08_FiddleSticksBasicAttack_OnCast"
+                        "Play_sfx_FiddleSticksSkin08_FiddleSticksBasicAttack_OnHit"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksBasicAttack_OnMissileCast"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksBasicAttackMelee2_OnCast"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksBasicAttackMelee2_OnHit"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksBasicAttackMelee_OnCast"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksBasicAttackMelee_OnHit"
                         "Play_sfx_FiddlesticksSkin08_FiddlesticksCritAttack_OnCast"
                         "Play_sfx_FiddlesticksSkin08_FiddlesticksCritAttack_OnHit"
                         "Play_sfx_FiddlesticksSkin08_FiddlesticksCritAttack_OnMissileLaunch"
-                        "Play_sfx_FiddlesticksSkin08_FiddlesticksDarkWind_OnHit"
-                        "Play_sfx_FiddlesticksSkin08_FiddlesticksDarkWind_OnMissileLaunch"
-                        "Play_sfx_FiddlesticksSkin08_FiddlesticksDarkWindMissile_OnHit"
-                        "Play_sfx_FiddlesticksSkin08_FiddlesticksDarkWindMissile_OnMissileLaunch"
-                        "Play_sfx_FiddlesticksSkin08_Terrify_OnCast"
-                        "Stop_sfx_FiddlesticksSkin08_Crowstorm_OnBuffActivate"
-                        "Stop_sfx_FiddlesticksSkin08_Crowstorm_OnCast"
-                        "Stop_sfx_FiddlesticksSkin08_DrainChannel_OnBuffActivate"
-                        "Stop_sfx_FiddlesticksSkin08_DrainChannel_OnCast"
-                        "Stop_sfx_FiddlesticksSkin08_FiddlesticksBasicAttack2_OnMissileLaunch"
-                        "Stop_sfx_FiddlesticksSkin08_FiddlesticksBasicAttack_OnMissileLaunch"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksCritAttackMelee_OnCast"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksCritAttackMelee_OnHit"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksE_hit_regular"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksE_OnCast"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksE_OnCast_self"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksESlow_hit"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksPassive_lvl6_sweeper"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksQ_OnCast"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksQ_OnHit"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksQcosmeticmissile2_OnMissileLaunch"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksQmissilefear_OnHit"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksQpassiveterrify_OnBuffActivate"
+                        "Play_sfx_FiddleSticksSkin08_FiddleSticksR_cast_self"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksR_interrupt"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksR_OnBuffActivate"
+                        "Play_sfx_FiddleSticksSkin08_FiddleSticksR_OnCast"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksR_run"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksScarecrowEffigy_OnHitLocation"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksW_finaltick"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksW_OnCast"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksWcosmeticmissilebig_OnMissileCast"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksWDrain_OnBuffActivate"
+                        "Play_sfx_FiddlesticksSkin08_FiddlesticksWDrain_OnBuffDeactivate"
+                        "Play_sfx_FiddlesticksSkin08_Idle_IdleIn_A"
+                        "Play_sfx_FiddlesticksSkin08_Idle_IdleIn_B"
+                        "Play_sfx_FiddlesticksSkin08_Idle_IdleIn_C"
+                        "Play_sfx_FiddlesticksSkin08_Idle_loop"
+                        "Play_sfx_FiddlesticksSkin08_Joke3D_buffactivate"
+                        "Play_sfx_FiddlesticksSkin08_Laugh3D_buffactivate"
+                        "Play_sfx_FiddlesticksSkin08_Recall3D_winddown"
+                        "Play_sfx_FiddlesticksSkin08_Recall_leadin"
+                        "Play_sfx_FiddlesticksSkin08_Respawn3D_buffactivate"
+                        "Play_sfx_FiddlesticksSkin08_Taunt3D_buffactivate"
                         "Stop_sfx_FiddlesticksSkin08_FiddlesticksCritAttack_OnMissileLaunch"
-                        "Stop_sfx_FiddlesticksSkin08_FiddlesticksDarkWindMissile_OnMissileLaunch"
+                        "Stop_sfx_FiddlesticksSkin08_FiddlesticksQcosmeticmissile2_OnMissileLaunch"
+                        "Stop_sfx_FiddlesticksSkin08_FiddlesticksQpassiveterrify_OnBuffActivate"
                     }
                 }
                 0xa4416515 {
@@ -63,13 +89,6 @@ entries: map[hash,embed] = {
                     }
                     0x3b13aa4b: bool = true
                 }
-                0xa4416515 {
-                    0x8d39bde6: string = "Fiddlesticks_Base_SFX"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Fiddlesticks/Skins/Base/Fiddlesticks_Base_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Fiddlesticks/Skins/Base/Fiddlesticks_Base_SFX_events.bnk"
-                    }
-                }
             }
         }
         0x426d89a3: embed = 0x426d89a3 {
@@ -80,24 +99,91 @@ entries: map[hash,embed] = {
         }
         0x13ec4bb1: string = "skin_universe_text_9008"
         0x45ff5904: embed = 0x6111d8a4 {
-            0xb14c976e: string = "ASSETS/Characters/Fiddlesticks/Skins/Skin08/FiddleSticks_Skin08.skl"
-            0xd6a00df6: string = "ASSETS/Characters/Fiddlesticks/Skins/Skin08/FiddleSticks_Skin08.skn"
-            0x3c6468f4: string = "ASSETS/Characters/Fiddlesticks/Skins/Skin08/Fiddlesticks_Skin08.dds"
-            0xa1f805da: f32 = 1.25
+            0xb14c976e: string = "ASSETS/Characters/Fiddlesticks/Skins/Skin08/FiddleSticks_Skin08.FiddleSticksRework.skl"
+            0xd6a00df6: string = "ASSETS/Characters/Fiddlesticks/Skins/Skin08/FiddleSticks_Skin08.FiddleSticksRework.skn"
+            0x3c6468f4: string = "ASSETS/Characters/Fiddlesticks/Skins/Skin08/Fiddlesticks_Skin08_Body_TX_CM.FiddleSticksRework.dds"
             0x252f6884: f32 = 0.7
+            0x5c7a0332: option[vec3] = {
+                { 140, 300, 140 }
+            }
+            0x706468a8: f32 = 120
+            0x96169cd6: option[f32] = {}
+            0x164ae4e9: bool = false
             0x561f4fea: rgba = { 0, 0, 0, 255 }
+            0x80b7f78f: string = "L_Demon_Arm Lantern Tongue R_Demon_Arm Recall_Parts"
+            0x24725910: list[embed] = {
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Fiddlesticks/Skins/Skin08/Fiddlesticks_Skin08_Weapon_TX_CM.FiddleSticksRework.dds"
+                    0xaad7612c: string = "Weapon"
+                }
+            }
+            0xe9c98281: list[pointer] = {
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0xbd42da01
+                    0x96dbc896: hash = 0x6c36a103
+                    0x50271332: hash = 0x52541a39
+                    0x93b7fa73: f32 = 50
+                    0xfaf26cff: f32 = 0
+                    0x3288d6d8: f32 = 0
+                    0x312c8ca6: f32 = 1
+                }
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0x840b6ffb
+                    0x96dbc896: hash = 0xdabe2b5d
+                    0x50271332: hash = 0x52541a39
+                    0x93b7fa73: f32 = 50
+                    0xfaf26cff: f32 = 0
+                    0x3288d6d8: f32 = 0
+                    0x312c8ca6: f32 = 1
+                }
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0x8c0eead8
+                    0x96dbc896: hash = 0xc291927e
+                    0x50271332: hash = 0x52541a39
+                    0x93b7fa73: f32 = 110
+                    0xfaf26cff: f32 = 0
+                    0x3288d6d8: f32 = 0
+                    0x312c8ca6: f32 = 1
+                }
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0xbc88194a
+                    0x96dbc896: hash = 0xa069fc10
+                    0x50271332: hash = 0x52541a39
+                    0x93b7fa73: f32 = 110
+                    0xfaf26cff: f32 = 0
+                    0x3288d6d8: f32 = 0
+                    0x312c8ca6: f32 = 1
+                }
+            }
         }
         0x2d0d1f1d: string = "Wood"
         0x123393ed: list[string] = {
             "extras"
         }
-        0x089aff69: string = "ASSETS/Characters/Fiddlesticks/HUD/FiddleSticks_Circle_8.dds"
-        0xd8f64a0d: link = 0x0cc19769
+        0x84186f3c: list[embed] = {
+            0x33068165 {
+                0x9b0300f3: hash = 0x585009b4
+                0x1ecb978c: string = "L_Shoulder_Buffbone"
+                0xda428935: string = "L_Shoulder"
+            }
+            0x33068165 {
+                0x9b0300f3: hash = 0xdfbe3b32
+                0x1ecb978c: string = "R_Shoulder_Buffbone"
+                0xda428935: string = "R_Shoulder"
+            }
+        }
+        0x089aff69: string = "ASSETS/Characters/Fiddlesticks/HUD/FiddleSticks_Circle_8.FiddleSticksRework.dds"
+        0xd8f64a0d: link = 0xe35672d0
         0xe67284f4: option[string] = {
-            "ASSETS/Characters/Fiddlesticks/HUD/FiddleSticks_Circle.dds"
+            "ASSETS/Characters/Fiddlesticks/HUD/FiddleSticks_Circle_0.FiddleSticksRework.dds"
         }
         0xac473fef: option[string] = {
-            "ASSETS/Characters/Fiddlesticks/HUD/FiddleSticks_Square.dds"
+            "ASSETS/Characters/Fiddlesticks/HUD/FiddleSticks_Square.FiddleSticksRework.dds"
+        }
+        0x29306858: string = ""
+        0xe862b379: f32 = 10
+        0x51c83af8: embed = 0x11b71b5e {
+            0x4d5ff2d7: string = "Buffbone_Cstm_Healthbar"
         }
         0xb698fb27: list[embed] = {
             0x7ba9ed2e {

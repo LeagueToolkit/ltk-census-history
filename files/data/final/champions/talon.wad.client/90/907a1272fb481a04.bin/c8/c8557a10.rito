@@ -11,13 +11,13 @@ entries: map[hash,embed] = {
             0x251a5225: list[embed] = {
                 0x92d4987c {
                     0x425ed3ca: list[f32] = {
-                        35
-                        50
-                        65
-                        80
-                        95
-                        110
-                        135
+                        30
+                        45
+                        60
+                        75
+                        90
+                        105
+                        120
                     }
                 }
                 0x92d4987c {
@@ -55,12 +55,12 @@ entries: map[hash,embed] = {
                 }
                 0x92d4987c {
                     0x425ed3ca: list[f32] = {
-                        55
-                        70
+                        25
+                        45
+                        65
                         85
-                        100
-                        115
-                        130
+                        105
+                        125
                         145
                     }
                 }
@@ -80,8 +80,104 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
             }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "InitialBaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        30
+                        45
+                        60
+                        75
+                        90
+                        105
+                        120
+                    }
+                    0x6d3ccfd7: f32 = 30
+                    0xe7b832f2: string = "P + 15"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ReturnBaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        25
+                        45
+                        65
+                        85
+                        105
+                        125
+                        145
+                    }
+                    0x6d3ccfd7: f32 = 25
+                    0xe7b832f2: string = "P + 20"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MovespeedSlow"
+                    0x246b0d8e: list[f32] = {
+                        0.35
+                        0.4
+                        0.45
+                        0.5
+                        0.55
+                        0.6
+                        0.65
+                    }
+                    0x6d3ccfd7: f32 = 0.35
+                    0xe7b832f2: string = "P + .05"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowDuration"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                    0x6d3ccfd7: f32 = 1
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ReturnDelay"
+                    0x246b0d8e: list[f32] = {
+                        0.7
+                        0.7
+                        0.7
+                        0.7
+                        0.7
+                        0.7
+                        0.7
+                    }
+                    0x6d3ccfd7: f32 = 0.7
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x8a473a1a = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x1aa8109b
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.4
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                        }
+                    }
+                }
+                0x93647046 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x08e05b0f
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.7
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                        }
+                    }
+                }
+            }
             0x295c2889: f32 = 0.4
-            0xd7141e61: f32 = 0.6
+            0xd7141e61: f32 = 0.7
             0xfbd16fb5: string = "Spell2"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Talon/HUD/Icons2D/TalonW.dds"
@@ -164,18 +260,19 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "InitialBaseDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_InitialDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "ReturnBaseDamage"
                                     0x33c02d93: i32 = 5
                                     0x566f3406: string = "Spell_ListType_ReturnDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "MovespeedSlow"
                                     0x33c02d93: i32 = 2
+                                    0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_Slow"
                                     0xac307ed6: u32 = 1
                                 }

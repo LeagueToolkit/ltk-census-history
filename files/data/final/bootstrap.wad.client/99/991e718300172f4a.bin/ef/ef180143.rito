@@ -1,0 +1,136 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xef180143 = 0x205255d6 {
+        0x1d369c29: string = "Shaders/SkinnedMesh/GalaxyScreen_Flipbook"
+        0x48a52ed9: list[embed] = {
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter0"
+                0xd872e2a5: vec4 = { 0, 0, 256, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Pivot"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Resolution"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "FlipBook_Selector"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter1"
+                0xd872e2a5: vec4 = { 2, 2, 1, -2 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Flipbook_Dims"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Emissive_Intensity"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Scanlines_min"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { 0.10000763, 0.30000764, 0.4, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Scanline_Color"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter3"
+                0xd872e2a5: vec4 = { 2, 0.1, 400, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Scanlines_max"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Scanlines_Speed"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Scanlines_amount"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Alpha_Bias"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter4"
+                0xd872e2a5: vec4 = { 0, 0.3, 0.3, 100 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Bloom_Intensity"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Distortion_Frequency"
+                        0x0640657c: u32 = 6
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Distortion_TimeSpeed"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter5"
+                0xd872e2a5: vec4 = { 0.02, 0.02, 0.005, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Distortion_ScrollSpeed"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Distortion_Amount"
+                        0x0640657c: u32 = 4
+                    }
+                }
+            }
+        }
+        0x3291437b: list[embed] = {
+            0x60a292e6 {
+                0x8d39bde6: string = "CAMERA_ROTATE"
+                0xaae99956: bool = true
+            }
+        }
+        0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "Border_Texture"
+                0x32b374fa: string = "ASSETS/Maps/KitPieces/TFT/Galaxy/Textures/GalaxyCeremonyRing_01.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Mask_Texture"
+                0x32b374fa: string = "ASSETS/Maps/KitPieces/SR/SR_Default/PRP_ScanLines_B.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "FlipBook_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/Atlast_Test.dds"
+            }
+        }
+        0xae29287b: map[string,string] = {
+            "FEATURE_BLOOM" = "1"
+            "FEATURE_DISPLACEMENT" = "1"
+        }
+        0x25b76221: u32 = 5
+    }
+}
