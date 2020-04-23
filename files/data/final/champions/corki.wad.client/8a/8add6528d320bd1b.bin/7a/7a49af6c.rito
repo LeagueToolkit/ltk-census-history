@@ -80,6 +80,20 @@ entries: map[hash,embed] = {
                     }
                     0x6d3ccfd7: f32 = 2
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamagePerSecondForLvlTooltip"
+                    0x246b0d8e: list[f32] = {
+                        30
+                        60
+                        90
+                        120
+                        150
+                        180
+                        210
+                    }
+                    0x6d3ccfd7: f32 = 30
+                    0xe7b832f2: string = "P + 30"
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x14fb8a67 = 0xbc409284 {
@@ -186,6 +200,19 @@ entries: map[hash,embed] = {
                         "keyTooltip" = "Spell_CarpetBombMega_Tooltip"
                         "keyCost" = "Spell_Cost_NoCost"
                         "keyCooldown" = "Spell_Cost_Empty"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseDamagePerSecondForLvlTooltip"
+                                    0x566f3406: string = "Spell_ListType_DamagePerSecond"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                }
+                            }
+                        }
                     }
                 }
                 0x263ba968: list[pointer] = {

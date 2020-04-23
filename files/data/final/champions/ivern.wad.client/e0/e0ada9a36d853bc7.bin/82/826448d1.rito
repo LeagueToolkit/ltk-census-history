@@ -49,13 +49,12 @@ entries: map[hash,embed] = {
                 }
             }
             0x51af37ba = 0xfc27a63e {
-                0xc6a8b1d0: f32 = 18
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
                         0xfecc56e5: string = "AudioMoveDistance"
                         0x2aff6c4a: list[pointer] = {
                             0x5faf30c1 {
-                                0xaab0a793: f32 = 1000
+                                0xaab0a793: f32 = 100
                                 0x32f22728: u8 = 2
                             }
                         }
@@ -103,7 +102,6 @@ entries: map[hash,embed] = {
                 }
             }
             0xdee32af0 = 0xfc27a63e {
-                0xc6a8b1d0: f32 = 16
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
                         0xfecc56e5: string = "VOAttackChamp"
@@ -125,9 +123,6 @@ entries: map[hash,embed] = {
                                     0xc6623d61 {}
                                 }
                             }
-                            0x2db74660 {
-                                0x3f2d5dae: u8 = 25
-                            }
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "KillChampion3D"
@@ -140,7 +135,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x595c3d6c = 0xfc27a63e {
-                0xc6a8b1d0: f32 = 15
+                0xc6a8b1d0: f32 = 5
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
                         0xfecc56e5: string = "VOBuyItem_Boots_3020"
@@ -207,9 +202,6 @@ entries: map[hash,embed] = {
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
                         0xfecc56e5: string = "VORecallLeadin"
-                        0x2aff6c4a: list[pointer] = {
-                            0xb4a5fb60 {}
-                        }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "RecallLeadIn2D"
                             0x316428c4: f32 = -1
@@ -231,6 +223,7 @@ entries: map[hash,embed] = {
                             0xc0a5d6dd: string = "EnterCamp2DBlue"
                             0x316428c4: f32 = -1
                         }
+                        0x68fee3c4: bool = true
                     }
                 }
             }
@@ -242,6 +235,7 @@ entries: map[hash,embed] = {
                             0xc0a5d6dd: string = "Respawn2D"
                             0x316428c4: f32 = -1
                         }
+                        0x68fee3c4: bool = true
                     }
                 }
             }
@@ -263,6 +257,7 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "Taunt3DJhin"
+                            0x415965e7: string = "Taunt3DJhin"
                             0x307b0406: u32 = 1
                         }
                         0x68fee3c4: bool = true
@@ -283,6 +278,7 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "Taunt3DLulu"
+                            0x415965e7: string = "Taunt3DLulu"
                             0x307b0406: u32 = 1
                         }
                         0x68fee3c4: bool = true
@@ -303,6 +299,7 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "Taunt3DMalphite"
+                            0x415965e7: string = "Taunt3DMalphite"
                             0x307b0406: u32 = 1
                         }
                         0x68fee3c4: bool = true
@@ -323,6 +320,7 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "Taunt3DMaokai"
+                            0x415965e7: string = "Taunt3DMaokai"
                             0x307b0406: u32 = 1
                         }
                         0x68fee3c4: bool = true
@@ -343,6 +341,7 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "Taunt3DReksai"
+                            0x415965e7: string = "Taunt3DReksai"
                             0x307b0406: u32 = 1
                         }
                         0x68fee3c4: bool = true
@@ -363,6 +362,7 @@ entries: map[hash,embed] = {
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "Taunt3DZyra"
+                            0x415965e7: string = "Taunt3DZyra"
                             0x307b0406: u32 = 1
                         }
                         0x68fee3c4: bool = true
@@ -394,6 +394,26 @@ entries: map[hash,embed] = {
                             0xe810044c: string = "Laugh3DGeneral"
                         }
                         0x68fee3c4: bool = true
+                    }
+                }
+            }
+            0xcdd2b9ad = 0xfc27a63e {
+                0x1a116faf: list[embed] = {
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "Attack Minion"
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "AttackChampion2D"
+                        }
+                    }
+                }
+            }
+            0x3e50a936 = 0xfc27a63e {
+                0x1a116faf: list[embed] = {
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "Attack Neutral"
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "AttackChampion2D"
+                        }
                     }
                 }
             }

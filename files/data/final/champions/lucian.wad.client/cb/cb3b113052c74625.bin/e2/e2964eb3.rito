@@ -7,8 +7,23 @@ entries: map[hash,embed] = {
         0x5192c999: f32 = 15
         0x6f5eb901: map[hash,embed] = {
             0x51af37ba = 0xfc27a63e {
-                0x55d8daee: bool = true
                 0x1a116faf: list[embed] = {
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "MoveOrder2D"
+                        0x2aff6c4a: list[pointer] = {
+                            0x5faf30c1 {
+                                0xaab0a793: f32 = 400
+                                0x32f22728: u8 = 2
+                            }
+                            0x5faf30c1 {
+                                0xaab0a793: f32 = 2000
+                                0x32f22728: u8 = 5
+                            }
+                        }
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "MoveOrder2D"
+                        }
+                    }
                     0x22d0ac10 {
                         0xfecc56e5: string = "RallyTeamAhead"
                         0x2aff6c4a: list[pointer] = {
@@ -34,6 +49,18 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x22d0ac10 {
+                        0xfecc56e5: string = "MoveOrder2DLong"
+                        0x2aff6c4a: list[pointer] = {
+                            0x5faf30c1 {
+                                0xaab0a793: f32 = 2000
+                                0x32f22728: u8 = 2
+                            }
+                        }
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "LongMove2D"
+                        }
+                    }
+                    0x22d0ac10 {
                         0xfecc56e5: string = "RallyTeamEven"
                         0x2aff6c4a: list[pointer] = {
                             0x617d65d6 {
@@ -55,34 +82,6 @@ entries: map[hash,embed] = {
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "RallyTeamEven3D"
                             0x683ae1b9: string = "RallyTeamEven3D"
-                        }
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "MoveOrder2D"
-                        0x2aff6c4a: list[pointer] = {
-                            0x5faf30c1 {
-                                0xaab0a793: f32 = 400
-                                0x32f22728: u8 = 2
-                            }
-                            0x5faf30c1 {
-                                0xaab0a793: f32 = 2000
-                                0x32f22728: u8 = 5
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "MoveOrder2D"
-                        }
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "MoveOrder2DLong"
-                        0x2aff6c4a: list[pointer] = {
-                            0x5faf30c1 {
-                                0xaab0a793: f32 = 2000
-                                0x32f22728: u8 = 2
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "LongMove2D"
                         }
                     }
                 }
@@ -1467,7 +1466,6 @@ entries: map[hash,embed] = {
                 }
             }
             0xcdd2b9ad = 0xfc27a63e {
-                0xc6a8b1d0: f32 = 15
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
                         0xfecc56e5: string = "Attack Order"
@@ -1475,13 +1473,24 @@ entries: map[hash,embed] = {
                             0xc0a5d6dd: string = "AttackChampion2D"
                         }
                     }
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "Attack Minion"
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "AttackChampion2D"
+                        }
+                    }
                 }
             }
             0x3e50a936 = 0xfc27a63e {
-                0xc6a8b1d0: f32 = 15
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
                         0xfecc56e5: string = "Attack Order"
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "AttackChampion2D"
+                        }
+                    }
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "Attack Neutral"
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "AttackChampion2D"
                         }

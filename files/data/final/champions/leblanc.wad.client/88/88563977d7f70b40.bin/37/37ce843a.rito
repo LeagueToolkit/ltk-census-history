@@ -8,7 +8,6 @@ entries: map[hash,embed] = {
         0xa977f4ae: i32 = 7024
         0x8d5a662d: rgba = { 165, 139, 229, 255 }
         0x8a5a6174: rgba = { 165, 139, 229, 255 }
-        0x05040a43: u32 = 2
         0x2d78c328: string = "LeblancSkin24"
         0x514b1c48: i32 = 20
         0x939e7b29: string = "skinline:coven,gender:female,race:human,subfaction:blackrose"
@@ -118,8 +117,10 @@ entries: map[hash,embed] = {
             "ASSETS/Spells/Icons2D/GW_Debuff.dds"
             "ASSETS/Spells/Icons2D/Summoner_haste.dds"
         }
-        0x55aedaf4: list[link] = {
-            0x1fdb2f5f
+        0x5b3fe442: embed = 0x1ff9b0b3 {
+            0x331db2f5: string = "ASSETS/Characters/Leblanc/Skins/Skin20/Images/leblanc_splash_centered_20.jpg"
+            0x2cbf342e: string = "ASSETS/Characters/Leblanc/Skins/Skin20/Images/leblanc_splash_uncentered_20.jpg"
+            0x713a7cc9: string = "ASSETS/Characters/Leblanc/Skins/Skin20/Images/leblanc_splash_tile_20.jpg"
         }
         0x13ec4bb1: string = "skin_universe_text_7020"
         0x45ff5904: embed = 0x6111d8a4 {
@@ -131,7 +132,6 @@ entries: map[hash,embed] = {
                 { 135, 211, 135 }
             }
             0xd2e4d060: link = 0x87a4c5d8
-            0x164ae4e9: bool = false
             0x561f4fea: rgba = { 0, 0, 0, 255 }
             0x80b7f78f: string = "LeftWing RightWing Mirror MirrorGlass"
             0x24725910: list[embed] = {
@@ -153,10 +153,6 @@ entries: map[hash,embed] = {
             0x33068165 {
                 0x9b0300f3: hash = 0x7abb7c33
                 0x1ecb978c: string = "BUFFBONE_CSTM_LAMP"
-            }
-            0x33068165 {
-                0x9b0300f3: hash = 0xdba0b6b5
-                0x1ecb978c: string = "Pelvis"
             }
         }
         0x089aff69: string = "ASSETS/Characters/Leblanc/HUD/Leblanc_Circle_20.PIE_C_10_8.dds"
