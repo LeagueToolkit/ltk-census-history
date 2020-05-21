@@ -13,96 +13,125 @@ entries: map[hash,embed] = {
                 "Trait_AttackReset"
                 "Trait_ImmobilizingCCSpell"
             }
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
+                    0x246b0d8e: list[f32] = {
                         0
-                        30
-                        60
-                        90
-                        120
-                        150
-                        180
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        30
-                        30
-                        37.5
-                        45
-                        52.5
-                        60
-                        67.5
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        15
-                        15
-                        17.5
                         20
-                        22.5
+                        40
+                        60
+                        80
+                        100
+                        120
+                    }
+                    0xe7b832f2: string = "P + 20"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MinSpeed"
+                    0x246b0d8e: list[f32] = {
+                        5
+                        10
+                        15
+                        20
                         25
-                        27.5
+                        30
+                        35
+                    }
+                    0x6d3ccfd7: f32 = 5
+                    0xe7b832f2: string = "P + 5"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxSpeed"
+                    0x246b0d8e: list[f32] = {
+                        10
+                        20
+                        30
+                        40
+                        50
+                        60
+                        70
+                    }
+                    0x6d3ccfd7: f32 = 10
+                    0xe7b832f2: string = "P + 10"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "Duration"
+                    0x246b0d8e: list[f32] = {
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                    }
+                    0x6d3ccfd7: f32 = 4
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "StunDuration"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                    0x6d3ccfd7: f32 = 1
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "CDReset"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x2a00b43c = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 1
+                            0x4cec2c8a: u8 = 2
+                        }
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 1.2
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                        }
                     }
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        400
-                        400
-                        400
-                        400
-                        400
-                        400
-                        400
+                0x2a931d1a = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 1.2
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                        }
                     }
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                    }
-                }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
             }
             0x295c2889: f32 = 1
-            0xfbd16fb5: string = "Spell1"
+            0xfbd16fb5: string = ""
             0xeed67cd5: list[string] = {
-                "ASSETS/Characters/Volibear/HUD/Icons2D/VolibearQ.dds"
+                "ASSETS/Characters/Volibear/HUD/Icons2D/Volibear_Icon_Q.dds"
             }
             0x9ecac3a1: list[f32] = {
+                0
+                14
                 13
                 12
                 11
                 10
-                9
-                8
-                8
+                10
             }
-            0x18330965: f32 = 0.0435
-            0x3a4c4690: f32 = -0.2333
+            0x18330965: f32 = -1
+            0x3a4c4690: f32 = -1
+            0xf14bcafe: f32 = 0.25
             0xe321919c: bool = true
             0x551b248c: bool = true
+            0xf47a22e5: bool = true
             0x1b9cbd9b: list[f32] = {
                 300
                 300
@@ -124,8 +153,10 @@ entries: map[hash,embed] = {
             0x5c46e292: f32 = 100
             0x4e47141f: f32 = 5.3
             0x165e061e: f32 = 0
+            0x8a3c40d8: hash = 0xca178bf5
+            0x7b9bef1b: hash = 0xca178bf5
             0x90f34e62: bool = true
-            0x7675f624: string = "root"
+            0x7675f624: string = "C_BUFFBONE_GLB_LAYOUT_LOC"
             0x1a2c7c10: list[i32] = {
                 0
                 0
@@ -145,46 +176,41 @@ entries: map[hash,embed] = {
                 2
             }
             0xd997830a: list[f32] = {
-                40
-                40
-                40
-                40
-                40
-                40
+                50
+                50
+                50
+                50
+                50
+                50
             }
             0x5d46764f: pointer = 0x645ba277 {}
+            0x7c4baddc: option[f32] = {
+                0.5
+            }
             0x048557ff: embed = 0x7dd1a902 {
                 0x2831605b: pointer = 0xa4e13b57 {
                     0xb482c52c: string = "VolibearQ"
                     0x57b8b11b: link = 0x122a9d2c
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Spell_VolibearQ_Name"
-                        "keySummary" = "Spell_VolibearQ_Summary"
                         "keyTooltip" = "Spell_VolibearQ_Tooltip"
+                        "keySummary" = "Spell_VolibearQ_Summary"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 1
-                                    0x566f3406: string = "Spell_ListType_BonusDamage"
+                                    0x5127f14d: string = "BaseDamage"
+                                    0x566f3406: string = "Spell_Volibear_Rankup_Damage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "MinSpeed"
+                                    0x566f3406: string = "Spell_VolibearQ_Rankup_Speed"
+                                    0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 4
-                                    0x566f3406: string = "Spell_ListType_VolibearBonusMovementSpeedMin"
-                                    0xac307ed6: u32 = 1
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 2
-                                    0x566f3406: string = "Spell_ListType_VolibearBonusMovementSpeedMax"
-                                    0xac307ed6: u32 = 1
                                 }
                             }
                         }
@@ -193,7 +219,15 @@ entries: map[hash,embed] = {
             }
         }
         0x7f0f5a79: pointer = 0x4633d794 {
-            0xf1f20d72: string = "game_buff_tooltip_VolibearQ"
+            0xf1f20d72: string = "Spell_VolibearQ_Name"
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "VolibearQ"
+                0x57b8b11b: link = 0x10f01d27
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Spell_VolibearQ_Name"
+                    "keyTooltip" = "Buff_VolibearQ_Description"
+                }
+            }
         }
     }
 }
