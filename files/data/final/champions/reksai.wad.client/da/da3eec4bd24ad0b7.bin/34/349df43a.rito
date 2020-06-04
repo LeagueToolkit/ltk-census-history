@@ -5,10 +5,6 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x349df43a = 0x9b67e9f6 {
         0x87225880: u32 = 2
-        0xa977f4ae: i32 = 421004
-        0x8d5a662d: rgba = { 28, 33, 39, 255 }
-        0x8a5a6174: rgba = { 28, 33, 39, 255 }
-        0x05040a43: u32 = 2
         0x2d78c328: string = "Chroma_RekSaiSkin4"
         0x514b1c48: i32 = 2
         0x939e7b29: string = "faction:void,gender:female,element:water,skinline:poolparty"
@@ -21,13 +17,6 @@ entries: map[hash,embed] = {
                 "ReksaiSkin02"
             }
             0xf8f29f92: list[embed] = {
-                0xa4416515 {
-                    0x8d39bde6: string = "Reksai_Base_SFX"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Reksai/Skins/Base/Reksai_Base_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Reksai/Skins/Base/Reksai_Base_SFX_events.bnk"
-                    }
-                }
                 0xa4416515 {
                     0x8d39bde6: string = "Reksai_Base_VO"
                     0x2a21ad00: list[string] = {
@@ -44,19 +33,14 @@ entries: map[hash,embed] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Reksai/Skins/Skin02/Reksai_Skin02_SFX_events.bnk"
                     }
                     0x12d8e384: list[string] = {
-                        "Play_sfx_ReksaiSkin02_burrowed_tunnel_destroyed"
-                        "Play_sfx_ReksaiSkin02_burrowed_tunnel_destroying"
-                        "Play_sfx_ReksaiSkin02_burrowed_tunnel_inflate"
-                        "Play_sfx_ReksaiSkin02_dance3D_buffactivate"
-                        "Play_sfx_ReksaiSkin02_death3D_cast"
-                        "Play_sfx_ReksaiSkin02_fullstacks"
-                        "Play_sfx_ReksaiSkin02_homeguard_cast"
-                        "Play_sfx_ReksaiSkin02_homeguard_loop"
-                        "Play_sfx_ReksaiSkin02_joke3D_buffactivate"
-                        "Play_sfx_ReksaiSkin02_laugh3D_buffactivate"
-                        "Play_sfx_ReksaiSkin02_recall_leadin"
-                        "Play_sfx_ReksaiSkin02_recall_leadout"
-                        "Play_sfx_ReksaiSkin02_recall_winddown"
+                        "Play_sfx_ReksaiSkin02_Dance3D_buffactivate"
+                        "Play_sfx_ReksaiSkin02_Death3D_cast"
+                        "Play_sfx_ReksaiSkin02_Homeguard3D_cast"
+                        "Play_sfx_ReksaiSkin02_Homeguard3D_loop"
+                        "Play_sfx_ReksaiSkin02_Joke3D_buffactivate"
+                        "Play_sfx_ReksaiSkin02_Laugh3D_buffactivate"
+                        "Play_sfx_ReksaiSkin02_Recall3D_leadin"
+                        "Play_sfx_ReksaiSkin02_Recall3D_leadout"
                         "Play_sfx_ReksaiSkin02_ReksaiBasicAttack2_OnCast"
                         "Play_sfx_ReksaiSkin02_ReksaiBasicAttack2_OnHit"
                         "Play_sfx_ReksaiSkin02_ReksaiBasicAttack3_OnCast"
@@ -71,15 +55,19 @@ entries: map[hash,embed] = {
                         "Play_sfx_ReksaiSkin02_ReksaiBasicAttack_OnHit"
                         "Play_sfx_ReksaiSkin02_ReksaiCritAttack_OnCast"
                         "Play_sfx_ReksaiSkin02_ReksaiCritAttack_OnHit"
+                        "Play_sfx_ReksaiSkin02_RekSaiE_burrowed_buffactivate"
+                        "Play_sfx_ReksaiSkin02_RekSaiE_burrowed_buffdeactivate"
                         "Play_sfx_ReksaiSkin02_ReksaiE_burrowed_endsound"
+                        "Play_sfx_ReksaiSkin02_ReksaiE_burrowed_launchsound"
                         "Play_sfx_ReksaiSkin02_ReksaiE_burrowed_movethroughsound"
-                        "Play_sfx_ReksaiSkin02_RekSaiE_burrowed_oba"
-                        "Play_sfx_ReksaiSkin02_RekSaiE_burrowed_obd"
-                        "Play_sfx_ReksaiSkin02_ReksaiE_burrowedlaunchsound"
+                        "Play_sfx_ReksaiSkin02_ReksaiE_burrowed_tunnel_destroyed"
+                        "Play_sfx_ReksaiSkin02_ReksaiE_burrowed_tunnel_destroying"
+                        "Play_sfx_ReksaiSkin02_ReksaiE_burrowed_tunnel_inflate"
                         "Play_sfx_ReksaiSkin02_RekSaiE_hit"
                         "Play_sfx_ReksaiSkin02_RekSaiE_hit_fullstacks"
                         "Play_sfx_ReksaiSkin02_RekSaiE_OnCast"
-                        "Play_sfx_ReksaiSkin02_ReksaiE_unburrowedlaunchsound"
+                        "Play_sfx_ReksaiSkin02_ReksaiE_unburrowed_launchsound"
+                        "Play_sfx_ReksaiSkin02_ReksaiP_fullstacks"
                         "Play_sfx_ReksaiSkin02_RekSaiPRegen_OnBuffActivate"
                         "Play_sfx_ReksaiSkin02_RekSaiQ_OnBuffActivate"
                         "Play_sfx_ReksaiSkin02_RekSaiQ_OnBuffDeactivate"
@@ -94,29 +82,28 @@ entries: map[hash,embed] = {
                         "Play_sfx_ReksaiSkin02_RekSaiQBurrowedMis_hit"
                         "Play_sfx_ReksaiSkin02_RekSaiQBurrowedMis_OnMissileCast"
                         "Play_sfx_ReksaiSkin02_RekSaiQBurrowedMis_OnMissileLaunch"
-                        "Play_sfx_ReksaiSkin02_ReksaiR_globalroar"
                         "Play_sfx_ReksaiSkin02_ReksaiR_hit"
                         "Play_sfx_ReksaiSkin02_ReksaiR_leap"
                         "Play_sfx_ReksaiSkin02_ReksaiR_OnCast"
+                        "Play_sfx_ReksaiSkin02_ReksaiR_roar"
                         "Play_sfx_ReksaiSkin02_ReksaiR_tunnel_port"
-                        "Play_sfx_ReksaiSkin02_ReksaiR_tunnel_port_loop"
                         "Play_sfx_ReksaiSkin02_RekSaiTSActive_OnBuffActivate"
                         "Play_sfx_ReksaiSkin02_RekSaiTSActive_OnBuffDeactivate"
+                        "Play_sfx_ReksaiSkin02_RekSaiW_buffactivate"
+                        "Play_sfx_ReksaiSkin02_RekSaiW_buffdeactivate"
                         "Play_sfx_ReksaiSkin02_RekSaiW_hit"
                         "Play_sfx_ReksaiSkin02_RekSaiW_movement_trail"
-                        "Play_sfx_ReksaiSkin02_RekSaiW_oba"
-                        "Play_sfx_ReksaiSkin02_RekSaiW_obd"
-                        "Play_sfx_ReksaiSkin02_taunt3D_buffactivate"
-                        "Stop_sfx_ReksaiSkin02_burrowed_tunnel_destroying"
-                        "Stop_sfx_ReksaiSkin02_homeguard_loop"
-                        "Stop_sfx_ReksaiSkin02_recall_leadin"
-                        "Stop_sfx_ReksaiSkin02_RekSaiE_burrowed_oba"
+                        "Play_sfx_ReksaiSkin02_Taunt3D_buffactivate"
+                        "Play_sfx_ReksaiSkin02_Winddown3D_buffactivate"
+                        "Stop_sfx_ReksaiSkin02_Homeguard3D_loop"
+                        "Stop_sfx_ReksaiSkin02_Recall3D_leadin"
+                        "Stop_sfx_ReksaiSkin02_RekSaiE_burrowed_buffactivate"
+                        "Stop_sfx_ReksaiSkin02_ReksaiE_burrowed_tunnel_destroying"
                         "Stop_sfx_ReksaiSkin02_RekSaiQ_OnBuffActivate"
                         "Stop_sfx_ReksaiSkin02_RekSaiQAttack3_OnCast"
                         "Stop_sfx_ReksaiSkin02_RekSaiQAttack_OnCast"
                         "Stop_sfx_ReksaiSkin02_RekSaiQBurrowedMis_OnMissileLaunch"
                         "Stop_sfx_ReksaiSkin02_ReksaiR_tunnel_port"
-                        "Stop_sfx_ReksaiSkin02_ReksaiR_tunnel_port_loop"
                         "Stop_sfx_ReksaiSkin02_RekSaiTSActive_OnBuffActivate"
                         "Stop_sfx_ReksaiSkin02_RekSaiW_movement_trail"
                     }
@@ -126,19 +113,6 @@ entries: map[hash,embed] = {
         0x426d89a3: embed = 0x426d89a3 {
             0xf5fb07c7: link = 0xb8f57461
         }
-        0x8bb2d7a4: list[string] = {
-            "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_E2_cooldown.dds"
-            "ASSETS/Spells/Icons2D/3090_Wooglets_Witchcap.dds"
-        }
-        0x5b3fe442: embed = 0x1ff9b0b3 {
-            0x331db2f5: string = "ASSETS/Characters/RekSai/Skins/Skin02/Images/reksai_splash_centered_2.jpg"
-            0x2cbf342e: string = "ASSETS/Characters/RekSai/Skins/Skin02/Images/reksai_splash_uncentered_2.jpg"
-            0x713a7cc9: string = "ASSETS/Characters/RekSai/Skins/Skin02/Images/reksai_splash_tile_2.jpg"
-        }
-        0x55aedaf4: list[link] = {
-            0xca30d5e3
-        }
-        0x13ec4bb1: string = "skin_universe_text_421002"
         0x45ff5904: embed = 0x6111d8a4 {
             0xb14c976e: string = "ASSETS/Characters/RekSai/Skins/Skin02/RekSai_Skin02.skl"
             0xd6a00df6: string = "ASSETS/Characters/RekSai/Skins/Skin02/RekSai_Skin02.skn"

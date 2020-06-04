@@ -5,8 +5,6 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x7be571ca = 0x9b67e9f6 {
         0x87225880: u32 = 1
-        0xa977f4ae: i32 = 99017
-        0x05040a43: u32 = 3
         0x2d78c328: string = "LuxSkin17"
         0x939e7b29: string = "faction:demacia,gender:female,race:human,element:light,skinline:darkstar"
         0x97f7188d: embed = 0xd06263ff {
@@ -28,16 +26,16 @@ entries: map[hash,embed] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Lux/Skins/Skin17/Lux_Skin17_SFX_events.bnk"
                     }
                     0x12d8e384: list[string] = {
-                        "Play_sfx_LuxSkin17_Dance_Booms3D"
-                        "Play_sfx_LuxSkin17_Dance_In3D"
-                        "Play_sfx_LuxSkin17_DanceLoop3D"
+                        "Play_sfx_LuxSkin17_Dance3D_booms"
+                        "Play_sfx_LuxSkin17_Dance3D_buffactivate"
+                        "Play_sfx_LuxSkin17_Dance3D_loop"
                         "Play_sfx_LuxSkin17_Death3D_cast"
-                        "Play_sfx_LuxSkin17_Homeguard_In3D"
-                        "Play_sfx_LuxSkin17_Homeguard_Loop3D"
-                        "Play_sfx_LuxSkin17_Homeguard_ToIdle3D"
-                        "Play_sfx_LuxSkin17_Homeguard_ToRun3D"
-                        "Play_sfx_LuxSkin17_Joke3D"
-                        "Play_sfx_LuxSkin17_Laugh3D"
+                        "Play_sfx_LuxSkin17_Homeguard3D_buffactivate"
+                        "Play_sfx_LuxSkin17_Homeguard3D_loop"
+                        "Play_sfx_LuxSkin17_Homeguard3D_ToIdle"
+                        "Play_sfx_LuxSkin17_Homeguard3D_ToRun"
+                        "Play_sfx_LuxSkin17_Joke3D_buffactivate"
+                        "Play_sfx_LuxSkin17_Laugh3D_buffactivate"
                         "Play_sfx_LuxSkin17_LuxBasicAttack2_OnCast"
                         "Play_sfx_LuxSkin17_LuxBasicAttack2_OnHit"
                         "Play_sfx_LuxSkin17_LuxBasicAttack_OnCast"
@@ -48,7 +46,7 @@ entries: map[hash,embed] = {
                         "Play_sfx_LuxSkin17_LuxLightBinding_OnBuffActivate"
                         "Play_sfx_LuxSkin17_LuxLightBinding_OnBuffDeactivate"
                         "Play_sfx_LuxSkin17_LuxLightBinding_OnCast"
-                        "Play_sfx_LuxSkin17_LuxLightBindingDummy_OnMissileLaunch"
+                        "Play_sfx_LuxSkin17_LuxLightBindingDummy_missilelaunch"
                         "Play_sfx_LuxSkin17_LuxLightBindingMis_OnBuffActivate"
                         "Play_sfx_LuxSkin17_LuxLightBindingMis_OnBuffDeactivate"
                         "Play_sfx_LuxSkin17_LuxLightStrikeKugel_buffactivate"
@@ -63,9 +61,9 @@ entries: map[hash,embed] = {
                         "Play_sfx_LuxSkin17_LuxPrismaticWaveShield_buffactivate"
                         "Play_sfx_LuxSkin17_LuxPrismaticWaveShieldSelf_buffactivate"
                         "Play_sfx_LuxSkin17_Recall3D_buffactivate"
-                        "Play_sfx_LuxSkin17_Respawn3D"
-                        "Play_sfx_LuxSkin17_Taunt_Intro3D"
-                        "Play_sfx_LuxSkin17_Taunt_Loop3D"
+                        "Play_sfx_LuxSkin17_Respawn3D_buffactivate"
+                        "Play_sfx_LuxSkin17_Taunt3D_buffactivate"
+                        "Play_sfx_LuxSkin17_Taunt3D_loop"
                         "Play_vo_LuxSkin17_AttackChampion2D"
                         "Play_vo_LuxSkin17_FirstEncounter2DAsheSkin11"
                         "Play_vo_LuxSkin17_FirstEncounter2DCelestial"
@@ -83,11 +81,11 @@ entries: map[hash,embed] = {
                         "Play_vo_LuxSkin17_MoveOrder2D"
                         "Play_vo_LuxSkin17_MoveOrder2DLong"
                         "Stop_sfx_LuxSkin17_LuxLightBinding_OnBuffActivate"
-                        "Stop_sfx_LuxSkin17_LuxLightBindingDummy_OnMissileLaunch"
+                        "Stop_sfx_LuxSkin17_LuxLightBindingDummy_missilelaunch"
                         "Stop_sfx_LuxSkin17_LuxLightBindingMis_OnBuffActivate"
                         "Stop_sfx_LuxSkin17_LuxLightStrikeKugel_OnMissileLaunch"
                         "Stop_sfx_LuxSkin17_LuxPrismaticWaveMissile_OnMissileLaunch"
-                        "Stop_sfx_LuxSkin17_Taunt_Loop3D"
+                        "Stop_sfx_LuxSkin17_Taunt3D_loop"
                     }
                 }
                 0xa4416515 {
@@ -118,8 +116,8 @@ entries: map[hash,embed] = {
                         "Play_vo_LuxSkin17_Laugh3DGeneral"
                         "Play_vo_LuxSkin17_LuxLightBindingMis_OnHit"
                         "Play_vo_LuxSkin17_LuxLightStrikeKugel_OnBuffDeactivate"
-                        "Play_vo_LuxSkin17_LuxMaliceCannon_OnCast"
-                        "Play_vo_LuxSkin17_LuxPrismaticWave_OnCast"
+                        "Play_vo_LuxSkin17_LuxMaliceCannon_cast3D"
+                        "Play_vo_LuxSkin17_LuxPrismaticWave_cast3D"
                         "Play_vo_LuxSkin17_MoveOrder2D"
                         "Play_vo_LuxSkin17_MoveOrder2DLong"
                         "Play_vo_LuxSkin17_RecallLeadIn3D"
@@ -134,19 +132,6 @@ entries: map[hash,embed] = {
         0x426d89a3: embed = 0x426d89a3 {
             0xf5fb07c7: link = 0x0a32ca55
         }
-        0x8bb2d7a4: list[string] = {
-            "ASSETS/Spells/Icons2D/GreenTerror_ChitinousExoplates.dds"
-            "ASSETS/Spells/Icons2D/Minotaur_Pulverize.dds"
-        }
-        0x5b3fe442: embed = 0x1ff9b0b3 {
-            0x331db2f5: string = "ASSETS/Characters/Lux/Skins/Skin17/Images/lux_splash_centered_17.jpg"
-            0x2cbf342e: string = "ASSETS/Characters/Lux/Skins/Skin17/Images/lux_splash_uncentered_17.jpg"
-            0x713a7cc9: string = "ASSETS/Characters/Lux/Skins/Skin17/Images/lux_splash_tile_17.jpg"
-        }
-        0x55aedaf4: list[link] = {
-            0x5b0fdaf5
-        }
-        0x13ec4bb1: string = "skin_universe_text_99017"
         0x45ff5904: embed = 0x6111d8a4 {
             0xb14c976e: string = "ASSETS/Characters/Lux/Skins/Skin17/Lux_Skin17.PIE_C_10_6.skl"
             0xd6a00df6: string = "ASSETS/Characters/Lux/Skins/Skin17/Lux_Skin17.PIE_C_10_6.skn"

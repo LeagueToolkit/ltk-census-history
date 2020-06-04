@@ -5,14 +5,6 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x7ae57037 = 0x9b67e9f6 {
         0x87225880: u32 = 1
-        0xa977f4ae: i32 = 99014
-        0x05040a43: u32 = 2
-        0x5d23843a: list[embed] = {
-            0x3c136fac {
-                0x2ed25c3a: u32 = 23
-                0x6f1dd68b: u32 = 3
-            }
-        }
         0x2d78c328: string = "LuxSkin14"
         0x939e7b29: string = "faction:demacia,gender:female,race:human,element:light,thememusic:starguardian,skinline:pajamaguardian"
         0x97f7188d: embed = 0xd06263ff {
@@ -22,16 +14,8 @@ entries: map[hash,embed] = {
             0xd65bac4d: list[string] = {
                 "Lux"
                 "LuxSkin06"
-                "Lux_FUTURE"
             }
             0xf8f29f92: list[embed] = {
-                0xa4416515 {
-                    0x8d39bde6: string = "Lux_Base_SFX"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Lux/Skins/Base/Lux_Base_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Lux/Skins/Base/Lux_Base_SFX_events.bnk"
-                    }
-                }
                 0xa4416515 {
                     0x8d39bde6: string = "Lux_Base_VO"
                     0x2a21ad00: list[string] = {
@@ -48,9 +32,10 @@ entries: map[hash,embed] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Lux/Skins/Skin06/Lux_Skin06_SFX_events.bnk"
                     }
                     0x12d8e384: list[string] = {
-                        "Play_sfx_LuxSkin06_Dance3D_in"
+                        "Play_sfx_LuxSkin06_Dance3D_buffactivate"
                         "Play_sfx_LuxSkin06_Dance3D_loop"
                         "Play_sfx_LuxSkin06_Death3D_cast"
+                        "Play_sfx_LuxSkin06_Homeguard3D_buffactivate"
                         "Play_sfx_LuxSkin06_LuxBasicAttack2_OnCast"
                         "Play_sfx_LuxSkin06_LuxBasicAttack2_OnHit"
                         "Play_sfx_LuxSkin06_LuxBasicAttack2_OnMissileLaunch"
@@ -69,7 +54,6 @@ entries: map[hash,embed] = {
                         "Play_sfx_LuxSkin06_LuxLightBindingMis_OnBuffDeactivate"
                         "Play_sfx_LuxSkin06_LuxLightStrikeKugel_buffactivate"
                         "Play_sfx_LuxSkin06_LuxLightStrikeKugel_hit"
-                        "Play_sfx_LuxSkin06_LuxLightStrikeKugel_OnBuffActivate"
                         "Play_sfx_LuxSkin06_LuxLightStrikeKugel_OnCast"
                         "Play_sfx_LuxSkin06_LuxLightStrikeKugel_OnMissileLaunch"
                         "Play_sfx_LuxSkin06_LuxMaliceCannon_OnCast"
@@ -79,19 +63,18 @@ entries: map[hash,embed] = {
                         "Play_sfx_LuxSkin06_LuxPrismaticWaveMissile_OnMissileLaunch"
                         "Play_sfx_LuxSkin06_LuxPrismaticWaveShield_buffactivate"
                         "Play_sfx_LuxSkin06_LuxPrismaticWaveShieldSelf_buffactivate"
-                        "Play_sfx_LuxSkin06_Recall_windup"
-                        "Play_sfx_LuxSkin06_Recall_windup_nomusic"
-                        "Play_sfx_LuxSkin06_Run_homeguard_buffactivate"
-                        "Stop_sfx_LuxSkin06_Dance3D_in"
+                        "Play_sfx_LuxSkin06_Recall3D_buffactivate"
+                        "Play_sfx_LuxSkin06_Recall3D_buffactivate_nomusic"
+                        "Stop_sfx_LuxSkin06_Dance3D_buffactivate"
                         "Stop_sfx_LuxSkin06_Dance3D_loop"
+                        "Stop_sfx_LuxSkin06_Homeguard3D_buffactivate"
                         "Stop_sfx_LuxSkin06_LuxLightBinding_OnBuffActivate"
                         "Stop_sfx_LuxSkin06_LuxLightBindingDummy_OnMissileLaunch"
                         "Stop_sfx_LuxSkin06_LuxLightBindingMis_OnBuffActivate"
                         "Stop_sfx_LuxSkin06_LuxLightStrikeKugel_OnMissileLaunch"
                         "Stop_sfx_LuxSkin06_LuxPrismaticWaveMissile_OnMissileLaunch"
-                        "Stop_sfx_LuxSkin06_Recall_windup"
-                        "Stop_sfx_LuxSkin06_Recall_windup_nomusic"
-                        "Stop_sfx_LuxSkin06_Run_homeguard_buffactivate"
+                        "Stop_sfx_LuxSkin06_Recall3D_buffactivate"
+                        "Stop_sfx_LuxSkin06_Recall3D_buffactivate_nomusic"
                     }
                 }
             }
@@ -99,19 +82,6 @@ entries: map[hash,embed] = {
         0x426d89a3: embed = 0x426d89a3 {
             0xf5fb07c7: link = 0x964b2045
         }
-        0x8bb2d7a4: list[string] = {
-            "ASSETS/Spells/Icons2D/GreenTerror_ChitinousExoplates.dds"
-            "ASSETS/Spells/Icons2D/Minotaur_Pulverize.dds"
-        }
-        0x5b3fe442: embed = 0x1ff9b0b3 {
-            0x331db2f5: string = "ASSETS/Characters/Lux/Skins/Skin14/Images/lux_splash_centered_14.jpg"
-            0x2cbf342e: string = "ASSETS/Characters/Lux/Skins/Skin14/Images/lux_splash_uncentered_14.jpg"
-            0x713a7cc9: string = "ASSETS/Characters/Lux/Skins/Skin14/Images/lux_splash_tile_14.jpg"
-        }
-        0x55aedaf4: list[link] = {
-            0x36824d1b
-        }
-        0x13ec4bb1: string = "skin_universe_text_99014"
         0x45ff5904: embed = 0x6111d8a4 {
             0xb14c976e: string = "ASSETS/Characters/Lux/Skins/Skin14/Lux_Skin14.skl"
             0xd6a00df6: string = "ASSETS/Characters/Lux/Skins/Skin14/Lux_Skin14.skn"
