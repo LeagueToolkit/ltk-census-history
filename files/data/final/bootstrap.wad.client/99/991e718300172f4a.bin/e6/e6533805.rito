@@ -1,0 +1,117 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe6533805 = 0x205255d6 {
+        0x1d369c29: string = "Shaders/StaticMesh/River_Additive"
+        0x48a52ed9: list[embed] = {
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter0"
+                0xd872e2a5: vec4 = { 1, 0, 0.5, 1.2 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Mask_Intensity"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "EdgeFoamMask_Shape"
+                        0x0640657c: u32 = 6
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Intensity"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter1"
+                0xd872e2a5: vec4 = { 6, 0.1, 0, 0.5 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Global_Wave_FAO"
+                        0x0640657c: u32 = 7
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Noise_Scale"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { 0.07058824, 0.11764706, 0.11372549, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "WaterColor"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter3"
+                0xd872e2a5: vec4 = { -0.02, 0.11, -0.13, 0.03 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "NoiseLarge_ScrollRate"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "NoiseSmall_ScrollRate"
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter4"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "EgdeFoam_Scale"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "EgdeFoam_ScrollRate"
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter5"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "EdgeFoamMult_Scale"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "EgdeFoamMult_ScrollRate"
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+        }
+        0x3291437b: list[embed] = {
+            0x60a292e6 {
+                0x8d39bde6: string = "MASK_DEBUG"
+            }
+        }
+        0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "Noise"
+                0x32b374fa: string = "ASSETS/Shared/Materials/Generic_Noise3.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "EdgeFoam_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/Generic_Noise.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "EdgeMult_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/Generic_Noise.dds"
+            }
+        }
+        0xae29287b: map[string,string] = {
+            "FEATURE_WORLD_POSITION" = "1"
+        }
+    }
+}

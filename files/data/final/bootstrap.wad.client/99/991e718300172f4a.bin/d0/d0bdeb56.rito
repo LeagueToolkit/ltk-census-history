@@ -1,0 +1,109 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd0bdeb56 = 0x205255d6 {
+        0x1d369c29: string = "Shaders/StaticMesh/2HeightMapBlend"
+        0x48a52ed9: list[embed] = {
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter0"
+                0xd872e2a5: vec4 = { 0, 0, 0.1, 0.1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Contrast"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Contrast_Xtra"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Terrain_Base_Tile"
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter1"
+                0xd872e2a5: vec4 = { 1, 0, 0.1, 0.1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Global_Tile_Multiplier"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Terrain_Base_Rotation"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Terrain_A_Tile"
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { 0, 0.1, 0.1, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Terrain_A_Rotation"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Terrain_B_Tile"
+                        0x0640657c: u32 = 6
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Terrain_B_Rotation"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+        }
+        0x3291437b: list[embed] = {
+            0x60a292e6 {
+                0x8d39bde6: string = "BASE_UVSELECT"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "MASK_DEBUG"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "TERRAIN_A_UVSELECT"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "TERRAIN_B_UVSELECT"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "USE_CONTRAST"
+                0xaae99956: bool = true
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "USE_CONTRAST_XTRA"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "USE_OVERLAY"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "USE_XTRA"
+            }
+        }
+        0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "Diffuse_Texture1"
+                0x32b374fa: string = "ASSETS/Shared/Materials/TerrainBlending/PVE1_TT_Ground_Pebbles.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Diffuse_Texture2"
+                0x32b374fa: string = "ASSETS/Shared/Materials/TerrainBlending/PVE1_TT_Ground_Cobblestone.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Diffuse_Texture3"
+                0x32b374fa: string = "ASSETS/Shared/Materials/TerrainBlending/ODY_Ground_Grass01_512.dds"
+            }
+        }
+        0xae29287b: map[string,string] = {
+            "FEATURE_WORLD_POSITION" = "1"
+        }
+    }
+}

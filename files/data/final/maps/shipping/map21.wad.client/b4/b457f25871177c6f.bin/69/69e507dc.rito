@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x69e507dc = 0x9b67e9f6 {
+        0xf0f7a695: hash = 0xae7fa1b7
+        0x426d89a3: embed = 0x426d89a3 {
+            0xf5fb07c7: link = 0x085d8a90
+        }
+        0x45ff5904: embed = 0x6111d8a4 {
+            0x0506a4c5: f32 = 80
+            0x706468a8: f32 = 80
+        }
+        0x2d0d1f1d: string = "Stone"
+        0xe67284f4: option[string] = {
+            "Krug_Circle.dds"
+        }
+        0xac473fef: option[string] = {
+            "Krug_Square.dds"
+        }
+    }
+}
