@@ -7,7 +7,79 @@ entries: map[hash,embed] = {
         0xc8e37ef0: string = "RenektonPredator"
         0x56d2be52: pointer = 0x43368569 {
             0xecf3f88d: u32 = 8143
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "FuryPerAttack"
+                    0x246b0d8e: list[f32] = {
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                    }
+                    0x6d3ccfd7: f32 = 5
+                    0xe7b832f2: string = "P + 0"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "FuryIncreasePercent"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                    0x6d3ccfd7: f32 = 0.5
+                    0xe7b832f2: string = "P + 0"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "LowHealthPercentThreshold"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                    0x6d3ccfd7: f32 = 0.5
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "InCombatDuration"
+                    0x246b0d8e: list[f32] = {
+                        12
+                        12
+                        12
+                        12
+                        12
+                        12
+                        12
+                    }
+                    0x6d3ccfd7: f32 = 12
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "FuryCost"
+                    0x246b0d8e: list[f32] = {
+                        50
+                        50
+                        50
+                        50
+                        50
+                        50
+                        50
+                    }
+                    0x6d3ccfd7: f32 = 50
+                }
+            }
             0xfbd16fb5: string = "Spell3"
+            0xeed67cd5: list[string] = {
+                "ASSETS/Characters/Renekton/HUD/Icons2D/Renekton_Passive.dds"
+            }
             0x9ecac3a1: list[f32] = {
                 0
                 0
@@ -21,13 +93,13 @@ entries: map[hash,embed] = {
             0x534cce1b: bool = false
             0xf47a22e5: bool = true
             0x1b9cbd9b: list[f32] = {
-                20
-                20
-                20
-                20
-                20
-                20
-                20
+                0
+                0
+                0
+                0
+                0
+                0
+                0
             }
             0xb7250b1c: list[f32] = {
                 100
@@ -44,13 +116,20 @@ entries: map[hash,embed] = {
             0x7b9bef1b: hash = 0x5e59a14e
             0x9747846c: string = "globalhit_physical.troy"
             0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "RenektonPredator"
+                    0x57b8b11b: link = 0x30d7b387
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_RenektonPredator_Name"
+                        "keyTooltip" = "Spell_RenektonPredator_Tooltip"
+                        "keySummary" = "Spell_RenektonPredator_Summary"
+                    }
+                }
                 0x263ba968: list[pointer] = {
                     0x047acadf {}
                 }
             }
         }
-        0x7f0f5a79: pointer = 0x4633d794 {
-            0xf1f20d72: string = "game_buff_tooltip_RenektonPredator"
-        }
+        0x7f0f5a79: pointer = 0x4633d794 {}
     }
 }

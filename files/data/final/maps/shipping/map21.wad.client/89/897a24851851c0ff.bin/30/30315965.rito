@@ -6,8 +6,9 @@ entries: map[hash,embed] = {
     0x30315965 = 0x45cd899f {
         0x868eb76a: list[pointer] = {
             0x09cde442 {
+                0x22e763bc: f32 = 3
                 0xae839c67: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 35
+                    0xb4b427aa: f32 = 25
                     0xbc037de7: pointer = 0xfe064c88 {
                         0xa7084719: list[pointer] = {
                             0x53a6c97e {
@@ -28,10 +29,10 @@ entries: map[hash,embed] = {
                             1
                         }
                         0x34474c3b: list[f32] = {
-                            35
-                            35
-                            70
-                            35
+                            25
+                            25
+                            50
+                            25
                         }
                     }
                 }
@@ -63,8 +64,9 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x5212abee: option[f32] = {
-                    2
+                    5
                 }
+                0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "Fire_Bits_Burst"
                 0xb9516a6f: u8 = 2
                 0xc178fac7: list[string] = {
@@ -72,7 +74,7 @@ entries: map[hash,embed] = {
                     "ZombieBrand"
                 }
                 0x51433ef4: embed = 0x68dc32b6 {
-                    0xb4b427aa: vec3 = { 0, 1, 0 }
+                    0xb4b427aa: vec3 = { 0.05, 0.1, 0.1 }
                     0xbc037de7: pointer = 0xacd81180 {
                         0xa7084719: list[pointer] = {
                             0x53a6c97e {}
@@ -83,16 +85,25 @@ entries: map[hash,embed] = {
                                 }
                                 0xe44b7382: list[f32] = {
                                     -0.5
-                                    1
+                                    0.5
                                 }
                             }
-                            0x53a6c97e {}
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    -0.5
+                                    0.5
+                                }
+                            }
                         }
                         0x5d68eeb5: list[f32] = {
                             0
                         }
                         0x34474c3b: list[vec3] = {
-                            { 0, 1, 0 }
+                            { 0.05, 0.1, 0.1 }
                         }
                     }
                 }
@@ -151,60 +162,58 @@ entries: map[hash,embed] = {
                 }
                 0x9dc3d926: embed = 0x77cf93a8 {
                     0xff7d0e41: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { -50, 0, 0 }
+                        0xb4b427aa: vec3 = { -50, 0, 100 }
                     }
                     0xe5f268dd: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { 200, 200, 0 }
+                        0xb4b427aa: vec3 = { 200, 100, 300 }
                         0xbc037de7: pointer = 0xacd81180 {
                             0xa7084719: list[pointer] = {
-                                0x53a6c97e {}
                                 0x53a6c97e {
                                     0x40c351da: list[f32] = {
                                         0
                                         1
                                     }
                                     0xe44b7382: list[f32] = {
-                                        0
+                                        -1
                                         1
                                     }
                                 }
-                                0x53a6c97e {}
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
                             }
                             0x5d68eeb5: list[f32] = {
                                 0
                             }
                             0x34474c3b: list[vec3] = {
-                                { 200, 200, 0 }
+                                { 200, 100, 300 }
                             }
                         }
                     }
                     0x07f41838: list[embed] = {
-                        0x04300058 {
-                            0xb4b427aa: f32 = 1
-                            0xbc037de7: pointer = 0xfe064c88 {
-                                0xa7084719: list[pointer] = {
-                                    0x53a6c97e {
-                                        0x40c351da: list[f32] = {
-                                            0
-                                            1
-                                        }
-                                        0xe44b7382: list[f32] = {
-                                            0
-                                            360
-                                        }
-                                    }
-                                }
-                                0x5d68eeb5: list[f32] = {
-                                    0
-                                }
-                                0x34474c3b: list[f32] = {
-                                    1
-                                }
-                            }
-                        }
+                        0x04300058 {}
+                        0x04300058 {}
                     }
                     0xd1789c65: list[vec3] = {
-                        { 0, 1.0000001, 0 }
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
                     }
                 }
                 0xca406316: embed = 0x04300058 {
@@ -247,7 +256,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    0x5da05f9b: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Skin01/Particles/NEXUSBLITZ_NexusWalking_Skin1_Mult1.NexusBlitzSummer2020.dds"
+                    0x5da05f9b: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Skin0_Mult1.NexusBlitzSummer2020.dds"
                 }
                 0x37ddb774: flag = true
                 0x3559e15b: flag = true
@@ -328,6 +337,7 @@ entries: map[hash,embed] = {
                 0x86a84509: vec2 = { 2, 2 }
             }
             0x09cde442 {
+                0x22e763bc: f32 = 3
                 0xae839c67: embed = 0x04300058 {
                     0xb4b427aa: f32 = 10
                     0xbc037de7: pointer = 0xfe064c88 {
@@ -366,7 +376,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x5212abee: option[f32] = {
-                    1.5
+                    3
                 }
                 0x3bc59eb6: option[f32] = {}
                 0x3d25b8ce: string = "GlowWipeOut"
@@ -406,7 +416,7 @@ entries: map[hash,embed] = {
                 }
                 0x9dc3d926: embed = 0x77cf93a8 {
                     0xff7d0e41: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { -50, 200, 0 }
+                        0xb4b427aa: vec3 = { -50, 250, 0 }
                     }
                     0xe5f268dd: embed = 0x68dc32b6 {
                         0xb4b427aa: vec3 = { 300, 300, 300 }
@@ -571,10 +581,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Skin0_BrightSparks.NexusBlitzSummer2020.dds"
+                0x3c6468f4: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Skin0_Pebbles.NexusBlitzSummer2020.dds"
             }
             0x09cde442 {
-                0x22e763bc: f32 = 0.65
+                0x22e763bc: f32 = 2.85
                 0xae839c67: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
                 }
@@ -585,7 +595,7 @@ entries: map[hash,embed] = {
                     11.5
                 }
                 0x5212abee: option[f32] = {
-                    1
+                    3
                 }
                 0x3d25b8ce: string = "Shadow"
                 0x9dc3d926: embed = 0x77cf93a8 {
@@ -653,6 +663,7 @@ entries: map[hash,embed] = {
                 0x3c6468f4: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Skin0_Bigglow.NexusBlitzSummer2020.dds"
             }
             0x09cde442 {
+                0x22e763bc: f32 = 2.2
                 0xae839c67: embed = 0x04300058 {
                     0xb4b427aa: f32 = 3
                 }
@@ -682,7 +693,7 @@ entries: map[hash,embed] = {
                 }
                 0x2431d42c: option[f32] = {}
                 0x5212abee: option[f32] = {
-                    1.5
+                    3
                 }
                 0x3bc59eb6: option[f32] = {}
                 0x3d25b8ce: string = "WaveRight"
@@ -958,12 +969,13 @@ entries: map[hash,embed] = {
                 0x164b5733: vec2 = { 1, 2 }
             }
             0x09cde442 {
+                0x22e763bc: f32 = 2.2
                 0xae839c67: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
                 }
                 0x2431d42c: option[f32] = {}
                 0x5212abee: option[f32] = {
-                    0.5
+                    3
                 }
                 0x3d25b8ce: string = "bodyGlow"
                 0x9dc3d926: embed = 0x77cf93a8 {
@@ -1037,12 +1049,12 @@ entries: map[hash,embed] = {
                 }
                 0x2ae335b2: flag = false
                 0xf0eb7084: embed = 0x68dc32b6 {
-                    0xb4b427aa: vec3 = { 700, 600, 50 }
+                    0xb4b427aa: vec3 = { 650, 350, 50 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Skin0_Bigglow.NexusBlitzSummer2020.dds"
             }
             0x09cde442 {
-                0x22e763bc: f32 = 0.65
+                0x22e763bc: f32 = 2.85
                 0xae839c67: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
                 }
@@ -1051,13 +1063,13 @@ entries: map[hash,embed] = {
                     11.5
                 }
                 0x5212abee: option[f32] = {
-                    2
+                    3
                 }
                 0x3bc59eb6: option[f32] = {}
                 0x3d25b8ce: string = "shadow1"
                 0x9dc3d926: embed = 0x77cf93a8 {
                     0xff7d0e41: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { 0, 0, 150 }
+                        0xb4b427aa: vec3 = { 0, 2, 150 }
                     }
                 }
                 0x007b14f6: pointer = 0x4beb81fd {}
@@ -1077,6 +1089,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
+                0x7b7a7318: i16 = 1
                 0xc4663005: pointer = 0x5e842b9b {
                     0xc6fbacd5: embed = 0x04300058 {
                         0xbc037de7: pointer = 0xfe064c88 {
@@ -1090,7 +1103,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    0x5da05f9b: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Skin0_Butterfly.NexusBlitzSummer2020.dds"
+                    0x5da05f9b: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Base_tar_sleep_butterfly.NexusBlitzSummer2020.dds"
                 }
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { -90, -90, 0 }
@@ -1110,7 +1123,942 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Skin0_Hand_Glow.NexusBlitzSummer2020.dds"
+                0x3c6468f4: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Skin0_Glow.NexusBlitzSummer2020.dds"
+            }
+            0x09cde442 {
+                0x22e763bc: f32 = 2.2
+                0xae839c67: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 10
+                }
+                0x2a552694: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 1
+                    0xbc037de7: pointer = 0xfe064c88 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    0.5
+                                    1
+                                }
+                            }
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                0x2431d42c: option[f32] = {
+                    11
+                }
+                0x5212abee: option[f32] = {
+                    3
+                }
+                0x42bd7f6b: flag = true
+                0x3d25b8ce: string = "startBlastFront"
+                0xfa41ab8d: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 500, 0, 500 }
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    0.6
+                                    1
+                                }
+                            }
+                            0x53a6c97e {}
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    12
+                                }
+                                0xe44b7382: list[f32] = {
+                                    0.6
+                                    1
+                                }
+                            }
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 500, 0, 500 }
+                        }
+                    }
+                }
+                0x8275da98: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 2, 5, 2 }
+                }
+                0xeb9a4e0f: embed = 0x6ccc7f03 {
+                    0xb4b427aa: vec3 = { 0, 5, 0 }
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 0, 5, 0 }
+                        }
+                    }
+                }
+                0x9dc3d926: embed = 0x77cf93a8 {
+                    0xff7d0e41: embed = 0x68dc32b6 {
+                        0xb4b427aa: vec3 = { 0, 50, 0 }
+                    }
+                    0xe5f268dd: embed = 0x68dc32b6 {
+                        0xb4b427aa: vec3 = { 150, 150, 0 }
+                        0xbc037de7: pointer = 0xacd81180 {
+                            0xa7084719: list[pointer] = {
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                }
+                                0x53a6c97e {}
+                            }
+                            0x5d68eeb5: list[f32] = {
+                                0
+                            }
+                            0x34474c3b: list[vec3] = {
+                                { 150, 150, 0 }
+                            }
+                        }
+                    }
+                    0x07f41838: list[embed] = {
+                        0x04300058 {
+                            0xb4b427aa: f32 = 1
+                            0xbc037de7: pointer = 0xfe064c88 {
+                                0xa7084719: list[pointer] = {
+                                    0x53a6c97e {
+                                        0x40c351da: list[f32] = {
+                                            0
+                                            1
+                                        }
+                                        0xe44b7382: list[f32] = {
+                                            0
+                                            360
+                                        }
+                                    }
+                                }
+                                0x5d68eeb5: list[f32] = {
+                                    0
+                                }
+                                0x34474c3b: list[f32] = {
+                                    1
+                                }
+                            }
+                        }
+                        0x04300058 {}
+                    }
+                    0xd1789c65: list[vec3] = {
+                        { 0, 1, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                0xfa784eab: u8 = 1
+                0x3d7e6258: embed = 0x074f91dd {
+                    0xbc037de7: pointer = 0x4349c5f5 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.5108911
+                            0.64059407
+                            1
+                        }
+                        0x34474c3b: list[vec4] = {
+                            { 1, 0.8784314, 0.627451, 0 }
+                            { 0.31764707, 0.28235295, 0.22745098, 1 }
+                            { 0.2509804, 0.18431373, 0.12941177, 1 }
+                            { 1, 0.83137256, 0.5568628, 0 }
+                        }
+                    }
+                }
+                0x7b7a7318: i16 = -11
+                0xbfb0efdd: pointer = 0x1daa3fb0 {
+                    0x1f661402: f32 = 0.25
+                    0x7f52f79b: f32 = 0.25
+                }
+                0xc4663005: pointer = 0x5e842b9b {
+                    0xc6fbacd5: embed = 0x04300058 {
+                        0xbc037de7: pointer = 0xfe064c88 {
+                            0x5d68eeb5: list[f32] = {
+                                0.15
+                                1
+                            }
+                            0x34474c3b: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    0x2244caa3: f32 = 0.2
+                    0x7c7970d8: f32 = 1.7
+                    0x5da05f9b: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Skin0_SmokeErode.NexusBlitzSummer2020.dds"
+                    0xb0794a80: embed = 0x074f91dd {
+                        0xb4b427aa: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                0x6563bee8: u8 = 1
+                0x3559e15b: flag = true
+                0xe09d5ebb: flag = true
+                0x5932ff9c: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 1, 90, 0 }
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 1, 90, 0 }
+                        }
+                    }
+                }
+                0xf0eb7084: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 80, 1, 0 }
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    1
+                                    2
+                                }
+                            }
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 80, 1, 0 }
+                        }
+                    }
+                }
+                0xd4e17a53: embed = 0x68dc32b6 {
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 0.5, 1, 1 }
+                            { 1, 2, 2 }
+                            { 1.5, 1.5, 1.5 }
+                        }
+                    }
+                }
+                0x3c6468f4: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Skin0_Cas.NexusBlitzSummer2020.dds"
+                0x1e67b0f1: u16 = 4
+                0x8aa1ffc1: pointer = 0xa8ad8317 {
+                    0xffa711fb: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Skin0_ColorGrad.NexusBlitzSummer2020.dds"
+                    0x143f06d1: embed = 0x074f91dd {
+                        0xb4b427aa: vec4 = { 1, 0.4399939, 0.42000458, 0 }
+                    }
+                    0x8bd46035: embed = 0x68dc32b6 {
+                        0xb4b427aa: vec3 = { 1, 0, 0 }
+                    }
+                    0x9e52382f: i32 = 16
+                }
+                0x86a84509: vec2 = { 2, 2 }
+            }
+            0x09cde442 {
+                0x22e763bc: f32 = 3
+                0xae839c67: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 10
+                }
+                0x2a552694: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 1
+                    0xbc037de7: pointer = 0xfe064c88 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    0.35
+                                    1
+                                }
+                            }
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[f32] = {
+                            1
+                        }
+                    }
+                }
+                0x2431d42c: option[f32] = {
+                    11
+                }
+                0x5212abee: option[f32] = {
+                    5
+                }
+                0x42bd7f6b: flag = true
+                0x3d25b8ce: string = "startBlastFront1"
+                0xeb9a4e0f: embed = 0x6ccc7f03 {
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                0x9dc3d926: embed = 0x77cf93a8 {
+                    0xff7d0e41: embed = 0x68dc32b6 {
+                        0xb4b427aa: vec3 = { 0, 100, 100 }
+                    }
+                    0xe5f268dd: embed = 0x68dc32b6 {
+                        0xb4b427aa: vec3 = { 220, 120, 350 }
+                        0xbc037de7: pointer = 0xacd81180 {
+                            0xa7084719: list[pointer] = {
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                            }
+                            0x5d68eeb5: list[f32] = {
+                                0
+                            }
+                            0x34474c3b: list[vec3] = {
+                                { 220, 120, 350 }
+                            }
+                        }
+                    }
+                    0x07f41838: list[embed] = {
+                        0x04300058 {}
+                        0x04300058 {}
+                    }
+                    0xd1789c65: list[vec3] = {
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                0xfa784eab: u8 = 1
+                0x3d7e6258: embed = 0x074f91dd {
+                    0xbc037de7: pointer = 0x4349c5f5 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.5108911
+                            0.64059407
+                            1
+                        }
+                        0x34474c3b: list[vec4] = {
+                            { 1, 0.8627451, 0.61960787, 0 }
+                            { 0.31764707, 0.29411766, 0.21960784, 1 }
+                            { 0.2509804, 0.20392157, 0.16078432, 1 }
+                            { 1, 0.9411765, 0.6, 0 }
+                        }
+                    }
+                }
+                0x7b7a7318: i16 = -11
+                0xbfb0efdd: pointer = 0x1daa3fb0 {
+                    0x1f661402: f32 = 0.25
+                    0x7f52f79b: f32 = 0.25
+                }
+                0xc4663005: pointer = 0x5e842b9b {
+                    0xc6fbacd5: embed = 0x04300058 {
+                        0xbc037de7: pointer = 0xfe064c88 {
+                            0x5d68eeb5: list[f32] = {
+                                0.15
+                                1
+                            }
+                            0x34474c3b: list[f32] = {
+                                0
+                                1
+                            }
+                        }
+                    }
+                    0x2244caa3: f32 = 0.2
+                    0x7c7970d8: f32 = 1.7
+                    0x5da05f9b: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Skin0_SmokeErode.NexusBlitzSummer2020.dds"
+                    0xb0794a80: embed = 0x074f91dd {
+                        0xb4b427aa: vec4 = { 1, 0, 0, 0 }
+                    }
+                }
+                0x6563bee8: u8 = 1
+                0x3559e15b: flag = true
+                0xe09d5ebb: flag = true
+                0x5932ff9c: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 1, 90, 0 }
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    0
+                                    360
+                                }
+                            }
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 1, 90, 0 }
+                        }
+                    }
+                }
+                0xf0eb7084: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 125, 1, 0 }
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    1
+                                    2
+                                }
+                            }
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 125, 1, 0 }
+                        }
+                    }
+                }
+                0xd4e17a53: embed = 0x68dc32b6 {
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 0.5, 1, 1 }
+                            { 1, 2, 2 }
+                            { 1.5, 1.5, 1.5 }
+                        }
+                    }
+                }
+                0x3c6468f4: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Skin0_Cas.NexusBlitzSummer2020.dds"
+                0x1e67b0f1: u16 = 4
+                0x8aa1ffc1: pointer = 0xa8ad8317 {
+                    0xffa711fb: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Skin0_ColorGrad.NexusBlitzSummer2020.dds"
+                    0x143f06d1: embed = 0x074f91dd {
+                        0xb4b427aa: vec4 = { 1, 1, 1, 0 }
+                    }
+                    0x8bd46035: embed = 0x68dc32b6 {
+                        0xb4b427aa: vec3 = { 1, 0, 0 }
+                    }
+                    0x9e52382f: i32 = 16
+                }
+                0x86a84509: vec2 = { 2, 2 }
+            }
+            0x09cde442 {
+                0x22e763bc: f32 = 3
+                0xae839c67: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 15
+                }
+                0x2a552694: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 0.75
+                    0xbc037de7: pointer = 0xfe064c88 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    0.75
+                                    1
+                                }
+                            }
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[f32] = {
+                            0.75
+                        }
+                    }
+                }
+                0x2431d42c: option[f32] = {
+                    10.75
+                }
+                0x5212abee: option[f32] = {
+                    4
+                }
+                0x42bd7f6b: flag = true
+                0x3d25b8ce: string = "Dirtbits_"
+                0xb9516a6f: u8 = 0
+                0xfa41ab8d: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 100, 850, 100 }
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    3
+                                    5
+                                }
+                            }
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    0.5
+                                    1.5
+                                }
+                            }
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    -2
+                                    2
+                                }
+                            }
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 100, 850, 100 }
+                        }
+                    }
+                }
+                0x8275da98: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 1, 2, 0 }
+                }
+                0xeb9a4e0f: embed = 0x6ccc7f03 {
+                    0xb4b427aa: vec3 = { 0, -1200, 0 }
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 0, -1200, 0 }
+                        }
+                    }
+                }
+                0x9dc3d926: embed = 0x77cf93a8 {
+                    0xff7d0e41: embed = 0x68dc32b6 {
+                        0xb4b427aa: vec3 = { 60, 0, 100 }
+                    }
+                    0xe5f268dd: embed = 0x68dc32b6 {
+                        0xb4b427aa: vec3 = { 100, 300, 350 }
+                        0xbc037de7: pointer = 0xacd81180 {
+                            0xa7084719: list[pointer] = {
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                            }
+                            0x5d68eeb5: list[f32] = {
+                                0
+                            }
+                            0x34474c3b: list[vec3] = {
+                                { 100, 300, 350 }
+                            }
+                        }
+                    }
+                    0x07f41838: list[embed] = {
+                        0x04300058 {}
+                        0x04300058 {}
+                    }
+                    0xd1789c65: list[vec3] = {
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                0xfa784eab: u8 = 1
+                0x83cdeaa1: embed = 0x074f91dd {
+                    0xb4b427aa: vec4 = { 0.7058824, 0.65882355, 0.5411765, 1 }
+                }
+                0x3d7e6258: embed = 0x074f91dd {
+                    0xbc037de7: pointer = 0x4349c5f5 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.8
+                            1
+                        }
+                        0x34474c3b: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                0x3559e15b: flag = true
+                0xe09d5ebb: flag = true
+                0xf0eb7084: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 65, 25, 25 }
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    0.35
+                                    1
+                                }
+                            }
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 22.75, 8.75, 8.75 }
+                            { 48.75, 18.75, 18.75 }
+                            { 81.25, 31.25, 31.25 }
+                        }
+                    }
+                }
+                0xd4e17a53: embed = 0x68dc32b6 {
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.65
+                            1
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                0x3c6468f4: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Skin0_Rockshards.NexusBlitzSummer2020.dds"
+                0x1e67b0f1: u16 = 8
+                0x86a84509: vec2 = { 2, 2 }
+            }
+            0x09cde442 {
+                0x22e763bc: f32 = 3
+                0xae839c67: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 15
+                }
+                0x2a552694: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 0.75
+                    0xbc037de7: pointer = 0xfe064c88 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    0.75
+                                    1
+                                }
+                            }
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[f32] = {
+                            0.75
+                        }
+                    }
+                }
+                0x2431d42c: option[f32] = {
+                    10.75
+                }
+                0x5212abee: option[f32] = {
+                    4
+                }
+                0x42bd7f6b: flag = true
+                0x3d25b8ce: string = "Dirtbits_1"
+                0xb9516a6f: u8 = 0
+                0xfa41ab8d: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { -100, 850, 100 }
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    3
+                                    5
+                                }
+                            }
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    0.5
+                                    1.5
+                                }
+                            }
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    -2
+                                    2
+                                }
+                            }
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { -100, 850, 100 }
+                        }
+                    }
+                }
+                0x8275da98: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 1, 2, 0 }
+                }
+                0xeb9a4e0f: embed = 0x6ccc7f03 {
+                    0xb4b427aa: vec3 = { 0, -1200, 0 }
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 0, -1200, 0 }
+                        }
+                    }
+                }
+                0x9dc3d926: embed = 0x77cf93a8 {
+                    0xff7d0e41: embed = 0x68dc32b6 {
+                        0xb4b427aa: vec3 = { -60, 0, 100 }
+                    }
+                    0xe5f268dd: embed = 0x68dc32b6 {
+                        0xb4b427aa: vec3 = { 100, 300, 350 }
+                        0xbc037de7: pointer = 0xacd81180 {
+                            0xa7084719: list[pointer] = {
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        -1
+                                        1
+                                    }
+                                }
+                            }
+                            0x5d68eeb5: list[f32] = {
+                                0
+                            }
+                            0x34474c3b: list[vec3] = {
+                                { 100, 300, 350 }
+                            }
+                        }
+                    }
+                    0x07f41838: list[embed] = {
+                        0x04300058 {}
+                        0x04300058 {}
+                    }
+                    0xd1789c65: list[vec3] = {
+                        { 0, 0, 0 }
+                        { 0, 0, 0 }
+                    }
+                }
+                0xfa784eab: u8 = 1
+                0x83cdeaa1: embed = 0x074f91dd {
+                    0xb4b427aa: vec4 = { 0.7058824, 0.65882355, 0.5411765, 1 }
+                }
+                0x3d7e6258: embed = 0x074f91dd {
+                    0xbc037de7: pointer = 0x4349c5f5 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.8
+                            1
+                        }
+                        0x34474c3b: list[vec4] = {
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 1 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
+                }
+                0x3559e15b: flag = true
+                0xe09d5ebb: flag = true
+                0xf0eb7084: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 65, 25, 25 }
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    0.35
+                                    1
+                                }
+                            }
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.5
+                            1
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 22.75, 8.75, 8.75 }
+                            { 48.75, 18.75, 18.75 }
+                            { 81.25, 31.25, 31.25 }
+                        }
+                    }
+                }
+                0xd4e17a53: embed = 0x68dc32b6 {
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.65
+                            1
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 1, 1, 1 }
+                            { 1, 1, 1 }
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
+                0x3c6468f4: string = "ASSETS/Characters/NEXUSBLITZ_NexusWalking/Skins/Base/Particles/NEXUSBLITZ_NexusWalking_Skin0_Rockshards.NexusBlitzSummer2020.dds"
+                0x1e67b0f1: u16 = 8
+                0x86a84509: vec2 = { 2, 2 }
             }
         }
         0xecf1c6bc: string = "NEXUSBLITZ_NexusWalking_Skin0_Death"
