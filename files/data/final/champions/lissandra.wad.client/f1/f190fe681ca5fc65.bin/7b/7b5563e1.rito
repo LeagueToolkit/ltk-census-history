@@ -35,9 +35,9 @@ entries: map[hash,embed] = {
                         "Play_sfx_LissandraSkin03_LissandraCritAttack_OnHit"
                         "Play_sfx_LissandraSkin03_LissandraCritAttack_OnMissileLaunch"
                         "Play_sfx_LissandraSkin03_LissandraE_OnCast"
+                        "Play_sfx_LissandraSkin03_LissandraEMissile_hit"
                         "Play_sfx_LissandraSkin03_LissandraEMissile_OnMissileCast"
                         "Play_sfx_LissandraSkin03_LissandraEMissile_OnMissileLaunch"
-                        "Play_sfx_LissandraSkin03_LissandraETar_hit"
                         "Play_sfx_LissandraSkin03_LissandraPassiveVictim_deactivate"
                         "Play_sfx_LissandraSkin03_LissandraPassiveVictim_OnBuffActivate"
                         "Play_sfx_LissandraSkin03_LissandraQ_OnCast"
@@ -50,12 +50,12 @@ entries: map[hash,embed] = {
                         "Play_sfx_LissandraSkin03_LissandraRMark_buffactivate"
                         "Play_sfx_LissandraSkin03_LissandraRSelf_OnBuffActivate"
                         "Play_sfx_LissandraSkin03_LissandraRStun_hit"
-                        "Play_sfx_LissandraSkin03_LissandraShards_buffactivate"
                         "Play_sfx_LissandraSkin03_LissandraW_OnCast"
-                        "Play_sfx_LissandraSkin03_LissandraWFrozen_buffactivate_champ"
-                        "Play_sfx_LissandraSkin03_LissandraWFrozen_buffactivate_min"
                         "Play_sfx_LissandraSkin03_LissandraWFrozen_OnBuffActivate"
-                        "Play_sfx_LissandraSkin03_Recall_leadin"
+                        "Play_sfx_LissandraSkin03_LissandraWFrozen_root_champ"
+                        "Play_sfx_LissandraSkin03_LissandraWFrozen_root_minion"
+                        "Play_sfx_LissandraSkin03_LissandraWShards_buffdeactivate"
+                        "Play_sfx_LissandraSkin03_Recall3D_buffactivate"
                         "Stop_sfx_LissandraSkin03_LissandraBasicAttack2_OnMissleLaunch"
                         "Stop_sfx_LissandraSkin03_LissandraBasicAttack_OnMissleLaunch"
                         "Stop_sfx_LissandraSkin03_LissandraCritAttack_OnMissileLaunch"
@@ -64,14 +64,7 @@ entries: map[hash,embed] = {
                         "Stop_sfx_LissandraSkin03_LissandraQMissile_hit2"
                         "Stop_sfx_LissandraSkin03_LissandraQMissile_OnMissileLaunch"
                         "Stop_sfx_LissandraSkin03_LissandraRSelf_OnBuffActivate"
-                        "Stop_sfx_LissandraSkin03_Recall_leadin"
-                    }
-                }
-                0xa4416515 {
-                    0x8d39bde6: string = "Lissandra_Base_SFX"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Lissandra/Skins/Base/Lissandra_Base_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Lissandra/Skins/Base/Lissandra_Base_SFX_events.bnk"
+                        "Stop_sfx_LissandraSkin03_Recall3D_buffactivate"
                     }
                 }
                 0xa4416515 {
@@ -102,15 +95,6 @@ entries: map[hash,embed] = {
                     }
                     0x3b13aa4b: bool = true
                 }
-                0xa4416515 {
-                    0x8d39bde6: string = "Lissandra_Base_VO"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Lissandra/Skins/Base/Lissandra_Base_VO_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Lissandra/Skins/Base/Lissandra_Base_VO_events.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Lissandra/Skins/Base/Lissandra_Base_VO_audio.wpk"
-                    }
-                    0x3b13aa4b: bool = true
-                }
             }
         }
         0x426d89a3: embed = 0x426d89a3 {
@@ -128,7 +112,7 @@ entries: map[hash,embed] = {
             0x561f4fea: rgba = { 0, 0, 0, 255 }
             0x80b7f78f: string = "Lissandra_Q_Spike2"
         }
-        0x2d0d1f1d: string = "Flesh"
+        0x2d0d1f1d: string = "Metal"
         0x123393ed: list[string] = {
             "Run_ICE"
         }

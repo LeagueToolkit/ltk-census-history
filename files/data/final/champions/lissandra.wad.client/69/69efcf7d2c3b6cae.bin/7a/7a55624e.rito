@@ -17,13 +17,6 @@ entries: map[hash,embed] = {
             }
             0xf8f29f92: list[embed] = {
                 0xa4416515 {
-                    0x8d39bde6: string = "Lissandra_Base_SFX"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Lissandra/Skins/Base/Lissandra_Base_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Lissandra/Skins/Base/Lissandra_Base_SFX_events.bnk"
-                    }
-                }
-                0xa4416515 {
                     0x8d39bde6: string = "Lissandra_Skin02_SFX"
                     0x2a21ad00: list[string] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Lissandra/Skins/Skin02/Lissandra_Skin02_SFX_audio.bnk"
@@ -31,6 +24,7 @@ entries: map[hash,embed] = {
                     }
                     0x12d8e384: list[string] = {
                         "Play_sfx_LissandraSkin02_Dance3D_buffactivate"
+                        "Play_sfx_LissandraSkin02_Death3D_cast"
                         "Play_sfx_LissandraSkin02_LissandraBasicAttack2_OnCast"
                         "Play_sfx_LissandraSkin02_LissandraBasicAttack2_OnHit"
                         "Play_sfx_LissandraSkin02_LissandraBasicAttack2_OnMissleLaunch"
@@ -42,9 +36,9 @@ entries: map[hash,embed] = {
                         "Play_sfx_LissandraSkin02_LissandraCritAttack_OnMissileLaunch"
                         "Play_sfx_LissandraSkin02_LissandraE_OnCast"
                         "Play_sfx_LissandraSkin02_LissandraEMissile_buffactivate"
+                        "Play_sfx_LissandraSkin02_LissandraEMissile_hit"
                         "Play_sfx_LissandraSkin02_LissandraEMissile_OnMissileCast"
                         "Play_sfx_LissandraSkin02_LissandraEMissile_OnMissileLaunch"
-                        "Play_sfx_LissandraSkin02_LissandraETar_hit"
                         "Play_sfx_LissandraSkin02_LissandraPassiveVictim_deactivate"
                         "Play_sfx_LissandraSkin02_LissandraPassiveVictim_OnBuffActivate"
                         "Play_sfx_LissandraSkin02_LissandraQ_OnCast"
@@ -57,11 +51,11 @@ entries: map[hash,embed] = {
                         "Play_sfx_LissandraSkin02_LissandraRMark_buffactivate"
                         "Play_sfx_LissandraSkin02_LissandraRSelf_OnBuffActivate"
                         "Play_sfx_LissandraSkin02_LissandraRStun_hit"
-                        "Play_sfx_LissandraSkin02_LissandraShards_buffactivate"
                         "Play_sfx_LissandraSkin02_LissandraW_OnCast"
-                        "Play_sfx_LissandraSkin02_LissandraWFrozen_buffactivate_champ"
-                        "Play_sfx_LissandraSkin02_LissandraWFrozen_buffactivate_min"
                         "Play_sfx_LissandraSkin02_LissandraWFrozen_OnBuffActivate"
+                        "Play_sfx_LissandraSkin02_LissandraWFrozen_root_champ"
+                        "Play_sfx_LissandraSkin02_LissandraWFrozen_root_minion"
+                        "Play_sfx_LissandraSkin02_LissandraWShards_buffdeactivate"
                         "Play_sfx_LissandraSkin02_Recall_leadin"
                         "Play_sfx_LissandraSkin02_Recall_leadout"
                         "Play_sfx_LissandraSkin02_Recall_winddown"
@@ -102,7 +96,7 @@ entries: map[hash,embed] = {
                 { 130, 330, 130 }
             }
             0x38ec08cf: rgba = { 26, 26, 26, 255 }
-            0xdb40d44a: string = "ASSETS/Characters/Lissandra/Skins/skin02/Lissandra_Skin02_TX_RM.dds"
+            0xdb40d44a: string = "ASSETS/Characters/Lissandra/Skins/skin02/Lissandra_Skin02_CubeMap.dds"
             0x11bc7060: f32 = 0.9
             0x173a5bb6: f32 = 0.9
             0x130d610b: f32 = 0.6

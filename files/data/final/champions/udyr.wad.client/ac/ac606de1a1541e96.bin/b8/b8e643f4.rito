@@ -128,6 +128,19 @@ entries: map[hash,embed] = {
                     }
                     0x6d3ccfd7: f32 = 0.6
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "PulseDamageLevelUp"
+                    0x246b0d8e: list[f32] = {
+                        0
+                        40
+                        80
+                        120
+                        160
+                        200
+                        240
+                    }
+                    0xe7b832f2: string = "P + 40"
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0xdd9d7631 = 0xbc409284 {
@@ -139,6 +152,8 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0x7aa9344b
                         }
                     }
+                    0xcbcac618: u8 = 4
+                    0x37070a8d: u8 = 1
                 }
                 0xb7844e6f = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
@@ -149,6 +164,16 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0x945394b6
                         }
                     }
+                    0xcbcac618: u8 = 4
+                    0x37070a8d: u8 = 1
+                }
+                0x07caed88 = 0x070e3593 {
+                    0x7f93cf4e: hash = 0xdd9d7631
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0x1997db83
+                    }
+                    0xcbcac618: u8 = 4
+                    0x37070a8d: u8 = 1
                 }
             }
             0xeed67cd5: list[string] = {
@@ -209,6 +234,7 @@ entries: map[hash,embed] = {
             0x5d46764f: pointer = 0xea5c9896 {}
             0x048557ff: embed = 0x7dd1a902 {
                 0x2831605b: pointer = 0xa4e13b57 {
+                    0x6386d7d8: bool = true
                     0xb482c52c: string = "UdyrPhoenixStance"
                     0x57b8b11b: link = 0x122a9d2c
                     0x0381f7e2: map[string,string] = {
@@ -221,7 +247,7 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "AoEDamagePerTick"
+                                    0x5127f14d: string = "PulseDamageLevelUp"
                                     0x566f3406: string = "Spell_ListType_UdyrPulseDamage"
                                 }
                                 0x9a1b3505 {

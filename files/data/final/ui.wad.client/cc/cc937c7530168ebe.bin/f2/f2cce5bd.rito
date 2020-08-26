@@ -25,12 +25,12 @@ entries: map[hash,embed] = {
                 0xca0e79b5: string = "Options_Hotkeys_QuickCastWithIndicator_label"
                 0x3a79338f: list[pointer] = {
                     0x9c74b21a {
-                        0xe7e19b94: u16 = 88
+                        0xe7e19b94: u16 = 80
                         0x694aaa0b: hash = 0x42be92b0
                         0xca0e79b5: string = "Options_Hotkeys_QuickCastWithIndicator_ReplaceQuickCastWithIndicator"
                     }
                     0x9c74b21a {
-                        0xe7e19b94: u16 = 89
+                        0xe7e19b94: u16 = 81
                         0x694aaa0b: hash = 0x42be92b0
                         0xca0e79b5: string = "Options_Hotkeys_QuickCastWithIndicator_CastThePressedSpell"
                     }
@@ -57,6 +57,54 @@ entries: map[hash,embed] = {
                 0x694aaa0b: hash = 0x55fcaf04
                 0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_label"
                 0x3a79338f: list[pointer] = {
+                    0xd79b9cc2 {
+                        0x694aaa0b: hash = 0x7fde11c4
+                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_label"
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0xb6dc25e8
+                                0xe488d460: embed = 0xea321356 {
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_DeployToBattlefieldReturnToBench"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTPlaceUnit"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_SellChampion"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTSellUnit"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_RefreshStore"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTRerollShop"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_BuyXP"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTPurchaseXP"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayerClockwise"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraClockwise"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayerCounterclockwise"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraCounterClockwise"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_CenterCameraOnLittleLegend"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToSelf"
+                                    }
+                                }
+                            }
+                        }
+                        0xc7e16877: pointer = 0xcd391c99 {
+                            0x42076e94: bool = false
+                            0x442474e9: bool = false
+                            0x1dde7980: bool = false
+                        }
+                    }
                     0xd79b9cc2 {
                         0x694aaa0b: hash = 0x7fde11c4
                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_label"
@@ -173,15 +221,15 @@ entries: map[hash,embed] = {
                                         0x2a078c9c: string = "[GameEvents]evtSelfCastSpell1"
                                     }
                                     0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_PrimaryHotkeys_Abilities_Spell2"
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell2"
                                         0x2a078c9c: string = "[GameEvents]evtSelfCastSpell2"
                                     }
                                     0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_PrimaryHotkeys_Abilities_Spell3"
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell3"
                                         0x2a078c9c: string = "[GameEvents]evtSelfCastSpell3"
                                     }
                                     0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_PrimaryHotkeys_Abilities_Spell4"
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell4"
                                         0x2a078c9c: string = "[GameEvents]evtSelfCastSpell4"
                                     }
                                     0x430dd10d {
@@ -207,7 +255,7 @@ entries: map[hash,embed] = {
                                         0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastSpell1"
                                     }
                                     0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_PrimaryHotkeys_Abilities_Spell2"
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell2"
                                         0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastSpell2"
                                     }
                                     0x430dd10d {

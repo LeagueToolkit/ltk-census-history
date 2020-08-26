@@ -32,10 +32,10 @@ entries: map[hash,embed] = {
                             1
                         }
                         0x34474c3b: list[vec4] = {
-                            { 0.333333, 0, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 0.917647, 0.752941, 1, 1 }
-                            { 0.333333, 0, 1, 1 }
+                            { 0.21960784, 0.45490196, 1, 1 }
+                            { 0.5019608, 0.8666667, 1, 1 }
+                            { 0.15294118, 0.4509804, 1, 1 }
+                            { 0.13725491, 0.023529412, 1, 1 }
                         }
                     }
                 }
@@ -107,17 +107,15 @@ entries: map[hash,embed] = {
                             0
                             0.25
                             0.5
-                            0.6
                             0.75
                             1
                         }
                         0x34474c3b: list[vec4] = {
-                            { 0.333333, 0, 1, 1 }
+                            { 0.29411766, 0.078431375, 1, 1 }
                             { 1, 1, 1, 1 }
-                            { 1, 1, 1, 1 }
-                            { 1, 0, 1, 1 }
-                            { 0.333333, 0, 1, 0.494118 }
-                            { 1, 0, 1, 0 }
+                            { 0.50980395, 0.85490197, 1, 1 }
+                            { 0.11764706, 0.3529412, 1, 0.49411765 }
+                            { 0.26666668, 0.08235294, 1, 0 }
                         }
                     }
                 }
@@ -203,21 +201,6 @@ entries: map[hash,embed] = {
                     0.2
                 }
                 0x42bd7f6b: flag = true
-                0xae4f2c3a: pointer = 0xbbc023b8 {
-                    0xb639c899: list[embed] = {
-                        0xe750fae2 {
-                            0x934f4e0a: embed = 0x68dc32b6 {
-                                0xb4b427aa: vec3 = { 0, 300, 0 }
-                            }
-                            0x0dba4cb3: embed = 0x04300058 {
-                                0xb4b427aa: f32 = 1000
-                            }
-                            0xe07a18b0: embed = 0x04300058 {
-                                0xb4b427aa: f32 = 6
-                            }
-                        }
-                    }
-                }
                 0x3d25b8ce: string = "sparks_vecalign"
                 0xfa41ab8d: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 1000, 2500, 1000 }
@@ -270,20 +253,23 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0xfa784eab: u8 = 1
+                0x8275da98: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 5, 5, 5 }
+                }
+                0xfa784eab: u8 = 4
                 0x3d7e6258: embed = 0x074f91dd {
                     0xbc037de7: pointer = 0x4349c5f5 {
                         0x5d68eeb5: list[f32] = {
                             0
-                            0.5
-                            0.75
+                            0.1
+                            0.4
                             1
                         }
                         0x34474c3b: list[vec4] = {
                             { 1, 1, 1, 1 }
                             { 1, 1, 1, 1 }
-                            { 0.843137, 0.843137, 1, 0.497993 }
-                            { 0.333333, 0, 1, 0 }
+                            { 0.14509805, 0.5882353, 1, 0.8392157 }
+                            { 0.09803922, 0.2627451, 1, 0 }
                         }
                     }
                 }
@@ -296,67 +282,23 @@ entries: map[hash,embed] = {
                     0xbc037de7: pointer = 0xacd81180 {
                         0x5d68eeb5: list[f32] = {
                             0
-                            0.5
+                            0.28324467
+                            0.6037234
+                            0.7912234
                             1
                         }
                         0x34474c3b: list[vec3] = {
                             { 0, 0, 0 }
-                            { 1, 1, 1 }
-                            { 0.5, 0, 1 }
+                            { 0.95454544, 0.74242425, 1 }
+                            { 0.5897203, 1, 1 }
+                            { 0.358007, 0.32575756, 1 }
+                            { 0.1, 0, 1 }
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Viktor/Skins/Base/Particles/Viktor_Base_Q_Aug_BA_cas_sparks.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Viktor/Skins/Base/Particles/Viktor_Base_Q_Aug_BA_cas_sparks.Viktor_VFX_Update.dds"
                 0x1e67b0f1: u16 = 4
                 0x86a84509: vec2 = { 2, 2 }
-            }
-        }
-        0x6781e762: list[pointer] = {
-            0x09cde442 {
-                0xae839c67: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 2
-                }
-                0x2a552694: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 1.25
-                }
-                0x5212abee: option[f32] = {
-                    0.5
-                }
-                0x42bd7f6b: flag = true
-                0x3d25b8ce: string = "glow_flash"
-                0x33f36f05: bool = true
-                0x9dc3d926: embed = 0x77cf93a8 {
-                    0xe5f268dd: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { 0, 50, 0 }
-                    }
-                }
-                0xc0bf561e: f32 = 0.005
-                0xb56e8811: string = "ASSETS/Particles/color-purpleflame.dds"
-                0x19bdf4df: u8 = 0
-                0xf02bd44d: vec2 = { 1, 0.8 }
-                0xcd5a323e: vec2 = { 0, 0.3 }
-                0x6563bee8: u8 = 1
-                0x2ae335b2: flag = false
-                0x95111b29: f32 = 0.003
-                0x3c6468f4: string = "ASSETS/Shared/Particles/Glows.DDS"
-                0x1e67b0f1: u16 = 4
-                0x86a84509: vec2 = { 2, 2 }
-                0xf1eb7217: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 180
-                }
-                0xd3e178c0: embed = 0x04300058 {
-                    0xbc037de7: pointer = 0xfe064c88 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                            1
-                        }
-                        0x34474c3b: list[f32] = {
-                            1
-                            0
-                        }
-                    }
-                }
-                0x5154fb18: vec2 = { 1, 1 }
             }
         }
         0xecf1c6bc: string = "Viktor_Base_Q_Aug_Hit"
