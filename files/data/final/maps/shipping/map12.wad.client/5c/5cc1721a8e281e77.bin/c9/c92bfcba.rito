@@ -1,0 +1,16 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc92bfcba = 0x9b67e9f6 {
+        0x426d89a3: embed = 0x426d89a3 {
+            0xf5fb07c7: link = 0x5c3e0366
+        }
+        0x51c83af8: embed = 0x11b71b5e {
+            0x3fcb5693: u8 = 17
+            0x9c5124c0: bool = false
+        }
+        0x62286e7e: link = 0x1e2913a8
+    }
+}
