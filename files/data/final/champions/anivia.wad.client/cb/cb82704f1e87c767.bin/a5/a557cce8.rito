@@ -166,6 +166,20 @@ entries: map[hash,embed] = {
                     0x6d3ccfd7: f32 = 1000
                     0xe7b832f2: string = "P"
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowPercentEmpoweredTT"
+                    0x246b0d8e: list[f32] = {
+                        15
+                        30
+                        45
+                        60
+                        75
+                        90
+                        105
+                    }
+                    0x6d3ccfd7: f32 = 15
+                    0xe7b832f2: string = "P + 15"
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x14fb8a67 = 0xbc409284 {
@@ -187,21 +201,27 @@ entries: map[hash,embed] = {
                     }
                     0x2c77adff: pointer = 0x84a63373 {
                         0xa066cc28: list[pointer] = {
-                            0x332eb441 {
-                                0xb386dcf1: hash = 0x9738309b
-                            }
-                            0x9ef92080 {
-                                0xe202bca9: f32 = 1
+                            0x84a63373 {
+                                0xa066cc28: list[pointer] = {
+                                    0x332eb441 {
+                                        0xb386dcf1: hash = 0x9738309b
+                                    }
+                                    0x9ef92080 {
+                                        0xe202bca9: f32 = 1
+                                    }
+                                }
                             }
                         }
                     }
+                    0xcbcac618: u8 = 6
                 }
                 0x450caf84 = 0x070e3593 {
                     0x7f93cf4e: hash = 0x14fb8a67
                     0x2c77adff: pointer = 0x9ef92080 {
                         0xe202bca9: f32 = 3
                     }
-                    0xcbcac618: u8 = 5
+                    0xcbcac618: u8 = 6
+                    0xd6b7a622: bool = true
                 }
             }
             0x295c2889: f32 = 0.125
