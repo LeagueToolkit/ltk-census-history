@@ -15,17 +15,7 @@ entries: map[hash,embed] = {
                 "Trait_ImmobilizingCCSpell"
             }
             0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        20
-                        70
-                        120
-                        170
-                        220
-                        270
-                        320
-                    }
-                }
+                0x92d4987c {}
                 0x92d4987c {
                     0x425ed3ca: list[f32] = {
                         60
@@ -65,6 +55,62 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
                 0x92d4987c {}
+            }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "Damage"
+                    0x246b0d8e: list[f32] = {
+                        20
+                        70
+                        120
+                        170
+                        220
+                        270
+                        320
+                    }
+                    0x6d3ccfd7: f32 = 20
+                    0xe7b832f2: string = "P + 50"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "RootDuration"
+                    0x246b0d8e: list[f32] = {
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                    }
+                    0x6d3ccfd7: f32 = 1.5
+                    0xe7b832f2: string = "P"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "GrenadeDuration"
+                    0x246b0d8e: list[f32] = {
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                    }
+                    0x6d3ccfd7: f32 = 5
+                    0xe7b832f2: string = "P"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x1ddee768 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x59e94c40
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 1
+                        }
+                    }
+                }
             }
             0x295c2889: f32 = 1
             0xd7141e61: f32 = 0.6
@@ -148,13 +194,14 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_JinxE_Name"
                         "keySummary" = "Spell_JinxE_Summary"
                         "keyTooltip" = "Spell_JinxE_Tooltip"
+                        "keyTooltipExtendedBelowLine" = "Spell_JinxE_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "Damage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }

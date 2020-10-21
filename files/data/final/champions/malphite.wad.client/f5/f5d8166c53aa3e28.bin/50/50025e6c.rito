@@ -181,6 +181,20 @@ entries: map[hash,embed] = {
                     }
                     0xe7b832f2: string = "P + 10"
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "BonusArmorPassive"
+                    0x246b0d8e: list[f32] = {
+                        0.05
+                        0.1
+                        0.15
+                        0.2
+                        0.25
+                        0.3
+                        0.35
+                    }
+                    0x6d3ccfd7: f32 = 0.05
+                    0xe7b832f2: string = "P + 0.05"
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0xf943352d = 0xbc409284 {
@@ -196,7 +210,7 @@ entries: map[hash,embed] = {
                             0x4cec2c8a: u8 = 1
                         }
                     }
-                    0xcbcac618: u8 = 0
+                    0xcbcac618: u8 = 6
                 }
                 0x185669f9 = 0x070e3593 {
                     0x7f93cf4e: hash = 0xf943352d
@@ -218,7 +232,23 @@ entries: map[hash,embed] = {
                             0x4cec2c8a: u8 = 1
                         }
                     }
-                    0xcbcac618: u8 = 0
+                    0xcbcac618: u8 = 6
+                }
+                0x81d148fa = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xce1d5dec
+                            0x4cec2c8a: u8 = 1
+                        }
+                    }
+                    0xcbcac618: u8 = 6
+                }
+                0xeb3619bd = 0x070e3593 {
+                    0x7f93cf4e: hash = 0x81d148fa
+                    0x2c77adff: pointer = 0x9ef92080 {
+                        0xe202bca9: f32 = 3
+                    }
+                    0xcbcac618: u8 = 6
                 }
             }
             0x295c2889: f32 = 0.4
@@ -295,6 +325,10 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
+                                    0x5127f14d: string = "Cost"
+                                    0x566f3406: string = "Spell_ListType_Cost"
+                                }
+                                0x9a1b3505 {
                                     0x5127f14d: string = "Effect%dAmount"
                                     0x33c02d93: i32 = 1
                                     0xf506c7e6: f32 = 100
@@ -309,10 +343,6 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "ThunderclapSplashDamage"
                                     0x566f3406: string = "Spell_Obduracy_Splash_Damage"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "Cost"
-                                    0x566f3406: string = "Spell_ListType_Cost"
                                 }
                             }
                         }
