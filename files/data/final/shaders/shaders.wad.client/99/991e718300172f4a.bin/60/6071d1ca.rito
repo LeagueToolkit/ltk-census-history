@@ -22,24 +22,37 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter1"
-                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0xd872e2a5: vec4 = { 1, 0, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "SS_Blend_Multiplier"
                         0x0640657c: u32 = 1
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "Fresnel_Size"
+                        0x8d39bde6: string = "SpecialColorLerp"
                         0x0640657c: u32 = 2
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "Fresnel_Bias"
+                        0x8d39bde6: string = "Fresnel_Size"
                         0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel_Bias"
+                        0x0640657c: u32 = 8
                     }
                 }
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter2"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Special_Color"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter3"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Bloom_Color"
