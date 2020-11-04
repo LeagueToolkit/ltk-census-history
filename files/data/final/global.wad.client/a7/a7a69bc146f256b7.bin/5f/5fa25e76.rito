@@ -4,7 +4,7 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x5fa25e76 = 0x244c26e6 {
-        0x74d44065: string = "game_item_displayname_3850"
+        0x74d44065: string = "Item_3850_Name"
         0x17982f46: string = "Tribute"
         0x13bddc7b: i32 = 3850
         0x8ccddbb3: i32 = 1
@@ -14,6 +14,7 @@ entries: map[hash,embed] = {
         }
         0x0b44452a: i32 = 400
         0xd1dbada1: bool = true
+        0x5ee3c453: u8 = 1
         0x6ee4fd8d: list[hash] = {
             0x455218d0
             0x3c73f7f0
@@ -35,8 +36,8 @@ entries: map[hash,embed] = {
         }
         0x251a5225: list[f32] = {
             2
-            15
-            15
+            20
+            20
             500
             10
             3
@@ -49,10 +50,44 @@ entries: map[hash,embed] = {
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
+        0x57558bca: list[u8] = {
+            32
+            16
+        }
         0xd92888a0: embed = 0x851af275 {
-            0xf1f20d72: string = "game_item_description_3850"
-            0x9a5a3a84: string = "game_item_tooltip_3850"
-            0xc68db52e: string = "3850_Spellthief_Edge.dds"
+            0x2831605b: pointer = 0x35f5c16c {
+                0xb482c52c: string = "3850"
+                0x57b8b11b: link = 0x72d72769
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Item_3850_Name"
+                    "keyUniqueGroup" = "Item_Unique_Support"
+                    "keyInventoryOnlyText" = "Item_Support_Stats_1"
+                    "keyBrief" = "Item_3850_Brief"
+                    "keyTooltip" = "Item_3850_Tooltip"
+                }
+                0x91ed07c9: map[string,embed] = {
+                    "Stats" = 0xfb33f2f3 {
+                        0x5a94b0cc: list[embed] = {
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AbilityPower"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "Health"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "BaseManaRegen"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "GoldPer10"
+                            }
+                        }
+                    }
+                }
+            }
+            0xf1f20d72: string = "GeneratedTip_Item_3850_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_3850_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_3850_TooltipShop"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/3850_Mage_T1_SpellthiefsEdge.dds"
             0x5ee3c453: u8 = 1
         }
     }

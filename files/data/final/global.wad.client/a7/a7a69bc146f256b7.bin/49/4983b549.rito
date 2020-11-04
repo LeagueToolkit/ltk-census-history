@@ -4,27 +4,20 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x4983b549 = 0x244c26e6 {
-        0x822e38a2: string = "ItemTiamatCleave"
-        0x74d44065: string = "game_item_displayname_3077"
-        0x831aba68: list[hash] = {
-            0x79ca637b
-        }
-        0x95f1b682: string = "game_item_requirePurchaseIdentity_Melee"
+        0x74d44065: string = "Item_3077_Name"
         0x17982f46: string = "ItemTiamat"
         0x13bddc7b: i32 = 3077
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
+            0x22b8e842
         }
-        0x0b44452a: i32 = 475
-        0xf028019b: bool = true
-        0x7d8fa230: bool = true
+        0x0b44452a: i32 = 325
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
+        0x5ee3c453: u8 = 4
         0x2c359091: list[link] = {
-            0x1e274f28
-            0xa0244a37
-            0x1e274f28
+            0x1f2750bb
         }
         0x6ee4fd8d: list[hash] = {
             0x713f6850
@@ -61,28 +54,72 @@ entries: map[hash,embed] = {
         0x251a5225: list[f32] = {
             0.2
             0.6
-            0.6
-            1
-            10
+            0
+            0
+            0
             0
             0
         }
-        0xc1cd174b: f32 = 0.5
-        0x4e7a81cd: f32 = 25
-        0x08e2e7c5: embed = 0xe535c1de {
-            0x565b9057: list[link] = {
-                0x4683b090
-                0x6e6dffb6
+        0x1f4d20a6: list[embed] = {
+            0xb2c62c87 {
+                0x19efbfdb: string = "Radius"
+                0x24f2ec89: f32 = 350
             }
         }
+        0x0ac4f0d5: map[hash,pointer] = {
+            0xdc93cefc = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5815b0a9 {
+                        0x295c2889: f32 = 0.6
+                        0x4cec2c8a: u8 = 2
+                    }
+                }
+            }
+            0x48c57450 = 0x070e3593 {
+                0x7f93cf4e: hash = 0xdc93cefc
+                0x2c77adff: pointer = 0x9ef92080 {
+                    0xe202bca9: f32 = 0.2
+                }
+            }
+        }
+        0x4e7a81cd: f32 = 25
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
+        0x57558bca: list[u8] = {
+            1
+            8
+        }
         0xd92888a0: embed = 0x851af275 {
-            0xf1f20d72: string = "game_item_description_3077"
-            0x9a5a3a84: string = "game_item_tooltip_3077"
-            0xc68db52e: string = "3077_Tiamat.dds"
-            0x5ee3c453: u8 = 1
+            0x2831605b: pointer = 0x35f5c16c {
+                0xb482c52c: string = "3077"
+                0x57b8b11b: link = 0x72d72769
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Item_3077_Name"
+                    "keyUniqueGroup" = "Item_Unique_Hydra"
+                    "keyTooltip" = "Item_3077_Tooltip"
+                    "keyTooltipExternal" = "Item_3077_TooltipExternal"
+                }
+                0x91ed07c9: map[string,embed] = {
+                    "Stats" = 0xfb33f2f3 {
+                        0x5a94b0cc: list[embed] = {
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AttackDamage"
+                            }
+                        }
+                    }
+                }
+            }
+            0xf1f20d72: string = "GeneratedTip_Item_3077_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_3077_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_3077_TooltipShop"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/3077_Fighter_T2_Tiamat.dds"
+            0x5ee3c453: u8 = 4
+        }
+        0x5f8284a2: pointer = 0xef3a0f33 {
+            0xd2f58721: map[hash,link] = {
+                0xb4841487 = 0xb953bfc4
+            }
         }
     }
 }

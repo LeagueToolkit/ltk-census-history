@@ -4,11 +4,8 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x6e6dffb6 = 0x244c26e6 {
-        0x822e38a2: string = "ItemTitanicHydraCleave"
-        0x74d44065: string = "game_item_displayname_3748"
-        0x831aba68: list[hash] = {
-            0x79ca637b
-        }
+        0x822e38a2: string = ""
+        0x74d44065: string = "Item_3748_Name"
         0x95f1b682: string = "game_item_requirePurchaseIdentity_Melee"
         0x17982f46: string = "ItemTitanicHydra"
         0x13bddc7b: i32 = 3748
@@ -17,16 +14,14 @@ entries: map[hash,embed] = {
             0xb0bee26d
             0x22b8e842
         }
-        0x0b44452a: i32 = 575
-        0xf028019b: bool = true
-        0x7d8fa230: bool = true
+        0x0b44452a: i32 = 800
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
-        0x5ee3c453: u8 = 3
+        0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
             0x4983b549
             0x12297adb
-            0x548843c8
+            0x9922009b
         }
         0x6ee4fd8d: list[hash] = {
             0x713f6850
@@ -61,27 +56,155 @@ entries: map[hash,embed] = {
             0x127d3641
         }
         0x251a5225: list[f32] = {
-            0.03
+            0
             40
             0
             0
             0.1
             0
-            20
-            40
-            0.015
+            0
+            0
+            0
             5
         }
-        0x06d997bb: f32 = 450
-        0xc1cd174b: f32 = 1
-        0x4e7a81cd: f32 = 40
+        0x1f4d20a6: list[embed] = {
+            0xb2c62c87 {
+                0x19efbfdb: string = "ADToHPRatio"
+                0x24f2ec89: f32 = 0.01
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "PrimaryTargetBase"
+                0x24f2ec89: f32 = 4
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "SplashBase"
+                0x24f2ec89: f32 = 40
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "PrimaryTargetHPRatio"
+                0x24f2ec89: f32 = 0.015
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "SplashHPRatio"
+                0x24f2ec89: f32 = 0.03
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "RangedEffectiveness"
+                0x24f2ec89: f32 = 0.75
+            }
+        }
+        0x0ac4f0d5: map[hash,pointer] = {
+            0x5119f0ff = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5f5c70a4 {
+                        0xb386dcf1: hash = 0x58b72918
+                        0x4cec2c8a: u8 = 10
+                    }
+                }
+            }
+            0x6304eac4 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x580453eb
+                    }
+                    0x5f5c70a4 {
+                        0xb386dcf1: hash = 0x0c722fd5
+                        0x4cec2c8a: u8 = 10
+                    }
+                }
+                0xcbcac618: u8 = 6
+                0x37070a8d: u8 = 6
+            }
+            0xe5c634ce = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x0c178539
+                    }
+                    0x5f5c70a4 {
+                        0xb386dcf1: hash = 0xed68fd7f
+                        0x4cec2c8a: u8 = 10
+                    }
+                }
+                0xcbcac618: u8 = 6
+                0x37070a8d: u8 = 6
+            }
+            0x3b00d8b1 = 0x070e3593 {
+                0x7f93cf4e: hash = 0xe5c634ce
+                0x2c77adff: pointer = 0x332eb441 {
+                    0xb386dcf1: hash = 0xea1217fc
+                }
+            }
+            0xb5555429 = 0x070e3593 {
+                0x7f93cf4e: hash = 0x6304eac4
+                0x2c77adff: pointer = 0x332eb441 {
+                    0xb386dcf1: hash = 0xea1217fc
+                }
+            }
+            0x56b3f555 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x803dae4c {
+                        0x886fc197: option[f32] = {
+                            3
+                        }
+                        0xcc3d10ce: option[f32] = {
+                            2
+                        }
+                        0xa066cc28: list[pointer] = {
+                            0xcd156c7f {
+                                0x1cd83c4b: pointer = 0x9ef92080 {
+                                    0xe202bca9: f32 = 0.01
+                                }
+                                0x4cec2c8a: u8 = 25
+                                0x7d3150ec: u8 = 1
+                            }
+                        }
+                    }
+                }
+                0xcbcac618: u8 = 5
+                0x37070a8d: u8 = 5
+                0xd6b7a622: bool = true
+            }
+        }
+        0x06d997bb: f32 = 500
+        0x4e7a81cd: f32 = 30
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
+        0x57558bca: list[u8] = {
+            1
+            8
+        }
         0xd92888a0: embed = 0x851af275 {
-            0xf1f20d72: string = "game_item_description_3748"
-            0x9a5a3a84: string = "game_item_tooltip_3748"
-            0xc68db52e: string = "3748_Titanic_Hydra.dds"
+            0x2831605b: pointer = 0x35f5c16c {
+                0xb482c52c: string = "3748"
+                0x57b8b11b: link = 0x72d72769
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Item_3748_Name"
+                    "keyTooltipDynamic" = "Item_3748_TooltipDynamic"
+                    "keyBrief" = "Item_3748_Brief"
+                    "keyUniqueGroup" = "Item_Unique_Hydra"
+                    "keyInventoryOnlyText" = "Item_3748_InventoryOnlyText"
+                    "keyTooltip" = "Item_3748_Tooltip"
+                    "keyTooltipExternal" = "Item_3748_TooltipExternal"
+                }
+                0x91ed07c9: map[string,embed] = {
+                    "Stats" = 0xfb33f2f3 {
+                        0x5a94b0cc: list[embed] = {
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AttackDamage"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "Health"
+                            }
+                        }
+                    }
+                }
+            }
+            0xf1f20d72: string = "GeneratedTip_Item_3748_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_3748_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_3748_TooltipShop"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/3748_Titanic_Hydra.dds"
+            0x5ee3c453: u8 = 5
         }
     }
 }

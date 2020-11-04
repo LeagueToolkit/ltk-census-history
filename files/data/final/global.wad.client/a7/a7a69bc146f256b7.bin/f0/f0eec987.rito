@@ -4,7 +4,7 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xf0eec987 = 0x244c26e6 {
-        0x74d44065: string = "game_item_displayname_3123"
+        0x74d44065: string = "Item_3123_Name"
         0x13bddc7b: i32 = 3123
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
@@ -12,6 +12,7 @@ entries: map[hash,embed] = {
         }
         0x0b44452a: i32 = 450
         0xd1dbada1: bool = true
+        0x5ee3c453: u8 = 4
         0x2c359091: list[link] = {
             0x1e274f28
         }
@@ -49,15 +50,49 @@ entries: map[hash,embed] = {
         0x251a5225: list[f32] = {
             3
         }
+        0x1f4d20a6: list[embed] = {
+            0xb2c62c87 {
+                0x19efbfdb: string = "GrievousDuration"
+                0x24f2ec89: f32 = 2
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "GrievousAmount"
+                0x24f2ec89: f32 = 0.4
+            }
+        }
         0x4e7a81cd: f32 = 15
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
+        0x57558bca: list[u8] = {
+            1
+            2
+            4
+        }
         0xd92888a0: embed = 0x851af275 {
-            0xf1f20d72: string = "game_item_description_3123"
-            0x9a5a3a84: string = "game_item_tooltip_3123"
-            0xc68db52e: string = "3069_Sword_of_Light_and_Shadow.dds"
-            0x5ee3c453: u8 = 1
+            0x2831605b: pointer = 0x35f5c16c {
+                0xb482c52c: string = "3123"
+                0x57b8b11b: link = 0x72d72769
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Item_3123_Name"
+                    "keyInventoryOnlyText" = "Item_3123_InventoryOnlyText"
+                    "keyTooltip" = "Item_3123_Tooltip"
+                }
+                0x91ed07c9: map[string,embed] = {
+                    "Stats" = 0xfb33f2f3 {
+                        0x5a94b0cc: list[embed] = {
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AttackDamage"
+                            }
+                        }
+                    }
+                }
+            }
+            0xf1f20d72: string = "GeneratedTip_Item_3123_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_3123_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_3123_TooltipShop"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/3123_Fighter_T2_ExecutionersCalling.dds"
+            0x5ee3c453: u8 = 4
         }
     }
 }

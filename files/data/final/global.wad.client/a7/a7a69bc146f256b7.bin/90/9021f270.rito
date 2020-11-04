@@ -4,15 +4,14 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x9021f270 = 0x244c26e6 {
-        0x74d44065: string = "game_item_displayname_1018"
+        0x74d44065: string = "Item_1018_Name"
         0x13bddc7b: i32 = 1018
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
         }
-        0x0b44452a: i32 = 800
+        0x0b44452a: i32 = 600
         0xd1dbada1: bool = true
-        0x5ee3c453: u8 = 1
         0x6ee4fd8d: list[hash] = {
             0x713f6850
             0x3c73f7f0
@@ -46,15 +45,34 @@ entries: map[hash,embed] = {
             0x48eea983
             0x127d3641
         }
-        0xbc050325: f32 = 0.2
+        0xbc050325: f32 = 0.15
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
+        0x57558bca: list[u8] = {
+            2
+        }
         0xd92888a0: embed = 0x851af275 {
-            0xf1f20d72: string = "game_item_description_1018"
-            0x9a5a3a84: string = "game_item_tooltip_1018"
-            0xc68db52e: string = "1018_Cloak_of_Agility.dds"
-            0x5ee3c453: u8 = 0
+            0x2831605b: pointer = 0x35f5c16c {
+                0xb482c52c: string = "1018"
+                0x57b8b11b: link = 0x72d72769
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Item_1018_Name"
+                }
+                0x91ed07c9: map[string,embed] = {
+                    "Stats" = 0xfb33f2f3 {
+                        0x5a94b0cc: list[embed] = {
+                            0x9a1b3505 {
+                                0x5127f14d: string = "CritChance"
+                            }
+                        }
+                    }
+                }
+            }
+            0xf1f20d72: string = "GeneratedTip_Item_1018_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_1018_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_1018_TooltipShop"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/1018_Base_T1_CloakAgility.dds"
         }
     }
 }

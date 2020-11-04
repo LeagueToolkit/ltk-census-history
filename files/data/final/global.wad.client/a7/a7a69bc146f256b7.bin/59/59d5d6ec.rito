@@ -15,6 +15,7 @@ entries: map[hash,embed] = {
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 1
+        0x8fd9f6e7: u8 = 5
         0x6ee4fd8d: list[hash] = {
             0x603aea02
         }
@@ -23,16 +24,47 @@ entries: map[hash,embed] = {
             0x9e03f6c0
         }
         0x06d997bb: f32 = 150
-        0x4e7a81cd: f32 = 20
+        0x4e7a81cd: f32 = 25
         0x03355c22: f32 = 0.1
-        0x46493f5f: f32 = 0.4
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
+        0x57558bca: list[u8] = {
+            1
+            2
+            4
+        }
         0xd92888a0: embed = 0x851af275 {
-            0xf1f20d72: string = "game_item_description_3184"
-            0x9a5a3a84: string = "game_item_tooltip_3184"
-            0xc68db52e: string = "3184_Entropy.dds"
+            0x2831605b: pointer = 0x35f5c16c {
+                0xb482c52c: string = "3184"
+                0x57b8b11b: link = 0x72d72769
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "game_item_displayname_3184"
+                    "keyTooltip" = "game_item_tooltip_3184"
+                    "keyUniqueGroup" = "game_item_UniqueGroup_Guardian"
+                    "keyPlainText" = "Item_3184_PlainText"
+                    "keyTooltipExternal" = "Item_3184_TooltipExternal"
+                }
+                0x91ed07c9: map[string,embed] = {
+                    "Stats" = 0xfb33f2f3 {
+                        0x5a94b0cc: list[embed] = {
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AttackDamage"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "Health"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "LifeSteal"
+                            }
+                        }
+                    }
+                }
+            }
+            0xf1f20d72: string = "GeneratedTip_Item_3184_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_3184_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_3184_TooltipShop"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/3184_Entropy.dds"
             0x5ee3c453: u8 = 0
         }
     }

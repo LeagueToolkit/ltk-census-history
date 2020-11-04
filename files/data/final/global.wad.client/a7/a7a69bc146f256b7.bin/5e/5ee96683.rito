@@ -5,20 +5,25 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x5ee96683 = 0x244c26e6 {
         0x822e38a2: string = "ItemKnightsVow"
-        0x74d44065: string = "game_item_displayname_3109"
+        0x74d44065: string = "Item_3109_Name"
         0x13bddc7b: i32 = 3109
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
+            0x193d883a
         }
-        0x0b44452a: i32 = 600
+        0x5b0a81be: list[link] = {
+            0xdfe0e8e4
+        }
+        0x0b44452a: i32 = 700
         0xf028019b: bool = true
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
-        0x5ee3c453: u8 = 3
+        0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
+            0xec9aeda8
+            0xa0244a37
             0x4985f3e0
-            0x25275a2d
         }
         0x6ee4fd8d: list[hash] = {
             0x713f6850
@@ -50,24 +55,97 @@ entries: map[hash,embed] = {
             0x48eea983
         }
         0x251a5225: list[f32] = {
-            20
-            0.15
-            0.12
-            0.12
-            90
-            0.5
-            1000
+            0
+            0
+            0
+            0
+            0
+            0
+            0
         }
-        0x9f1016d8: f32 = -0.1
-        0x06d997bb: f32 = 250
-        0xb594d102: f32 = 40
+        0x1f4d20a6: list[embed] = {
+            0xb2c62c87 {
+                0x19efbfdb: string = "DamageRedirection"
+                0x24f2ec89: f32 = 0.15
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "DamageRedirectionThreshold"
+                0x24f2ec89: f32 = 0.3
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ActiveCooldown"
+                0x24f2ec89: f32 = 60
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "TetherRange"
+                0x24f2ec89: f32 = 1250
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "HealthThreshold"
+                0x24f2ec89: f32 = 0.5
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MoveSpeedMod"
+                0x24f2ec89: f32 = 0.35
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MoveSpeedDuration"
+                0x24f2ec89: f32 = 2
+            }
+        }
+        0x5b98619f: f32 = 10
+        0x06d997bb: f32 = 400
+        0xc1cd174b: f32 = 3
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
+        0x57558bca: list[u8] = {
+            32
+            8
+        }
         0xd92888a0: embed = 0x851af275 {
-            0xf1f20d72: string = "game_item_description_3109"
-            0x9a5a3a84: string = "game_item_tooltip_3109"
-            0xc68db52e: string = "3109_Knights_Vow.dds"
+            0x2831605b: pointer = 0x35f5c16c {
+                0xb482c52c: string = "3109"
+                0x57b8b11b: link = 0x72d72769
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Item_3109_Name"
+                    "keyPlainText" = "Item_3109_PlainText"
+                    "keyInventoryOnlyText" = "Item_3109_InventoryOnlyText"
+                    "keyBrief" = "Item_3109_Brief"
+                    "keyUniqueGroup" = "Item_Unique_With_Self"
+                    "keyActive" = "Item_3109_Active"
+                    "keyTooltip" = "Item_3109_Tooltip"
+                    "keyActiveExternal" = "Item_3109_ActiveExternal"
+                }
+                0x91ed07c9: map[string,embed] = {
+                    "Stats" = 0xfb33f2f3 {
+                        0x5a94b0cc: list[embed] = {
+                            0x9a1b3505 {
+                                0x5127f14d: string = "Health"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AbilityHaste"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "BaseHealthRegen"
+                            }
+                        }
+                    }
+                }
+            }
+            0xf1f20d72: string = "GeneratedTip_Item_3109_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_3109_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_3109_TooltipShop"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/3109_Knights_Vow.dds"
+            0x5ee3c453: u8 = 5
+        }
+        0x5f8284a2: pointer = 0xef3a0f33 {
+            0xd2f58721: map[hash,link] = {
+                0x6d559275 = 0xfaea9da4
+                0xd3968606 = 0xc7a73aaf
+                0xcf2b213f = 0x6e8d1bf4
+                0x9d52dfc2 = 0x583818a5
+            }
         }
     }
 }

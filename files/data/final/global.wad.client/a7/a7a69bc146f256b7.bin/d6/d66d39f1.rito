@@ -4,7 +4,7 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xd66d39f1 = 0x244c26e6 {
-        0x74d44065: string = "game_item_displayname_3082"
+        0x74d44065: string = "Item_3082_Name"
         0x13bddc7b: i32 = 3082
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
@@ -12,6 +12,7 @@ entries: map[hash,embed] = {
         }
         0x0b44452a: i32 = 400
         0xd1dbada1: bool = true
+        0x5ee3c453: u8 = 4
         0x2c359091: list[link] = {
             0x11297948
             0x11297948
@@ -47,31 +48,60 @@ entries: map[hash,embed] = {
             0x48eea983
             0x127d3641
         }
-        0x251a5225: list[f32] = {
-            -0.15
-            1
-            0
-            0
-            0
-            0
-            0
-            0
-        }
-        0xb594d102: f32 = 40
-        0x08e2e7c5: embed = 0xe535c1de {
-            0x565b9057: list[link] = {
-                0x6bebb991
-                0xe0f32d85
+        0x1f4d20a6: list[embed] = {
+            0xb2c62c87 {
+                0x19efbfdb: string = "MaxHPRatio"
+                0x24f2ec89: f32 = 0.005
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "WardenDamageMax"
+                0x24f2ec89: f32 = 0.4
             }
         }
+        0x0ac4f0d5: map[hash,pointer] = {
+            0x36480dc9 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0xcd156c7f {
+                        0x1cd83c4b: pointer = 0x332eb441 {
+                            0xb386dcf1: hash = 0x1ba6bd60
+                        }
+                        0x4cec2c8a: u8 = 10
+                    }
+                }
+            }
+        }
+        0xb594d102: f32 = 40
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
+        0x57558bca: list[u8] = {
+            8
+        }
         0xd92888a0: embed = 0x851af275 {
-            0xf1f20d72: string = "game_item_description_3082"
-            0x9a5a3a84: string = "game_item_tooltip_3082"
-            0xc68db52e: string = "3082_Wardens_Mail.dds"
-            0x5ee3c453: u8 = 1
+            0x2831605b: pointer = 0x35f5c16c {
+                0xb482c52c: string = "3082"
+                0x57b8b11b: link = 0x72d72769
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Item_3082_Name"
+                    "keyPlainText" = "Item_3082_PlainText"
+                    "keyTooltip" = "Item_3082_Tooltip"
+                    "keyTooltipExternal" = "Item_3082_TooltipExternal"
+                }
+                0x91ed07c9: map[string,embed] = {
+                    "Stats" = 0xfb33f2f3 {
+                        0x5a94b0cc: list[embed] = {
+                            0x9a1b3505 {
+                                0x5127f14d: string = "Armor"
+                            }
+                        }
+                    }
+                }
+            }
+            0xf1f20d72: string = "GeneratedTip_Item_3082_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_3082_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_3082_TooltipShop"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/3082_Tank_T2_WardensMail.dds"
+            0x5ee3c453: u8 = 4
         }
     }
 }

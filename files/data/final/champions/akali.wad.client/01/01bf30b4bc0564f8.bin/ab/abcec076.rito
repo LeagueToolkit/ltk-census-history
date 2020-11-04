@@ -144,6 +144,7 @@ entries: map[hash,embed] = {
                             0x7d3150ec: u8 = 2
                         }
                     }
+                    0xcbcac618: u8 = 6
                 }
                 0x05fdb137 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
@@ -154,12 +155,14 @@ entries: map[hash,embed] = {
                             0x295c2889: f32 = 0.3
                         }
                     }
+                    0xcbcac618: u8 = 6
                 }
                 0x14114ef9 = 0x070e3593 {
                     0x7f93cf4e: hash = 0x05fdb137
                     0x2c77adff: pointer = 0x9ef92080 {
                         0xe202bca9: f32 = 3
                     }
+                    0xcbcac618: u8 = 6
                 }
             }
             0x295c2889: f32 = 0.3
@@ -246,13 +249,17 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_AkaliR_Name"
                         "keySummary" = "Spell_AkaliR_Summary"
                         "keyTooltip" = "Spell_AkaliR_Tooltip"
-                        "keyTooltipExtended" = "Spell_AkaliR_TooltipExtended"
                         "keyCost" = "Spell_Cost_NoCost"
+                        "keyTooltipExtendedBelowLine" = "Spell_AkaliR_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                    0x566f3406: string = "Spell_ListType_Cooldown"
+                                }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
@@ -263,10 +270,6 @@ entries: map[hash,embed] = {
                                     0x33c02d93: i32 = 1
                                     0xf506c7e6: f32 = 3
                                     0x566f3406: string = "Spell_AkaliR_MaxDamage"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "Cooldown"
-                                    0x566f3406: string = "Spell_ListType_Cooldown"
                                 }
                             }
                         }

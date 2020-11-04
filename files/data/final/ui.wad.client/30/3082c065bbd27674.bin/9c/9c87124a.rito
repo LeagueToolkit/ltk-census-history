@@ -58,7 +58,7 @@ entries: map[hash,embed] = {
             }
             "postScriptLeft" = 0x571b1165 {
                 0x3d7e6258: option[rgba] = {
-                    { 210, 230, 240, 255 }
+                    { 140, 155, 160, 255 }
                 }
             }
             "postScriptRight" = 0x571b1165 {
@@ -106,7 +106,10 @@ entries: map[hash,embed] = {
             }
             "active" = 0x571b1165 {
                 0x3d7e6258: option[rgba] = {
-                    { 210, 230, 240, 255 }
+                    { 24, 178, 255, 255 }
+                }
+                0xde96f676: option[bool] = {
+                    true
                 }
             }
             "scaleMana" = 0x571b1165 {
@@ -358,7 +361,7 @@ entries: map[hash,embed] = {
             }
             "flavorText" = 0x571b1165 {
                 0x3d7e6258: option[rgba] = {
-                    { 102, 231, 242, 255 }
+                    { 48, 112, 142, 255 }
                 }
                 0xae56503a: option[bool] = {
                     true
@@ -408,7 +411,6 @@ entries: map[hash,embed] = {
                 }
             }
             "toggle" = 0x571b1165 {
-                0x3d7e6258: option[rgba] = {}
                 0xde96f676: option[bool] = {
                     false
                 }
@@ -420,7 +422,6 @@ entries: map[hash,embed] = {
                 0xde96f676: option[bool] = {
                     true
                 }
-                0xae56503a: option[bool] = {}
             }
             "statTracking" = 0x571b1165 {
                 0x3d7e6258: option[rgba] = {
@@ -430,7 +431,30 @@ entries: map[hash,embed] = {
                     false
                 }
             }
-            "" = 0x571b1165 {}
+            "rarityMythic" = 0x571b1165 {
+                0x3d7e6258: option[rgba] = {
+                    { 17, 136, 255, 255 }
+                }
+                0xde96f676: option[bool] = {
+                    false
+                }
+            }
+            "tap" = 0x571b1165 {
+                0x3d7e6258: option[rgba] = {
+                    { 210, 230, 240, 255 }
+                }
+                0xde96f676: option[bool] = {
+                    true
+                }
+            }
+            "hold" = 0x571b1165 {
+                0x3d7e6258: option[rgba] = {
+                    { 210, 230, 240, 255 }
+                }
+                0xde96f676: option[bool] = {
+                    true
+                }
+            }
             "magicDamage" = 0x571b1165 {
                 0x3d7e6258: option[rgba] = {
                     { 230, 203, 10, 255 }
@@ -466,6 +490,55 @@ entries: map[hash,embed] = {
                     { 210, 230, 240, 255 }
                 }
             }
+            "rarityLegendary" = 0x571b1165 {
+                0x3d7e6258: option[rgba] = {
+                    { 55, 164, 219, 255 }
+                }
+                0xde96f676: option[bool] = {
+                    false
+                }
+            }
+            "rarityGeneric" = 0x571b1165 {
+                0x3d7e6258: option[rgba] = {
+                    { 179, 196, 204, 255 }
+                }
+                0xde96f676: option[bool] = {
+                    false
+                }
+            }
+            "lifeSteal" = 0x571b1165 {
+                0x3d7e6258: option[rgba] = {
+                    { 66, 28, 206, 255 }
+                }
+            }
+            "OnHit" = 0x571b1165 {
+                0x3d7e6258: option[rgba] = {
+                    { 210, 230, 240, 255 }
+                }
+            }
+            "conflictMessage" = 0x571b1165 {
+                0x3d7e6258: option[rgba] = {
+                    { 67, 82, 255, 255 }
+                }
+                0xae56503a: option[bool] = {
+                    true
+                }
+            }
+            "attackSpeed" = 0x571b1165 {
+                0x3d7e6258: option[rgba] = {
+                    { 132, 227, 255, 255 }
+                }
+            }
+            "silver" = 0x571b1165 {
+                0x3d7e6258: option[rgba] = {
+                    { 204, 208, 194, 255 }
+                }
+            }
+            "ornnBonus" = 0x571b1165 {
+                0x3d7e6258: option[rgba] = {
+                    { 24, 109, 255, 255 }
+                }
+            }
         }
         0x8ddbeb4b: string = "ASSETS/UX/Fonts/TextIcons.dds"
         0xf9e1dd39: map[string,embed] = {
@@ -477,6 +550,7 @@ entries: map[hash,embed] = {
             }
             "scaleMPen" = 0xede5bb41 {
                 0x58637fda: vec2 = { 48, 0 }
+                0x81e208ef: f32 = 2
             }
             "scaleMR" = 0xede5bb41 {
                 0x58637fda: vec2 = { 72, 0 }
@@ -492,6 +566,7 @@ entries: map[hash,embed] = {
             }
             "scaleSV" = 0xede5bb41 {
                 0x58637fda: vec2 = { 24, 24 }
+                0x81e208ef: f32 = 5
             }
             "scaleTenacity" = 0xede5bb41 {
                 0x58637fda: vec2 = { 48, 24 }
@@ -513,14 +588,15 @@ entries: map[hash,embed] = {
             }
             "scaleCooldown" = 0xede5bb41 {
                 0x58637fda: vec2 = { 48, 48 }
+                0x81e208ef: f32 = 2
             }
             "scaleCrit" = 0xede5bb41 {
                 0x58637fda: vec2 = { 72, 48 }
                 0x81e208ef: f32 = 3
             }
             "scaleHealth" = 0xede5bb41 {
-                0x58637fda: vec2 = { 96, 48 }
-                0x81e208ef: f32 = 1
+                0x58637fda: vec2 = { 97, 49 }
+                0x81e208ef: f32 = 4
             }
             "scaleLS" = 0xede5bb41 {
                 0x58637fda: vec2 = { 0, 72 }
@@ -537,7 +613,8 @@ entries: map[hash,embed] = {
                 0x58637fda: vec2 = { 72, 72 }
             }
             "scaleAPen" = 0xede5bb41 {
-                0x58637fda: vec2 = { 96, 96 }
+                0x58637fda: vec2 = { 96, 72 }
+                0x81e208ef: f32 = 3
             }
             "scaleHPRegen" = 0xede5bb41 {
                 0x58637fda: vec2 = { 0, 96 }
@@ -548,7 +625,7 @@ entries: map[hash,embed] = {
             }
             "goldCoins" = 0xede5bb41 {
                 0x58637fda: vec2 = { 48, 96 }
-                0x6747c0fa: vec2 = { 17, 16 }
+                0x6747c0fa: vec2 = { 18, 16 }
             }
             "star" = 0xede5bb41 {
                 0x58637fda: vec2 = { 48, 120 }
@@ -919,6 +996,46 @@ entries: map[hash,embed] = {
             "currencyStarShardsGlow" = 0xede5bb41 {
                 0x58637fda: vec2 = { 147, 364 }
                 0x6747c0fa: vec2 = { 43, 48 }
+                0x81e208ef: f32 = 4
+            }
+            "rangedActive" = 0xede5bb41 {
+                0x58637fda: vec2 = { 120, 240 }
+                0x81e208ef: f32 = 5
+            }
+            "rangedInactive" = 0xede5bb41 {
+                0x58637fda: vec2 = { 120, 264 }
+                0x81e208ef: f32 = 5
+            }
+            "meleeActive" = 0xede5bb41 {
+                0x58637fda: vec2 = { 144, 240 }
+                0x81e208ef: f32 = 5
+            }
+            "meleeInactive" = 0xede5bb41 {
+                0x58637fda: vec2 = { 144, 264 }
+                0x81e208ef: f32 = 5
+            }
+            "scaleHealShield" = 0xede5bb41 {
+                0x58637fda: vec2 = { 72, 264 }
+                0x81e208ef: f32 = 4
+            }
+            "OnHit" = 0xede5bb41 {
+                0x58637fda: vec2 = { 97, 266 }
+                0x81e208ef: f32 = 5
+            }
+            "activeEffect" = 0xede5bb41 {
+                0x58637fda: vec2 = { 169, 217 }
+                0x81e208ef: f32 = 2
+            }
+            "scaleAH" = 0xede5bb41 {
+                0x58637fda: vec2 = { 48, 48 }
+                0x81e208ef: f32 = 2
+            }
+            "silverCoins" = 0xede5bb41 {
+                0x58637fda: vec2 = { 192, 240 }
+                0x6747c0fa: vec2 = { 18, 16 }
+            }
+            "ornnIcon" = 0xede5bb41 {
+                0x58637fda: vec2 = { 168, 240 }
                 0x81e208ef: f32 = 4
             }
         }

@@ -4,18 +4,23 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x55793ad1 = 0x244c26e6 {
-        0x74d44065: string = "game_item_displayname_3033"
+        0x74d44065: string = "Item_3033_Name"
         0x13bddc7b: i32 = 3033
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
+            0xaaa3fca8
         }
-        0x0b44452a: i32 = 550
+        0x5b0a81be: list[link] = {
+            0x50f0b493
+        }
+        0x0b44452a: i32 = 700
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
+        0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
-            0x57793df7
             0xf0eec987
+            0xda6d403d
         }
         0x6ee4fd8d: list[hash] = {
             0x455218d0
@@ -49,18 +54,72 @@ entries: map[hash,embed] = {
             0x48eea983
         }
         0x251a5225: list[f32] = {
-            5
-            0.25
+            0
+            0
         }
-        0x4e7a81cd: f32 = 45
+        0x1f4d20a6: list[embed] = {
+            0xb2c62c87 {
+                0x19efbfdb: string = "GrievousDuration"
+                0x24f2ec89: f32 = 2
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "GrievousAmount"
+                0x24f2ec89: f32 = 0.4
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "EnhancedGrievousAmount"
+                0x24f2ec89: f32 = 0.6
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "AAsRequired"
+                0x24f2ec89: f32 = 3
+            }
+        }
+        0xb739c155: f32 = 0.07
+        0xbc050325: f32 = 0.2
+        0x4e7a81cd: f32 = 20
+        0xc5658c30: f32 = 0.25
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
+        0x57558bca: list[u8] = {
+            2
+        }
         0xd92888a0: embed = 0x851af275 {
-            0xf1f20d72: string = "game_item_description_3033"
-            0x9a5a3a84: string = "game_item_tooltip_3033"
-            0xc68db52e: string = "3033_Mortal_Reminder.dds"
-            0x5ee3c453: u8 = 1
+            0x2831605b: pointer = 0x35f5c16c {
+                0xb482c52c: string = "3033"
+                0x57b8b11b: link = 0x72d72769
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Item_3033_Name"
+                    "keyBrief" = "Item_3033_Brief"
+                    "keyInventoryOnlyText" = "Item_3033_InventoryOnlyText"
+                    "keyUniqueGroup" = "Item_Unique_With_Self"
+                    "keyTooltip" = "Item_3033_Tooltip"
+                }
+                0x91ed07c9: map[string,embed] = {
+                    "Stats" = 0xfb33f2f3 {
+                        0x5a94b0cc: list[embed] = {
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AttackDamage"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AttackSpeed"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "CritChance"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "MoveSpeedPercent"
+                            }
+                        }
+                    }
+                }
+            }
+            0xf1f20d72: string = "GeneratedTip_Item_3033_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_3033_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_3033_TooltipShop"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/3033_Marksman_T3_MortalReminder.dds"
+            0x5ee3c453: u8 = 5
         }
     }
 }

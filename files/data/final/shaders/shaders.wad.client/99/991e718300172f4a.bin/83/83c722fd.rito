@@ -1,0 +1,158 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x83c722fd = 0x205255d6 {
+        0x1d369c29: string = "Shaders/SkinnedMesh/ZacMetal"
+        0x48a52ed9: list[embed] = {
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter0"
+                0xd872e2a5: vec4 = { 0, 1, 0, 0.7 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "SpecMap_SmoothStep"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Metal_Master_SmoothStep"
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter1"
+                0xd872e2a5: vec4 = { 0.25490198, 0.29411766, 0.3019608, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Metal_Base_Color"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { 0.12941177, 0.13333334, 0.14901961, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Metal_CoreShadow_Color"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter3"
+                0xd872e2a5: vec4 = { 0.5686275, 0.83137256, 0.85490197, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Metal_Bounce_Color"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter4"
+                0xd872e2a5: vec4 = { 0.5, 0.8, 2, 2 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Metal_CoreShadow_Value"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Metal_Spec_Value"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fire_Noise_Tile"
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter5"
+                0xd872e2a5: vec4 = { 0.6392157, 0.77254903, 0.77254903, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Metal_Spec_Color"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter6"
+                0xd872e2a5: vec4 = { 1, 0.7019608, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fire_Glow_Color"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter7"
+                0xd872e2a5: vec4 = { -0.2, 0, 0.5, 3 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fire_Scroll_Speed"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel_size"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fire_Pulse_Speed"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter8"
+                0xd872e2a5: vec4 = { 1, 0.32941177, 0.34117648, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel_color"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter9"
+                0xd872e2a5: vec4 = { 0.8, 1.5, 1, 4 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fire_Pulse_Low_High"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fire_Emmisive_Low_High"
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+        }
+        0x3291437b: list[embed] = {
+            0x60a292e6 {
+                0x8d39bde6: string = "DEBUG_VIEW_METAL"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "DEBUG_VIEW_SPECMAP"
+            }
+        }
+        0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "Mask_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Diffuse_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
+            }
+        }
+        0xae29287b: map[string,string] = {
+            "FEATURE_SCREENSPACE_UV" = "1"
+            "FEATURE_WORLD_NORMAL" = "1"
+            "FEATURE_WORLD_POSITION" = "1"
+        }
+    }
+}

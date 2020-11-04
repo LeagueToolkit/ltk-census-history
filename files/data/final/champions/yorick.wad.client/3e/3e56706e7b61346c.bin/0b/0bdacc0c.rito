@@ -62,6 +62,25 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
+                0x1ddee768 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x8bc08357 {
+                            0x8afb1a5f: i32 = 1
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.4
+                            0x4cec2c8a: u8 = 2
+                        }
+                    }
+                }
+                0xc4f88ae2 = 0x070e3593 {
+                    0x7f93cf4e: hash = 0xeecda066
+                    0x2c77adff: pointer = 0x9ef92080 {
+                        0xe202bca9: f32 = 2
+                    }
+                    0xcbcac618: u8 = 6
+                    0xd6b7a622: bool = true
+                }
             }
             0x295c2889: f32 = 1.4
             0xfbd16fb5: string = ""
@@ -125,18 +144,19 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_YorickQ_Name"
                         "keySummary" = "Spell_YorickQ_Summary"
                         "keyTooltip" = "Spell_YorickQ_Tooltip"
+                        "keyTooltipExtended" = "Spell_YorickQ_TooltipExtended"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                }
+                                0x9a1b3505 {
                                     0x5127f14d: string = "Effect%dAmount"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "Cooldown"
                                 }
                             }
                         }

@@ -4,18 +4,24 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x6ef88a3d = 0x244c26e6 {
-        0x74d44065: string = "game_item_displayname_3165"
+        0x74d44065: string = "Item_3165_Name"
         0x13bddc7b: i32 = 3165
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
+            0x0938f1dc
         }
-        0x0b44452a: i32 = 550
+        0x5b0a81be: list[link] = {
+            0x50f0b493
+        }
+        0x0b44452a: i32 = 450
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
+        0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
-            0x75c89fbf
             0x102977b5
+            0x75c89fbf
+            0x12297adb
         }
         0x6ee4fd8d: list[hash] = {
             0x713f6850
@@ -51,26 +57,67 @@ entries: map[hash,embed] = {
             0x127d3641
         }
         0x251a5225: list[f32] = {
-            15
-            40
-            3
-            0.2
-            60
-            1
-            50
-            150
-            20
+            0
+            0
+            0
+            0
         }
-        0x06d997bb: f32 = 300
+        0x1f4d20a6: list[embed] = {
+            0xb2c62c87 {
+                0x19efbfdb: string = "GrievousAmount"
+                0x24f2ec89: f32 = 0.4
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "GrievousDuration"
+                0x24f2ec89: f32 = 2
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "EnhancedGrievousAmount"
+                0x24f2ec89: f32 = 0.6
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "HealthThreshold"
+                0x24f2ec89: f32 = 0.5
+            }
+        }
+        0x06d997bb: f32 = 250
         0x288a964d: f32 = 70
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
+        0x57558bca: list[u8] = {
+            16
+        }
         0xd92888a0: embed = 0x851af275 {
-            0xf1f20d72: string = "game_item_description_3165"
-            0x9a5a3a84: string = "game_item_tooltip_3165"
-            0xc68db52e: string = "3434_Pox_Arcana.dds"
-            0x5ee3c453: u8 = 1
+            0x2831605b: pointer = 0x35f5c16c {
+                0xb482c52c: string = "3165"
+                0x57b8b11b: link = 0x72d72769
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Item_3165_Name"
+                    "keyPlainText" = "Item_3165_PlainText"
+                    "keyInventoryOnlyText" = "Item_3165_InventoryOnlyText"
+                    "keyBrief" = "Item_3165_Brief"
+                    "keyUniqueGroup" = "Item_Unique_With_Self"
+                    "keyTooltip" = "Item_3165_Tooltip"
+                }
+                0x91ed07c9: map[string,embed] = {
+                    "Stats" = 0xfb33f2f3 {
+                        0x5a94b0cc: list[embed] = {
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AbilityPower"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "Health"
+                            }
+                        }
+                    }
+                }
+            }
+            0xf1f20d72: string = "GeneratedTip_Item_3165_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_3165_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_3165_TooltipShop"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/3165_Mage_T3_Morellonomicon.dds"
+            0x5ee3c453: u8 = 5
         }
     }
 }

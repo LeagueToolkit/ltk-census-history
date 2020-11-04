@@ -63,6 +63,20 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
             }
+            0x94572284: map[hash,pointer] = {
+                0x1ddee768 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x8bc08357 {
+                            0x8afb1a5f: i32 = 1
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.9
+                        }
+                    }
+                    0xcbcac618: u8 = 6
+                    0xd6b7a622: bool = true
+                }
+            }
             0x295c2889: f32 = 0.9
             0xfbd16fb5: string = "None"
             0xeed67cd5: list[string] = {
@@ -139,11 +153,18 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_ZileanQ_Name"
                         "keySummary" = "Spell_ZileanQ_Summary"
                         "keyTooltip" = "Spell_ZileanQ_Tooltip"
+                        "keyTooltipExtendedBelowLine" = "Spell_ZileanQ_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cost"
+                                }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Effect%dAmount"
                                     0x33c02d93: i32 = 1
@@ -153,12 +174,6 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "Effect%dAmount"
                                     0x33c02d93: i32 = 4
                                     0x566f3406: string = "Spell_ListType_StunDuration"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "Cooldown"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "Cost"
                                 }
                             }
                         }

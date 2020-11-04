@@ -4,20 +4,24 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x67e974ae = 0x244c26e6 {
-        0x74d44065: string = "game_item_displayname_3102"
+        0x74d44065: string = "Item_3102_Name"
         0x13bddc7b: i32 = 3102
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
+            0x103d7a0f
         }
-        0x0b44452a: i32 = 800
+        0x5b0a81be: list[link] = {
+            0x48ff8661
+            0xaf00f7f5
+        }
+        0x0b44452a: i32 = 400
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
-        0x5ee3c453: u8 = 3
+        0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
             0x5de964f0
-            0x23275707
-            0x102977b5
+            0x1167fc9f
         }
         0x6ee4fd8d: list[hash] = {
             0x713f6850
@@ -62,16 +66,47 @@ entries: map[hash,embed] = {
             0
             0
         }
-        0x9f1016d8: f32 = -0.1
-        0xb9f972a0: f32 = 60
-        0x288a964d: f32 = 75
+        0x5b98619f: f32 = 10
+        0xb9f972a0: f32 = 45
+        0x288a964d: f32 = 65
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
+        0x57558bca: list[u8] = {
+            16
+        }
         0xd92888a0: embed = 0x851af275 {
-            0xf1f20d72: string = "game_item_description_3102"
-            0x9a5a3a84: string = "game_item_tooltip_3102"
-            0xc68db52e: string = "066_Sindoran_Shielding_Amulet.dds"
+            0x2831605b: pointer = 0x35f5c16c {
+                0xb482c52c: string = "3102"
+                0x57b8b11b: link = 0x72d72769
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Item_3102_Name"
+                    "keyBrief" = "Item_3102_Brief"
+                    "keyUniqueGroup" = "Item_Unique_With_Self"
+                    "keyTooltip" = "Item_3102_Tooltip"
+                    "keyTooltipExternal" = "Item_3102_TooltipExternal"
+                }
+                0x91ed07c9: map[string,embed] = {
+                    "Stats" = 0xfb33f2f3 {
+                        0x5a94b0cc: list[embed] = {
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AbilityPower"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "MagicResist"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AbilityHaste"
+                            }
+                        }
+                    }
+                }
+            }
+            0xf1f20d72: string = "GeneratedTip_Item_3102_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_3102_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_3102_TooltipShop"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/3102_Mage_T3_BansheesVeil.dds"
+            0x5ee3c453: u8 = 5
         }
         0x5f8284a2: pointer = 0xef3a0f33 {
             0xd2f58721: map[hash,link] = {

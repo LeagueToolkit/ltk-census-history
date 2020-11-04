@@ -4,17 +4,22 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xcf6af055 = 0x244c26e6 {
-        0x74d44065: string = "game_item_displayname_3091"
+        0x74d44065: string = "Item_3091_Name"
         0x17982f46: string = "WitsEnd"
         0x13bddc7b: i32 = 3091
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
+            0xa894eef8
         }
-        0x0b44452a: i32 = 880
+        0x5b0a81be: list[link] = {
+            0x48ff8661
+        }
+        0x0b44452a: i32 = 800
         0xd1dbada1: bool = true
+        0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
-            0x932ec31c
+            0x57884881
             0x0f2bb4b9
             0x942ec4af
         }
@@ -52,25 +57,76 @@ entries: map[hash,embed] = {
             0x127d3641
         }
         0x251a5225: list[f32] = {
-            15
-            80
-            0.5
-            0.33
-            1
-            10
-            -8.75
+            0
+            0
+            0
+            0
+            0
+            0
+            0
         }
-        0xb739c155: f32 = 0.05
+        0x1f4d20a6: list[embed] = {
+            0xb2c62c87 {
+                0x19efbfdb: string = "SpeedDuration"
+                0x24f2ec89: f32 = 2
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "SpeedAmount"
+                0x24f2ec89: f32 = 20
+            }
+        }
+        0x0ac4f0d5: map[hash,pointer] = {
+            0xcfaae860 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x15fecdbc {
+                        0xd06c375d: f32 = 15
+                        0x1cd7e522: f32 = 80
+                    }
+                }
+            }
+        }
         0xb9f972a0: f32 = 50
-        0xc5658c30: f32 = 0.5
+        0x4e7a81cd: f32 = 30
+        0xc5658c30: f32 = 0.4
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
+        0x57558bca: list[u8] = {
+            1
+        }
         0xd92888a0: embed = 0x851af275 {
-            0xf1f20d72: string = "game_item_description_3091"
-            0x9a5a3a84: string = "game_item_tooltip_3091"
-            0xc68db52e: string = "3091_Wits_End.dds"
-            0x5ee3c453: u8 = 1
+            0x2831605b: pointer = 0x35f5c16c {
+                0xb482c52c: string = "3091"
+                0x57b8b11b: link = 0x72d72769
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Item_3091_Name"
+                    "keyBrief" = "Item_3091_Brief"
+                    "keyInventoryOnlyText" = "Item_3091_InventoryOnlyText"
+                    "keyUniqueGroup" = "Item_Unique_With_Self"
+                    "keyTooltip" = "Item_3091_Tooltip"
+                    "keyTooltipExternal" = "Item_3091_TooltipExternal"
+                }
+                0x91ed07c9: map[string,embed] = {
+                    "Stats" = 0xfb33f2f3 {
+                        0x5a94b0cc: list[embed] = {
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AttackDamage"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AttackSpeed"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "MagicResist"
+                            }
+                        }
+                    }
+                }
+            }
+            0xf1f20d72: string = "GeneratedTip_Item_3091_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_3091_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_3091_TooltipShop"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/3091_Fighter_T3_WitsEnd.dds"
+            0x5ee3c453: u8 = 5
         }
         0x5f8284a2: pointer = 0xef3a0f33 {}
     }

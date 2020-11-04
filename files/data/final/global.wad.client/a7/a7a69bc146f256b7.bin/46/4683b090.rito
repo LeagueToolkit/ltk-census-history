@@ -4,11 +4,8 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x4683b090 = 0x244c26e6 {
-        0x822e38a2: string = "ItemTiamatCleave"
-        0x74d44065: string = "game_item_displayname_3074"
-        0x831aba68: list[hash] = {
-            0x79ca637b
-        }
+        0x822e38a2: string = ""
+        0x74d44065: string = "Item_3074_Name"
         0x95f1b682: string = "game_item_requirePurchaseIdentity_Melee"
         0x17982f46: string = "ItemRavenousHydra"
         0x13bddc7b: i32 = 3074
@@ -17,16 +14,15 @@ entries: map[hash,embed] = {
             0xb0bee26d
             0x22b8e842
         }
-        0x0b44452a: i32 = 400
-        0xf028019b: bool = true
+        0x0b44452a: i32 = 100
         0x7d8fa230: bool = true
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
-        0x5ee3c453: u8 = 3
+        0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
             0x4983b549
             0x132bbb05
-            0x1f2750bb
+            0xd8f0e256
         }
         0x6ee4fd8d: list[hash] = {
             0x455218d0
@@ -59,25 +55,92 @@ entries: map[hash,embed] = {
             0x48eea983
         }
         0x251a5225: list[f32] = {
-            0.2
-            0.6
-            0.6
-            1
-            10
-            350
-            0.5
-            450
+            0
+            0
+            0
+            0
+            0
+            0
+            0
+            0
         }
-        0xc1cd174b: f32 = 1
-        0x4e7a81cd: f32 = 80
-        0x03355c22: f32 = 0.18
+        0x1f4d20a6: list[embed] = {
+            0xb2c62c87 {
+                0x19efbfdb: string = "VampAmount"
+                0x24f2ec89: f32 = 0.15
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "Omnivamp"
+                0x24f2ec89: f32 = 0.15
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "CleaverRadius"
+                0x24f2ec89: f32 = 350
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "AOEMultiplier"
+                0x24f2ec89: f32 = 0.33
+            }
+        }
+        0x0ac4f0d5: map[hash,pointer] = {
+            0xa8407c71 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5815b0a9 {
+                        0x295c2889: f32 = 0.6
+                        0x4cec2c8a: u8 = 2
+                    }
+                }
+            }
+            0x03ad01f7 = 0x070e3593 {
+                0x7f93cf4e: hash = 0xa8407c71
+                0x2c77adff: pointer = 0x9ef92080 {
+                    0xe202bca9: f32 = 0.2
+                }
+            }
+        }
+        0x5b98619f: f32 = 20
+        0x4e7a81cd: f32 = 65
+        0xb779205d: f32 = 15
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
+        0x57558bca: list[u8] = {
+            1
+            4
+        }
         0xd92888a0: embed = 0x851af275 {
-            0xf1f20d72: string = "game_item_description_3074"
-            0x9a5a3a84: string = "game_item_tooltip_3074"
-            0xc68db52e: string = "3074_Ravenous_Hydra.dds"
+            0x2831605b: pointer = 0x35f5c16c {
+                0xb482c52c: string = "3074"
+                0x57b8b11b: link = 0x72d72769
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Item_3074_Name"
+                    "keyBrief" = "Item_3074_Brief"
+                    "keyUniqueGroup" = "Item_Unique_Hydra"
+                    "keyInventoryOnlyText" = "Item_3074_InventoryOnlyText"
+                    "keyTooltip" = "Item_3074_Tooltip"
+                    "keyTooltipExternal" = "Item_3074_TooltipExternal"
+                }
+                0x91ed07c9: map[string,embed] = {
+                    "Stats" = 0xfb33f2f3 {
+                        0x5a94b0cc: list[embed] = {
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AttackDamage"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AbilityHaste"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "Omnivamp"
+                            }
+                        }
+                    }
+                }
+            }
+            0xf1f20d72: string = "GeneratedTip_Item_3074_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_3074_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_3074_TooltipShop"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/3074_Fighter_T3_RavenousHydra.dds"
+            0x5ee3c453: u8 = 5
         }
     }
 }

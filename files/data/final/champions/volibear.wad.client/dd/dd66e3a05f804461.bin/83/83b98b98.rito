@@ -68,16 +68,15 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "MonsterDamageCap"
                     0x246b0d8e: list[f32] = {
-                        50
+                        0
                         150
-                        250
-                        350
+                        300
                         450
-                        550
-                        650
+                        600
+                        750
+                        900
                     }
-                    0x6d3ccfd7: f32 = 50
-                    0xe7b832f2: string = "P + 100"
+                    0xe7b832f2: string = "P + 150"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "ShieldDuration"
@@ -249,7 +248,6 @@ entries: map[hash,embed] = {
             }
             0x77b9f839: u32 = 2
             0x5d46764f: pointer = 0x0bf5a9a6 {}
-            0x7c4baddc: option[f32] = {}
             0x03f432a6: u8 = 2
             0x00f7e5bc: bool = true
             0x048557ff: embed = 0x7dd1a902 {
@@ -267,6 +265,9 @@ entries: map[hash,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "BaseDamage"
                                     0x566f3406: string = "Spell_ListType_Damage"

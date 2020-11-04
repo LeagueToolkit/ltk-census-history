@@ -5,7 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x5d8a908a = 0x244c26e6 {
         0x822e38a2: string = ""
-        0x74d44065: string = "game_item_displayname_3042"
+        0x74d44065: string = "Item_3042_Name"
         0x17982f46: string = "Muramana"
         0x13bddc7b: i32 = 3043
         0x8ccddbb3: i32 = 1
@@ -13,10 +13,11 @@ entries: map[hash,embed] = {
             0xb0bee26d
             0xb26cd7d8
         }
-        0x0b44452a: i32 = 2400
+        0x0b44452a: i32 = 2600
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x071eb8be: i32 = 3008
+        0x5ee3c453: u8 = 5
         0x6ee4fd8d: list[hash] = {
             0x455218d0
             0x4d455975
@@ -41,19 +42,79 @@ entries: map[hash,embed] = {
             0x48eea983
         }
         0x251a5225: list[f32] = {
-            0.15
+            0
         }
+        0x1f4d20a6: list[embed] = {
+            0xb2c62c87 {
+                0x19efbfdb: string = "AweRatio"
+                0x24f2ec89: f32 = 0.02
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ManaDamageRatio"
+                0x24f2ec89: f32 = 0.04
+            }
+        }
+        0x0ac4f0d5: map[hash,pointer] = {
+            0xe06e243e = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x763d871b {
+                        0x295c2889: f32 = 0.02
+                    }
+                }
+            }
+            0xcfaae860 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x763d871b {
+                        0x295c2889: f32 = 0.04
+                    }
+                }
+            }
+        }
+        0x5b98619f: f32 = 15
         0x4e7a81cd: f32 = 35
-        0x9fdc5a73: f32 = 1000
+        0x9fdc5a73: f32 = 850
         0x57c6c7d0: embed = 0xc03becd9 {
             0x2e97ceab: bool = true
         }
         0x614e7a4d: i32 = 4
+        0x57558bca: list[u8] = {
+            1
+            4
+        }
         0xd92888a0: embed = 0x851af275 {
-            0xf1f20d72: string = "game_item_description_3042"
-            0x9a5a3a84: string = "game_item_tooltip_3042"
-            0xc68db52e: string = "3042_Muramana.dds"
-            0x5ee3c453: u8 = 1
+            0x2831605b: pointer = 0x35f5c16c {
+                0xb482c52c: string = "3043"
+                0x57b8b11b: link = 0x72d72769
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Item_3042_Name"
+                    "keyTooltipDynamic" = "Item_3042_TooltipDynamic"
+                    "keyBrief" = "Item_3042_Brief"
+                    "keyUniqueGroup" = "Item_Unique_ManaCharge"
+                    "keyInventoryOnlyText" = "Item_3042_InventoryOnlyText"
+                    "keyTooltip" = "Item_3042_Tooltip"
+                    "keyTooltipExternal" = "Item_3042_TooltipExternal"
+                }
+                0x91ed07c9: map[string,embed] = {
+                    "Stats" = 0xfb33f2f3 {
+                        0x5a94b0cc: list[embed] = {
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AttackDamage"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "Mana"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AbilityHaste"
+                            }
+                        }
+                    }
+                }
+            }
+            0xf1f20d72: string = "GeneratedTip_Item_3042_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_3042_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_3042_TooltipShop"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/3042_Marksman_T3_Muramana.dds"
+            0x5ee3c453: u8 = 5
         }
     }
 }

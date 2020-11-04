@@ -4,7 +4,7 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x0d2bb193 = 0x244c26e6 {
-        0x74d44065: string = "game_item_displayname_1055"
+        0x74d44065: string = "Item_1055_Name"
         0x13bddc7b: i32 = 1055
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
@@ -24,38 +24,70 @@ entries: map[hash,embed] = {
             0x127d3641
         }
         0xb1cd460b: list[hash] = {
-            0x159f78f0
-            0xceb08791
-            0x48246d53
-            0xa5d9189b
-            0xf6e337bc
-            0x6d5b6aa4
-            0x4771ab81
-            0xf2aa916c
-            0x1c3f96c9
             0x3661182f
+            0xa5d9189b
+            0x48246d53
             0x288f3c60
+            0x4771ab81
+            0x5682efea
+            0x6d5b6aa4
             0xe1bc2b5b
-            0x8e883e52
+            0x1c3f96c9
             0x943a8475
             0x933a82e2
-            0x5682efea
+            0xf6e337bc
+            0x8e883e52
             0x127d3641
         }
-        0x251a5225: list[f32] = {
-            10
+        0x1f4d20a6: list[embed] = {
+            0xb2c62c87 {
+                0x19efbfdb: string = "Omnivamp"
+                0x24f2ec89: f32 = 0.025
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ReducedOmnivampMult"
+                0x24f2ec89: f32 = 0.333
+            }
         }
         0x06d997bb: f32 = 80
         0x4e7a81cd: f32 = 8
-        0x03355c22: f32 = 0.03
+        0xb779205d: f32 = 2.5
         0x46493f5f: f32 = 0.4
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
+        0x57558bca: list[u8] = {
+            1
+            2
+            4
+        }
         0xd92888a0: embed = 0x851af275 {
-            0xf1f20d72: string = "game_item_description_1055"
-            0x9a5a3a84: string = "game_item_tooltip_1055"
-            0xc68db52e: string = "PetAttack.dds"
+            0x2831605b: pointer = 0x35f5c16c {
+                0xb482c52c: string = "1055"
+                0x57b8b11b: link = 0x72d72769
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Item_1055_Name"
+                    "keyPlainText" = "Item_1055_PlainText"
+                    "keyTooltip" = "Item_1055_Tooltip"
+                    "keyBrief" = "Item_1055_Brief"
+                }
+                0x91ed07c9: map[string,embed] = {
+                    "Stats" = 0xfb33f2f3 {
+                        0x5a94b0cc: list[embed] = {
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AttackDamage"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "Health"
+                            }
+                        }
+                    }
+                }
+            }
+            0xf1f20d72: string = "GeneratedTip_Item_1055_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_1055_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_1055_TooltipShop"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/1055_Marksman_T1_DoransBlade.dds"
             0x5ee3c453: u8 = 0
         }
     }

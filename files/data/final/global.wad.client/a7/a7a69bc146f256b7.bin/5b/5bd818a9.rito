@@ -4,23 +4,30 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x5bd818a9 = 0x244c26e6 {
-        0x822e38a2: string = "IronStylus"
-        0x74d44065: string = "game_item_displayname_3190"
+        0x822e38a2: string = "3190Active"
+        0x74d44065: string = "Item_3190_Name"
         0x13bddc7b: i32 = 3190
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
+            0x218b5fe6
         }
-        0x0b44452a: i32 = 650
+        0x5b0a81be: list[link] = {
+            0xdfe0e8e4
+        }
+        0x0b44452a: i32 = 400
         0xf028019b: bool = true
         0x7d8fa230: bool = true
         0xe114db54: bool = true
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
-        0x5ee3c453: u8 = 3
+        0x5ee3c453: u8 = 6
         0x2c359091: list[link] = {
+            0x4985f3e0
             0x6ae97967
-            0x23275707
+        }
+        0xb6188f47: list[link] = {
+            0x0c7ef6d4
         }
         0x6ee4fd8d: list[hash] = {
             0x713f6850
@@ -54,26 +61,146 @@ entries: map[hash,embed] = {
             0x127d3641
         }
         0x251a5225: list[f32] = {
-            120
-            10
-            2.5
-            0.25
-            20
-            120
-            0.2
+            0
+            0
+            0
+            0
+            0
+            0
+            0
             0
             0
             0
         }
+        0x1f4d20a6: list[embed] = {
+            0xb2c62c87 {
+                0x19efbfdb: string = "AllyAuraARMR"
+                0x24f2ec89: f32 = 5
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "AllyAuraMythicPassive"
+                0x24f2ec89: f32 = 2
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "AuraRange"
+                0x24f2ec89: f32 = 850
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ShieldDuration"
+                0x24f2ec89: f32 = 2.5
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "DiminishedEffectMulitplier"
+                0x24f2ec89: f32 = 0.25
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "DiminishedTimer"
+                0x24f2ec89: f32 = 20
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "Cooldown"
+                0x24f2ec89: f32 = 90
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ShieldRange"
+                0x24f2ec89: f32 = 850
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ShieldMinTOOLTIP"
+                0x24f2ec89: f32 = 250
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ShieldMaxTOOLTIP"
+                0x24f2ec89: f32 = 420
+            }
+        }
+        0x0ac4f0d5: map[hash,pointer] = {
+            0x217ef13b = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0xad106e67 {
+                        0x46144074: pointer = 0x663d5e00 {
+                            0xcac1b6d2: f32 = 1
+                            0x5ee3c453: u8 = 5
+                        }
+                        0x4914452d: pointer = 0x332eb441 {
+                            0xb386dcf1: hash = 0xc52cde53
+                        }
+                    }
+                }
+            }
+            0x40ee74ec = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x84a63373 {
+                        0xa066cc28: list[pointer] = {
+                            0x15fecdbc {
+                                0xd06c375d: f32 = 250
+                                0x1cd7e522: f32 = 420
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        0x5b98619f: f32 = 20
+        0x06d997bb: f32 = 200
         0xb594d102: f32 = 30
-        0xb9f972a0: f32 = 60
+        0xb9f972a0: f32 = 30
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
+        0x57558bca: list[u8] = {
+            32
+            8
+        }
         0xd92888a0: embed = 0x851af275 {
-            0xf1f20d72: string = "game_item_description_3190"
-            0x9a5a3a84: string = "game_item_tooltip_3190"
-            0xc68db52e: string = "3190_Crest_of_the_Iron_Solari.dds"
+            0x2831605b: pointer = 0x35f5c16c {
+                0xb482c52c: string = "3190"
+                0x57b8b11b: link = 0x72d72769
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Item_3190_Name"
+                    "keyBrief" = "Item_3190_Brief"
+                    "keyUniqueGroup" = "Item_Unique_Mythic"
+                    "keyInventoryOnlyText" = "Item_3190_InventoryOnlyText"
+                    "keyActive" = "Item_3190_Active"
+                    "keyTooltip" = "Item_3190_Tooltip"
+                    "keyActiveExternal" = "Item_3190_ActiveExternal"
+                }
+                0x91ed07c9: map[string,embed] = {
+                    "Stats" = 0xfb33f2f3 {
+                        0x5a94b0cc: list[embed] = {
+                            0x9a1b3505 {
+                                0x5127f14d: string = "Health"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AbilityHaste"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "Armor"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "MagicResist"
+                            }
+                        }
+                    }
+                }
+            }
+            0xf1f20d72: string = "GeneratedTip_Item_3190_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_3190_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_3190_TooltipShop"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/3190_Enchanter_T4_LocketOfIronSolari.dds"
+            0xe3f7ce73: link = 0xca65505b
+            0x5ee3c453: u8 = 6
+            0x91879aca: f32 = 850
+        }
+        0x5f8284a2: pointer = 0xef3a0f33 {
+            0xd2f58721: map[hash,link] = {
+                0x82f6d03d = 0x9dd1ed96
+                0xb4a120d1 = 0x9799b715
+                0xca730c2c = 0xba24a05f
+                0x5f7230aa = 0x70ba50cf
+                0xfb12db7b = 0x1c1db3a4
+                0x123357e0 = 0x52430e23
+            }
         }
     }
 }
