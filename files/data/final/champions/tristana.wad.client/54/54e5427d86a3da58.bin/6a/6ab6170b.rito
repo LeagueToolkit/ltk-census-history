@@ -147,11 +147,15 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_TristanaR_Name"
                         "keySummary" = "Spell_TristanaR_Summary"
                         "keyTooltip" = "Spell_TristanaR_Tooltip"
+                        "keyTooltipExtendedBelowLine" = "Spell_TristanaR_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
@@ -161,9 +165,6 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "KnockbackDistance"
                                     0x33c02d93: i32 = 2
                                     0x566f3406: string = "Spell_ListType_TristanaKnockbackDistance"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "Cooldown"
                                 }
                             }
                         }

@@ -31,6 +31,7 @@ entries: map[hash,embed] = {
                     }
                     0xa9abb748 {
                         0xe7e19b94: u16 = 19
+                        0x82971c71: f32 = 3
                         0x694aaa0b: hash = 0xca8d61c5
                         0xca0e79b5: string = "Options_Interface_InterfaceSize_MinimapScale"
                         0x4102143e: bool = true
@@ -40,19 +41,32 @@ entries: map[hash,embed] = {
                         0x694aaa0b: hash = 0xca8d61c5
                         0xca0e79b5: string = "Options_Interface_InterfaceSize_DeathRecapScale"
                         0x4102143e: bool = true
+                        0xc7e16877: pointer = 0xcd391c99 {
+                            0x442474e9: bool = false
+                            0x420c4abd: bool = false
+                            0x1dde7980: bool = false
+                        }
                     }
                     0xa9abb748 {
                         0xe7e19b94: u16 = 22
                         0x694aaa0b: hash = 0xca8d61c5
                         0xca0e79b5: string = "Options_Interface_InterfaceSize_PracticeToolScale"
                         0x4102143e: bool = true
-                        0xc7e16877: pointer = 0xee4d1304 {
-                            0xcf093b49: string = "PracticeToolOptionsMenuHotkeys"
+                        0xc7e16877: pointer = 0x0a6743a7 {
+                            0xabd6be4c: list[pointer] = {
+                                0xee4d1304 {
+                                    0xcf093b49: string = "PracticeToolOptionsMenuHotkeys"
+                                }
+                                0xcd391c99 {
+                                    0x442474e9: bool = false
+                                    0x420c4abd: bool = false
+                                    0x1dde7980: bool = false
+                                }
+                            }
                         }
                     }
                 }
                 0xc7e16877: pointer = 0xcd391c99 {
-                    0x442474e9: bool = false
                     0x420c4abd: bool = false
                     0x1dde7980: bool = false
                 }
@@ -277,7 +291,7 @@ entries: map[hash,embed] = {
                 0xca0e79b5: string = "Options_Interface_Minimap_label"
                 0x3a79338f: list[pointer] = {
                     0xc2aa47a6 {
-                        0xafbfd186: list[pointer] = {
+                        0x2717837a: list[pointer] = {
                             0x9c74b21a {
                                 0xe7e19b94: u16 = 69
                                 0x694aaa0b: hash = 0x6243ff9d
@@ -289,22 +303,21 @@ entries: map[hash,embed] = {
                                 }
                             }
                             0x9c74b21a {
-                                0xe7e19b94: u16 = 39
-                                0x694aaa0b: hash = 0x6243ff9d
-                                0xca0e79b5: string = "Options_Interface_Minimap_AllowMinimapMovement"
-                                0x4102143e: bool = true
-                            }
-                        }
-                        0x6ccd463b: list[pointer] = {
-                            0x9c74b21a {
                                 0xe7e19b94: u16 = 33
                                 0x694aaa0b: hash = 0x6243ff9d
                                 0xca0e79b5: string = "Options_Interface_Minimap_ShowMinimapOnLeft"
                                 0x4102143e: bool = true
                                 0xc7e16877: pointer = 0xcd391c99 {
+                                    0x442474e9: bool = false
                                     0x420c4abd: bool = false
                                     0x1dde7980: bool = false
                                 }
+                            }
+                            0x9c74b21a {
+                                0xe7e19b94: u16 = 39
+                                0x694aaa0b: hash = 0x6243ff9d
+                                0xca0e79b5: string = "Options_Interface_Minimap_AllowMinimapMovement"
+                                0x4102143e: bool = true
                             }
                         }
                     }
@@ -329,14 +342,10 @@ entries: map[hash,embed] = {
                                 0xca0e79b5: string = "Options_Interface_Scoreboard_ShowSummonerNames"
                             }
                         }
-                        0xc7e16877: pointer = 0xcd391c99 {
-                            0x442474e9: bool = false
-                            0x420c4abd: bool = false
-                            0x1dde7980: bool = false
-                        }
                     }
                 }
                 0xc7e16877: pointer = 0xcd391c99 {
+                    0x442474e9: bool = false
                     0x420c4abd: bool = false
                     0x1dde7980: bool = false
                 }

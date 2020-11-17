@@ -128,6 +128,19 @@ entries: map[hash,embed] = {
                     }
                     0x6d3ccfd7: f32 = 0.3
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "CritChanceAmp"
+                    0x246b0d8e: list[f32] = {
+                        0.33333
+                        0.33333
+                        0.33333
+                        0.33333
+                        0.33333
+                        0.33333
+                        0.33333
+                    }
+                    0x6d3ccfd7: f32 = 0.33333
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x2dc2de2b = 0xbc409284 {
@@ -155,28 +168,16 @@ entries: map[hash,embed] = {
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.5
                         }
-                        0xcd156c7f {
-                            0x1cd83c4b: pointer = 0xad106e67 {
-                                0x46144074: pointer = 0x9ef92080 {
-                                    0xe202bca9: f32 = 0.333
-                                }
-                                0x4914452d: pointer = 0x84a63373 {
-                                    0xa066cc28: list[pointer] = {
-                                        0x332eb441 {
-                                            0xb386dcf1: hash = 0xd928f29f
-                                        }
-                                        0x5f5c70a4 {
-                                            0xb386dcf1: hash = 0x67b851b1
-                                            0x4cec2c8a: u8 = 2
-                                            0x7d3150ec: u8 = 2
-                                        }
-                                        0x5815b0a9 {
-                                            0x295c2889: f32 = 0.5
-                                        }
-                                    }
-                                }
+                    }
+                    0x2c77adff: pointer = 0x84a63373 {
+                        0xa066cc28: list[pointer] = {
+                            0x9ef92080 {
+                                0xe202bca9: f32 = 1
                             }
-                            0x4cec2c8a: u8 = 6
+                            0x5f5c70a4 {
+                                0xb386dcf1: hash = 0x6206546d
+                                0x4cec2c8a: u8 = 6
+                            }
                         }
                     }
                 }
@@ -295,11 +296,18 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_TristanaE_Name"
                         "keySummary" = "Spell_TristanaE_Summary"
                         "keyTooltip" = "Spell_TristanaE_Tooltip"
+                        "keyTooltipExtendedBelowLine" = "Spell_TristanaE_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cost"
+                                }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "PassiveBaseDamage"
                                     0x33c02d93: i32 = 1
@@ -311,17 +319,11 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_TristanaBaseChargeDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Cost"
-                                }
-                                0x9a1b3505 {
                                     0x5127f14d: string = "ActiveBADRatio"
                                     0x33c02d93: i32 = 5
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_AttackDamageBonus"
                                     0xac307ed6: u32 = 1
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "Cooldown"
                                 }
                             }
                         }

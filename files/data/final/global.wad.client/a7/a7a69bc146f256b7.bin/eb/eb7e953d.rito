@@ -71,15 +71,15 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "RefractionNoiseSize"
-                0x425ed3ca: vec4 = { 0.7125, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 0.525, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "RefractionSpeed"
-                0x425ed3ca: vec4 = { 0.325, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 0.2625, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "RefractionNoise_Distance"
-                0x425ed3ca: vec4 = { 0.02, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 0.04, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Scale_Speed"
@@ -95,7 +95,7 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "Background_MinMax"
-                0x425ed3ca: vec4 = { 0.5, 2.5, 0, 0 }
+                0x425ed3ca: vec4 = { 0, 4, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Radial_Noise_Offset"
@@ -159,11 +159,11 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "Foreground_MinMax"
-                0x425ed3ca: vec4 = { 0.6, 1.6, 0, 0 }
+                0x425ed3ca: vec4 = { 0, 3, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "BG_FlatColor"
-                0x425ed3ca: vec4 = { 0.16470589, 0.007843138, 0.007843138, 1 }
+                0x425ed3ca: vec4 = { 0.05882353, 0, 0, 1 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Scanline_Noise_Tile"
@@ -175,7 +175,6 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "Blue_Channel_BG_Offset"
-                0x425ed3ca: vec4 = { 0.25, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Scanline_Noise_Speed"
@@ -190,7 +189,7 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "FG_Color_A"
-                0x425ed3ca: vec4 = { 1, 1, 1, 1 }
+                0x425ed3ca: vec4 = { 1, 0.43529412, 0.05882353, 1 }
             }
         }
         0xdd7ddb9d: list[embed] = {
@@ -204,6 +203,7 @@ entries: map[hash,embed] = {
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "USE_RADIAL_MASK"
+                0x61342fd0: bool = false
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "USE_PINWHEEL_MASK"
@@ -266,7 +266,6 @@ entries: map[hash,embed] = {
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "USE_RED_CHANNEL_FG"
-                0x61342fd0: bool = false
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "SCANLINE_ROTATE_NOISE"

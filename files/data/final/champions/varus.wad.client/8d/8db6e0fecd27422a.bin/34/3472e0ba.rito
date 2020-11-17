@@ -143,6 +143,47 @@ entries: map[hash,embed] = {
                     }
                     0x6d3ccfd7: f32 = 360
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "VarusWOnHitDamage"
+                    0x246b0d8e: list[f32] = {
+                        6
+                        7
+                        8
+                        9
+                        10
+                        11
+                        12
+                    }
+                    0x6d3ccfd7: f32 = 6
+                    0xe7b832f2: string = "P + 1"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "CDRPerBlightStack"
+                    0x246b0d8e: list[f32] = {
+                        0.12
+                        0.12
+                        0.12
+                        0.12
+                        0.12
+                        0.12
+                        0.12
+                    }
+                    0x6d3ccfd7: f32 = 0.12
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "VarusWOnHitRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                    }
+                    0x6d3ccfd7: f32 = 0.25
+                    0xe7b832f2: string = "P + 0"
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x75cb30eb = 0xbc409284 {
@@ -178,6 +219,40 @@ entries: map[hash,embed] = {
                                     0xd5fd07ed: f32 = 0.02
                                 }
                             }
+                        }
+                    }
+                    0x5a2297d3: bool = true
+                }
+                0xcfaae860 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x8bc08357 {
+                            0x8afb1a5f: i32 = 1
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.25
+                        }
+                    }
+                }
+                0x23d0e247 = 0x070e3593 {
+                    0x7f93cf4e: hash = 0x75cb30eb
+                    0x2c77adff: pointer = 0x9ef92080 {
+                        0xe202bca9: f32 = 3
+                    }
+                    0xd6b7a622: bool = true
+                }
+                0x9dec0a9c = 0x070e3593 {
+                    0x7f93cf4e: hash = 0x8286c138
+                    0x2c77adff: pointer = 0x9ef92080 {
+                        0xe202bca9: f32 = 1.5
+                    }
+                }
+                0x1639c982 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xfdd9e74e
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x2cbd7a1a
                         }
                     }
                 }
@@ -266,18 +341,19 @@ entries: map[hash,embed] = {
                         "keySummary" = "Spell_VarusW_Summary"
                         "keyTooltip" = "Spell_VarusW_Tooltip"
                         "keyCost" = "Spell_Cost_NoCost"
+                        "keyTooltipExtendedBelowLine" = "Spell_VarusW_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "VarusWOnHitDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_VarusWDamageOnAttack"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BasePercentHPPerStack"
                                     0x33c02d93: i32 = 2
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_VarusWDamageFromBlight"
