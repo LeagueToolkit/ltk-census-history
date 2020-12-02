@@ -70,6 +70,37 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
             }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BonusADRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.45
+                        0.6
+                        0.75
+                        0.9
+                        1.05
+                        1.2
+                        1.35
+                    }
+                    0x6d3ccfd7: f32 = 0.45
+                    0xe7b832f2: string = "P + 0.15"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x1ddee768 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x8bc08357 {
+                            0x8afb1a5f: i32 = 1
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x09a91dc8
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                        }
+                    }
+                    0xd6b7a622: bool = true
+                }
+            }
             0xfbd16fb5: string = "Spell1"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Lucian/HUD/Icons2D/Lucian_Q.dds"
@@ -133,12 +164,14 @@ entries: map[hash,embed] = {
             0x00f7e5bc: bool = true
             0x048557ff: embed = 0x7dd1a902 {
                 0x2831605b: pointer = 0xa4e13b57 {
+                    0x6386d7d8: bool = true
                     0xb482c52c: string = "LucianQ"
                     0x57b8b11b: link = 0x122a9d2c
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Spell_LucianQ_Name"
                         "keySummary" = "Spell_LucianQ_Summary"
                         "keyTooltip" = "Spell_LucianQ_Tooltip"
+                        "keyTooltipExtendedBelowLine" = "Spell_LucianQ_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {

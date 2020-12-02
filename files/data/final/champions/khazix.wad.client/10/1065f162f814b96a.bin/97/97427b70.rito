@@ -59,6 +59,49 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
             }
+            0x94572284: map[hash,pointer] = {
+                0xba2719ef = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x9ef92080 {
+                            0xe202bca9: f32 = 1
+                        }
+                    }
+                    0xd6b7a622: bool = true
+                }
+                0x8b6fe763 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x9ef92080 {}
+                    }
+                    0xd6b7a622: bool = true
+                }
+                0x2001728c = 0xe9ced584 {
+                    0x011436b4: hash = 0x8b6fe763
+                    0x006fde67: hash = 0xba2719ef
+                    0xc0482365: pointer = 0x5b1f9358 {
+                        0x02490112: hash = 0x99a499bd
+                    }
+                    0xd6b7a622: bool = true
+                }
+                0x03da00f9 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x8bc08357 {
+                            0x8afb1a5f: i32 = 1
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 1.3
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                        }
+                    }
+                    0xd6b7a622: bool = true
+                }
+                0x6896e0db = 0x070e3593 {
+                    0x7f93cf4e: hash = 0x03da00f9
+                    0x2c77adff: pointer = 0x9ef92080 {
+                        0xe202bca9: f32 = 2.1
+                    }
+                }
+            }
             0x295c2889: f32 = 1.3
             0xfbd16fb5: string = "Spell1"
             0xeed67cd5: list[string] = {
@@ -136,6 +179,7 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_KhazixQ_Name"
                         "keySummary" = "Spell_KhazixQ_Summary"
                         "keyTooltip" = "Spell_KhazixQ_Tooltip"
+                        "keyTooltipExtended" = "Spell_KhazixQ_TooltipExtended"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {

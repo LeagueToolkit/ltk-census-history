@@ -201,16 +201,16 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "AdditionalADRatio"
                     0x246b0d8e: list[f32] = {
-                        0.15
-                        0.18
-                        0.21
-                        0.24
-                        0.27
-                        0.3
-                        0.33
+                        0.1625
+                        0.2
+                        0.2375
+                        0.275
+                        0.3125
+                        0.35
+                        0.3875
                     }
-                    0x6d3ccfd7: f32 = 0.15
-                    0xe7b832f2: string = "P + 0.03"
+                    0x6d3ccfd7: f32 = 0.1625
+                    0xe7b832f2: string = "P + 0.0375"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "FakedCooldown"
@@ -234,7 +234,7 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0x03da00f9
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.5
+                            0x295c2889: f32 = 0.6
                             0x4cec2c8a: u8 = 2
                         }
                     }
@@ -329,6 +329,7 @@ entries: map[hash,embed] = {
                         "keySummary" = "Spell_KalistaExpungeWrapper_Summary"
                         "keyTooltip" = "Spell_KalistaExpungeWrapper_Tooltip"
                         "keyCooldown" = "Spell_KalistaExpungeWrapper_Cooldown"
+                        "keyTooltipExtendedBelowLine" = "Spell_KalistaExpungeWrapper_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
@@ -368,9 +369,6 @@ entries: map[hash,embed] = {
                     }
                 }
             }
-        }
-        0x7f0f5a79: pointer = 0x4633d794 {
-            0xf1f20d72: string = "game_buff_tooltip_KalistaExpungeWrapper"
         }
     }
 }

@@ -15,16 +15,16 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "DamagePerSecond"
                     0x246b0d8e: list[f32] = {
-                        20
-                        40
+                        15
+                        30
+                        45
                         60
-                        80
-                        100
-                        120
-                        140
+                        75
+                        90
+                        105
                     }
-                    0x6d3ccfd7: f32 = 20
-                    0xe7b832f2: string = "P + 20"
+                    0x6d3ccfd7: f32 = 15
+                    0xe7b832f2: string = "P + 15"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "BonusMultiplier"
@@ -43,15 +43,15 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "ManaCostPerSecond"
                     0x246b0d8e: list[f32] = {
-                        30
-                        40
-                        50
-                        60
-                        70
-                        80
-                        90
+                        25
+                        35
+                        45
+                        55
+                        65
+                        75
+                        85
                     }
-                    0x6d3ccfd7: f32 = 30
+                    0x6d3ccfd7: f32 = 25
                     0xe7b832f2: string = "P + 10"
                 }
                 0x005008a6 {
@@ -141,15 +141,15 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "LeashWarning"
                     0x246b0d8e: list[f32] = {
-                        800
-                        800
-                        800
-                        800
-                        800
-                        800
-                        800
+                        1000
+                        1000
+                        1000
+                        1000
+                        1000
+                        1000
+                        1000
                     }
-                    0x6d3ccfd7: f32 = 800
+                    0x6d3ccfd7: f32 = 1000
                     0xe7b832f2: string = "P"
                 }
                 0x005008a6 {
@@ -179,6 +179,19 @@ entries: map[hash,embed] = {
                     }
                     0x6d3ccfd7: f32 = 15
                     0xe7b832f2: string = "P + 15"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MinCooldown"
+                    0x246b0d8e: list[f32] = {
+                        0
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                    0xe7b832f2: string = "1"
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -224,19 +237,18 @@ entries: map[hash,embed] = {
                     0xd6b7a622: bool = true
                 }
             }
-            0x295c2889: f32 = 0.125
             0xfbd16fb5: string = "Spell4"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Anivia/HUD/Icons2D/Anivia_R.dds"
             }
             0x9ecac3a1: list[f32] = {
-                6
-                6
-                6
-                6
-                6
-                6
-                6
+                4
+                4
+                2.5
+                1
+                1
+                1
+                1
             }
             0x18330965: f32 = -0.5
             0x3a4c4690: f32 = -0.5
@@ -284,12 +296,12 @@ entries: map[hash,embed] = {
                 0
             }
             0xd997830a: list[f32] = {
-                75
-                75
-                75
-                75
-                75
-                75
+                60
+                60
+                60
+                60
+                60
+                60
             }
             0x5d46764f: pointer = 0x9b0f2144 {}
             0x00f7e5bc: bool = true
@@ -313,12 +325,19 @@ entries: map[hash,embed] = {
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "SlowAmount"
-                                    0x566f3406: string = "Spell_ListType_AniviaChilledSlowAmount"
+                                    0x566f3406: string = "Spell_ListType_Slow"
                                     0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "SlowPercentEmpoweredTT"
+                                    0x566f3406: string = "Spell_ListType_AniviaChilledSlowAmount"
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "ManaCostPerSecond"
                                     0x566f3406: string = "Spell_ListType_ManaCostPerSecond"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
                                 }
                             }
                         }
