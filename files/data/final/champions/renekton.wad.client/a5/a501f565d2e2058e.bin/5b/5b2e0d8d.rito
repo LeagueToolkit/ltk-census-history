@@ -122,6 +122,58 @@ entries: map[hash,embed] = {
                     }
                     0x6d3ccfd7: f32 = 5
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseFlatDamage"
+                    0x246b0d8e: list[f32] = {
+                        -10
+                        10
+                        30
+                        50
+                        70
+                        90
+                        110
+                    }
+                    0x6d3ccfd7: f32 = -10
+                    0xe7b832f2: string = "P + 20"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "EmpFlatDamage"
+                    0x246b0d8e: list[f32] = {
+                        -15
+                        15
+                        45
+                        75
+                        105
+                        135
+                        165
+                    }
+                    0x6d3ccfd7: f32 = -15
+                    0xe7b832f2: string = "P + 30"
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x4af44780 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x1157a256
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 1.5
+                            0x4cec2c8a: u8 = 2
+                        }
+                    }
+                }
+                0xeb707e28 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x238b41f7
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 2.25
+                            0x4cec2c8a: u8 = 2
+                        }
+                    }
+                }
             }
             0x295c2889: f32 = 1
             0xfbd16fb5: string = "Spell2"
@@ -191,6 +243,8 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_RenektonPreExecute_Name"
                         "keySummary" = "Spell_RenektonPreExecute_Summary"
                         "keyTooltip" = "Spell_RenektonPreExecute_Tooltip"
+                        "keyTooltipExtendedBelowLine" = "Spell_RenektonPreExecute_TooltipExtendedBelowLine"
+                        "keyCost" = "Spell_Cost_NoCost"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {

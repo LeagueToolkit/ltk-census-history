@@ -95,16 +95,16 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "MegaBaseDamage"
                     0x246b0d8e: list[f32] = {
-                        -35
-                        5
-                        45
-                        85
-                        125
-                        165
+                        -20
+                        25
+                        70
+                        115
+                        160
                         205
+                        250
                     }
-                    0x6d3ccfd7: f32 = -35
-                    0xe7b832f2: string = "P + 40"
+                    0x6d3ccfd7: f32 = -20
+                    0xe7b832f2: string = "P + 45"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "MegaPickupAndLolipopRadius"
@@ -157,6 +157,34 @@ entries: map[hash,embed] = {
                         280
                     }
                     0x6d3ccfd7: f32 = 280
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MegaSlowAmount"
+                    0x246b0d8e: list[f32] = {
+                        0.25
+                        0.3
+                        0.35
+                        0.4
+                        0.45
+                        0.5
+                        0.55
+                    }
+                    0x6d3ccfd7: f32 = 0.25
+                    0xe7b832f2: string = "P + 0.05"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MegaSlowDuration"
+                    0x246b0d8e: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                    0x6d3ccfd7: f32 = 2
+                    0xe7b832f2: string = "P + 0"
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -288,6 +316,12 @@ entries: map[hash,embed] = {
                                     0x33c02d93: i32 = 3
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_Slow"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "MegaSlowAmount"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_GnarQ_MegaQ_SlowLevelUp"
                                     0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {

@@ -85,15 +85,23 @@ entries: map[hash,embed] = {
                 0x19efbfdb: string = "SlowDuration"
                 0x24f2ec89: f32 = 0.25
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "BaseDamage"
+                0x24f2ec89: f32 = 65
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "BonusADRatio"
+                0x24f2ec89: f32 = 0.25
+            }
         }
         0x0ac4f0d5: map[hash,pointer] = {
             0x05148a7c = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
-                    0x9ef92080 {
-                        0xe202bca9: f32 = 100
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x03da00f9
                     }
-                    0x5815b0a9 {
-                        0x295c2889: f32 = 0.3
+                    0x5f5c70a4 {
+                        0xb386dcf1: hash = 0x09a91dc8
                         0x4cec2c8a: u8 = 2
                         0x7d3150ec: u8 = 2
                     }
@@ -101,7 +109,15 @@ entries: map[hash,embed] = {
             }
         }
         0x5b98619f: f32 = 25
-        0x4e7a81cd: f32 = 70
+        0x4e7a81cd: f32 = 75
+        0xccf99b44: list[string] = {
+            "Damage"
+            "Stealth"
+            "CooldownReduction"
+            "Slow"
+            "ArmorPenetration"
+            "AbilityHaste"
+        }
         0x57558bca: list[u8] = {
             4
         }

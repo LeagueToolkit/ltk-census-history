@@ -65,7 +65,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ADRatio"
-                0x24f2ec89: f32 = 1.1
+                0x24f2ec89: f32 = 1
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MissingHealthHeal"
@@ -94,6 +94,10 @@ entries: map[hash,embed] = {
                 0x19efbfdb: string = "CleaveRadius"
                 0x24f2ec89: f32 = 450
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "HealTotalADRatio"
+                0x24f2ec89: f32 = 0.25
+            }
         }
         0x0ac4f0d5: map[hash,pointer] = {
             0x4f9d2d87 = 0xbc409284 {
@@ -118,8 +122,8 @@ entries: map[hash,embed] = {
             }
             0x3a69585b = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
-                    0x5815b0a9 {
-                        0x295c2889: f32 = 0.2
+                    0x5f5c70a4 {
+                        0xb386dcf1: hash = 0x1a3bf9f5
                         0x4cec2c8a: u8 = 2
                     }
                 }
@@ -140,6 +144,14 @@ entries: map[hash,embed] = {
         0x06d997bb: f32 = 400
         0xc1cd174b: f32 = 1.5
         0x4e7a81cd: f32 = 45
+        0xccf99b44: list[string] = {
+            "Health"
+            "HealthRegen"
+            "Damage"
+            "Active"
+            "CooldownReduction"
+            "AbilityHaste"
+        }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
