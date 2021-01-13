@@ -28,6 +28,139 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
             }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "TooltipMSPerStack"
+                    0x246b0d8e: list[f32] = {
+                        24
+                        24
+                        24
+                        24
+                        24
+                        24
+                        24
+                    }
+                    0x6d3ccfd7: f32 = 24
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TooltipMSDuration"
+                    0x246b0d8e: list[f32] = {
+                        7
+                        7
+                        7
+                        7
+                        7
+                        7
+                        7
+                    }
+                    0x6d3ccfd7: f32 = 7
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TooltipMSMax"
+                    0x246b0d8e: list[f32] = {
+                        80
+                        80
+                        80
+                        80
+                        80
+                        80
+                        80
+                    }
+                    0x6d3ccfd7: f32 = 80
+                    0xe7b832f2: string = "P + 0"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TooltipManaRestore"
+                    0x246b0d8e: list[f32] = {
+                        12
+                        12
+                        12
+                        12
+                        12
+                        12
+                        12
+                    }
+                    0x6d3ccfd7: f32 = 12
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TooltipBaseMeepSpawnCD"
+                    0x246b0d8e: list[f32] = {
+                        8
+                        8
+                        8
+                        8
+                        8
+                        8
+                        8
+                    }
+                    0x6d3ccfd7: f32 = 8
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TooltipBaseMeepDamage"
+                    0x246b0d8e: list[f32] = {
+                        40
+                        40
+                        40
+                        40
+                        40
+                        40
+                        40
+                    }
+                    0x6d3ccfd7: f32 = 40
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TooltipChimeDamageCheckpoint"
+                    0x246b0d8e: list[f32] = {
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                    }
+                    0x6d3ccfd7: f32 = 5
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TooltipDamagePerCheckpoint"
+                    0x246b0d8e: list[f32] = {
+                        12
+                        12
+                        12
+                        12
+                        12
+                        12
+                        12
+                    }
+                    0x6d3ccfd7: f32 = 12
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TooltipSlowDuration"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                    0x6d3ccfd7: f32 = 1
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x7403ef80 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xbd14fb1f
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.3
+                        }
+                    }
+                    0xd6b7a622: bool = true
+                }
+            }
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Bard/HUD/Icons2D/Bard_Passive.dds"
             }
@@ -52,13 +185,13 @@ entries: map[hash,embed] = {
             0x5d46764f: pointer = 0x645ba277 {}
             0x048557ff: embed = 0x7dd1a902 {
                 0x2831605b: pointer = 0xa4e13b57 {
-                    0xfea35e52: bool = false
                     0xb482c52c: string = "BardPTooltip_D_nS"
                     0x57b8b11b: link = 0x30d7b387
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "game_character_passiveName_Bard"
                         "keyTooltip" = "Spell_BardPTooltip_D_nS_Tooltip"
                         "keySummary" = "Spell_BardPTooltip_D_nS_Summary"
+                        "keyTooltipExtended" = "Spell_BardPTooltip_D_nS_TooltipExtended"
                     }
                 }
             }

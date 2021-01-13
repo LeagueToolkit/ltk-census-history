@@ -1,0 +1,154 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4a030f94 = 0x205255d6 {
+        0x1d369c29: string = "Shaders/SkinnedMesh/Flowmap_Diff"
+        0x48a52ed9: list[embed] = {
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter0"
+                0xd872e2a5: vec4 = { 2, 1, 0.175, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Anim_Scale_Intensity"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Anim_Scale_Frequency"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Anim_Scale_Speed"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Anim_Wave_Dir_Intensity"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter1"
+                0xd872e2a5: vec4 = { 5, 5, 0.5, 0.3 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Anim_Wave_Dir"
+                        0x0640657c: u32 = 7
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Anim_Wave_Speed"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { 1, 0.01, 0.01, 0.01 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Anim_Wave_Frequency"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "OutLine_Color"
+                        0x0640657c: u32 = 14
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter3"
+                0xd872e2a5: vec4 = { 0.15, 1, 0.6, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "FlowIntensity"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "BloomColor"
+                        0x0640657c: u32 = 14
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter4"
+                0xd872e2a5: vec4 = { 1, 1, 0.5, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "BloomColorIntensity"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel_Color"
+                        0x0640657c: u32 = 14
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter5"
+                0xd872e2a5: vec4 = { 1, 0.2, 2, 0.4 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel_Color_Intensity"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "OutLine_Intensity"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "HardOutlineSize"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "FlowSpeed"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter6"
+                0xd872e2a5: vec4 = { 1, 3, 0.2, -0.1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel_Noise_Tiling_Speed"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter7"
+                0xd872e2a5: vec4 = { 2, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+        }
+        0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "FlowMap"
+                0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Diffuse_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Mask"
+                0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
+            }
+        }
+        0xae29287b: map[string,string] = {
+            "FEATURE_BLOOM" = "1"
+            "FEATURE_DISPLACEMENT" = "1"
+            "FEATURE_VERTEX_COLOR" = "1"
+            "FEATURE_VERTEX_COLOR_VS" = "1"
+            "FEATURE_WORLD_NORMAL" = "1"
+            "FEATURE_WORLD_POSITION" = "1"
+        }
+        0x25b76221: u32 = 37
+    }
+}
