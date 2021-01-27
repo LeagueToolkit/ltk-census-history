@@ -42,7 +42,7 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter3"
-                0xd872e2a5: vec4 = { 0.1, 0.8, 0, 0.5 }
+                0xd872e2a5: vec4 = { 0.1, 0.8, 0.01, 0.04 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "FlowMap_Speed"
@@ -53,13 +53,31 @@ entries: map[hash,embed] = {
                         0x0640657c: u32 = 2
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "Distortion_Highlight_Contrast"
+                        0x8d39bde6: string = "Distortion_LowHigh"
                         0x0640657c: u32 = 12
                     }
                 }
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter4"
+                0xd872e2a5: vec4 = { 0, 0.5, 1000, 3 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Distortion_Highlight_Contrast"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "CameraSpec_Size"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "CamSpec_Power"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter5"
                 0xd872e2a5: vec4 = { 0, 1, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -69,34 +87,16 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter5"
-                0xd872e2a5: vec4 = { 1000, 3, 0.25, 0 }
+                0x8d39bde6: string = "Parameter6"
+                0xd872e2a5: vec4 = { 0.25, 2, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "CameraSpec_Size"
+                        0x8d39bde6: string = "CamSpec_Intensity"
                         0x0640657c: u32 = 1
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "CamSpec_Power"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "CamSpec_Intensity"
-                        0x0640657c: u32 = 4
-                    }
-                }
-            }
-            0x816753d8 {
-                0x8d39bde6: string = "Parameter6"
-                0xd872e2a5: vec4 = { 0.01, 0.04, 2, 1 }
-                0x74672198: list[embed] = {
-                    0x14a2befa {
-                        0x8d39bde6: string = "Distortion_LowHigh"
-                        0x0640657c: u32 = 3
-                    }
-                    0x14a2befa {
                         0x8d39bde6: string = "FlowNormal_Tile"
-                        0x0640657c: u32 = 12
+                        0x0640657c: u32 = 6
                     }
                 }
             }
@@ -107,6 +107,9 @@ entries: map[hash,embed] = {
             }
             0x60a292e6 {
                 0x8d39bde6: string = "DEBUG_VIEW_NORMALS"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "SS_MASK"
             }
         }
         0x99108c85: list[embed] = {

@@ -58,13 +58,14 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "ShredPercent"
                     0x246b0d8e: list[f32] = {
                         0
-                        40
-                        40
-                        40
+                        60
+                        60
+                        80
                         40
                         40
                         40
                     }
+                    0x3f95426c: bool = false
                     0xe7b832f2: string = "40"
                 }
                 0x005008a6 {
@@ -92,6 +93,22 @@ entries: map[hash,embed] = {
                         8
                     }
                     0x6d3ccfd7: f32 = 8
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "UnforgottenMinAmp"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "UnforgottenMaxAmp"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                    0x6d3ccfd7: f32 = 1
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -171,6 +188,11 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "UnforgottenDamage"
                                     0x566f3406: string = "Spell_TFT4_YoneR_UnforgottenBaseDamage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "ShredPercent"
+                                    0x566f3406: string = "Spell_ListType_ArmorandMagicResistShred"
+                                    0xac307ed6: u32 = 1
                                 }
                             }
                         }
