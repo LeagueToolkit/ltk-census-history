@@ -1,0 +1,59 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xee0ca985 = 0x60e00531 {
+        0x19efbfdb: string = "TM_ShopSection_LevelUp"
+        0x0773669d: map[string,pointer] = {
+            "RequiredAction" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_TutorialActionCheck_BuyUnit"
+            }
+            "RoundNum" = 0x4012fd7e {
+                0x24f2ec89: i32 = 6
+            }
+            "Phase" = 0xa188bd55 {
+                0x24f2ec89: string = "Planning"
+            }
+            "SubActions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TM_ShopSection_LevelUp"
+                    "TM_BuyUnitTraitsA"
+                    "TM_BuyUnitTraitsB"
+                    "TM_LevelUp"
+                    "TM_PlaceUnit_Trait2"
+                }
+            }
+            "ShopOverrides" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT4_Rakan"
+                    "TFT4_Maokai"
+                    "TFT4_TahmKench"
+                    "TFT4b_Diana"
+                    "TFT4_Brand"
+                }
+            }
+            "UIElementsToReveal" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "XPButton"
+                }
+            }
+            "MessageRevealDelay" = 0x977517c6 {
+                0x24f2ec89: f32 = 1.5
+            }
+            "RequiredActionParameter" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT4_Rakan"
+            }
+            "StartOfPhaseMessageTraKey" = 0xa188bd55 {
+                0x24f2ec89: string = "tft_tutorial_buyunit_again"
+            }
+            "MessageUIAnchor" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_UnitShop_Item0_Slot"
+            }
+            "MessageUIAnchorDirection" = 0xa188bd55 {
+                0x24f2ec89: string = "LC"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

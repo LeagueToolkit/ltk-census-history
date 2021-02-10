@@ -1,0 +1,54 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x0f625dd0 = 0x60e00531 {
+        0x19efbfdb: string = "SLIME_EventManager"
+        0x0773669d: map[string,pointer] = {
+            "BR_GroupProbability" = 0x977517c6 {
+                0x24f2ec89: f32 = 4
+            }
+            "LootGoblin_GroupProbability" = 0x977517c6 {
+                0x24f2ec89: f32 = 3
+            }
+            "PushTheCart_GroupProbability" = 0x977517c6 {
+                0x24f2ec89: f32 = 3
+            }
+            "LatestPossibleEventStartSeconds" = 0x4012fd7e {
+                0x24f2ec89: i32 = 930
+            }
+            "EventCountdownDuration" = 0x4012fd7e {
+                0x24f2ec89: i32 = 30
+            }
+            "FirstEventStartMinSeconds" = 0x4012fd7e {
+                0x24f2ec89: i32 = 240
+            }
+            "FirstEventStartRangeSeconds" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+            "BetweenEventsMinSeconds" = 0x4012fd7e {
+                0x24f2ec89: i32 = 180
+            }
+            "BetweenEventsMaxSeconds" = 0x4012fd7e {
+                0x24f2ec89: i32 = 210
+            }
+            "Arena_GroupProbability" = 0x977517c6 {
+                0x24f2ec89: f32 = 5
+            }
+            "KOTH_GroupProbability" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+            "ScuttleRacing_GroupProbability" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+            "ProtectSoraka_GroupProbability" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+            "DPSRace_GroupProbability" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+        }
+        0x9be36761: link = 0xfbbd63a3
+    }
+}

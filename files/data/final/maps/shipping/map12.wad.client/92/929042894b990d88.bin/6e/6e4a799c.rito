@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6e4a799c = 0x60e00531 {
+        0x19efbfdb: string = "ARAMMinionTrapDetectionScriptData"
+        0x0773669d: map[string,pointer] = {
+            "DetectionRange" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1100
+            }
+            "BlackOutDuration" = 0x4012fd7e {
+                0x24f2ec89: i32 = 25000
+            }
+            "TrapSightDuration" = 0x977517c6 {
+                0x24f2ec89: f32 = 3
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

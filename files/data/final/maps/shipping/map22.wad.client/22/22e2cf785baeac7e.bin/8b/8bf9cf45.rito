@@ -1,0 +1,18 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x8bf9cf45 = 0x60e00531 {
+        0x19efbfdb: string = "Fortune1B"
+        0x0773669d: map[string,pointer] = {
+            "TwoCostUnit" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+            "Gold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

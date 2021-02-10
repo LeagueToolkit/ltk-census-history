@@ -1,0 +1,31 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3c836e38 = 0x60e00531 {
+        0x19efbfdb: string = "OFAScriptData"
+        0x0773669d: map[string,pointer] = {
+            "PlatingResistMultiplier" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.5
+            }
+            "HeraldChargeDamageMultiplier" = 0x977517c6 {
+                0x24f2ec89: f32 = 1
+            }
+            "BaronMinionDR" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.85
+            }
+            "BaronCannonADInc" = 0x4012fd7e {}
+            "DragonHPMultiplier" = 0x977517c6 {
+                0x24f2ec89: f32 = 1
+            }
+            "PlatingGoldMultiplier" = 0x977517c6 {
+                0x24f2ec89: f32 = 1.3
+            }
+            "DragonRewardMultiplier" = 0x977517c6 {
+                0x24f2ec89: f32 = 1.3
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

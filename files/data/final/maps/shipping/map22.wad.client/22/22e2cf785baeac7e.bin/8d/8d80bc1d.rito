@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x8d80bc1d = 0x60e00531 {
+        0x19efbfdb: string = "TM_LevelUp"
+        0x0773669d: map[string,pointer] = {
+            "StartOfPhaseMessageTraKey" = 0xa188bd55 {
+                0x24f2ec89: string = "tft_tutorial_levelup"
+            }
+            "RequiredAction" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_TutorialActionCheck_LevelUp"
+            }
+            "MessageUIAnchor" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_BuyExp_TutorialAnchor"
+            }
+            "MessageUIAnchorDirection" = 0xa188bd55 {
+                0x24f2ec89: string = "CR"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

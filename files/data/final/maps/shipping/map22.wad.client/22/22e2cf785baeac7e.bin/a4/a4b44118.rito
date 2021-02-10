@@ -1,0 +1,15 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xa4b44118 = 0x60e00531 {
+        0x19efbfdb: string = "GoldBoxB"
+        0x0773669d: map[string,pointer] = {
+            "Item" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_Item_Spatula"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

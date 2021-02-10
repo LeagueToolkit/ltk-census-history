@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x42c3ced7 = 0x60e00531 {
+        0x19efbfdb: string = "CombatPhase"
+        0x0773669d: map[string,pointer] = {
+            "BoardDrag" = 0x641de12c {}
+            "BoardDrop" = 0x641de12c {}
+            "BenchDrag" = 0x641de12c {
+                0x24f2ec89: bool = true
+            }
+            "BenchDrop" = 0x641de12c {
+                0x24f2ec89: bool = true
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,16 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x7ea665db = 0x60e00531 {
+        0x19efbfdb: string = "SharedDraftPhase"
+        0x0773669d: map[string,pointer] = {
+            "BoardDrag" = 0x641de12c {}
+            "BoardDrop" = 0x641de12c {}
+            "BenchDrag" = 0x641de12c {}
+            "BenchDrop" = 0x641de12c {}
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

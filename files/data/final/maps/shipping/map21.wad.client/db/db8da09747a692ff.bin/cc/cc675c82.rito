@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xcc675c82 = 0x60e00531 {
+        0x19efbfdb: string = "NEXUSBLITZ_Event_LootVeigar"
+        0x0773669d: map[string,pointer] = {
+            "MinimumSpellCD" = 0x977517c6 {
+                0x24f2ec89: f32 = 8
+            }
+            "MaximumSpellCD" = 0x977517c6 {
+                0x24f2ec89: f32 = 15
+            }
+            "APPerSecond" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.667
+            }
+        }
+        0x9be36761: link = 0x5a0c6a90
+    }
+}

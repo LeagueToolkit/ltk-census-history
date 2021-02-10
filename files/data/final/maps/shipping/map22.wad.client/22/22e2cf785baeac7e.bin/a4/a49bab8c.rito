@@ -1,0 +1,48 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xa49bab8c = 0x60e00531 {
+        0x19efbfdb: string = "TM_ShopSection_BuyHighTierUnit"
+        0x0773669d: map[string,pointer] = {
+            "StartOfPhaseMessageTraKey" = 0xa188bd55 {
+                0x24f2ec89: string = "tft_tutorial_buy_unit_high_tier"
+            }
+            "RequiredAction" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_TutorialActionCheck_BuyUnit"
+            }
+            "MessageUIAnchor" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_UnitShop_Item2_Slot"
+            }
+            "MessageUIAnchorDirection" = 0xa188bd55 {
+                0x24f2ec89: string = "LC"
+            }
+            "RoundNum" = 0x4012fd7e {
+                0x24f2ec89: i32 = 10
+            }
+            "Phase" = 0xa188bd55 {
+                0x24f2ec89: string = "Planning"
+            }
+            "SubActions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TM_ShopSection_BuyHighTierUnit"
+                    "TM_PlaceHighTierUnit"
+                }
+            }
+            "ShopOverrides" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT4_Garen"
+                    "TFT4_Fiora"
+                    "TFT4_Nunu"
+                    "TFT4_Teemo"
+                    "TFT4_Tristana"
+                }
+            }
+            "MessageRevealDelay" = 0x977517c6 {
+                0x24f2ec89: f32 = 1.5
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

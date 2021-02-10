@@ -1,0 +1,53 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x0c882557 = 0x60e00531 {
+        0x19efbfdb: string = "TM_ShopSection_TraitActivate"
+        0x0773669d: map[string,pointer] = {
+            "RoundNum" = 0x4012fd7e {
+                0x24f2ec89: i32 = 4
+            }
+            "Phase" = 0xa188bd55 {
+                0x24f2ec89: string = "Planning"
+            }
+            "StartOfPhaseMessageTraKey" = 0xa188bd55 {
+                0x24f2ec89: string = "tft_tutorial_activate_trait"
+            }
+            "RequiredAction" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_TutorialActionCheck_BuyUnit"
+            }
+            "ShopOverrides" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT4_Rakan"
+                    "TFT4b_Diana"
+                    "TFT4_Elise"
+                    "TFT4_Lulu"
+                    "TFT4_Brand"
+                }
+            }
+            "MessageUIAnchor" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_UnitShop_Item3_Slot"
+            }
+            "MessageUIAnchorDirection" = 0xa188bd55 {
+                0x24f2ec89: string = "LC"
+            }
+            "SubActions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TM_ShopSection_TraitActivate"
+                    "TM_BuyUnitTraitsF"
+                    "TM_PlaceUnit_Trait"
+                    "TM_PlaceUnit_TraitActivate"
+                }
+            }
+            "RequiredActionParameter" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT4_Lulu"
+            }
+            "MessageRevealDelay" = 0x977517c6 {
+                0x24f2ec89: f32 = 1.5
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

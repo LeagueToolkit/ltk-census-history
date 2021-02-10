@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc09473c1 = 0x60e00531 {
+        0x19efbfdb: string = "KaynEpic_KaynVariations"
+        0x0773669d: map[string,pointer] = {
+            "Default" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.899
+            }
+            "3ItemVariation" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.05
+            }
+            "GoldDrop" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.05
+            }
+            "FONDrop" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.001
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

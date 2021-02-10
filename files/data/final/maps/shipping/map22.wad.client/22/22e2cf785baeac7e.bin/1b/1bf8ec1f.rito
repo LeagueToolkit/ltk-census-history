@@ -1,0 +1,36 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x1bf8ec1f = 0x60e00531 {
+        0x19efbfdb: string = "EnchantedHex_Ocean"
+        0x0773669d: map[string,pointer] = {
+            "BuffName" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_EnchantedHex_OceanBuff"
+            }
+            "HexIndicatorParticleName" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_HexBuff_Ocean"
+            }
+            "HexArrivalParticleName" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT2_Trait_Ocean"
+            }
+            "ItemID" = 0x4012fd7e {
+                0x24f2ec89: i32 = 10203
+            }
+            "UnitPlacedSound" = 0xa188bd55 {
+                0x24f2ec89: string = "Play_sfx_tft_hex_ocean_unitplaced"
+            }
+            "HexInCombatParticleName" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_HexBuff_Ocean_Combat"
+            }
+            "HexGainedSound" = 0xa188bd55 {
+                0x24f2ec89: string = "Play_sfx_tft_hex_ocean_tile_active"
+            }
+            "ItemName" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_Item_Hex_Ocean"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

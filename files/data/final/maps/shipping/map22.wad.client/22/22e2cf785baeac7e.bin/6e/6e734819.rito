@@ -1,0 +1,29 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6e734819 = 0x60e00531 {
+        0x19efbfdb: string = "TM_EquipItem"
+        0x0773669d: map[string,pointer] = {
+            "StartOfPhaseMessageTraKey" = 0xa188bd55 {
+                0x24f2ec89: string = "tft_tutorial_equip_item"
+            }
+            "RequiredAction" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_TutorialActionCheck_EquipItem"
+            }
+            "SubActions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TM_EquipItem"
+                }
+            }
+            "MessageUIAnchor" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_ItemPanel_Item1_Slot"
+            }
+            "MessageUIAnchorDirection" = 0xa188bd55 {
+                0x24f2ec89: string = "CR"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

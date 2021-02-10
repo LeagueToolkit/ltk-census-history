@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc90b1a78 = 0x60e00531 {
+        0x19efbfdb: string = "TM_TraitBonusActivated"
+        0x0773669d: map[string,pointer] = {
+            "RoundNum" = 0x4012fd7e {
+                0x24f2ec89: i32 = 4
+            }
+            "Phase" = 0xa188bd55 {
+                0x24f2ec89: string = "Combat"
+            }
+            "StartOfPhaseMessageTraKey" = 0xa188bd55 {
+                0x24f2ec89: string = "tft_tutorial_trait_bonus_active"
+            }
+            "LootToGive" = 0xa188bd55 {
+                0x24f2ec89: string = "Gold"
+            }
+            "MessageUIAnchor" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_TraitTracker_Trait0_Bounds"
+            }
+            "MessageUIAnchorDirection" = 0xa188bd55 {
+                0x24f2ec89: string = "CR"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

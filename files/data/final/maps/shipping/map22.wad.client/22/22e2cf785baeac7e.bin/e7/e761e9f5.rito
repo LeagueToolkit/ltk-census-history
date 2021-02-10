@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe761e9f5 = 0x60e00531 {
+        0x19efbfdb: string = "ThiefsGlovesLootTableLevel4"
+        0x0773669d: map[string,pointer] = {
+            "Tier1" = 0x977517c6 {}
+            "Tier2" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.8
+            }
+            "Tier3" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "Tier4" = 0x977517c6 {}
+            "Tier5" = 0x977517c6 {}
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

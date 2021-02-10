@@ -1,0 +1,54 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xa312e218 = 0x60e00531 {
+        0x19efbfdb: string = "ARAMGamePacingScriptData"
+        0x0773669d: map[string,pointer] = {
+            "MinionDeathGold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 6
+            }
+            "HomestartStopTime" = 0x4012fd7e {
+                0x24f2ec89: i32 = 300
+            }
+            "HomestartHasteDuration" = 0x977517c6 {
+                0x24f2ec89: f32 = 10
+            }
+            "HomestartMoveSpeedMult" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.5
+            }
+            "TowerDamageEarlyMultiplier" = 0x977517c6 {
+                0x24f2ec89: f32 = 1
+            }
+            "TowerDamageLateMultiplier" = 0x977517c6 {
+                0x24f2ec89: f32 = 1.25
+            }
+            "TowerDamageMultiplierMinTime" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1080
+            }
+            "TowerDamageMultiplierMaxTime" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1800
+            }
+            "PokeDamageReductionRange" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1000
+            }
+            "PokeDamageReduction" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.15
+            }
+            "MinionAoEDamageMultiplierEarly" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.75
+            }
+            "MinionAoEDamageMultiplierLate" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.75
+            }
+            "MinionAoEDamageMultiplierMinTime" = 0x4012fd7e {
+                0x24f2ec89: i32 = 540
+            }
+            "MinionAoEDamageMultiplierMaxTime" = 0x4012fd7e {
+                0x24f2ec89: i32 = 900
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

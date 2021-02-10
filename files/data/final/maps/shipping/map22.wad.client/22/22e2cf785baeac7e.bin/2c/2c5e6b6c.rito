@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2c5e6b6c = 0x60e00531 {
+        0x19efbfdb: string = "TM_BuyFirstUnit2"
+        0x0773669d: map[string,pointer] = {
+            "StartOfPhaseMessageTraKey" = 0xa188bd55 {
+                0x24f2ec89: string = "tft_tutorial_buy_first_unit2"
+            }
+            "RequiredAction" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_TutorialActionCheck_BuyAnotherCopyOfUnit"
+            }
+            "MessageUIAnchor" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_UnitShop_Item3_Slot"
+            }
+            "MessageUIAnchorDirection" = 0xa188bd55 {
+                0x24f2ec89: string = "LC"
+            }
+            "RequiredActionParameter" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT4_Maokai"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
