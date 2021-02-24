@@ -45,53 +45,32 @@ entries: map[hash,embed] = {
         0x796fb247: list[string] = {
             "QuickChargeItems"
         }
-        0x251a5225: list[f32] = {
-            0
-            0
-            360
-            0
-            0
-            0
-            0
-            0
-            0
-            0
-        }
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "ManaPerCharge"
                 0x24f2ec89: f32 = 3
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "ChargesToUpgrade"
-                0x24f2ec89: f32 = 120
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "ManaGainCD"
+                0x19efbfdb: string = "ManaChargeAmmoCD"
                 0x24f2ec89: f32 = 8
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "MaxCasts"
+                0x19efbfdb: string = "ManaChargeMaxAmmo"
                 0x24f2ec89: f32 = 4
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "MaxManaForLCU"
+                0x19efbfdb: string = "MaxMana"
                 0x24f2ec89: f32 = 360
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "TakedownMana"
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "InternalCDPerCastID"
+                0x24f2ec89: f32 = 6.5
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
-            0x7fdad35e = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x332eb441 {
-                        0xb386dcf1: hash = 0xf9b2ab95
-                    }
-                }
-                0x2c77adff: pointer = 0x332eb441 {
-                    0xb386dcf1: hash = 0x2831a281
-                }
-                0xcbcac618: u8 = 5
-                0x37070a8d: u8 = 5
-            }
             0xe06e243e = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
                     0x763d871b {
@@ -105,8 +84,8 @@ entries: map[hash,embed] = {
         0x9fdc5a73: f32 = 500
         0xccf99b44: list[string] = {
             "Damage"
+            "AttackSpeed"
             "Mana"
-            "ManaRegen"
             "CooldownReduction"
             "OnHit"
             "AbilityHaste"
@@ -125,7 +104,6 @@ entries: map[hash,embed] = {
                 0x57b8b11b: link = 0x72d72769
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_3004_Name"
-                    "keyTooltipDynamic" = "Item_3004_TooltipDynamic"
                     "keyUniqueGroup" = "Item_Unique_ManaCharge"
                     "keyBrief" = "Item_3004_Brief"
                     "keyInventoryOnlyText" = "Item_3004_InventoryOnlyText"

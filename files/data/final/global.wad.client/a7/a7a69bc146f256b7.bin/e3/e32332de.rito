@@ -58,6 +58,26 @@ entries: map[hash,embed] = {
                 0x19efbfdb: string = "LethalityAmount"
                 0x24f2ec89: f32 = 18
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ShieldShred"
+                0x24f2ec89: f32 = 0.5
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ShieldWounds"
+                0x24f2ec89: f32 = 0.5
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "DebuffDuration"
+                0x24f2ec89: f32 = 3
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ShieldWoundsRange"
+                0x24f2ec89: f32 = 0.25
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ShieldShredRange"
+                0x24f2ec89: f32 = 0.25
+            }
         }
         0x0ac4f0d5: map[hash,pointer] = {
             0x05148a7c = 0xbc409284 {
@@ -71,6 +91,86 @@ entries: map[hash,embed] = {
                         0x7d3150ec: u8 = 2
                     }
                 }
+            }
+            0xe5c634ce = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x144480e8
+                    }
+                }
+                0x2c77adff: pointer = 0x9ef92080 {
+                    0xe202bca9: f32 = 100
+                }
+                0xcbcac618: u8 = 5
+                0x37070a8d: u8 = 5
+                0xe6eebb2f: u8 = 5
+                0xd6b7a622: bool = true
+            }
+            0x3b00d8b1 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x797bcb6f
+                    }
+                }
+                0x2c77adff: pointer = 0x9ef92080 {
+                    0xe202bca9: f32 = 100
+                }
+                0xcbcac618: u8 = 5
+                0x37070a8d: u8 = 5
+                0xe6eebb2f: u8 = 5
+                0xd6b7a622: bool = true
+            }
+            0x6304eac4 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x24b16f62
+                    }
+                }
+                0x2c77adff: pointer = 0x9ef92080 {
+                    0xe202bca9: f32 = 100
+                }
+                0xcbcac618: u8 = 5
+                0x37070a8d: u8 = 5
+                0xe6eebb2f: u8 = 5
+                0xd6b7a622: bool = true
+            }
+            0xb5555429 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x797bcb6f
+                    }
+                }
+                0x2c77adff: pointer = 0x9ef92080 {
+                    0xe202bca9: f32 = 100
+                }
+                0xcbcac618: u8 = 5
+                0x37070a8d: u8 = 5
+                0xe6eebb2f: u8 = 5
+                0xd6b7a622: bool = true
+            }
+            0x56b3f555 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x803dae4c {
+                        0x886fc197: option[f32] = {
+                            3
+                        }
+                        0xcc3d10ce: option[f32] = {
+                            2
+                        }
+                        0xa066cc28: list[pointer] = {
+                            0xcd156c7f {
+                                0x1cd83c4b: pointer = 0x9ef92080 {
+                                    0xe202bca9: f32 = 0.01
+                                }
+                                0x4cec2c8a: u8 = 26
+                            }
+                        }
+                    }
+                }
+                0xcbcac618: u8 = 5
+                0x37070a8d: u8 = 5
+                0xe6eebb2f: u8 = 5
+                0xd6b7a622: bool = true
             }
         }
         0x4e7a81cd: f32 = 55
@@ -96,6 +196,7 @@ entries: map[hash,embed] = {
                     "keyTooltip" = "Item_6695_Tooltip"
                     "keyTooltipExternal" = "Item_6695_TooltipExternal"
                     "keyColloquialism" = "Item_6695_Colloquialism"
+                    "keyTooltipDynamic" = "Item_6695_TooltipDynamic"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {

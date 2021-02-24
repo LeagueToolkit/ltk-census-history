@@ -57,15 +57,28 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "PercentAD"
                     0x246b0d8e: list[f32] = {
                         0
-                        0.5
+                        0.3
+                        0.4
                         0.6
-                        0.8
                         0.8
                         0.8
                         0.8
                     }
                     0x3f95426c: bool = false
                     0xe7b832f2: string = ".8"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        0
+                        15
+                        25
+                        40
+                        0
+                        0
+                        0
+                    }
+                    0x3f95426c: bool = false
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -91,6 +104,24 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0xf0f10b3f
                         }
                     }
+                }
+                0xdbf2b7a7 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x995bf516 {
+                            0x1cd83c4b: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0xdf3d2f5f
+                            }
+                            0xb8dcfcbb: f32 = 1
+                            0x4cec2c8a: u8 = 2
+                            0x992cd7eb: string = "scaleAD"
+                            0xa5749b52: string = "scaleAD"
+                        }
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
+                        }
+                    }
+                    0xcbcac618: u8 = 6
+                    0x37070a8d: u8 = 6
                 }
             }
             0xfbd16fb5: string = "Spell4"
@@ -176,6 +207,10 @@ entries: map[hash,embed] = {
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_ADScaling"
                                     0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseDamage"
+                                    0x566f3406: string = "Spell_ListType_BonusDamage"
                                 }
                             }
                         }

@@ -10,6 +10,7 @@ entries: map[hash,embed] = {
         0x72d02fc7: list[link] = {
             0xb0bee26d
             0xb26cd7d8
+            0x69bb99e4
         }
         0x0b44452a: i32 = 3000
         0x51c4b876: bool = true
@@ -37,28 +38,46 @@ entries: map[hash,embed] = {
             0x5682efea
             0x48eea983
         }
-        0x251a5225: list[f32] = {
-            0
-            0
-            0
-            0
-            0
-            0
-            0
-            0
-        }
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
-                0x19efbfdb: string = "ManaMultiplier"
+                0x19efbfdb: string = "SeraphsBonusManaToAPRatioTOOLTIPONLY"
                 0x24f2ec89: f32 = 0.05
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "BonusManaAPRatio"
+                0x19efbfdb: string = "MeleeShieldAPRatio"
+                0x24f2ec89: f32 = 0.8
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MeleeShieldHPRatio"
+                0x24f2ec89: f32 = 0.12
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "RangedShieldAPRatio"
+                0x24f2ec89: f32 = 0.6
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "RangedShieldHPRatio"
+                0x24f2ec89: f32 = 0.09
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ShieldDuration"
+                0x24f2ec89: f32 = 4
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ShieldCooldown"
+                0x24f2ec89: f32 = 90
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "LowHealthThreshold"
+                0x24f2ec89: f32 = 0.3
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "BonusManaPercentBase"
+                0x24f2ec89: f32 = 0.05
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "BonusManaPercentAP"
                 0x24f2ec89: f32 = 0.025
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "SeraphsBonusManaToAPRatio"
-                0x24f2ec89: f32 = 0.05
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -69,6 +88,51 @@ entries: map[hash,embed] = {
                         0x7d3150ec: u8 = 2
                     }
                 }
+            }
+            0xe5c634ce = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5f5c70a4 {
+                        0xb386dcf1: hash = 0xfbbdc58e
+                    }
+                    0x5f5c70a4 {
+                        0xb386dcf1: hash = 0x947cd089
+                        0x4cec2c8a: u8 = 10
+                    }
+                }
+            }
+            0x3b00d8b1 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5f5c70a4 {
+                        0xb386dcf1: hash = 0xefb398e5
+                    }
+                    0x5f5c70a4 {
+                        0xb386dcf1: hash = 0x1ad3e87a
+                        0x4cec2c8a: u8 = 10
+                    }
+                }
+            }
+            0x56b3f555 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x803dae4c {
+                        0x886fc197: option[f32] = {
+                            3
+                        }
+                        0xcc3d10ce: option[f32] = {
+                            2
+                        }
+                        0xa066cc28: list[pointer] = {
+                            0x5815b0a9 {
+                                0x295c2889: f32 = 0.01
+                                0x4cec2c8a: u8 = 26
+                                0x7d3150ec: u8 = 1
+                            }
+                        }
+                    }
+                }
+                0xcbcac618: u8 = 5
+                0x37070a8d: u8 = 5
+                0xe6eebb2f: u8 = 5
+                0xd6b7a622: bool = true
             }
         }
         0x288a964d: f32 = 65
@@ -91,9 +155,7 @@ entries: map[hash,embed] = {
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_3040_Name"
                     "keyUniqueGroup" = "Item_Unique_ManaCharge"
-                    "keyInventoryOnlyText" = "Item_3040_InventoryOnlyText"
                     "keyBrief" = "Item_3040_Brief"
-                    "keyTooltipDynamic" = "Item_3040_TooltipDynamic"
                     "keyTooltip" = "Item_3040_Tooltip"
                     "keyTooltipExternal" = "Item_3040_TooltipExternal"
                 }
