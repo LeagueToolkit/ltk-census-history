@@ -47,16 +47,16 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BaseDamage"
                     0x246b0d8e: list[f32] = {
-                        15
-                        50
-                        85
-                        120
-                        155
-                        190
-                        225
+                        12.5
+                        100
+                        187.5
+                        275
+                        362.5
+                        450
+                        537.5
                     }
-                    0x6d3ccfd7: f32 = 15
-                    0xe7b832f2: string = "P + 35"
+                    0x6d3ccfd7: f32 = 12.5
+                    0xe7b832f2: string = "P + 87.5"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "SelfKnockbackRange"
@@ -73,50 +73,98 @@ entries: map[hash,embed] = {
                     0xe7b832f2: string = "P"
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "E2Damage"
+                    0x19efbfdb: string = "E1PercentageOfTotal"
                     0x246b0d8e: list[f32] = {
-                        15
-                        50
-                        85
-                        120
-                        155
-                        190
-                        225
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
                     }
-                    0x6d3ccfd7: f32 = 15
-                    0xe7b832f2: string = "P + 35"
+                    0x6d3ccfd7: f32 = 0.3
+                    0xe7b832f2: string = "P + 0"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TotalADRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.85
+                        0.85
+                        0.85
+                        0.85
+                        0.85
+                        0.85
+                        0.85
+                    }
+                    0x6d3ccfd7: f32 = 0.85
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TotalAPRatio"
+                    0x246b0d8e: list[f32] = {
+                        1.2
+                        1.2
+                        1.2
+                        1.2
+                        1.2
+                        1.2
+                        1.2
+                    }
+                    0x6d3ccfd7: f32 = 1.2
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "E2PercentageOfTotal"
+                    0x246b0d8e: list[f32] = {
+                        0.7
+                        0.7
+                        0.7
+                        0.7
+                        0.7
+                        0.7
+                        0.7
+                    }
+                    0x6d3ccfd7: f32 = 0.7
+                    0xe7b832f2: string = "P + 0"
                 }
             }
             0x94572284: map[hash,pointer] = {
-                0x59e94c40 = 0xbc409284 {
+                0x8e266472 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0x03da00f9
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.35
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x563bb723
                             0x4cec2c8a: u8 = 2
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.5
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xd5c06e27
                         }
                     }
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0x5f0b8e30
+                    }
                     0xcbcac618: u8 = 6
+                    0x37070a8d: u8 = 1
                 }
                 0xce18ca7a = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
-                            0xb386dcf1: hash = 0xc51e9cf3
+                            0xb386dcf1: hash = 0x03da00f9
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.35
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x563bb723
                             0x4cec2c8a: u8 = 2
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.5
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xd5c06e27
                         }
                     }
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0x50dbd17f
+                    }
                     0xcbcac618: u8 = 6
+                    0x37070a8d: u8 = 1
                 }
             }
             0x295c2889: f32 = 0.7
@@ -181,9 +229,9 @@ entries: map[hash,embed] = {
                 0
                 0
                 0
-                2
-                2
-                2
+                0
+                0
+                0
                 2
                 2
                 2
@@ -228,10 +276,6 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "BaseDamage"
                                     0x566f3406: string = "Spell_AkaliE_BaseDamage1"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "E2Damage"
-                                    0x566f3406: string = "Spell_ListType_ExplosionDamage"
                                 }
                             }
                         }
