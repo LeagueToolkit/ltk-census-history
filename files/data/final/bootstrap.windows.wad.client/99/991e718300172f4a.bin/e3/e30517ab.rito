@@ -108,7 +108,7 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter6"
-                0xd872e2a5: vec4 = { 2, 1, 0, 1 }
+                0xd872e2a5: vec4 = { 2, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Colorize_Power"
@@ -117,14 +117,6 @@ entries: map[hash,embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Light_FX_Opacity"
                         0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Emissive_Factor"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Bloom_Intensity"
-                        0x0640657c: u32 = 8
                     }
                 }
             }
@@ -166,11 +158,10 @@ entries: map[hash,embed] = {
             }
         }
         0xae29287b: map[string,string] = {
-            "FEATURE_BLOOM" = "1"
             "FEATURE_SHADOW" = "1"
             "FEATURE_WORLD_NORMAL" = "1"
             "FEATURE_WORLD_POSITION" = "1"
         }
-        0x25b76221: u32 = 17
+        0x25b76221: u32 = 16
     }
 }
