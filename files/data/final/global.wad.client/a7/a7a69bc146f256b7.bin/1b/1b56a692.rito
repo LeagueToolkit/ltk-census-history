@@ -21,52 +21,30 @@ entries: map[hash,embed] = {
         0xb6188f47: list[link] = {
             0x1fb38586
         }
-        0x6ee4fd8d: list[hash] = {
-            0x455218d0
-            0x57365ea9
-            0x603aea02
-        }
-        0xb1cd460b: list[hash] = {
-            0x4771ab81
-            0x8f061404
-            0x48246d53
-            0x288f3c60
-            0x5682efea
-            0xe1bc2b5b
-            0x48eea983
-        }
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "MaxCounter"
+                0x24f2ec89: f32 = 5
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "HealShieldAmpPerStack"
                 0x24f2ec89: f32 = 4
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "PendantOfVitalityBuffDuration"
-                0x24f2ec89: f32 = 5
+                0x24f2ec89: f32 = 6
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "EveryXSecondsDoHeal"
                 0x24f2ec89: f32 = 2
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "AbilityHasteMythicPassive"
-                0x24f2ec89: f32 = 5
+                0x19efbfdb: string = "MythicPassiveHealIncrease"
+                0x24f2ec89: f32 = 10
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "HealAmountIncrease"
-                0x24f2ec89: f32 = 0.125
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "MaxHealAmountIncrease"
-                0x24f2ec89: f32 = 0.5
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "HealAmountMin"
-                0x24f2ec89: f32 = 50
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "HealAmountMax"
-                0x24f2ec89: f32 = 100
+                0x19efbfdb: string = "BaseHealAmount"
+                0x24f2ec89: f32 = 60
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -78,45 +56,21 @@ entries: map[hash,embed] = {
                             0x5ee3c453: u8 = 5
                         }
                         0x4914452d: pointer = 0x332eb441 {
-                            0xb386dcf1: hash = 0x19d392bb
+                            0xb386dcf1: hash = 0xd7058286
                         }
                     }
                 }
             }
-            0x950baf20 = 0xbc409284 {
+            0x041fa779 = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
-                    0x84a63373 {
-                        0xa066cc28: list[pointer] = {
-                            0x332eb441 {
-                                0xb386dcf1: hash = 0x488a9ea9
-                            }
-                            0xad106e67 {
-                                0x46144074: pointer = 0x15fecdbc {
-                                    0x1cd7e522: f32 = 1
-                                }
-                                0x4914452d: pointer = 0x84a63373 {
-                                    0xa066cc28: list[pointer] = {
-                                        0x84a63373 {
-                                            0xa066cc28: list[pointer] = {
-                                                0xad106e67 {
-                                                    0x46144074: pointer = 0x332eb441 {
-                                                        0xb386dcf1: hash = 0x488a9ea9
-                                                    }
-                                                    0x4914452d: pointer = 0x9ef92080 {
-                                                        0xe202bca9: f32 = -1
-                                                    }
-                                                }
-                                                0x332eb441 {
-                                                    0xb386dcf1: hash = 0x3a7700e7
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0xc9e0b00d
                     }
                 }
+                0x2c77adff: pointer = 0x332eb441 {
+                    0xb386dcf1: hash = 0xffc4b557
+                }
+                0xd6b7a622: bool = true
             }
         }
         0x5b98619f: f32 = 25

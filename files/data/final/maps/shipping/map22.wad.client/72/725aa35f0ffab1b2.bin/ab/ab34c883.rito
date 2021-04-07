@@ -26,6 +26,14 @@ entries: map[hash,embed] = {
                 0x8d39bde6: string = "Rotation_Speed"
                 0x425ed3ca: vec4 = { 0.05, 0, 0, 0 }
             }
+            0xde480eef {
+                0x8d39bde6: string = "Color_Blend"
+                0x425ed3ca: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Color_Multiply"
+                0x425ed3ca: vec4 = { 1, 1, 1, 0 }
+            }
         }
         0xdd7ddb9d: list[embed] = {
             0x0e2212a1 {
@@ -34,6 +42,10 @@ entries: map[hash,embed] = {
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "TOGGLE_MASK"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_COLOR_BLEND"
                 0x61342fd0: bool = false
             }
         }
