@@ -1,0 +1,17 @@
+sha256: "921b1fa821542d6759df630ee4ed97ccd4437a3e111da3cd8679549072eeaeca"
+checksum: "50b41fc240406bb9"
+kind: "skl"
+skeleton:
+ influences: 5
+ joints:
+  - name: "Vehicle_Main"
+  - name: "Vehicle_Back"
+    parent: "Vehicle_Main"
+  - name: "Vehicle_Front"
+    parent: "Vehicle_Main"
+  - name: "Vehicle_Handle"
+    parent: "Vehicle_Front"
+  - name: "Back_Wheel"
+    parent: "Vehicle_Main"
+  - name: "Front_Wheel"
+    parent: "Vehicle_Main"

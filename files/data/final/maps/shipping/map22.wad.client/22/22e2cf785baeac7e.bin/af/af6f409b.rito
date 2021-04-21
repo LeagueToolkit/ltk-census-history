@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xaf6f409b = 0x60e00531 {
+        0x19efbfdb: string = "5Draconic2Turn"
+        0x0773669d: map[string,pointer] = {
+            "5Draconic2TurnA" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.3
+            }
+            "5Draconic2TurnB" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+            "5Draconic2TurnC" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.4
+            }
+            "5Draconic2TurnD" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

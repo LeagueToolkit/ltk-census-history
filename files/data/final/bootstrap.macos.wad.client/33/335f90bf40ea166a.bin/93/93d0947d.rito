@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x93d0947d = 0xb6f03cdd {
+        0x36f7ed41: u32 = 5007
+        0x4e437187: string = "CDRScaling"
+        0x3a433020: string = "perk_tooltip_StatModCooldownReductionScaling"
+        0x5f2170e9: string = "perk_long_desc_StatModCooldownReductionScaling"
+        0xa1ed05f5: string = "perk_long_desc_StatModCooldownReductionScaling"
+        0x57be823b: string = "ASSETS/Perks/StatMods/StatModsCDRScalingIcon.dds"
+        0x452d5fcb: pointer = 0x1ddec1f2 {
+            0x2c13bd72: string = "ASSETS/Perks/StatMods/StatModCDRScaling.lua"
+            0xa51be889: embed = 0xa4e7a4a2 {
+                0x251a5225: map[hash,f32] = {
+                    0x2273e173 = 8
+                }
+            }
+        }
+    }
+}

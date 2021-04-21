@@ -1,0 +1,206 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3b444edf = 0xb99e7b71 {
+        0xf510291e: link = 0xdd562ce0
+        0xaae01626: embed = 0x6fb8aab5 {
+            0x7c44cff8: embed = 0xe9c1f997 {
+                0xab522155: u16 = 13
+                0x6f5882f3: map[string,embed] = {
+                    "Fresnel_Color" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 2
+                        0x39b1ddf4: u16 = 1
+                    }
+                    "Scroll_Speed" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 9
+                        0x39b1ddf4: u16 = 1
+                    }
+                    "Fresnel_Size" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 4
+                        0x39b1ddf4: u16 = 1
+                    }
+                    "Fresnel_Size2" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 6
+                        0x39b1ddf4: u16 = 1
+                    }
+                    "Fresnel_EdgeThickness" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 5
+                        0x39b1ddf4: u16 = 1
+                    }
+                    "Scroll_Tiling" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 11
+                        0x39b1ddf4: u16 = 1
+                    }
+                    "Panning_Pattern_color" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 8
+                        0x39b1ddf4: u16 = 1
+                    }
+                    "Parameter 1" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 10
+                    }
+                    "Fresnel2_EdgeThickness" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 12
+                        0x39b1ddf4: u16 = 1
+                    }
+                }
+                0xea57bf12: string = "Parameter "
+                0xd872e2a5: map[u16,embed] = {
+                    10 = 0x53df6397 {}
+                    2 = 0x53df6397 {
+                        0x5127f14d: u8 = 2
+                        0x0617e21f: vec4 = { 1, 1, 1, 1 }
+                    }
+                    4 = 0x53df6397 {
+                        0x5127f14d: u8 = 0
+                        0x0617e21f: vec4 = { 1, 0, 0, 1 }
+                    }
+                    5 = 0x53df6397 {
+                        0x5127f14d: u8 = 0
+                    }
+                    6 = 0x53df6397 {
+                        0x5127f14d: u8 = 0
+                        0x0617e21f: vec4 = { 1, 0, 0, 1 }
+                    }
+                    8 = 0x53df6397 {
+                        0x0617e21f: vec4 = { 0.8399939, 0.7100023, 0.42000458, 1 }
+                    }
+                    9 = 0x53df6397 {
+                        0x5127f14d: u8 = 1
+                        0x0617e21f: vec4 = { -2, 0, 0, 1 }
+                    }
+                    11 = 0x53df6397 {
+                        0x5127f14d: u8 = 1
+                        0x0617e21f: vec4 = { 1, 1, 0, 1 }
+                    }
+                    12 = 0x53df6397 {
+                        0x5127f14d: u8 = 0
+                    }
+                }
+            }
+            0xe502c1dc: embed = 0x684e7d3b {
+                0xab522155: u16 = 4
+                0x6f5882f3: map[string,embed] = {
+                    "Texture 1" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 2
+                    }
+                    "Diffuse_Texture" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 1
+                        0x39b1ddf4: u16 = 1
+                    }
+                    "Mask_Texture" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 3
+                        0x39b1ddf4: u16 = 2
+                    }
+                }
+                0xea57bf12: string = "Texture "
+                0xd872e2a5: map[u16,embed] = {
+                    1 = 0xe1fcfd23 {
+                        0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
+                    }
+                    2 = 0xe1fcfd23 {}
+                    3 = 0xe1fcfd23 {
+                        0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
+                    }
+                }
+            }
+            0xa2054c01: embed = 0xb77bfdb8 {
+                0xab522155: u16 = 4
+                0x6f5882f3: map[string,embed] = {
+                    "STATIC_SWITCH_0" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 3
+                    }
+                    "INVERT_FRESNEL" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 2
+                        0x39b1ddf4: u16 = 1
+                    }
+                }
+                0xea57bf12: string = "STATIC_SWITCH_"
+                0xd872e2a5: map[u16,embed] = {
+                    2 = 0x4f258a74 {}
+                    3 = 0x4f258a74 {}
+                }
+            }
+        }
+        0x1d369c29: string = "Shaders/SkinnedMesh/Diffuse_Panning_Fresnel_Blended_Layer"
+        0x48a52ed9: list[embed] = {
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter0"
+                0xd872e2a5: vec4 = { 0.8399939, 0.7100023, 0.42000458, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Panning_Pattern_color"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter1"
+                0xd872e2a5: vec4 = { 1, 0, 1, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel_Size2"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel2_EdgeThickness"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel_Size"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel_EdgeThickness"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { 1, 1, 1, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel_Color"
+                        0x0640657c: u32 = 7
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter3"
+                0xd872e2a5: vec4 = { 1, 1, -2, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Scroll_Tiling"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Scroll_Speed"
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+        }
+        0x3291437b: list[embed] = {
+            0x60a292e6 {
+                0x8d39bde6: string = "INVERT_FRESNEL"
+                0xaae99956: bool = true
+            }
+        }
+        0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "Texture1"
+                0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Texture3"
+                0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
+            }
+        }
+        0xae29287b: map[string,string] = {
+            "FEATURE_WORLD_NORMAL" = "1"
+            "FEATURE_WORLD_POSITION" = "1"
+        }
+    }
+}

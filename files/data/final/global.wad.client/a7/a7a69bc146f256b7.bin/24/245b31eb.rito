@@ -5,6 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x245b31eb = 0x244c26e6 {
         0x74d44065: string = "Item_7004_Name"
+        0x40244883: string = "Ornn"
         0x13bddc7b: i32 = 7004
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
@@ -56,7 +57,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MonsterMod"
-                0x24f2ec89: f32 = 1
+                0x24f2ec89: f32 = 1.5
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "AuraDuration"
@@ -119,6 +120,9 @@ entries: map[hash,embed] = {
             "Aura"
             "CooldownReduction"
             "AbilityHaste"
+        }
+        0x57c6c7d0: embed = 0xc03becd9 {
+            0x5d7d4fb0: bool = true
         }
         0x57558bca: list[u8] = {
             8

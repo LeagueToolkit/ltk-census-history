@@ -1,0 +1,37 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x55505b64 = 0x60e00531 {
+        0x19efbfdb: string = "TFTTURBOPlayerDamageBase"
+        0x0773669d: map[string,pointer] = {
+            "PlayerDamageStage1" = 0x4012fd7e {}
+            "PlayerDamageStage2" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+            "PlayerDamageStage3" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+            "PlayerDamageStage4" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+            "PlayerDamageStage5" = 0x4012fd7e {
+                0x24f2ec89: i32 = 4
+            }
+            "PlayerDamageStage6" = 0x4012fd7e {
+                0x24f2ec89: i32 = 4
+            }
+            "PlayerDamageStage7" = 0x4012fd7e {
+                0x24f2ec89: i32 = 4
+            }
+            "PlayerDamageStage8" = 0x4012fd7e {
+                0x24f2ec89: i32 = 6
+            }
+            "PlayerDamageStage9" = 0x4012fd7e {
+                0x24f2ec89: i32 = 6
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
