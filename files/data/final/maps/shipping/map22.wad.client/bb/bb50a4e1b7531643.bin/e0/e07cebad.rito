@@ -9,41 +9,12 @@ entries: map[hash,embed] = {
             0xecf3f88d: u32 = 9217
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
-                    0x19efbfdb: string = "ShieldAmount"
+                    0x19efbfdb: string = "AbilityPowerBonus"
                     0x246b0d8e: list[f32] = {
                         0
-                        600
-                        900
-                        3000
-                        0
-                        0
-                        0
-                    }
-                    0x3f95426c: bool = false
-                    0x6d3ccfd7: f32 = 100
-                    0xe7b832f2: string = "P + 100"
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "ShieldDuration"
-                    0x246b0d8e: list[f32] = {
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                    }
-                    0x6d3ccfd7: f32 = 4
-                    0xe7b832f2: string = "P"
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "AbilityPowerPercent"
-                    0x246b0d8e: list[f32] = {
-                        0
-                        0.5
-                        0.75
-                        3
+                        100
+                        150
+                        300
                         0
                         0
                         0
@@ -78,30 +49,17 @@ entries: map[hash,embed] = {
                 }
             }
             0x94572284: map[hash,pointer] = {
-                0x33dad32f = 0xbc409284 {
+                0xf2845fa0 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x995bf516 {
                             0x1cd83c4b: pointer = 0x332eb441 {
-                                0xb386dcf1: hash = 0x40ee74ec
+                                0xb386dcf1: hash = 0x2b7760d5
                             }
                             0xb8dcfcbb: f32 = 0.01
                             0x992cd7eb: string = "noScale"
                             0xa5749b52: string = "scaleAP"
                         }
                     }
-                }
-                0xc5cd35fe = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x995bf516 {
-                            0x1cd83c4b: pointer = 0x332eb441 {
-                                0xb386dcf1: hash = 0xb8e3e5e3
-                            }
-                            0xb8dcfcbb: f32 = 0.01
-                            0x992cd7eb: string = "noScale"
-                            0xa5749b52: string = "scaleAP"
-                        }
-                    }
-                    0x5a2297d3: bool = true
                 }
             }
             0xfbd16fb5: string = "Spell3"
@@ -181,14 +139,8 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_TFT5_IvernR_DaisyHealth"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "ShieldAmount"
-                                    0x566f3406: string = "Spell_ListType_Shield"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "AbilityPowerPercent"
-                                    0xf506c7e6: f32 = 100
+                                    0x5127f14d: string = "AbilityPowerBonus"
                                     0x566f3406: string = "Spell_ListType_TFT5_IvernR_AbilityPowerGrant"
-                                    0xac307ed6: u32 = 1
                                 }
                             }
                         }

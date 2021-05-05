@@ -1,0 +1,26 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x0402244c = 0xe77e04da {
+        0x8d39bde6: string = "Characters/Camille/Skins/Skin17/Materials/Camille_Arcana_Scrolling_Submesh"
+        0x8f4a2881: link = 0x2d2a87bf
+        0x215f6853: map[u16,embed] = {
+            13 = 0x5934419f {
+                0x425ed3ca: vec4 = { 0.2, 0, 0, 1 }
+            }
+            3 = 0x5934419f {
+                0x425ed3ca: vec4 = { 1, 1, 0, 1 }
+            }
+            5 = 0x5934419f {
+                0x425ed3ca: vec4 = { 0, -0.05, 0, 1 }
+            }
+        }
+        0x99108c85: map[u16,embed] = {
+            1 = 0x4dcdc8c1 {
+                0xf0a363e3: string = "ASSETS/Characters/Camille/skins/Skin17/Particles/Camille_Skin17_Patterns_Mask.Chroma_Camille_Arcana.dds"
+            }
+        }
+    }
+}

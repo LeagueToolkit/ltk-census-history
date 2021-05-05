@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x02050794 = 0xe77e04da {
+        0x8d39bde6: string = "Characters/Lucian/Skins/Skin34/Materials/lucian_Skln31_scrolling_pattern"
+        0x8f4a2881: link = 0x2d2a87bf
+        0x215f6853: map[u16,embed] = {
+            5 = 0x5934419f {
+                0x425ed3ca: vec4 = { 0, 0.1, 0, 1 }
+            }
+            13 = 0x5934419f {
+                0x425ed3ca: vec4 = { 0.5, 0, 0, 1 }
+            }
+        }
+        0x99108c85: map[u16,embed] = {
+            1 = 0x4dcdc8c1 {
+                0xf0a363e3: string = "ASSETS/Characters/Lucian/Skins/Skin34/Lucian_Skin34_Patten_TX_CM.Chroma_Lucian_Arcana.dds"
+            }
+        }
+    }
+}
