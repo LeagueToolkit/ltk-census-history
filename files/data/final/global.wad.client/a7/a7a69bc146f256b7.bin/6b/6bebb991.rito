@@ -40,19 +40,37 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ASPDSlow"
-                0x24f2ec89: f32 = -0.15
+                0x24f2ec89: f32 = -0.2
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "AuraRadius"
                 0x24f2ec89: f32 = 700
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "BlockBase"
+                0x24f2ec89: f32 = 7
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "BlockPerThousand"
+                0x24f2ec89: f32 = 3.5
+            }
         }
         0x0ac4f0d5: map[hash,pointer] = {
             0x36480dc9 = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
-                    0x5f5c70a4 {
-                        0xb386dcf1: hash = 0x1ba6bd60
-                        0x4cec2c8a: u8 = 10
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0xe2e5893f
+                    }
+                    0xcd156c7f {
+                        0x1cd83c4b: pointer = 0xad106e67 {
+                            0x46144074: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0x60b71a2f
+                            }
+                            0x4914452d: pointer = 0x9ef92080 {
+                                0xe202bca9: f32 = 0.001
+                            }
+                        }
+                        0x4cec2c8a: u8 = 11
                     }
                 }
             }
@@ -85,6 +103,7 @@ entries: map[hash,embed] = {
                     "keyTooltip" = "Item_3110_Tooltip"
                     "keyTooltipExternal" = "Item_3110_TooltipExternal"
                     "keyColloquialism" = "Item_3110_Colloquialism"
+                    "keyInventoryOnlyText" = "Item_RockSolid_DamageBlocked"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {

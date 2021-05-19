@@ -1,0 +1,80 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xdbb1bb79 = 0xff9d3409 {
+        0x8d39bde6: string = "Characters/Varus/Skins/Skin25/Materials/Diffuse_Bloom_X4_Channel_inst"
+        0x28da4278: string = "normal"
+        0x0a6f0eb5: list[embed] = {
+            0x0904b150 {
+                0x02e7fb4c: string = "Diffuse_Texture"
+                0xb311d4ef: string = "ASSETS/Characters/Varus/Skins/Skin25/Varus_Skin25_TX_CM.Chroma_Varus_Project.dds"
+                0x111ec6d2: u32 = 1
+                0x101ec53f: u32 = 1
+                0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
+                0x02e7fb4c: string = "Bloom_Mask"
+                0xb311d4ef: string = "ASSETS/Characters/Varus/Skins/Skin16/Particles/Varus_Skin16_Idle_GlowMask.PIE_C_11_11.dds"
+                0x111ec6d2: u32 = 1
+                0x101ec53f: u32 = 1
+                0x0f1ec3ac: u32 = 1
+            }
+        }
+        0xd0ab46b8: list[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "Bloom_Intensity"
+                0x425ed3ca: vec4 = { 1.75, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Channel_R"
+                0x425ed3ca: vec4 = { 1, 0.2, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Channel_G"
+                0x425ed3ca: vec4 = { 0.53333336, 0, 0.6666667, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Channel_B"
+                0x425ed3ca: vec4 = { 0, 0, 0.67, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Channel_A"
+            }
+        }
+        0xdd7ddb9d: list[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_ALPHA"
+                0x61342fd0: bool = false
+            }
+        }
+        0xe6d67ded: map[string,string] = {
+            "NUM_BLEND_WEIGHTS" = "4"
+        }
+        0x844f384e: list[embed] = {
+            0x060a4413 {
+                0x8d39bde6: string = "normal"
+                0x623cd25c: list[embed] = {
+                    0x8537d0c2 {
+                        0x355d5568: link = 0x25906983
+                        0x23b75597: bool = true
+                        0x22c0c7d0: u32 = 6
+                        0xa0958d01: u32 = 6
+                        0xbe0abbf5: u32 = 7
+                        0x7385e534: u32 = 7
+                    }
+                }
+            }
+        }
+        0x9330e6b6: list[embed] = {
+            0x735b4c95 {
+                0x8d39bde6: string = "transition"
+                0xb696a5fe: string = "normal"
+                0xe6d67ded: map[string,string] = {
+                    "TRANSITION" = "1"
+                }
+            }
+        }
+    }
+}

@@ -11,61 +11,9 @@ entries: map[hash,embed] = {
             0x3e1edbdb: list[string] = {
                 "Trait_AttackReset"
             }
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        45
-                        45
-                        55
-                        65
-                        75
-                        85
-                        95
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.09
-                        0.09
-                        0.1
-                        0.11
-                        0.12
-                        0.13
-                        0.14
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        6
-                        6
-                        6
-                        6
-                        6
-                        6
-                        6
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        20
-                        30
-                        40
-                        50
-                        60
-                        70
-                        80
-                    }
-                }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-            }
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
-                    0x19efbfdb: string = "BaseShield"
+                    0x19efbfdb: string = "ShieldBase"
                     0x246b0d8e: list[f32] = {
                         35
                         45
@@ -79,7 +27,7 @@ entries: map[hash,embed] = {
                     0xe7b832f2: string = "P + 10"
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "HealthPercent"
+                    0x19efbfdb: string = "ShieldHealthRatio"
                     0x246b0d8e: list[f32] = {
                         0.08
                         0.09
@@ -106,7 +54,7 @@ entries: map[hash,embed] = {
                     0x6d3ccfd7: f32 = 6
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "DotDamage"
+                    0x19efbfdb: string = "DotDamageBase"
                     0x246b0d8e: list[f32] = {
                         20
                         30
@@ -119,30 +67,41 @@ entries: map[hash,embed] = {
                     0x6d3ccfd7: f32 = 20
                     0xe7b832f2: string = "P + 10"
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "DotDamageAPRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                    }
+                    0x6d3ccfd7: f32 = 0.2
+                }
             }
             0x94572284: map[hash,pointer] = {
-                0xf04d571a = 0xbc409284 {
+                0x08d03268 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
-                            0xb386dcf1: hash = 0x6b321491
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.2
-                        }
-                    }
-                    0xd6b7a622: bool = true
-                }
-                0x280d0392 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0xa8c1dce1
+                            0xb386dcf1: hash = 0x880b6b9c
                         }
                         0x5f5c70a4 {
-                            0xb386dcf1: hash = 0x7fd0bc64
-                            0x4cec2c8a: u8 = 10
+                            0xb386dcf1: hash = 0xcabcc653
                         }
                     }
-                    0xd6b7a622: bool = true
+                }
+                0xc4fbf5ad = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x0c2eb095
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xeaf24fcd
+                            0x4cec2c8a: u8 = 11
+                        }
+                    }
                 }
             }
             0x295c2889: f32 = 0.4
@@ -237,16 +196,16 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "BaseShield"
+                                    0x5127f14d: string = "ShieldBase"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_ShieldAmount"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "DotDamage"
+                                    0x5127f14d: string = "DotDamageBase"
                                     0x566f3406: string = "Spell_ListType_BonusMagicDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "HealthPercent"
+                                    0x5127f14d: string = "ShieldHealthRatio"
                                     0x33c02d93: i32 = 2
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_PercentMaxHealth"
