@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb3ce626d = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_SHADOWCOMPONENT_NOSPAT"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT5_Item_BFSwordShadow"
+                    "TFT5_Item_ChainVestShadow"
+                    "TFT5_Item_TearOfTheGoddessShadow"
+                    "TFT5_Item_SparringGlovesShadow"
+                    "TFT5_Item_RecurveBowShadow"
+                    "TFT5_Item_NegatronCloakShadow"
+                    "TFT5_Item_NeedlesslyLargeRodShadow"
+                    "TFT5_Item_GiantsBeltShadow"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

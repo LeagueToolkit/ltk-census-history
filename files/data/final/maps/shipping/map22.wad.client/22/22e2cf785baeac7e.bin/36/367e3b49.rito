@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x367e3b49 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_SPECIALITEMS_SET5"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Item_Spatula"
+                    "TFT5_Item_SpatulaShadow"
+                    "TFT_Consumable_NeekosHelp"
+                    "TFT_Consumable_ItemRemover"
+                    "TFT_Consumable_ItemReroller"
+                    "TFT_Consumable_ShopReroller"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
