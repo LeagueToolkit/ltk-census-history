@@ -25,6 +25,47 @@ entries: map[hash,embed] = {
                 "Trait_SummonerSmite"
                 "Trait_SummonerSpell"
             }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "MonsterDamage"
+                    0x246b0d8e: list[f32] = {
+                        900
+                        900
+                        900
+                        900
+                        900
+                        900
+                        900
+                    }
+                    0x6d3ccfd7: f32 = 900
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MinionDamageFlat"
+                    0x246b0d8e: list[f32] = {
+                        500
+                        500
+                        500
+                        500
+                        500
+                        500
+                        500
+                    }
+                    0x6d3ccfd7: f32 = 500
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MinionDamagePercentHealth"
+                    0x246b0d8e: list[f32] = {
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                    }
+                    0x6d3ccfd7: f32 = 0.1
+                }
+            }
             0xfbd16fb5: string = "Idle1"
             0xeed67cd5: list[string] = {
                 "Smite_Red.dds"
@@ -109,7 +150,6 @@ entries: map[hash,embed] = {
                     0x57b8b11b: link = 0x3002ad7c
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Spell_SummonerSmiteDuel_Name"
-                        "keySummary" = "Spell_SummonerSmite_Summary"
                         "keyTooltip" = "Spell_SummonerSmiteDuel_Tooltip"
                     }
                 }

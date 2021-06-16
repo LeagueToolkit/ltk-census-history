@@ -12,29 +12,41 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "DodgeChance"
                     0x246b0d8e: list[f32] = {
                         0
-                        30
-                        40
-                        50
+                        45
+                        45
+                        45
                         45
                         45
                         45
                     }
-                    0x3f95426c: bool = false
                     0xe7b832f2: string = "45"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "Damage"
                     0x246b0d8e: list[f32] = {
                         0
-                        120
-                        180
-                        450
+                        200
+                        300
+                        600
                         0
                         0
                         0
                     }
                     0x3f95426c: bool = false
                     0xe7b832f2: string = "P + 0"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "AttackSpeedPercent"
+                    0x246b0d8e: list[f32] = {
+                        30
+                        40
+                        50
+                        75
+                        110
+                        0
+                        0
+                    }
+                    0x3f95426c: bool = false
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -81,8 +93,8 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "DodgeChance"
-                                    0x566f3406: string = "Spell_ListType_DodgeChance"
+                                    0x5127f14d: string = "AttackSpeedPercent"
+                                    0x566f3406: string = "Spell_ListType_AttackSpeed%"
                                     0xac307ed6: u32 = 1
                                 }
                             }

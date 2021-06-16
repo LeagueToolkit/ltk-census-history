@@ -17,15 +17,6 @@ entries: map[hash,embed] = {
             }
             0xf8f29f92: list[embed] = {
                 0xa4416515 {
-                    0x8d39bde6: string = "Nami_Base_VO"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Nami/Skins/Base/Nami_Base_VO_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Nami/Skins/Base/Nami_Base_VO_events.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Nami/Skins/Base/Nami_Base_VO_audio.wpk"
-                    }
-                    0x3b13aa4b: bool = true
-                }
-                0xa4416515 {
                     0x8d39bde6: string = "Nami_Skin07_VO"
                     0x2a21ad00: list[string] = {
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Nami/Skins/Skin07/Nami_Skin07_VO_audio.bnk"
@@ -49,13 +40,6 @@ entries: map[hash,embed] = {
                     0x3b13aa4b: bool = true
                 }
                 0xa4416515 {
-                    0x8d39bde6: string = "Nami_Base_SFX"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Nami/Skins/Base/Nami_Base_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Nami/Skins/Base/Nami_Base_SFX_events.bnk"
-                    }
-                }
-                0xa4416515 {
                     0x8d39bde6: string = "Nami_Skin07_SFX"
                     0x2a21ad00: list[string] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Nami/Skins/Skin07/Nami_Skin07_SFX_audio.bnk"
@@ -66,17 +50,24 @@ entries: map[hash,embed] = {
                         "Play_sfx_NamiSkin07_Death3D_cast"
                         "Play_sfx_NamiSkin07_Joke3D_buffactivate"
                         "Play_sfx_NamiSkin07_Laugh3D_buffactivate"
+                        "Play_sfx_NamiSkin07_NamiBasicAttack2_OnCast"
+                        "Play_sfx_NamiSkin07_NamiBasicAttack2_OnHit"
+                        "Play_sfx_NamiSkin07_NamiBasicAttack2_OnMissileLaunch"
+                        "Play_sfx_NamiSkin07_NamiBasicAttack_OnCast"
+                        "Play_sfx_NamiSkin07_NamiBasicAttack_OnHit"
+                        "Play_sfx_NamiSkin07_NamiBasicAttack_OnMissileLaunch"
+                        "Play_sfx_NamiSkin07_NamiCritAttack_OnCast"
+                        "Play_sfx_NamiSkin07_NamiCritAttack_OnHit"
+                        "Play_sfx_NamiSkin07_NamiCritAttack_OnMissileLaunch"
                         "Play_sfx_NamiSkin07_NamiE_hit"
                         "Play_sfx_NamiSkin07_NamiE_OnBuffActivate"
                         "Play_sfx_NamiSkin07_NamiE_OnBuffDeactivate"
                         "Play_sfx_NamiSkin07_NamiE_OnHit"
-                        "Play_sfx_NamiSkin07_NamiPassiveDebuff_buffactivate"
                         "Play_sfx_NamiSkin07_NamiQ_hit"
                         "Play_sfx_NamiSkin07_NamiQ_OnCast"
                         "Play_sfx_NamiSkin07_NamiQDebuff_OnBuffActivate"
                         "Play_sfx_NamiSkin07_NamiQDebuff_OnBuffDeactivate"
                         "Play_sfx_NamiSkin07_NamiQMissile_buffactivate"
-                        "Play_sfx_NamiSkin07_NamiQMissile_OnHit"
                         "Play_sfx_NamiSkin07_NamiQMissile_OnMissileCast"
                         "Play_sfx_NamiSkin07_NamiQMissile_OnMissileLaunch"
                         "Play_sfx_NamiSkin07_NamiR_missilelaunch"
@@ -87,13 +78,15 @@ entries: map[hash,embed] = {
                         "Play_sfx_NamiSkin07_NamiW_OnCast"
                         "Play_sfx_NamiSkin07_NamiWMissileAlly_hit"
                         "Play_sfx_NamiSkin07_NamiWMissileAlly_missilelaunch"
-                        "Play_sfx_NamiSkin07_Recall_buffactivate"
+                        "Play_sfx_NamiSkin07_Recall3D_buffactivate"
                         "Play_sfx_NamiSkin07_Taunt3D_buffactivate"
                         "Stop_sfx_NamiSkin07_Dance3D_buffactivate"
                         "Stop_sfx_NamiSkin07_Joke3D_buffactivate"
+                        "Stop_sfx_NamiSkin07_NamiBasicAttack2_OnMissileLaunch"
+                        "Stop_sfx_NamiSkin07_NamiBasicAttack_OnMissileLaunch"
+                        "Stop_sfx_NamiSkin07_NamiCritAttack_OnMissileLaunch"
                         "Stop_sfx_NamiSkin07_NamiE_OnBuffActivate"
                         "Stop_sfx_NamiSkin07_NamiE_OnBuffDeactivate"
-                        "Stop_sfx_NamiSkin07_NamiPassiveDebuff_buffactivate"
                         "Stop_sfx_NamiSkin07_NamiQ_hit"
                         "Stop_sfx_NamiSkin07_NamiQDebuff_OnBuffActivate"
                         "Stop_sfx_NamiSkin07_NamiQDebuff_OnBuffDeactivate"
@@ -106,6 +99,7 @@ entries: map[hash,embed] = {
                         "Stop_sfx_NamiSkin07_NamiW_missilelaunch"
                         "Stop_sfx_NamiSkin07_NamiWMissileAlly_hit"
                         "Stop_sfx_NamiSkin07_NamiWMissileAlly_missilelaunch"
+                        "Stop_sfx_NamiSkin07_Recall3D_buffactivate"
                         "Stop_sfx_NamiSkin07_Taunt3D_buffactivate"
                     }
                 }
