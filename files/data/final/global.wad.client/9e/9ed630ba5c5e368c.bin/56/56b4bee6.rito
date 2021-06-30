@@ -1,0 +1,17 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x56b4bee6 = 0x3ba29588 {
+        0x19efbfdb: string = "SkillsSumsCooldown"
+        0x41a8f652: pointer = 0x141c2ec1 {
+            0x74d44065: string = "Skills Sums Cooldown"
+            0xee900fd3: string = "<titleLeft>Refresh Cooldowns</titleLeft><titleRight>@Hotkey@</titleRight><mainText>Resets the skills and summoner spell cooldowns of the target.</mainText>"
+            0xbbe19802: string = "evtCheatSkillsSumsCooldown"
+            0x3522f9e3: list[string] = {
+                "evtCheatSkillsSumsCooldown"
+            }
+        }
+    }
+}

@@ -27,14 +27,15 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BaseZoneDamage"
                     0x246b0d8e: list[f32] = {
-                        0
-                        125
-                        250
-                        375
-                        500
-                        625
-                        750
+                        100
+                        225
+                        350
+                        475
+                        600
+                        725
+                        850
                     }
+                    0x6d3ccfd7: f32 = 100
                     0xe7b832f2: string = "P + 125"
                 }
                 0x005008a6 {
@@ -88,6 +89,21 @@ entries: map[hash,embed] = {
                         2.5
                     }
                     0xe7b832f2: string = "2.5"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "CooldownAmount"
+                    0x246b0d8e: list[f32] = {
+                        0
+                        0.5
+                        1.5
+                        2.5
+                        3.5
+                        4.5
+                        5.5
+                    }
+                    0x3f95426c: bool = false
+                    0x6d3ccfd7: f32 = -0.5
+                    0xe7b832f2: string = "P + 1"
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -240,6 +256,10 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"
                                     0x566f3406: string = "Spell_ListType_Cooldown"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "CooldownAmount"
+                                    0x566f3406: string = "Spell_ListType_BasicHaste"
                                 }
                             }
                         }

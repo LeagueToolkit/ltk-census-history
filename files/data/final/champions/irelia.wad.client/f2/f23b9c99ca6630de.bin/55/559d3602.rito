@@ -30,28 +30,14 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "DashSpeedBonus"
                     0x246b0d8e: list[f32] = {
                         0
-                        1500
-                        1500
-                        1500
-                        1500
-                        1500
-                        1500
+                        1400
+                        1400
+                        1400
+                        1400
+                        1400
+                        1400
                     }
-                    0xe7b832f2: string = "1500"
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "DamageBonusPVE"
-                    0x246b0d8e: list[f32] = {
-                        35
-                        55
-                        75
-                        95
-                        115
-                        135
-                        155
-                    }
-                    0x6d3ccfd7: f32 = 35
-                    0xe7b832f2: string = "P + 20"
+                    0xe7b832f2: string = "1400"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "HealTADCoefficient"
@@ -90,8 +76,9 @@ entries: map[hash,embed] = {
                             0x295c2889: f32 = 0.6
                             0x4cec2c8a: u8 = 2
                         }
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0xfe409784
+                        0x5cf69ece {
+                            0xad62f672: f32 = 55
+                            0x02deb550: f32 = 12
                         }
                     }
                     0xcbcac618: u8 = 6
@@ -135,22 +122,22 @@ entries: map[hash,embed] = {
             0x4e47141f: f32 = 7
             0x165e061e: f32 = 0
             0x1a2c7c10: list[i32] = {
-                0
-                0
-                0
-                0
-                0
-                0
-                0
-                0
-                0
-                0
-                0
-                0
-                0
-                0
-                0
-                0
+                -1
+                -1
+                -1
+                -1
+                -1
+                -1
+                -1
+                -1
+                -1
+                -1
+                -1
+                -1
+                -1
+                -1
+                -1
+                -1
             }
             0xd997830a: list[f32] = {
                 20
@@ -174,6 +161,7 @@ entries: map[hash,embed] = {
                         "keySummary" = "Spell_IreliaQ_Summary"
                         "keyTooltip" = "Spell_IreliaQ_Tooltip"
                         "keyTooltipExtendedBelowLine" = "Spell_IreliaQ_TooltipExtendedBelowLine"
+                        "keyCooldown" = "Spell_YasuoQ1Wrapper_Cooldown"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
@@ -188,11 +176,8 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_Cooldown"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "DamageBonusPVE"
-                                    0x566f3406: string = "Spell_IreliaQ_BonusMinionDamage"
-                                }
-                                0x9a1b3505 {
                                     0x5127f14d: string = "HealTADCoefficient"
+                                    0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_IreliaQ_HealADRatio"
                                     0xac307ed6: u32 = 1
                                 }

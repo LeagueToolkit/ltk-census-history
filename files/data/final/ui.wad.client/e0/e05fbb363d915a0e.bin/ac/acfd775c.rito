@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xacfd775c = 0x6d6cc142 {
+        0x3ca16daf: hash = 0x7b5a7518
+        0xbe8b277c: hash = 0x8afae341
+        0x6eab4784: hash = 0x978a5739
+        0xb80b3198: map[string,hash] = {
+            "IRON" = 0x07b6c809
+            "BRONZE" = 0x44514cbf
+            "SILVER" = 0x3d0febb6
+            "GOLD" = 0x88d6636d
+            "PLATINUM" = 0x1c1afa9b
+            "DIAMOND" = 0x99227f7d
+            "MASTER" = 0x24ead715
+            "GRANDMASTER" = 0x8cd363dd
+            "CHALLENGER" = 0x842de4d6
+        }
+    }
+}

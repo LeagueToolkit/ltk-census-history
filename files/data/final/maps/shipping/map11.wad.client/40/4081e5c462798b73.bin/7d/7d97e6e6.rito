@@ -1,0 +1,19 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x7d97e6e6 = 0xcd19ef3c {
+        0x960efd81: string = "Maps/MapGeometry/SR/UltBook"
+        0x42fcf599: embed = 0x2acfe5ae {
+            0xfe66e5ff: string = "2DLevelMiniMap_SRX_Infernal.dds"
+        }
+        0xe1281da0: string = "ObjectCFG_UltBook.cfg"
+        0x63242493: string = "AIPath_SRX.aimesh_ngrid"
+        0x9e14bd6f: string = "Particles_SRX.ini"
+        0xbac3a0fa: string = "GrassTint_UltBook.dds"
+        0x92a53e77: list[link] = {
+            0x20f31a3c
+        }
+    }
+}
