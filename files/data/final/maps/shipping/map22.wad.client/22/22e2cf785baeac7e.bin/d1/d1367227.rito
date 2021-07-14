@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd1367227 = 0x60e00531 {
+        0x19efbfdb: string = "Set5_Stage2_Personality_CavalierSpellweaver"
+        0x0773669d: map[string,pointer] = {
+            "Set5_Cavalier" = 0x977517c6 {
+                0x24f2ec89: f32 = 4
+            }
+            "Set5_Spellweaver" = 0x977517c6 {
+                0x24f2ec89: f32 = 3
+            }
+            "TFT5_Thresh" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+            "TFT5_Syndra" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+        }
+        0x9be36761: link = 0xcdf052ff
+    }
+}

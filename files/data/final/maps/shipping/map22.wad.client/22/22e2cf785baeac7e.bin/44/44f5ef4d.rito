@@ -1,0 +1,18 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x44f5ef4d = 0x60e00531 {
+        0x19efbfdb: string = "Set5_Stage2_Personality_SentinelCannoneer"
+        0x0773669d: map[string,pointer] = {
+            "Set5_Sentinel" = 0x977517c6 {
+                0x24f2ec89: f32 = 4
+            }
+            "Set5_Cannoneer" = 0x977517c6 {
+                0x24f2ec89: f32 = 3
+            }
+        }
+        0x9be36761: link = 0xcdf052ff
+    }
+}
