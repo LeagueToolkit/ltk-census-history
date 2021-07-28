@@ -73,30 +73,36 @@ entries: map[hash,embed] = {
                 0x19efbfdb: string = "TempPercentOmnivampMod"
                 0x24f2ec89: f32 = 0.1
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "BaseShield"
+                0x24f2ec89: f32 = 180
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ShieldADRatio"
+                0x24f2ec89: f32 = 0.4
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "RangedShieldMod"
+                0x24f2ec89: f32 = 0.5
+            }
         }
         0x0ac4f0d5: map[hash,pointer] = {
             0xe5c634ce = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
-                    0x9ef92080 {
-                        0xe202bca9: f32 = 180
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0xa8c1dce1
                     }
-                    0x5815b0a9 {
-                        0x295c2889: f32 = 0.4
+                    0x5f5c70a4 {
+                        0xb386dcf1: hash = 0xec4c2f64
                         0x4cec2c8a: u8 = 2
                         0x7d3150ec: u8 = 2
                     }
                 }
             }
-            0x3b00d8b1 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x9ef92080 {
-                        0xe202bca9: f32 = 90
-                    }
-                    0x5815b0a9 {
-                        0x295c2889: f32 = 0.2
-                        0x4cec2c8a: u8 = 2
-                        0x7d3150ec: u8 = 2
-                    }
+            0x3b00d8b1 = 0x070e3593 {
+                0x7f93cf4e: hash = 0xe5c634ce
+                0x2c77adff: pointer = 0x332eb441 {
+                    0xb386dcf1: hash = 0xb318dfcd
                 }
             }
             0x56b3f555 = 0xbc409284 {
@@ -133,9 +139,6 @@ entries: map[hash,embed] = {
             "SpellVamp"
             "NonbootsMovement"
             "ArmorPenetration"
-        }
-        0x57c6c7d0: embed = 0xc03becd9 {
-            0x5d7d4fb0: bool = true
         }
         0x57558bca: list[u8] = {
             4
