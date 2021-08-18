@@ -4,7 +4,7 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x0fd7c485 = 0xcf313c24 {
-        0x5192c999: f32 = 9
+        0x5192c999: f32 = 15
         0x6f5eb901: map[hash,embed] = {
             0x12771576 = 0xfc27a63e {
                 0x1a116faf: list[embed] = {
@@ -22,7 +22,7 @@ entries: map[hash,embed] = {
                     0x22d0ac10 {
                         0xfecc56e5: string = "RecallLeadIn3D"
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "RecallLeadIn3D"
+                            0xc0a5d6dd: string = "Recall3DGeneral"
                         }
                         0x68fee3c4: bool = true
                     }
@@ -398,6 +398,26 @@ entries: map[hash,embed] = {
             }
             0x77b416b1 = 0xfc27a63e {
                 0x1a116faf: list[embed] = {
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "EnterDisguise2DDrMundo"
+                        0x2aff6c4a: list[pointer] = {
+                            0xa2c49ab2 {
+                                0xf3e8e24f: u8 = 1
+                                0xf21bb0f8: list[pointer] = {
+                                    0xdefcc579 {
+                                        0xd6da506c: list[hash] = {
+                                            0xd4dbdc4a
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "EnterDisguise2DMonster"
+                            0x307b0406: u32 = 1
+                        }
+                        0x68fee3c4: bool = true
+                    }
                     0x22d0ac10 {
                         0xfecc56e5: string = "EnterDisguise2DGraves"
                         0x2aff6c4a: list[pointer] = {
@@ -819,42 +839,6 @@ entries: map[hash,embed] = {
                         0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "EnterDisguise2DFemaleChampion"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 1
-                                0xf21bb0f8: list[pointer] = {
-                                    0x95a7d707 {
-                                        0x8e257510: string = "gender"
-                                        0x7e0dca60: string = "female"
-                                    }
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "EnterDisguise2DFemaleChampion"
-                            0x307b0406: u32 = 2
-                        }
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "EnterDisquise2DMaleChampion"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 1
-                                0xf21bb0f8: list[pointer] = {
-                                    0x95a7d707 {
-                                        0x8e257510: string = "gender"
-                                        0x7e0dca60: string = "male"
-                                    }
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "EnterDisguise2DMaleChampion"
-                            0x307b0406: u32 = 2
-                        }
-                    }
-                    0x22d0ac10 {
                         0xfecc56e5: string = "EnterDisguise2DVastaya"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
@@ -871,6 +855,7 @@ entries: map[hash,embed] = {
                             0xc0a5d6dd: string = "EnterDisguise2DVastaya"
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "EnterDisguise2DUndead"
@@ -889,24 +874,7 @@ entries: map[hash,embed] = {
                             0xc0a5d6dd: string = "EnterDisguise2DUndead"
                             0x307b0406: u32 = 2
                         }
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "EnterDisguise2DMonster"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 1
-                                0xf21bb0f8: list[pointer] = {
-                                    0x95a7d707 {
-                                        0x8e257510: string = "monstertype"
-                                        0x7e0dca60: string = "dragon"
-                                    }
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "EnterDisguise2DMonster"
-                            0x307b0406: u32 = 1
-                        }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "EnterDisguise2DVoid"
@@ -925,6 +893,7 @@ entries: map[hash,embed] = {
                             0xc0a5d6dd: string = "EnterDisguise2DVoid"
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
                         0xfecc56e5: string = "EnterDisguise2DYordle"
@@ -943,12 +912,53 @@ entries: map[hash,embed] = {
                             0xc0a5d6dd: string = "EnterDisguise2DYordle"
                             0x307b0406: u32 = 1
                         }
+                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "EnterDisguise2D"
+                        0xfecc56e5: string = "EnterDisguise2DFemaleChampion"
+                        0x2aff6c4a: list[pointer] = {
+                            0xa2c49ab2 {
+                                0xf3e8e24f: u8 = 1
+                                0xf21bb0f8: list[pointer] = {
+                                    0x95a7d707 {
+                                        0x8e257510: string = "gender"
+                                        0x7e0dca60: string = "female"
+                                    }
+                                }
+                            }
+                        }
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "EnterDisguise2DFemaleChampion"
+                            0x307b0406: u32 = 2
+                        }
+                        0x68fee3c4: bool = true
+                    }
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "EnterDisquise2DMaleChampion"
+                        0x2aff6c4a: list[pointer] = {
+                            0xa2c49ab2 {
+                                0xf3e8e24f: u8 = 1
+                                0xf21bb0f8: list[pointer] = {
+                                    0x95a7d707 {
+                                        0x8e257510: string = "gender"
+                                        0x7e0dca60: string = "male"
+                                    }
+                                }
+                            }
+                        }
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "EnterDisguise2DMaleChampion"
+                            0x307b0406: u32 = 2
+                        }
+                        0x68fee3c4: bool = true
+                    }
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "EnterDisguise2DGeneral"
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "EnterDisguise2D"
+                            0x307b0406: u32 = 3
                         }
+                        0x68fee3c4: bool = true
                     }
                 }
             }

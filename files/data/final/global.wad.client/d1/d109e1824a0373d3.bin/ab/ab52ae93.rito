@@ -1,0 +1,48 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xab52ae93 = 0x29f9f5d9 {
+        0x8d39bde6: string = "Test configuration"
+        0x0da47e35: f32 = 10
+        0x25a63e0d: list[embed] = {
+            0x4a99e777 {
+                0x416bc18f: link = 0x70276231
+                0x7ac1008a: list[embed] = {
+                    0x9149cbb1 {
+                        0xf36dc80c: u32 = 1
+                        0xd81f2eaf: file = 0x0ef250d5dcfe47da
+                    }
+                    0x9149cbb1 {
+                        0xf36dc80c: u32 = 1
+                        0xd81f2eaf: file = 0xeee785f7430995ec
+                    }
+                    0x9149cbb1 {
+                        0xf36dc80c: u32 = 1
+                        0xd81f2eaf: file = 0x3a581d4ef7b4ff99
+                    }
+                }
+            }
+            0x4a99e777 {
+                0x416bc18f: link = 0x6f27609e
+                0x7ac1008a: list[embed] = {
+                    0x9149cbb1 {
+                        0xf36dc80c: u32 = 1
+                        0xd81f2eaf: file = 0xa188a789dfe18057
+                    }
+                    0x9149cbb1 {
+                        0xf36dc80c: u32 = 2
+                        0xd81f2eaf: file = 0xea7400ff58f8b731
+                    }
+                    0x9149cbb1 {
+                        0xf36dc80c: u32 = 1
+                        0xd81f2eaf: file = 0x0208ae244b3e6815
+                    }
+                }
+            }
+        }
+        0xf10a1a1f: link = 0x5436f4f7
+        0xf0a363e3: file = 0xc1634f8ff67586a9
+    }
+}
