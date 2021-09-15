@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3065a26c = 0x60e00531 {
+        0x19efbfdb: string = "SetTutorialPersonality_WildShapeshifter"
+        0x0773669d: map[string,pointer] = {
+            "TFTTutorial_TutorialPrimary" = 0x977517c6 {
+                0x24f2ec89: f32 = -1
+            }
+            "TFTTutorial_Wild" = 0x977517c6 {
+                0x24f2ec89: f32 = 4
+            }
+            "TFTTutorial_Shapeshifter" = 0x977517c6 {
+                0x24f2ec89: f32 = 3
+            }
+            "TFTTutorial_RekSai" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+            "TFTTutorial_Lulu" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+        }
+        0x9be36761: link = 0xa8e614df
+    }
+}

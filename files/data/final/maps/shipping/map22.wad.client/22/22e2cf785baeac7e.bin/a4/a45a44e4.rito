@@ -1,0 +1,18 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xa45a44e4 = 0x60e00531 {
+        0x19efbfdb: string = "TM2_RerollOrExpBlocked"
+        0x0773669d: map[string,pointer] = {
+            "StartOfPhaseMessageTraKey" = 0xa188bd55 {
+                0x24f2ec89: string = "tft_tutorial_v2_reroll_or_exp_blocked"
+            }
+            "MessageAttacher" = 0xa188bd55 {
+                0x24f2ec89: string = "Player"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

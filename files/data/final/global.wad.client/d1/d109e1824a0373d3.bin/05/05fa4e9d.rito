@@ -1,0 +1,15 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x05fa4e9d = 0xf58450d9 {
+        0x42f8ecb5: string = "TFT_TutorialGame_V2"
+        0xae7323cb: list2[string] = {
+            "TFTSetOverride(TFTTutorialSet)"
+            "IsTFTTutorialV2(1)"
+            "AudioFeature(TFT_Tutorial_v2)"
+            "TFTTutorialVersion(2)"
+        }
+    }
+}

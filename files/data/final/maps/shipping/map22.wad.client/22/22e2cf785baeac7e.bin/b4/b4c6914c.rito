@@ -1,0 +1,26 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb4c6914c = 0x60e00531 {
+        0x19efbfdb: string = "TM2_CombineItem"
+        0x0773669d: map[string,pointer] = {
+            "StartOfPhaseMessageTraKey" = 0xa188bd55 {
+                0x24f2ec89: string = "tft_tutorial_v2_combine_item"
+            }
+            "RequiredAction" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_TutorialActionCheck_CombineItem"
+            }
+            "SubActions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TM2_CombineItem"
+                }
+            }
+            "MessageAttacher" = 0xa188bd55 {
+                0x24f2ec89: string = "UnitWithItem"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

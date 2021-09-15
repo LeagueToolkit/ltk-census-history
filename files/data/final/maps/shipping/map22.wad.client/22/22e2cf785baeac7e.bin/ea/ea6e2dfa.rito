@@ -1,0 +1,33 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xea6e2dfa = 0x60e00531 {
+        0x19efbfdb: string = "TM2_SharedDraftPickup"
+        0x0773669d: map[string,pointer] = {
+            "RoundNum" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+            "Phase" = 0xa188bd55 {
+                0x24f2ec89: string = "Draft"
+            }
+            "StartOfPhaseMessageTraKey" = 0xa188bd55 {
+                0x24f2ec89: string = "tft_tutorial_shared_draft_pickup"
+            }
+            "MessageAttacher" = 0xa188bd55 {
+                0x24f2ec89: string = "CenterOfCarousel"
+            }
+            "RequiredAction" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_TutorialActionCheck_SharedDraftPickup"
+            }
+            "SubActions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TM2_SharedDraftPickup"
+                    "TM2_SharedDraftBye"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc65aaed3 = 0x60e00531 {
+        0x19efbfdb: string = "WolvesTutorial_WolfMini"
+        0x0773669d: map[string,pointer] = {
+            "SkinName" = 0xa188bd55 {
+                0x24f2ec89: string = "TFTTutorial_MurkwolfMini"
+            }
+            "Row" = 0x4012fd7e {
+                0x24f2ec89: i32 = 8
+            }
+            "Col" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

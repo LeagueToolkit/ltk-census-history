@@ -1,0 +1,64 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x73999380 = 0x60e00531 {
+        0x19efbfdb: string = "Tutorial_V2_Config"
+        0x0773669d: map[string,pointer] = {
+            "AdditionalBotDamagePerRoundMin" = 0x4012fd7e {
+                0x24f2ec89: i32 = 6
+            }
+            "AdditionalBotDamagePerRoundMax" = 0x4012fd7e {
+                0x24f2ec89: i32 = 15
+            }
+            "AdditionalDamageStartingRound" = 0x4012fd7e {
+                0x24f2ec89: i32 = 5
+            }
+            "BotOverrideEndRound" = 0x4012fd7e {
+                0x24f2ec89: i32 = 12
+            }
+            "EarlyExitEndRound" = 0x4012fd7e {
+                0x24f2ec89: i32 = 12
+            }
+            "EarlyExitAfterMessageDelay" = 0x4012fd7e {
+                0x24f2ec89: i32 = 5
+            }
+            "InterruptingMessageDuration" = 0x4012fd7e {
+                0x24f2ec89: i32 = 3
+            }
+            "GoldBackstopGoldAmount" = 0x4012fd7e {
+                0x24f2ec89: i32 = 5
+            }
+            "BotStartingGold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 20
+            }
+            "PhaseTimeAfterAllActionsComplete" = 0x4012fd7e {
+                0x24f2ec89: i32 = 5
+            }
+            "ExcludeFromFirstCarousel" = 0xbe542f32 {}
+            "ExcludeFromAllCarousels" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFTTutorial_Garen"
+                    "TFTTutorial_Vayne"
+                    "TFTTutorial_Darius"
+                    "TFTTutorial_Lucian"
+                }
+            }
+            "FirstCarouselChampList" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFTTutorial_Camille"
+                    "TFTTutorial_Warwick"
+                    "TFTTutorial_Ahri"
+                    "TFTTutorial_Kassadin"
+                    "TFTTutorial_Khazix"
+                    "TFTTutorial_Lissandra"
+                    "TFTTutorial_Elise"
+                    "TFTTutorial_Nidalee"
+                    "TFTTutorial_Pyke"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

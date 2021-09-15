@@ -1,0 +1,82 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xdeabb8d4 = 0x60e00531 {
+        0x19efbfdb: string = "TM2_ShopSection_Reroll"
+        0x0773669d: map[string,pointer] = {
+            "RoundNum" = 0x4012fd7e {
+                0x24f2ec89: i32 = 6
+            }
+            "Phase" = 0xa188bd55 {
+                0x24f2ec89: string = "Planning"
+            }
+            "StartOfPhaseMessageTraKey" = 0xa188bd55 {
+                0x24f2ec89: string = "tft_tutorial_v2_reroll"
+            }
+            "RequiredAction" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_TutorialActionCheck_Reroll"
+            }
+            "UIElementsToReveal" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "RerollButton"
+                }
+            }
+            "MessageUIAnchor" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_UnitShop_Reroll_HitRegion"
+            }
+            "MessageUIAnchorDirection" = 0xa188bd55 {
+                0x24f2ec89: string = "CL"
+            }
+            "SubActions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TM2_ShopSection_Reroll"
+                    "TM2_BuyUnitStarMore"
+                    "TM2_BuyUnitStarMore2"
+                    "TM2_BuyUnitStarMore3"
+                    "TM2_BuyUnitStarMore4"
+                    "TM2_BuyUnitStarMore5"
+                }
+            }
+            "ShopOverrides" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFTTutorial_Ahri"
+                    "TFTTutorial_Camille"
+                    "TFTTutorial_Pyke"
+                    "TFTTutorial_Khazix"
+                    "TFTTutorial_Elise"
+                }
+            }
+            "RequiredActionParameter" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFTTutorial_Garen"
+                    "TFTTutorial_Garen"
+                    "TFTTutorial_Garen"
+                    "TFTTutorial_Darius"
+                    "TFTTutorial_Vayne"
+                }
+            }
+            "MessageRevealDelay" = 0x977517c6 {
+                0x24f2ec89: f32 = 1.5
+            }
+            "ShopActionsBlocked" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "1"
+                    "2"
+                    "3"
+                    "4"
+                    "5"
+                    "7"
+                }
+            }
+            "ShopActionsBlockedAfterReroll" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "6"
+                    "7"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

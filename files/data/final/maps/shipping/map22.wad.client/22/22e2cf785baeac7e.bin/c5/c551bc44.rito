@@ -1,0 +1,66 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc551bc44 = 0x60e00531 {
+        0x19efbfdb: string = "TM2_ShopSection_FirstBuy"
+        0x0773669d: map[string,pointer] = {
+            "RoundNum" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+            "Phase" = 0xa188bd55 {
+                0x24f2ec89: string = "Planning"
+            }
+            "StartOfPhaseMessageTraKey" = 0xa188bd55 {
+                0x24f2ec89: string = "tft_tutorial_v2_buy_first_unit"
+            }
+            "RequiredAction" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_TutorialActionCheck_BuyUnit"
+            }
+            "RequiredActionParameter" = 0xa188bd55 {
+                0x24f2ec89: string = "TFTTutorial_Vayne"
+            }
+            "ShopOverrides" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFTTutorial_Elise"
+                    "TFTTutorial_Ahri"
+                    "TFTTutorial_Vayne"
+                    "TFTTutorial_Khazix"
+                    "TFTTutorial_Warwick"
+                }
+            }
+            "UIElementsToReveal" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "Shop"
+                    "ToggleShopButton"
+                }
+            }
+            "MessageUIAnchor" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_UnitShop_Item2_Slot"
+            }
+            "MessageUIAnchorDirection" = 0xa188bd55 {
+                0x24f2ec89: string = "LC"
+            }
+            "SubActions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TM2_ShopSection_FirstBuy"
+                    "TM2_PlaceUnitFromBench"
+                    "TM2_CloseShop"
+                }
+            }
+            "MessageRevealDelay" = 0x977517c6 {
+                0x24f2ec89: f32 = 1.5
+            }
+            "ShopActionsBlocked" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "1"
+                    "2"
+                    "4"
+                    "5"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,33 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x0b6a2fce = 0x60e00531 {
+        0x19efbfdb: string = "TM2_PlaceUnit_Trait2"
+        0x0773669d: map[string,pointer] = {
+            "StartOfPhaseMessageTraKey" = 0xa188bd55 {
+                0x24f2ec89: string = "tft_tutorial_v2_place_new_trait"
+            }
+            "RequiredAction" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_TutorialActionCheck_PlaceUnitWithTrait"
+            }
+            "MessageAttacher" = 0xa188bd55 {
+                0x24f2ec89: string = "Player"
+            }
+            "PointerParticleFrom" = 0xa188bd55 {
+                0x24f2ec89: string = "NamedUnitOnBench"
+            }
+            "PointerParticleTo" = 0xa188bd55 {
+                0x24f2ec89: string = "CenterOfBoard"
+            }
+            "PointerParticleFromParameter" = 0xa188bd55 {
+                0x24f2ec89: string = "TFTTutorial_Darius"
+            }
+            "RequiredActionParameter" = 0xa188bd55 {
+                0x24f2ec89: string = "TFTTutorial_TutorialSecondary"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

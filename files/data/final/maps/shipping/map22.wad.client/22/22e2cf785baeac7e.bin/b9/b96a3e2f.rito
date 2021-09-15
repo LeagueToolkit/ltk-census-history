@@ -1,0 +1,39 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb96a3e2f = 0x60e00531 {
+        0x19efbfdb: string = "TM2_Position_Hint"
+        0x0773669d: map[string,pointer] = {
+            "StartOfPhaseMessageTraKey" = 0xa188bd55 {
+                0x24f2ec89: string = "tft_tutorial_v2_position_hint"
+            }
+            "MessageAttacher" = 0xa188bd55 {
+                0x24f2ec89: string = "Player"
+            }
+            "RoundNum" = 0x4012fd7e {
+                0x24f2ec89: i32 = 12
+            }
+            "Phase" = 0xa188bd55 {
+                0x24f2ec89: string = "Planning"
+            }
+            "RequiredAction" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_TutorialActionCheck_WaitForSeconds"
+            }
+            "RequiredActionParameter" = 0x4012fd7e {
+                0x24f2ec89: i32 = 15
+            }
+            "ShopOverrides" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFTTutorial_Vayne"
+                    "TFTTutorial_Camille"
+                    "TFTTutorial_Vi"
+                    "TFTTutorial_Darius"
+                    "TFTTutorial_Ahri"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

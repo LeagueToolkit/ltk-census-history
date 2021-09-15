@@ -1,0 +1,33 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc1f51dbe = 0x60e00531 {
+        0x19efbfdb: string = "TM2_TraitAtCount"
+        0x0773669d: map[string,pointer] = {
+            "StartOfPhaseMessageTraKey" = 0xa188bd55 {
+                0x24f2ec89: string = "tft_tutorial_replace_unit"
+            }
+            "RequiredAction" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_TutorialActionCheck_TraitAtCount"
+            }
+            "MessageAttacher" = 0xa188bd55 {
+                0x24f2ec89: string = "Player"
+            }
+            "PointerParticleFrom" = 0xa188bd55 {
+                0x24f2ec89: string = "NamedUnitOnBench"
+            }
+            "PointerParticleTo" = 0xa188bd55 {
+                0x24f2ec89: string = "CenterOfBoard"
+            }
+            "PointerParticleFromParameter" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT3_Blitzcrank"
+            }
+            "RequiredActionParameter" = 0x4012fd7e {
+                0x24f2ec89: i32 = 3
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

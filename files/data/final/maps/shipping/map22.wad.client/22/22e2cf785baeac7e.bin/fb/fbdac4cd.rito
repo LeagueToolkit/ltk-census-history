@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xfbdac4cd = 0x60e00531 {
+        0x19efbfdb: string = "SetTutorialPersonality_VoidBrawler"
+        0x0773669d: map[string,pointer] = {
+            "TFTTutorial_TutorialPrimary" = 0x977517c6 {
+                0x24f2ec89: f32 = -1
+            }
+            "TFTTutorial_Void" = 0x977517c6 {
+                0x24f2ec89: f32 = 4
+            }
+            "TFTTutorial_Brawler" = 0x977517c6 {
+                0x24f2ec89: f32 = 3
+            }
+            "TFTTutorial_Evelynn" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+            "TFTTutorial_Lissandra" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+        }
+        0x9be36761: link = 0xa8e614df
+    }
+}
