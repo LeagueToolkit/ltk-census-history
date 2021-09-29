@@ -15,13 +15,28 @@ entries: map[hash,embed] = {
             0xd65bac4d: list[string] = {
                 "Leblanc"
             }
-            0xf8f29f92: list[embed] = {
+            0xf8f29f92: list2[embed] = {
                 0xa4416515 {
                     0x8d39bde6: string = "Leblanc_Base_VO"
                     0x2a21ad00: list[string] = {
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Leblanc/Skins/Base/Leblanc_Base_VO_audio.bnk"
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Leblanc/Skins/Base/Leblanc_Base_VO_events.bnk"
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Leblanc/Skins/Base/Leblanc_Base_VO_audio.wpk"
+                    }
+                    0x12d8e384: list[string] = {
+                        "Play_vo_Leblanc_Attack2DGeneral"
+                        "Play_vo_Leblanc_Death3D"
+                        "Play_vo_Leblanc_Joke3DGeneral"
+                        "Play_vo_Leblanc_Laugh3DGeneral"
+                        "Play_vo_Leblanc_LeblancCloneDeath_OnCast"
+                        "Play_vo_Leblanc_LeblancE_cast3D"
+                        "Play_vo_Leblanc_LeblancQ_cast3D"
+                        "Play_vo_Leblanc_LeblancRE_cast3D"
+                        "Play_vo_Leblanc_LeblancRQ_cast3D"
+                        "Play_vo_Leblanc_LeblancRW_cast3D"
+                        "Play_vo_Leblanc_LeblancW_cast3D"
+                        "Play_vo_Leblanc_Move2DStandard"
+                        "Play_vo_Leblanc_Taunt3DGeneral"
                     }
                     0x3b13aa4b: bool = true
                 }
@@ -30,6 +45,63 @@ entries: map[hash,embed] = {
                     0x2a21ad00: list[string] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Leblanc/Skins/Base/Leblanc_Base_SFX_audio.bnk"
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Leblanc/Skins/Base/Leblanc_Base_SFX_events.bnk"
+                    }
+                    0x12d8e384: list[string] = {
+                        "Play_sfx_Leblanc_LeblancBasicAttack2_OnCast"
+                        "Play_sfx_Leblanc_LeblancBasicAttack2_OnHit"
+                        "Play_sfx_Leblanc_LeblancBasicAttack2_OnMissileLaunch"
+                        "Play_sfx_Leblanc_LeblancBasicAttack3_OnCast"
+                        "Play_sfx_Leblanc_LeblancBasicAttack3_OnHit"
+                        "Play_sfx_Leblanc_LeblancBasicAttack3_OnMissileLaunch"
+                        "Play_sfx_Leblanc_LeblancBasicAttack_OnCast"
+                        "Play_sfx_Leblanc_LeblancBasicAttack_OnHit"
+                        "Play_sfx_Leblanc_LeblancBasicAttack_OnMissileLaunch"
+                        "Play_sfx_Leblanc_LeblancCritAttack_OnCast"
+                        "Play_sfx_Leblanc_LeblancCritAttack_OnHit"
+                        "Play_sfx_Leblanc_LeblancCritAttack_OnMissileLaunch"
+                        "Play_sfx_Leblanc_LeblancE_OnBuffActivate"
+                        "Play_sfx_Leblanc_LeblancE_OnCast"
+                        "Play_sfx_Leblanc_LeblancEMissile_OnHit"
+                        "Play_sfx_Leblanc_LeblancEMissile_OnMissileLaunch"
+                        "Play_sfx_Leblanc_LeblancERoot_OnBuffActivate"
+                        "Play_sfx_Leblanc_LeblancP_deactivate"
+                        "Play_sfx_Leblanc_LeblancP_OnBuffDeactivate"
+                        "Play_sfx_Leblanc_LeblancQ_OnCast"
+                        "Play_sfx_Leblanc_LeblancQ_OnHit"
+                        "Play_sfx_Leblanc_LeblancQ_OnMissileLaunch"
+                        "Play_sfx_Leblanc_LeblancQDetonate_OnBuffCast"
+                        "Play_sfx_Leblanc_LeblancQMark_OnBuffActivate"
+                        "Play_sfx_Leblanc_LeblancRE_OnBuffActivate"
+                        "Play_sfx_Leblanc_LeblancRE_OnCast"
+                        "Play_sfx_Leblanc_LeblancREMissile_OnHit"
+                        "Play_sfx_Leblanc_LeblancREMissile_OnMissileLaunch"
+                        "Play_sfx_Leblanc_LeblancRERoot_OnBuffActivate"
+                        "Play_sfx_Leblanc_LeblancRQ_OnCast"
+                        "Play_sfx_Leblanc_LeblancRQ_OnHit"
+                        "Play_sfx_Leblanc_LeblancRQ_OnMissileLaunch"
+                        "Play_sfx_Leblanc_LeblancRQDetonate_OnBuffCast"
+                        "Play_sfx_Leblanc_LeblancRQMark_OnBuffActivate"
+                        "Play_sfx_Leblanc_LeblancRW_hitlocation"
+                        "Play_sfx_Leblanc_LeblancRW_missilelaunch"
+                        "Play_sfx_Leblanc_LeblancRW_OnCast"
+                        "Play_sfx_Leblanc_LeblancRW_poof"
+                        "Play_sfx_Leblanc_LeblancRWReturn_OnCast"
+                        "Play_sfx_Leblanc_LeblancW_hitlocation"
+                        "Play_sfx_Leblanc_LeblancW_missilelaunch"
+                        "Play_sfx_Leblanc_LeblancW_OnCast"
+                        "Play_sfx_Leblanc_LeblancW_poof"
+                        "Play_sfx_Leblanc_LeblancWReturn_OnCast"
+                        "Play_sfx_Leblanc_Recall3D_buffactivate"
+                        "Stop_sfx_Leblanc_LeblancE_OnBuffActivate"
+                        "Stop_sfx_Leblanc_LeblancEMissile_OnMissileLaunch"
+                        "Stop_sfx_Leblanc_LeblancERoot_OnBuffActivate"
+                        "Stop_sfx_Leblanc_LeblancQ_OnMissileLaunch"
+                        "Stop_sfx_Leblanc_LeblancQMark_OnBuffActivate"
+                        "Stop_sfx_Leblanc_LeblancRE_OnBuffActivate"
+                        "Stop_sfx_Leblanc_LeblancREMissile_OnMissileLaunch"
+                        "Stop_sfx_Leblanc_LeblancRERoot_OnBuffActivate"
+                        "Stop_sfx_Leblanc_LeblancRQ_OnMissileLaunch"
+                        "Stop_sfx_Leblanc_LeblancRQMark_OnBuffActivate"
                     }
                 }
             }
