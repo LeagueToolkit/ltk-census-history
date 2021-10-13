@@ -35,7 +35,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ADRatio"
-                0x24f2ec89: f32 = 1
+                0x24f2ec89: f32 = 1.75
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MissingHealthHeal"
@@ -43,18 +43,9 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MythicHealthPerLegendary"
-                0x24f2ec89: f32 = 100
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MythicADPerLegendary"
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "MissingHealthPerAD"
-                0x24f2ec89: f32 = 0.05
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "MaxADInc"
-                0x24f2ec89: f32 = 0.15
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MythicHasteAmount"
@@ -65,7 +56,7 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 450
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "HealTotalADRatio"
+                0x19efbfdb: string = "HealBaseADRatio"
                 0x24f2ec89: f32 = 0.25
             }
         }
@@ -75,6 +66,7 @@ entries: map[hash,embed] = {
                     0x5f5c70a4 {
                         0xb386dcf1: hash = 0x382d671b
                         0x4cec2c8a: u8 = 2
+                        0x7d3150ec: u8 = 1
                     }
                 }
             }
@@ -92,7 +84,7 @@ entries: map[hash,embed] = {
             0x3a69585b = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
                     0x5f5c70a4 {
-                        0xb386dcf1: hash = 0x1a3bf9f5
+                        0xb386dcf1: hash = 0x02b03736
                         0x4cec2c8a: u8 = 2
                     }
                 }
@@ -100,14 +92,15 @@ entries: map[hash,embed] = {
         }
         0x5b98619f: f32 = 20
         0x06d997bb: f32 = 400
-        0xc1cd174b: f32 = 1.5
         0x4e7a81cd: f32 = 45
+        0xb779205d: f32 = 0.08
         0xccf99b44: list[string] = {
             "Health"
-            "HealthRegen"
             "Damage"
+            "LifeSteal"
             "Active"
             "CooldownReduction"
+            "SpellVamp"
             "AbilityHaste"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
@@ -143,7 +136,7 @@ entries: map[hash,embed] = {
                                 0x5127f14d: string = "AbilityHaste"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "BaseHealthRegen"
+                                0x5127f14d: string = "Omnivamp"
                             }
                         }
                     }

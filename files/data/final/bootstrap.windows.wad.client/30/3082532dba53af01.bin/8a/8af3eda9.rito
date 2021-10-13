@@ -17,22 +17,6 @@ entries: map[hash,embed] = {
                         0x37386ae0: u16 = 3
                         0x39b1ddf4: u16 = 1
                     }
-                    "Fresnel_AB_Gradient" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 7
-                        0x39b1ddf4: u16 = 1
-                    }
-                    "HardRimColor" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 9
-                        0x39b1ddf4: u16 = 1
-                    }
-                    "Rim_Fresnel" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 6
-                        0x39b1ddf4: u16 = 1
-                    }
-                    "Rim_Step" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 8
-                        0x39b1ddf4: u16 = 1
-                    }
                     "ColorB" = 0x0a7e3f16 {
                         0x37386ae0: u16 = 1
                         0x39b1ddf4: u16 = 1
@@ -41,27 +25,43 @@ entries: map[hash,embed] = {
                         0x37386ae0: u16 = 4
                         0x39b1ddf4: u16 = 1
                     }
-                    "Gradient_Intensity" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 10
+                    "ColorC_Fresnel" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 11
                         0x39b1ddf4: u16 = 1
                     }
                     "Diffuse_Fresnel" = 0x0a7e3f16 {
                         0x37386ae0: u16 = 2
                         0x39b1ddf4: u16 = 1
                     }
-                    "ColorC_Fresnel" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 11
+                    "Fresnel_AB_Gradient" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 7
+                        0x39b1ddf4: u16 = 1
+                    }
+                    "Fresnel_Diffuse_Add" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 14
+                        0x39b1ddf4: u16 = 1
+                    }
+                    "Gradient_Intensity" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 10
                         0x39b1ddf4: u16 = 1
                     }
                     "Gradient_Mask_MinMax" = 0x0a7e3f16 {
                         0x37386ae0: u16 = 12
                         0x39b1ddf4: u16 = 1
                     }
+                    "HardRimColor" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 9
+                        0x39b1ddf4: u16 = 1
+                    }
                     "Parameter 0" = 0x0a7e3f16 {
                         0x37386ae0: u16 = 15
                     }
-                    "Fresnel_Diffuse_Add" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 14
+                    "Rim_Fresnel" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 6
+                        0x39b1ddf4: u16 = 1
+                    }
+                    "Rim_Step" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 8
                         0x39b1ddf4: u16 = 1
                     }
                 }
@@ -120,9 +120,6 @@ entries: map[hash,embed] = {
             0xe502c1dc: embed = 0x684e7d3b {
                 0xab522155: u16 = 4
                 0x6f5882f3: map[string,embed] = {
-                    "Texture 1" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 2
-                    }
                     "Diffuse" = 0x0a7e3f16 {
                         0x37386ae0: u16 = 1
                         0x39b1ddf4: u16 = 3
@@ -130,6 +127,9 @@ entries: map[hash,embed] = {
                     "Noise" = 0x0a7e3f16 {
                         0x37386ae0: u16 = 3
                         0x39b1ddf4: u16 = 2
+                    }
+                    "Texture 1" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 2
                     }
                 }
                 0xea57bf12: string = "Texture "
@@ -146,24 +146,24 @@ entries: map[hash,embed] = {
             0xa2054c01: embed = 0xb77bfdb8 {
                 0xab522155: u16 = 8
                 0x6f5882f3: map[string,embed] = {
-                    "USE_HARD_RIM" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 2
-                        0x39b1ddf4: u16 = 2
-                    }
-                    "USE_TEXTURE_ALPHA" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 1
-                        0x39b1ddf4: u16 = 1
-                    }
-                    "USE_RADIAL_ALPHA" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 3
-                        0x39b1ddf4: u16 = 2
-                    }
                     "DEBUG_RADIAL_ALPHA" = 0x0a7e3f16 {
                         0x37386ae0: u16 = 4
                         0x39b1ddf4: u16 = 1
                     }
                     "STATIC_SWITCH_1" = 0x0a7e3f16 {
                         0x37386ae0: u16 = 7
+                    }
+                    "USE_HARD_RIM" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 2
+                        0x39b1ddf4: u16 = 2
+                    }
+                    "USE_RADIAL_ALPHA" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 3
+                        0x39b1ddf4: u16 = 2
+                    }
+                    "USE_TEXTURE_ALPHA" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 1
+                        0x39b1ddf4: u16 = 1
                     }
                 }
                 0xea57bf12: string = "STATIC_SWITCH_"

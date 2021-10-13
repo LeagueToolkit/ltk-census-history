@@ -9,12 +9,16 @@ entries: map[hash,embed] = {
             0x7c44cff8: embed = 0xe9c1f997 {
                 0xab522155: u16 = 13
                 0x6f5882f3: map[string,embed] = {
+                    "Fresnel2_EdgeThickness" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 12
+                        0x39b1ddf4: u16 = 1
+                    }
                     "Fresnel_Color" = 0x0a7e3f16 {
                         0x37386ae0: u16 = 2
                         0x39b1ddf4: u16 = 1
                     }
-                    "Scroll_Speed" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 9
+                    "Fresnel_EdgeThickness" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 5
                         0x39b1ddf4: u16 = 1
                     }
                     "Fresnel_Size" = 0x0a7e3f16 {
@@ -25,14 +29,6 @@ entries: map[hash,embed] = {
                         0x37386ae0: u16 = 6
                         0x39b1ddf4: u16 = 1
                     }
-                    "Fresnel_EdgeThickness" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 5
-                        0x39b1ddf4: u16 = 1
-                    }
-                    "Scroll_Tiling" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 11
-                        0x39b1ddf4: u16 = 1
-                    }
                     "Panning_Pattern_color" = 0x0a7e3f16 {
                         0x37386ae0: u16 = 8
                         0x39b1ddf4: u16 = 1
@@ -40,14 +36,17 @@ entries: map[hash,embed] = {
                     "Parameter 1" = 0x0a7e3f16 {
                         0x37386ae0: u16 = 10
                     }
-                    "Fresnel2_EdgeThickness" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 12
+                    "Scroll_Speed" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 9
+                        0x39b1ddf4: u16 = 1
+                    }
+                    "Scroll_Tiling" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 11
                         0x39b1ddf4: u16 = 1
                     }
                 }
                 0xea57bf12: string = "Parameter "
                 0xd872e2a5: map[u16,embed] = {
-                    10 = 0x53df6397 {}
                     2 = 0x53df6397 {
                         0x5127f14d: u8 = 2
                         0x0617e21f: vec4 = { 1, 1, 1, 1 }
@@ -70,6 +69,7 @@ entries: map[hash,embed] = {
                         0x5127f14d: u8 = 1
                         0x0617e21f: vec4 = { -2, 0, 0, 1 }
                     }
+                    10 = 0x53df6397 {}
                     11 = 0x53df6397 {
                         0x5127f14d: u8 = 1
                         0x0617e21f: vec4 = { 1, 1, 0, 1 }
@@ -82,9 +82,6 @@ entries: map[hash,embed] = {
             0xe502c1dc: embed = 0x684e7d3b {
                 0xab522155: u16 = 4
                 0x6f5882f3: map[string,embed] = {
-                    "Texture 1" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 2
-                    }
                     "Diffuse_Texture" = 0x0a7e3f16 {
                         0x37386ae0: u16 = 1
                         0x39b1ddf4: u16 = 1
@@ -92,6 +89,9 @@ entries: map[hash,embed] = {
                     "Mask_Texture" = 0x0a7e3f16 {
                         0x37386ae0: u16 = 3
                         0x39b1ddf4: u16 = 2
+                    }
+                    "Texture 1" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 2
                     }
                 }
                 0xea57bf12: string = "Texture "
@@ -108,12 +108,12 @@ entries: map[hash,embed] = {
             0xa2054c01: embed = 0xb77bfdb8 {
                 0xab522155: u16 = 4
                 0x6f5882f3: map[string,embed] = {
-                    "STATIC_SWITCH_0" = 0x0a7e3f16 {
-                        0x37386ae0: u16 = 3
-                    }
                     "INVERT_FRESNEL" = 0x0a7e3f16 {
                         0x37386ae0: u16 = 2
                         0x39b1ddf4: u16 = 1
+                    }
+                    "STATIC_SWITCH_0" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 3
                     }
                 }
                 0xea57bf12: string = "STATIC_SWITCH_"
