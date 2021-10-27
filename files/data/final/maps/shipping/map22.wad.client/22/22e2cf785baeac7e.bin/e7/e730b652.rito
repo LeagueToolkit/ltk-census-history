@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe730b652 = 0x60e00531 {
+        0x19efbfdb: string = "TFT6_Mercenary_Ghost_0_Reward_Table"
+        0x0773669d: map[string,pointer] = {
+            "TFT6_Mercenary_Ghost_0_Reward_0" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "TFT6_Mercenary_Ghost_0_Reward_1" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "TFT6_Mercenary_Ghost_0_Reward_2" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.6
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,37 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x30f0412d = 0x60e00531 {
+        0x19efbfdb: string = "TFT6_GoldMerc_RewardTable"
+        0x0773669d: map[string,pointer] = {
+            "TFT6_5MercBag" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.56
+            }
+            "TFT6_5MercChest" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.05
+            }
+            "TFT6_5MercShield" = 0x977517c6 {}
+            "TFT6_5MercSword" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.13
+            }
+            "TFT6_5MercBook" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.03
+            }
+            "TFT6_5MercSoldier" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.03
+            }
+            "TFT6_5MercShip" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.01
+            }
+            "TFT6_5MercMonster" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.16
+            }
+            "TFT6_5MercSpatula" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.03
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

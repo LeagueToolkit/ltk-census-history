@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xabb39475 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_HR_3CompletedEmblems"
+        0x0773669d: map[string,pointer] = {
+            "Items" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "ATTACKERITEMS_DEFAULT"
+                    "CASTERITEMS_DEFAULT"
+                    "TANKITEMS_DEFAULT"
+                    "EMBLEM_SET6_Tailored"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

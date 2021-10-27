@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2d7a9d02 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_HR_3Basic1Spat"
+        0x0773669d: map[string,pointer] = {
+            "Items" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "COMPONENT_NOSPAT"
+                    "COMPONENT_NOSPAT"
+                    "COMPONENT_NOSPAT"
+                    "SPAT_CannotBeShadow"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

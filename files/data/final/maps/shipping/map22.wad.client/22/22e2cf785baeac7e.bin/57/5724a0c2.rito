@@ -1,0 +1,33 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x5724a0c2 = 0x60e00531 {
+        0x19efbfdb: string = "TFT6_Merc_5LossTable"
+        0x0773669d: map[string,pointer] = {
+            "TFT6_Merc_X_Chest" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+            "TFT6_Merc_Fish_Bag" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "TFT6_Merc_Coin_Bag" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "TFT6_Merc_Chest_Kraken" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+            "TFT6_Merc_Chest_Soldier" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+            "TFT6_Merc_Fish_Chest" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "TFT6_Merc_Book_Book" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
