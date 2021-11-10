@@ -1,0 +1,89 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x9f5bcb5e = 0x5e7e5a06 {
+        0xc8e37ef0: string = "AzirPassive"
+        0x56d2be52: pointer = 0x43368569 {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "TowerDisintegrationTime"
+                    0x246b0d8e: list[f32] = {
+                        60
+                        60
+                        60
+                        60
+                        60
+                        60
+                        60
+                    }
+                    0x6d3ccfd7: f32 = 60
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SoldierStabRange"
+                    0x246b0d8e: list[f32] = {
+                        350
+                        350
+                        350
+                        350
+                        350
+                        350
+                        350
+                    }
+                    0x6d3ccfd7: f32 = 350
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SoldierDeactivationRange"
+                    0x246b0d8e: list[f32] = {
+                        660
+                        660
+                        660
+                        660
+                        660
+                        660
+                        660
+                    }
+                    0x6d3ccfd7: f32 = 660
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0xde7730ea = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.15
+                        }
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Characters/Azir/HUD/Icons2D/Azir_Passive.dds"
+            }
+            0x9ecac3a1: list[f32] = {
+                180
+                180
+                180
+                180
+                180
+                180
+                180
+            }
+            0x00f7e5bc: bool = true
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "AzirPassive"
+                    0x57b8b11b: link = 0x30d7b387
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_AzirPassive_Name"
+                        "keyTooltip" = "Spell_AzirPassive_Tooltip"
+                        "keySummary" = "Spell_AzirPassive_Summary"
+                        "keyTooltipExtended" = "Spell_AzirPassive_TooltipExtended"
+                    }
+                }
+            }
+        }
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0xf1f20d72: string = "game_buff_tooltip_AzirPassive"
+        }
+    }
+}

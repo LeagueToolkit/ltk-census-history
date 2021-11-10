@@ -59,28 +59,30 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BaseShieldAmount"
                     0x246b0d8e: list[f32] = {
-                        0
-                        175
-                        350
-                        525
-                        700
-                        875
-                        1050
+                        -40
+                        140
+                        320
+                        500
+                        680
+                        860
+                        1040
                     }
-                    0xe7b832f2: string = "P + 175.00000"
+                    0x6d3ccfd7: f32 = -40
+                    0xe7b832f2: string = "P + 180.00000"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "BaseShieldMax_Tooltip"
                     0x246b0d8e: list[f32] = {
-                        0
-                        280
-                        560
-                        840
-                        1120
-                        1400
-                        1680
+                        -64
+                        224
+                        512
+                        800
+                        1088
+                        1376
+                        1664
                     }
-                    0xe7b832f2: string = "P + 280"
+                    0x6d3ccfd7: f32 = -64
+                    0xe7b832f2: string = "P + 288"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "ShieldAPRatio"
@@ -158,6 +160,11 @@ entries: map[hash,embed] = {
                         0x5f5c70a4 {
                             0xb386dcf1: hash = 0xf4c0c480
                         }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.175
+                            0x4cec2c8a: u8 = 11
+                            0x7d3150ec: u8 = 2
+                        }
                     }
                 }
                 0xda3491bc = 0x070e3593 {
@@ -168,7 +175,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x295c2889: f32 = 1.35
-            0xfbd16fb5: string = "Spell4_Empty"
+            0xfbd16fb5: string = "Channel"
             0xeed67cd5: list[string] = {
                 "UltBook_Shen_Square.dds"
             }
@@ -207,8 +214,9 @@ entries: map[hash,embed] = {
                 35000
             }
             0x4e47141f: f32 = 10
-            0x92a53e77: list[link] = {
-                0x655d0057
+            0x63060019: link = 0x73d6ff6a
+            0x92a53e77: list[hash] = {
+                0x55e19c78
             }
             0x3b182105: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_ShenR_SFX_audio.bnk"

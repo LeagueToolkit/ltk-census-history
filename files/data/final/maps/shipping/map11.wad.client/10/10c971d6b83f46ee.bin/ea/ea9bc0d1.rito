@@ -32,16 +32,16 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "NumShots"
                     0x246b0d8e: list[f32] = {
-                        16
                         22
-                        28
-                        34
-                        40
-                        46
-                        52
+                        22
+                        22
+                        22
+                        22
+                        22
+                        22
                     }
-                    0x6d3ccfd7: f32 = 16
-                    0xe7b832f2: string = "P+6"
+                    0x6d3ccfd7: f32 = 22
+                    0xe7b832f2: string = "P+0"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "RecastLockout"
@@ -88,16 +88,42 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BaseDamage"
                     0x246b0d8e: list[f32] = {
-                        20
-                        20
-                        40
-                        60
-                        80
-                        100
-                        120
+                        15
+                        15
+                        30
+                        45
+                        45
+                        45
+                        45
                     }
                     0x3f95426c: bool = false
                     0xe7b832f2: string = "P + 20"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "CritRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                    }
+                    0x6d3ccfd7: f32 = 0.25
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DamageADRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                    }
+                    0x6d3ccfd7: f32 = 0.25
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -107,10 +133,10 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0x03da00f9
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.1
+                            0x295c2889: f32 = 0.15
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.25
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x1cbbed54
                             0x4cec2c8a: u8 = 2
                         }
                     }
@@ -119,6 +145,26 @@ entries: map[hash,embed] = {
                     0x7f93cf4e: hash = 0xc8f46cbf
                     0x2c77adff: pointer = 0x332eb441 {
                         0xb386dcf1: hash = 0x9ceb3ce0
+                    }
+                }
+                0x40645c38 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x84a63373 {
+                            0xa066cc28: list[pointer] = {
+                                0xad106e67 {
+                                    0x46144074: pointer = 0x5f5c70a4 {
+                                        0xb386dcf1: hash = 0xddf2b71c
+                                        0x4cec2c8a: u8 = 7
+                                    }
+                                    0x4914452d: pointer = 0x9ef92080 {
+                                        0xe202bca9: f32 = 100
+                                    }
+                                }
+                                0x332eb441 {
+                                    0xb386dcf1: hash = 0x9ceb3ce0
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -161,8 +207,9 @@ entries: map[hash,embed] = {
             }
             0x1a24e25e: f32 = 60
             0x948bb970: u32 = 1
-            0x92a53e77: list[link] = {
-                0x50a2455b
+            0x63060019: link = 0xfa36fe1e
+            0x92a53e77: list[hash] = {
+                0x01489914
             }
             0x3b182105: list[string] = {
                 "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_UltBook_LucianR_SFX_audio.bnk"

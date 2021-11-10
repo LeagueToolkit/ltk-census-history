@@ -22,8 +22,8 @@ entries: map[hash,embed] = {
         0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
             0xec9aeda8
-            0xa0244a37
             0x4985f3e0
+            0xa0244a37
         }
         0x251a5225: list[f32] = {
             0
@@ -37,7 +37,7 @@ entries: map[hash,embed] = {
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "DamageRedirection"
-                0x24f2ec89: f32 = 0.15
+                0x24f2ec89: f32 = 0.1
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "DamageRedirectionThreshold"
@@ -53,23 +53,35 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "HealthThreshold"
-                0x24f2ec89: f32 = 0.5
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "MoveSpeedMod"
-                0x24f2ec89: f32 = 0.35
+                0x24f2ec89: f32 = 0.3
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MoveSpeedDuration"
                 0x24f2ec89: f32 = 2
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ExcessDamageReduction"
+                0x24f2ec89: f32 = 0.3
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ExcessDamageThreshold"
+                0x24f2ec89: f32 = 0.08
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "AllyHealingConversion"
+                0x24f2ec89: f32 = 0.08
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "EmpoweredDR"
+                0x24f2ec89: f32 = 0.2
+            }
         }
         0x5b98619f: f32 = 10
         0x06d997bb: f32 = 400
-        0xc1cd174b: f32 = 3
+        0xc1cd174b: f32 = 1.5
         0xccf99b44: list[string] = {
             "Health"
-            "HealthRegen"
+            "Armor"
             "Aura"
             "Active"
             "CooldownReduction"
@@ -128,6 +140,8 @@ entries: map[hash,embed] = {
                 0xd3968606 = 0xc7a73aaf
                 0xcf2b213f = 0x6e8d1bf4
                 0x9d52dfc2 = 0x583818a5
+                0xc80c3cb2 = 0x64055705
+                0xbf92d9d6 = 0x998dbc65
             }
         }
     }

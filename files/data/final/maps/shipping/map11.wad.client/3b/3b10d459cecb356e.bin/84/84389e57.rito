@@ -1,0 +1,93 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x84389e57 = 0xff9d3409 {
+        0x8d39bde6: string = "Maps/KitPieces/SRX/Base/Materials/Default/Chemtech_River_DragonCamp_Island_B_MAT"
+        0x5127f14d: u32 = 0
+        0x28da4278: string = "normal"
+        0x0a6f0eb5: list[embed] = {
+            0x0904b150 {
+                0x02e7fb4c: string = "DiffuseTexture"
+                0xb311d4ef: string = "ASSETS/Maps/KitPieces/SRX/Base/Textures/Chemtech_River_DragonCamp_Island_B.Season2022_SRT_Preseason.dds"
+                0x111ec6d2: u32 = 1
+                0x101ec53f: u32 = 1
+                0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
+                0x02e7fb4c: string = "Noise_Texture"
+                0xb311d4ef: string = "ASSETS/Shared/Materials/SRX_FireTest_B.dds"
+            }
+            0x0904b150 {
+                0x02e7fb4c: string = "EmissionTex"
+                0xb311d4ef: string = "ASSETS/Shared/Materials/Base_Caustic_Noise.Season2022_SRT_Preseason.dds"
+            }
+            0x0904b150 {
+                0x02e7fb4c: string = "EmissionMaskTex"
+                0xb311d4ef: string = "ASSETS/Maps/KitPieces/SRX/Base/Textures/Chemtech_River_DragonCamp_Island_B_Emission.Season2022_SRT_Preseason.dds"
+            }
+        }
+        0xd0ab46b8: list[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "Height_Start_End"
+                0x425ed3ca: vec4 = { -375, 750, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Transition_Speed_Factor"
+                0x425ed3ca: vec4 = { 4, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "LowQualityColor"
+                0x425ed3ca: vec4 = { 0.1, 0.5, 0.1, 0.5 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "WaveTintColor"
+                0x425ed3ca: vec4 = { 0.1, 0.5, 0.1, 0.5 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "RotationSpeed"
+                0x425ed3ca: vec4 = { 0.15, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "EmiRotationSpeed"
+                0x425ed3ca: vec4 = { 0.0225, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "EmissionColor"
+                0x425ed3ca: vec4 = { 0.1, 0.2, 0.005, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "EmissionTexUV"
+                0x425ed3ca: vec4 = { 2, 2, 0, 0 }
+            }
+        }
+        0xe6d67ded: map[string,string] = {
+            "NO_BAKED_LIGHTING" = "1"
+            "DISABLE_DEPTH_FOG" = "1"
+            "PREMULTIPLIED_ALPHA" = "1"
+        }
+        0x844f384e: list[embed] = {
+            0x060a4413 {
+                0x8d39bde6: string = "normal"
+                0x623cd25c: list[embed] = {
+                    0x8537d0c2 {
+                        0x355d5568: link = 0xb132e04f
+                        0x23b75597: bool = true
+                        0xbe0abbf5: u32 = 7
+                        0x7385e534: u32 = 7
+                    }
+                }
+            }
+        }
+        0x9330e6b6: list[embed] = {
+            0x735b4c95 {
+                0x8d39bde6: string = "env_transition"
+                0xb696a5fe: string = "normal"
+                0xe6d67ded: map[string,string] = {
+                    "ENV_TRANSITION" = "1"
+                }
+            }
+        }
+    }
+}

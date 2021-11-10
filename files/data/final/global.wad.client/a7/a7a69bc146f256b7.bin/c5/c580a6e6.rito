@@ -12,23 +12,19 @@ entries: map[hash,embed] = {
             0xb0bee26d
             0xb26cd7d8
         }
-        0x0b44452a: i32 = 915
+        0x0b44452a: i32 = 950
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
             0x4a83b6dc
-            0x182bc2e4
-            0x122bb972
+            0x4985f3e0
+            0x102977b5
         }
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "ManaPerCharge"
                 0x24f2ec89: f32 = 3
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "ArchangelsBonusManaToAPRatio"
-                0x24f2ec89: f32 = 0.03
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ManaChargeAmmoCD"
@@ -43,29 +39,23 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 360
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "TakedownMana"
-            }
-            0xb2c62c87 {
                 0x19efbfdb: string = "InternalCDPerCastID"
                 0x24f2ec89: f32 = 6.5
             }
-        }
-        0x0ac4f0d5: map[hash,pointer] = {
-            0xa7cf607b = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x763d871b {
-                        0x295c2889: f32 = 0.03
-                        0x7d3150ec: u8 = 2
-                    }
-                }
+            0xb2c62c87 {
+                0x19efbfdb: string = "HasteFromMana"
+                0x24f2ec89: f32 = 0.005
             }
         }
-        0x288a964d: f32 = 65
+        0x06d997bb: f32 = 200
+        0x288a964d: f32 = 60
         0x9fdc5a73: f32 = 500
         0xccf99b44: list[string] = {
+            "Health"
             "SpellDamage"
             "Mana"
             "Active"
+            "AbilityHaste"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
@@ -85,6 +75,7 @@ entries: map[hash,embed] = {
                     "keyTooltip" = "Item_3003_Tooltip"
                     "keyTooltipExternal" = "Item_3003_TooltipExternal"
                     "keyColloquialism" = "Item_3003_Colloquialism"
+                    "keyTooltipDynamic" = "Item_3003_TooltipDynamic"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -94,6 +85,9 @@ entries: map[hash,embed] = {
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "Mana"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "Health"
                             }
                         }
                     }
