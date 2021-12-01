@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xeaa0bfa1 = 0x60e00531 {
+        0x19efbfdb: string = "Set5_Stage2_Personality_Hellion"
+        0x0773669d: map[string,pointer] = {
+            "Set5_Hellion" = 0x977517c6 {
+                0x24f2ec89: f32 = 4
+            }
+            "TFT5_Zyra" = 0x977517c6 {
+                0x24f2ec89: f32 = 3
+            }
+            "TFT5_Sejuani" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+            "TFT5_Senna" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+        }
+        0x9be36761: link = 0xa0011303
+    }
+}

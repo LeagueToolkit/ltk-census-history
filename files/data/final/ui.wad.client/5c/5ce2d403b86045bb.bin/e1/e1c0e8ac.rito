@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe1c0e8ac = 0xaae83c5b {
+        0x19efbfdb: string = "SpecialOffer_Rewards"
+        0x49da00a9: bool = true
+        0x82a5ecad: u32 = 60
+        0xe449cc30: link = 0x27e553ff
+        0x87ef0b13: pointer = 0x8f1e6a22 {
+            0x2686a483: f32 = 0.25
+            0x73463200: u8 = 23
+        }
+        0x8570b380: pointer = 0x8f1e6a22 {
+            0x2686a483: f32 = 0.25
+            0x73463200: u8 = 22
+            0x7ce54f01: u8 = 255
+            0x3adcf3d2: u8 = 0
+        }
+    }
+}

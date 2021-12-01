@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4f65cc53 = 0x6f870247 {
+        0x19efbfdb: string = "Mercenary"
+        0xc3143d66: string = "tft_trait_displayname_Mercenary"
+        0xe2d4c74a: string = "tft_trait_unitslabel_Mercenary"
+        0x765f18da: string = "tft_trait_description_Mercenary"
+        0x8bee2972: string = "ASSETS/UX/TraitIcons/Trait_Icon_3_Mercenary.dds"
+        0x93dd1f25: list[embed] = {
+            0x18ee4f3b {
+                0x8912eb52: u32 = 1
+                0x03d26b40: option[u32] = {
+                    25000
+                }
+                0xac307ed6: u8 = 3
+                0x24593d1d: u8 = 3
+                0x92f50a07: string = "Nothing is done here, see TFT3_PlayerBuff_MercenaryManager"
+                0x233072a6: string = "TFT3_TraitVFXMercenary"
+            }
+        }
+    }
+}

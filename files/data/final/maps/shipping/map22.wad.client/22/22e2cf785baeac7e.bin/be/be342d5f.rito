@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xbe342d5f = 0x60e00531 {
+        0x19efbfdb: string = "Set2Personality_6Berserker"
+        0x0773669d: map[string,pointer] = {
+            "Berserker" = 0x977517c6 {
+                0x24f2ec89: f32 = 5
+            }
+            "TFT2_Sivir" = 0x977517c6 {
+                0x24f2ec89: f32 = 2.5
+            }
+            "TFT2_Yasuo" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+        }
+        0x9be36761: link = 0x8fdc26bb
+    }
+}

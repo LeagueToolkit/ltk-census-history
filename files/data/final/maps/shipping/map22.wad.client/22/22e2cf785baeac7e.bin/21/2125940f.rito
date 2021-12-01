@@ -1,0 +1,42 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2125940f = 0x6f870247 {
+        0x19efbfdb: string = "Mystic"
+        0xc3143d66: string = "tft_trait_displayname_Mystic"
+        0xe2d4c74a: string = "tft_trait_unitslabel_Mystic"
+        0x765f18da: string = "tft_trait_description_Mystic"
+        0x8bee2972: string = "ASSETS/UX/TraitIcons/Trait_Icon_2_Mystic.dds"
+        0x93dd1f25: list[embed] = {
+            0x18ee4f3b {
+                0x8912eb52: u32 = 2
+                0x03d26b40: option[u32] = {
+                    3
+                }
+                0x92f50a07: string = "TFT2_UnitBuffMystic"
+                0xc13d6d31: list[embed] = {
+                    0x62ff42f4 {
+                        0x8d39bde6: hash = 0xb6f318ee
+                        0x425ed3ca: f32 = 40
+                    }
+                }
+            }
+            0x18ee4f3b {
+                0x8912eb52: u32 = 4
+                0x03d26b40: option[u32] = {
+                    25000
+                }
+                0xac307ed6: u8 = 3
+                0x92f50a07: string = "TFT2_UnitBuffMystic"
+                0xc13d6d31: list[embed] = {
+                    0x62ff42f4 {
+                        0x8d39bde6: hash = 0xb6f318ee
+                        0x425ed3ca: f32 = 120
+                    }
+                }
+            }
+        }
+    }
+}

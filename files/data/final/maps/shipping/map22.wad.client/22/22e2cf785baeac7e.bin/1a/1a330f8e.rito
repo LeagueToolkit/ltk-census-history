@@ -1,0 +1,44 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x1a330f8e = 0x6f870247 {
+        0x19efbfdb: string = "Imperial"
+        0xc3143d66: string = "tft_trait_displayname_Imperial"
+        0x765f18da: string = "tft_trait_description_Imperial"
+        0x8bee2972: string = "ASSETS/UX/TraitIcons/Trait_Icon_Imperial.dds"
+        0x93dd1f25: list[embed] = {
+            0x18ee4f3b {
+                0x8912eb52: u32 = 2
+                0x03d26b40: option[u32] = {
+                    3
+                }
+                0x24593d1d: u8 = 4
+                0x92f50a07: string = "TFT_UnitBuffImperial"
+                0x233072a6: string = "TFT_TraitVFXImperial"
+                0xc13d6d31: list[embed] = {
+                    0x62ff42f4 {
+                        0x8d39bde6: hash = 0x4d3274b7
+                        0x425ed3ca: f32 = 2
+                    }
+                }
+            }
+            0x18ee4f3b {
+                0x8912eb52: u32 = 4
+                0x03d26b40: option[u32] = {
+                    25000
+                }
+                0xac307ed6: u8 = 3
+                0x24593d1d: u8 = 1
+                0x92f50a07: string = "TFT_UnitBuffImperial"
+                0xc13d6d31: list[embed] = {
+                    0x62ff42f4 {
+                        0x8d39bde6: hash = 0x4d3274b7
+                        0x425ed3ca: f32 = 2
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x0fa5829b = 0x60e00531 {
+        0x19efbfdb: string = "Set4Personality_Enlightened"
+        0x0773669d: map[string,pointer] = {
+            "Set4_Enlightened" = 0x977517c6 {
+                0x24f2ec89: f32 = 4
+            }
+            "TFT4_Mystic" = 0x977517c6 {
+                0x24f2ec89: f32 = 3
+            }
+            "TFT4_Pyke" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+            "TFT4_Jax" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+        }
+        0x9be36761: link = 0x8fdc26bb
+    }
+}

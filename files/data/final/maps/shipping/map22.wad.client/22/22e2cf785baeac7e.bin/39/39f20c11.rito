@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x39f20c11 = 0x60e00531 {
+        0x19efbfdb: string = "Set3Personality_6StarGuardian"
+        0x0773669d: map[string,pointer] = {
+            "StarGuardian" = 0x977517c6 {
+                0x24f2ec89: f32 = 5
+            }
+            "TFT3_VelKoz" = 0x977517c6 {
+                0x24f2ec89: f32 = 4
+            }
+            "TFT3_Leona" = 0x977517c6 {
+                0x24f2ec89: f32 = 1.5
+            }
+            "TFT3_Lux" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+            "TFT3_WuKong" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+        }
+        0x9be36761: link = 0x8fdc26bb
+    }
+}
