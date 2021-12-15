@@ -1,0 +1,32 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4994ea0b = 0x6f870247 {
+        0x19efbfdb: string = "TFTTutorial_Blademaster"
+        0xc3143d66: string = "tft_trait_displayname_TFTTutorial_Blademaster"
+        0xe2d4c74a: string = "tft_trait_unitslabel_TFTTutorial_Blademaster"
+        0x765f18da: string = "tft_trait_description_TFTTutorial_Blademaster"
+        0x8bee2972: string = "ASSETS/UX/TraitIcons/Trait_Icon_Blademaster.dds"
+        0x93dd1f25: list[embed] = {
+            0x18ee4f3b {
+                0x8912eb52: u32 = 3
+                0xac307ed6: u8 = 3
+                0x24593d1d: u8 = 1
+                0x92f50a07: string = "TFTTutorial_UnitBuffBlademaster"
+                0x233072a6: string = "TFTTutorial_TraitVFXBlademaster"
+                0xc13d6d31: list[embed] = {
+                    0x62ff42f4 {
+                        0x8d39bde6: hash = 0xb4a90a5d
+                        0x425ed3ca: f32 = 45
+                    }
+                    0x62ff42f4 {
+                        0x8d39bde6: hash = 0x766c34e6
+                        0x425ed3ca: f32 = 1
+                    }
+                }
+            }
+        }
+    }
+}
