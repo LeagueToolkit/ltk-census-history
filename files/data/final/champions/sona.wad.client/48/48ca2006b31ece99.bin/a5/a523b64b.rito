@@ -54,6 +54,54 @@ entries: map[hash,embed] = {
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 1
+                }
+                0x2a552694: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 0.45
+                }
+                0x5212abee: option[f32] = {
+                    1
+                }
+                0x42bd7f6b: flag = true
+                0x3d25b8ce: string = "Mesh1"
+                0xca406316: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 1
+                }
+                0x007b14f6: pointer = 0x8594e839 {
+                    0x0d89732d: embed = 0x6a88780b {
+                        0xd467e8c0: string = "ASSETS/Characters/SonaDJGenre02/Skins/Skin06/Particles/sona_skin06_Genre02_transin_mesh_r4.scb"
+                    }
+                }
+                0xfa784eab: u8 = 4
+                0x3d7e6258: embed = 0x074f91dd {
+                    0xbc037de7: pointer = 0x4349c5f5 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.4
+                            0.7
+                            1
+                        }
+                        0x34474c3b: list[vec4] = {
+                            { 0.94902, 0.345098, 1, 0 }
+                            { 1, 0.901961, 0.686275, 1 }
+                            { 0.913725, 0.85098, 1, 1 }
+                            { 0.968627, 0.866667, 1, 1 }
+                        }
+                    }
+                }
+                0x7b7a7318: i16 = 1
+                0x3c91cebd: bool = true
+                0x37ddb774: flag = true
+                0x5932ff9c: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 0, 180, 5 }
+                }
+                0xf0eb7084: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 1.1, 1.1, 1.1 }
+                }
+                0x3c6468f4: string = "ASSETS/Characters/Sona/Skins/Skin06/Particles/Sona_Skin06_Z_Meshes_01.Sona_VFX_Update.dds"
+            }
+            0x09cde442 {
+                0xae839c67: embed = 0x04300058 {
                     0xb4b427aa: f32 = 30
                 }
                 0x2a552694: embed = 0x04300058 {
@@ -67,7 +115,7 @@ entries: map[hash,embed] = {
                 }
                 0x3d25b8ce: string = "Sparks"
                 0x51433ef4: embed = 0x68dc32b6 {
-                    0xb4b427aa: vec3 = { 10, 10, 0.1 }
+                    0xb4b427aa: vec3 = { 5, 5, 0.1 }
                     0xbc037de7: pointer = 0xacd81180 {
                         0xa7084719: list[pointer] = {
                             0x53a6c97e {
@@ -76,8 +124,8 @@ entries: map[hash,embed] = {
                                     1
                                 }
                                 0xe44b7382: list[f32] = {
-                                    -1
-                                    1
+                                    -0.5
+                                    0.5
                                 }
                             }
                             0x53a6c97e {
@@ -86,8 +134,8 @@ entries: map[hash,embed] = {
                                     1
                                 }
                                 0xe44b7382: list[f32] = {
-                                    -1
-                                    1
+                                    -0.5
+                                    0.5
                                 }
                             }
                             0x53a6c97e {
@@ -105,7 +153,7 @@ entries: map[hash,embed] = {
                             0
                         }
                         0x34474c3b: list[vec3] = {
-                            { 10, 10, 0.1 }
+                            { 5, 5, 0.1 }
                         }
                     }
                 }
@@ -181,19 +229,18 @@ entries: map[hash,embed] = {
                         { 0, 1.0000001, 0 }
                     }
                 }
-                0xb56e8811: string = "ASSETS/Particles/color-hold.Set4_5BattlepassContent.dds"
                 0xfa784eab: u8 = 4
                 0x83cdeaa1: embed = 0x074f91dd {
                     0xbc037de7: pointer = 0x4349c5f5 {
                         0x5d68eeb5: list[f32] = {
                             0
-                            0.5
+                            0.31287128
                             1
                         }
                         0x34474c3b: list[vec4] = {
                             { 1, 0.92549, 0.345098, 1 }
-                            { 1, 0.333333, 1, 1 }
-                            { 1, 0, 0.498039, 1 }
+                            { 0.43765926, 0.33333334, 1, 1 }
+                            { 0.3860075, 0, 1, 1 }
                         }
                     }
                 }
@@ -205,7 +252,7 @@ entries: map[hash,embed] = {
                         }
                         0x34474c3b: list[vec4] = {
                             { 1, 1, 1, 1 }
-                            { 0.137255, 0.180392, 0.294118, 1 }
+                            { 0.42108798, 0.18103303, 0.69468224, 1 }
                         }
                     }
                 }
@@ -250,11 +297,13 @@ entries: map[hash,embed] = {
                         0x5d68eeb5: list[f32] = {
                             0
                             0.1
+                            0.3766781
                             1
                         }
                         0x34474c3b: list[vec3] = {
                             { 0, 0, 0 }
                             { 1, 1, 1 }
+                            { 0.8863782, 0.69257987, 0.69257987 }
                             { 0, 0, 0 }
                         }
                     }
@@ -330,7 +379,6 @@ entries: map[hash,embed] = {
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
                 }
-                0xfa784eab: u8 = 1
                 0x83cdeaa1: embed = 0x074f91dd {
                     0xb4b427aa: vec4 = { 1, 1, 1, 0.47058827 }
                 }
@@ -338,94 +386,33 @@ entries: map[hash,embed] = {
                     0xbc037de7: pointer = 0x4349c5f5 {
                         0x5d68eeb5: list[f32] = {
                             0
-                            1
+                            0.45
+                            0.9
                         }
                         0x34474c3b: list[vec4] = {
-                            { 1, 1, 1, 0 }
-                            { 1, 1, 1, 1 }
+                            { 1, 0, 0, 0 }
+                            { 0.2, 0.78080416, 1, 0.38039216 }
+                            { 0.5323262, 0, 1, 1 }
                         }
                     }
                 }
+                0x3559e15b: flag = true
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 150, 150, 150 }
-                }
-                0x3c6468f4: string = "ASSETS/Characters/Sona/Skins/Skin06/Particles/Sona_Skin06_Z_Trans_Glow_03.dds"
-            }
-            0x09cde442 {
-                0x22e763bc: f32 = 0.45
-                0xae839c67: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 1
-                }
-                0x2a552694: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 0.2
-                }
-                0x2431d42c: option[f32] = {
-                    0.2
-                }
-                0x5212abee: option[f32] = {
-                    0.95
-                }
-                0x42bd7f6b: flag = true
-                0x3d25b8ce: string = "Nova_Ring"
-                0xb56e8811: string = "ASSETS/Particles/color-rampdown.TFT_Set4_Act2.dds"
-                0xfa784eab: u8 = 4
-                0x3d7e6258: embed = 0x074f91dd {
-                    0xbc037de7: pointer = 0x4349c5f5 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                            1
-                        }
-                        0x34474c3b: list[vec4] = {
-                            { 1, 1, 1, 1 }
-                            { 0.058824, 0.87451, 1, 1 }
-                        }
-                    }
-                }
-                0x3c91cebd: bool = true
-                0x6563bee8: u8 = 1
-                0x37ddb774: flag = true
-                0x3559e15b: flag = true
-                0x5932ff9c: embed = 0x68dc32b6 {
-                    0xb4b427aa: vec3 = { 360, 0, 0 }
-                    0xbc037de7: pointer = 0xacd81180 {
-                        0xa7084719: list[pointer] = {
-                            0x53a6c97e {
-                                0x40c351da: list[f32] = {
-                                    0
-                                    1
-                                }
-                                0xe44b7382: list[f32] = {
-                                    0
-                                    1
-                                }
-                            }
-                            0x53a6c97e {}
-                            0x53a6c97e {}
-                        }
-                        0x5d68eeb5: list[f32] = {
-                            0
-                        }
-                        0x34474c3b: list[vec3] = {
-                            { 360, 0, 0 }
-                        }
-                    }
-                }
-                0xf0eb7084: embed = 0x68dc32b6 {
-                    0xb4b427aa: vec3 = { 160, 160, 1 }
                 }
                 0xd4e17a53: embed = 0x68dc32b6 {
                     0xbc037de7: pointer = 0xacd81180 {
                         0x5d68eeb5: list[f32] = {
                             0
-                            1
+                            0.3
                         }
                         0x34474c3b: list[vec3] = {
-                            { 0.2, 0.2, 1 }
-                            { 1, 1, 1 }
+                            { 1, 0, 0 }
+                            { 0.5, 0, 0 }
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Sona/Skins/Skin06/Particles/Sona_Skin06_Z_Trans_Glow_04.dds"
+                0x3c6468f4: string = "ASSETS/Shared/Particles/3026_Items_bigglow02.TFT_Set6.dds"
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.45
@@ -467,7 +454,7 @@ entries: map[hash,embed] = {
                 0xb56e8811: string = "ASSETS/Characters/Sona/Skins/Base/Particles/Sona_Base_Q_Buff_WispColor.dds"
                 0xfa784eab: u8 = 4
                 0x3d7e6258: embed = 0x074f91dd {
-                    0xb4b427aa: vec4 = { 1, 1, 1, 0.500008 }
+                    0xb4b427aa: vec4 = { 1, 1, 1, 0.3100023 }
                     0xbc037de7: pointer = 0x4349c5f5 {
                         0x5d68eeb5: list[f32] = {
                             0
@@ -476,7 +463,7 @@ entries: map[hash,embed] = {
                         }
                         0x34474c3b: list[vec4] = {
                             { 1, 1, 1, 0 }
-                            { 1, 1, 1, 0.500008 }
+                            { 1, 1, 1, 0.3100023 }
                             { 1, 1, 1, 0 }
                         }
                     }
@@ -596,6 +583,103 @@ entries: map[hash,embed] = {
                 0xb56e8811: string = "ASSETS/Particles/color-rampdown.TFT_Set4_Act2.dds"
                 0xfa784eab: u8 = 4
                 0x3d7e6258: embed = 0x074f91dd {
+                    0xb4b427aa: vec4 = { 0.56513315, 0.4385138, 1, 1 }
+                    0xbc037de7: pointer = 0x4349c5f5 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            1
+                        }
+                        0x34474c3b: list[vec4] = {
+                            { 0.56513315, 0.4385138, 1, 1 }
+                            { 0.0265946, 0.32673573, 1, 1 }
+                        }
+                    }
+                }
+                0x3c91cebd: bool = true
+                0x6563bee8: u8 = 1
+                0x5932ff9c: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 360, 0, 0 }
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    0
+                                    1
+                                }
+                            }
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 360, 0, 0 }
+                        }
+                    }
+                }
+                0xf0eb7084: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 250, 500, 1 }
+                }
+                0xd4e17a53: embed = 0x68dc32b6 {
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.3
+                            1
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 0.1, 0.1, 1 }
+                            { 0.2, 0.6, 1 }
+                            { 0, 1, 1 }
+                        }
+                    }
+                }
+                0x3c6468f4: string = "ASSETS/Shared/Particles/Base_Flare_1.Season2022_SRT_Preseason.dds"
+            }
+            0x09cde442 {
+                0x22e763bc: f32 = 0.45
+                0xae839c67: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 1
+                }
+                0x2a552694: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 0.15
+                    0xbc037de7: pointer = 0xfe064c88 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {
+                                0x40c351da: list[f32] = {
+                                    0
+                                    1
+                                }
+                                0xe44b7382: list[f32] = {
+                                    0.8
+                                    2
+                                }
+                            }
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[f32] = {
+                            0.15
+                        }
+                    }
+                }
+                0x2431d42c: option[f32] = {
+                    10.2
+                }
+                0x5212abee: option[f32] = {
+                    0.95
+                }
+                0x42bd7f6b: flag = true
+                0x3d25b8ce: string = "Burst1"
+                0xb56e8811: string = "ASSETS/Particles/color-rampdown.TFT_Set4_Act2.dds"
+                0xfa784eab: u8 = 4
+                0x3d7e6258: embed = 0x074f91dd {
                     0xbc037de7: pointer = 0x4349c5f5 {
                         0x5d68eeb5: list[f32] = {
                             0
@@ -636,73 +720,23 @@ entries: map[hash,embed] = {
                     }
                 }
                 0xf0eb7084: embed = 0x68dc32b6 {
-                    0xb4b427aa: vec3 = { 250, 250, 1 }
+                    0xb4b427aa: vec3 = { 120, 250, 1 }
                 }
                 0xd4e17a53: embed = 0x68dc32b6 {
                     0xbc037de7: pointer = 0xacd81180 {
                         0x5d68eeb5: list[f32] = {
                             0
+                            0.1
                             1
                         }
                         0x34474c3b: list[vec3] = {
-                            { 0.2, 0.2, 1 }
-                            { 1, 1, 1 }
+                            { 0.1, 0.1, 1 }
+                            { 1, 0.6, 1 }
+                            { 0, 1, 1 }
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Sona/Skins/Skin06/Particles/Sona_Skin06_Z_Trans_Flash_01.dds"
-                0x9b111ae4: f32 = 15
-                0x1e67b0f1: u16 = 9
-                0x76f8ad24: u16 = 1
-                0x86a84509: vec2 = { 3, 3 }
-            }
-            0x09cde442 {
-                0xae839c67: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 1
-                }
-                0x2a552694: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 0.45
-                }
-                0x5212abee: option[f32] = {
-                    1
-                }
-                0x42bd7f6b: flag = true
-                0x3d25b8ce: string = "Mesh1"
-                0xca406316: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 1
-                }
-                0x007b14f6: pointer = 0x8594e839 {
-                    0x0d89732d: embed = 0x6a88780b {
-                        0xd467e8c0: string = "ASSETS/Characters/SonaDJGenre02/Skins/Skin06/Particles/sona_skin06_Genre02_transin_mesh_r4.scb"
-                    }
-                }
-                0xfa784eab: u8 = 4
-                0x3d7e6258: embed = 0x074f91dd {
-                    0xbc037de7: pointer = 0x4349c5f5 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                            0.4
-                            0.7
-                            1
-                        }
-                        0x34474c3b: list[vec4] = {
-                            { 0.94902, 0.345098, 1, 0 }
-                            { 1, 0.901961, 0.686275, 1 }
-                            { 0.913725, 0.85098, 1, 1 }
-                            { 0.968627, 0.866667, 1, 1 }
-                        }
-                    }
-                }
-                0x7b7a7318: i16 = 1
-                0x3c91cebd: bool = true
-                0x37ddb774: flag = true
-                0x5932ff9c: embed = 0x68dc32b6 {
-                    0xb4b427aa: vec3 = { 0, 180, 5 }
-                }
-                0xf0eb7084: embed = 0x68dc32b6 {
-                    0xb4b427aa: vec3 = { 1.1, 1.1, 1.1 }
-                }
-                0x3c6468f4: string = "ASSETS/Characters/Sona/Skins/Skin06/Particles/Sona_Skin06_Z_Meshes_01.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Sona/Skins/Skin06/Particles/Sona_Skin06_Flash_01.Sona_VFX_Update.dds"
             }
         }
         0xecf1c6bc: string = "Sona_Skin06_Z_TransIn_Mesh_R4"

@@ -1,0 +1,179 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3d580daf = 0xb99e7b71 {
+        0xf510291e: link = 0xdd562ce0
+        0xaae01626: embed = 0x6fb8aab5 {
+            0x7c44cff8: embed = 0xe9c1f997 {
+                0xab522155: u16 = 14
+                0x6f5882f3: map[string,embed] = {
+                    "DiffuseMultColor" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 12
+                        0x39b1ddf4: u16 = 1
+                    }
+                    "Global_FX" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 11
+                        0x39b1ddf4: u16 = 2
+                    }
+                    "GlowColor" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 2
+                        0x39b1ddf4: u16 = 1
+                    }
+                    "GradientFactor" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 8
+                        0x39b1ddf4: u16 = 1
+                    }
+                    "Parameter 1" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 13
+                    }
+                    "RimFactor" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 10
+                        0x39b1ddf4: u16 = 1
+                    }
+                }
+                0xea57bf12: string = "Parameter "
+                0xd872e2a5: map[u16,embed] = {
+                    2 = 0x53df6397 {
+                        0x0617e21f: vec4 = { 1, 1, 1, 1 }
+                    }
+                    8 = 0x53df6397 {
+                        0x5127f14d: u8 = 0
+                    }
+                    10 = 0x53df6397 {
+                        0x5127f14d: u8 = 0
+                        0x0617e21f: vec4 = { 1, 0, 0, 1 }
+                    }
+                    11 = 0x53df6397 {
+                        0x5127f14d: u8 = 0
+                        0x0617e21f: vec4 = { 1, 0, 0, 1 }
+                    }
+                    12 = 0x53df6397 {
+                        0x0617e21f: vec4 = { 1, 1, 1, 1 }
+                    }
+                    13 = 0x53df6397 {}
+                }
+            }
+            0xe502c1dc: embed = 0x684e7d3b {
+                0xab522155: u16 = 6
+                0x6f5882f3: map[string,embed] = {
+                    "Diffuse" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 1
+                        0x39b1ddf4: u16 = 2
+                    }
+                    "FX_Mask" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 3
+                        0x39b1ddf4: u16 = 3
+                    }
+                    "HairMap" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 4
+                        0x39b1ddf4: u16 = 2
+                    }
+                    "Texture 0" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 5
+                    }
+                }
+                0xea57bf12: string = "Texture "
+                0xd872e2a5: map[u16,embed] = {
+                    1 = 0xe1fcfd23 {
+                        0x32b374fa: string = "ASSETS/Characters/Zeri/Skins/Base/Zeri_base_TX_CM.Zeri.dds"
+                    }
+                    3 = 0xe1fcfd23 {
+                        0x32b374fa: string = "ASSETS/Characters/Zeri/Skins/Base/Particles/Zeri_Base_R_Jacket_TX.Zeri.dds"
+                    }
+                    4 = 0xe1fcfd23 {
+                        0x32b374fa: string = "ASSETS/Characters/Zeri/Skins/Base/Zeri_HairGradient.Zeri.dds"
+                    }
+                    5 = 0xe1fcfd23 {}
+                }
+            }
+            0xa2054c01: embed = 0xb77bfdb8 {
+                0xab522155: u16 = 3
+                0x6f5882f3: map[string,embed] = {
+                    "STATIC_SWITCH_1" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 2
+                    }
+                    "USE_TXT_REMAP" = 0x0a7e3f16 {
+                        0x37386ae0: u16 = 1
+                        0x39b1ddf4: u16 = 1
+                    }
+                }
+                0xea57bf12: string = "STATIC_SWITCH_"
+                0xd872e2a5: map[u16,embed] = {
+                    1 = 0x4f258a74 {
+                        0x61342fd0: bool = false
+                    }
+                    2 = 0x4f258a74 {}
+                }
+            }
+        }
+        0x1d369c29: string = "Shaders/SkinnedMesh/Zeri/LightningRim"
+        0x48a52ed9: list[embed] = {
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter0"
+                0xd872e2a5: vec4 = { 0, 1, 1, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "GradientFactor"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Global_FX"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "RimFactor"
+                        0x0640657c: u32 = 4
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter1"
+                0xd872e2a5: vec4 = { 1, 1, 1, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "DiffuseMultColor"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { 1, 1, 1, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "GlowColor"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+        }
+        0x3291437b: list[embed] = {
+            0x60a292e6 {
+                0x8d39bde6: string = "USE_TXT_REMAP"
+            }
+        }
+        0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "Texture1"
+                0x32b374fa: string = "ASSETS/Characters/Zeri/Skins/Base/Zeri_base_TX_CM.Zeri.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Texture4"
+                0x32b374fa: string = "ASSETS/Characters/Zeri/Skins/Base/Zeri_HairGradient.Zeri.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Texture3"
+                0x32b374fa: string = "ASSETS/Characters/Zeri/Skins/Base/Particles/Zeri_Base_R_Jacket_TX.Zeri.dds"
+            }
+        }
+        0xae29287b: map[string,string] = {
+            "FEATURE_BLOOM" = "1"
+            "FEATURE_SCREENSPACE_UV" = "1"
+            "FEATURE_WORLD_NORMAL" = "1"
+            "FEATURE_WORLD_POSITION" = "1"
+        }
+        0x25b76221: u32 = 1
+    }
+}

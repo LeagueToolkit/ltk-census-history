@@ -58,15 +58,15 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "BaseShield"
                     0x246b0d8e: list[f32] = {
                         300
-                        400
                         500
-                        600
                         700
-                        800
                         900
+                        1100
+                        1300
+                        1500
                     }
                     0x6d3ccfd7: f32 = 300
-                    0xe7b832f2: string = "P + 100"
+                    0xe7b832f2: string = "P + 200"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "SlowAmount"
@@ -108,7 +108,7 @@ entries: map[hash,embed] = {
                         20
                     }
                     0x6d3ccfd7: f32 = 140
-                    0xe7b832f2: string = "P -20"
+                    0xe7b832f2: string = "P - 20"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "DataManaCost"
@@ -189,18 +189,18 @@ entries: map[hash,embed] = {
                     0x6d3ccfd7: f32 = 1
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "AllySlowAmount"
+                    0x19efbfdb: string = "AllySpeedAmount"
                     0x246b0d8e: list[f32] = {
                         0.4
-                        0.3
-                        0.2
-                        0.1
-                        0
-                        -0.1
-                        -0.2
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
                     }
                     0x6d3ccfd7: f32 = 0.4
-                    0xe7b832f2: string = "P -.1"
+                    0xe7b832f2: string = "P + 0"
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -221,7 +221,7 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0xa8c1dce1
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 1
+                            0x295c2889: f32 = 1.5
                         }
                     }
                 }
@@ -308,12 +308,6 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "BaseShield"
                                     0x566f3406: string = "Spell_ListType_Shield"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "AllySlowAmount"
-                                    0xf506c7e6: f32 = 100
-                                    0x566f3406: string = "Spell_TahmKenchRWrapper_AllySlowAmount"
-                                    0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "DataCooldown"

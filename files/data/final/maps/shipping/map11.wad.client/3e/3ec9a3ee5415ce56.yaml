@@ -1,0 +1,21 @@
+sha256: "49500df41b07c67d9760f4b3552383f03c12f2d0defb948a3245a05180e21681"
+checksum: "043625d9e96e6971"
+kind: "skl"
+skeleton:
+ influences: 3
+ joints:
+  - name: "Root"
+  - name: "Spine1"
+    parent: "Root"
+  - name: "Cap"
+    parent: "Spine1"
+  - name: "CapTop"
+    parent: "Cap"
+  - name: "Leaf1"
+    parent: "Cap"
+  - name: "Leaf2"
+    parent: "Leaf1"
+  - name: "CapFront"
+    parent: "Cap"
+  - name: "VFX_Buffbone_Bone"
+    parent: "CapTop"
