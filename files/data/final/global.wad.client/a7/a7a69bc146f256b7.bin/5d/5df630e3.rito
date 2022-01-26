@@ -14,7 +14,7 @@ entries: map[hash,embed] = {
             0x48ff8661
             0xdfe0e8e4
         }
-        0x0b44452a: i32 = 400
+        0x0b44452a: i32 = 500
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
@@ -68,8 +68,8 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 60
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "ShieldHealthScaling"
-                0x24f2ec89: f32 = 0.2
+                0x19efbfdb: string = "ShieldADScaling"
+                0x24f2ec89: f32 = 2.25
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "SlowAmount"
@@ -79,23 +79,67 @@ entries: map[hash,embed] = {
                 0x19efbfdb: string = "SlowDuration"
                 0x24f2ec89: f32 = 2
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "BuffDuration"
+                0x24f2ec89: f32 = 5
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "BuffExtension"
+                0x24f2ec89: f32 = 3
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "BuffVamp"
+                0x24f2ec89: f32 = 0.12
+            }
         }
         0x0ac4f0d5: map[hash,pointer] = {
-            0x08457caa = 0xbc409284 {
+            0xe5c634ce = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
                     0x332eb441 {
                         0xb386dcf1: hash = 0x4641fc01
                     }
                     0x5f5c70a4 {
-                        0xb386dcf1: hash = 0x927c7fa7
-                        0x4cec2c8a: u8 = 11
+                        0xb386dcf1: hash = 0xa4704ba2
+                        0x4cec2c8a: u8 = 2
+                        0x7d3150ec: u8 = 2
                     }
                 }
             }
+            0x3b00d8b1 = 0x070e3593 {
+                0x7f93cf4e: hash = 0xe5c634ce
+                0x2c77adff: pointer = 0x9ef92080 {
+                    0xe202bca9: f32 = 0.75
+                }
+            }
+            0x56b3f555 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x803dae4c {
+                        0x886fc197: option[f32] = {
+                            3
+                        }
+                        0xcc3d10ce: option[f32] = {
+                            2
+                        }
+                        0xa066cc28: list[pointer] = {
+                            0xcd156c7f {
+                                0x1cd83c4b: pointer = 0x9ef92080 {
+                                    0xe202bca9: f32 = 0.01
+                                }
+                                0x4cec2c8a: u8 = 28
+                                0x7d3150ec: u8 = 1
+                            }
+                        }
+                    }
+                }
+                0xcbcac618: u8 = 5
+                0x37070a8d: u8 = 5
+                0xe6eebb2f: u8 = 5
+                0xd6b7a622: bool = true
+            }
         }
-        0x5b98619f: f32 = 15
+        0x5b98619f: f32 = 20
         0xb9f972a0: f32 = 50
-        0x4e7a81cd: f32 = 50
+        0x4e7a81cd: f32 = 55
         0xccf99b44: list[string] = {
             "SpellBlock"
             "Damage"
@@ -122,6 +166,7 @@ entries: map[hash,embed] = {
                     "keyTooltip" = "Item_3156_Tooltip"
                     "keyTooltipExternal" = "Item_3156_TooltipExternal"
                     "keyColloquialism" = "Item_3156_Colloquialism"
+                    "keyTooltipDynamic" = "Item_3156_TooltipDynamic"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
