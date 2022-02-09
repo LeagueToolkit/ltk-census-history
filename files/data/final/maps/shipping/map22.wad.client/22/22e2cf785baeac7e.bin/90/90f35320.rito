@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x90f35320 = 0x60e00531 {
+        0x19efbfdb: string = "GoldenEggLootE"
+        0x0773669d: map[string,pointer] = {
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Item_ForceOfNature"
+                    "TFT5_Item_ThiefsGlovesRadiant"
+                    "TFT_Item_ThiefsGloves"
+                }
+            }
+            "Consumable" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Consumable_NeekosHelp"
+                }
+            }
+            "Gold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 25
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
