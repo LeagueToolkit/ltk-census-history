@@ -30,16 +30,15 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BaseDamage"
                     0x246b0d8e: list[f32] = {
-                        -10
-                        25
+                        0
+                        30
                         60
-                        95
-                        130
-                        165
-                        200
+                        90
+                        120
+                        150
+                        180
                     }
-                    0x6d3ccfd7: f32 = -10
-                    0xe7b832f2: string = "P + 35"
+                    0xe7b832f2: string = "P + 30"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "BonusMonsterDamage"
@@ -58,20 +57,6 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "AttackDamageRatio"
                     0x246b0d8e: list[f32] = {
-                        0.9
-                        0.9
-                        0.9
-                        0.9
-                        0.9
-                        0.9
-                        0.9
-                    }
-                    0x6d3ccfd7: f32 = 0.9
-                    0xe7b832f2: string = "P + 0"
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "BonusCritDamageRatio"
-                    0x246b0d8e: list[f32] = {
                         0.6
                         0.6
                         0.6
@@ -84,7 +69,21 @@ entries: map[hash,embed] = {
                     0xe7b832f2: string = "P + 0"
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "BasicAttackCDR"
+                    0x19efbfdb: string = "BonusCritDamageRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                    0x6d3ccfd7: f32 = 0.5
+                    0xe7b832f2: string = "P + 0"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseBasicAttackCDR"
                     0x246b0d8e: list[f32] = {
                         1
                         1
@@ -172,18 +171,107 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
+                0xb6b3a930 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0xad106e67 {
+                            0x46144074: pointer = 0x1ebf4049 {}
+                            0x4914452d: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0xc4b6325d
+                            }
+                        }
+                    }
+                }
+                0x55c2cc24 = 0x070e3593 {
+                    0x7f93cf4e: hash = 0x1ddee768
+                    0x2c77adff: pointer = 0x84a63373 {
+                        0xa066cc28: list[pointer] = {
+                            0x9ef92080 {
+                                0xe202bca9: f32 = 1
+                            }
+                            0xad106e67 {
+                                0x46144074: pointer = 0x332eb441 {
+                                    0xb386dcf1: hash = 0xca89c26e
+                                }
+                                0x4914452d: pointer = 0x84a63373 {
+                                    0xa066cc28: list[pointer] = {
+                                        0x9ef92080 {
+                                            0xe202bca9: f32 = -1
+                                        }
+                                        0x332eb441 {
+                                            0xb386dcf1: hash = 0x3d33e3de
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                0x60103254 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0xad106e67 {
+                            0x46144074: pointer = 0x84a63373 {
+                                0xa066cc28: list[pointer] = {
+                                    0x332eb441 {
+                                        0xb386dcf1: hash = 0x03da00f9
+                                    }
+                                    0x5f5c70a4 {
+                                        0xb386dcf1: hash = 0xa5fb74cb
+                                        0x4cec2c8a: u8 = 2
+                                    }
+                                }
+                            }
+                            0x4914452d: pointer = 0x84a63373 {
+                                0xa066cc28: list[pointer] = {
+                                    0x9ef92080 {
+                                        0xe202bca9: f32 = 1
+                                    }
+                                    0xad106e67 {
+                                        0x46144074: pointer = 0x332eb441 {
+                                            0xb386dcf1: hash = 0xca89c26e
+                                        }
+                                        0x4914452d: pointer = 0x84a63373 {
+                                            0xa066cc28: list[pointer] = {
+                                                0x9ef92080 {
+                                                    0xe202bca9: f32 = -1
+                                                }
+                                                0x332eb441 {
+                                                    0xb386dcf1: hash = 0x3d33e3de
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0x2c77adff: pointer = 0x84a63373 {
+                        0xa066cc28: list[pointer] = {
+                            0x9ef92080 {
+                                0xe202bca9: f32 = 1
+                            }
+                            0x332eb441 {
+                                0xb386dcf1: hash = 0xc94903f8
+                            }
+                            0x5f5c70a4 {
+                                0xb386dcf1: hash = 0xc94903f8
+                                0x4cec2c8a: u8 = 8
+                                0x7d3150ec: u8 = 2
+                            }
+                        }
+                    }
+                }
             }
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/MasterYi/HUD/Icons2D/MasterYi_Q.dds"
             }
             0x9ecac3a1: list[f32] = {
-                18
+                18.5
                 18
                 17.5
                 17
                 16.5
                 16
-                16
+                15.5
             }
             0x18330965: f32 = -0.5
             0x3a4c4690: f32 = -0.5
