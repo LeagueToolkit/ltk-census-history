@@ -47,10 +47,10 @@ entries: map[hash,embed] = {
             }
         }
         0xbfc37103: list[string] = {
-            "KindredQ"
-            "KindredW"
-            "KindredEWrapper"
-            "KindredR"
+            "KindredQAbility/KindredQ"
+            "KindredWAbility/KindredW"
+            "KindredEWrapperAbility/KindredEWrapper"
+            "KindredRAbility/KindredR"
         }
         0x8c1da1da: list[string] = {
             "KindredWPassiveHealMissile"
@@ -69,6 +69,13 @@ entries: map[hash,embed] = {
             "BaseSpell"
             "BaseSpell"
             "BaseSpell"
+        }
+        0xe27abe56: list[link] = {
+            0x6e1cc58e
+            0xd5f525c0
+            0x69c8df9b
+            0x52e09c95
+            0xfbebc495
         }
         0xc9fa54bd: string = "game_character_passiveName_Kindred"
         0x23627deb: string = "KindredPassiveManager"
@@ -162,17 +169,17 @@ entries: map[hash,embed] = {
                 }
             }
         }
-        0xe96f0412: link = 0x8d5366b1
+        0xe96f0412: link = 0xe8eda7c7
         0xbb13b87e: list[embed] = {
             0x8ea3ea45 {
-                0xbd3c31e4: link = 0x8d5366b1
+                0xbd3c31e4: link = 0xe8eda7c7
                 0x174dfc9b: list[link] = {
                     0x9123666d
-                    0xe1c6fbd2
+                    0x1ce06b4c
                     0x7e0cc817
-                    0x411fccb9
+                    0xe2885baf
                     0x7b95b5bd
-                    0x5d96c3db
+                    0x229850c5
                 }
             }
             0x8ea3ea45 {
