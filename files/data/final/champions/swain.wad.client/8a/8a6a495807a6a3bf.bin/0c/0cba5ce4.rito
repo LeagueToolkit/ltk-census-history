@@ -15,86 +15,29 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "DamagePerSecond"
                     0x246b0d8e: list[f32] = {
+                        0
                         20
-                        35
-                        50
-                        65
+                        40
+                        60
                         80
-                        95
-                        110
+                        100
+                        120
                     }
-                    0x6d3ccfd7: f32 = 20
-                    0xe7b832f2: string = "P + 15"
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "TimeThresholdForSecondCast"
-                    0x246b0d8e: list[f32] = {
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                    }
-                    0x6d3ccfd7: f32 = 1
-                    0xe7b832f2: string = "P"
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "DemonFormDuration"
-                    0x246b0d8e: list[f32] = {
-                        12
-                        12
-                        12
-                        12
-                        12
-                        12
-                        12
-                    }
-                    0x6d3ccfd7: f32 = 12
-                    0xe7b832f2: string = "P"
+                    0xe7b832f2: string = "P + 20"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "HealPerSecond"
                     0x246b0d8e: list[f32] = {
-                        5
-                        20
-                        35
-                        50
+                        -10
+                        15
+                        40
                         65
-                        80
-                        95
+                        90
+                        115
+                        140
                     }
-                    0x6d3ccfd7: f32 = 5
-                    0xe7b832f2: string = "P+15"
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "CDRefundPerSoul"
-                    0x246b0d8e: list[f32] = {
-                        0.02
-                        0.04
-                        0.06
-                        0.08
-                        0.1
-                        0.12
-                        0.14
-                    }
-                    0x6d3ccfd7: f32 = 0.02
-                    0xe7b832f2: string = "P+0.02"
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "BaseHealthGain"
-                    0x246b0d8e: list[f32] = {
-                        50
-                        125
-                        200
-                        275
-                        350
-                        425
-                        500
-                    }
-                    0x6d3ccfd7: f32 = 50
-                    0xe7b832f2: string = "P+75"
+                    0x6d3ccfd7: f32 = -10
+                    0xe7b832f2: string = "P+25"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "MinionMonsterHealReduction"
@@ -111,60 +54,135 @@ entries: map[hash,embed] = {
                     0xe7b832f2: string = "P"
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "APRatioPerSoul"
-                    0x246b0d8e: list[f32] = {
-                        0.21
-                        0.21
-                        0.21
-                        0.21
-                        0.21
-                        0.21
-                        0.21
-                    }
-                    0x6d3ccfd7: f32 = 0.21
-                    0xe7b832f2: string = "P"
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "DemonflareTotalDamage"
-                    0x246b0d8e: list[f32] = {
-                        100
-                        200
-                        300
-                        400
-                        500
-                        600
-                        700
-                    }
-                    0x6d3ccfd7: f32 = 100
-                    0xe7b832f2: string = "P+100"
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "HealtoDamagePercent"
-                    0x246b0d8e: list[f32] = {
-                        0.375
-                        0.375
-                        0.375
-                        0.375
-                        0.375
-                        0.375
-                        0.375
-                    }
-                    0x6d3ccfd7: f32 = 0.375
-                    0xe7b832f2: string = "P"
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "MinimumDemonflareDamage"
+                    0x19efbfdb: string = "DemonPowerMax"
                     0x246b0d8e: list[f32] = {
                         50
-                        100
-                        150
-                        200
-                        250
-                        300
-                        350
+                        50
+                        50
+                        50
+                        50
+                        50
+                        50
                     }
                     0x6d3ccfd7: f32 = 50
-                    0xe7b832f2: string = "P+50"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DemonPowerDegen"
+                    0x246b0d8e: list[f32] = {
+                        10
+                        10
+                        10
+                        10
+                        10
+                        10
+                        10
+                    }
+                    0x6d3ccfd7: f32 = 10
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DemonPowerRegen"
+                    0x246b0d8e: list[f32] = {
+                        20
+                        20
+                        20
+                        20
+                        20
+                        20
+                        20
+                    }
+                    0x6d3ccfd7: f32 = 20
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DemonflareDamageBase"
+                    0x246b0d8e: list[f32] = {
+                        75
+                        150
+                        225
+                        300
+                        375
+                        450
+                        525
+                    }
+                    0x6d3ccfd7: f32 = 75
+                    0xe7b832f2: string = "P + 75"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DemonflareSlowAmount"
+                    0x246b0d8e: list[f32] = {
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                    }
+                    0x6d3ccfd7: f32 = 0.6
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DemonflareSlowDuration"
+                    0x246b0d8e: list[f32] = {
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                    }
+                    0x6d3ccfd7: f32 = 1.5
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "AmpTime"
+                    0x246b0d8e: list[f32] = {
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                    }
+                    0x6d3ccfd7: f32 = 5
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DegenAmpAmount"
+                    0x246b0d8e: list[f32] = {
+                        15
+                        15
+                        15
+                        15
+                        15
+                        15
+                        15
+                    }
+                    0x6d3ccfd7: f32 = 15
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DemonflareCastDelay"
+                    0x246b0d8e: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                    0x6d3ccfd7: f32 = 2
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxDemonflareCast"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                    0x6d3ccfd7: f32 = 1
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -174,7 +192,7 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0xfaeb494f
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.14
+                            0x295c2889: f32 = 0.1
                         }
                     }
                 }
@@ -184,27 +202,17 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0x0e5fb516
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.16
+                            0x295c2889: f32 = 0.25
                         }
                     }
                 }
                 0x050b1575 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
-                            0xb386dcf1: hash = 0xbec86c6b
+                            0xb386dcf1: hash = 0xf4b977c0
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 1
-                        }
-                    }
-                }
-                0xd4df2db3 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0x2d212113
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.5
+                            0x295c2889: f32 = 0.6
                         }
                     }
                 }
@@ -219,17 +227,17 @@ entries: map[hash,embed] = {
             0xfbd16fb5: string = "Spell4"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Swain/HUD/Icons2D/Swain_R.dds"
-                "ASSETS/Characters/Swain/HUD/Icons2D/Swain_R_No_Charge.dds"
+                "ASSETS/Characters/Swain/HUD/Icons2D/Swain_R2.dds"
                 "ASSETS/Characters/Swain/HUD/Icons2D/Swain_R2_No_Charge.dds"
             }
             0x9ecac3a1: list[f32] = {
-                120
-                120
-                120
-                120
-                120
-                120
-                120
+                100
+                100
+                80
+                60
+                60
+                60
+                60
             }
             0x3a4c4690: f32 = -1
             0xe321919c: bool = true
@@ -310,11 +318,6 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "BaseHealthGain"
-                                    0x33c02d93: i32 = 6
-                                    0x566f3406: string = "Spell_ListType_Healing"
-                                }
-                                0x9a1b3505 {
                                     0x5127f14d: string = "DamagePerSecond"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_SwainDrainDamage"
@@ -325,13 +328,12 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_SwainDrainHeal"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "DemonflareTotalDamage"
+                                    0x5127f14d: string = "DemonflareDamageBase"
                                     0x33c02d93: i32 = 10
-                                    0x566f3406: string = "Spell_ListType_SwainDamagePerSoul"
+                                    0x566f3406: string = "Spell_ListType_SwainDetonationDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "MinimumDemonflareDamage"
-                                    0x566f3406: string = "Spell_SwainR_MinimumDemonflareDamage"
+                                    0x5127f14d: string = "Cooldown"
                                 }
                             }
                         }

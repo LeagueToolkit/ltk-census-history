@@ -1,0 +1,224 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x9cb4fd36 = 0x9b67e9f6 {
+        0x87225880: u32 = 2
+        0x2d78c328: string = "GangplankSkin31"
+        0x514b1c48: i32 = 23
+        0x939e7b29: string = "faction:bilgewater,gender:male,race:pirate,skinline:ruined"
+        0x97f7188d: embed = 0xd06263ff {
+            0xb35135fa: string = "ASSETS/Characters/Gangplank/Skins/Skin23/GangplankLoadScreen_23.PIE_C_12_8.dds"
+        }
+        0x8f7b194f: embed = 0x8f7b194f {
+            0xd65bac4d: list[string] = {
+                "Gangplank_Base"
+                "Gangplank"
+                "GangplankSkin23"
+            }
+            0xf8f29f92: list2[embed] = {
+                0xa4416515 {
+                    0x8d39bde6: string = "Gangplank_Base_VO"
+                    0x2a21ad00: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Gangplank/Skins/Base/Gangplank_Base_VO_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Gangplank/Skins/Base/Gangplank_Base_VO_events.bnk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Gangplank/Skins/Base/Gangplank_Base_VO_audio.wpk"
+                    }
+                    0x12d8e384: list[string] = {
+                        "Gangplank_Switch_CC"
+                        "Gangplank_Switch_NoCC"
+                        "Play_vo_Gangplank_AttackChampion2D"
+                        "Play_vo_Gangplank_BuyItem2D3031"
+                        "Play_vo_Gangplank_BuyItem2D3072"
+                        "Play_vo_Gangplank_BuyItem2D3078"
+                        "Play_vo_Gangplank_BuyItem2D3087"
+                        "Play_vo_Gangplank_BuyItem2D3144"
+                        "Play_vo_Gangplank_Death3D"
+                        "Play_vo_Gangplank_FirstMove2D"
+                        "Play_vo_Gangplank_FirstMove2DMap12"
+                        "Play_vo_Gangplank_GangplankBasicAttack_cast3D"
+                        "Play_vo_Gangplank_GangplankE_cast3D"
+                        "Play_vo_Gangplank_GangplankEBarrelChainVO_OnBuffCast"
+                        "Play_vo_Gangplank_GangplankQProceed_cast3D"
+                        "Play_vo_Gangplank_GangplankR_cast3D"
+                        "Play_vo_Gangplank_GangplankR_laugh"
+                        "Play_vo_Gangplank_GangplankRUpgrade1_OnBuffCast"
+                        "Play_vo_Gangplank_GangplankRUpgrade2_OnBuffCast"
+                        "Play_vo_Gangplank_GangplankRUpgrade3_OnBuffCast"
+                        "Play_vo_Gangplank_GangplankW_cast3D"
+                        "Play_vo_Gangplank_Joke3DGeneral"
+                        "Play_vo_Gangplank_Laugh3DGeneral"
+                        "Play_vo_Gangplank_MoveOrder2D"
+                        "Play_vo_Gangplank_RecallLeadIn3D"
+                        "Play_vo_Gangplank_Taunt3DGeneral"
+                        "Play_vo_Gangplank_Taunt3DGraves"
+                        "Play_vo_Gangplank_Taunt3DMissFortune"
+                        "Play_vo_Gangplank_Taunt3DTwistedFate"
+                        "Play_vo_Gangplank_UseItem2D2044"
+                    }
+                    0x3b13aa4b: bool = true
+                }
+                0xa4416515 {
+                    0x8d39bde6: string = "Gangplank_Base_SFX"
+                    0x2a21ad00: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Gangplank/Skins/Base/Gangplank_Base_SFX_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Gangplank/Skins/Base/Gangplank_Base_SFX_events.bnk"
+                    }
+                    0x12d8e384: list[string] = {
+                        "Play_sfx_Gangplank_Base_Dance3D_buffactivate"
+                        "Play_sfx_Gangplank_Base_Death3D_buffactivate"
+                        "Play_sfx_Gangplank_Base_Joke3D_buffactivate"
+                        "Play_sfx_Gangplank_Base_Joke3D_loop"
+                        "Play_sfx_Gangplank_Base_Laugh3D_buffactivate"
+                        "Play_sfx_Gangplank_Base_Recall3D_buffactivate"
+                        "Play_sfx_Gangplank_Base_Recall3D_winddown_buffactivate"
+                        "Play_sfx_Gangplank_Base_Taunt3D_buffactivate"
+                        "Play_sfx_Gangplank_GangplankBasicAttack_OnCast"
+                        "Play_sfx_Gangplank_GangplankBasicAttack_OnHit"
+                        "Play_sfx_Gangplank_GangplankBilgewaterToken_buffcast"
+                        "Play_sfx_Gangplank_GangplankCritAttack_OnCast"
+                        "Play_sfx_Gangplank_GangplankCritAttack_OnHit"
+                        "Play_sfx_Gangplank_GangplankE_OnCast"
+                        "Play_sfx_Gangplank_GangplankE_powderburn"
+                        "Play_sfx_Gangplank_GangplankEBarrelDecaySound_OnBuffCast"
+                        "Play_sfx_Gangplank_GangplankEBarrelExplosionSound_OnBuffCast"
+                        "Play_sfx_Gangplank_GangplankEBarrelLife_OnBuffCast"
+                        "Play_sfx_Gangplank_GangplankPassiveAttack_OnBuffCast"
+                        "Play_sfx_Gangplank_GangplankPassiveAttackDoT_OnBuffCast"
+                        "Play_sfx_Gangplank_GangplankQProceed_Cast_Point"
+                        "Play_sfx_Gangplank_GangplankQProceed_Cast_Swing"
+                        "Play_sfx_Gangplank_GangplankQProceed_OnCast"
+                        "Play_sfx_Gangplank_GangplankQProceed_OnHit"
+                        "Play_sfx_Gangplank_GangplankQProceed_OnMissileLaunch"
+                        "Play_sfx_Gangplank_GangplankQProceedCrit_Cast_Swing"
+                        "Play_sfx_Gangplank_GangplankQProceedCrit_OnCast"
+                        "Play_sfx_Gangplank_GangplankQProceedCrit_OnHit"
+                        "Play_sfx_Gangplank_GangplankQProceedCrit_OnMissileLaunch"
+                        "Play_sfx_Gangplank_GangplankR_bigshot"
+                        "Play_sfx_Gangplank_GangplankR_bomb_hit"
+                        "Play_sfx_Gangplank_GangplankR_distantshots"
+                        "Play_sfx_Gangplank_GangplankR_OnCast"
+                        "Play_sfx_Gangplank_GangplankRSpeed_OnBuffCast"
+                        "Play_sfx_Gangplank_GangplankRZoneSpeed_buffactivate"
+                        "Play_sfx_Gangplank_GangplankSerpentCeremony_buffcast"
+                        "Play_sfx_Gangplank_GangplankW_foley"
+                        "Play_sfx_Gangplank_GangplankW_OnCast"
+                        "Play_sfx_Gangplank_GangplankWAudioCleanse_OnBuffCast"
+                        "Stop_sfx_Gangplank_GangplankQProceed_OnMissileLaunch"
+                        "Stop_sfx_Gangplank_GangplankRZoneSpeed_buffactivate"
+                    }
+                }
+                0xa4416515 {
+                    0x8d39bde6: string = "Gangplank_Skin23_SFX"
+                    0x2a21ad00: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Gangplank/Skins/Skin23/Gangplank_Skin23_SFX_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Gangplank/Skins/Skin23/Gangplank_Skin23_SFX_events.bnk"
+                    }
+                    0x12d8e384: list[string] = {
+                        "Play_sfx_GangplankSkin23_Dance3D_buffactivate"
+                        "Play_sfx_GangplankSkin23_Death3D_buffactivate"
+                        "Play_sfx_GangplankSkin23_GangplankBasicAttack_OnCast"
+                        "Play_sfx_GangplankSkin23_GangplankBasicAttack_OnHit"
+                        "Play_sfx_GangplankSkin23_GangplankBilgewaterToken_buffcast"
+                        "Play_sfx_GangplankSkin23_GangplankCritAttack_OnCast"
+                        "Play_sfx_GangplankSkin23_GangplankCritAttack_OnHit"
+                        "Play_sfx_GangplankSkin23_GangplankE_OnCast"
+                        "Play_sfx_GangplankSkin23_GangplankE_powderburn"
+                        "Play_sfx_GangplankSkin23_GangplankEBarrelDecaySound_OnBuffCast"
+                        "Play_sfx_GangplankSkin23_GangplankEBarrelExplosionSound_OnBuffCast"
+                        "Play_sfx_GangplankSkin23_GangplankEBarrelLife_OnBuffCast"
+                        "Play_sfx_GangplankSkin23_GangplankPassiveAttack_OnBuffCast"
+                        "Play_sfx_GangplankSkin23_GangplankPassiveAttackDoT_OnBuffCast"
+                        "Play_sfx_GangplankSkin23_GangplankQProceed_Cast_Point"
+                        "Play_sfx_GangplankSkin23_GangplankQProceed_Cast_Swing"
+                        "Play_sfx_GangplankSkin23_GangplankQProceed_OnCast"
+                        "Play_sfx_GangplankSkin23_GangplankQProceed_OnHit"
+                        "Play_sfx_GangplankSkin23_GangplankQProceed_OnMissileLaunch"
+                        "Play_sfx_GangplankSkin23_GangplankQProceedCrit_Cast_Swing"
+                        "Play_sfx_GangplankSkin23_GangplankQProceedCrit_OnCast"
+                        "Play_sfx_GangplankSkin23_GangplankQProceedCrit_OnHit"
+                        "Play_sfx_GangplankSkin23_GangplankQProceedCrit_OnMissileLaunch"
+                        "Play_sfx_GangplankSkin23_GangplankR_bigshot"
+                        "Play_sfx_GangplankSkin23_GangplankR_bomb_hit"
+                        "Play_sfx_GangplankSkin23_GangplankR_distantshots"
+                        "Play_sfx_GangplankSkin23_GangplankR_OnCast"
+                        "Play_sfx_GangplankSkin23_GangplankRSpeed_OnBuffCast"
+                        "Play_sfx_GangplankSkin23_GangplankRZoneSpeed_buffactivate"
+                        "Play_sfx_GangplankSkin23_GangplankSerpentCeremony_buffcast"
+                        "Play_sfx_GangplankSkin23_GangplankW_foley"
+                        "Play_sfx_GangplankSkin23_GangplankW_OnCast"
+                        "Play_sfx_GangplankSkin23_GangplankWAudioCleanse_OnBuffCast"
+                        "Play_sfx_GangplankSkin23_Joke3D_buffactivate"
+                        "Play_sfx_GangplankSkin23_Joke3D_loop"
+                        "Play_sfx_GangplankSkin23_Laugh3D_buffactivate"
+                        "Play_sfx_GangplankSkin23_Recall3D_buffactivate"
+                        "Play_sfx_GangplankSkin23_Recall3D_winddown_buffactivate"
+                        "Play_sfx_GangplankSkin23Taunt3D_buffactivate"
+                        "Stop_sfx_GangplankSkin23_GangplankQProceed_OnMissileLaunch"
+                        "Stop_sfx_GangplankSkin23_GangplankRZoneSpeed_buffactivate"
+                    }
+                }
+            }
+        }
+        0x426d89a3: embed = 0x426d89a3 {
+            0xf5fb07c7: link = 0x938c9f0e
+        }
+        0x45ff5904: embed = 0x6111d8a4 {
+            0xb14c976e: string = "ASSETS/Characters/Gangplank/Skins/Skin23/Gangplank_Skin23.PIE_C_12_8.skl"
+            0xd6a00df6: string = "ASSETS/Characters/Gangplank/Skins/Skin23/Gangplank_Skin23.PIE_C_12_8.skn"
+            0x3c6468f4: string = "ASSETS/Characters/Gangplank/Skins/Skin31/Gangplank_Skin31_TX_CM.Chroma_Gangplank_Ruined.dds"
+            0xa1f805da: f32 = 0.95
+            0x252f6884: f32 = 0.7
+            0x164ae4e9: bool = false
+            0x561f4fea: rgba = { 0, 0, 0, 255 }
+            0x80b7f78f: string = "Recall Crate_Mat"
+            0x24725910: list[embed] = {
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Gangplank/Skins/Skin31/Gangplank_Skin31_Orange_TX_CM.Chroma_Gangplank_Ruined.dds"
+                    0xaad7612c: string = "Oranges"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Gangplank/Skins/Skin31/Gangplank_Skin31_Weapon_TX_CM.Chroma_Gangplank_Ruined.dds"
+                    0xaad7612c: string = "Weapons"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Gangplank/Skins/Skin31/Gangplank_Skin31_Recall_TX_CM.Chroma_Gangplank_Ruined.dds"
+                    0xaad7612c: string = "Recall"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Gangplank/Skins/Skin31/Gangplank_Skin31_Crate_TX_CM.Chroma_Gangplank_Ruined.dds"
+                    0xaad7612c: string = "Crate_Mat"
+                }
+            }
+            0x309683ca: bool = true
+        }
+        0x2d0d1f1d: string = "Flesh"
+        0x123393ed: list[string] = {
+            "gangplank_key"
+        }
+        0x84186f3c: list[embed] = {
+            0x33068165 {
+                0x9b0300f3: hash = 0x369424af
+                0x1ecb978c: string = "Pelvis"
+                0xda428935: string = "Pelvis"
+            }
+        }
+        0x089aff69: string = "ASSETS/Characters/Gangplank/HUD/Gangplank_Circle_23.PIE_C_12_8.dds"
+        0xd8f64a0d: link = 0x17b2e91d
+        0xe67284f4: option[string] = {
+            "ASSETS/Characters/Gangplank/HUD/Gangplank_Circle.dds"
+        }
+        0xac473fef: option[string] = {
+            "ASSETS/Characters/Gangplank/HUD/Gangplank_Square.dds"
+        }
+        0x51c83af8: embed = 0x11b71b5e {
+            0x4d5ff2d7: string = "C_Buffbone_Cstm_Healthbar_Loc"
+        }
+        0x62286e7e: link = 0x3c359cec
+        0x152f84ad: embed = 0xe9aec27b {
+            0x19efbfdb: string = "GangplankUI"
+        }
+        0x25f9aa72: u32 = 3
+    }
+}
