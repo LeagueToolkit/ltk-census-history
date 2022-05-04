@@ -15,22 +15,43 @@ entries: map[hash,embed] = {
                         0.01
                         0.01
                         0.01
-                        0.0075
-                        0.0075
+                        0.01
+                        0.01
                     }
                     0x6d3ccfd7: f32 = 0.01
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxStatsThreshold"
+                    0x246b0d8e: list[f32] = {
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                    }
+                    0x6d3ccfd7: f32 = 0.3
+                    0xe7b832f2: string = "P"
                 }
             }
             0x94572284: map[hash,pointer] = {
                 0xd210ed1c = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0xad106e67 {
-                            0x46144074: pointer = 0x332eb441 {
-                                0xb386dcf1: hash = 0xf9b84b7d
-                            }
-                            0x4914452d: pointer = 0x9ef92080 {
-                                0xe202bca9: f32 = 100
-                            }
+                        0x15fecdbc {
+                            0xd06c375d: f32 = 0.4
+                            0x1cd7e522: f32 = 1
+                            0x7fe8e3b3: bool = true
+                        }
+                    }
+                    0x5a2297d3: bool = true
+                }
+                0xb686e82e = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x15fecdbc {
+                            0xd06c375d: f32 = 0.1
+                            0x1cd7e522: f32 = 0.3
+                            0x7fe8e3b3: bool = true
                         }
                     }
                     0x5a2297d3: bool = true
@@ -38,6 +59,15 @@ entries: map[hash,embed] = {
             }
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Olaf/HUD/Icons2D/Olaf_Passive.dds"
+            }
+            0x9ecac3a1: list[f32] = {
+                0
+                0
+                0
+                0
+                0
+                0
+                0
             }
             0x58cae4d0: list[i32] = {
                 75
@@ -48,16 +78,17 @@ entries: map[hash,embed] = {
                 75
                 75
             }
-            0xda94bd02: list[f32] = {
-                25000
-                25000
-                25000
-                25000
-                25000
-                25000
-                25000
+            0x8c5d1f1f: list[i32] = {
+                0
+                0
+                0
+                0
+                0
+                0
+                0
             }
             0xa1d133c1: bool = true
+            0x7e3c103c: bool = true
             0x1b9cbd9b: list[f32] = {
                 0
                 0
@@ -70,13 +101,13 @@ entries: map[hash,embed] = {
             0x5d46764f: pointer = 0x645ba277 {}
             0x048557ff: embed = 0x7dd1a902 {
                 0x2831605b: pointer = 0xa4e13b57 {
-                    0xfea35e52: bool = false
                     0xb482c52c: string = "OlafBerzerkerRage"
                     0x57b8b11b: link = 0x30d7b387
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "game_character_passiveName_Olaf"
                         "keyTooltip" = "game_character_passiveDescription_Olaf"
                         "keySummary" = "game_character_passiveSummary_Olaf"
+                        "keyTooltipExtended" = "game_character_passiveDescriptionExtended_Olaf"
                     }
                 }
             }

@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x98c480cd = 0x25e82b58 {
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0xc6d95b89
+            }
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x6b33019c
+            }
+        }
+        0x6bf3194e: link = 0x312a2bcc
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_PreGameUI_button_icon_tap"
+            0x84b6cf03: string = "Play_sfx_PreGameUI_button_cancelqueue"
+        }
+        0x5a94b0cc: list[link] = {
+            0xc6d95b89
+            0x6b33019c
+            0x312a2bcc
+        }
+        0x19efbfdb: string = "LobbyInviteButton"
+        0x8e91ace0: link = 0x0fd0d38b
+    }
+}
