@@ -282,14 +282,14 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "AdditionalChunkHealing"
                     0x246b0d8e: list[f32] = {
                         0
-                        1
-                        2
+                        0.75
+                        1.5
+                        2.25
                         3
-                        4
-                        5
-                        6
+                        3.75
+                        4.5
                     }
-                    0xe7b832f2: string = "P +1"
+                    0xe7b832f2: string = "P +0.75"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "BounceAPRatioTooltip"
@@ -308,16 +308,17 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "PassiveHealingTooltip"
                     0x246b0d8e: list[f32] = {
-                        5
-                        6
-                        7
-                        8
-                        9
-                        10
-                        11
+                        0.04
+                        0.0475
+                        0.055
+                        0.0625
+                        0.06
+                        0.065
+                        0.07
                     }
-                    0x6d3ccfd7: f32 = 5
-                    0xe7b832f2: string = "P +1"
+                    0x3f95426c: bool = false
+                    0x6d3ccfd7: f32 = 0.04
+                    0xe7b832f2: string = "P +0.005"
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -356,6 +357,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
+                    0x08d47ee4: i32 = 2
                 }
                 0xec2615e8 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
@@ -387,6 +389,7 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0xa4948451
                         }
                     }
+                    0x08d47ee4: i32 = 2
                 }
                 0x2c54dbef = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
@@ -434,11 +437,8 @@ entries: map[hash,embed] = {
                 }
                 0xdd970b09 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x332eb441 {
+                        0x5f5c70a4 {
                             0xb386dcf1: hash = 0x02ae9e03
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.01
                             0x4cec2c8a: u8 = 11
                         }
                     }
