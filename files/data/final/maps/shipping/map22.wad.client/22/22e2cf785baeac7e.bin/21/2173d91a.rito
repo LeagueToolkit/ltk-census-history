@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2173d91a = 0x60e00531 {
+        0x19efbfdb: string = "TFT7_AugmentConfiguration_Option1"
+        0x0773669d: map[string,pointer] = {
+            "AugmentArmoryOverride_Early" = 0xa188bd55 {
+                0x24f2ec89: string = "ArmoryContent_Augment_Tier1_0Rare"
+            }
+            "AugmentArmoryOverride_Mid" = 0xa188bd55 {
+                0x24f2ec89: string = "ArmoryContent_Augment_Tier1_0Rare"
+            }
+            "AugmentArmoryOverride_Late" = 0xa188bd55 {
+                0x24f2ec89: string = "ArmoryContent_Augment_Tier2_0Rare"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

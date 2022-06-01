@@ -1,0 +1,28 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x416e8c6d = 0x5e7e5a06 {
+        0xc8e37ef0: string = "BelvethPassiveStacks"
+        0x56d2be52: pointer = 0x43368569 {
+            0xeed67cd5: list[string] = {
+                "ASSETS/Characters/Belveth/HUD/Icons2D/Belveth_Passive.Belveth.dds"
+            }
+        }
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "BelvethPassiveStacks"
+                0x57b8b11b: link = 0x10f01d27
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Buff_BelvethHopelessStacks_Name"
+                    "keyTooltip" = "Buff_BelvethHopelessStacks_Tooltip"
+                }
+            }
+            0x62e282aa: bool = false
+            0xd0066e81: bool = false
+            0x00d019c1: bool = false
+            0xd7e2c71d: u8 = 8
+        }
+    }
+}

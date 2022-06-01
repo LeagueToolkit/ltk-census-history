@@ -1,0 +1,17 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x078f1e88 = 0x60e00531 {
+        0x19efbfdb: string = "IntercosmicGiftsLootE"
+        0x0773669d: map[string,pointer] = {
+            "Consumable" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Consumable_ItemRemover"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

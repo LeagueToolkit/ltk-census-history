@@ -1,0 +1,17 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x7b14d157 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryTable_TreasureDragon_Overall"
+        0x0773669d: map[string,pointer] = {
+            "ArmoryTable_TreasureDragon_Base" = 0x977517c6 {
+                0x24f2ec89: f32 = 1
+            }
+            "ArmoryTable_TreasureDragon_Great" = 0x977517c6 {}
+            "ArmoryTable_TreasureDragon_Omega" = 0x977517c6 {}
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

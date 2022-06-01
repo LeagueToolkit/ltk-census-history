@@ -1,0 +1,19 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb2dad142 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_Augment_TierDoubleUp_0Rare"
+        0x0773669d: map[string,pointer] = {
+            "PlayerAugments" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TIERDoubleUp_COMMON"
+                    "TIERDoubleUp_COMMON"
+                    "TIERDoubleUp_COMMON"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

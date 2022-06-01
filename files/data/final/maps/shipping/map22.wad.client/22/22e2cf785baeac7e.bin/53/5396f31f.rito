@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x5396f31f = 0x60e00531 {
+        0x19efbfdb: string = "PartyFavorsLootDistribution"
+        0x0773669d: map[string,pointer] = {
+            "PartyFavorsLootB" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.3
+            }
+            "PartyFavorsLootC" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "PartyFavorsLootD" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.25
+            }
+            "PartyFavorsLootE" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.25
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

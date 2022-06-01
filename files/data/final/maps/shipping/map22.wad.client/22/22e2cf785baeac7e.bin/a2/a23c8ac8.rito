@@ -10,7 +10,7 @@ entries: map[hash,embed] = {
                 0x24f2ec89: string = "tft_tutorial_v2_buy_unit_high_tier"
             }
             "RequiredAction" = 0xa188bd55 {
-                0x24f2ec89: string = "TFT_TutorialActionCheck_BuyUnit"
+                0x24f2ec89: string = "TFT_TutorialActionCheck_BuyUnitHighTier"
             }
             "MessageUIAnchor" = 0xa188bd55 {
                 0x24f2ec89: string = "TFT_UnitShop_Item2_Slot"
@@ -49,7 +49,20 @@ entries: map[hash,embed] = {
                     "UnitFour"
                     "UnitFive"
                     "Reroll"
+                    "PurchaseExp"
                 }
+            }
+            "ShopActionsBlockedAfterBuy" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "UnitOne"
+                    "UnitTwo"
+                    "UnitFour"
+                    "UnitFive"
+                    "Reroll"
+                }
+            }
+            "RequiredActionParameter" = 0xa188bd55 {
+                0x24f2ec89: string = "TFTTutorial_Fiora"
             }
         }
         0x9be36761: link = 0xb874104c
