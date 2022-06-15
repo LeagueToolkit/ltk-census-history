@@ -22,7 +22,7 @@ entries: map[hash,embed] = {
         }
         0xf416eba0: map[string,string] = {
             "parent" = "510000"
-            "championSkinQuery" = "$[?(@.isLegacy!= true && @.type!='kRecolor' && !('7' in @.skinlines[*].id) && @.rarity!= 'kUltimate' && @.rarity!='kMythic' && @.rarity != 'kLegendary')].id"
+            "championSkinQuery" = "$[?(@.isLegacy!= true && @.type!='kRecolor' && (!@.skinlines || !('7' in @.skinlines[*].id)) && @.rarity!= 'kUltimate' && @.rarity!='kMythic' && @.rarity != 'kLegendary')].id"
         }
     }
 }
