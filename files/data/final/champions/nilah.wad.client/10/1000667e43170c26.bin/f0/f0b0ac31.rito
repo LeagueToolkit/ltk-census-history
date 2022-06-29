@@ -1,0 +1,26 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xf0b0ac31 = 0x5e7e5a06 {
+        0xc8e37ef0: string = "NilahWBuff"
+        0x56d2be52: pointer = 0x43368569 {
+            0xeed67cd5: list[string] = {
+                "ASSETS/Characters/Nilah/HUD/Icons2D/NilahW.Nilah.dds"
+            }
+            0x21753196: string = "ASSETS/Characters/Nilah/HUD/Icons2D/NilahW.Nilah.dds"
+        }
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0xf1f20d72: string = "buff_desc_NilahWBuff"
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "NilahWBuff"
+                0x57b8b11b: link = 0x10f01d27
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Buff_Name_NilahWBuff"
+                    "keyTooltip" = "Buff_Tooltip_NilahWBuff"
+                }
+            }
+        }
+    }
+}

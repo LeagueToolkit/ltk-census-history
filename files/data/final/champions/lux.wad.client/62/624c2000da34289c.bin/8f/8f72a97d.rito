@@ -7,10 +7,9 @@ entries: map[hash,embed] = {
         0x5192c999: f32 = 15
         0x6f5eb901: map[hash,embed] = {
             0x51af37ba = 0xfc27a63e {
-                0xc6a8b1d0: f32 = 10
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
-                        0xfecc56e5: string = "MoveOrder2D"
+                        0xfecc56e5: string = "Standard"
                         0x2aff6c4a: list[pointer] = {
                             0x5faf30c1 {
                                 0xaab0a793: f32 = 400
@@ -18,7 +17,7 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "MoveOrder2D"
+                            0xc0a5d6dd: string = "Move2DStandard"
                         }
                     }
                 }
@@ -26,9 +25,17 @@ entries: map[hash,embed] = {
             0x0b0f01e9 = 0xfc27a63e {
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Respawn2D"
+                        0xfecc56e5: string = "Respawn"
+                        0x2aff6c4a: list[pointer] = {
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 50
+                            }
+                        }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Respawn2D"
+                            0xc0a5d6dd: string = "Respawn2DGeneral"
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
                         }
                     }
                 }
@@ -36,89 +43,13 @@ entries: map[hash,embed] = {
             0x12771576 = 0xfc27a63e {
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
-                        0xfecc56e5: string = "FirstMove2D"
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "FirstMove2D"
-                        }
-                    }
-                }
-            }
-            0xe189a0a2 = 0xfc27a63e {
-                0x1a116faf: list[embed] = {
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "KillChampion"
+                        0xfecc56e5: string = "Ally Garen"
                         0x2aff6c4a: list[pointer] = {
-                            0x2db74660 {
-                                0x3f2d5dae: u8 = 25
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "KillChampion3D"
-                            0x683ae1b9: string = "KillChampion3D"
-                            0x415965e7: string = "KillChampion3D"
-                            0x1b80126e: bool = true
-                            0x307b0406: u32 = 2
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                }
-            }
-            0xbc9c8463 = 0xfc27a63e {
-                0x1a116faf: list[embed] = {
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DAllyGalio"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 3
+                            0x2ed5772b {
                                 0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0x4244f7dd
-                                        }
+                                    0xc6623d61 {
+                                        0x805ea36e: bool = true
                                     }
-                                }
-                            }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DAllyGalio"
-                            0x683ae1b9: string = "Taunt3DAllyGalio"
-                            0x415965e7: string = "Taunt3DAllyGalio"
-                            0xe810044c: string = "Taunt3DAllyGalio"
-                        }
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DAllyTaliyah"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 3
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0x99837e2b
-                                        }
-                                    }
-                                }
-                            }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DAllyTaliyah"
-                            0x683ae1b9: string = "Taunt3DAllyTaliyah"
-                            0x415965e7: string = "Taunt3DAllyTaliyah"
-                            0xe810044c: string = "Taunt3DAllyTaliyah"
-                        }
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DAllyGaren"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 3
-                                0xf21bb0f8: list[pointer] = {
                                     0xdefcc579 {
                                         0xd6da506c: list[hash] = {
                                             0x153dde54
@@ -126,22 +57,169 @@ entries: map[hash,embed] = {
                                     }
                                 }
                             }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DAllyGaren"
-                            0x683ae1b9: string = "Taunt3DAllyGaren"
-                            0x415965e7: string = "Taunt3DAllyGaren"
-                            0xe810044c: string = "Taunt3DAllyGaren"
+                            0xc0a5d6dd: string = "Move2DFirstAllyGaren"
+                            0x307b0406: u32 = 1
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyEzreal"
+                        0xfecc56e5: string = "Ally Galio"
+                        0x2aff6c4a: list[pointer] = {
+                            0x2ed5772b {
+                                0xf21bb0f8: list[pointer] = {
+                                    0xc6623d61 {
+                                        0x805ea36e: bool = true
+                                    }
+                                    0xdefcc579 {
+                                        0xd6da506c: list[hash] = {
+                                            0x4244f7dd
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "Move2DFirstAllyGalio"
+                            0x307b0406: u32 = 1
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
+                    }
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "Ally Taliyah"
+                        0x2aff6c4a: list[pointer] = {
+                            0x2ed5772b {
+                                0xf21bb0f8: list[pointer] = {
+                                    0xc6623d61 {
+                                        0x805ea36e: bool = true
+                                    }
+                                    0xdefcc579 {
+                                        0xd6da506c: list[hash] = {
+                                            0x99837e2b
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "Move2DFirstAllyTaliyah"
+                            0x307b0406: u32 = 1
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
+                    }
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "Ally Demacia"
+                        0x2aff6c4a: list[pointer] = {
+                            0x2ed5772b {
+                                0xf21bb0f8: list[pointer] = {
+                                    0xc6623d61 {
+                                        0x805ea36e: bool = true
+                                    }
+                                    0x95a7d707 {
+                                        0x8e257510: string = "faction"
+                                        0x7e0dca60: string = "demacia"
+                                    }
+                                }
+                            }
+                        }
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "Move2DFirstAllyDemacia"
+                            0x307b0406: u32 = 1
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
+                    }
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "First"
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "Move2DFirst"
+                            0x307b0406: u32 = 1
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
+                    }
+                }
+            }
+            0xe189a0a2 = 0xfc27a63e {
+                0x1a116faf: list[embed] = {
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "Champion"
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "Kill3DGeneral"
+                            0x415965e7: string = "Kill3DGeneral"
+                            0x1b80126e: bool = true
+                            0x307b0406: u32 = 2
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
+                    }
+                }
+            }
+            0xbc9c8463 = 0xfc27a63e {
+                0x1a116faf: list[embed] = {
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "General"
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "Taunt3DGeneral"
+                            0x683ae1b9: string = "Taunt3DGeneral"
+                            0x415965e7: string = "Taunt3DGeneral"
+                            0xe810044c: string = "Taunt3DGeneral"
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
+                    }
+                }
+            }
+            0x32124fe9 = 0xfc27a63e {
+                0x1a116faf: list[embed] = {
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "General"
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "JokeResponse3DGeneral"
+                            0x683ae1b9: string = "JokeResponse3DGeneral"
+                            0x415965e7: string = "JokeResponse3DGeneral"
+                            0x307b0406: u32 = 1
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
+                    }
+                }
+            }
+            0x75cc7f16 = 0xfc27a63e {
+                0x1a116faf: list[embed] = {
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "General"
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "TauntResponse3DGeneral"
+                            0x683ae1b9: string = "TauntResponse3DGeneral"
+                            0x415965e7: string = "TauntResponse3DGeneral"
+                            0x307b0406: u32 = 1
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
+                    }
+                }
+            }
+            0xa47d00a4 = 0xfc27a63e {
+                0x1a116faf: list[embed] = {
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "Ezreal"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
+                                0xf3e8e24f: u8 = 1
                                 0xf21bb0f8: list[pointer] = {
                                     0xdefcc579 {
                                         0xd6da506c: list[hash] = {
@@ -150,22 +228,21 @@ entries: map[hash,embed] = {
                                     }
                                 }
                             }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyEzreal"
-                            0x683ae1b9: string = "Taunt3DEnemyEzreal"
-                            0x415965e7: string = "Taunt3DEnemyEzreal"
-                            0xe810044c: string = "Taunt3DEnemyEzreal"
+                            0xc0a5d6dd: string = "FirstEncounter3DEzreal"
+                            0x415965e7: string = "FirstEncounter3DEzreal"
+                            0x307b0406: u32 = 1
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyGalio"
+                        0xfecc56e5: string = "Galio"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
+                                0xf3e8e24f: u8 = 1
                                 0xf21bb0f8: list[pointer] = {
                                     0xdefcc579 {
                                         0xd6da506c: list[hash] = {
@@ -174,46 +251,21 @@ entries: map[hash,embed] = {
                                     }
                                 }
                             }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyGalio"
-                            0x683ae1b9: string = "Taunt3DEnemyGalio"
-                            0x415965e7: string = "Taunt3DEnemyGalio"
-                            0xe810044c: string = "Taunt3DEnemyGalio"
+                            0xc0a5d6dd: string = "FirstEncounter3DGalio"
+                            0x415965e7: string = "FirstEncounter3DGalio"
+                            0x307b0406: u32 = 1
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyGaren"
+                        0xfecc56e5: string = "Jarvan"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0x153dde54
-                                        }
-                                    }
-                                }
-                            }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyGaren"
-                            0x683ae1b9: string = "Taunt3DEnemyGaren"
-                            0x415965e7: string = "Taunt3DEnemyGaren"
-                            0xe810044c: string = "Taunt3DEnemyGaren"
-                        }
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyJarvan"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
+                                0xf3e8e24f: u8 = 1
                                 0xf21bb0f8: list[pointer] = {
                                     0xdefcc579 {
                                         0xd6da506c: list[hash] = {
@@ -222,463 +274,18 @@ entries: map[hash,embed] = {
                                     }
                                 }
                             }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyJarvan"
-                            0x683ae1b9: string = "Taunt3DEnemyJarvan"
-                            0x415965e7: string = "Taunt3DEnemyJarvan"
-                            0xe810044c: string = "Taunt3DEnemyJarvan"
-                        }
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyKatarina"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0xc081b76e
-                                        }
-                                    }
-                                }
-                            }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyKatarina"
-                            0x683ae1b9: string = "Taunt3DEnemyKatarina"
-                            0x415965e7: string = "Taunt3DEnemyKatarina"
-                            0xe810044c: string = "Taunt3DEnemyKatarina"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyLeona"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0x8e0099d4
-                                        }
-                                    }
-                                }
-                            }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyLeona"
-                            0x683ae1b9: string = "Taunt3DEnemyLeona"
-                            0x415965e7: string = "Taunt3DEnemyLeona"
-                            0xe810044c: string = "Taunt3DEnemyLeona"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyLucian"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0x553dda35
-                                        }
-                                    }
-                                }
-                            }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyLucian"
-                            0x683ae1b9: string = "Taunt3DEnemyLucian"
-                            0x415965e7: string = "Taunt3DEnemyLucian"
-                            0xe810044c: string = "Taunt3DEnemyLucian"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyQuinn"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0x26270eb8
-                                        }
-                                    }
-                                }
-                            }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyQuinn"
-                            0x683ae1b9: string = "Taunt3DEnemyQuinn"
-                            0x415965e7: string = "Taunt3DEnemyQuinn"
-                            0xe810044c: string = "Taunt3DEnemyQuinn"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyRyze"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0x37d3b555
-                                        }
-                                    }
-                                }
-                            }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyRyze"
-                            0x683ae1b9: string = "Taunt3DEnemyRyze"
-                            0x415965e7: string = "Taunt3DEnemyRyze"
-                            0xe810044c: string = "Taunt3DEnemyRyze"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemySona"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0xd8a95d36
-                                        }
-                                    }
-                                }
-                            }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemySona"
-                            0x683ae1b9: string = "Taunt3DEnemySona"
-                            0x415965e7: string = "Taunt3DEnemySona"
-                            0xe810044c: string = "Taunt3DEnemySona"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyTaliyah"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0x99837e2b
-                                        }
-                                    }
-                                }
-                            }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyTaliyah"
-                            0x683ae1b9: string = "Taunt3DEnemyTaliyah"
-                            0x415965e7: string = "Taunt3DEnemyTaliyah"
-                            0xe810044c: string = "Taunt3DEnemyTaliyah"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyTwitch"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0xc52083fa
-                                        }
-                                    }
-                                }
-                            }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyTwitch"
-                            0x683ae1b9: string = "Taunt3DEnemyTwitch"
-                            0x415965e7: string = "Taunt3DEnemyTwitch"
-                            0xe810044c: string = "Taunt3DEnemyTwitch"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DShadowIslesEnemy"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
-                                0xf21bb0f8: list[pointer] = {
-                                    0x95a7d707 {
-                                        0x8e257510: string = "faction"
-                                        0x7e0dca60: string = "shadowisles"
-                                    }
-                                }
-                            }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DShadowIsles"
-                            0x683ae1b9: string = "Taunt3DShadowIsles"
-                            0x415965e7: string = "Taunt3DShadowIsles"
-                            0xe810044c: string = "Taunt3DShadowIsles"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DAllyDemacian"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 3
-                                0xf21bb0f8: list[pointer] = {
-                                    0x95a7d707 {
-                                        0x8e257510: string = "faction"
-                                        0x7e0dca60: string = "demacia"
-                                    }
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DAllyDemacian"
-                            0x683ae1b9: string = "Taunt3DAllyDemacian"
-                            0x415965e7: string = "Taunt3DAllyDemacian"
-                            0xe810044c: string = "Taunt3DAllyDemacian"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyNoxian"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
-                                0xf21bb0f8: list[pointer] = {
-                                    0x95a7d707 {
-                                        0x8e257510: string = "faction"
-                                        0x7e0dca60: string = "noxus"
-                                    }
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DNoxian"
-                            0x683ae1b9: string = "Taunt3DNoxian"
-                            0x415965e7: string = "Taunt3DNoxian"
-                            0xe810044c: string = "Taunt3DNoxian"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DAllyNoxian"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 3
-                                0xf21bb0f8: list[pointer] = {
-                                    0x95a7d707 {
-                                        0x8e257510: string = "faction"
-                                        0x7e0dca60: string = "noxus"
-                                    }
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DNoxian"
-                            0x683ae1b9: string = "Taunt3DNoxian"
-                            0x415965e7: string = "Taunt3DNoxian"
-                            0xe810044c: string = "Taunt3DNoxian"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyDemacian"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
-                                0xf21bb0f8: list[pointer] = {
-                                    0x95a7d707 {
-                                        0x8e257510: string = "faction"
-                                        0x7e0dca60: string = "demacia"
-                                    }
-                                }
-                            }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyDemacian"
-                            0x683ae1b9: string = "Taunt3DEnemyDemacian"
-                            0x415965e7: string = "Taunt3DEnemyDemacian"
-                            0xe810044c: string = "Taunt3DEnemyDemacian"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DShadowIslesAlly"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 3
-                                0xf21bb0f8: list[pointer] = {
-                                    0x95a7d707 {
-                                        0x8e257510: string = "faction"
-                                        0x7e0dca60: string = "shadowisles"
-                                    }
-                                }
-                            }
-                            0xb4a5fb60 {
-                                0x954d766f: f32 = 5
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DShadowIsles"
-                            0x683ae1b9: string = "Taunt3DShadowIsles"
-                            0x415965e7: string = "Taunt3DShadowIsles"
-                            0xe810044c: string = "Taunt3DShadowIsles"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DGeneral"
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DGeneral"
-                            0x683ae1b9: string = "Taunt3DGeneral"
-                            0x415965e7: string = "Taunt3DGeneral"
-                            0xe810044c: string = "Taunt3DGeneral"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                }
-            }
-            0x32124fe9 = 0xfc27a63e {
-                0x1a116faf: list[embed] = {
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "JokeEndedNearby"
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "JokeEndedNearby3DGeneral"
-                            0x683ae1b9: string = "JokeEndedNearby3DGeneral"
-                            0x415965e7: string = "JokeEndedNearby3DGeneral"
+                            0xc0a5d6dd: string = "FirstEncounter3DJarvanIV"
+                            0x415965e7: string = "FirstEncounter3DJarvanIV"
                             0x307b0406: u32 = 1
                         }
-                        0x68fee3c4: bool = true
-                    }
-                }
-            }
-            0x75cc7f16 = 0xfc27a63e {
-                0x1a116faf: list[embed] = {
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "TauntEndedNearbyGaren"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0x153dde54
-                                        }
-                                    }
-                                }
-                            }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
                         }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "TauntEndedNearbyGaren"
-                            0x683ae1b9: string = "TauntEndedNearbyGaren"
-                            0x415965e7: string = "TauntEndedNearbyGaren"
-                            0x307b0406: u32 = 1
-                        }
-                        0x68fee3c4: bool = true
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "TauntEndedNearbyEnemy"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 2
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "TauntEndedNearby3D"
-                            0x683ae1b9: string = "TauntEndedNearby3D"
-                            0x415965e7: string = "TauntEndedNearby3D"
-                            0x307b0406: u32 = 1
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                }
-            }
-            0xa47d00a4 = 0xfc27a63e {
-                0x1a116faf: list[embed] = {
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DAllyGalio"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 1
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0x4244f7dd
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DAllyGalio"
-                            0x307b0406: u32 = 1
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DAllyTaliyah"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 1
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0x99837e2b
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DAllyTaliyah"
-                            0x307b0406: u32 = 1
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DAllyGaren"
+                        0xfecc56e5: string = "Garen"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -692,73 +299,16 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DAllyGaren"
+                            0xc0a5d6dd: string = "FirstEncounter3DGaren"
+                            0x415965e7: string = "FirstEncounter3DGaren"
                             0x307b0406: u32 = 1
                         }
-                        0x68fee3c4: bool = true
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyEzreal"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 1
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0xc34a529e
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyEzreal"
-                            0x307b0406: u32 = 1
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyGalio"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 1
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0x4244f7dd
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyGalio"
-                            0x307b0406: u32 = 1
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyGaren"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 1
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0x153dde54
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyGaren"
-                            0x307b0406: u32 = 1
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyKatarina"
+                        0xfecc56e5: string = "Katarina"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -772,13 +322,16 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyKatarina"
+                            0xc0a5d6dd: string = "FirstEncounter3DKatarina"
+                            0x415965e7: string = "FirstEncounter3DKatarina"
                             0x307b0406: u32 = 1
                         }
-                        0x68fee3c4: bool = true
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyLeona"
+                        0xfecc56e5: string = "Leona"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -792,13 +345,16 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyLeona"
+                            0xc0a5d6dd: string = "FirstEncounter3DLeona"
+                            0x415965e7: string = "FirstEncounter3DLeona"
                             0x307b0406: u32 = 1
                         }
-                        0x68fee3c4: bool = true
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyLucian"
+                        0xfecc56e5: string = "Lucian"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -812,13 +368,16 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyLucian"
+                            0xc0a5d6dd: string = "FirstEncounter3DLucian"
+                            0x415965e7: string = "FirstEncounter3DLucian"
                             0x307b0406: u32 = 1
                         }
-                        0x68fee3c4: bool = true
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyQuinn"
+                        0xfecc56e5: string = "Quinn"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -832,13 +391,16 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyQuinn"
+                            0xc0a5d6dd: string = "FirstEncounter3DQuinn"
+                            0x415965e7: string = "FirstEncounter3DQuinn"
                             0x307b0406: u32 = 1
                         }
-                        0x68fee3c4: bool = true
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyRyze"
+                        0xfecc56e5: string = "Ryze"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -852,13 +414,16 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyRyze"
+                            0xc0a5d6dd: string = "FirstEncounter3DRyze"
+                            0x415965e7: string = "FirstEncounter3DRyze"
                             0x307b0406: u32 = 1
                         }
-                        0x68fee3c4: bool = true
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemySona"
+                        0xfecc56e5: string = "Sona"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -872,13 +437,16 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemySona"
+                            0xc0a5d6dd: string = "FirstEncounter3DSona"
+                            0x415965e7: string = "FirstEncounter3DSona"
                             0x307b0406: u32 = 1
                         }
-                        0x68fee3c4: bool = true
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyTaliyah"
+                        0xfecc56e5: string = "Taliyah"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -892,13 +460,16 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyTaliyah"
+                            0xc0a5d6dd: string = "FirstEncounter3DTaliyah"
+                            0x415965e7: string = "FirstEncounter3DTaliyah"
                             0x307b0406: u32 = 1
                         }
-                        0x68fee3c4: bool = true
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyTwitch"
+                        0xfecc56e5: string = "Twitch"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -912,32 +483,16 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyTwitch"
+                            0xc0a5d6dd: string = "FirstEncounter3DTwitch"
+                            0x415965e7: string = "FirstEncounter3DTwitch"
                             0x307b0406: u32 = 1
                         }
-                        0x68fee3c4: bool = true
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DShadowIsles"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 1
-                                0xf21bb0f8: list[pointer] = {
-                                    0x95a7d707 {
-                                        0x8e257510: string = "faction"
-                                        0x7e0dca60: string = "shadowisles"
-                                    }
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DShadowIsles"
-                            0x307b0406: u32 = 1
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DAllyDemacian"
+                        0xfecc56e5: string = "Demacia"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -950,13 +505,16 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DAllyDemacian"
+                            0xc0a5d6dd: string = "FirstEncounter3DDemacia"
+                            0x415965e7: string = "FirstEncounter3DDemacia"
                             0x307b0406: u32 = 1
                         }
-                        0x68fee3c4: bool = true
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DNoxian"
+                        0xfecc56e5: string = "Noxus"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -969,51 +527,16 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DNoxian"
+                            0xc0a5d6dd: string = "FirstEncounter3DNoxus"
+                            0x415965e7: string = "FirstEncounter3DNoxus"
                             0x307b0406: u32 = 1
                         }
-                        0x68fee3c4: bool = true
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DNoxian"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 1
-                                0xf21bb0f8: list[pointer] = {
-                                    0x95a7d707 {
-                                        0x8e257510: string = "faction"
-                                        0x7e0dca60: string = "noxus"
-                                    }
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DNoxian"
-                            0x307b0406: u32 = 1
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DEnemyDemacian"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 1
-                                0xf21bb0f8: list[pointer] = {
-                                    0x95a7d707 {
-                                        0x8e257510: string = "faction"
-                                        0x7e0dca60: string = "demacia"
-                                    }
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DEnemyDemacian"
-                            0x307b0406: u32 = 1
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Taunt3DShadowIsles"
+                        0xfecc56e5: string = "ShadowIsles"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -1026,20 +549,26 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Taunt3DShadowIsles"
+                            0xc0a5d6dd: string = "FirstEncounter3DShadowIsles"
+                            0x415965e7: string = "FirstEncounter3DShadowIsles"
                             0x307b0406: u32 = 1
                         }
-                        0x68fee3c4: bool = true
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
                     }
                 }
             }
             0x362e4fca = 0xfc27a63e {
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
-                        0xfecc56e5: string = "LuxLightStrikeKugel"
+                        0xfecc56e5: string = "Basic 1"
                         0x2aff6c4a: list[pointer] = {
                             0x605ed8ec {
-                                0x56d2be52: hash = 0x678884e7
+                                0x56d2be52: hash = 0xe3b1cb05
+                            }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 30
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
@@ -1048,14 +577,62 @@ entries: map[hash,embed] = {
                             0x415965e7: string = "cast3D"
                             0xe810044c: string = "cast3D"
                         }
-                        0x68fee3c4: bool = true
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                            0xc59f257e: bool = true
+                        }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "LuxLightBinding"
+                        0xfecc56e5: string = "Basic 2"
+                        0x2aff6c4a: list[pointer] = {
+                            0x605ed8ec {
+                                0x56d2be52: hash = 0xa7e2e795
+                            }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 30
+                            }
+                        }
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "cast3D"
+                            0x683ae1b9: string = "cast3D"
+                            0x415965e7: string = "cast3D"
+                            0xe810044c: string = "cast3D"
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                            0xc59f257e: bool = true
+                        }
+                    }
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "Crit"
+                        0x2aff6c4a: list[pointer] = {
+                            0x605ed8ec {
+                                0x56d2be52: hash = 0xe2798155
+                            }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 30
+                            }
+                        }
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "cast3D"
+                            0x683ae1b9: string = "cast3D"
+                            0x415965e7: string = "cast3D"
+                            0xe810044c: string = "cast3D"
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                            0xc59f257e: bool = true
+                        }
+                    }
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "Q"
                         0x2aff6c4a: list[pointer] = {
                             0x605ed8ec {
                                 0x56d2be52: hash = 0xaf9d07f5
                             }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 50
+                            }
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "cast3D"
@@ -1063,10 +640,76 @@ entries: map[hash,embed] = {
                             0x415965e7: string = "cast3D"
                             0xe810044c: string = "cast3D"
                         }
-                        0x68fee3c4: bool = true
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                            0xc59f257e: bool = true
+                        }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "LuxMaliceCannon"
+                        0xfecc56e5: string = "W"
+                        0x2aff6c4a: list[pointer] = {
+                            0x605ed8ec {
+                                0x56d2be52: hash = 0x3a9476ef
+                            }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 50
+                            }
+                        }
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "cast3D"
+                            0x683ae1b9: string = "cast3D"
+                            0x415965e7: string = "cast3D"
+                            0xe810044c: string = "cast3D"
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                            0xc59f257e: bool = true
+                        }
+                    }
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "E"
+                        0x2aff6c4a: list[pointer] = {
+                            0x605ed8ec {
+                                0x56d2be52: hash = 0x678884e7
+                            }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 50
+                            }
+                        }
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "cast3D"
+                            0x683ae1b9: string = "cast3D"
+                            0x415965e7: string = "cast3D"
+                            0xe810044c: string = "cast3D"
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                            0xc59f257e: bool = true
+                        }
+                    }
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "E end"
+                        0x2aff6c4a: list[pointer] = {
+                            0x605ed8ec {
+                                0x56d2be52: hash = 0xdc93f095
+                            }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 50
+                            }
+                        }
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "cast3D"
+                            0x683ae1b9: string = "cast3D"
+                            0x415965e7: string = "cast3D"
+                            0xe810044c: string = "cast3D"
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                            0xc59f257e: bool = true
+                        }
+                    }
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "R"
                         0x2aff6c4a: list[pointer] = {
                             0x605ed8ec {
                                 0x56d2be52: hash = 0x98a0650f
@@ -1078,61 +721,19 @@ entries: map[hash,embed] = {
                             0x415965e7: string = "cast3D"
                             0xe810044c: string = "cast3D"
                         }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "LuxPrismaticWave"
-                        0x2aff6c4a: list[pointer] = {
-                            0x605ed8ec {
-                                0x56d2be52: hash = 0x3a9476ef
-                            }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                            0xc59f257e: bool = true
                         }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "cast3D"
-                            0x683ae1b9: string = "cast3D"
-                            0x415965e7: string = "cast3D"
-                            0xe810044c: string = "cast3D"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "LuxBasicAttack2"
-                        0x2aff6c4a: list[pointer] = {
-                            0x605ed8ec {
-                                0x56d2be52: hash = 0xa7e2e795
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "cast3D"
-                            0x683ae1b9: string = "cast3D"
-                            0x415965e7: string = "cast3D"
-                            0xe810044c: string = "cast3D"
-                        }
-                        0x68fee3c4: bool = true
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "LuxCritAttack"
-                        0x2aff6c4a: list[pointer] = {
-                            0x605ed8ec {
-                                0x56d2be52: hash = 0xe2798155
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "cast3D"
-                            0x683ae1b9: string = "cast3D"
-                            0x415965e7: string = "cast3D"
-                            0xe810044c: string = "cast3D"
-                        }
-                        0x68fee3c4: bool = true
                     }
                 }
             }
             0xdee32af0 = 0xfc27a63e {
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
-                        0xfecc56e5: string = "AttackChampion2D"
+                        0xfecc56e5: string = "Champion"
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "AttackChampion2D"
+                            0xc0a5d6dd: string = "Attack2DGeneral"
                             0x316428c4: f32 = -1
                         }
                     }
@@ -1155,23 +756,25 @@ entries: map[hash,embed] = {
             0xb695ccbe = 0xfc27a63e {
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Laugh3DGeneral"
+                        0xfecc56e5: string = "General"
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "Laugh3DGeneral"
                             0x683ae1b9: string = "Laugh3DGeneral"
                             0x415965e7: string = "Laugh3DGeneral"
                             0xe810044c: string = "Laugh3DGeneral"
                         }
-                        0x68fee3c4: bool = true
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
                     }
                 }
             }
             0xcdd2b9ad = 0xfc27a63e {
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
-                        0xfecc56e5: string = "AttackMinion2D"
+                        0xfecc56e5: string = "Minion"
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "AttackChampion2D"
+                            0xc0a5d6dd: string = "Attack2DGeneral"
                         }
                     }
                 }
@@ -1179,9 +782,34 @@ entries: map[hash,embed] = {
             0x3e50a936 = 0xfc27a63e {
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
-                        0xfecc56e5: string = "AttackNeutral2D"
+                        0xfecc56e5: string = "Neutral"
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "AttackChampion2D"
+                            0xc0a5d6dd: string = "Attack2DGeneral"
+                        }
+                    }
+                }
+            }
+            0xb36ab16e = 0xfc27a63e {
+                0x1a116faf: list[embed] = {
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "Q"
+                        0x2aff6c4a: list[pointer] = {
+                            0x605ed8ec {
+                                0x56d2be52: hash = 0xa47f2680
+                            }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 75
+                            }
+                        }
+                        0xddac2570: pointer = 0x2980c70d {
+                            0xc0a5d6dd: string = "hit3D"
+                            0x683ae1b9: string = "hit3D"
+                            0x415965e7: string = "hit3D"
+                            0xe810044c: string = "hit3D"
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                            0xc59f257e: bool = true
                         }
                     }
                 }

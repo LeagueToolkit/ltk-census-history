@@ -41,15 +41,15 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "BaseDamage"
                     0x246b0d8e: list[f32] = {
                         5
-                        30
-                        55
-                        80
-                        105
-                        130
+                        35
+                        65
+                        95
+                        125
                         155
+                        185
                     }
                     0x6d3ccfd7: f32 = 5
-                    0xe7b832f2: string = "P + 25"
+                    0xe7b832f2: string = "P + 30"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "InitialSlow"
@@ -79,6 +79,19 @@ entries: map[hash,embed] = {
                     0x6d3ccfd7: f32 = -0.1
                     0xe7b832f2: string = "P  -.05"
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "LockoutTime"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                    0x6d3ccfd7: f32 = 1
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x1ddee768 = 0xbc409284 {
@@ -87,7 +100,7 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0x03da00f9
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.08
+                            0x295c2889: f32 = 0.1
                         }
                     }
                 }

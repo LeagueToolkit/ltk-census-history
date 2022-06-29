@@ -12,9 +12,9 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "SpellDamage"
                     0x246b0d8e: list[f32] = {
                         0
-                        160
-                        240
-                        2500
+                        325
+                        450
+                        5000
                         0
                         0
                         0
@@ -22,7 +22,46 @@ entries: map[hash,embed] = {
                     0x3f95426c: bool = false
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "PercentSizeIncrease"
+                    0x19efbfdb: string = "DebuffPercent"
+                    0x246b0d8e: list[f32] = {
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                    }
+                    0x6d3ccfd7: f32 = 0.2
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DebuffDuration"
+                    0x246b0d8e: list[f32] = {
+                        10
+                        10
+                        10
+                        10
+                        10
+                        10
+                        10
+                    }
+                    0x6d3ccfd7: f32 = 10
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "AscendTimer"
+                    0x246b0d8e: list[f32] = {
+                        20
+                        20
+                        20
+                        20
+                        20
+                        20
+                        20
+                    }
+                    0x6d3ccfd7: f32 = 20
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "AscendDamageIncrease"
                     0x246b0d8e: list[f32] = {
                         0.5
                         0.5
@@ -33,32 +72,6 @@ entries: map[hash,embed] = {
                         0.5
                     }
                     0x6d3ccfd7: f32 = 0.5
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "DazzlePercent"
-                    0x246b0d8e: list[f32] = {
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                    }
-                    0x6d3ccfd7: f32 = 0.4
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "DazzleDuration"
-                    0x246b0d8e: list[f32] = {
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                    }
-                    0x6d3ccfd7: f32 = 3
                 }
             }
             0x94572284: map[hash,pointer] = {

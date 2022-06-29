@@ -41,15 +41,15 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "BaseDamage"
                     0x246b0d8e: list[f32] = {
                         5
-                        30
-                        55
-                        80
-                        105
-                        130
+                        35
+                        65
+                        95
+                        125
                         155
+                        185
                     }
                     0x6d3ccfd7: f32 = 5
-                    0xe7b832f2: string = "P + 25"
+                    0xe7b832f2: string = "P + 30"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "InitialSlow"
@@ -80,17 +80,17 @@ entries: map[hash,embed] = {
                     0xe7b832f2: string = "P  -.05"
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "ExecuteThreshold"
+                    0x19efbfdb: string = "LockoutTime"
                     0x246b0d8e: list[f32] = {
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                        0.4
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
                     }
-                    0x6d3ccfd7: f32 = 0.4
+                    0x6d3ccfd7: f32 = 1
                     0xe7b832f2: string = "P + 0"
                 }
             }
@@ -101,7 +101,7 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0x03da00f9
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.08
+                            0x295c2889: f32 = 0.1
                         }
                     }
                 }
@@ -123,52 +123,6 @@ entries: map[hash,embed] = {
                         0xe202bca9: f32 = 5
                     }
                 }
-                0x545ec9b9 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x15fecdbc {
-                            0xd06c375d: f32 = 8
-                            0x1cd7e522: f32 = 30
-                        }
-                    }
-                }
-                0xce6455f2 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x9ef92080 {
-                            0xe202bca9: f32 = 0.7
-                        }
-                    }
-                    0x5a2297d3: bool = true
-                    0xcbcac618: u8 = 5
-                    0x37070a8d: u8 = 5
-                    0xe6eebb2f: u8 = 5
-                }
-                0x8809e19c = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x9ef92080 {
-                            0xe202bca9: f32 = 10
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.25
-                        }
-                    }
-                }
-                0xa5e6df7c = 0x070e3593 {
-                    0x7f93cf4e: hash = 0x540bce84
-                    0x2c77adff: pointer = 0x9ef92080 {
-                        0xe202bca9: f32 = 0.01
-                    }
-                }
-                0x540bce84 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x9ef92080 {
-                            0xe202bca9: f32 = 1
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.008
-                        }
-                    }
-                    0x5a2297d3: bool = true
-                }
             }
             0x295c2889: f32 = 0.6
             0xfbd16fb5: string = "Channel"
@@ -180,8 +134,8 @@ entries: map[hash,embed] = {
             0x90fb0576: f32 = 0.25
             0x9ecac3a1: list[f32] = {
                 10
-                120
                 100
+                90
                 80
                 8.5
                 8
@@ -193,6 +147,7 @@ entries: map[hash,embed] = {
             0xe321919c: bool = true
             0x6083fb6f: bool = false
             0xa54ff456: bool = false
+            0x534cce1b: bool = false
             0x3f8bc625: bool = true
             0x9c84545d: bool = false
             0xdf73f8e2: bool = true
