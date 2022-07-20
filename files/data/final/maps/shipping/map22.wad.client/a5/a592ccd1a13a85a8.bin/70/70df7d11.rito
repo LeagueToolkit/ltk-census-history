@@ -24,9 +24,9 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "PercentMaxHealth"
                     0x246b0d8e: list[f32] = {
                         0
-                        50
-                        66
-                        500
+                        60
+                        75
+                        999
                         0
                         0
                         0
@@ -72,6 +72,19 @@ entries: map[hash,embed] = {
                     }
                     0x3f95426c: bool = false
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "FlameBreathDamage"
+                    0x246b0d8e: list[f32] = {
+                        1500
+                        1200
+                        1800
+                        30000
+                        30000
+                        30000
+                        30000
+                    }
+                    0x3f95426c: bool = false
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x92cd10ab = 0xbc409284 {
@@ -91,6 +104,18 @@ entries: map[hash,embed] = {
                         0x995bf516 {
                             0x1cd83c4b: pointer = 0x332eb441 {
                                 0xb386dcf1: hash = 0x82a4720a
+                            }
+                            0xb8dcfcbb: f32 = 0.01
+                            0x992cd7eb: string = "noScale"
+                            0xa5749b52: string = "scaleAP"
+                        }
+                    }
+                }
+                0xc209f33e = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x995bf516 {
+                            0x1cd83c4b: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0x0852737f
                             }
                             0xb8dcfcbb: f32 = 0.01
                             0x992cd7eb: string = "noScale"
@@ -138,9 +163,8 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_InitialDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "PercentMaxHealth"
-                                    0x566f3406: string = "Spell_TFT7_ShyvanaR_PercentDamage"
-                                    0xac307ed6: u32 = 1
+                                    0x5127f14d: string = "FlameBreathDamage"
+                                    0x566f3406: string = "Spell_TFT7_ShyvanaR_FlameBreathDamage"
                                 }
                             }
                         }

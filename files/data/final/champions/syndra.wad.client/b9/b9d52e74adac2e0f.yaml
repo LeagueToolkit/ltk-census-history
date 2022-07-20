@@ -1,0 +1,23 @@
+sha256: "6800c9dd2185d2859c4665609370ef5c993a6e71908b0256c8a8aad730f84850"
+checksum: "e72793abc6ed7788"
+kind: "skl"
+skeleton:
+ influences: 1
+ joints:
+  - name: "Recall_Root"
+  - name: "Recall_R_Horn"
+    parent: "Recall_Root"
+  - name: "Recall_L_Horn"
+    parent: "Recall_Root"
+  - name: "Recall_L_Wing"
+    parent: "Recall_Root"
+  - name: "Recall_L_Wing2"
+    parent: "Recall_L_Wing"
+  - name: "Recall_R_Wing"
+    parent: "Recall_Root"
+  - name: "Recall_R_Wing2"
+    parent: "Recall_R_Wing"
+  - name: "Recall_Tail1"
+    parent: "Recall_Root"
+  - name: "Recall_Tail2"
+    parent: "Recall_Tail1"
