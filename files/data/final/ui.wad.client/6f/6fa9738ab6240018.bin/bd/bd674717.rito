@@ -4,9 +4,23 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xbd674717 = 0x9e2b8a86 {
+        0x3f19432c: link = 0xa4d2a867
+        0x5bfa274b: link = 0x9980a63c
         0x2b0d70e8: u8 = 5
-        0xeac10e8a: string = "Gameplay/TFTArmory_Treasure.UIBase.bin"
-        0x8b76c33f: string = "Gameplay/TFTArmory_Treasure.UIMobile.bin"
+        0x3132877e: map[u8,embed] = {
+            1 = 0x21e53395 {
+                0x0218e0af: hash = 0x07144951
+                0xf6ccc794: bool = true
+            }
+            2 = 0x21e53395 {
+                0x0218e0af: hash = 0xa7fda9ad
+                0x11228478: i32 = 1
+                0xa2bfb8e2: hash = 0x2a620c5d
+                0xcddf2175: rgba = { 255, 255, 255, 255 }
+                0x2c6d1dad: rgba = { 0, 0, 170, 255 }
+                0xdb2f9e87: bool = false
+            }
+        }
         0x073ce2a6: string = "tft_shadowitem_mobile_ui_recipehints"
         0x3ad4379e: string = "tft_shadowitem_mobile_ui_fulldescription"
         0x8ff1b151: string = "tft_armory_pc_component_item_hint"
@@ -28,10 +42,6 @@ entries: map[hash,embed] = {
         0x4d302530: hash = 0xada72167
         0x5b308567: hash = 0x7606d605
         0x9dcf971d: hash = 0xaf4248f3
-        0x71993a70: hash = 0xa7fda9ad
-        0xd8e77c8a: hash = 0x2a620c5d
-        0x5b720329: i32 = 1
-        0xf7f3f138: hash = 0x07144951
         0x33c9204f: hash = 0x852a32a6
         0x892bc919: hash = 0x7fd34974
         0xba1d038c: f32 = 10
