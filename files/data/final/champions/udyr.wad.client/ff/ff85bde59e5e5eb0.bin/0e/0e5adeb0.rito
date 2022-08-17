@@ -6,15 +6,27 @@ entries: map[hash,embed] = {
     0x0e5adeb0 = 0x9b67e9f6 {
         0x87225880: u32 = 1
         0x2d78c328: string = "SpiritUdyr"
-        0x939e7b29: string = "faction:freljord,gender:male"
+        0x939e7b29: string = "faction:freljord,gender:male,skinline:spiritguard"
+        0x68f2b69c: embed = 0x68f2b69c {
+            0xcb522723: list[link] = {
+                0x72011aa4
+                0xf40463e2
+                0xf304624f
+                0xf20460bc
+                0xf1045f29
+                0xd64bbaa4
+                0x48633fe7
+                0xa3abe09a
+                0x78ed613d
+            }
+        }
         0x97f7188d: embed = 0xd06263ff {
-            0xb35135fa: string = "ASSETS/Characters/Udyr/Skins/Skin03/UdyrLoadScreen_3.dds"
+            0xb35135fa: string = "ASSETS/Characters/Udyr/Skins/Skin03/UdyrLoadscreen_3.UdyrVGU.dds"
         }
         0x8f7b194f: embed = 0x8f7b194f {
             0xd65bac4d: list[string] = {
                 "Udyr"
-                "SpiritUdyr_Recall"
-                "SpiritUdyr"
+                "UdyrSkin03"
             }
             0xf8f29f92: list2[embed] = {
                 0xa4416515 {
@@ -24,81 +36,97 @@ entries: map[hash,embed] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Udyr/Skins/Skin03/Udyr_Skin03_SFX_events.bnk"
                     }
                     0x12d8e384: list[string] = {
-                        "Play_sfx_SpiritUdyr_championkill_bear"
-                        "Play_sfx_SpiritUdyr_championkill_phoenix"
-                        "Play_sfx_SpiritUdyr_championkill_tiger"
-                        "Play_sfx_SpiritUdyr_championkill_turtle"
-                        "Play_sfx_SpiritUdyr_Dance3D_bear"
-                        "Play_sfx_SpiritUdyr_Dance3D_buffactivate"
-                        "Play_sfx_SpiritUdyr_Dance3D_phoenix"
-                        "Play_sfx_SpiritUdyr_Dance3D_tiger"
-                        "Play_sfx_SpiritUdyr_Dance3D_turtle"
-                        "Play_sfx_SpiritUdyr_Death3D_cast"
-                        "Play_sfx_SpiritUdyr_Death3D_castmax"
-                        "Play_sfx_SpiritUdyr_Joke3D_buffactivate"
-                        "Play_sfx_SpiritUdyr_junglelasthit"
-                        "Play_sfx_SpiritUdyr_Laugh3D_buffactivate"
-                        "Play_sfx_SpiritUdyr_minionlasthit"
-                        "Play_sfx_SpiritUdyr_Recall_OnBuffActivate"
-                        "Play_sfx_SpiritUdyr_Recall_recall_bearparticle"
-                        "Play_sfx_SpiritUdyr_Recall_recall_intro"
-                        "Play_sfx_SpiritUdyr_Recall_recall_phoenixparticle"
-                        "Play_sfx_SpiritUdyr_Recall_recall_tigerparticle"
-                        "Play_sfx_SpiritUdyr_Recall_recall_turtleparticle"
-                        "Play_sfx_SpiritUdyr_Taunt3D_beartaunt"
-                        "Play_sfx_SpiritUdyr_Taunt3D_buffactivate"
-                        "Play_sfx_SpiritUdyr_Taunt3D_phoenixtaunt"
-                        "Play_sfx_SpiritUdyr_Taunt3D_tigertaunt"
-                        "Play_sfx_SpiritUdyr_Taunt3D_turtletaunt"
-                        "Play_sfx_SpiritUdyr_UdyrBasicAttack_OnCast"
-                        "Play_sfx_SpiritUdyr_UdyrBasicAttack_OnHit"
-                        "Play_sfx_SpiritUdyr_UdyrBearAttack_OnCast"
-                        "Play_sfx_SpiritUdyr_UdyrBearAttack_OnHit"
-                        "Play_sfx_SpiritUdyr_UdyrBearAttackUlt_OnCast"
-                        "Play_sfx_SpiritUdyr_UdyrBearAttackUlt_OnHit"
-                        "Play_sfx_SpiritUdyr_UdyrBearStance_bearmaxform"
-                        "Play_sfx_SpiritUdyr_UdyrBearStance_OnCast"
-                        "Play_sfx_SpiritUdyr_UdyrBearStunCheck_OnBuffActivate"
-                        "Play_sfx_SpiritUdyr_UdyrPhoenixActivation_OnBuffActivate"
-                        "Play_sfx_SpiritUdyr_UdyrPhoenixAttack_OnCast"
-                        "Play_sfx_SpiritUdyr_UdyrPhoenixAttack_OnHit"
-                        "Play_sfx_SpiritUdyr_UdyrPhoenixAttackUlt_OnCast"
-                        "Play_sfx_SpiritUdyr_UdyrPhoenixAttackUlt_OnHit"
-                        "Play_sfx_SpiritUdyr_UdyrPhoenixBreath_cast"
-                        "Play_sfx_SpiritUdyr_UdyrPhoenixStance_OnCast"
-                        "Play_sfx_SpiritUdyr_UdyrPhoenixStance_phoenixmaxform"
-                        "Play_sfx_SpiritUdyr_UdyrTigerAttack_cast1"
-                        "Play_sfx_SpiritUdyr_UdyrTigerAttack_cast2"
-                        "Play_sfx_SpiritUdyr_UdyrTigerAttack_cast3"
-                        "Play_sfx_SpiritUdyr_UdyrTigerAttack_OnHit"
-                        "Play_sfx_SpiritUdyr_UdyrTigerAttackUlt_cast1"
-                        "Play_sfx_SpiritUdyr_UdyrTigerAttackUlt_cast2"
-                        "Play_sfx_SpiritUdyr_UdyrTigerAttackUlt_cast3"
-                        "Play_sfx_SpiritUdyr_UdyrTigerAttackUlt_OnHit"
-                        "Play_sfx_SpiritUdyr_UdyrTigerStance_OnCast"
-                        "Play_sfx_SpiritUdyr_UdyrTigerStance_tigermaxform"
-                        "Play_sfx_SpiritUdyr_UdyrTurtleActivation_OnBuffActivate"
-                        "Play_sfx_SpiritUdyr_UdyrTurtleAttack_heal"
-                        "Play_sfx_SpiritUdyr_UdyrTurtleAttack_OnCast"
-                        "Play_sfx_SpiritUdyr_UdyrTurtleAttack_OnHit"
-                        "Play_sfx_SpiritUdyr_UdyrTurtleAttackUlt_heal"
-                        "Play_sfx_SpiritUdyr_UdyrTurtleAttackUlt_OnCast"
-                        "Play_sfx_SpiritUdyr_UdyrTurtleAttackUlt_OnHit"
-                        "Play_sfx_SpiritUdyr_UdyrTurtleStance_OnCast"
-                        "Play_sfx_SpiritUdyr_UdyrTurtleStance_turtlemaxform"
-                        "Stop_sfx_SpiritUdyr_Dance3D_bear"
-                        "Stop_sfx_SpiritUdyr_Dance3D_phoenix"
-                        "Stop_sfx_SpiritUdyr_Dance3D_tiger"
-                        "Stop_sfx_SpiritUdyr_Dance3D_turtle"
-                        "Stop_sfx_SpiritUdyr_Laugh3D_buffactivate"
-                        "Stop_sfx_SpiritUdyr_Recall_OnBuffActivate"
-                        "Stop_sfx_SpiritUdyr_Taunt3D_beartaunt"
-                        "Stop_sfx_SpiritUdyr_Taunt3D_buffactivate"
-                        "Stop_sfx_SpiritUdyr_Taunt3D_phoenixtaunt"
-                        "Stop_sfx_SpiritUdyr_Taunt3D_tigertaunt"
-                        "Stop_sfx_SpiritUdyr_Taunt3D_turtletaunt"
-                        "Stop_sfx_SpiritUdyr_UdyrPhoenixActivation_OnBuffActivate"
-                        "Stop_sfx_SpiritUdyr_UdyrTurtleActivation_OnBuffActivate"
+                        "Play_sfx_UdyrSkin03_Dance3D_buffactivate"
+                        "Play_sfx_UdyrSkin03_Dance3D_leadin"
+                        "Play_sfx_UdyrSkin03_Dance3D_leadin_music"
+                        "Play_sfx_UdyrSkin03_Dance3D_loop_music"
+                        "Play_sfx_UdyrSkin03_Dance3D_spirits_bear_buffactivate"
+                        "Play_sfx_UdyrSkin03_Dance3D_spirits_pheonix_buffactivate"
+                        "Play_sfx_UdyrSkin03_Dance3D_spirits_shared_appear"
+                        "Play_sfx_UdyrSkin03_Dance3D_spirits_tiger_buffactivate"
+                        "Play_sfx_UdyrSkin03_Dance3D_spirits_turtle_buffactivate"
+                        "Play_sfx_UdyrSkin03_Death3D_cast"
+                        "Play_sfx_UdyrSkin03_Homeguard3D_footstep"
+                        "Play_sfx_UdyrSkin03_Joke3D_leadin"
+                        "Play_sfx_UdyrSkin03_Joke3D_loop"
+                        "Play_sfx_UdyrSkin03_Laugh3D_buffactivate"
+                        "Play_sfx_UdyrSkin03_Laugh3D_spirits_shared_buffactivate"
+                        "Play_sfx_UdyrSkin03_Recall3D_buffactivate"
+                        "Play_sfx_UdyrSkin03_Respawn3D_buffactivate"
+                        "Play_sfx_UdyrSkin03_Taunt3D_buffactivate"
+                        "Play_sfx_UdyrSkin03_Taunt3D_leadout"
+                        "Play_sfx_UdyrSkin03_Taunt3D_spirits_shared_buffactivate"
+                        "Play_sfx_UdyrSkin03_UdyrBasicAttack2_OnCast"
+                        "Play_sfx_UdyrSkin03_UdyrBasicAttack2_OnHit"
+                        "Play_sfx_UdyrSkin03_UdyrBasicAttack_OnCast"
+                        "Play_sfx_UdyrSkin03_UdyrBasicAttack_OnHit"
+                        "Play_sfx_UdyrSkin03_UdyrE_stance_cast"
+                        "Play_sfx_UdyrSkin03_UdyrE_stance_cast_awakened"
+                        "Play_sfx_UdyrSkin03_UdyrE_stance_max_loop"
+                        "Play_sfx_UdyrSkin03_UdyrEActivation_OnBuffActivate"
+                        "Play_sfx_UdyrSkin03_UdyrEActivation_OnBuffDeactivate"
+                        "Play_sfx_UdyrSkin03_UdyrEAttack_OnCast"
+                        "Play_sfx_UdyrSkin03_UdyrEAttack_OnHit"
+                        "Play_sfx_UdyrSkin03_UdyrPassive_buffactivate"
+                        "Play_sfx_UdyrSkin03_UdyrQ_stance_cast"
+                        "Play_sfx_UdyrSkin03_UdyrQ_stance_cast_awakened"
+                        "Play_sfx_UdyrSkin03_UdyrQ_stance_max_loop"
+                        "Play_sfx_UdyrSkin03_UdyrQActivation_buffactivate_awakened"
+                        "Play_sfx_UdyrSkin03_UdyrQActivation_OnBuffDeactivate"
+                        "Play_sfx_UdyrSkin03_UdyrQAttack1_OnCast"
+                        "Play_sfx_UdyrSkin03_UdyrQAttack1_OnHit"
+                        "Play_sfx_UdyrSkin03_UdyrQAttack2_OnCast"
+                        "Play_sfx_UdyrSkin03_UdyrQAttack2_OnHit"
+                        "Play_sfx_UdyrSkin03_UdyrQBounceMis_hit_large"
+                        "Play_sfx_UdyrSkin03_UdyrQBounceMis_hit_med"
+                        "Play_sfx_UdyrSkin03_UdyrQBounceMis_hit_small"
+                        "Play_sfx_UdyrSkin03_UdyrR_empoweredbasic_buffactivate"
+                        "Play_sfx_UdyrSkin03_UdyrR_stance_cast"
+                        "Play_sfx_UdyrSkin03_UdyrR_stance_cast_awakened"
+                        "Play_sfx_UdyrSkin03_UdyrR_stance_max_loop"
+                        "Play_sfx_UdyrSkin03_UdyrR_storm_buffactivate"
+                        "Play_sfx_UdyrSkin03_UdyrR_storm_buffactivate_awakened"
+                        "Play_sfx_UdyrSkin03_UdyrR_storm_hit"
+                        "Play_sfx_UdyrSkin03_UdyrRAttack1_OnCast"
+                        "Play_sfx_UdyrSkin03_UdyrRAttack1_OnHit"
+                        "Play_sfx_UdyrSkin03_UdyrRAttack2_OnCast"
+                        "Play_sfx_UdyrSkin03_UdyrRAttack2_OnHit"
+                        "Play_sfx_UdyrSkin03_UdyrW_stance_cast"
+                        "Play_sfx_UdyrSkin03_UdyrW_stance_cast_awakened"
+                        "Play_sfx_UdyrSkin03_UdyrW_stance_max_loop"
+                        "Play_sfx_UdyrSkin03_UdyrWActivation_OnBuffDeactivate"
+                        "Play_sfx_UdyrSkin03_UdyrWAttack1_OnCast"
+                        "Play_sfx_UdyrSkin03_UdyrWAttack1_OnHit"
+                        "Play_sfx_UdyrSkin03_UdyrWAttack2_OnCast"
+                        "Play_sfx_UdyrSkin03_UdyrWAttack2_OnHit"
+                        "Play_sfx_UdyrSkin03_Winddown3D_buffactivate"
+                        "Stop_sfx_UdyrSkin03_Dance3D_leadin_music"
+                        "Stop_sfx_UdyrSkin03_Dance3D_loop_music"
+                        "Stop_sfx_UdyrSkin03_Dance3D_spirits_bear_buffactivate"
+                        "Stop_sfx_UdyrSkin03_Dance3D_spirits_pheonix_buffactivate"
+                        "Stop_sfx_UdyrSkin03_Dance3D_spirits_tiger_buffactivate"
+                        "Stop_sfx_UdyrSkin03_Dance3D_spirits_turtle_buffactivate"
+                        "Stop_sfx_UdyrSkin03_Laugh3D_buffactivate"
+                        "Stop_sfx_UdyrSkin03_Laugh3D_spirits_shared_buffactivate"
+                        "Stop_sfx_UdyrSkin03_Taunt3D_buffactivate"
+                        "Stop_sfx_UdyrSkin03_Taunt3D_leadout"
+                        "Stop_sfx_UdyrSkin03_Taunt3D_spirits_shared_buffactivate"
+                        "Stop_sfx_UdyrSkin03_UdyrE_stance_cast"
+                        "Stop_sfx_UdyrSkin03_UdyrE_stance_cast_awakened"
+                        "Stop_sfx_UdyrSkin03_UdyrE_stance_max_loop"
+                        "Stop_sfx_UdyrSkin03_UdyrEActivation_OnBuffActivate"
+                        "Stop_sfx_UdyrSkin03_UdyrQ_stance_cast"
+                        "Stop_sfx_UdyrSkin03_UdyrQ_stance_cast_awakened"
+                        "Stop_sfx_UdyrSkin03_UdyrQ_stance_max_loop"
+                        "Stop_sfx_UdyrSkin03_UdyrQActivation_buffactivate_awakened"
+                        "Stop_sfx_UdyrSkin03_UdyrR_stance_cast"
+                        "Stop_sfx_UdyrSkin03_UdyrR_stance_cast_awakened"
+                        "Stop_sfx_UdyrSkin03_UdyrR_stance_max_loop"
+                        "Stop_sfx_UdyrSkin03_UdyrR_storm_buffactivate"
+                        "Stop_sfx_UdyrSkin03_UdyrR_storm_buffactivate_awakened"
+                        "Stop_sfx_UdyrSkin03_UdyrW_stance_cast"
+                        "Stop_sfx_UdyrSkin03_UdyrW_stance_cast_awakened"
+                        "Stop_sfx_UdyrSkin03_UdyrW_stance_max_loop"
                     }
                 }
                 0xa4416515 {
@@ -109,148 +137,63 @@ entries: map[hash,embed] = {
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Udyr/Skins/Skin03/Udyr_Skin03_VO_audio.wpk"
                     }
                     0x12d8e384: list[string] = {
-                        "Play_vo_SpiritUdyr_Attack2D"
-                        "Play_vo_SpiritUdyr_Attack2DAnivia"
-                        "Play_vo_SpiritUdyr_Attack2DNidalee"
-                        "Play_vo_SpiritUdyr_Attack2DRammus"
-                        "Play_vo_SpiritUdyr_Attack2DVolibear"
-                        "Play_vo_SpiritUdyr_Death3D"
-                        "Play_vo_SpiritUdyr_FirstMove2D"
-                        "Play_vo_SpiritUdyr_Interactive_Interactive3DChampionSpecific1"
-                        "Play_vo_SpiritUdyr_Interactive_Interactive3DMaxBear"
-                        "Play_vo_SpiritUdyr_Interactive_Interactive3DMaxPhoenix"
-                        "Play_vo_SpiritUdyr_Interactive_Interactive3DMaxTiger"
-                        "Play_vo_SpiritUdyr_Interactive_Interactive3DMaxTurtle"
-                        "Play_vo_SpiritUdyr_Joke3D"
-                        "Play_vo_SpiritUdyr_KillNeutralMinion3DBaron"
-                        "Play_vo_SpiritUdyr_KillNeutralMinion3DDragon"
-                        "Play_vo_SpiritUdyr_KillNeutralMinion3DNeutralCamp"
-                        "Play_vo_SpiritUdyr_KillNeutralMinion3DVilemaw"
-                        "Play_vo_SpiritUdyr_Laugh3D"
-                        "Play_vo_SpiritUdyr_Move2D"
-                        "Play_vo_SpiritUdyr_RecallLeadIn3D"
-                        "Play_vo_SpiritUdyr_Respawn2D"
-                        "Play_vo_SpiritUdyr_Taunt3D"
-                        "Play_vo_SpiritUdyr_UdyrBearAttack_OnCast"
-                        "Play_vo_SpiritUdyr_UdyrPhoenixAttack_OnCast"
-                        "Play_vo_SpiritUdyr_UdyrTigerAttack_OnCast"
-                        "Play_vo_SpiritUdyr_UdyrTurtleAttack_OnCast"
-                        "Play_vo_SpiritUdyr_UseItem2D2043"
-                        "Play_vo_SpiritUdyrHuman_Attack2D"
-                        "Play_vo_SpiritUdyrHuman_Death3D"
-                        "Play_vo_SpiritUdyrHuman_FirstMove2D"
-                        "Play_vo_SpiritUdyrHuman_Interactive_Interactive3DChampionSpecific1"
-                        "Play_vo_SpiritUdyrHuman_Interactive_Interactive3DMaxBear"
-                        "Play_vo_SpiritUdyrHuman_Interactive_Interactive3DMaxPhoenix"
-                        "Play_vo_SpiritUdyrHuman_Interactive_Interactive3DMaxTiger"
-                        "Play_vo_SpiritUdyrHuman_Interactive_Interactive3DMaxTurtle"
-                        "Play_vo_SpiritUdyrHuman_Joke3D"
-                        "Play_vo_SpiritUdyrHuman_KillNeutralMinion3DBaron"
-                        "Play_vo_SpiritUdyrHuman_KillNeutralMinion3DDragon"
-                        "Play_vo_SpiritUdyrHuman_KillNeutralMinion3DNeutralCamp"
-                        "Play_vo_SpiritUdyrHuman_KillNeutralMinion3DVilemaw"
-                        "Play_vo_SpiritUdyrHuman_Laugh3D"
-                        "Play_vo_SpiritUdyrHuman_Move2D"
-                        "Play_vo_SpiritUdyrHuman_RecallLeadIn3D"
-                        "Play_vo_SpiritUdyrHuman_Respawn2D"
-                        "Play_vo_SpiritUdyrHuman_Taunt3D"
-                        "Play_vo_SpiritUdyrHuman_UdyrBearAttack_OnCast"
-                        "Play_vo_SpiritUdyrHuman_UdyrPhoenixAttack_OnCast"
-                        "Play_vo_SpiritUdyrHuman_UdyrTigerAttack_OnCast"
-                        "Play_vo_SpiritUdyrHuman_UdyrTurtleAttack_OnCast"
-                        "Play_vo_SpiritUdyrHuman_UseItem2D2043"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_Attack2D"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_Death3D"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_FirstMove2D"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_Interactive_Interactive3DChampionSpecific1"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_Interactive_Interactive3DMaxBear"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_Interactive_Interactive3DMaxPhoenix"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_Interactive_Interactive3DMaxTiger"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_Interactive_Interactive3DMaxTurtle"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_Joke3D"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_KillNeutralMinion3DBaron"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_KillNeutralMinion3DDragon"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_KillNeutralMinion3DNeutralCamp"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_KillNeutralMinion3DVilemaw"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_Laugh3D"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_Move2D"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_RecallLeadIn3D"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_Respawn2D"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_Taunt3D"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_UdyrBearAttack_OnCast"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_UdyrPhoenixAttack_OnCast"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_UdyrTigerAttack_OnCast"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_UdyrTurtleAttack_OnCast"
-                        "Play_vo_SpiritUdyrUdyrPhoenix_UseItem2D2043"
-                        "Play_vo_SpiritUdyrUdyrTiger_Attack2D"
-                        "Play_vo_SpiritUdyrUdyrTiger_Death3D"
-                        "Play_vo_SpiritUdyrUdyrTiger_FirstMove2D"
-                        "Play_vo_SpiritUdyrUdyrTiger_Interactive_Interactive3DChampionSpecific1"
-                        "Play_vo_SpiritUdyrUdyrTiger_Interactive_Interactive3DMaxBear"
-                        "Play_vo_SpiritUdyrUdyrTiger_Interactive_Interactive3DMaxPhoenix"
-                        "Play_vo_SpiritUdyrUdyrTiger_Interactive_Interactive3DMaxTiger"
-                        "Play_vo_SpiritUdyrUdyrTiger_Interactive_Interactive3DMaxTurtle"
-                        "Play_vo_SpiritUdyrUdyrTiger_Joke3D"
-                        "Play_vo_SpiritUdyrUdyrTiger_KillNeutralMinion3DBaron"
-                        "Play_vo_SpiritUdyrUdyrTiger_KillNeutralMinion3DDragon"
-                        "Play_vo_SpiritUdyrUdyrTiger_KillNeutralMinion3DNeutralCamp"
-                        "Play_vo_SpiritUdyrUdyrTiger_KillNeutralMinion3DVilemaw"
-                        "Play_vo_SpiritUdyrUdyrTiger_Laugh3D"
-                        "Play_vo_SpiritUdyrUdyrTiger_Move2D"
-                        "Play_vo_SpiritUdyrUdyrTiger_RecallLeadIn3D"
-                        "Play_vo_SpiritUdyrUdyrTiger_Respawn2D"
-                        "Play_vo_SpiritUdyrUdyrTiger_Taunt3D"
-                        "Play_vo_SpiritUdyrUdyrTiger_UdyrBearAttack_OnCast"
-                        "Play_vo_SpiritUdyrUdyrTiger_UdyrPhoenixAttack_OnCast"
-                        "Play_vo_SpiritUdyrUdyrTiger_UdyrTigerAttack_OnCast"
-                        "Play_vo_SpiritUdyrUdyrTiger_UdyrTurtleAttack_OnCast"
-                        "Play_vo_SpiritUdyrUdyrTiger_UseItem2D2043"
-                        "Play_vo_SpiritUdyrUdyrTurtle_Attack2D"
-                        "Play_vo_SpiritUdyrUdyrTurtle_Death3D"
-                        "Play_vo_SpiritUdyrUdyrTurtle_FirstMove2D"
-                        "Play_vo_SpiritUdyrUdyrTurtle_Interactive_Interactive3DChampionSpecific1"
-                        "Play_vo_SpiritUdyrUdyrTurtle_Interactive_Interactive3DMaxBear"
-                        "Play_vo_SpiritUdyrUdyrTurtle_Interactive_Interactive3DMaxPhoenix"
-                        "Play_vo_SpiritUdyrUdyrTurtle_Interactive_Interactive3DMaxTiger"
-                        "Play_vo_SpiritUdyrUdyrTurtle_Interactive_Interactive3DMaxTurtle"
-                        "Play_vo_SpiritUdyrUdyrTurtle_Joke3D"
-                        "Play_vo_SpiritUdyrUdyrTurtle_KillNeutralMinion3DBaron"
-                        "Play_vo_SpiritUdyrUdyrTurtle_KillNeutralMinion3DDragon"
-                        "Play_vo_SpiritUdyrUdyrTurtle_KillNeutralMinion3DNeutralCamp"
-                        "Play_vo_SpiritUdyrUdyrTurtle_KillNeutralMinion3DVilemaw"
-                        "Play_vo_SpiritUdyrUdyrTurtle_Laugh3D"
-                        "Play_vo_SpiritUdyrUdyrTurtle_Move2D"
-                        "Play_vo_SpiritUdyrUdyrTurtle_RecallLeadIn3D"
-                        "Play_vo_SpiritUdyrUdyrTurtle_Respawn2D"
-                        "Play_vo_SpiritUdyrUdyrTurtle_Taunt3D"
-                        "Play_vo_SpiritUdyrUdyrTurtle_UdyrBearAttack_OnCast"
-                        "Play_vo_SpiritUdyrUdyrTurtle_UdyrPhoenixAttack_OnCast"
-                        "Play_vo_SpiritUdyrUdyrTurtle_UdyrTigerAttack_OnCast"
-                        "Play_vo_SpiritUdyrUdyrTurtle_UdyrTurtleAttack_OnCast"
-                        "Play_vo_SpiritUdyrUdyrTurtle_UseItem2D2043"
-                        "Udyr_Switch_Bear"
-                        "Udyr_Switch_Human"
-                        "Udyr_Switch_Phoenix"
-                        "Udyr_Switch_Tiger"
-                        "Udyr_Switch_Turtle"
+                        "Play_vo_UdyrSkin03_Attack2DBaron"
+                        "Play_vo_UdyrSkin03_Attack2DDragon"
+                        "Play_vo_UdyrSkin03_Attack2DElderDragon"
+                        "Play_vo_UdyrSkin03_Attack2DGeneral"
+                        "Play_vo_UdyrSkin03_Attack2DGromp"
+                        "Play_vo_UdyrSkin03_Attack2DHerald"
+                        "Play_vo_UdyrSkin03_Attack2DJungleBuff"
+                        "Play_vo_UdyrSkin03_Attack2DKrug"
+                        "Play_vo_UdyrSkin03_Attack2DMurkwolf"
+                        "Play_vo_UdyrSkin03_Attack2DRaptor"
+                        "Play_vo_UdyrSkin03_Attack2DRiftScuttler"
+                        "Play_vo_UdyrSkin03_Death3D"
+                        "Play_vo_UdyrSkin03_FirstEncounter3DAshe"
+                        "Play_vo_UdyrSkin03_FirstEncounter3DGeneral"
+                        "Play_vo_UdyrSkin03_FirstEncounter3DKarma"
+                        "Play_vo_UdyrSkin03_FirstEncounter3DLeeSin"
+                        "Play_vo_UdyrSkin03_FirstEncounter3DSejuani"
+                        "Play_vo_UdyrSkin03_FirstEncounter3DVolibear"
+                        "Play_vo_UdyrSkin03_Joke3DGeneral"
+                        "Play_vo_UdyrSkin03_JokeResponse3DGeneral"
+                        "Play_vo_UdyrSkin03_Kill3DAshe"
+                        "Play_vo_UdyrSkin03_Kill3DEpicEnemyTeam"
+                        "Play_vo_UdyrSkin03_Kill3DGeneral"
+                        "Play_vo_UdyrSkin03_Kill3DKarma"
+                        "Play_vo_UdyrSkin03_Kill3DLeeSin"
+                        "Play_vo_UdyrSkin03_Kill3DPenta"
+                        "Play_vo_UdyrSkin03_Kill3DSejuani"
+                        "Play_vo_UdyrSkin03_Kill3DVolibear"
+                        "Play_vo_UdyrSkin03_Laugh3DGeneral"
+                        "Play_vo_UdyrSkin03_Move2DFirst"
+                        "Play_vo_UdyrSkin03_Move2DFirstAllyKarma"
+                        "Play_vo_UdyrSkin03_Move2DFirstAllyLeeSin"
+                        "Play_vo_UdyrSkin03_Move2DFirstAllySejuani"
+                        "Play_vo_UdyrSkin03_Move2DFirstAllyVolibear"
+                        "Play_vo_UdyrSkin03_Move2DFirstHowlingAbyss"
+                        "Play_vo_UdyrSkin03_Move2DLong"
+                        "Play_vo_UdyrSkin03_Move2DStandard"
+                        "Play_vo_UdyrSkin03_Recall3DGeneral"
+                        "Play_vo_UdyrSkin03_Respawn2DGeneral"
+                        "Play_vo_UdyrSkin03_Spell2DERankOne"
+                        "Play_vo_UdyrSkin03_Spell2DQRankOne"
+                        "Play_vo_UdyrSkin03_Spell2DRRankOne"
+                        "Play_vo_UdyrSkin03_Spell2DWRankOne"
+                        "Play_vo_UdyrSkin03_Spell3DE1Cast"
+                        "Play_vo_UdyrSkin03_Spell3DE2Cast"
+                        "Play_vo_UdyrSkin03_Spell3DQ1Cast"
+                        "Play_vo_UdyrSkin03_Spell3DQ2Cast"
+                        "Play_vo_UdyrSkin03_Spell3DR1Cast"
+                        "Play_vo_UdyrSkin03_Spell3DR2Cast"
+                        "Play_vo_UdyrSkin03_Spell3DW1Cast"
+                        "Play_vo_UdyrSkin03_Spell3DW2Cast"
+                        "Play_vo_UdyrSkin03_Taunt3DGeneral"
+                        "Play_vo_UdyrSkin03_TauntResponse3DGeneral"
+                        "Play_vo_UdyrSkin03_UdyrBasicAttack2_cast3D"
+                        "Play_vo_UdyrSkin03_UdyrBasicAttack_cast3D"
                     }
                     0x3b13aa4b: bool = true
-                }
-                0xa4416515 {
-                    0x8d39bde6: string = "Udyr_Base_VO"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Udyr/Skins/Base/Udyr_Base_VO_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Udyr/Skins/Base/Udyr_Base_VO_events.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Udyr/Skins/Base/Udyr_Base_VO_audio.wpk"
-                    }
-                    0x3b13aa4b: bool = true
-                }
-                0xa4416515 {
-                    0x8d39bde6: string = "Udyr_Base_SFX"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Udyr/Skins/Base/Udyr_Base_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Udyr/Skins/Base/Udyr_Base_SFX_events.bnk"
-                    }
                 }
             }
         }
@@ -258,33 +201,109 @@ entries: map[hash,embed] = {
             0xf5fb07c7: link = 0x45cbe193
         }
         0x45ff5904: embed = 0x6111d8a4 {
-            0xb14c976e: string = "ASSETS/Characters/Udyr/Skins/Skin03/udyr_spirit.skl"
-            0xd6a00df6: string = "ASSETS/Characters/Udyr/Skins/Skin03/udyr_spirit.skn"
-            0x3c6468f4: string = "ASSETS/Characters/Udyr/Skins/Skin03/udyr_spiritSummoner_TX_CM.dds"
-            0xa1f805da: f32 = 1.1
+            0xb14c976e: string = "ASSETS/Characters/Udyr/Skins/Skin03/Udyr_Skin03.UdyrVGU.skl"
+            0xd6a00df6: string = "ASSETS/Characters/Udyr/Skins/Skin03/Udyr_Skin03.UdyrVGU.skn"
+            0x3c6468f4: string = "ASSETS/Characters/Udyr/Skins/Skin03/Udyr_Skin03_Main_Leg_TX_CM.UdyrVGU.dds"
             0x252f6884: f32 = 0.7
-            0xc91afa4d: f32 = 0.5
-            0xe4f5f2ff: bool = true
+            0xd2e4d060: link = 0xe371d63a
             0x561f4fea: rgba = { 0, 0, 0, 255 }
+            0x80b7f78f: string = "HairUp TigerArms PhoenixArms BearHorns TurtleArms PhoenixArms TigerArmsMax TigerShareArms TurtleArmsMax Orb PhoenixArmsMax BearHornsMax TigerHairMax TurtleHairMax BearHairMax PhoenixHairMax PhoenixArmsWing"
+            0x24725910: list[embed] = {
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x52c60866
+                    0xaad7612c: string = "TigerArms"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x50c60540
+                    0xaad7612c: string = "BearHorns"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x51c606d3
+                    0xaad7612c: string = "TurtleArms"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x57c61045
+                    0xaad7612c: string = "PhoenixArms"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x52c60866
+                    0xaad7612c: string = "TigerArmsMax"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x52c60866
+                    0xaad7612c: string = "TigerShareArms"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Udyr/Skins/Skin03/Udyr_Skin03_SpiritWeapon_TX.UdyrVGU.dds"
+                    0xaad7612c: string = "TurtleArmsMax"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x51c606d3
+                    0xaad7612c: string = "PhoenixArmsMax"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x50c60540
+                    0xaad7612c: string = "BearHornsMax"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Udyr/Skins/Skin03/Udyr_Skin03_Hair_Bear_TX_CM.UdyrVGU.dds"
+                    0xaad7612c: string = "BearHairMax"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Udyr/Skins/Skin03/Udyr_Skin03_Hair_Tiger_TX_CM.UdyrVGU.dds"
+                    0xaad7612c: string = "TigerHairMax"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Udyr/Skins/Skin03/Udyr_Skin03_Hair_Turtle_TX_CM.UdyrVGU.dds"
+                    0xaad7612c: string = "TurtleHairMax"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Udyr/Skins/Skin03/Udyr_Skin03_Hair_Phoenix_TX_CM.UdyrVGU.dds"
+                    0xaad7612c: string = "PhoenixHairMax"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0xe371d63a
+                    0xaad7612c: string = "Upperbody"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0xe371d63a
+                    0xaad7612c: string = "Hair"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x02a6c2b7
+                    0xaad7612c: string = "LowerBody"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x02a6c2b7
+                    0xaad7612c: string = "ChestBelt"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x02a6c2b7
+                    0xaad7612c: string = "Arms"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x02a6c2b7
+                    0xaad7612c: string = "ArmStrapes"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x57c61045
+                    0xaad7612c: string = "PhoenixArmsWing"
+                }
+            }
+            0x309683ca: bool = true
         }
         0x2d0d1f1d: string = "Flesh"
         0x1b2d7605: string = "Udyr_Skin03_Spirit_Champ_Death_Bear.troy"
-        0x660c8b4e: list[string] = {
-            "UdyrPhoenix"
-            "UdyrTiger"
-            "UdyrTurtle"
-            "UdyrPhoenixUlt"
-            "UdyrTigerUlt"
-            "UdyrTurtleUlt"
-            "UdyrUlt"
-        }
-        0x089aff69: string = "ASSETS/Characters/Udyr/HUD/Udyr_Circle_3.dds"
+        0x089aff69: string = "ASSETS/Characters/Udyr/HUD/Udyr_Circle_3.UdyrVGU.dds"
         0xd8f64a0d: link = 0x2306c8ee
         0xe67284f4: option[string] = {
-            "ASSETS/Characters/Udyr/HUD/Udyr_Circle.dds"
+            "ASSETS/Characters/Udyr/HUD/Udyr_Circle_0.UdyrVGU.dds"
         }
         0xac473fef: option[string] = {
-            "ASSETS/Characters/Udyr/HUD/Udyr_Square.dds"
+            "ASSETS/Characters/Udyr/HUD/Udyr_Square_0.UdyrVGU.dds"
+        }
+        0x51c83af8: embed = 0x11b71b5e {
+            0x4d5ff2d7: string = "Buffbone_Cstm_Healthbar"
         }
         0xb698fb27: list[embed] = {
             0x7ba9ed2e {

@@ -6,9 +6,18 @@ entries: map[hash,embed] = {
     0x105ae1d6 = 0x9b67e9f6 {
         0x87225880: u32 = 1
         0x2d78c328: string = "BlackBeltUdyr"
-        0x939e7b29: string = "faction:freljord,gender:male"
+        0x939e7b29: string = "faction:freljord,gender:male,skinline:dayjob"
+        0x68f2b69c: embed = 0x68f2b69c {
+            0xcb522723: list[link] = {
+                0x312e9b95
+                0x0e0a6813
+                0x0f0a69a6
+                0x100a6b39
+                0x110a6ccc
+            }
+        }
         0x97f7188d: embed = 0xd06263ff {
-            0xb35135fa: string = "ASSETS/Characters/Udyr/Skins/skin01/UdyrLoadScreen_1.dds"
+            0xb35135fa: string = "ASSETS/Characters/Udyr/Skins/skin01/UdyrLoadscreen_1.UdyrVGU.dds"
         }
         0x8f7b194f: embed = 0x8f7b194f {
             0xd65bac4d: list[string] = {
@@ -16,47 +25,203 @@ entries: map[hash,embed] = {
             }
             0xf8f29f92: list2[embed] = {
                 0xa4416515 {
+                    0x8d39bde6: string = "Udyr_Base_SFX"
+                    0x2a21ad00: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Udyr/Skins/Base/Udyr_Base_SFX_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Udyr/Skins/Base/Udyr_Base_SFX_events.bnk"
+                    }
+                    0x12d8e384: list[string] = {
+                        "Play_sfx_Udyr_Dance3D_footstep"
+                        "Play_sfx_Udyr_Dance3D_leadin"
+                        "Play_sfx_Udyr_Dance3D_leadin_music"
+                        "Play_sfx_Udyr_Dance3D_loop_music"
+                        "Play_sfx_Udyr_Death3D_cast"
+                        "Play_sfx_Udyr_Homeguard3D_footstep"
+                        "Play_sfx_Udyr_Joke3D_leadin"
+                        "Play_sfx_Udyr_Joke3D_loop"
+                        "Play_sfx_Udyr_Laugh3D_buffactivate"
+                        "Play_sfx_Udyr_Recall3D_buffactivate"
+                        "Play_sfx_Udyr_Respawn3D_buffactivate"
+                        "Play_sfx_Udyr_Taunt3D_buffactivate"
+                        "Play_sfx_Udyr_UdyrBasicAttack2_OnCast"
+                        "Play_sfx_Udyr_UdyrBasicAttack2_OnHit"
+                        "Play_sfx_Udyr_UdyrBasicAttack_OnCast"
+                        "Play_sfx_Udyr_UdyrBasicAttack_OnHit"
+                        "Play_sfx_Udyr_UdyrE_stance_cast"
+                        "Play_sfx_Udyr_UdyrE_stance_cast_awakened"
+                        "Play_sfx_Udyr_UdyrEActivation_OnBuffActivate"
+                        "Play_sfx_Udyr_UdyrEActivation_OnBuffDeactivate"
+                        "Play_sfx_Udyr_UdyrEAttack_OnCast"
+                        "Play_sfx_Udyr_UdyrEAttack_OnHit"
+                        "Play_sfx_Udyr_UdyrPassive_buffactivate"
+                        "Play_sfx_Udyr_UdyrQ_stance_cast"
+                        "Play_sfx_Udyr_UdyrQ_stance_cast_awakened"
+                        "Play_sfx_Udyr_UdyrQActivation_buffactivate_awakened"
+                        "Play_sfx_Udyr_UdyrQActivation_OnBuffDeactivate"
+                        "Play_sfx_Udyr_UdyrQAttack1_OnCast"
+                        "Play_sfx_Udyr_UdyrQAttack1_OnHit"
+                        "Play_sfx_Udyr_UdyrQAttack2_OnCast"
+                        "Play_sfx_Udyr_UdyrQAttack2_OnHit"
+                        "Play_sfx_Udyr_UdyrQBounceMis_hit_large"
+                        "Play_sfx_Udyr_UdyrQBounceMis_hit_med"
+                        "Play_sfx_Udyr_UdyrQBounceMis_hit_small"
+                        "Play_sfx_Udyr_UdyrR_empoweredbasic_buffactivate"
+                        "Play_sfx_Udyr_UdyrR_stance_cast"
+                        "Play_sfx_Udyr_UdyrR_stance_cast_awakened"
+                        "Play_sfx_Udyr_UdyrR_storm_buffactivate"
+                        "Play_sfx_Udyr_UdyrR_storm_buffactivate_awakened"
+                        "Play_sfx_Udyr_UdyrR_storm_hit"
+                        "Play_sfx_Udyr_UdyrRAttack1_OnCast"
+                        "Play_sfx_Udyr_UdyrRAttack1_OnHit"
+                        "Play_sfx_Udyr_UdyrRAttack2_OnCast"
+                        "Play_sfx_Udyr_UdyrRAttack2_OnHit"
+                        "Play_sfx_Udyr_UdyrW_stance_cast"
+                        "Play_sfx_Udyr_UdyrW_stance_cast_awakened"
+                        "Play_sfx_Udyr_UdyrWActivation_OnBuffDeactivate"
+                        "Play_sfx_Udyr_UdyrWAttack1_OnCast"
+                        "Play_sfx_Udyr_UdyrWAttack1_OnHit"
+                        "Play_sfx_Udyr_UdyrWAttack2_OnCast"
+                        "Play_sfx_Udyr_UdyrWAttack2_OnHit"
+                        "Play_sfx_Udyr_Winddown3D_buffactivate"
+                        "Stop_sfx_Udyr_Dance3D_leadin_music"
+                        "Stop_sfx_Udyr_Laugh3D_buffactivate"
+                        "Stop_sfx_Udyr_Recall3D_buffactivate"
+                        "Stop_sfx_Udyr_Respawn3D_buffactivate"
+                        "Stop_sfx_Udyr_Taunt3D_buffactivate"
+                        "Stop_sfx_Udyr_UdyrE_stance_cast"
+                        "Stop_sfx_Udyr_UdyrE_stance_cast_awakened"
+                        "Stop_sfx_Udyr_UdyrEActivation_OnBuffActivate"
+                        "Stop_sfx_Udyr_UdyrQ_stance_cast"
+                        "Stop_sfx_Udyr_UdyrQ_stance_cast_awakened"
+                        "Stop_sfx_Udyr_UdyrQActivation_buffactivate_awakened"
+                        "Stop_sfx_Udyr_UdyrR_stance_cast"
+                        "Stop_sfx_Udyr_UdyrR_stance_cast_awakened"
+                        "Stop_sfx_Udyr_UdyrR_storm_buffactivate"
+                        "Stop_sfx_Udyr_UdyrR_storm_buffactivate_awakened"
+                        "Stop_sfx_Udyr_UdyrW_stance_cast"
+                        "Stop_sfx_Udyr_UdyrW_stance_cast_awakened"
+                        "Stop_sfx_Udyr_Winddown3D_buffactivate"
+                    }
+                }
+                0xa4416515 {
                     0x8d39bde6: string = "Udyr_Base_VO"
                     0x2a21ad00: list[string] = {
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Udyr/Skins/Base/Udyr_Base_VO_audio.bnk"
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Udyr/Skins/Base/Udyr_Base_VO_events.bnk"
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Udyr/Skins/Base/Udyr_Base_VO_audio.wpk"
                     }
-                    0x3b13aa4b: bool = true
-                }
-                0xa4416515 {
-                    0x8d39bde6: string = "Udyr_Base_SFX"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Udyr/Skins/Base/Udyr_Base_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Udyr/Skins/Base/Udyr_Base_SFX_events.bnk"
+                    0x12d8e384: list[string] = {
+                        "Play_vo_Udyr_Attack2DBaron"
+                        "Play_vo_Udyr_Attack2DDragon"
+                        "Play_vo_Udyr_Attack2DGeneral"
+                        "Play_vo_Udyr_Attack2DGromp"
+                        "Play_vo_Udyr_Attack2DHerald"
+                        "Play_vo_Udyr_Attack2DJungleBuff"
+                        "Play_vo_Udyr_Attack2DKrug"
+                        "Play_vo_Udyr_Attack2DMurkwolf"
+                        "Play_vo_Udyr_Attack2DRaptor"
+                        "Play_vo_Udyr_Attack2DRiftScuttler"
+                        "Play_vo_Udyr_Death3D"
+                        "Play_vo_Udyr_FirstEncounter3DAnivia"
+                        "Play_vo_Udyr_FirstEncounter3DAshe"
+                        "Play_vo_Udyr_FirstEncounter3DBelVeth"
+                        "Play_vo_Udyr_FirstEncounter3DGeneral"
+                        "Play_vo_Udyr_FirstEncounter3DLeeSin"
+                        "Play_vo_Udyr_FirstEncounter3DLissandra"
+                        "Play_vo_Udyr_FirstEncounter3DOrnn"
+                        "Play_vo_Udyr_FirstEncounter3DSejuani"
+                        "Play_vo_Udyr_FirstEncounter3DVolibear"
+                        "Play_vo_Udyr_Joke3DGeneral"
+                        "Play_vo_Udyr_JokeTauntResponse3DGeneral"
+                        "Play_vo_Udyr_Kill3DAshe"
+                        "Play_vo_Udyr_Kill3DEpicEnemyTeam"
+                        "Play_vo_Udyr_Kill3DEpicSteal"
+                        "Play_vo_Udyr_Kill3DGeneral"
+                        "Play_vo_Udyr_Kill3DLeeSin"
+                        "Play_vo_Udyr_Kill3DPenta"
+                        "Play_vo_Udyr_Kill3DSejuani"
+                        "Play_vo_Udyr_Kill3DVolibear"
+                        "Play_vo_Udyr_Laugh3DGeneral"
+                        "Play_vo_Udyr_Move2DFirst"
+                        "Play_vo_Udyr_Move2DLong"
+                        "Play_vo_Udyr_Move2DStandard"
+                        "Play_vo_Udyr_Recall3DEnd"
+                        "Play_vo_Udyr_Recall3DGeneral"
+                        "Play_vo_Udyr_Respawn2DGeneral"
+                        "Play_vo_Udyr_Spell2DERankOne"
+                        "Play_vo_Udyr_Spell2DQRankOne"
+                        "Play_vo_Udyr_Spell2DRRankOne"
+                        "Play_vo_Udyr_Spell2DWRankOne"
+                        "Play_vo_Udyr_Spell3DE1Cast"
+                        "Play_vo_Udyr_Spell3DE2Cast"
+                        "Play_vo_Udyr_Spell3DQ1Cast"
+                        "Play_vo_Udyr_Spell3DQ2Cast"
+                        "Play_vo_Udyr_Spell3DR1Cast"
+                        "Play_vo_Udyr_Spell3DR2Cast"
+                        "Play_vo_Udyr_Spell3DW1Cast"
+                        "Play_vo_Udyr_Spell3DW2Cast"
+                        "Play_vo_Udyr_Taunt3DGeneral"
+                        "Play_vo_Udyr_UdyrBasicAttack2_cast3D"
+                        "Play_vo_Udyr_UdyrBasicAttack_cast3D"
                     }
+                    0x3b13aa4b: bool = true
                 }
             }
         }
         0x426d89a3: embed = 0x426d89a3 {
-            0xf5fb07c7: link = 0x46cbe326
+            0xf5fb07c7: link = 0x47cbe4b9
         }
         0x45ff5904: embed = 0x6111d8a4 {
-            0xb14c976e: string = "ASSETS/Characters/Udyr/Skins/Base/Udyr.skl"
-            0xd6a00df6: string = "ASSETS/Characters/Udyr/Skins/Base/Udyr.skn"
-            0x3c6468f4: string = "ASSETS/Characters/Udyr/Skins/skin01/udyr_orange_gi_TX_CM.dds"
-            0xa1f805da: f32 = 1.1
+            0xb14c976e: string = "ASSETS/Characters/Udyr/Skins/skin01/Udyr_Skin01.UdyrVGU_Blackbelt.skl"
+            0xd6a00df6: string = "ASSETS/Characters/Udyr/Skins/skin01/Udyr_Skin01.UdyrVGU_Blackbelt.skn"
+            0x3c6468f4: string = "ASSETS/Characters/Udyr/Skins/skin01/Udyr_Skin01_Main_TX_CM.UdyrVGU_Blackbelt.dds"
             0x252f6884: f32 = 0.7
             0x561f4fea: rgba = { 0, 0, 0, 255 }
+            0x80b7f78f: string = "PhoenixArms BearArms RamArms RamHorns BoarArms HairUp"
+            0x2d7b4ab4: string = "Body BearArms RamArms RamHorns PhoenixArms"
+            0x24725910: list[embed] = {
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x277d3a69
+                    0xaad7612c: string = "PhoenixArms"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Udyr/Skins/skin01/Udyr_Skin01_Main_TX_CM.UdyrVGU_Blackbelt.dds"
+                    0xaad7612c: string = "HairUp"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x2a7d3f22
+                    0xaad7612c: string = "BearArms"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x287d3bfc
+                    0xaad7612c: string = "RamArms"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x297d3d8f
+                    0xaad7612c: string = "BoarArms"
+                }
+                0x8b7a4394 {
+                    0xd2e4d060: link = 0x287d3bfc
+                    0xaad7612c: string = "RamHorns"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Udyr/Skins/skin01/Udyr_Skin01_Main_TX_CM.UdyrVGU_Blackbelt.dds"
+                    0xaad7612c: string = "NormalHair"
+                }
+            }
+            0x309683ca: bool = true
         }
         0x2d0d1f1d: string = "Flesh"
-        0x660c8b4e: list[string] = {
-            "UdyrPhoenix"
-            "UdyrTiger"
-            "UdyrTurtle"
-        }
-        0x089aff69: string = "ASSETS/Characters/Udyr/HUD/Udyr_Circle_1.dds"
+        0x089aff69: string = "ASSETS/Characters/Udyr/HUD/Udyr_Circle_1.UdyrVGU.dds"
         0xd8f64a0d: link = 0x427e3a2b
         0xe67284f4: option[string] = {
-            "ASSETS/Characters/Udyr/HUD/Udyr_Circle.dds"
+            "ASSETS/Characters/Udyr/HUD/Udyr_Circle_0.UdyrVGU.dds"
         }
         0xac473fef: option[string] = {
-            "ASSETS/Characters/Udyr/HUD/Udyr_Square.dds"
+            "ASSETS/Characters/Udyr/HUD/Udyr_Square_0.UdyrVGU.dds"
+        }
+        0x51c83af8: embed = 0x11b71b5e {
+            0x4d5ff2d7: string = "Buffbone_Cstm_Healthbar"
         }
         0x62286e7e: link = 0xed70900c
     }
