@@ -17,12 +17,13 @@ entries: map[hash,embed] = {
                     0x246b0d8e: list[f32] = {
                         0.4
                         0.4
-                        0.4
-                        0.4
+                        0.45
+                        0.5
                         0.4
                         0.4
                         0.4
                     }
+                    0x3f95426c: bool = false
                     0x6d3ccfd7: f32 = 0.4
                     0xe7b832f2: string = "P + 0"
                 }
@@ -167,7 +168,17 @@ entries: map[hash,embed] = {
                         "keyTooltip" = "Spell_TFT7_NidaleePrimalSurge_Tooltip"
                     }
                     0x91ed07c9: map[string,embed] = {
-                        "LevelUp" = 0xfb33f2f3 {}
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 3
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseAS"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_AttackSpeed"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
                     }
                 }
             }

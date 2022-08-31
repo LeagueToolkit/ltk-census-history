@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb36f961c = 0x60e00531 {
+        0x19efbfdb: string = "Set7_Stage2_TierBagNomsy"
+        0x0773669d: map[string,pointer] = {
+            "TFT7_NomsyMage" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+            "TFT7_NomsyCannoneer" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+            "TFT7_NomsyEvoker" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

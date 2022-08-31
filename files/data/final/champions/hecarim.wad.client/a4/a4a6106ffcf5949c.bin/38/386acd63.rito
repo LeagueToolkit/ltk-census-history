@@ -92,6 +92,20 @@ entries: map[hash,embed] = {
                     0x6d3ccfd7: f32 = 90
                     0xe7b832f2: string = "P + 30"
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "ResistAmount"
+                    0x246b0d8e: list[f32] = {
+                        10
+                        15
+                        20
+                        25
+                        30
+                        35
+                        40
+                    }
+                    0x6d3ccfd7: f32 = 10
+                    0xe7b832f2: string = "P + 5"
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x1ddee768 = 0xbc409284 {
@@ -131,11 +145,11 @@ entries: map[hash,embed] = {
                 "ASSETS/Characters/Hecarim/HUD/Icons2D/Hecarim_SpiritofDread.dds"
             }
             0x9ecac3a1: list[f32] = {
-                14
-                14
-                14
-                14
-                14
+                16
+                16
+                15.5
+                15
+                14.5
                 14
                 14
             }
@@ -219,9 +233,16 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                }
+                                0x9a1b3505 {
                                     0x5127f14d: string = "Damage"
                                     0x33c02d93: i32 = 2
                                     0x566f3406: string = "Spell_ListType_Damage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "ResistAmount"
+                                    0x566f3406: string = "Spell_ListType_HecarimW: Resist Amount"
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "MinionHealCap"
