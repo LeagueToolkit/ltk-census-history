@@ -79,15 +79,15 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "LightningAPRatio"
                     0x246b0d8e: list[f32] = {
-                        6e-05
-                        6e-05
-                        6e-05
-                        6e-05
-                        6e-05
-                        6e-05
-                        6e-05
+                        8e-05
+                        8e-05
+                        8e-05
+                        8e-05
+                        8e-05
+                        8e-05
+                        8e-05
                     }
-                    0x6d3ccfd7: f32 = 6e-05
+                    0x6d3ccfd7: f32 = 8e-05
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "Bounces"
@@ -129,10 +129,52 @@ entries: map[hash,embed] = {
                     0x6d3ccfd7: f32 = -3
                     0xe7b832f2: string = "P + 8"
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxHPADRatio"
+                    0x246b0d8e: list[f32] = {
+                        6e-04
+                        6e-04
+                        6e-04
+                        6e-04
+                        6e-04
+                        6e-04
+                        6e-04
+                    }
+                    0x6d3ccfd7: f32 = 6e-04
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "Q2MaxHPADRatio"
+                    0x246b0d8e: list[f32] = {
+                        9e-04
+                        9e-04
+                        9e-04
+                        9e-04
+                        9e-04
+                        9e-04
+                        9e-04
+                    }
+                    0x6d3ccfd7: f32 = 9e-04
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "AttackRange"
+                    0x246b0d8e: list[f32] = {
+                        50
+                        50
+                        50
+                        50
+                        50
+                        50
+                        50
+                    }
+                    0x6d3ccfd7: f32 = 50
+                }
             }
             0x94572284: map[hash,pointer] = {
-                0x354977e8 = 0xbc409284 {
+                0xc5a53951 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x00f8f60d
+                        }
                         0x15fecdbc {
                             0xd06c375d: f32 = 0.2
                             0x1cd7e522: f32 = 0.7
@@ -168,8 +210,8 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0x84b75df4
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 6e-04
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x2a4124ff
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
                         }
@@ -274,6 +316,23 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
+                0x9d25e167 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x84b75df4
+                        }
+                        0x15fecdbc {
+                            0xd06c375d: f32 = 0.02
+                            0x1cd7e522: f32 = 0.05
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x5047a7a8
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                        }
+                    }
+                    0x5a2297d3: bool = true
+                }
             }
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Udyr/HUD/Icons2D/Udyr_Q.UdyrVGU.dds"
@@ -329,12 +388,12 @@ entries: map[hash,embed] = {
                 2
             }
             0xd997830a: list[f32] = {
-                45
-                45
-                45
-                45
-                45
-                45
+                20
+                20
+                20
+                20
+                20
+                20
             }
             0x5d46764f: pointer = 0x645ba277 {}
             0x7c4baddc: option[f32] = {
@@ -361,15 +420,15 @@ entries: map[hash,embed] = {
                                     0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "BaseDamage"
-                                    0x566f3406: string = "Spell_ListType_OnHitDamage"
-                                }
-                                0x9a1b3505 {
                                     0x5127f14d: string = "MaxHPOnHitBase"
                                     0x33c02d93: i32 = 4
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_PercentMaxHealthDamage"
                                     0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseDamage"
+                                    0x566f3406: string = "Spell_ListType_OnHitDamage"
                                 }
                             }
                         }
