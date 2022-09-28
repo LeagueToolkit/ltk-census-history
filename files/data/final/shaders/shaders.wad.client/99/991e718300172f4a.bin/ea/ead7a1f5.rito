@@ -110,8 +110,12 @@ entries: map[hash,embed] = {
                         0x0640657c: u32 = 3
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "BloomValue"
+                        0x8d39bde6: string = "AlphaClipValue"
                         0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "AlphaClipNoiseStrength"
+                        0x0640657c: u32 = 8
                     }
                 }
             }
@@ -125,6 +129,15 @@ entries: map[hash,embed] = {
                     }
                 }
             }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter10"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "BloomValue"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
         }
         0x3291437b: list[embed] = {
             0x60a292e6 {
@@ -132,6 +145,9 @@ entries: map[hash,embed] = {
             }
             0x60a292e6 {
                 0x8d39bde6: string = "ALPHABLEND_MAIN"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "ALPHACLIP_ON"
             }
             0x60a292e6 {
                 0x8d39bde6: string = "BLENDCOLOR_ON"

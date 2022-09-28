@@ -11,63 +11,113 @@ entries: map[hash,embed] = {
             0x3e1edbdb: list[string] = {
                 "Trait_ImmobilizingCCSpell"
             }
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        40
-                        85
-                        130
-                        175
-                        220
-                        265
-                        310
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "ConeAngle"
+                    0x246b0d8e: list[f32] = {
+                        56
+                        56
+                        56
+                        56
+                        56
+                        56
+                        56
                     }
+                    0x6d3ccfd7: f32 = 56
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
+                0x005008a6 {
+                    0x19efbfdb: string = "StunDuration"
+                    0x246b0d8e: list[f32] = {
+                        1.25
+                        1.25
+                        1.25
+                        1.25
+                        1.25
+                        1.25
+                        1.25
                     }
+                    0x6d3ccfd7: f32 = 1.25
+                    0xe7b832f2: string = "P + 0"
                 }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
+                0x005008a6 {
+                    0x19efbfdb: string = "UpgradedSlowDuration"
+                    0x246b0d8e: list[f32] = {
+                        1.25
+                        1.25
+                        1.25
+                        1.25
+                        1.25
+                        1.25
+                        1.25
+                    }
+                    0x6d3ccfd7: f32 = 1.25
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "UpgradedSlowAmount"
+                    0x246b0d8e: list[f32] = {
+                        0.7
+                        0.7
+                        0.7
+                        0.7
+                        0.7
+                        0.7
+                        0.7
+                    }
+                    0x6d3ccfd7: f32 = 0.7
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "UpgradedConeAngle"
+                    0x246b0d8e: list[f32] = {
+                        84
+                        84
+                        84
+                        84
+                        84
+                        84
+                        84
+                    }
+                    0x6d3ccfd7: f32 = 84
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        35
+                        75
+                        115
+                        155
+                        195
+                        235
+                        275
+                    }
+                    0x6d3ccfd7: f32 = 35
+                    0xe7b832f2: string = "P + 40"
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x1ddee768 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.6
+                            0x295c2889: f32 = 0.55
                         }
                     }
                 }
             }
-            0x295c2889: f32 = 0.6
             0xfbd16fb5: string = "Spell3_start"
             0xeed67cd5: list[string] = {
-                "ASSETS/Characters/Syndra/HUD/Icons2D/SyndraE.dds"
+                "ASSETS/Characters/Syndra/HUD/Icons2D/Syndra_E1.dds"
+                "ASSETS/Characters/Syndra/HUD/Icons2D/Syndra_E2.dds"
             }
             0x9ecac3a1: list[f32] = {
-                19
-                18
-                17
-                16
                 15
-                14
-                13
+                15
+                15
+                15
+                15
+                15
+                15
             }
             0x18330965: f32 = -0.5
             0x3a4c4690: f32 = -0.5
@@ -91,7 +141,7 @@ entries: map[hash,embed] = {
                 100
                 100
             }
-            0x7738aa28: f32 = 20
+            0x7738aa28: f32 = 30
             0x5c46e292: f32 = 675
             0x4e47141f: f32 = 7.5
             0x165e061e: f32 = 902
@@ -138,12 +188,9 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "Cooldown"
                                 }
                             }
                         }
@@ -155,7 +202,7 @@ entries: map[hash,embed] = {
                             0x62e44e6b: u32 = 3
                         }
                         0xfe497a32: option[f32] = {
-                            20
+                            30
                         }
                         0xeb34d5d7: option[f32] = {
                             675

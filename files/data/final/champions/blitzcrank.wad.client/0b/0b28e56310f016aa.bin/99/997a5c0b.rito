@@ -10,78 +10,6 @@ entries: map[hash,embed] = {
             0x3e1edbdb: list[string] = {
                 "Trait_Ultimate"
             }
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
-                        50
-                        100
-                        150
-                        0
-                        0
-                        0
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
-                        150
-                        275
-                        400
-                        0
-                        0
-                        0
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.08
-                        0.08
-                        0.08
-                        0.08
-                        0.08
-                        0.08
-                        0.08
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        400
-                        400
-                        400
-                        400
-                        400
-                        400
-                        400
-                    }
-                }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-            }
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "PassiveBaseDamage"
@@ -138,19 +66,6 @@ entries: map[hash,embed] = {
                     0xe7b832f2: string = "P + 125"
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "MaxStacks"
-                    0x246b0d8e: list[f32] = {
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                    }
-                    0x6d3ccfd7: f32 = 3
-                }
-                0x005008a6 {
                     0x19efbfdb: string = "SilenceDuration"
                     0x246b0d8e: list[f32] = {
                         0.5
@@ -162,6 +77,20 @@ entries: map[hash,embed] = {
                         0.5
                     }
                     0x6d3ccfd7: f32 = 0.5
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "PassiveAPRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.2
+                        0.3
+                        0.4
+                        0.5
+                        0.6
+                        0.7
+                        0.8
+                    }
+                    0x6d3ccfd7: f32 = 0.2
+                    0xe7b832f2: string = "P + 0.1"
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -181,15 +110,13 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0xe8ec14f2
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.3
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xedb9e272
                         }
                     }
                     0xcbcac618: u8 = 6
                 }
             }
-            0x295c2889: f32 = 0.2
-            0xd7141e61: f32 = 1
             0xfbd16fb5: string = "Spell4"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Blitzcrank/HUD/Icons2D/Blitzcrank_StaticField.dds"
@@ -245,7 +172,6 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_StaticField_Name"
                         "keySummary" = "Spell_StaticField_Summary"
                         "keyTooltip" = "Spell_StaticField_Tooltip"
-                        "keyTooltipExtendedBelowLine" = "Spell_StaticField_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
@@ -254,6 +180,12 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "PassiveBaseDamage"
                                     0x566f3406: string = "Spell_StaticField_PassiveBase_LevelUp"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "PassiveAPRatio"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_StaticField_PassiveAPRatio_LevelUp"
+                                    0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "ActiveBaseDamage"

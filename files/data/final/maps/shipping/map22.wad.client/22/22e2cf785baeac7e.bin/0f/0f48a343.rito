@@ -1,0 +1,54 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x0f48a343 = 0x60e00531 {
+        0x19efbfdb: string = "TFTCombatStartPhaseTimings"
+        0x0773669d: map[string,pointer] = {
+            "CombatInitStart" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.02
+            }
+            "CombatInitAuraItems" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.04
+            }
+            "CombatInitChampions" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.06
+            }
+            "CombatInitTraits" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.08
+            }
+            "CombatInitAugments" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+            "CombatInitAmbushItems" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.12
+            }
+            "CombatInitPreUnitTargeting" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.14
+            }
+            "CombatInitUnitMovementStart" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "CombatInitPreMeleeTargeting" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.25
+            }
+            "CombatInitMeleeTargeting" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.3
+            }
+            "CombatInitRangedTargeting" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.35
+            }
+            "CombatInitPostRangedTargeting" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.4
+            }
+            "CombatInitUnitMovementEnd" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.7
+            }
+            "CombatInitEnd" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.71
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

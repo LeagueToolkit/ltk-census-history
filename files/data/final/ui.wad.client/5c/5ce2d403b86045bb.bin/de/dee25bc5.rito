@@ -1,0 +1,17 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xdee25bc5 = 0x89a3465f {
+        0x031afe7d: link = 0x055735ce
+        0xfa4c41a0: pointer = 0x26f2a088 {
+            0xf00a885b: u8 = 1
+        }
+        0x5a94b0cc: list[link] = {
+            0x055735ce
+        }
+        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/PlayerProfile/PlayerProfileScene/PPMHContent/MHListScene/StatsTemplate/MH_Tile/MH_Unit_L"
+        0x8e91ace0: link = 0x8dd82f96
+    }
+}

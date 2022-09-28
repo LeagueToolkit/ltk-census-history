@@ -15,56 +15,20 @@ entries: map[hash,embed] = {
             0x3e1edbdb: list[string] = {
                 "Trait_Ultimate"
             }
-            0x251a5225: list[embed] = {
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        7
-                        7
-                        7
-                        7
-                        7
-                        7
-                        7
-                    }
-                }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-            }
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "DamagePerSphere"
                     0x246b0d8e: list[f32] = {
-                        40
+                        50
                         90
-                        140
-                        190
-                        240
+                        130
+                        170
+                        210
+                        250
                         290
-                        340
                     }
-                    0x6d3ccfd7: f32 = 40
-                    0xe7b832f2: string = "P + 50"
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "DamageIfThreeSpheres"
-                    0x246b0d8e: list[f32] = {
-                        120
-                        270
-                        420
-                        570
-                        720
-                        870
-                        1020
-                    }
-                    0x6d3ccfd7: f32 = 120
-                    0xe7b832f2: string = "P + 150"
+                    0x6d3ccfd7: f32 = 50
+                    0xe7b832f2: string = "P + 40"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "MaxSpheresToUse"
@@ -79,6 +43,58 @@ entries: map[hash,embed] = {
                     }
                     0x6d3ccfd7: f32 = 7
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "UpgradeExecuteThreshold"
+                    0x246b0d8e: list[f32] = {
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                    }
+                    0x6d3ccfd7: f32 = 0.15
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "QHastePerRank"
+                    0x246b0d8e: list[f32] = {
+                        10
+                        10
+                        10
+                        10
+                        10
+                        10
+                        10
+                    }
+                    0x6d3ccfd7: f32 = 10
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TOOLTIPONLYTotalQHaste"
+                    0x246b0d8e: list[f32] = {
+                        0
+                        10
+                        20
+                        30
+                        40
+                        50
+                        60
+                    }
+                    0xe7b832f2: string = "P + 10"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MinSpheresToUse"
+                    0x246b0d8e: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                    }
+                    0x6d3ccfd7: f32 = 3
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0xc9e3357d = 0xbc409284 {
@@ -87,18 +103,14 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0x4a1e42e2
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.2
+                            0x295c2889: f32 = 0.17
                         }
                     }
                 }
-                0x15f8e5a3 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0xbc2cb061
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.6
-                        }
+                0x15f8e5a3 = 0x070e3593 {
+                    0x7f93cf4e: hash = 0xc9e3357d
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0xa48e3d19
                     }
                 }
                 0xfb3fa589 = 0x070e3593 {
@@ -109,11 +121,10 @@ entries: map[hash,embed] = {
                     0xcbcac618: u8 = 6
                 }
             }
-            0x295c2889: f32 = 0.2
-            0xd7141e61: f32 = 0.6
             0xfbd16fb5: string = "Spell4_start"
             0xeed67cd5: list[string] = {
-                "ASSETS/Characters/Syndra/HUD/Icons2D/SyndraR.dds"
+                "ASSETS/Characters/Syndra/HUD/Icons2D/Syndra_R1.dds"
+                "ASSETS/Characters/Syndra/HUD/Icons2D/Syndra_R2.dds"
             }
             0x90fb0576: f32 = 0.25
             0x9ecac3a1: list[f32] = {
@@ -180,6 +191,10 @@ entries: map[hash,embed] = {
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "TOOLTIPONLYTotalQHaste"
+                                    0x566f3406: string = "Spell_SyndraR_QHaste"
                                 }
                             }
                         }

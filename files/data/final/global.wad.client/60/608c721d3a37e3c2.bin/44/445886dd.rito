@@ -22,7 +22,7 @@ entries: map[hash,embed] = {
         }
         0xf416eba0: map[string,string] = {
             "parent" = "402400"
-            "itemQuery" = "$[?(@.epicness=='EPICNESS_MYTHIC')].id"
+            "itemQuery" = "$[?(@.epicness == 'EPICNESS_MYTHIC' && 'Items/ItemGroups/OrnnItems' nin @.groups)].id"
         }
     }
 }
