@@ -18,7 +18,6 @@ entries: map[hash,embed] = {
                         0.5
                         0.5
                     }
-                    0x6d3ccfd7: f32 = 0.5
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "EmpoweredHealingThreshold"
@@ -31,8 +30,6 @@ entries: map[hash,embed] = {
                         0.25
                         0.25
                     }
-                    0x6d3ccfd7: f32 = 0.25
-                    0xe7b832f2: string = "P + 0"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "HealingRatio"
@@ -45,7 +42,6 @@ entries: map[hash,embed] = {
                         1
                         1
                     }
-                    0x6d3ccfd7: f32 = 1
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "EmpoweredHealingRatio"
@@ -58,8 +54,6 @@ entries: map[hash,embed] = {
                         2.5
                         2.5
                     }
-                    0x6d3ccfd7: f32 = 2.5
-                    0xe7b832f2: string = "P + 0"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "HealthRestoreSlushTime"
@@ -72,26 +66,25 @@ entries: map[hash,embed] = {
                         1.55
                         1.55
                     }
-                    0x6d3ccfd7: f32 = 1.55
                 }
             }
             0x94572284: map[hash,pointer] = {
                 0xcfaae860 = 0xbc409284 {
+                    0xcbcac618: u8 = 6
                     0x50f145c0: list[pointer] = {
                         0x5cf69ece {
                             0xad62f672: f32 = 12
                             0x02deb550: f32 = 2
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.15
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
+                            0x295c2889: f32 = 0.15
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.1
                         }
                     }
-                    0xcbcac618: u8 = 6
                 }
             }
             0xeed67cd5: list[string] = {
@@ -108,7 +101,6 @@ entries: map[hash,embed] = {
             }
             0x048557ff: embed = 0x7dd1a902 {
                 0x2831605b: pointer = 0xa4e13b57 {
-                    0xfea35e52: bool = false
                     0xb482c52c: string = "WarwickP"
                     0x57b8b11b: link = 0x30d7b387
                     0x0381f7e2: map[string,string] = {
@@ -116,6 +108,7 @@ entries: map[hash,embed] = {
                         "keyTooltip" = "Spell_WarwickP_Tooltip"
                         "keySummary" = "Spell_WarwickP_Summary"
                     }
+                    0xfea35e52: bool = false
                 }
             }
         }

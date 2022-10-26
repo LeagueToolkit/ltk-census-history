@@ -4,6 +4,15 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x1e88a5f9 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/Store/StoreScene/CategoryButtons/StoreCategoryButton_Emotes"
+        0x8e91ace0: link = 0x342befbb
+        0x5a94b0cc: list[link] = {
+            0xf935126b
+            0x42ab16ff
+            0x290e94d9
+            0x0e211c79
+            0x48bcb78e
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x42ab16ff
@@ -62,14 +71,5 @@ entries: map[hash,embed] = {
             0x7c552179: string = "Play_sfx_PreGameUI_button_rounded_tap"
             0xb416d0a8: string = "Play_sfx_PreGameUI_store_button_purchase_selection_release"
         }
-        0x5a94b0cc: list[link] = {
-            0xf935126b
-            0x42ab16ff
-            0x290e94d9
-            0x0e211c79
-            0x48bcb78e
-        }
-        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/Store/StoreScene/CategoryButtons/StoreCategoryButton_Emotes"
-        0x8e91ace0: link = 0x342befbb
     }
 }

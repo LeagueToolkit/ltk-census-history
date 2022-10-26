@@ -4,6 +4,14 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xd51ab032 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/Home/HomeScene/SpecialOffer_Rewards/SpecialOffer_Rewards_Button"
+        0x8e91ace0: link = 0xe1c0e8ac
+        0x5a94b0cc: list[link] = {
+            0x412b01f2
+            0x9cb0ffeb
+            0x02b786f7
+            0x8e10a558
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x9cb0ffeb
@@ -19,13 +27,5 @@ entries: map[hash,embed] = {
             0xeec29756: link = 0x8e10a558
         }
         0x6bf3194e: link = 0x412b01f2
-        0x5a94b0cc: list[link] = {
-            0x412b01f2
-            0x9cb0ffeb
-            0x02b786f7
-            0x8e10a558
-        }
-        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/Home/HomeScene/SpecialOffer_Rewards/SpecialOffer_Rewards_Button"
-        0x8e91ace0: link = 0xe1c0e8ac
     }
 }

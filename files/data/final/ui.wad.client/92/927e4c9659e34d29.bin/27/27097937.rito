@@ -4,6 +4,16 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x27097937 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/TFT/TFTReturnToBoard/UIBase/TFT_ReturnToBoard/TFT_ReturnToBoard_Button"
+        0x8e91ace0: link = 0xdb053ec1
+        0x5a94b0cc: list[link] = {
+            0x2f5b679a
+            0xa9c54762
+            0xc87d9991
+            0x8e80a542
+            0xc16f8469
+            0x58461c02
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0xa9c54762
@@ -26,15 +36,5 @@ entries: map[hash,embed] = {
         }
         0x6bf3194e: link = 0x8e80a542
         0xdf2b45ce: bool = true
-        0x5a94b0cc: list[link] = {
-            0x2f5b679a
-            0xa9c54762
-            0xc87d9991
-            0x8e80a542
-            0xc16f8469
-            0x58461c02
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/TFT/TFTReturnToBoard/UIBase/TFT_ReturnToBoard/TFT_ReturnToBoard_Button"
-        0x8e91ace0: link = 0xdb053ec1
     }
 }

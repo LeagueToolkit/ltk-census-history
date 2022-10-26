@@ -4,6 +4,14 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xaf376b06 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/TFT/TFTMinimap/UIBase/Minimap/OptionsMenuButton"
+        0x8e91ace0: link = 0x6881249c
+        0x5a94b0cc: list[link] = {
+            0x83b1b162
+            0x8558184a
+            0xe5d57101
+            0xa6b2d402
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x8558184a
@@ -24,13 +32,5 @@ entries: map[hash,embed] = {
             0x84b6cf03: string = "play_sfx_hud_base_Generic_Button_Click"
         }
         0xdf2b45ce: bool = true
-        0x5a94b0cc: list[link] = {
-            0x83b1b162
-            0x8558184a
-            0xe5d57101
-            0xa6b2d402
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/TFT/TFTMinimap/UIBase/Minimap/OptionsMenuButton"
-        0x8e91ace0: link = 0x6881249c
     }
 }

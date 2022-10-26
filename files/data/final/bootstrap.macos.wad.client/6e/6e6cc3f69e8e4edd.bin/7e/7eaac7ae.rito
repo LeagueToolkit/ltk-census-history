@@ -4,6 +4,17 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x7eaac7ae = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Common/UX/MessageBoxDialog/UIBase/MessageBox/MessageBoxActionButtons/MessageBox_RightButton"
+        0x8e91ace0: link = 0xf878ee42
+        0x5a94b0cc: list[link] = {
+            0xbfefab28
+            0xa7915598
+            0x7159dfdf
+            0x4c77412f
+            0x0d7c1078
+            0xeff8f180
+            0x5c166339
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0xa7915598
@@ -33,16 +44,5 @@ entries: map[hash,embed] = {
             0xd84e3078: string = "Play_sfx_CommonUI_button_standard_tap"
             0x84b6cf03: string = "Play_sfx_CommonUI_button_rounded_release"
         }
-        0x5a94b0cc: list[link] = {
-            0xbfefab28
-            0xa7915598
-            0x7159dfdf
-            0x4c77412f
-            0x0d7c1078
-            0xeff8f180
-            0x5c166339
-        }
-        0x19efbfdb: string = "ClientStates/Common/UX/MessageBoxDialog/UIBase/MessageBox/MessageBoxActionButtons/MessageBox_RightButton"
-        0x8e91ace0: link = 0xf878ee42
     }
 }

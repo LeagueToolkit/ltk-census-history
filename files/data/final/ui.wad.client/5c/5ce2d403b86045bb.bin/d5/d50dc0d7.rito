@@ -4,6 +4,15 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xd50dc0d7 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/Loadout/LoadoutScene/CompanionItemInfo/CompanionTier1Button"
+        0x8e91ace0: link = 0xb31f93cd
+        0x5a94b0cc: list[link] = {
+            0x6e675c76
+            0x5131d946
+            0x4bba814d
+            0xdaf8ddbe
+            0xbed0ec25
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x5131d946
@@ -52,14 +61,5 @@ entries: map[hash,embed] = {
             0xb416d0a8: string = "Play_sfx_PreGameUI_loadout_button_rarity_release"
         }
         0xdf2b45ce: bool = true
-        0x5a94b0cc: list[link] = {
-            0x6e675c76
-            0x5131d946
-            0x4bba814d
-            0xdaf8ddbe
-            0xbed0ec25
-        }
-        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/Loadout/LoadoutScene/CompanionItemInfo/CompanionTier1Button"
-        0x8e91ace0: link = 0xb31f93cd
     }
 }

@@ -4,6 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x541c7597 = 0x474f1541 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/TFT/TFTCombatRecap/UIBase/TFT_CombatRecap/CR_Scroll/CR_Scroll_Slider"
+        0x8e91ace0: link = 0x75155c65
+        0x5a94b0cc: list[link] = {
+            0xf3cf7218
+            0x948e7555
+            0xd40fc1af
+        }
         0xdb62c463: embed = 0xdf3bdc62 {
             0xf75a6d4d: link = 0xd40fc1af
         }
@@ -19,12 +26,5 @@ entries: map[hash,embed] = {
         0xfb0fa193: link = 0xf3cf7218
         0x3da59d59: link = 0x948e7555
         0xdf6dc76a: u8 = 1
-        0x5a94b0cc: list[link] = {
-            0xf3cf7218
-            0x948e7555
-            0xd40fc1af
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/TFT/TFTCombatRecap/UIBase/TFT_CombatRecap/CR_Scroll/CR_Scroll_Slider"
-        0x8e91ace0: link = 0x479f6a01
     }
 }

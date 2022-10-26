@@ -4,6 +4,17 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xf0eb5584 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/NavHeader/NavHeaderScene/NavStarShardsButton"
+        0x8e91ace0: link = 0x0153144b
+        0x5a94b0cc: list[link] = {
+            0x346622f6
+            0x17309fc6
+            0x7bccfccd
+            0x971faea5
+            0x6669b5f0
+            0x4b359225
+            0x71e41553
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x4b359225
@@ -37,16 +48,5 @@ entries: map[hash,embed] = {
             0xd84e3078: string = "Play_sfx_CommonUI_button_standard_tap"
             0x84b6cf03: string = "Play_sfx_PreGameUI_button_StarShards_release"
         }
-        0x5a94b0cc: list[link] = {
-            0x346622f6
-            0x17309fc6
-            0x7bccfccd
-            0x971faea5
-            0x6669b5f0
-            0x4b359225
-            0x71e41553
-        }
-        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/NavHeader/NavHeaderScene/NavStarShardsButton"
-        0x8e91ace0: link = 0x0153144b
     }
 }

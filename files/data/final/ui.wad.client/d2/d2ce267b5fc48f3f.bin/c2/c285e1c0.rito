@@ -4,6 +4,16 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xc285e1c0 = 0x25e82b58 {
+        0x19efbfdb: string = "Patching/UX/RiotUI/TFTTeamPlanner/TeamPlannerScene/TP_PaginateTrait_Button"
+        0x8e91ace0: link = 0x92f3efda
+        0x5a94b0cc: list[link] = {
+            0x535c269b
+            0x5f6ff157
+            0x858cbe22
+            0x7d89427c
+            0xeee7f81e
+            0xecba75c9
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x5f6ff157
@@ -32,15 +42,5 @@ entries: map[hash,embed] = {
         0xa30565cd: pointer = 0xfc2d67aa {
             0xd84e3078: string = "Play_sfx_CommonUI_button_standard_tap"
         }
-        0x5a94b0cc: list[link] = {
-            0x535c269b
-            0x5f6ff157
-            0x858cbe22
-            0x7d89427c
-            0xeee7f81e
-            0xecba75c9
-        }
-        0x19efbfdb: string = "Patching/UX/RiotUI/TFTTeamPlanner/TeamPlannerScene/TP_PaginateTrait_Button"
-        0x8e91ace0: link = 0x92f3efda
     }
 }

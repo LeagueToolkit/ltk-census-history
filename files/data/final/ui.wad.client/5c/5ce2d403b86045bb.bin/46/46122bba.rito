@@ -4,6 +4,15 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x46122bba = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/Loadout/LoadoutScene/EmoteItemInfo/LoadoutEmoteGameStartButton"
+        0x8e91ace0: link = 0x95fa2a1f
+        0x5a94b0cc: list[link] = {
+            0xc2491b01
+            0x85d4be04
+            0x7e8d6465
+            0xcf8e6579
+            0x77b153af
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x7e8d6465
@@ -66,14 +75,5 @@ entries: map[hash,embed] = {
             0xb416d0a8: string = "Play_sfx_CommonUI_button_rounded_release"
         }
         0xdf2b45ce: bool = true
-        0x5a94b0cc: list[link] = {
-            0xc2491b01
-            0x85d4be04
-            0x7e8d6465
-            0xcf8e6579
-            0x77b153af
-        }
-        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/Loadout/LoadoutScene/EmoteItemInfo/LoadoutEmoteGameStartButton"
-        0x8e91ace0: link = 0x95fa2a1f
     }
 }

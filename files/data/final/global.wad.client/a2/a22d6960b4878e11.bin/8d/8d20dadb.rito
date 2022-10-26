@@ -4,7 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x8d20dadb = 0x7cc20e55 {
-        0x57413af1: string = "ASSETS/Loadouts/Companions/Tooltip_Turtle_Rosebloom_Tier1.png"
+        0xf66a8ad3: string = "turtle_rosebloom_tier1_name"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "fcd5425d-9a58-43f1-bd7f-f73541e415f8"
+            0x13bddc7b: u32 = 8013
+            0x73db4a28: string = "62975d48-77bf-45da-b9eb-b98de24593d2"
+        }
+        0x719623aa: string = "companion_description_turtle"
         0x9b99e7dd: u32 = 1
         0x715b6117: hash = 0x9969c0ad
         0xa8c68ca4: u32 = 13
@@ -13,12 +19,5 @@ entries: map[hash,embed] = {
         0x85bab45b: string = "ASSETS/Characters/PetTurtle/HUD/Icon_Square_Turtle_Rosebloom_Tier1.dds"
         0x8f57c794: string = "ASSETS/Loot/Companions/Turtle/Loot_Turtle_Rosebloom_Tier1.dds"
         0xd0bbdce0: string = "ASSETS/Characters/PetTurtle/HUD/LoadScreen_Turtle_Rosebloom_Tier1.dds"
-        0xf66a8ad3: string = "turtle_rosebloom_tier1_name"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "fcd5425d-9a58-43f1-bd7f-f73541e415f8"
-            0x13bddc7b: u32 = 8013
-            0x73db4a28: string = "62975d48-77bf-45da-b9eb-b98de24593d2"
-        }
-        0x719623aa: string = "companion_description_turtle"
     }
 }

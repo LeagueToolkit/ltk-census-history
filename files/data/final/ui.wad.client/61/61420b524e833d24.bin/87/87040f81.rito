@@ -4,6 +4,15 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x87040f81 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/LoadingScreen/UX/PlayerCardSwitcher/UIBase/PlayerCardSwitcher/Layout/TabButton_GameplayInfo"
+        0x8e91ace0: link = 0xcf019021
+        0x5a94b0cc: list[link] = {
+            0x70b713d0
+            0x344bea80
+            0xff46083f
+            0xa379f867
+            0xefd03396
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x344bea80
@@ -40,14 +49,5 @@ entries: map[hash,embed] = {
             0x7c552179: string = "Play_sfx_hud_base_store_quicktab_pin"
         }
         0xdf2b45ce: bool = true
-        0x5a94b0cc: list[link] = {
-            0x70b713d0
-            0x344bea80
-            0xff46083f
-            0xa379f867
-            0xefd03396
-        }
-        0x19efbfdb: string = "ClientStates/LoadingScreen/UX/PlayerCardSwitcher/UIBase/PlayerCardSwitcher/Layout/TabButton_GameplayInfo"
-        0x8e91ace0: link = 0xcf019021
     }
 }

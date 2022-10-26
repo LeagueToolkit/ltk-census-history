@@ -4,6 +4,17 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x29723894 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/Loadout/LoadoutScene/LoadoutEquipButton"
+        0x8e91ace0: link = 0x4c9c946b
+        0x5a94b0cc: list[link] = {
+            0x20dec4fe
+            0x5ec5ae2e
+            0x0f276815
+            0x8c11b2fd
+            0xbb66988e
+            0x45bd6672
+            0x4c7cfb79
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x5ec5ae2e
@@ -58,16 +69,5 @@ entries: map[hash,embed] = {
             0x7c552179: string = "Play_sfx_PreGameUI_loadout_button_equip_tap"
             0xb416d0a8: string = "Play_sfx_PreGameUI_loadout_button_equip_release"
         }
-        0x5a94b0cc: list[link] = {
-            0x20dec4fe
-            0x5ec5ae2e
-            0x0f276815
-            0x8c11b2fd
-            0xbb66988e
-            0x45bd6672
-            0x4c7cfb79
-        }
-        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/Loadout/LoadoutScene/LoadoutEquipButton"
-        0x8e91ace0: link = 0x4c9c946b
     }
 }

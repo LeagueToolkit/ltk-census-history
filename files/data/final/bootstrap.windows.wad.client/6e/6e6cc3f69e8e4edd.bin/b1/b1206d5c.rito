@@ -4,6 +4,14 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xb1206d5c = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Common/UX/MessageBoxDialog/UIBase/MessageBox/MessageBox_CloseButton"
+        0x8e91ace0: link = 0xc9c06c62
+        0x5a94b0cc: list[link] = {
+            0xb797bd34
+            0x3305b84c
+            0x88cdeb5b
+            0x820e979d
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x3305b84c
@@ -24,13 +32,5 @@ entries: map[hash,embed] = {
             0xd84e3078: string = "Play_sfx_CommonUI_button_rounded_release"
             0x84b6cf03: string = "Play_sfx_CommonUI_button_rounded_release"
         }
-        0x5a94b0cc: list[link] = {
-            0xb797bd34
-            0x3305b84c
-            0x88cdeb5b
-            0x820e979d
-        }
-        0x19efbfdb: string = "ClientStates/Common/UX/MessageBoxDialog/UIBase/MessageBox/MessageBox_CloseButton"
-        0x8e91ace0: link = 0xc9c06c62
     }
 }

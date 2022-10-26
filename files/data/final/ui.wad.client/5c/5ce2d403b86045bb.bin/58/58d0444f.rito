@@ -4,6 +4,12 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x58d0444f = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/LootTableDialog/LootTableDialog/LootTableDialog_CloseButton"
+        0x8e91ace0: link = 0xe04fc17d
+        0x5a94b0cc: list[link] = {
+            0x5e7a25a2
+            0x83b0b03b
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x83b0b03b
@@ -24,11 +30,5 @@ entries: map[hash,embed] = {
             0xd84e3078: string = "Play_sfx_CommonUI_button_standard_tap"
             0x84b6cf03: string = "Play_sfx_PreGameUI_button_standard_release"
         }
-        0x5a94b0cc: list[link] = {
-            0x5e7a25a2
-            0x83b0b03b
-        }
-        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/LootTableDialog/LootTableDialog/LootTableDialog_CloseButton"
-        0x8e91ace0: link = 0xe04fc17d
     }
 }

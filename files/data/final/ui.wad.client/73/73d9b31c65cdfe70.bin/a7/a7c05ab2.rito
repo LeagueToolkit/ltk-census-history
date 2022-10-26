@@ -4,6 +4,14 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xa7c05ab2 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Common/UX/Options/UIBase/Options/Opt_ActiveTab/Hotkeys/HotkeyQCButtonDef"
+        0x8e91ace0: link = 0xb6a51ed4
+        0x5a94b0cc: list[link] = {
+            0xd6ea53da
+            0x6e31739a
+            0x2d6044d1
+            0xa8fb2f28
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0xd6ea53da
@@ -39,13 +47,5 @@ entries: map[hash,embed] = {
             0x84b6cf03: string = "play_sfx_hud_base_Generic_Button_Click"
             0xb416d0a8: string = "play_sfx_hud_base_Generic_Button_Click"
         }
-        0x5a94b0cc: list[link] = {
-            0xd6ea53da
-            0x6e31739a
-            0x2d6044d1
-            0xa8fb2f28
-        }
-        0x19efbfdb: string = "ClientStates/Common/UX/Options/UIBase/Options/Opt_ActiveTab/Hotkeys/HotkeyQCButtonDef"
-        0x8e91ace0: link = 0xb6a51ed4
     }
 }

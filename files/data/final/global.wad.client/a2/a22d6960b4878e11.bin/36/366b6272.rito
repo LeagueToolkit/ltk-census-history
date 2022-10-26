@@ -4,7 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x366b6272 = 0x7cc20e55 {
-        0x57413af1: string = "ASSETS/Loadouts/Companions/Tooltip_PupDragon_Base_Classic_Tier2.LL_PupDragon_Base.png"
+        0xf66a8ad3: string = "companion_name_pupdragon_classic"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "beac16a1-9440-47ed-8e05-371fa0914fd3"
+            0x13bddc7b: u32 = 46002
+            0x73db4a28: string = "7ad229a2-21ac-45ee-b85f-cab4d5c92f87"
+        }
+        0x719623aa: string = "companion_description_pupdragon_base"
         0x9b99e7dd: u32 = 2
         0x715b6117: hash = 0x72a2093b
         0xa8c68ca4: u32 = 2
@@ -13,12 +19,5 @@ entries: map[hash,embed] = {
         0x85bab45b: string = "ASSETS/Characters/PetPupDragon/HUD/Icon_Square_PupDragon_Base_Classic_Tier2.LL_PupDragon_Base.dds"
         0x8f57c794: string = "ASSETS/Loot/Companions/PupDragon/Loot_PupDragon_Base_Classic_Tier2.LL_PupDragon_Base.dds"
         0xd0bbdce0: string = "ASSETS/Characters/PetPupDragon/HUD/LoadScreen_PupDragon_Base_Classic_Tier2.LL_PupDragon_Base.dds"
-        0xf66a8ad3: string = "companion_name_pupdragon_classic"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "beac16a1-9440-47ed-8e05-371fa0914fd3"
-            0x13bddc7b: u32 = 46002
-            0x73db4a28: string = "7ad229a2-21ac-45ee-b85f-cab4d5c92f87"
-        }
-        0x719623aa: string = "companion_description_pupdragon_base"
     }
 }

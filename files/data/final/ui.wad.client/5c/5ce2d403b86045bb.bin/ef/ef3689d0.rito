@@ -4,6 +4,15 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xef3689d0 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/NavHeader/NavHeaderScene/NavSettingsButton"
+        0x8e91ace0: link = 0x0153144b
+        0x5a94b0cc: list[link] = {
+            0xfb70a84d
+            0xdf7dc1d9
+            0x577244ec
+            0x106e7016
+            0xf576cd5c
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0xdf7dc1d9
@@ -30,14 +39,5 @@ entries: map[hash,embed] = {
             0x84b6cf03: string = "Play_sfx_PreGameUI_button_settings_release"
         }
         0xdf2b45ce: bool = true
-        0x5a94b0cc: list[link] = {
-            0xfb70a84d
-            0xdf7dc1d9
-            0x577244ec
-            0x106e7016
-            0xf576cd5c
-        }
-        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/NavHeader/NavHeaderScene/NavSettingsButton"
-        0x8e91ace0: link = 0x0153144b
     }
 }

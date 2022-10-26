@@ -4,6 +4,17 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xadb8a628 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/TargetFrameReplay/UIBase/TargetFrame/TargetStats/TargetStatsButton"
+        0x8e91ace0: link = 0x10e5c8b8
+        0x5a94b0cc: list[link] = {
+            0xf6968661
+            0xa9187e6f
+            0x5ecb1763
+            0x4f4dcbf0
+            0x8787ffad
+            0xaaff0e39
+            0xdcf55376
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x5ecb1763
@@ -35,16 +46,5 @@ entries: map[hash,embed] = {
             }
         }
         0x6bf3194e: link = 0xf6968661
-        0x5a94b0cc: list[link] = {
-            0xf6968661
-            0xa9187e6f
-            0x5ecb1763
-            0x4f4dcbf0
-            0x8787ffad
-            0xaaff0e39
-            0xdcf55376
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/TargetFrameReplay/UIBase/TargetFrame/TargetStats/TargetStatsButton"
-        0x8e91ace0: link = 0x10e5c8b8
     }
 }

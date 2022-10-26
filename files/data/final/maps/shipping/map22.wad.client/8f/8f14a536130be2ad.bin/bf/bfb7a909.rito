@@ -142,6 +142,14 @@ entries: map[hash,embed] = {
                 0x8d39bde6: string = "USE_DISSOLVE_MASK"
                 0x61342fd0: bool = false
             }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_SCALAR_MATCAP"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_MULT_BLEND_MATCAP"
+                0x61342fd0: bool = false
+            }
         }
         0xe6d67ded: map[string,string] = {
             "NUM_BLEND_WEIGHTS" = "4"
@@ -199,7 +207,6 @@ entries: map[hash,embed] = {
                 0x073f6a51 {
                     0x8d39bde6: string = "Light_FX_Opacity"
                     0xe55419df: pointer = 0x5703b96f {
-                        0x39d1e89a: f32 = 2
                         0x72ff2529: list[embed] = {
                             0x45f0cf7a {
                                 0x308238bd: pointer = 0x8afb0060 {
@@ -227,6 +234,7 @@ entries: map[hash,embed] = {
                         0xb9b6eb7a: pointer = 0x70fff2b7 {
                             0x24f2ec89: f32 = 1
                         }
+                        0x39d1e89a: f32 = 2
                     }
                 }
                 0x073f6a51 {
@@ -275,7 +283,6 @@ entries: map[hash,embed] = {
                 0x073f6a51 {
                     0x8d39bde6: string = "Rim_Intensity_A"
                     0xe55419df: pointer = 0x5703b96f {
-                        0x39d1e89a: f32 = 1.5
                         0x72ff2529: list[embed] = {
                             0x45f0cf7a {
                                 0x308238bd: pointer = 0x8afb0060 {
@@ -295,16 +302,12 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xb9b6eb7a: pointer = 0x70fff2b7 {}
+                        0x39d1e89a: f32 = 1.5
                     }
                 }
                 0x073f6a51 {
                     0x8d39bde6: string = "Dissolve_Bias"
                     0xe55419df: pointer = 0x5703b96f {
-                        0x39d1e89a: f32 = 1.5
-                        0x264e493b: list[f32] = {
-                            1.5
-                            2.5
-                        }
                         0x72ff2529: list[embed] = {
                             0x45f0cf7a {
                                 0x308238bd: pointer = 0x087188b5 {
@@ -324,12 +327,16 @@ entries: map[hash,embed] = {
                         0xb9b6eb7a: pointer = 0x70fff2b7 {
                             0x24f2ec89: f32 = 1
                         }
+                        0x39d1e89a: f32 = 1.5
+                        0x264e493b: list[f32] = {
+                            1.5
+                            2.5
+                        }
                     }
                 }
                 0x073f6a51 {
                     0x8d39bde6: string = "Color_Rim"
                     0xe55419df: pointer = 0x5703b96f {
-                        0x39d1e89a: f32 = 1.25
                         0x72ff2529: list[embed] = {
                             0x45f0cf7a {
                                 0x308238bd: pointer = 0x8afb0060 {
@@ -351,6 +358,7 @@ entries: map[hash,embed] = {
                         0xb9b6eb7a: pointer = 0x466b06ef {
                             0x5371e38f: vec4 = { 0.83137256, 0.73333335, 0.49411765, 1 }
                         }
+                        0x39d1e89a: f32 = 1.25
                     }
                 }
             }

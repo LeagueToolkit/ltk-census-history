@@ -4,6 +4,17 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xf912daac = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/Champ/OrnnShop/UIBase/OrnnShop/OrnnShop_Item1"
+        0x8e91ace0: link = 0x4deb0b63
+        0x5a94b0cc: list[link] = {
+            0x64c70f97
+            0x52838c0b
+            0x66c84bfe
+            0xc46cf828
+            0x026e4a45
+            0xe287493f
+            0x0018a19f
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x52838c0b
@@ -45,16 +56,5 @@ entries: map[hash,embed] = {
             }
         }
         0x6bf3194e: link = 0x0018a19f
-        0x5a94b0cc: list[link] = {
-            0x64c70f97
-            0x52838c0b
-            0x66c84bfe
-            0xc46cf828
-            0x026e4a45
-            0xe287493f
-            0x0018a19f
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/Champ/OrnnShop/UIBase/OrnnShop/OrnnShop_Item1"
-        0x8e91ace0: link = 0x4deb0b63
     }
 }

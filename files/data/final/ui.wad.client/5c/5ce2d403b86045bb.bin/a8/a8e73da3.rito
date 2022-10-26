@@ -4,6 +4,15 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xa8e73da3 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/Loadout/LoadoutScene/DamageSkinItemInfo/UnownedDamageSkinTier1Button"
+        0x8e91ace0: link = 0x601b094b
+        0x5a94b0cc: list[link] = {
+            0x766090cc
+            0x2dd80043
+            0x4cecb868
+            0xdb1a17c3
+            0x3c50dff4
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x2dd80043
@@ -50,14 +59,5 @@ entries: map[hash,embed] = {
             0x7c552179: string = "Play_sfx_PreGameUI_loadout_rarity"
         }
         0xdf2b45ce: bool = true
-        0x5a94b0cc: list[link] = {
-            0x766090cc
-            0x2dd80043
-            0x4cecb868
-            0xdb1a17c3
-            0x3c50dff4
-        }
-        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/Loadout/LoadoutScene/DamageSkinItemInfo/UnownedDamageSkinTier1Button"
-        0x8e91ace0: link = 0x601b094b
     }
 }

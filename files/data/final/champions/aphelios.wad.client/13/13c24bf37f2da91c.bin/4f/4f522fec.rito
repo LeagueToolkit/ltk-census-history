@@ -19,8 +19,6 @@ entries: map[hash,embed] = {
                         1.1
                         1.1
                     }
-                    0x6d3ccfd7: f32 = 1.1
-                    0xe7b832f2: string = "P + 0"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "MinionPenaltyBase"
@@ -33,11 +31,11 @@ entries: map[hash,embed] = {
                         0.3
                         0.3
                     }
-                    0x6d3ccfd7: f32 = 0.3
                 }
             }
             0x94572284: map[hash,pointer] = {
                 0x48a5a253 = 0xbc409284 {
+                    0x2c77adff: pointer = 0x1ebf4049 {}
                     0x50f145c0: list[pointer] = {
                         0x5cf69ece {
                             0xad62f672: f32 = 9
@@ -69,7 +67,6 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    0x2c77adff: pointer = 0x1ebf4049 {}
                 }
                 0x0261ab70 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
@@ -103,6 +100,8 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xcd156c7f {
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
                             0x1cd83c4b: pointer = 0x5cf69ece {
                                 0xad62f672: f32 = 0.56
                                 0x7b5d1934: list[embed] = {
@@ -132,8 +131,6 @@ entries: map[hash,embed] = {
                                     }
                                 }
                             }
-                            0x4cec2c8a: u8 = 2
-                            0x7d3150ec: u8 = 2
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.7
@@ -141,14 +138,14 @@ entries: map[hash,embed] = {
                     }
                 }
                 0xf34add68 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 1
-                            0x4cec2c8a: u8 = 2
-                        }
-                    }
                     0x2c77adff: pointer = 0x332eb441 {
                         0xb386dcf1: hash = 0x363a430f
+                    }
+                    0x50f145c0: list[pointer] = {
+                        0x5815b0a9 {
+                            0x4cec2c8a: u8 = 2
+                            0x295c2889: f32 = 1
+                        }
                     }
                 }
                 0x3067e711 = 0xbc409284 {
@@ -174,12 +171,12 @@ entries: map[hash,embed] = {
                     0x5a2297d3: bool = true
                 }
                 0x9ad652b8 = 0x070e3593 {
-                    0x7f93cf4e: hash = 0x3067e711
                     0x2c77adff: pointer = 0x332eb441 {
                         0xb386dcf1: hash = 0x81b16d51
                     }
                     0xcbcac618: u8 = 5
                     0x37070a8d: u8 = 5
+                    0x7f93cf4e: hash = 0x3067e711
                 }
             }
             0xfbd16fb5: string = "D_Spell1"

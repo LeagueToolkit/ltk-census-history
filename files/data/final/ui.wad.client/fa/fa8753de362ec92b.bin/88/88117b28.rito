@@ -4,6 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x88117b28 = 0x474f1541 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/ItemShop/UIBase/ItemShop/ItemShop_TabView_ItemSets/scrolling/ItemShop_ItemSets_Slider"
+        0x8e91ace0: link = 0x80504b71
+        0x5a94b0cc: list[link] = {
+            0x0ba0e52e
+            0xf12272cb
+            0x71c09a5d
+        }
         0xdb62c463: embed = 0xdf3bdc62 {
             0xf75a6d4d: link = 0x71c09a5d
         }
@@ -19,12 +26,5 @@ entries: map[hash,embed] = {
         0xfb0fa193: link = 0x0ba0e52e
         0x3da59d59: link = 0xf12272cb
         0xdf6dc76a: u8 = 1
-        0x5a94b0cc: list[link] = {
-            0x0ba0e52e
-            0xf12272cb
-            0x71c09a5d
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/ItemShop/UIBase/ItemShop/ItemShop_TabView_ItemSets/scrolling/ItemShop_ItemSets_Slider"
-        0x8e91ace0: link = 0x80504b71
     }
 }

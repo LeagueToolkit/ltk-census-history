@@ -4,7 +4,12 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x10e5780c = 0xa2d042b0 {
-        0x57413af1: string = "ASSETS/Loadouts/TFTMapSkins/Square_Battlefield_Lg_LunarRevel_LunarCity2057.png"
+        0xf66a8ad3: string = "tft_mapskin_lunarrevel_lunarcity_name"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "2b193181-62a1-4a99-99cf-73e4a73efd0d"
+            0x13bddc7b: u32 = 37
+            0x73db4a28: string = "4c580014-e2a3-43c3-b818-893d0f3acc9c"
+        }
         0x4b7f058a: u32 = 2
         0x431c9a7a: string = "ASSETS/Loadouts/TFTMapSkins/Square_Battlefield_Sm_LunarRevel_LunarCity2057.dds"
         0xf97c4fb3: string = "ASSETS/Loadouts/TFTMapSkins/Square_Battlefield_Lg_LunarRevel_LunarCity2057.dds"
@@ -18,11 +23,5 @@ entries: map[hash,embed] = {
         0xdde8c114: string = "Maps/MapGeometry/Map22/LunarRevel_LunarCity2057"
         0xafc467eb: u16 = 13
         0x6e39b04a: u16 = 13
-        0xf66a8ad3: string = "tft_mapskin_lunarrevel_lunarcity_name"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "2b193181-62a1-4a99-99cf-73e4a73efd0d"
-            0x13bddc7b: u32 = 37
-            0x73db4a28: string = "4c580014-e2a3-43c3-b818-893d0f3acc9c"
-        }
     }
 }

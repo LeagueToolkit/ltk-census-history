@@ -4,7 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xdd49f9cd = 0x7cc20e55 {
-        0x57413af1: string = "ASSETS/Loadouts/Companions/Tooltip_GemTiger_Fierce_Tier3.png"
+        0xf66a8ad3: string = "gemtiger_fierce_tier1_name"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "75da9b30-168f-494e-b85e-b40476fd95ee"
+            0x13bddc7b: u32 = 7006
+            0x73db4a28: string = "5fdf54d5-eb1b-4222-8038-7720c794c563"
+        }
+        0x719623aa: string = "companion_description_gemtiger"
         0x4b7f058a: u32 = 1
         0x9b99e7dd: u32 = 3
         0x715b6117: hash = 0x9be5c7d9
@@ -14,12 +20,5 @@ entries: map[hash,embed] = {
         0x85bab45b: string = "ASSETS/Characters/PetGemTiger/HUD/Icon_Square_GemTiger_Fierce_Tier3.dds"
         0x8f57c794: string = "ASSETS/Loot/Companions/GemTiger/Loot_GemTiger_Fierce_Tier3.dds"
         0xd0bbdce0: string = "ASSETS/Characters/PetGemTiger/HUD/LoadScreen_GemTiger_Fierce_Tier3.dds"
-        0xf66a8ad3: string = "gemtiger_fierce_tier1_name"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "75da9b30-168f-494e-b85e-b40476fd95ee"
-            0x13bddc7b: u32 = 7006
-            0x73db4a28: string = "5fdf54d5-eb1b-4222-8038-7720c794c563"
-        }
-        0x719623aa: string = "companion_description_gemtiger"
     }
 }

@@ -4,6 +4,14 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x5b66a613 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/LoLMinimap/UIBase/Minimap/VoiceChatButton"
+        0x8e91ace0: link = 0x472d1ae4
+        0x5a94b0cc: list[link] = {
+            0x6beb2ef2
+            0x4a47c414
+            0x27734f2c
+            0xcd88713b
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x27734f2c
@@ -23,13 +31,5 @@ entries: map[hash,embed] = {
         0xa30565cd: pointer = 0xfc2d67aa {
             0x84b6cf03: string = "play_sfx_hud_base_Generic_Button_Click"
         }
-        0x5a94b0cc: list[link] = {
-            0x6beb2ef2
-            0x4a47c414
-            0x27734f2c
-            0xcd88713b
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/LoLMinimap/UIBase/Minimap/VoiceChatButton"
-        0x8e91ace0: link = 0x472d1ae4
     }
 }

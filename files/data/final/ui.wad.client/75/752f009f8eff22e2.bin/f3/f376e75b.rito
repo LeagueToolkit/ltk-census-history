@@ -4,6 +4,16 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xf376e75b = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/Surrender/UIBase/Surrender/Surrender_No_Button"
+        0x8e91ace0: link = 0xece84bc5
+        0x5a94b0cc: list[link] = {
+            0x35ec5576
+            0x18b6d246
+            0xdc94fd25
+            0x81bb0e75
+            0x2f8ac476
+            0x17e5b2f6
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x18b6d246
@@ -43,15 +53,5 @@ entries: map[hash,embed] = {
         }
         0x6bf3194e: link = 0x81bb0e75
         0xdf2b45ce: bool = true
-        0x5a94b0cc: list[link] = {
-            0x35ec5576
-            0x18b6d246
-            0xdc94fd25
-            0x81bb0e75
-            0x2f8ac476
-            0x17e5b2f6
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/Surrender/UIBase/Surrender/Surrender_No_Button"
-        0x8e91ace0: link = 0xece84bc5
     }
 }

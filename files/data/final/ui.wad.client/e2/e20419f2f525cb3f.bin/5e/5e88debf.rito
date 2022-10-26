@@ -4,6 +4,14 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x5e88debf = 0x828bfdbd {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/TargetFrame/UIBase/TargetFrame/TargetPARBar"
+        0x8e91ace0: link = 0x9271d5d1
+        0x5a94b0cc: list[link] = {
+            0x082a1b93
+            0x3425c932
+            0xea05772f
+            0xb3d069ad
+        }
         0x8178e6ff: pointer = 0xe725d152 {
             0x93698491: list[link] = {
                 0xea05772f
@@ -12,13 +20,5 @@ entries: map[hash,embed] = {
         0xa2a39d73: list[link] = {
             0x3425c932
         }
-        0x5a94b0cc: list[link] = {
-            0x082a1b93
-            0x3425c932
-            0xea05772f
-            0xb3d069ad
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/TargetFrame/UIBase/TargetFrame/TargetPARBar"
-        0x8e91ace0: link = 0x9271d5d1
     }
 }

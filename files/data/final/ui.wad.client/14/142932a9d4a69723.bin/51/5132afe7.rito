@@ -4,6 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x5132afe7 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/TFT/TFTMEmotePanel/UIMobile/TFTM_EmotePanel/MainEmotePanelView/PlayDanceAnimationButton"
+        0x8e91ace0: link = 0x745e2a1d
+        0x5a94b0cc: list[link] = {
+            0x9d9be10b
+            0x8a85b846
+            0x50746d07
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x50746d07
@@ -21,12 +28,5 @@ entries: map[hash,embed] = {
         }
         0x6bf3194e: link = 0x8a85b846
         0xdf2b45ce: bool = true
-        0x5a94b0cc: list[link] = {
-            0x9d9be10b
-            0x8a85b846
-            0x50746d07
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/TFT/TFTMEmotePanel/UIMobile/TFTM_EmotePanel/MainEmotePanelView/PlayDanceAnimationButton"
-        0x8e91ace0: link = 0x745e2a1d
     }
 }

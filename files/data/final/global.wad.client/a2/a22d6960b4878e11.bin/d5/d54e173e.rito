@@ -4,7 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xd54e173e = 0x7cc20e55 {
-        0x57413af1: string = "ASSETS/Loadouts/Companions/Tooltip_Pegasus_BlackMist_Tier2.png"
+        0xf66a8ad3: string = "companion_pegasus_blackmist_name"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "8a69032e-61e0-4e80-b333-777919fb61d7"
+            0x13bddc7b: u32 = 22014
+            0x73db4a28: string = "e3db951d-78ee-44a0-b57d-188080bd7f1c"
+        }
+        0x719623aa: string = "companion_description_pegasus_default"
         0x4b7f058a: u32 = 1
         0x9b99e7dd: u32 = 2
         0x715b6117: hash = 0x90611451
@@ -14,12 +20,5 @@ entries: map[hash,embed] = {
         0x85bab45b: string = "ASSETS/Characters/PetPegasus/HUD/Icon_Square_Pegasus_BlackMist_Tier2.dds"
         0x8f57c794: string = "ASSETS/Loot/Companions/Pegasus/Loot_Pegasus_BlackMist_Tier2.dds"
         0xd0bbdce0: string = "ASSETS/Characters/PetPegasus/HUD/LoadScreen_Pegasus_BlackMist_Tier2.dds"
-        0xf66a8ad3: string = "companion_pegasus_blackmist_name"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "8a69032e-61e0-4e80-b333-777919fb61d7"
-            0x13bddc7b: u32 = 22014
-            0x73db4a28: string = "e3db951d-78ee-44a0-b57d-188080bd7f1c"
-        }
-        0x719623aa: string = "companion_description_pegasus_default"
     }
 }

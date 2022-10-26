@@ -4,7 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x75285e6a = 0x7cc20e55 {
-        0x57413af1: string = "ASSETS/Loadouts/Companions/Tooltip_Turtle_Jade_Tier2.png"
+        0xf66a8ad3: string = "turtle_jade_tier1_name"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "0a48a7fe-a3e9-4afa-aa53-c7ff1b44b1da"
+            0x13bddc7b: u32 = 8002
+            0x73db4a28: string = "c0bccf92-6e5c-4678-a6d5-1a5e3ab34ac0"
+        }
+        0x719623aa: string = "companion_description_turtle"
         0x9b99e7dd: u32 = 2
         0x715b6117: hash = 0x9969c0ad
         0xa8c68ca4: u32 = 2
@@ -13,12 +19,5 @@ entries: map[hash,embed] = {
         0x85bab45b: string = "ASSETS/Characters/PetTurtle/HUD/Icon_Square_Turtle_Jade_Tier2.dds"
         0x8f57c794: string = "ASSETS/Loot/Companions/Turtle/Loot_Turtle_Jade_Tier2.dds"
         0xd0bbdce0: string = "ASSETS/Characters/PetTurtle/HUD/LoadScreen_Turtle_Jade_Tier2.dds"
-        0xf66a8ad3: string = "turtle_jade_tier1_name"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "0a48a7fe-a3e9-4afa-aa53-c7ff1b44b1da"
-            0x13bddc7b: u32 = 8002
-            0x73db4a28: string = "c0bccf92-6e5c-4678-a6d5-1a5e3ab34ac0"
-        }
-        0x719623aa: string = "companion_description_turtle"
     }
 }

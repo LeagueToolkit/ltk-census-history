@@ -4,7 +4,12 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x36ecb123 = 0xa2d042b0 {
-        0x57413af1: string = "ASSETS/Loadouts/TFTMapSkins/Square_Battlefield_Lg_LunarRevel_Club2.png"
+        0xf66a8ad3: string = "tft_mapskin_lunarrevel_club2_name"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "f8e8ce61-b060-47a7-a26f-c1715bf84ced"
+            0x13bddc7b: u32 = 36
+            0x73db4a28: string = "f40c5846-f9a3-4a79-b2ed-38d9ce6eef5b"
+        }
         0x4b7f058a: u32 = 2
         0x431c9a7a: string = "ASSETS/Loadouts/TFTMapSkins/Square_Battlefield_Sm_LunarRevel_Club2.dds"
         0xf97c4fb3: string = "ASSETS/Loadouts/TFTMapSkins/Square_Battlefield_Lg_LunarRevel_Club2.dds"
@@ -19,11 +24,5 @@ entries: map[hash,embed] = {
         0xdde8c114: string = "Maps/MapGeometry/Map22/LunarRevel_Club2"
         0xafc467eb: u16 = 12
         0x6e39b04a: u16 = 12
-        0xf66a8ad3: string = "tft_mapskin_lunarrevel_club2_name"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "f8e8ce61-b060-47a7-a26f-c1715bf84ced"
-            0x13bddc7b: u32 = 36
-            0x73db4a28: string = "f40c5846-f9a3-4a79-b2ed-38d9ce6eef5b"
-        }
     }
 }

@@ -4,7 +4,12 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x5167bc9a = 0xa2d042b0 {
-        0x57413af1: string = "ASSETS/Loadouts/TFTMapSkins/Square_Battlefield_Lg_Reckoning_CountSpatula.png"
+        0xf66a8ad3: string = "tft_mapskin_reckoning_countspatula_name"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "6395e555-0b7d-48e8-b2e9-35f4dd3aaa87"
+            0x13bddc7b: u32 = 41
+            0x73db4a28: string = "40752711-0a7b-401a-9064-ccf98e1f4332"
+        }
         0x4b7f058a: u32 = 2
         0x431c9a7a: string = "ASSETS/Loadouts/TFTMapSkins/Square_Battlefield_Sm_Reckoning_CountSpatula.dds"
         0xf97c4fb3: string = "ASSETS/Loadouts/TFTMapSkins/Square_Battlefield_Lg_Reckoning_CountSpatula.dds"
@@ -19,11 +24,5 @@ entries: map[hash,embed] = {
         0xdde8c114: string = "Maps/MapGeometry/Map22/Set5_Lair"
         0xafc467eb: u16 = 14
         0x6e39b04a: u16 = 14
-        0xf66a8ad3: string = "tft_mapskin_reckoning_countspatula_name"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "6395e555-0b7d-48e8-b2e9-35f4dd3aaa87"
-            0x13bddc7b: u32 = 41
-            0x73db4a28: string = "40752711-0a7b-401a-9064-ccf98e1f4332"
-        }
     }
 }

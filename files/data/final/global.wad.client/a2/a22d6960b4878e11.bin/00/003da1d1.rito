@@ -4,7 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x003da1d1 = 0x7cc20e55 {
-        0x57413af1: string = "ASSETS/Loadouts/Companions/Tooltip_Pegasus_SugarCone_Tier3.png"
+        0xf66a8ad3: string = "companion_pegasus_sugarcone_name"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "d0210d32-6220-45ff-b91c-c554be693597"
+            0x13bddc7b: u32 = 22009
+            0x73db4a28: string = "7f6301e9-aa24-49b8-b72e-9ed4d9e7068c"
+        }
+        0x719623aa: string = "companion_description_pegasus_default"
         0x9b99e7dd: u32 = 3
         0x715b6117: hash = 0x90611451
         0xa8c68ca4: u32 = 9
@@ -13,12 +19,5 @@ entries: map[hash,embed] = {
         0x85bab45b: string = "ASSETS/Characters/PetPegasus/HUD/Icon_Square_Pegasus_SugarCone_Tier3.dds"
         0x8f57c794: string = "ASSETS/Loot/Companions/Pegasus/Loot_Pegasus_SugarCone_Tier3.dds"
         0xd0bbdce0: string = "ASSETS/Characters/PetPegasus/HUD/LoadScreen_Pegasus_SugarCone_Tier3.dds"
-        0xf66a8ad3: string = "companion_pegasus_sugarcone_name"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "d0210d32-6220-45ff-b91c-c554be693597"
-            0x13bddc7b: u32 = 22009
-            0x73db4a28: string = "7f6301e9-aa24-49b8-b72e-9ed4d9e7068c"
-        }
-        0x719623aa: string = "companion_description_pegasus_default"
     }
 }

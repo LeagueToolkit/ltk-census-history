@@ -4,6 +4,16 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xccac5ae2 = 0x828bfdbd {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/TargetFrame/UIBase/TargetFrame/TargetHealthBar"
+        0x8e91ace0: link = 0x9271d5d1
+        0x5a94b0cc: list[link] = {
+            0xdb9a02ad
+            0xe0a6747e
+            0xb7d639a2
+            0xca8f5e62
+            0x3b328635
+            0xd937f1ab
+        }
         0x8178e6ff: pointer = 0xe725d152 {
             0x93698491: list[link] = {
                 0x3b328635
@@ -13,15 +23,5 @@ entries: map[hash,embed] = {
             0xb7d639a2
             0xca8f5e62
         }
-        0x5a94b0cc: list[link] = {
-            0xdb9a02ad
-            0xe0a6747e
-            0xb7d639a2
-            0xca8f5e62
-            0x3b328635
-            0xd937f1ab
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/TargetFrame/UIBase/TargetFrame/TargetHealthBar"
-        0x8e91ace0: link = 0x9271d5d1
     }
 }

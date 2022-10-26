@@ -4,7 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x70c15067 = 0x7cc20e55 {
-        0x57413af1: string = "ASSETS/Loadouts/Companions/Tooltip_Nimblefoot_Base_Classic_Tier3.png"
+        0xf66a8ad3: string = "companion_name_nimblefoot_classic"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "40b07f3d-4060-4db5-b908-e4e8ac485c49"
+            0x13bddc7b: u32 = 31003
+            0x73db4a28: string = "13e7e7c6-034d-4c79-86fe-906113e6668c"
+        }
+        0x719623aa: string = "companion_description_nimblefoot_base"
         0x9b99e7dd: u32 = 3
         0x715b6117: hash = 0xf123828e
         0xa8c68ca4: u32 = 3
@@ -13,12 +19,5 @@ entries: map[hash,embed] = {
         0x85bab45b: string = "ASSETS/Characters/PetNimblefoot/HUD/Icon_Square_Nimblefoot_Base_Classic_Tier3.dds"
         0x8f57c794: string = "ASSETS/Loot/Companions/Nimblefoot/Loot_Nimblefoot_Base_Classic_Tier3.dds"
         0xd0bbdce0: string = "ASSETS/Characters/PetNimblefoot/HUD/LoadScreen_Nimblefoot_Base_Classic_Tier3.dds"
-        0xf66a8ad3: string = "companion_name_nimblefoot_classic"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "40b07f3d-4060-4db5-b908-e4e8ac485c49"
-            0x13bddc7b: u32 = 31003
-            0x73db4a28: string = "13e7e7c6-034d-4c79-86fe-906113e6668c"
-        }
-        0x719623aa: string = "companion_description_nimblefoot_base"
     }
 }

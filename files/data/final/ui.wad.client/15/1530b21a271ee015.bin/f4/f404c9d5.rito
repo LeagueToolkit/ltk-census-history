@@ -4,6 +4,16 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xf404c9d5 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/Champ/Aphelios/UIBase/ApheliosRoot/ApheliosFrame/AStatStones_Button"
+        0x8e91ace0: link = 0x911f59a4
+        0x5a94b0cc: list[link] = {
+            0x6f54a0ef
+            0x250739e3
+            0x68b50916
+            0x4844e8f7
+            0x55ab8a70
+            0x52780867
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x250739e3
@@ -45,15 +55,5 @@ entries: map[hash,embed] = {
             }
         }
         0x6bf3194e: link = 0x4844e8f7
-        0x5a94b0cc: list[link] = {
-            0x6f54a0ef
-            0x250739e3
-            0x68b50916
-            0x4844e8f7
-            0x55ab8a70
-            0x52780867
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/Champ/Aphelios/UIBase/ApheliosRoot/ApheliosFrame/AStatStones_Button"
-        0x8e91ace0: link = 0x911f59a4
     }
 }

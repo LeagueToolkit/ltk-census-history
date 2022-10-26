@@ -4,6 +4,15 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x434af773 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Common/UX/Options/UIBase/Options/Options_Tab_ButtonDefinition"
+        0x8e91ace0: link = 0x07606044
+        0x5a94b0cc: list[link] = {
+            0x7e18c150
+            0xe27d9f5b
+            0x37b6725a
+            0x75e34e6c
+            0x1fde8c4c
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x1fde8c4c
@@ -45,14 +54,5 @@ entries: map[hash,embed] = {
             0x84b6cf03: string = "Play_sfx_PreGameUI_button_tab"
             0xb416d0a8: string = "Play_sfx_PreGameUI_button_tab"
         }
-        0x5a94b0cc: list[link] = {
-            0x7e18c150
-            0xe27d9f5b
-            0x37b6725a
-            0x75e34e6c
-            0x1fde8c4c
-        }
-        0x19efbfdb: string = "ClientStates/Common/UX/Options/UIBase/Options/Options_Tab_ButtonDefinition"
-        0x8e91ace0: link = 0x07606044
     }
 }

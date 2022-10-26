@@ -1,0 +1,40 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc8dd1fcc = 0x474f1541 {
+        0x19efbfdb: string = "ClientStates/Common/UX/TFTOptions/UIBase/Options/ActiveTab/Templates/Slider/OptT_Slider"
+        0x8e91ace0: link = 0xc84a813e
+        0x5a94b0cc: list[link] = {
+            0x7a5b4d91
+            0x2b2ce208
+            0x097ef01c
+            0xe61d5f7a
+            0x357f2ccb
+            0x05f442ec
+        }
+        0xdb62c463: embed = 0xdf3bdc62 {
+            0x83d47180: link = 0x7a5b4d91
+            0xf75a6d4d: link = 0xe61d5f7a
+        }
+        0x025ebeb6: embed = 0xdf3bdc62 {
+            0x83d47180: link = 0x7a5b4d91
+            0xf75a6d4d: link = 0x357f2ccb
+        }
+        0x05b9cbd0: embed = 0xdf3bdc62 {
+            0x83d47180: link = 0x7a5b4d91
+            0xf75a6d4d: link = 0x05f442ec
+        }
+        0xb4f0cbde: embed = 0xdf3bdc62 {
+            0x83d47180: link = 0x7a5b4d91
+            0xf75a6d4d: link = 0xe61d5f7a
+        }
+        0xfb0fa193: link = 0x2b2ce208
+        0x3da59d59: link = 0x097ef01c
+        0xa30565cd: pointer = 0x560e6c39 {
+            0x8f1a336d: string = "play_sfx_hud_base_Generic_Button_Click"
+            0x73dbef7a: string = "play_sfx_hud_base_Generic_Button_Click"
+        }
+    }
+}

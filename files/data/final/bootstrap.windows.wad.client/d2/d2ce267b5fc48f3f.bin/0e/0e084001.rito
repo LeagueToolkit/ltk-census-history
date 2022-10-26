@@ -4,6 +4,12 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x0e084001 = 0x25e82b58 {
+        0x19efbfdb: string = "Patching/UX/RiotUI/TFTTeamPlanner/TeamPlannerScene/TP_Close_Button"
+        0x8e91ace0: link = 0x92f3efda
+        0x5a94b0cc: list[link] = {
+            0x2daa213b
+            0x77175b6f
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x77175b6f
@@ -50,11 +56,5 @@ entries: map[hash,embed] = {
             0x7c552179: string = "Play_sfx_CommonUI_button_standard_tap"
         }
         0xdf2b45ce: bool = true
-        0x5a94b0cc: list[link] = {
-            0x2daa213b
-            0x77175b6f
-        }
-        0x19efbfdb: string = "Patching/UX/RiotUI/TFTTeamPlanner/TeamPlannerScene/TP_Close_Button"
-        0x8e91ace0: link = 0x92f3efda
     }
 }

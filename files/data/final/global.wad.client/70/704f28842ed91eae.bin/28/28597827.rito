@@ -4,7 +4,12 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x28597827 = 0xa2d042b0 {
-        0x57413af1: string = "ASSETS/Loadouts/TFTMapSkins/Square_Battlefield_Lg_Odyssey_Malphite.png"
+        0xf66a8ad3: string = "tft_mapskin_odyssey_malphite_name"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "91950752-2a8d-405e-b6fe-a91c43d5c43b"
+            0x13bddc7b: u32 = 23
+            0x73db4a28: string = "f6e1b728-1943-494d-b1c7-fc2ff319f188"
+        }
         0x4b7f058a: u32 = 2
         0x431c9a7a: string = "ASSETS/Loadouts/TFTMapSkins/Square_Battlefield_Sm_Odyssey_Malphite.dds"
         0xf97c4fb3: string = "ASSETS/Loadouts/TFTMapSkins/Square_Battlefield_Lg_Odyssey_Malphite.dds"
@@ -13,11 +18,5 @@ entries: map[hash,embed] = {
         0xdde8c114: string = "Maps/MapGeometry/Map22/Odyssey_Malphite"
         0xafc467eb: u16 = 8
         0x6e39b04a: u16 = 8
-        0xf66a8ad3: string = "tft_mapskin_odyssey_malphite_name"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "91950752-2a8d-405e-b6fe-a91c43d5c43b"
-            0x13bddc7b: u32 = 23
-            0x73db4a28: string = "f6e1b728-1943-494d-b1c7-fc2ff319f188"
-        }
     }
 }

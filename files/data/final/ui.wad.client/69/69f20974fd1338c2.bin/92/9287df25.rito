@@ -4,6 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x9287df25 = 0x828bfdbd {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/LoLFirstBloodHeader/UIBase/GameHeader/TSM/TSM_T2_Meter"
+        0x8e91ace0: link = 0xe13a3a60
+        0x5a94b0cc: list[link] = {
+            0xdfcaf164
+            0x14e53ad7
+            0x5fb3017d
+        }
         0x8178e6ff: pointer = 0xe725d152 {
             0x93698491: list[link] = {
                 0x14e53ad7
@@ -13,12 +20,5 @@ entries: map[hash,embed] = {
         0xa2a39d73: list[link] = {
             0x5fb3017d
         }
-        0x5a94b0cc: list[link] = {
-            0xdfcaf164
-            0x14e53ad7
-            0x5fb3017d
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/LoLFirstBloodHeader/UIBase/GameHeader/TSM/TSM_T2_Meter"
-        0x8e91ace0: link = 0xe13a3a60
     }
 }

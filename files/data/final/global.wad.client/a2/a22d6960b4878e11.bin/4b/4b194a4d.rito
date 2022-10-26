@@ -4,7 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x4b194a4d = 0x7cc20e55 {
-        0x57413af1: string = "ASSETS/Loadouts/Companions/Tooltip_GrumpyLion_Red_Tier1.png"
+        0xf66a8ad3: string = "grumpylion_red_tier1_name"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "67a9dbd4-4ef7-41cf-ab16-e36baadbf33e"
+            0x13bddc7b: u32 = 3001
+            0x73db4a28: string = "ab349d9b-699f-4881-843f-b32be0568c97"
+        }
+        0x719623aa: string = "companion_description_grumpylion"
         0x9b99e7dd: u32 = 1
         0x715b6117: hash = 0x304e3331
         0xa8c68ca4: u32 = 1
@@ -13,12 +19,5 @@ entries: map[hash,embed] = {
         0x85bab45b: string = "ASSETS/Characters/PetGrumpyLion/HUD/Icon_Square_GrumpyLion_Red_Tier1.dds"
         0x8f57c794: string = "ASSETS/Loot/Companions/GrumpyLion/Loot_GrumpyLion_Red_Tier1.dds"
         0xd0bbdce0: string = "ASSETS/Characters/PetGrumpyLion/HUD/LoadScreen_GrumpyLion_Red_Tier1.dds"
-        0xf66a8ad3: string = "grumpylion_red_tier1_name"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "67a9dbd4-4ef7-41cf-ab16-e36baadbf33e"
-            0x13bddc7b: u32 = 3001
-            0x73db4a28: string = "ab349d9b-699f-4881-843f-b32be0568c97"
-        }
-        0x719623aa: string = "companion_description_grumpylion"
     }
 }

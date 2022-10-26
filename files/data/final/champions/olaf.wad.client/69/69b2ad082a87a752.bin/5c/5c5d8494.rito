@@ -24,9 +24,6 @@ entries: map[hash,embed] = {
                         0.8
                         0.9
                     }
-                    0x3f95426c: bool = false
-                    0x6d3ccfd7: f32 = 0.3
-                    0xe7b832f2: string = "P + 0.1"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "Duration"
@@ -39,8 +36,6 @@ entries: map[hash,embed] = {
                         4
                         4
                     }
-                    0x6d3ccfd7: f32 = 4
-                    0xe7b832f2: string = "P"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "ShieldPercMissingHP"
@@ -53,8 +48,6 @@ entries: map[hash,embed] = {
                         0.175
                         0.175
                     }
-                    0x6d3ccfd7: f32 = 0.175
-                    0xe7b832f2: string = "P"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "ShieldDuration"
@@ -67,8 +60,6 @@ entries: map[hash,embed] = {
                         2.5
                         2.5
                     }
-                    0x6d3ccfd7: f32 = 2.5
-                    0xe7b832f2: string = "P"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "BaseShield"
@@ -81,8 +72,6 @@ entries: map[hash,embed] = {
                         130
                         160
                     }
-                    0x6d3ccfd7: f32 = -20
-                    0xe7b832f2: string = "P+30"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "ThresholdForMax"
@@ -95,33 +84,35 @@ entries: map[hash,embed] = {
                         0.3
                         0.3
                     }
-                    0x6d3ccfd7: f32 = 0.3
-                    0xe7b832f2: string = "P"
                 }
             }
             0x94572284: map[hash,pointer] = {
                 0xc4fbf5ad = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0xa8c1dce1
-                        }
-                        0xcd156c7f {
-                            0x1cd83c4b: pointer = 0x5f5c70a4 {
-                                0xb386dcf1: hash = 0xf23bfc54
-                                0x4cec2c8a: u8 = 11
-                            }
-                            0x4cec2c8a: u8 = 13
-                        }
-                    }
                     0xcbcac618: u8 = 6
                     0x37070a8d: u8 = 6
-                }
-                0x834c21c1 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0xa8c1dce1
                         }
                         0xcd156c7f {
+                            0x4cec2c8a: u8 = 13
+                            0x1cd83c4b: pointer = 0x5f5c70a4 {
+                                0x4cec2c8a: u8 = 11
+                                0xb386dcf1: hash = 0xf23bfc54
+                            }
+                        }
+                    }
+                }
+                0x834c21c1 = 0xbc409284 {
+                    0xcbcac618: u8 = 5
+                    0x37070a8d: u8 = 5
+                    0xe6eebb2f: u8 = 5
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xa8c1dce1
+                        }
+                        0xcd156c7f {
+                            0x4cec2c8a: u8 = 11
                             0x1cd83c4b: pointer = 0xad106e67 {
                                 0x46144074: pointer = 0x332eb441 {
                                     0xb386dcf1: hash = 0xf23bfc54
@@ -142,12 +133,8 @@ entries: map[hash,embed] = {
                                     }
                                 }
                             }
-                            0x4cec2c8a: u8 = 11
                         }
                     }
-                    0xcbcac618: u8 = 5
-                    0x37070a8d: u8 = 5
-                    0xe6eebb2f: u8 = 5
                 }
             }
             0x295c2889: f32 = 1

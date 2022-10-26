@@ -4,7 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x087f545a = 0x7cc20e55 {
-        0x57413af1: string = "ASSETS/Loadouts/Companions/Tooltip_Umbra_FruityTooty_Tier2.png"
+        0xf66a8ad3: string = "companion_umbra_fruitytooty_name"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "19076880-8990-4199-9ba0-1637269ce7ce"
+            0x13bddc7b: u32 = 26008
+            0x73db4a28: string = "45f34cc7-c276-4078-9aae-93b82db44be0"
+        }
+        0x719623aa: string = "companion_umbra_default_description"
         0x9b99e7dd: u32 = 2
         0x715b6117: hash = 0x7e5fbf50
         0xa8c68ca4: u32 = 8
@@ -13,12 +19,5 @@ entries: map[hash,embed] = {
         0x85bab45b: string = "ASSETS/Characters/PetUmbra/HUD/Icon_Square_Umbra_FruityTooty_Tier2.dds"
         0x8f57c794: string = "ASSETS/Loot/Companions/Umbra/Loot_Umbra_FruityTooty_Tier2.dds"
         0xd0bbdce0: string = "ASSETS/Characters/PetUmbra/HUD/LoadScreen_Umbra_FruityTooty_Tier2.dds"
-        0xf66a8ad3: string = "companion_umbra_fruitytooty_name"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "19076880-8990-4199-9ba0-1637269ce7ce"
-            0x13bddc7b: u32 = 26008
-            0x73db4a28: string = "45f34cc7-c276-4078-9aae-93b82db44be0"
-        }
-        0x719623aa: string = "companion_umbra_default_description"
     }
 }

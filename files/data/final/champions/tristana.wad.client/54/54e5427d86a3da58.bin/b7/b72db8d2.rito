@@ -19,8 +19,6 @@ entries: map[hash,embed] = {
                         155
                         180
                     }
-                    0x6d3ccfd7: f32 = 30
-                    0xe7b832f2: string = "P + 25"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "PassiveRadius"
@@ -33,7 +31,6 @@ entries: map[hash,embed] = {
                         300
                         300
                     }
-                    0x6d3ccfd7: f32 = 300
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "ActiveTowerRadius"
@@ -46,7 +43,6 @@ entries: map[hash,embed] = {
                         600
                         600
                     }
-                    0x6d3ccfd7: f32 = 600
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "ActiveBaseDamage"
@@ -59,8 +55,6 @@ entries: map[hash,embed] = {
                         110
                         120
                     }
-                    0x6d3ccfd7: f32 = 60
-                    0xe7b832f2: string = "P + 10"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "ActiveDuration"
@@ -73,7 +67,6 @@ entries: map[hash,embed] = {
                         4
                         4
                     }
-                    0x6d3ccfd7: f32 = 4
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "ActiveBADRatio"
@@ -86,8 +79,6 @@ entries: map[hash,embed] = {
                         1.5
                         1.75
                     }
-                    0x6d3ccfd7: f32 = 0.25
-                    0xe7b832f2: string = "P + 0.25"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "ActiveMaxStacks"
@@ -100,7 +91,6 @@ entries: map[hash,embed] = {
                         4
                         4
                     }
-                    0x6d3ccfd7: f32 = 4
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "ActiveRadius"
@@ -113,7 +103,6 @@ entries: map[hash,embed] = {
                         300
                         300
                     }
-                    0x6d3ccfd7: f32 = 300
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "ActivePerStackAmp"
@@ -126,7 +115,6 @@ entries: map[hash,embed] = {
                         0.3
                         0.3
                     }
-                    0x6d3ccfd7: f32 = 0.3
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "CritChanceAmp"
@@ -139,7 +127,6 @@ entries: map[hash,embed] = {
                         0.33333
                         0.33333
                     }
-                    0x6d3ccfd7: f32 = 0.33333
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -154,35 +141,34 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x1e8d73fe = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0xd928f29f
-                        }
-                        0xcd156c7f {
-                            0x1cd83c4b: pointer = 0x332eb441 {
-                                0xb386dcf1: hash = 0x67b851b1
-                            }
-                            0x4cec2c8a: u8 = 2
-                            0x7d3150ec: u8 = 2
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.5
-                        }
-                    }
                     0x2c77adff: pointer = 0x84a63373 {
                         0xa066cc28: list[pointer] = {
                             0x9ef92080 {
                                 0xe202bca9: f32 = 1
                             }
                             0x5f5c70a4 {
-                                0xb386dcf1: hash = 0x6206546d
                                 0x4cec2c8a: u8 = 7
+                                0xb386dcf1: hash = 0x6206546d
                             }
+                        }
+                    }
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xd928f29f
+                        }
+                        0xcd156c7f {
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                            0x1cd83c4b: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0x67b851b1
+                            }
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.5
                         }
                     }
                 }
                 0x481ba086 = 0x070e3593 {
-                    0x7f93cf4e: hash = 0x1e8d73fe
                     0x2c77adff: pointer = 0x84a63373 {
                         0xa066cc28: list[pointer] = {
                             0x9ef92080 {
@@ -198,6 +184,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
+                    0x7f93cf4e: hash = 0x1e8d73fe
                 }
             }
             0xfbd16fb5: string = "Spell3"
@@ -239,10 +226,10 @@ entries: map[hash,embed] = {
             0x5c46e292: f32 = 100
             0x0df767db: pointer = 0xbffcb1fc {
                 0xfdfac367: pointer = 0x06302899 {
-                    0x4cc16573: f32 = 2400
                     0x90d578dd: f32 = 100
                     0xf20fdeef: f32 = 100
                     0xb886d871: string = "weapon"
+                    0x4cc16573: f32 = 2400
                 }
                 0x6cb549bd: pointer = 0x96ccf33d {
                     0x1a7cd306: f32 = 22000

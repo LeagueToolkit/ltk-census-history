@@ -4,6 +4,14 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x7592bf68 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/TFT/TFTAugmentInfo/UIBase/TFT_AugmentInfoCard/Augments/TFT_AugmentInfoButton1"
+        0x8e91ace0: link = 0x04b57dd3
+        0x5a94b0cc: list[link] = {
+            0x1b0b04d1
+            0x40bba6c4
+            0xd080260a
+            0x3bc8339a
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x40bba6c4
@@ -39,13 +47,5 @@ entries: map[hash,embed] = {
             0xeec29756: link = 0xd080260a
         }
         0x6bf3194e: link = 0x3bc8339a
-        0x5a94b0cc: list[link] = {
-            0x1b0b04d1
-            0x40bba6c4
-            0xd080260a
-            0x3bc8339a
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/TFT/TFTAugmentInfo/UIBase/TFT_AugmentInfoCard/Augments/TFT_AugmentInfoButton1"
-        0x8e91ace0: link = 0x04b57dd3
     }
 }

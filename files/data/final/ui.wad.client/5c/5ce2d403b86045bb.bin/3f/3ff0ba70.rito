@@ -4,6 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x3ff0ba70 = 0x474f1541 {
+        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/LootTableDialog/LootTableDialog/LootTable_Slider"
+        0x8e91ace0: link = 0xe04fc17d
+        0x5a94b0cc: list[link] = {
+            0x55c89772
+            0x3af1f3c7
+            0x7cab09e1
+        }
         0xdb62c463: embed = 0xdf3bdc62 {
             0xf75a6d4d: link = 0x7cab09e1
         }
@@ -19,12 +26,5 @@ entries: map[hash,embed] = {
         0xfb0fa193: link = 0x55c89772
         0x3da59d59: link = 0x3af1f3c7
         0xdf6dc76a: u8 = 1
-        0x5a94b0cc: list[link] = {
-            0x55c89772
-            0x3af1f3c7
-            0x7cab09e1
-        }
-        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/LootTableDialog/LootTableDialog/LootTable_Slider"
-        0x8e91ace0: link = 0xe04fc17d
     }
 }

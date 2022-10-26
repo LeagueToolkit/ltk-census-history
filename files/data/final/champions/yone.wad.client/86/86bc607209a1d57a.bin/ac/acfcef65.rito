@@ -20,7 +20,6 @@ entries: map[hash,embed] = {
                         50
                         60
                     }
-                    0xe7b832f2: string = "P + 10"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "MinionMod"
@@ -33,7 +32,6 @@ entries: map[hash,embed] = {
                         0.25
                         0.25
                     }
-                    0x6d3ccfd7: f32 = 0.25
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "HealthStealMultiplier"
@@ -46,7 +44,6 @@ entries: map[hash,embed] = {
                         1
                         1
                     }
-                    0x6d3ccfd7: f32 = 1
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "ConeWidth"
@@ -59,7 +56,6 @@ entries: map[hash,embed] = {
                         40
                         40
                     }
-                    0x6d3ccfd7: f32 = 40
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "WAttackSpeedCDPercent"
@@ -72,7 +68,6 @@ entries: map[hash,embed] = {
                         0.6
                         0.6
                     }
-                    0x6d3ccfd7: f32 = 0.6
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "WAttackSpeedCDMax"
@@ -85,7 +80,6 @@ entries: map[hash,embed] = {
                         0.625
                         0.625
                     }
-                    0x6d3ccfd7: f32 = 0.625
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "WAttackSpeedCastReductionPercent"
@@ -98,7 +92,6 @@ entries: map[hash,embed] = {
                         0.41667
                         0.41667
                     }
-                    0x6d3ccfd7: f32 = 0.41667
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "WAttackSpeedCastReductionMax"
@@ -111,7 +104,6 @@ entries: map[hash,embed] = {
                         0.5
                         0.5
                     }
-                    0x6d3ccfd7: f32 = 0.5
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "WBaseCastTime"
@@ -124,7 +116,6 @@ entries: map[hash,embed] = {
                         0.5
                         0.5
                     }
-                    0x6d3ccfd7: f32 = 0.5
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "WCritMultiplier"
@@ -137,7 +128,6 @@ entries: map[hash,embed] = {
                         0.8
                         0.8
                     }
-                    0x6d3ccfd7: f32 = 0.8
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "MaxHealthDamage"
@@ -150,12 +140,9 @@ entries: map[hash,embed] = {
                         0.15
                         0.16
                     }
-                    0x6d3ccfd7: f32 = 0.1
-                    0xe7b832f2: string = "P + 0.01"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "BaseHealing"
-                    0xe7b832f2: string = "P + 0"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "BaseShield"
@@ -168,7 +155,6 @@ entries: map[hash,embed] = {
                         50
                         60
                     }
-                    0xe7b832f2: string = "P + 10"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "FirstChampShieldMultiplier"
@@ -181,7 +167,6 @@ entries: map[hash,embed] = {
                         1
                         1
                     }
-                    0x6d3ccfd7: f32 = 1
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "SecondChampShieldMultiplier"
@@ -194,7 +179,6 @@ entries: map[hash,embed] = {
                         0.5
                         0.5
                     }
-                    0x6d3ccfd7: f32 = 0.5
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "ShieldDuration"
@@ -207,7 +191,6 @@ entries: map[hash,embed] = {
                         1.5
                         1.5
                     }
-                    0x6d3ccfd7: f32 = 1.5
                 }
             }
             0x94572284: map[hash,pointer] = {
@@ -217,21 +200,21 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0x03da00f9
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 1
                             0x4cec2c8a: u8 = 2
+                            0x295c2889: f32 = 1
                         }
                     }
                 }
                 0x8dfeb810 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 1
-                            0x4cec2c8a: u8 = 2
-                        }
-                    }
                     0x2c77adff: pointer = 0x15fecdbc {
                         0xd06c375d: f32 = 0.2
                         0x1cd7e522: f32 = 1
+                    }
+                    0x50f145c0: list[pointer] = {
+                        0x5815b0a9 {
+                            0x4cec2c8a: u8 = 2
+                            0x295c2889: f32 = 1
+                        }
                     }
                 }
                 0xf2a31bdb = 0xbc409284 {
@@ -241,13 +224,15 @@ entries: map[hash,embed] = {
                             0x1cd7e522: f32 = 55
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.55
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
+                            0x295c2889: f32 = 0.55
                         }
                     }
                 }
                 0x6d625f7d = 0xbc409284 {
+                    0xcbcac618: u8 = 6
+                    0x37070a8d: u8 = 6
                     0x50f145c0: list[pointer] = {
                         0x5cf69ece {
                             0xad62f672: f32 = 30
@@ -266,8 +251,6 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    0xcbcac618: u8 = 6
-                    0x37070a8d: u8 = 6
                 }
                 0x8809e19c = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
@@ -305,8 +288,6 @@ entries: map[hash,embed] = {
                                 430
                                 440
                             }
-                            0x6d3ccfd7: f32 = 140
-                            0xe7b832f2: string = "P + 10"
                         }
                     }
                 }

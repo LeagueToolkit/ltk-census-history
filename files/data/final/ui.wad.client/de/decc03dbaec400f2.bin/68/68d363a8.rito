@@ -4,6 +4,14 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x68d363a8 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/ReplayControls/UIBase/ReplayControls/SpeedDown_Button"
+        0x8e91ace0: link = 0x45c8f443
+        0x5a94b0cc: list[link] = {
+            0xf20c6ec6
+            0x38626b56
+            0x9e72a6b5
+            0xa4bc0e05
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x38626b56
@@ -20,13 +28,5 @@ entries: map[hash,embed] = {
             }
         }
         0x6bf3194e: link = 0xa4bc0e05
-        0x5a94b0cc: list[link] = {
-            0xf20c6ec6
-            0x38626b56
-            0x9e72a6b5
-            0xa4bc0e05
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/ReplayControls/UIBase/ReplayControls/SpeedDown_Button"
-        0x8e91ace0: link = 0x45c8f443
     }
 }

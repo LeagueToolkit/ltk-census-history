@@ -4,6 +4,15 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xcfbe24e1 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/MultiPurchaseDialog/Scene/Btn/PurchaseDialog_CloseButton"
+        0x8e91ace0: link = 0x6e7c82d0
+        0x5a94b0cc: list[link] = {
+            0x95cba690
+            0xb21a4d40
+            0x7e930367
+            0x94d40127
+            0x74d35f91
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0xb21a4d40
@@ -29,14 +38,5 @@ entries: map[hash,embed] = {
             0xd84e3078: string = "Play_sfx_CommonUI_button_standard_tap"
             0x84b6cf03: string = "Play_sfx_PreGameUI_button_standard_release"
         }
-        0x5a94b0cc: list[link] = {
-            0x95cba690
-            0xb21a4d40
-            0x7e930367
-            0x94d40127
-            0x74d35f91
-        }
-        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/MultiPurchaseDialog/Scene/Btn/PurchaseDialog_CloseButton"
-        0x8e91ace0: link = 0x6e7c82d0
     }
 }

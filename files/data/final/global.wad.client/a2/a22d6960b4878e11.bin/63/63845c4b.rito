@@ -4,7 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x63845c4b = 0x7cc20e55 {
-        0x57413af1: string = "ASSETS/Loadouts/Companions/Tooltip_Ghosty_Fire_Tier1.png"
+        0xf66a8ad3: string = "ghosty_fire_tier1_name"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "e561dda1-f3cc-4a77-b578-7ff29fbb9a30"
+            0x13bddc7b: u32 = 1004
+            0x73db4a28: string = "7acfab83-3ffc-429b-b955-ca96dd889fc3"
+        }
+        0x719623aa: string = "companion_description_ghosty"
         0x9b99e7dd: u32 = 1
         0x715b6117: hash = 0x92ab3351
         0xa8c68ca4: u32 = 4
@@ -13,12 +19,5 @@ entries: map[hash,embed] = {
         0x85bab45b: string = "ASSETS/Characters/PetGhosty/HUD/Icon_Square_Ghosty_Fire_Tier1.dds"
         0x8f57c794: string = "ASSETS/Loot/Companions/Ghosty/Loot_Ghosty_Fire_Tier1.dds"
         0xd0bbdce0: string = "ASSETS/Characters/PetGhosty/HUD/LoadScreen_Ghosty_Fire_Tier1.dds"
-        0xf66a8ad3: string = "ghosty_fire_tier1_name"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "e561dda1-f3cc-4a77-b578-7ff29fbb9a30"
-            0x13bddc7b: u32 = 1004
-            0x73db4a28: string = "7acfab83-3ffc-429b-b955-ca96dd889fc3"
-        }
-        0x719623aa: string = "companion_description_ghosty"
     }
 }

@@ -4,7 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x62329b18 = 0x7cc20e55 {
-        0x57413af1: string = "ASSETS/Loadouts/Companions/Tooltip_Fairy_Base_ExtraSpicy_Tier2.png"
+        0xf66a8ad3: string = "companion_fairy_extraspicy_name"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "7cfe1e9e-43d9-48d2-b37e-20cbcf7cec0b"
+            0x13bddc7b: u32 = 23014
+            0x73db4a28: string = "d99492b0-7262-4013-81e3-d311fb1d9688"
+        }
+        0x719623aa: string = "companion_description_fairy_default"
         0x4b7f058a: u32 = 1
         0x9b99e7dd: u32 = 2
         0x715b6117: hash = 0xc2594b3c
@@ -14,12 +20,5 @@ entries: map[hash,embed] = {
         0x85bab45b: string = "ASSETS/Characters/PetFairy/HUD/Icon_Square_Fairy_Base_ExtraSpicy_Tier2.dds"
         0x8f57c794: string = "ASSETS/Loot/Companions/Fairy/Loot_Fairy_Base_ExtraSpicy_Tier2.dds"
         0xd0bbdce0: string = "ASSETS/Characters/PetFairy/HUD/LoadScreen_Fairy_Base_ExtraSpicy_Tier2.dds"
-        0xf66a8ad3: string = "companion_fairy_extraspicy_name"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "7cfe1e9e-43d9-48d2-b37e-20cbcf7cec0b"
-            0x13bddc7b: u32 = 23014
-            0x73db4a28: string = "d99492b0-7262-4013-81e3-d311fb1d9688"
-        }
-        0x719623aa: string = "companion_description_fairy_default"
     }
 }

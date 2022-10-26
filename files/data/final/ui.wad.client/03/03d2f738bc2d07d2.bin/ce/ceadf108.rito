@@ -4,6 +4,15 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xceadf108 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/TFT/TFTArmory_Augments/UIBase/TFT_ToggleArmoryScene_Augments/ToggleArmoryButton_Augment"
+        0x8e91ace0: link = 0x88c2fa5d
+        0x5a94b0cc: list[link] = {
+            0x02e1fccc
+            0x8e689a6d
+            0x421a3cc8
+            0x99381501
+            0x86fdf4f9
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x8e689a6d
@@ -41,14 +50,5 @@ entries: map[hash,embed] = {
             }
         }
         0x6bf3194e: link = 0x421a3cc8
-        0x5a94b0cc: list[link] = {
-            0x02e1fccc
-            0x8e689a6d
-            0x421a3cc8
-            0x99381501
-            0x86fdf4f9
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/TFT/TFTArmory_Augments/UIBase/TFT_ToggleArmoryScene_Augments/ToggleArmoryButton_Augment"
-        0x8e91ace0: link = 0x88c2fa5d
     }
 }

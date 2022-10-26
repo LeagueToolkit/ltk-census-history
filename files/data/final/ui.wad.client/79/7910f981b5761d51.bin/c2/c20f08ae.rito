@@ -4,6 +4,16 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xc20f08ae = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/TFT/TFTElimination/UIBase/TFT_EliminationMessage/SpectateBtn"
+        0x8e91ace0: link = 0xdcf2ec28
+        0x5a94b0cc: list[link] = {
+            0x325d5ef8
+            0x11e00ea8
+            0x3a35c7af
+            0xe28c8eff
+            0xaff9ec08
+            0xf7fb764f
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x11e00ea8
@@ -29,15 +39,5 @@ entries: map[hash,embed] = {
             0xeec29756: link = 0xaff9ec08
         }
         0x6bf3194e: link = 0xf7fb764f
-        0x5a94b0cc: list[link] = {
-            0x325d5ef8
-            0x11e00ea8
-            0x3a35c7af
-            0xe28c8eff
-            0xaff9ec08
-            0xf7fb764f
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/TFT/TFTElimination/UIBase/TFT_EliminationMessage/SpectateBtn"
-        0x8e91ace0: link = 0xdcf2ec28
     }
 }

@@ -4,6 +4,16 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xb82ebfee = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/PlayerProfile/PlayerProfileScene/PP_LeftNav_Button_MH"
+        0x8e91ace0: link = 0xfe55bb6f
+        0x5a94b0cc: list[link] = {
+            0xc542e29f
+            0x67748e53
+            0xaa194fad
+            0x5fd7c735
+            0x719f062f
+            0xfdd29bdd
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x67748e53
@@ -59,15 +69,5 @@ entries: map[hash,embed] = {
         }
         0xcb42693f: bool = false
         0xdf2b45ce: bool = true
-        0x5a94b0cc: list[link] = {
-            0xc542e29f
-            0x67748e53
-            0xaa194fad
-            0x5fd7c735
-            0x719f062f
-            0xfdd29bdd
-        }
-        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/PlayerProfile/PlayerProfileScene/PP_LeftNav_Button_MH"
-        0x8e91ace0: link = 0xfe55bb6f
     }
 }

@@ -4,7 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x8bc8823d = 0x7cc20e55 {
-        0x57413af1: string = "ASSETS/Loadouts/Companions/Tooltip_Bellswayer_Yuletide_Tier3.png"
+        0xf66a8ad3: string = "companion_bellswayer_yuletide_name"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "8b3cfcc7-9a60-4e74-95f8-790b0d3e36bb"
+            0x13bddc7b: u32 = 24012
+            0x73db4a28: string = "979ac6e2-e8ad-44a9-a3ee-444c77c0819c"
+        }
+        0x719623aa: string = "companion_description_bellswayer_default"
         0x4b7f058a: u32 = 1
         0x9b99e7dd: u32 = 3
         0x715b6117: hash = 0xb4267969
@@ -14,12 +20,5 @@ entries: map[hash,embed] = {
         0x85bab45b: string = "ASSETS/Characters/PetBellswayer/HUD/Icon_Square_Bellswayer_Yuletide_Tier3.dds"
         0x8f57c794: string = "ASSETS/Loot/Companions/Bellswayer/Loot_Bellswayer_Yuletide_Tier3.dds"
         0xd0bbdce0: string = "ASSETS/Characters/PetBellswayer/HUD/LoadScreen_Bellswayer_Yuletide_Tier3.dds"
-        0xf66a8ad3: string = "companion_bellswayer_yuletide_name"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "8b3cfcc7-9a60-4e74-95f8-790b0d3e36bb"
-            0x13bddc7b: u32 = 24012
-            0x73db4a28: string = "979ac6e2-e8ad-44a9-a3ee-444c77c0819c"
-        }
-        0x719623aa: string = "companion_description_bellswayer_default"
     }
 }

@@ -4,6 +4,16 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xb5f09e56 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/Store/StoreScene/CategoryButtons/StoreCategoryButton_Featured"
+        0x8e91ace0: link = 0x342befbb
+        0x5a94b0cc: list[link] = {
+            0xb436ee19
+            0x2445610d
+            0xc9886ee7
+            0x0ea2505b
+            0x2b9ad635
+            0x5a1b8c44
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x2445610d
@@ -64,15 +74,5 @@ entries: map[hash,embed] = {
         }
         0xdf2b45ce: bool = true
         0xdfe787c4: bool = true
-        0x5a94b0cc: list[link] = {
-            0xb436ee19
-            0x2445610d
-            0xc9886ee7
-            0x0ea2505b
-            0x2b9ad635
-            0x5a1b8c44
-        }
-        0x19efbfdb: string = "ClientStates/PreGame/UX/RiotUI/Store/StoreScene/CategoryButtons/StoreCategoryButton_Featured"
-        0x8e91ace0: link = 0x342befbb
     }
 }

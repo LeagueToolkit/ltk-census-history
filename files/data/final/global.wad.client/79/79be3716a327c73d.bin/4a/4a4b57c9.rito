@@ -4,7 +4,6 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x4a4b57c9 = 0xb6f03cdd {
-        0xec12a9d5: bool = true
         0x36f7ed41: u32 = 8005
         0x4e437187: string = "PressTheAttack"
         0x2da3f8bf: string = "perk_displayname_PressTheAttack"
@@ -46,9 +45,6 @@ entries: map[hash,embed] = {
                         0xf1f20d72: string = "buff_desc_PressTheAttack_Stack"
                     }
                 }
-                0x280c558b: list[string] = {
-                    "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
-                }
             }
             0x3d7822a4 {
                 0x6eac7015: string = "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttackDamageAmp.lua"
@@ -57,24 +53,13 @@ entries: map[hash,embed] = {
                         0xf1f20d72: string = "buff_desc_PressTheAttack_Amp"
                     }
                 }
-                0x280c558b: list[string] = {
-                    "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
-                }
             }
             0x3d7822a4 {
                 0x6eac7015: string = "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttackLockout.lua"
                 0xca93d232: embed = 0x5e7e5a06 {
                     0x7f0f5a79: pointer = 0x4633d794 {}
                 }
-                0x280c558b: list[string] = {
-                    "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttack.dds"
-                }
             }
-        }
-        0x8e5b9dba: list[string] = {
-            "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttackStack.lua"
-            "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttackDamageAmp.lua"
-            "ASSETS/Perks/Styles/Precision/PressTheAttack/PressTheAttackLockout.lua"
         }
         0x5f8284a2: pointer = 0xef3a0f33 {
             0xd2f58721: map[hash,link] = {
@@ -86,5 +71,6 @@ entries: map[hash,embed] = {
                 0x56443115 = 0xe0a7184a
             }
         }
+        0xec12a9d5: bool = true
     }
 }

@@ -1,0 +1,37 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x71f810e1 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Common/UX/TFTOptions/UIBase/Options/Options_Button_Close_Def"
+        0x8e91ace0: link = 0x0ac0b980
+        0x5a94b0cc: list[link] = {
+            0x132b0a48
+            0x6f4da2b8
+            0x367b4934
+            0x9fe7dd4f
+        }
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x6f4da2b8
+            }
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x6f4da2b8
+                0x9fe7dd4f
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x6f4da2b8
+                0x132b0a48
+            }
+        }
+        0x6bf3194e: link = 0x367b4934
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0x84b6cf03: string = "Play_sfx_CommonUI_button_cancel"
+        }
+    }
+}

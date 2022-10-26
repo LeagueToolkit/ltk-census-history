@@ -4,7 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x296602ee = 0x7cc20e55 {
-        0x57413af1: string = "ASSETS/Loadouts/Companions/Tooltip_Choncc_Atlantean_Tier2.png"
+        0xf66a8ad3: string = "companion_choncc_atlantean_name"
+        0x242ed7dc: embed = 0x242ed7dc {
+            0x54d3f7cf: string = "24b65469-d9a1-40ad-8ffa-629a3bf3fc95"
+            0x13bddc7b: u32 = 27005
+            0x73db4a28: string = "153ab55c-6bc1-4afa-8945-053be1b5dd6b"
+        }
+        0x719623aa: string = "companion_choncc_default_description"
         0x9b99e7dd: u32 = 2
         0x715b6117: hash = 0x6b9d4d13
         0xa8c68ca4: u32 = 5
@@ -13,12 +19,5 @@ entries: map[hash,embed] = {
         0x85bab45b: string = "ASSETS/Characters/PetChoncc/HUD/Icon_Square_Choncc_Atlantean_Tier2.dds"
         0x8f57c794: string = "ASSETS/Loot/Companions/Choncc/Loot_Choncc_Atlantean_Tier2.dds"
         0xd0bbdce0: string = "ASSETS/Characters/PetChoncc/HUD/LoadScreen_Choncc_Atlantean_Tier2.dds"
-        0xf66a8ad3: string = "companion_choncc_atlantean_name"
-        0x242ed7dc: embed = 0x242ed7dc {
-            0x54d3f7cf: string = "24b65469-d9a1-40ad-8ffa-629a3bf3fc95"
-            0x13bddc7b: u32 = 27005
-            0x73db4a28: string = "153ab55c-6bc1-4afa-8945-053be1b5dd6b"
-        }
-        0x719623aa: string = "companion_choncc_default_description"
     }
 }

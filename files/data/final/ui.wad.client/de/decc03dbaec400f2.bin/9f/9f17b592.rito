@@ -4,6 +4,14 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x9f17b592 = 0x474f1541 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/ReplayControls/UIBase/ReplayControls/ReplaySlider"
+        0x8e91ace0: link = 0x45c8f443
+        0x5a94b0cc: list[link] = {
+            0x4a892334
+            0xc4e2a4e1
+            0x3008d843
+            0xf62a844f
+        }
         0xdb62c463: embed = 0xdf3bdc62 {
             0x83d47180: link = 0x4a892334
             0xf75a6d4d: link = 0x3008d843
@@ -22,13 +30,5 @@ entries: map[hash,embed] = {
         }
         0xfb0fa193: link = 0xf62a844f
         0x3da59d59: link = 0xc4e2a4e1
-        0x5a94b0cc: list[link] = {
-            0x4a892334
-            0xc4e2a4e1
-            0x3008d843
-            0xf62a844f
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/ReplayControls/UIBase/ReplayControls/ReplaySlider"
-        0x8e91ace0: link = 0x45c8f443
     }
 }

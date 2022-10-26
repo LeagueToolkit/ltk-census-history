@@ -4,6 +4,15 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x578656e3 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/Champ/KaynTransform/UIBase/KaynTransform/KaynTransformSlayer"
+        0x8e91ace0: link = 0xf8642be7
+        0x5a94b0cc: list[link] = {
+            0x97bca775
+            0x86df1ca0
+            0x28eb9484
+            0x5815dc05
+            0x3d654ffa
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0x97bca775
@@ -25,14 +34,5 @@ entries: map[hash,embed] = {
             }
         }
         0x6bf3194e: link = 0x5815dc05
-        0x5a94b0cc: list[link] = {
-            0x97bca775
-            0x86df1ca0
-            0x28eb9484
-            0x5815dc05
-            0x3d654ffa
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/Champ/KaynTransform/UIBase/KaynTransform/KaynTransformSlayer"
-        0x8e91ace0: link = 0xf8642be7
     }
 }

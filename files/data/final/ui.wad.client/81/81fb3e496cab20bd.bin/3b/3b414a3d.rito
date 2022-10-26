@@ -4,14 +4,8 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x3b414a3d = 0x828bfdbd {
-        0x8178e6ff: pointer = 0xe725d152 {
-            0x93698491: list[link] = {
-                0x1f22eb55
-            }
-        }
-        0xa2a39d73: list[link] = {
-            0xcba6bc57
-        }
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/PlayerFrame/UIBase/Player_Frame_Root/PlayerResourceBars/PlayerPARMeter"
+        0x8e91ace0: link = 0xe1a2dc53
         0x5a94b0cc: list[link] = {
             0x5a4d80cd
             0xcba6bc57
@@ -21,7 +15,13 @@ entries: map[hash,embed] = {
             0x1852966b
             0x8325a74b
         }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/LoL/PlayerFrame/UIBase/Player_Frame_Root/PlayerResourceBars/PlayerPARMeter"
-        0x8e91ace0: link = 0xe1a2dc53
+        0x8178e6ff: pointer = 0xe725d152 {
+            0x93698491: list[link] = {
+                0x1f22eb55
+            }
+        }
+        0xa2a39d73: list[link] = {
+            0xcba6bc57
+        }
     }
 }

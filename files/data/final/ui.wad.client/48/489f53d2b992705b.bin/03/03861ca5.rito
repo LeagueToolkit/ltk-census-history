@@ -4,6 +4,17 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x03861ca5 = 0x25e82b58 {
+        0x19efbfdb: string = "ClientStates/Gameplay/UX/VoiceChat/UIBase/VoiceChatPanel/VCP_P0/VCP_P0_MuteButton"
+        0x8e91ace0: link = 0x5c873da9
+        0x5a94b0cc: list[link] = {
+            0x5c4278de
+            0x247344a3
+            0xc79eed3f
+            0xca914154
+            0xfd54a231
+            0xfb73a495
+            0x54503e1a
+        }
         0x1bf466b2: embed = 0x6780c1c5 {
             0x072d935c: list[link] = {
                 0xc79eed3f
@@ -39,16 +50,5 @@ entries: map[hash,embed] = {
             0x84b6cf03: string = "play_sfx_hud_base_Generic_Button_Click"
             0xb416d0a8: string = "play_sfx_hud_base_Generic_Button_Click"
         }
-        0x5a94b0cc: list[link] = {
-            0x5c4278de
-            0x247344a3
-            0xc79eed3f
-            0xca914154
-            0xfd54a231
-            0xfb73a495
-            0x54503e1a
-        }
-        0x19efbfdb: string = "ClientStates/Gameplay/UX/VoiceChat/UIBase/VoiceChatPanel/VCP_P0/VCP_P0_MuteButton"
-        0x8e91ace0: link = 0x5c873da9
     }
 }
