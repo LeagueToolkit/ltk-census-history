@@ -30,12 +30,12 @@ entries: map[hash,embed] = {
                 0xca0e79b5: string = "Options_Hotkeys_QuickCastWithIndicator_label"
                 0x3a79338f: list[pointer] = {
                     0x9c74b21a {
-                        0xe7e19b94: u16 = 83
+                        0xe7e19b94: u16 = 84
                         0x694aaa0b: hash = 0x6243ff9d
                         0xca0e79b5: string = "Options_Hotkeys_QuickCastWithIndicator_ReplaceQuickCastWithIndicator"
                     }
                     0x9c74b21a {
-                        0xe7e19b94: u16 = 84
+                        0xe7e19b94: u16 = 85
                         0x694aaa0b: hash = 0x6243ff9d
                         0xca0e79b5: string = "Options_Hotkeys_QuickCastWithIndicator_CastThePressedSpell"
                     }
@@ -862,6 +862,7 @@ entries: map[hash,embed] = {
                             0x6a9faeda {
                                 0x694aaa0b: hash = 0x8363eacf
                                 0xe488d460: embed = 0xea321356 {
+                                    0x6b8648e5: string = "Options_Hotkeys_Ping_OpenTacticalWheel_Label"
                                     0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
                                     0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
                                 }
@@ -883,21 +884,57 @@ entries: map[hash,embed] = {
                                         }
                                     }
                                     0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickRetreatPing"
-                                        0x2a078c9c: string = "[GameEvents]evntPlayerPingDanger"
-                                        0xc7e16877: pointer = 0xcd391c99 {
-                                            0x420c4abd: bool = false
-                                            0x1dde7980: bool = false
-                                        }
-                                    }
-                                    0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_RetreatPing"
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_CautionPing"
                                         0x2a078c9c: string = "[GameEvents]evntPlayerPingCursorDanger"
                                         0xc7e16877: pointer = 0xcd391c99 {
                                             0x420c4abd: bool = false
                                             0x1dde7980: bool = false
                                         }
                                     }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickCautionPing"
+                                        0x2a078c9c: string = "[GameEvents]evntPlayerPingDanger"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                }
+                            }
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x8363eacf
+                                0xe488d460: embed = 0xea321356 {
+                                    0x6b8648e5: string = "Options_Hotkeys_Ping_OpenVisionWheel_Label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_AreaIsWardedPing"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerCursorPingAreaIsWarded"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickAreaIsWardedPing"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerPingAreaIsWarded"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                }
+                            }
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x8363eacf
+                                0xe488d460: embed = 0xea321356 {
+                                    0x6b8648e5: string = "Options_Hotkeys_Ping_Individual_Pings_Label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
                                     0x430dd10d {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_OnMyWayPing"
                                         0x2a078c9c: string = "[GameEvents]evtPlayerPingOMW"
@@ -915,7 +952,7 @@ entries: map[hash,embed] = {
                                         }
                                     }
                                     0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_DangerPing"
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_RetreatPing"
                                         0x2a078c9c: string = "[GameEvents]evtPlayerPingRadialDanger"
                                         0xc7e16877: pointer = 0xcd391c99 {
                                             0x420c4abd: bool = false
@@ -931,13 +968,63 @@ entries: map[hash,embed] = {
                                         }
                                     }
                                     0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_AreaIsWardedPing"
-                                        0x2a078c9c: string = "[GameEvents]evtPlayerPingAreaIsWarded"
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_PushPing"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerPingPush"
                                         0xc7e16877: pointer = 0xcd391c99 {
                                             0x420c4abd: bool = false
                                             0x1dde7980: bool = false
                                         }
                                     }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_AllInPing"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerPingAllIn"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_HoldPing"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerPingHold"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_BaitPing"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerPingBait"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_VisionNeededPing"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerPingVisionNeeded"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_VisionClearedPing"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerPingVisionCleared"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                }
+                            }
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x8363eacf
+                                0xe488d460: embed = 0xea321356 {
+                                    0x6b8648e5: string = "Options_Hotkeys_Expression_Label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
                                     0x430dd10d {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_Joke"
                                         0x2a078c9c: string = "[GameEvents]evtEmoteJoke"
@@ -965,10 +1052,16 @@ entries: map[hash,embed] = {
                                             0x420c4abd: bool = false
                                         }
                                     }
-                                    0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_ChatHistory"
-                                        0x2a078c9c: string = "[GameEvents]evtChatHistory"
-                                    }
+                                }
+                            }
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x8363eacf
+                                0xe488d460: embed = 0xea321356 {
+                                    0x6b8648e5: string = "Options_Hotkeys_Emote_Label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
                                     0x430dd10d {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_OpenEmoteWheel"
                                         0x2a078c9c: string = "[GameEvents]evtRadialEmoteOpen"
@@ -996,6 +1089,20 @@ entries: map[hash,embed] = {
                                     0x430dd10d {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickPlayEmoteCenter"
                                         0x2a078c9c: string = "[GameEvents]evtRadialEmotePlaySlot4"
+                                    }
+                                }
+                            }
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x8363eacf
+                                0xe488d460: embed = 0xea321356 {
+                                    0x6b8648e5: string = "Options_Hotkeys_Communication_Other_Label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_ChatHistory"
+                                        0x2a078c9c: string = "[GameEvents]evtChatHistory"
                                     }
                                 }
                             }

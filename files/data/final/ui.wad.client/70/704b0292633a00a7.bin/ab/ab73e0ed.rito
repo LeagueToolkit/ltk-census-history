@@ -4,11 +4,24 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xab73e0ed = 0xd9438618 {
-        0xc7e16877: pointer = 0x5bf6bea7 {
-            0xdfa2efb1: string = "Maps/Shipping/Map11"
+        0xc7e16877: pointer = 0xa134eb30 {
+            0xabd6be4c: list[pointer] = {
+                0xe8fc31c8 {
+                    0xc7e16877: pointer = 0x0ad557d0 {}
+                }
+                0x5bf6bea7 {
+                    0xdfa2efb1: string = "Maps/Shipping/Map11"
+                }
+                0xe8fc31c8 {
+                    0xc7e16877: pointer = 0x8eb32520 {
+                        0xec6ee012: string = "Maps/Shipping/Map11/Modes/TUTORIAL_MODULE_1"
+                    }
+                }
+            }
         }
         0x799f2859: list2[string] = {
             "ClientStates/Gameplay/UX/LoL/LoLSRNeutralTimerViewController"
+            "ClientStates/Gameplay/UX/LoL/LoLObjectiveVoteResults"
         }
     }
 }

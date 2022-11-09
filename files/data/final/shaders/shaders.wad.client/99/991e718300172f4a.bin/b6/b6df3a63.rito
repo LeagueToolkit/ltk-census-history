@@ -1,0 +1,68 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb6df3a63 = 0x205255d6 {
+        0x48a52ed9: list[embed] = {
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter0"
+                0xd872e2a5: vec4 = { 0.15, 0.65, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Glow_Min_Max"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "UV_Rotation_Center"
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter1"
+                0xd872e2a5: vec4 = { 90, 0.2, 20, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "UV_Rotation"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Glow_Speed"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Glow_Frequency"
+                        0x0640657c: u32 = 4
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { 0.77000076, 0.9600061, 1, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Glow_Color"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+        }
+        0x3291437b: list[embed] = {
+            0x60a292e6 {
+                0x8d39bde6: string = "ENV_TRANSITION"
+            }
+        }
+        0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "Diffuse_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Mask_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
+            }
+        }
+        0x1d369c29: string = "Shaders/Environment/SRX_Blend_Decal_Cloud"
+    }
+}
