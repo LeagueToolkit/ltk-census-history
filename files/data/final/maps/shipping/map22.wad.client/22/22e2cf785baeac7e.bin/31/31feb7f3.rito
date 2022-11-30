@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x31feb7f3 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_PAIRSASSISTS_SUPERBIG"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Assist_TacticiansCrown"
+                    "TFT_Assist_RandomRadiantItem"
+                    "TFT_Assist_ItemArmoryOrnn"
+                    "TFT_Assist_RandomCompletedItems_And_Reforger"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

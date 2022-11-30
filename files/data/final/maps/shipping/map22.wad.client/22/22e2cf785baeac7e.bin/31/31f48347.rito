@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x31f48347 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT8_Underground_Heist3_Option6"
+        0x0773669d: map[string,pointer] = {
+            "Treasure" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "UndergroundOrbs1"
+                    "COMPONENT_NOSPAT"
+                    "ANVIL_COMPLETED"
+                    "COMPONENT_NOSPAT"
+                    "UndergroundOrbs1"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

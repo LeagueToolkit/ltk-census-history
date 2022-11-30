@@ -15,37 +15,49 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "Duration"
                     0x246b0d8e: list[f32] = {
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "CurrentHealthCost"
                     0x246b0d8e: list[f32] = {
-                        0.05
-                        0.05
-                        0.05
-                        0.05
-                        0.05
-                        0.05
-                        0.05
+                        0.08
+                        0.08
+                        0.08
+                        0.08
+                        0.08
+                        0.08
+                        0.08
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "GrayHealthStorage"
                     0x246b0d8e: list[f32] = {
-                        0.2
                         0.25
-                        0.3
-                        0.35
-                        0.4
-                        0.45
-                        0.5
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "GrayHealthInitialDuration"
+                    0x246b0d8e: list[f32] = {
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                        0.75
                     }
                 }
                 0x005008a6 {
@@ -109,18 +121,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "BonusHealthRatio"
-                    0x246b0d8e: list[f32] = {
-                        0.07
-                        0.07
-                        0.07
-                        0.07
-                        0.07
-                        0.07
-                        0.07
-                    }
-                }
-                0x005008a6 {
                     0x19efbfdb: string = "RecastBaseDamage"
                     0x246b0d8e: list[f32] = {
                         5
@@ -139,12 +139,21 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0xff9f600f
                         }
-                        0x5f5c70a4 {
+                        0x5815b0a9 {
                             0x4cec2c8a: u8 = 11
                             0x7d3150ec: u8 = 2
-                            0xb386dcf1: hash = 0xffdea211
+                            0x295c2889: f32 = 0.07
                         }
                     }
+                }
+                0xac38bf1f = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x15fecdbc {
+                            0xd06c375d: f32 = 0.8
+                            0x1cd7e522: f32 = 0.95
+                        }
+                    }
+                    0x5a2297d3: bool = true
                 }
             }
             0xfbd16fb5: string = "Spell2"
@@ -217,14 +226,12 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_DamagePerTick"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "GrayHealthStorage"
-                                    0xf506c7e6: f32 = 100
-                                    0x566f3406: string = "Spell_DrMundoW_ListType_DamageStored"
-                                    0xac307ed6: u32 = 1
-                                }
-                                0x9a1b3505 {
                                     0x5127f14d: string = "RecastBaseDamage"
                                     0x566f3406: string = "Spell_ListType_RecastDamage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                    0x566f3406: string = "Spell_ListType_Cooldown"
                                 }
                             }
                         }

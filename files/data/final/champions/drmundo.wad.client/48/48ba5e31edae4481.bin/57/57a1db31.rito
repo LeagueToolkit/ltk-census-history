@@ -62,30 +62,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "PassiveBonusAD"
-                    0x246b0d8e: list[f32] = {
-                        10
-                        15
-                        20
-                        25
-                        30
-                        35
-                        40
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "MaxMissingHealthAD"
-                    0x246b0d8e: list[f32] = {
-                        20
-                        25
-                        30
-                        35
-                        40
-                        45
-                        50
-                    }
-                }
-                0x005008a6 {
                     0x19efbfdb: string = "MaxMissingHealthThreshold"
                     0x246b0d8e: list[f32] = {
                         0.7
@@ -136,13 +112,25 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "MonsterMod"
                     0x246b0d8e: list[f32] = {
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
+                        2.5
+                        2.5
+                        2.5
+                        2.5
+                        2.5
+                        2.5
+                        2.5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "HealthToADRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.02
+                        0.025
+                        0.03
+                        0.035
+                        0.04
+                        0.045
+                        0.05
                     }
                 }
             }
@@ -171,6 +159,14 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x5a2297d3: bool = true
+                }
+                0x0c8b667c = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5f5c70a4 {
+                            0x4cec2c8a: u8 = 11
+                            0xb386dcf1: hash = 0xde7c26ca
+                        }
+                    }
                 }
             }
             0xeed67cd5: list[string] = {
@@ -233,12 +229,10 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_HealthCost"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "MaxMissingHealthAD"
-                                    0x566f3406: string = "Spell_DrMundoE_ListType_MaxAdditionalAttackDamage"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "PassiveBonusAD"
-                                    0x566f3406: string = "Spell_ListType_PassiveAttackDamage"
+                                    0x5127f14d: string = "HealthToADRatio"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_DrMundoR_ListType_HealthIntoAttackDamage"
+                                    0xac307ed6: u32 = 1
                                 }
                             }
                         }

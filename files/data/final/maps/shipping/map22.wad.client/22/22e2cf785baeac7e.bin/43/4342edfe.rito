@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4342edfe = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_PAIRSASSISTS_BIG"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Assist_RandomOrnnItem"
+                    "TFT_Assist_ItemArmoryCompleted"
+                    "TFT_Assist_TomeOfTraits"
+                    "TFT_Assist_Spatula_And_ItemArmoryComponent"
+                    "TFT_Assist_RandomComponent_3"
+                    "TFT_Assist_Tier5_Units_And_Gold"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

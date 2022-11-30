@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x144f1e27 = 0x5c1ba470 {
+        0xe92e58d2: string = "COMPANION_51003"
+        0x19efbfdb: string = "companion_name_baron_classic"
+        0x392bdb3c: string = "companion_description_baron_base"
+        0xcc7f8933: string = "Classic Baron 3 Star"
+        0xff4d7e3a: embed = 0x28e2b381 {
+            0x4f763541: list[string] = {
+                "Baron"
+                "EpicColor1"
+                "3Star"
+                "id=f9f86fba-d6c0-42e6-afe6-a09f44e21504"
+            }
+            0xccde7443: string = "ASSETS/Loot/Companions/Baron/Loot_Baron_Base_Classic_Tier3.LL_Baron_Base.dds"
+            0xe3b051db: bool = true
+            0x0e01ef72: bool = true
+        }
+        0x8d34a2de: embed = 0x634c3066 {
+            0x4bf172bc: u32 = 51003
+            0x1f01e303: u32 = 2
+        }
+    }
+}

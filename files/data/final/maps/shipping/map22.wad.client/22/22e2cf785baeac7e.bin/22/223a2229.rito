@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x223a2229 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_ORNNARTIFACTS_TANK"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT4_Item_OrnnAnimaVisage"
+                    "TFT4_Item_OrnnEternalWinter"
+                    "TFT4_Item_OrnnRanduinsSanctum"
+                    "TFT4_Item_OrnnRocketPropelledFist"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

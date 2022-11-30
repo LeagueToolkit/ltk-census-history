@@ -1,0 +1,17 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6fa6e7f1 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_UndergroundOrbs7"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Item_GrantOrbs7"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

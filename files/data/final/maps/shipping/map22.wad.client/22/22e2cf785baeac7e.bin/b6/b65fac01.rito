@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb65fac01 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT8_Underground_Heist6_Option5"
+        0x0773669d: map[string,pointer] = {
+            "Treasure" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "UndergroundOrbs3"
+                    "UndergroundComponent4"
+                    "TACTICIANS_CROWN"
+                    "UndergroundComponent4"
+                    "UndergroundOrbs3"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

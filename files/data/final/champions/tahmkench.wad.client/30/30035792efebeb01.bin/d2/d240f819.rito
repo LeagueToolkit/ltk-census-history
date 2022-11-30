@@ -146,18 +146,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "ShieldDurationAfterExit"
-                    0x246b0d8e: list[f32] = {
-                        2.5
-                        2.5
-                        2.5
-                        2.5
-                        2.5
-                        2.5
-                        2.5
-                    }
-                }
-                0x005008a6 {
                     0x19efbfdb: string = "MinimumAllyDuration"
                     0x246b0d8e: list[f32] = {
                         1
@@ -181,6 +169,18 @@ entries: map[hash,embed] = {
                         0.4
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "ShieldDecayPerSecond"
+                    0x246b0d8e: list[f32] = {
+                        200
+                        200
+                        200
+                        200
+                        200
+                        200
+                        200
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x23c5fdff = 0xbc409284 {
@@ -189,7 +189,7 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0xcfe67114
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 5e-04
+                            0x295c2889: f32 = 7e-04
                         }
                     }
                     0x5a2297d3: bool = true

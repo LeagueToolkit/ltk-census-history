@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2ef47e8e = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT8_Underground_Heist3_Option1"
+        0x0773669d: map[string,pointer] = {
+            "Treasure" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "RADIANTITEMS_SET5"
+                    "COMPONENT_NOSPAT"
+                    "COMPONENT_NOSPAT"
+                    "REFORGER"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

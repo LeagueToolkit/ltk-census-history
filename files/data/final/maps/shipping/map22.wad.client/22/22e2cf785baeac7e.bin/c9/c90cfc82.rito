@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc90cfc82 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT8_Underground_Heist5_Option3"
+        0x0773669d: map[string,pointer] = {
+            "Treasure" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "REMOVER"
+                    "RADIANTITEMS_SET5"
+                    "RADIANTITEMS_SET5"
+                    "RADIANTITEMS_SET5"
+                    "UndergroundOrbs2"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,133 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x415256e1 = 0x5e7e5a06 {
+        0xc8e37ef0: string = "TFT8_ViegoSpell"
+        0x56d2be52: pointer = 0x43368569 {
+            0x9c677a2c: u32 = 4
+            0xecf3f88d: u32 = 13327
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "Damage"
+                    0x246b0d8e: list[f32] = {
+                        0
+                        270
+                        400
+                        900
+                        0
+                        0
+                        0
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DamageFalloffPercent"
+                    0x246b0d8e: list[f32] = {
+                        0.3
+                        0.15
+                        0.15
+                        0.01
+                        0.3
+                        0.3
+                        0.3
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "AOEDamage"
+                    0x246b0d8e: list[f32] = {
+                        0
+                        135
+                        200
+                        450
+                        0
+                        0
+                        0
+                    }
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0xf24078df = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x995bf516 {
+                            0x1cd83c4b: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0x59e94c40
+                            }
+                            0xb8dcfcbb: f32 = 0.01
+                            0x992cd7eb: string = "noScale"
+                            0xa5749b52: string = "scaleAP"
+                        }
+                    }
+                }
+                0xcdbc7d90 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x995bf516 {
+                            0x1cd83c4b: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0xfcbed805
+                            }
+                            0xb8dcfcbb: f32 = 0.01
+                            0x992cd7eb: string = "noScale"
+                            0xa5749b52: string = "scaleAP"
+                        }
+                    }
+                }
+            }
+            0xfbd16fb5: string = ""
+            0x9ecac3a1: list[f32] = {
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+            }
+            0x18330965: f32 = -0.5
+            0x3a4c4690: f32 = -0.5
+            0xe321919c: bool = true
+            0x1b9cbd9b: list[f32] = {
+                10000
+                10000
+                10000
+                10000
+                10000
+                10000
+                10000
+            }
+            0x77b9f839: u32 = 2
+            0x5d46764f: pointer = 0x1fa28876 {}
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "TFT8_ViegoSpell"
+                    0x57b8b11b: link = 0x248db87a
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_TFT8_ViegoSpell_Name"
+                        "keyTooltip" = "Spell_TFT8_ViegoSpell_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 3
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Damage"
+                                    0x33c02d93: i32 = 2
+                                    0x566f3406: string = "Spell_ListType_Damage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "AOEDamage"
+                                    0x566f3406: string = "Spell_TFT8_ViegoSpell_AoeDamage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "DamageFalloffPercent"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_TFT8_ViegoSpell_FallOff"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

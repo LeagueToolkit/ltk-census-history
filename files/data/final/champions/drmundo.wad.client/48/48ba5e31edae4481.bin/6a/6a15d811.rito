@@ -39,13 +39,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "MissingHealthHeal"
                     0x246b0d8e: list[f32] = {
-                        0.045
-                        0.08
-                        0.115
+                        0.1
                         0.15
-                        0.185
-                        0.22
-                        0.255
+                        0.2
+                        0.25
+                        0.3
+                        0.35
+                        0.4
                     }
                 }
                 0x005008a6 {
@@ -61,26 +61,27 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "HealthIntoADRatio"
+                    0x19efbfdb: string = "TakedownDurationExtension"
                     0x246b0d8e: list[f32] = {
-                        0.025
-                        0.04
-                        0.055
-                        0.07
-                        0.085
-                        0.1
-                        0.115
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
                     }
                 }
-            }
-            0x94572284: map[hash,pointer] = {
-                0xd9ddf189 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x5f5c70a4 {
-                            0x4cec2c8a: u8 = 11
-                            0x7d3150ec: u8 = 2
-                            0xb386dcf1: hash = 0x844abaa3
-                        }
+                0x005008a6 {
+                    0x19efbfdb: string = "BonusPerNearbyChampion"
+                    0x246b0d8e: list[f32] = {
+                        0.05
+                        0.05
+                        0.05
+                        0.05
+                        0.05
+                        0.05
+                        0.05
                     }
                 }
             }
@@ -175,12 +176,6 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "MaxHealthHoT"
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_MaxHealthPercent"
-                                    0xac307ed6: u32 = 1
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "HealthIntoADRatio"
-                                    0xf506c7e6: f32 = 100
-                                    0x566f3406: string = "Spell_DrMundoR_ListType_HealthIntoAttackDamage"
                                     0xac307ed6: u32 = 1
                                 }
                             }

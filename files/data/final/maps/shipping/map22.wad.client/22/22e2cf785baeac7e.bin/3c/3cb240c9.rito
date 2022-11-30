@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3cb240c9 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_SpecialEmblemArmory_Set8_T1"
+        0x0773669d: map[string,pointer] = {
+            "Items" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "EMBLEM_SET8_Tailored"
+                    "EMBLEM_SET8_Elusive"
+                    "EMBLEM_SET8"
+                    "EMBLEM_SET8"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xadd813fd = 0x60e00531 {
+        0x19efbfdb: string = "AssistTable_DoubleUp_AssistLate"
+        0x0773669d: map[string,pointer] = {
+            "ArmoryContent_Assist_StageLate_A" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.6
+            }
+            "ArmoryContent_Assist_StageLate_B" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "ArmoryContent_Assist_StageLate_C" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+            "ArmoryContent_Assist_StageLate_D" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
