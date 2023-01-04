@@ -294,8 +294,10 @@ entries: map[hash,embed] = {
                 }
                 0x3c6468f4: string = "ASSETS/Shared/Particles/Base_flash_01.dds"
                 0x324f9f10: u8 = 2
-                0x2f2e99f2: string = "ASSETS/Characters/Riven/Skins/Skin34/Particles/Riven_Skin34_W_Decal.dds"
-                0x5b249407: u8 = 2
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Riven/Skins/Skin34/Particles/Riven_Skin34_W_Decal.dds"
+                    0x5b249407: u8 = 2
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1699,12 +1701,14 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Shared/Particles/Aatrox_Skin11_Particles_1_882.TFT_Set7.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.2 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 2, 2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Shared/Particles/Aatrox_Skin11_Particles_1_882.TFT_Set7.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 2, 2 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.2 }
+                    }
                 }
             }
         }

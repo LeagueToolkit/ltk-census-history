@@ -37,7 +37,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     0xe5f268dd: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { 0, -65, 0 }
+                        0xb4b427aa: vec3 = { 0, -120, 0 }
                     }
                     0x07f41838: list[embed] = {
                         0x04300058 {}
@@ -951,7 +951,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     0xe5f268dd: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { 0, -65, 0 }
+                        0xb4b427aa: vec3 = { 0, -120, 0 }
                     }
                     0x07f41838: list[embed] = {
                         0x04300058 {}
@@ -1024,15 +1024,17 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/SightWard/Skins/Skin208/Particles/BQ_WARD_SIGIL.dds"
-                0x2f2e99f2: string = "ASSETS/Shared/Particles/Aatrox_Base_Q_SmokeErode.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.25, 0 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.5, 0.5 }
-                }
-                0xedbcaa56: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 50
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Shared/Particles/Aatrox_Base_Q_SmokeErode.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.5, 0.5 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.25, 0 }
+                    }
+                    0xedbcaa56: embed = 0x04300058 {
+                        0xb4b427aa: f32 = 50
+                    }
                 }
             }
             0x09cde442 {
@@ -1296,7 +1298,9 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/SightWard/Skins/Skin208/Particles/glowflare.dds"
-                0x2f2e99f2: string = "ASSETS/Shared/Particles/Base_RainbowMult02.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Shared/Particles/Base_RainbowMult02.dds"
+                }
             }
         }
         0xecf1c6bc: string = "SightWard_Skin208_Spawn_Glow"

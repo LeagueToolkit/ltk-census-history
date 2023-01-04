@@ -1123,12 +1123,14 @@ entries: map[hash,embed] = {
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Varus/Skins/Skin17/Particles/Varus_Skin17_Primary_E_AOE_Mini_exit_smoke.dds"
                 0x324f9f10: u8 = 2
-                0x2f2e99f2: string = "ASSETS/Characters/Varus/Skins/Skin17/Particles/Varus_Aura_Self.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.1 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.8, 0.8 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Varus/Skins/Skin17/Particles/Varus_Aura_Self.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.8, 0.8 }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -1239,6 +1241,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Varus_Skin17_E_AOE_Mini"
         0xe7638138: string = "Characters/Varus/Skins/Skin17/Particles/Varus_Skin17_E_AOE_Mini"
-        0x9c677a2c: u8 = 199
+        0x9c677a2c: u16 = 199
     }
 }

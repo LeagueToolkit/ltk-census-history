@@ -227,7 +227,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Olaf/Skins/Skin16/Particles/Olaf_Skin16_Embers.Olaf_Hackathon.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Olaf/Skins/Skin16/Particles/Olaf_Skin16_Embers.dds"
                 0x1e67b0f1: u16 = 4
                 0x86a84509: vec2 = { 2, 2 }
             }
@@ -611,7 +611,9 @@ entries: map[hash,embed] = {
                 0x37ddb774: flag = true
                 0x3559e15b: flag = true
                 0x3c6468f4: string = "ASSETS/Characters/Olaf/Skins/Skin16/Particles/Olaf_Skin16_R_White.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Olaf/Skins/Skin16/Particles/Olaf_Skin16_R_mask_gradian_03.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Olaf/Skins/Skin16/Particles/Olaf_Skin16_R_mask_gradian_03.dds"
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1659,12 +1661,14 @@ entries: map[hash,embed] = {
                 0x3c6468f4: string = "ASSETS/Characters/Olaf/Skins/Skin16/Particles/Olaf_Skin16_Smoke_01.dds"
                 0x1e67b0f1: u16 = 4
                 0x86a84509: vec2 = { 2, 2 }
-                0x2f2e99f2: string = "ASSETS/Characters/Olaf/Skins/Skin16/Particles/Olaf_Skin16_explosion_smoke_mult.dds"
-                0x164b5733: vec2 = { 3, 3 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Olaf/Skins/Skin16/Particles/Olaf_Skin16_explosion_smoke_mult.dds"
+                    0x164b5733: vec2 = { 3, 3 }
+                }
             }
         }
         0xecf1c6bc: string = "Olaf_Skin16_R_buf"
         0xe7638138: string = "Characters/Olaf/Skins/Skin16/Particles/Olaf_Skin16_R_buf"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }

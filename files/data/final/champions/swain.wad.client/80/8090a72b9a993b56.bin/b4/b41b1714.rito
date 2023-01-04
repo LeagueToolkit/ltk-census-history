@@ -302,7 +302,9 @@ entries: map[hash,embed] = {
                 0x3c6468f4: string = "ASSETS/Characters/Swain/Skins/Base/Particles/Swain_Base_Death_Wisps.dds"
                 0x1e67b0f1: u16 = 2
                 0x86a84509: vec2 = { 2, 1 }
-                0x2f2e99f2: string = "ASSETS/Characters/Swain/Skins/Base/Particles/Morgana_Skin05_Q_Wisps_Mis_Mult.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Swain/Skins/Base/Particles/Morgana_Skin05_Q_Wisps_Mis_Mult.dds"
+                }
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.705
@@ -1363,12 +1365,14 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Swain/Skins/Base/Particles/Swain_Base_Z_WispMultAlpha.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.7, 0.7 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Swain/Skins/Base/Particles/Swain_Base_Z_WispMultAlpha.dds"
+                    0x164b5733: vec2 = { 1, 0.8 }
+                    0xe19d1593: vec2 = { 2, 2 }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.7, 0.7 }
+                    }
                 }
-                0x164b5733: vec2 = { 1, 0.8 }
-                0xe19d1593: vec2 = { 2, 2 }
             }
         }
         0xecf1c6bc: string = "Swain_Base_Recall_Raven_Child"

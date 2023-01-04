@@ -227,12 +227,14 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 138, 74, 0 }
                 }
                 0x3c6468f4: string = "ASSETS/Shared/Particles/UX/DLV_ExpandedHighlight_02.SRT_Preseason13_ObjStrWIP.dds"
-                0x2f2e99f2: string = "ASSETS/UX/TFTMobile/Particles/Kindred_Base_I_lamb_glow.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { -0.6, 0 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { -1, 1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/UX/TFTMobile/Particles/Kindred_Base_I_lamb_glow.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { -1, 1 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { -0.6, 0 }
+                    }
                 }
             }
             0x09cde442 {
@@ -312,27 +314,29 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 136, 74, 0 }
                 }
                 0x3c6468f4: string = "ASSETS/Shared/Particles/UX/DLV_ExpandedHighlight_02.SRT_Preseason13_ObjStrWIP.dds"
-                0x2f2e99f2: string = "ASSETS/UX/SRI/SRI_Quickbuy_Expand_Border_Wipe_Mat.tex"
-                0x5b249407: u8 = 2
-                0x13994637: embed = 0xd190a1e5 {
-                    0xbc037de7: pointer = 0xfe064c88 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                        }
-                        0x34474c3b: list[f32] = {
-                            0
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/UX/SRI/SRI_Quickbuy_Expand_Border_Wipe_Mat.tex"
+                    0x5b249407: u8 = 2
+                    0x22c3cf3e: embed = 0x6bcc7d70 {
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0x5d68eeb5: list[f32] = {
+                                1
+                                2
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { 0, 0 }
+                                { 0, 0 }
+                            }
                         }
                     }
-                }
-                0x6d97bb4d: embed = 0x6bcc7d70 {
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0x5d68eeb5: list[f32] = {
-                            1
-                            2
-                        }
-                        0x34474c3b: list[vec2] = {
-                            { 0, 0 }
-                            { 0, 0 }
+                    0xdd36a38c: embed = 0xd190a1e5 {
+                        0xbc037de7: pointer = 0xfe064c88 {
+                            0x5d68eeb5: list[f32] = {
+                                0
+                            }
+                            0x34474c3b: list[f32] = {
+                                0
+                            }
                         }
                     }
                 }
@@ -415,26 +419,28 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 137, 73, 0 }
                 }
                 0x3c6468f4: string = "ASSETS/Shared/Particles/UX/DLV_ExpandedHighlight_02.SRT_Preseason13_ObjStrWIP.dds"
-                0x2f2e99f2: string = "ASSETS/UX/SRI/SRI_Rec_Border_Wipe.tex"
-                0x5b249407: u8 = 2
-                0x13994637: embed = 0xd190a1e5 {
-                    0xbc037de7: pointer = 0xfe064c88 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                        }
-                        0x34474c3b: list[f32] = {
-                            0
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/UX/SRI/SRI_Rec_Border_Wipe.tex"
+                    0x5b249407: u8 = 2
+                    0x22c3cf3e: embed = 0x6bcc7d70 {
+                        0xb4b427aa: vec2 = { -3, 0 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0x5d68eeb5: list[f32] = {
+                                0
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { -3, 0 }
+                            }
                         }
                     }
-                }
-                0x6d97bb4d: embed = 0x6bcc7d70 {
-                    0xb4b427aa: vec2 = { -3, 0 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                        }
-                        0x34474c3b: list[vec2] = {
-                            { -3, 0 }
+                    0xdd36a38c: embed = 0xd190a1e5 {
+                        0xbc037de7: pointer = 0xfe064c88 {
+                            0x5d68eeb5: list[f32] = {
+                                0
+                            }
+                            0x34474c3b: list[f32] = {
+                                0
+                            }
                         }
                     }
                 }
@@ -444,7 +450,7 @@ entries: map[hash,embed] = {
         0xe7638138: string = "ClientStates/Gameplay/UX/LoL/LoLObjectiveVoteResults/VFX/OP_Exp_Trst_BR_RH_FLP"
         0xe0c375ae: string = "Play_sfx_hud_objectivevote_panel_close"
         0x3175593f: string = "ui"
-        0x9c677a2c: u8 = 199
+        0x9c677a2c: u16 = 199
         0xc803c9f6: u8 = 1
         0xdc5adca5: bool = false
     }

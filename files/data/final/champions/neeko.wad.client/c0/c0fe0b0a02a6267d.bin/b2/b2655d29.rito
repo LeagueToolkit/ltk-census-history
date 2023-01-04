@@ -274,8 +274,10 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 2, 1 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Neeko/Skins/Skin11/Particles/Neeko_Skin11_R_SphereScroll_01.dds"
-                0x164b5733: vec2 = { 0.5, 0.5 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Neeko/Skins/Skin11/Particles/Neeko_Skin11_R_SphereScroll_01.dds"
+                    0x164b5733: vec2 = { 0.5, 0.5 }
+                }
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.05
@@ -421,25 +423,27 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Neeko/Skins/Skin11/Particles/Neeko_Skin11_R_Swirls.dds"
-                0x6d97bb4d: embed = 0x6bcc7d70 {
-                    0xb4b427aa: vec2 = { 0.3, 5 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                            0.016222253
-                            0.041364845
-                            0.082040235
-                            0.18200397
-                            1
-                        }
-                        0x34474c3b: list[vec2] = {
-                            { 0.9, 15 }
-                            { 0.5656376, 8.133363 }
-                            { 0.44888148, 4.605556 }
-                            { 0.33252156, 2.4395187 }
-                            { 0.26745987, 1.0679798 }
-                            { 0.123120524, 0.41810346 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Neeko/Skins/Skin11/Particles/Neeko_Skin11_R_Swirls.dds"
+                    0x22c3cf3e: embed = 0x6bcc7d70 {
+                        0xb4b427aa: vec2 = { 0.3, 5 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0x5d68eeb5: list[f32] = {
+                                0
+                                0.016222253
+                                0.041364845
+                                0.082040235
+                                0.18200397
+                                1
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { 0.9, 15 }
+                                { 0.5656376, 8.133363 }
+                                { 0.44888148, 4.605556 }
+                                { 0.33252156, 2.4395187 }
+                                { 0.26745987, 1.0679798 }
+                                { 0.123120524, 0.41810346 }
+                            }
                         }
                     }
                 }
@@ -2402,6 +2406,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Neeko_Skin11_R_Hit_AoE"
         0xe7638138: string = "Characters/Neeko/Skins/Skin11/Particles/Neeko_Skin11_R_Hit_AoE"
-        0x9c677a2c: u8 = 198
+        0x9c677a2c: u16 = 198
     }
 }

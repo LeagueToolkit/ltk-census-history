@@ -52,13 +52,15 @@ entries: map[hash,embed] = {
                 0x3c91cebd: bool = true
                 0x37ddb774: flag = true
                 0x3559e15b: flag = true
-                0x7ac3b8a0: flag = true
                 0x3c6468f4: string = "ASSETS/Characters/Alistar/Skins/Skin19/Particles/Alistar_Skin19_Recall_Chain_mask.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Alistar/Skins/Skin19/Particles/Alistar_Skin19_Recall_Chain_GlowON.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Alistar/Skins/Skin19/Particles/Alistar_Skin19_Recall_Chain_GlowON.dds"
+                    0x5b249407: u8 = 2
+                    0x7ac3b8a0: flag = true
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 2 }
+                    }
                 }
-                0x5b249407: u8 = 2
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.25
@@ -153,10 +155,8 @@ entries: map[hash,embed] = {
                 0x7b7a7318: i16 = 5
                 0x67b5d729: vec2 = { -1, -2 }
                 0x3c91cebd: bool = true
-                0xeb3aefe7: flag = false
                 0x37ddb774: flag = true
                 0x3559e15b: flag = true
-                0x7ac3b8a0: flag = true
                 0x3c6468f4: string = "ASSETS/Characters/Alistar/Skins/Skin19/Particles/Alistar_Skin19_Recall_Chain_GlowPower.dds"
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 2, -5 }
@@ -195,8 +195,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Alistar/Skins/Skin19/Particles/Alistar_Skin19_Recall_Chain_mask.dds"
-                0x5b249407: u8 = 2
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Alistar/Skins/Skin19/Particles/Alistar_Skin19_Recall_Chain_mask.dds"
+                    0x5b249407: u8 = 2
+                    0xeb3aefe7: flag = false
+                    0x7ac3b8a0: flag = true
+                }
             }
         }
         0xecf1c6bc: string = "Alistar_Skin19_Recall_Chain_GlowON"

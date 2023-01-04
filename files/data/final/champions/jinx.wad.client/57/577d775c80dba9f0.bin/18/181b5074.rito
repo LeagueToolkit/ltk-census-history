@@ -556,7 +556,9 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0.85, 1 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Jinx/Skins/Skin20/Particles/Jinx_Skin20_W_Glow.DDS"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Jinx/Skins/Skin20/Particles/Jinx_Skin20_W_Glow.DDS"
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -633,11 +635,13 @@ entries: map[hash,embed] = {
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 1, 0 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Jinx/Skins/Skin20/Particles/Jinx_Skin20_Trail01.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Jinx/Skins/Skin20/Particles/Jinx_Skin20_Trail01.dds"
+                    0x5b249407: u8 = 2
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 2 }
+                    }
                 }
-                0x5b249407: u8 = 2
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -820,8 +824,10 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec2 = { 1, 0 }
                 }
                 0x324f9f10: u8 = 2
-                0x2f2e99f2: string = "ASSETS/Characters/Jinx/Skins/Skin20/Particles/Jinx_Skin20_Trail01.dds"
-                0x5b249407: u8 = 2
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Jinx/Skins/Skin20/Particles/Jinx_Skin20_Trail01.dds"
+                    0x5b249407: u8 = 2
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1697,6 +1703,6 @@ entries: map[hash,embed] = {
         0xecf1c6bc: string = "Jinx_Skin20_W_Tar"
         0xe7638138: string = "Characters/Jinx/Skins/Skin20/Particles/Jinx_Skin20_W_Tar"
         0xe0c375ae: string = "Play_sfx_Jinx_JinxWMissile_hit"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }

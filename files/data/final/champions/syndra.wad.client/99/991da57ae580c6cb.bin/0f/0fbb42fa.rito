@@ -454,7 +454,6 @@ entries: map[hash,embed] = {
                 0x7b7a7318: i16 = 40
                 0x6563bee8: u8 = 1
                 0x37ddb774: flag = true
-                0x7ac3b8a0: flag = true
                 0x27d40903: flag = true
                 0xdddde180: flag = true
                 0x1d779e6a: embed = 0x68dc32b6 {
@@ -496,26 +495,29 @@ entries: map[hash,embed] = {
                 0x3c6468f4: string = "ASSETS/Characters/Syndra/Skins/Skin16/Particles/Morg_Skin16_W_MeshMult.dds"
                 0x264afd39: u8 = 2
                 0x324f9f10: u8 = 2
-                0x2f2e99f2: string = "ASSETS/Characters/Syndra/Skins/Skin16/Particles/Syndra_Skin16_Z_FirePillar.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 2 }
-                }
-                0x5b249407: u8 = 2
-                0x6d97bb4d: embed = 0x6bcc7d70 {
-                    0xb4b427aa: vec2 = { 0, -5.5 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                            0.2
-                            0.5
-                            1
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Syndra/Skins/Skin16/Particles/Syndra_Skin16_Z_FirePillar.dds"
+                    0x5b249407: u8 = 2
+                    0x7ac3b8a0: flag = true
+                    0x22c3cf3e: embed = 0x6bcc7d70 {
+                        0xb4b427aa: vec2 = { 0, -5.5 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0x5d68eeb5: list[f32] = {
+                                0
+                                0.2
+                                0.5
+                                1
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { 0, -0 }
+                                { 0, -5.5 }
+                                { 0, -0.275 }
+                                { 0, -0 }
+                            }
                         }
-                        0x34474c3b: list[vec2] = {
-                            { 0, -0 }
-                            { 0, -5.5 }
-                            { 0, -0.275 }
-                            { 0, -0 }
-                        }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 2 }
                     }
                 }
             }
@@ -913,6 +915,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Syndra_Skin20_Z_Zed_Spawned"
         0xe7638138: string = "Characters/Syndra/Skins/Skin20/Particles/Syndra_Skin20_Z_Zed_Spawned"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }

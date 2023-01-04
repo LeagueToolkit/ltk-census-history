@@ -825,8 +825,10 @@ entries: map[hash,embed] = {
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/common_ball32_02.dds"
                 0x769be1af: vec2 = { 1, 1 }
-                0x2f2e99f2: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_Q_mask_01.dds"
-                0x387c77b1: vec2 = { 1, 1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_Q_mask_01.dds"
+                    0x387c77b1: vec2 = { 1, 1 }
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -2096,8 +2098,10 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 430, 70, 70 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_R_01.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_EmpQ_Stars.dds"
-                0x164b5733: vec2 = { 0.3, 0.3 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_EmpQ_Stars.dds"
+                    0x164b5733: vec2 = { 0.3, 0.3 }
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -2239,8 +2243,10 @@ entries: map[hash,embed] = {
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_R_03.dds"
                 0x86a84509: vec2 = { -1, 1 }
-                0x2f2e99f2: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_EmpQ_Stars.dds"
-                0x164b5733: vec2 = { 0.3, 0.3 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_EmpQ_Stars.dds"
+                    0x164b5733: vec2 = { 0.3, 0.3 }
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -2299,12 +2305,14 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 5, 1 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_R_05.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -0.2 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 5, 1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_R_05.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 5, 1 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -0.2 }
+                    }
                 }
             }
             0x09cde442 {
@@ -2883,9 +2891,11 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_NebulaMeshText03.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_EmpQ_Stars.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.5, 0.5 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Xerath/Skins/Skin05/Particles/Xerath_Skin05_EmpQ_Stars.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.5, 0.5 }
+                    }
                 }
             }
         }
@@ -2893,6 +2903,6 @@ entries: map[hash,embed] = {
         0xecf1c6bc: string = "Xerath_Skin05_R_aoe_miss"
         0xe7638138: string = "Characters/Xerath/Skins/Skin5/Particles/Xerath_Skin05_R_aoe_miss"
         0xe0c375ae: string = "Play_sfx_XerathSkin05_XerathLocusOfPower2_hit"
-        0x9c677a2c: u8 = 198
+        0x9c677a2c: u16 = 198
     }
 }

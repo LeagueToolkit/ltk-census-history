@@ -39,7 +39,6 @@ entries: map[hash,embed] = {
                 0x3c91cebd: bool = true
                 0x37ddb774: flag = true
                 0x3559e15b: flag = true
-                0x7ac3b8a0: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 0, 180, 0 }
                 }
@@ -70,7 +69,10 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Yorick/Skins/Skin05/Particles/Yorick_Skin05_cape_color.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Yorick/Skins/Skin05/Particles/Yorick_Skin05_cape_color.dds"
+                    0x7ac3b8a0: flag = true
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -106,7 +108,6 @@ entries: map[hash,embed] = {
                 0x3c91cebd: bool = true
                 0x37ddb774: flag = true
                 0x3559e15b: flag = true
-                0x7ac3b8a0: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 0, 180, 0 }
                 }
@@ -137,11 +138,14 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Yorick/Skins/Skin05/Particles/Yorick_Skin05_cape_color.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Yorick/Skins/Skin05/Particles/Yorick_Skin05_cape_color.dds"
+                    0x7ac3b8a0: flag = true
+                }
             }
         }
         0xecf1c6bc: string = "Yorick_Skin05_Idle_Cape_test"
         0xe7638138: string = "Characters/Yorick/Skins/Skin5/Particles/Yorick_Skin05_Idle_Cape_test"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }

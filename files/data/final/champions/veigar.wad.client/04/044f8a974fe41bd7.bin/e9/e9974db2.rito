@@ -138,12 +138,14 @@ entries: map[hash,embed] = {
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Veigar/Skins/Skin32/Particles/Veigar_Skin32_Particles_1_570.dds"
                 0x86a84509: vec2 = { 2, 2 }
-                0x2f2e99f2: string = "ASSETS/Characters/Veigar/Skins/Skin32/Particles/DarkstarMode_HookHitsStarThresh_Skin05_Z_Einstein_01_mult.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.05, -0.1 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.5, 0.5 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Veigar/Skins/Skin32/Particles/DarkstarMode_HookHitsStarThresh_Skin05_Z_Einstein_01_mult.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.5, 0.5 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.05, -0.1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -763,12 +765,14 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 1, 0.1 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Veigar/Skins/Skin32/Particles/Wisps_Mult.dds"
-                0x5b249407: u8 = 2
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 1, 8 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Veigar/Skins/Skin32/Particles/Wisps_Mult.dds"
+                    0x5b249407: u8 = 2
+                    0x387c77b1: vec2 = { 0.5, 0 }
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 1, 8 }
+                    }
                 }
-                0x387c77b1: vec2 = { 0.5, 0 }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1194,6 +1198,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Veigar_Skin33_E_cage_green_child"
         0xe7638138: string = "Characters/Veigar/Skins/Skin33/Particles/Veigar_Skin33_E_cage_green_child"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }

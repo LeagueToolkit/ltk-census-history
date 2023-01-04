@@ -649,10 +649,12 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 1, 0.25 }
                 }
-                0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/TFT5_Base_BasicGradient.dds"
-                0x5b249407: u8 = 2
-                0xedbcaa56: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 0.25
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/TFT5_Base_BasicGradient.dds"
+                    0x5b249407: u8 = 2
+                    0xedbcaa56: embed = 0x04300058 {
+                        0xb4b427aa: f32 = 0.25
+                    }
                 }
             }
             0x09cde442 {
@@ -773,7 +775,7 @@ entries: map[hash,embed] = {
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 450, 0, 0 }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/Booms/JaggedPath/TFT_ASC_prism_glow.TFT_Set6_Stage2.dds"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/Booms/JaggedPath/TFT_ASC_prism_glow.dds"
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.1
@@ -1598,7 +1600,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/Booms/JaggedPath/TFT_JaggedPass_Shard_01.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/Booms/JaggedPath/TFT_JaggedPass_Shard_01.dds"
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1955,11 +1959,13 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 2.5, 2.5 }
                 }
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.5 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 2, 2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 2, 2 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.5 }
+                    }
                 }
             }
             0x09cde442 {
@@ -2049,11 +2055,13 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 2, 2 }
                 }
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.5 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 2, 2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 2, 2 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.5 }
+                    }
                 }
             }
             0x09cde442 {
@@ -2510,6 +2518,6 @@ entries: map[hash,embed] = {
         0xecf1c6bc: string = "TFT_Dmg_Skin31_Tar_1Star"
         0xe7638138: string = "Loadouts/TFTDamageSkins/JaggedPath/VFXDefinition/TFT_Dmg_Skin31_Tar_1Star"
         0xe0c375ae: string = "Play_sfx_tft_dmg_skin31_tier1_hit"
-        0x9c677a2c: u8 = 198
+        0x9c677a2c: u16 = 198
     }
 }

@@ -1,0 +1,18 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x53a89776 = 0x60e00531 {
+        0x19efbfdb: string = "LNY23_Gold3Dummy_Loot"
+        0x0773669d: map[string,pointer] = {
+            "LNY23_Gold3" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.75
+            }
+            "LNY23_TrainingDummy" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.25
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

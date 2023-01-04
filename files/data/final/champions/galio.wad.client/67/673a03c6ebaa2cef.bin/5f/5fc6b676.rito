@@ -188,7 +188,6 @@ entries: map[hash,embed] = {
                 0xf02bd44d: vec2 = { 1, 0.4 }
                 0x3c91cebd: bool = true
                 0x6563bee8: u8 = 1
-                0xeb3aefe7: flag = false
                 0x27d40903: flag = true
                 0xdddde180: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
@@ -237,7 +236,10 @@ entries: map[hash,embed] = {
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0.02, 0 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Galio/Skins/Skin13/Particles/Galio_Skin13_R_Cas_Hover_EnergyMult.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Galio/Skins/Skin13/Particles/Galio_Skin13_R_Cas_Hover_EnergyMult.dds"
+                    0xeb3aefe7: flag = false
+                }
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.8
@@ -1502,7 +1504,9 @@ entries: map[hash,embed] = {
                 0x3c6468f4: string = "ASSETS/Characters/Galio/Skins/Skin13/Particles/Galio_Skin13_R_Dirt_Takeoff_v02.dds"
                 0x1e67b0f1: u16 = 4
                 0x86a84509: vec2 = { 2, 2 }
-                0x2f2e99f2: string = "ASSETS/Characters/Galio/Skins/Skin13/Particles/Color_Galio_E_windwall_dust.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Galio/Skins/Skin13/Particles/Color_Galio_E_windwall_dust.dds"
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1622,7 +1626,9 @@ entries: map[hash,embed] = {
                 0x968279e0: embed = 0x04300058 {
                     0xb4b427aa: f32 = -90
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Galio/Skins/Skin13/Particles/Galio_Q_mis_Dirt_Sides_V03.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Galio/Skins/Skin13/Particles/Galio_Q_mis_Dirt_Sides_V03.dds"
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1839,11 +1845,13 @@ entries: map[hash,embed] = {
                 0x3c6468f4: string = "ASSETS/Characters/Varus/Skins/Skin09/Particles/Varus_Skin09_Recall_Petal_Amber.dds"
                 0x1e67b0f1: u16 = 4
                 0x86a84509: vec2 = { 2, 2 }
-                0x2f2e99f2: string = "ASSETS/Characters/Varus/Skins/Skin09/Particles/Varus_Skin09_Recall_burning_mult.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 1, 0.5 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Varus/Skins/Skin09/Particles/Varus_Skin09_Recall_burning_mult.dds"
+                    0x164b5733: vec2 = { 2, 2 }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 1, 0.5 }
+                    }
                 }
-                0x164b5733: vec2 = { 2, 2 }
             }
         }
         0xecf1c6bc: string = "Galio_Skin13_W_Cas_AOE"

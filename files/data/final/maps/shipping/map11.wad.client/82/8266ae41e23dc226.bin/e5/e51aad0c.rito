@@ -60,9 +60,11 @@ entries: map[hash,embed] = {
                 0xb9198a2a: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0, -0.05 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Kayn/Skins/Base/Particles/SRU_Cloud_explosion_mult.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Kayn/Skins/Base/Particles/SRU_Cloud_explosion_mult.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -296,7 +298,6 @@ entries: map[hash,embed] = {
                     0x5da05f9b: string = "ASSETS/Characters/Kayn/Skins/Base/Particles/Kayn_Base_E_Thresh_Skin05_W_Einstein_01_mult.dds"
                 }
                 0x6563bee8: u8 = 1
-                0xeb3aefe7: flag = false
                 0xddfca826: flag = true
                 0xe09d5ebb: flag = true
                 0x27d40903: flag = true
@@ -357,6 +358,9 @@ entries: map[hash,embed] = {
                 0x3c6468f4: string = "ASSETS/Characters/Kayn/Skins/Base/Particles/Kayn_Base_Primary_R_cas_shadow.dds"
                 0x1e67b0f1: u16 = 4
                 0x86a84509: vec2 = { 2, 2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0xeb3aefe7: flag = false
+                }
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.3
@@ -643,7 +647,6 @@ entries: map[hash,embed] = {
                 0x7b7a7318: i16 = -4
                 0xb99310f4: u8 = 0
                 0x6563bee8: u8 = 1
-                0xeb3aefe7: flag = false
                 0xddfca826: flag = true
                 0xe09d5ebb: flag = true
                 0x27d40903: flag = true
@@ -702,6 +705,9 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Kayn/Skins/Base/Particles/SRU_Order_explosion_smoke.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0xeb3aefe7: flag = false
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -942,6 +948,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "UltBook_Kayn_Primary_R_cas"
         0xe7638138: string = "Maps/ModeSpecificData/ULTBOOK/UltBook_KaynR/Loadable/Particles/UltBook_Kayn_Primary_R_cas"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }

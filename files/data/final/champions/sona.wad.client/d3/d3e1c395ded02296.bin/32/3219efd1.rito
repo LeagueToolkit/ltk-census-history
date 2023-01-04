@@ -41,7 +41,6 @@ entries: map[hash,embed] = {
                 }
                 0x7b7a7318: i16 = 800
                 0x6563bee8: u8 = 1
-                0xeb3aefe7: flag = false
                 0x3559e15b: flag = true
                 0x8d2e2474: flag = true
                 0xf0eb7084: embed = 0x68dc32b6 {
@@ -72,17 +71,20 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Sona/Skins/Skin07/Particles/Sona_Skin07_Aura_Clean.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Sona/Skins/Skin07/Particles/Sona_Skin07_RadialShape.dds"
-                0x13994637: embed = 0xd190a1e5 {
-                    0xb4b427aa: f32 = -800
-                    0xbc037de7: pointer = 0xfe064c88 {
-                        0x5d68eeb5: list[f32] = {
-                            0.3
-                            1
-                        }
-                        0x34474c3b: list[f32] = {
-                            -400
-                            -1200
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Sona/Skins/Skin07/Particles/Sona_Skin07_RadialShape.dds"
+                    0xeb3aefe7: flag = false
+                    0xdd36a38c: embed = 0xd190a1e5 {
+                        0xb4b427aa: f32 = -800
+                        0xbc037de7: pointer = 0xfe064c88 {
+                            0x5d68eeb5: list[f32] = {
+                                0.3
+                                1
+                            }
+                            0x34474c3b: list[f32] = {
+                                -400
+                                -1200
+                            }
                         }
                     }
                 }
@@ -708,11 +710,13 @@ entries: map[hash,embed] = {
                 0x3c6468f4: string = "ASSETS/Characters/Sona/Skins/Base/Particles/Sona_Base_Z_Notes_01.dds"
                 0x1e67b0f1: u16 = 8
                 0x86a84509: vec2 = { 4, 2 }
-                0x2f2e99f2: string = "ASSETS/Characters/Sona/Skins/Base/Particles/Sona_Base_Q_Area_SonicWave.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { -2.5, 0.1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Sona/Skins/Base/Particles/Sona_Base_Q_Area_SonicWave.dds"
+                    0x164b5733: vec2 = { 5, 1 }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { -2.5, 0.1 }
+                    }
                 }
-                0x164b5733: vec2 = { 5, 1 }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1577,23 +1581,25 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Sona/Skins/Base/Particles/Sona_Base_BA_Trail_01.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { -1.5, 0 }
-                }
-                0x164b5733: vec2 = { 0.25, 1 }
-                0x6d97bb4d: embed = 0x6bcc7d70 {
-                    0xb4b427aa: vec2 = { -1, 0 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                        }
-                        0x34474c3b: list[vec2] = {
-                            { -1, 0 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Sona/Skins/Base/Particles/Sona_Base_BA_Trail_01.dds"
+                    0x164b5733: vec2 = { 0.25, 1 }
+                    0xe19d1593: vec2 = { 0, 1 }
+                    0x22c3cf3e: embed = 0x6bcc7d70 {
+                        0xb4b427aa: vec2 = { -1, 0 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0x5d68eeb5: list[f32] = {
+                                0
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { -1, 0 }
+                            }
                         }
                     }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { -1.5, 0 }
+                    }
                 }
-                0xe19d1593: vec2 = { 0, 1 }
             }
             0x09cde442 {
                 0x22e763bc: f32 = 1
@@ -2018,9 +2024,11 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Sona/Skins/Skin07/Particles/Sona_Skin07_MainHeart_ThickerLines_Inside.dds"
-                0x2f2e99f2: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.TFT_Set7.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.8 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Shared/Particles/3026_Base_Vertical_Mask_Wispy.TFT_Set7.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.8 }
+                    }
                 }
             }
             0x09cde442 {

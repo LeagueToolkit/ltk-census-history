@@ -453,14 +453,16 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 5.5, 0, 5.5 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Lulu/Skins/Skin05/Particles/Lulu_Skin05_Z_decal_single.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Lulu/Skins/Skin05/Particles/Lulu_Skin05_Z_Puddle_Ripples.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.25 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Lulu/Skins/Skin05/Particles/Lulu_Skin05_Z_Puddle_Ripples.dds"
+                    0x164b5733: vec2 = { 0.25, 1 }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.25 }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.25 }
+                    }
                 }
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.25 }
-                }
-                0x164b5733: vec2 = { 0.25, 1 }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -760,6 +762,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Lulu_Skin05_R_tar_buf"
         0xe7638138: string = "Characters/Lulu/Skins/Skin5/Particles/Lulu_Skin05_R_tar_buf"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }

@@ -115,7 +115,9 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec2 = { 0, 0.2 }
                 }
                 0x324f9f10: u8 = 2
-                0x2f2e99f2: string = "ASSETS/Characters/Lulu/Skins/Skin26/Particles/Lulu_Skin26_Decal_Ramp_01.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Lulu/Skins/Skin26/Particles/Lulu_Skin26_Decal_Ramp_01.dds"
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -224,9 +226,11 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 100, 19.1, 19.1 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Lulu/Skins/Skin26/Particles/Base_Mis_AlphaCircleGradient.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Lulu/Skins/Skin26/Particles/Lulu_Skin26_R_Decal_Ramp_02.dds"
-                0xedbcaa56: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 600
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Lulu/Skins/Skin26/Particles/Lulu_Skin26_R_Decal_Ramp_02.dds"
+                    0xedbcaa56: embed = 0x04300058 {
+                        0xb4b427aa: f32 = 600
+                    }
                 }
             }
             0x09cde442 {
@@ -350,6 +354,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Lulu_Skin34_R_tar_knockup"
         0xe7638138: string = "Characters/Lulu/Skins/Skin34/Particles/Lulu_Skin34_R_tar_knockup"
-        0x9c677a2c: u8 = 198
+        0x9c677a2c: u16 = 198
     }
 }

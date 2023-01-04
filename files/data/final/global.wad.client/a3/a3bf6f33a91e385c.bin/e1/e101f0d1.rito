@@ -429,15 +429,17 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/Ashe_Skin11_Z_NebulaMeshText03.dds"
-                0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/Ashe_Skin11_Z_RainbowMult.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 1.5 }
-                }
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.3 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 1, 0.5 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/Ashe_Skin11_Z_RainbowMult.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 1, 0.5 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 1.5 }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.3 }
+                    }
                 }
             }
             0x09cde442 {
@@ -2532,6 +2534,6 @@ entries: map[hash,embed] = {
         0xecf1c6bc: string = "TFT_Dmg_Skin14_Tar_3Star"
         0xe7638138: string = "Loadouts/TFTDamageSkins/NimbusCloud/VFXDefinition/TFT_Dmg_Skin14_Tar_3Star"
         0xe0c375ae: string = "Play_sfx_tft_dmg_skin14_tier3_hit"
-        0x9c677a2c: u8 = 198
+        0x9c677a2c: u16 = 198
     }
 }

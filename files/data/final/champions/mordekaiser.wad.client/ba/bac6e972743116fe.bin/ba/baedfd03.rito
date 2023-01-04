@@ -959,12 +959,14 @@ entries: map[hash,embed] = {
                     0xffa711fb: string = "ASSETS/Characters/Mordekaiser/Skins/Skin05/Particles/Mordekaiser_Skin05_colorGrad_16.dds"
                     0x9e52382f: i32 = 16
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Z_Mult.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { -0.5, -0.5 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.2, 0.2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Mordekaiser/Skins/Base/Particles/Mordekaiser_Base_Z_Mult.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.2, 0.2 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { -0.5, -0.5 }
+                    }
                 }
             }
             0x09cde442 {
@@ -1067,6 +1069,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Mordekaiser_Skin05_Death"
         0xe7638138: string = "Characters/Mordekaiser/Skins/Skin5/Particles/Mordekaiser_Skin05_Death"
-        0x9c677a2c: u8 = 134
+        0x9c677a2c: u16 = 134
     }
 }

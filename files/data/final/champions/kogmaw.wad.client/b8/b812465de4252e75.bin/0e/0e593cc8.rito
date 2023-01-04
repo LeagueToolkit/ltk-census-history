@@ -359,8 +359,10 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x86a84509: vec2 = { 2, 1 }
-                0x2f2e99f2: string = "ASSETS/Particles/Smoke_Clouds_2x2_HC.dds"
-                0x164b5733: vec2 = { 2, 2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Particles/Smoke_Clouds_2x2_HC.dds"
+                    0x164b5733: vec2 = { 2, 2 }
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -711,6 +713,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "KogMaw_Skin08_BA_tar"
         0xe7638138: string = "Characters/KogMaw/Skins/Skin8/Particles/KogMaw_Skin08_BA_tar"
-        0x9c677a2c: u8 = 198
+        0x9c677a2c: u16 = 198
     }
 }

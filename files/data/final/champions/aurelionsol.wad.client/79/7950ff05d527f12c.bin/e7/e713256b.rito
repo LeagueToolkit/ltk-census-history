@@ -168,12 +168,14 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x86a84509: vec2 = { 0.5, 1 }
-                0x2f2e99f2: string = "ASSETS/Characters/AurelionSol/Skins/Base/Particles/AurelionSol_Base_Q_SpiralMesh.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 1, 0 }
-                }
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/AurelionSol/Skins/Base/Particles/AurelionSol_Base_Q_SpiralMesh.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 1, 0 }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -339,7 +341,9 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x86a84509: vec2 = { 0.5, 1 }
-                0x2f2e99f2: string = "ASSETS/Characters/AurelionSol/Skins/Base/Particles/AurelionSol_Base_Q_SpiralMesh.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/AurelionSol/Skins/Base/Particles/AurelionSol_Base_Q_SpiralMesh.dds"
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1010,6 +1014,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "AurelionSol_Base_E_Loop"
         0xe7638138: string = "Characters/AurelionSol/Skins/Skin0/Particles/AurelionSol_Base_E_Loop"
-        0x9c677a2c: u8 = 192
+        0x9c677a2c: u16 = 192
     }
 }

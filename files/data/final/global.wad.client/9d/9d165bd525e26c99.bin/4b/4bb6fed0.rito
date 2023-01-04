@@ -466,7 +466,7 @@ entries: map[hash,embed] = {
                     }
                     0x34bee0ea: f32 = 0.2
                     0x2244caa3: f32 = 0.2
-                    0x5da05f9b: string = "ASSETS/Characters/Volibear/Skins/Skin07/Particles/Volibear_Skin07_Beamtexture01.dds"
+                    0x5da05f9b: string = "ASSETS/Maps/Particles/TFT/Booms/DragonTempest/Volibear_Skin07_Beamtexture01.dds"
                     0xb0794a80: embed = 0x074f91dd {
                         0xb4b427aa: vec4 = { 0, 1, 0, 0 }
                     }
@@ -643,7 +643,7 @@ entries: map[hash,embed] = {
                     }
                     0x2244caa3: f32 = 0.15
                     0x7c7970d8: f32 = 1
-                    0x5da05f9b: string = "ASSETS/Shared/Particles/PetChibiJinx_Base_Erode.TFT_Booms_Jinx.dds"
+                    0x5da05f9b: string = "ASSETS/Shared/Particles/PetChibiJinx_Base_Erode.dds"
                     0xb0794a80: embed = 0x074f91dd {
                         0xb4b427aa: vec4 = { 0, 0, 1, 0 }
                     }
@@ -756,13 +756,12 @@ entries: map[hash,embed] = {
                     }
                     0x34bee0ea: f32 = 0.3
                     0x2244caa3: f32 = 0.3
-                    0x5da05f9b: string = "ASSETS/Maps/Particles/TFT/Set7_Traits/Kayn_Skin08_ErosionPack01.TFT_Set7.dds"
+                    0x5da05f9b: string = "ASSETS/Maps/Particles/TFT/Booms/DragonTempest/TFT_Base_ErosionPack01.dds"
                     0xb0794a80: embed = 0x074f91dd {
                         0xb4b427aa: vec4 = { 1, 0, 0, 0 }
                     }
                 }
                 0x3c91cebd: bool = true
-                0x7ac3b8a0: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 0, 270, 0 }
                 }
@@ -784,24 +783,27 @@ entries: map[hash,embed] = {
                 0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/Set7_Traits/Morg_Skin08_MeshMult.TFT_Set7.dds"
                 0x264afd39: u8 = 2
                 0x324f9f10: u8 = 2
-                0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/TFT_BeamTrail01.TFT_Set6_Stage2.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -1 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 1, 3 }
-                }
-                0x6d97bb4d: embed = 0x6bcc7d70 {
-                    0xb4b427aa: vec2 = { 0, 3 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                            1
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/TFT_BeamTrail01.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 1, 3 }
+                    }
+                    0x7ac3b8a0: flag = true
+                    0x22c3cf3e: embed = 0x6bcc7d70 {
+                        0xb4b427aa: vec2 = { 0, 3 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0x5d68eeb5: list[f32] = {
+                                0
+                                1
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { 0, 3 }
+                                { 0, 0.6 }
+                            }
                         }
-                        0x34474c3b: list[vec2] = {
-                            { 0, 3 }
-                            { 0, 0.6 }
-                        }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -1 }
                     }
                 }
             }
@@ -1372,7 +1374,6 @@ entries: map[hash,embed] = {
                 0x3c91cebd: bool = true
                 0x6563bee8: u8 = 1
                 0xe09d5ebb: flag = true
-                0x7ac3b8a0: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 90, 0, 0 }
                 }
@@ -1448,7 +1449,10 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0.3, 0.2 }
                 }
-                0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/Booms/DragonTempest/common_color-bellcurve.TFT_DoubleUp_Assist_Update.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/Booms/DragonTempest/common_color-bellcurve.TFT_DoubleUp_Assist_Update.dds"
+                    0x7ac3b8a0: flag = true
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1906,13 +1910,12 @@ entries: map[hash,embed] = {
                     }
                     0x34bee0ea: f32 = 0.3
                     0x2244caa3: f32 = 0.3
-                    0x5da05f9b: string = "ASSETS/Maps/Particles/TFT/Set7_Traits/Kayn_Skin08_ErosionPack01.TFT_Set7.dds"
+                    0x5da05f9b: string = "ASSETS/Maps/Particles/TFT/Booms/DragonTempest/TFT_Base_ErosionPack01.dds"
                     0xb0794a80: embed = 0x074f91dd {
                         0xb4b427aa: vec4 = { 1, 0, 0, 0 }
                     }
                 }
                 0x3c91cebd: bool = true
-                0x7ac3b8a0: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 0, 270, 0 }
                 }
@@ -1934,24 +1937,27 @@ entries: map[hash,embed] = {
                 0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/Set7_Traits/Morg_Skin08_MeshMult.TFT_Set7.dds"
                 0x264afd39: u8 = 2
                 0x324f9f10: u8 = 2
-                0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/TFT_BeamTrail01.TFT_Set6_Stage2.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -1 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 1, 3 }
-                }
-                0x6d97bb4d: embed = 0x6bcc7d70 {
-                    0xb4b427aa: vec2 = { 0, 3 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                            1
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/TFT_BeamTrail01.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 1, 3 }
+                    }
+                    0x7ac3b8a0: flag = true
+                    0x22c3cf3e: embed = 0x6bcc7d70 {
+                        0xb4b427aa: vec2 = { 0, 3 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0x5d68eeb5: list[f32] = {
+                                0
+                                1
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { 0, 3 }
+                                { 0, 0.6 }
+                            }
                         }
-                        0x34474c3b: list[vec2] = {
-                            { 0, 3 }
-                            { 0, 0.6 }
-                        }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -1 }
                     }
                 }
             }
@@ -2579,7 +2585,7 @@ entries: map[hash,embed] = {
                     }
                     0x34bee0ea: f32 = 0.3
                     0x2244caa3: f32 = 0.3
-                    0x5da05f9b: string = "ASSETS/Maps/Particles/TFT/Ashe_Base_BA_ErosionPack01.TFT_Set7.dds"
+                    0x5da05f9b: string = "ASSETS/Maps/Particles/TFT/Booms/DragonTempest/TFT_Base_ErosionPack01.dds"
                     0xb0794a80: embed = 0x074f91dd {
                         0xb4b427aa: vec4 = { 1, 0, 0, 0 }
                     }
@@ -2682,44 +2688,46 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/Booms/DragonTempest/TFT_Base_Fire_Mult1.TFT_Set7.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.05, 1 }
-                }
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 1, 1 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0xa7084719: list[pointer] = {
-                            0x53a6c97e {
-                                0x40c351da: list[f32] = {
-                                    0
-                                    1
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/Booms/DragonTempest/TFT_Base_Fire_Mult1.TFT_Set7.dds"
+                    0x164b5733: vec2 = { 2, 1 }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.05, 1 }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 1, 1 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0xa7084719: list[pointer] = {
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        0.5
+                                        1
+                                    }
                                 }
-                                0xe44b7382: list[f32] = {
-                                    0.5
-                                    1
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        0
+                                        1
+                                    }
                                 }
                             }
-                            0x53a6c97e {
-                                0x40c351da: list[f32] = {
-                                    0
-                                    1
-                                }
-                                0xe44b7382: list[f32] = {
-                                    0
-                                    1
-                                }
+                            0x5d68eeb5: list[f32] = {
+                                0
                             }
-                        }
-                        0x5d68eeb5: list[f32] = {
-                            0
-                        }
-                        0x34474c3b: list[vec2] = {
-                            { 1, 1 }
+                            0x34474c3b: list[vec2] = {
+                                { 1, 1 }
+                            }
                         }
                     }
                 }
-                0x164b5733: vec2 = { 2, 1 }
             }
         }
         0xecf1c6bc: string = "TFT_Dmg_Skin57_Cas_1Star"

@@ -146,9 +146,11 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Irelia/Skins/Skin15/Particles/Irelia_Skin15_IG_Decal.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Irelia/Skins/Skin15/Particles/Irelia_Skin15_W_Wing_Mult.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Irelia/Skins/Skin15/Particles/Irelia_Skin15_W_Wing_Mult.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.2 }
+                    }
                 }
             }
             0x09cde442 {
@@ -245,8 +247,10 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec2 = { 0, -0.05 }
                 }
                 0x324f9f10: u8 = 2
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.3 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.3 }
+                    }
                 }
             }
             0x09cde442 {
@@ -587,11 +591,13 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 1, 1.5 }
                 }
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 2, -2 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 1, 0.5 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 1, 0.5 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 2, -2 }
+                    }
                 }
             }
             0x09cde442 {
@@ -666,8 +672,10 @@ entries: map[hash,embed] = {
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 2, -3 }
                 }
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 2, -2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 2, -2 }
+                    }
                 }
             }
             0x09cde442 {
@@ -837,6 +845,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Irelia_Skin15_Z_Recall_Platform_Air"
         0xe7638138: string = "Characters/Irelia/Skins/Skin15/Particles/Irelia_Skin15_Z_Recall_Platform_Air"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }

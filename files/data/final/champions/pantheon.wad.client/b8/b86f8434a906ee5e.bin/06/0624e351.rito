@@ -490,9 +490,11 @@ entries: map[hash,embed] = {
                 0x3c6468f4: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_Q_SmokeTip.dds"
                 0x1e67b0f1: u16 = 2
                 0x86a84509: vec2 = { 2, 1 }
-                0x2f2e99f2: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_Q_Nebula_Streak_Mult_Vertical.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_Q_Nebula_Streak_Mult_Vertical.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -756,9 +758,11 @@ entries: map[hash,embed] = {
                 0x3c6468f4: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_Q_SmokeTip.dds"
                 0x1e67b0f1: u16 = 2
                 0x86a84509: vec2 = { 2, 1 }
-                0x2f2e99f2: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_Q_Nebula_Streak_Mult_Vertical.dds"
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.25, 1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_Q_Nebula_Streak_Mult_Vertical.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.25, 1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -2132,7 +2136,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x7b7a7318: i16 = 1
-                0x7ac3b8a0: flag = true
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 3.5, 0, 3.5 }
                 }
@@ -2173,8 +2176,11 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 5, -1 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_R_Cas_GroundMult.dds"
-                0x5b249407: u8 = 2
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_R_Cas_GroundMult.dds"
+                    0x5b249407: u8 = 2
+                    0x7ac3b8a0: flag = true
+                }
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.5
@@ -2240,29 +2246,31 @@ entries: map[hash,embed] = {
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_R_Wave_Texture.dds"
                 0x324f9f10: u8 = 2
-                0x2f2e99f2: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_Cape_Nebula.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 1 }
-                }
-                0x6d97bb4d: embed = 0x6bcc7d70 {
-                    0xb4b427aa: vec2 = { 0, 2.5 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                            0.3004535
-                            0.57709754
-                            0.80839
-                            0.93764174
-                            1.0272108
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Pantheon/Skins/Base/Particles/Pantheon_Base_Cape_Nebula.dds"
+                    0x22c3cf3e: embed = 0x6bcc7d70 {
+                        0xb4b427aa: vec2 = { 0, 2.5 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0x5d68eeb5: list[f32] = {
+                                0
+                                0.3004535
+                                0.57709754
+                                0.80839
+                                0.93764174
+                                1.0272108
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { 0, 0 }
+                                { 0, 1.1184211 }
+                                { 0, 1.4692982 }
+                                { 0, 3.7938597 }
+                                { 0, 5.504386 }
+                                { 0, 8.084795 }
+                            }
                         }
-                        0x34474c3b: list[vec2] = {
-                            { 0, 0 }
-                            { 0, 1.1184211 }
-                            { 0, 1.4692982 }
-                            { 0, 3.7938597 }
-                            { 0, 5.504386 }
-                            { 0, 8.084795 }
-                        }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 1 }
                     }
                 }
             }
@@ -3310,7 +3318,6 @@ entries: map[hash,embed] = {
                 }
                 0x3c91cebd: bool = true
                 0x37ddb774: flag = true
-                0x7ac3b8a0: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { -60, 0, 0 }
                 }
@@ -3367,11 +3374,14 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x86a84509: vec2 = { 4, 1 }
-                0x2f2e99f2: string = "ASSETS/Characters/Pantheon/Skins/Skin07/Particles/Pantheon_Skin07_E_ChainSaw_RaysMult.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -0.3 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Pantheon/Skins/Skin07/Particles/Pantheon_Skin07_E_ChainSaw_RaysMult.dds"
+                    0x5b249407: u8 = 2
+                    0x7ac3b8a0: flag = true
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -0.3 }
+                    }
                 }
-                0x5b249407: u8 = 2
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.75
@@ -3416,7 +3426,6 @@ entries: map[hash,embed] = {
                 }
                 0x3c91cebd: bool = true
                 0x37ddb774: flag = true
-                0x7ac3b8a0: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { -60, 0, 0 }
                 }
@@ -3473,16 +3482,19 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x86a84509: vec2 = { 4, 1 }
-                0x2f2e99f2: string = "ASSETS/Characters/Pantheon/Skins/Skin07/Particles/Pantheon_Skin07_E_ChainSaw_RaysMult.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -0.3 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Pantheon/Skins/Skin07/Particles/Pantheon_Skin07_E_ChainSaw_RaysMult.dds"
+                    0x5b249407: u8 = 2
+                    0x7ac3b8a0: flag = true
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -0.3 }
+                    }
                 }
-                0x5b249407: u8 = 2
             }
         }
         0xecf1c6bc: string = "Pantheon_Skin07_R_cas"
         0xe7638138: string = "Characters/Pantheon/Skins/Skin7/Particles/Pantheon_Skin07_R_cas"
         0x5a6a73e2: string = "Play_sfx_PantheonSkin07_PantheonR_OnCast_stereo"
-        0x9c677a2c: u8 = 132
+        0x9c677a2c: u16 = 132
     }
 }

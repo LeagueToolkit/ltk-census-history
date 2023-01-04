@@ -99,9 +99,11 @@ entries: map[hash,embed] = {
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 1, 0 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Ekko/Skins/Base/Particles/Ekko_Base_W_Shield_Shock.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { -1, 0 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Ekko/Skins/Base/Particles/Ekko_Base_W_Shield_Shock.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { -1, 0 }
+                    }
                 }
             }
             0x09cde442 {
@@ -587,12 +589,14 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 4, 1 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Ekko/Skins/Skin12/Particles/Ekko_Skin12_W_DomeGlow.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.1, 0.3 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 2, 1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Ekko/Skins/Skin12/Particles/Ekko_Skin12_W_DomeGlow.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 2, 1 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.1, 0.3 }
+                    }
                 }
             }
             0x09cde442 {
@@ -704,12 +708,14 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 2, 0.5 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Ekko/Skins/Skin12/Particles/Ekko_Skin12_W_DomeGlow.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.1, 0.3 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 2, 1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Ekko/Skins/Skin12/Particles/Ekko_Skin12_W_DomeGlow.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 2, 1 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.1, 0.3 }
+                    }
                 }
             }
             0x09cde442 {
@@ -1362,7 +1368,6 @@ entries: map[hash,embed] = {
                     0x1f661402: f32 = 80
                 }
                 0x3c91cebd: bool = true
-                0xeb3aefe7: flag = false
                 0xe09d5ebb: flag = true
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 2.5, 3, 1 }
@@ -1433,7 +1438,10 @@ entries: map[hash,embed] = {
                 }
                 0x324f9f10: u8 = 2
                 0x86a84509: vec2 = { 4, 1 }
-                0x2f2e99f2: string = "ASSETS/Characters/Ekko/Skins/Skin12/Particles/Ekko_Skin12_Z_Mult2.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Ekko/Skins/Skin12/Particles/Ekko_Skin12_Z_Mult2.dds"
+                    0xeb3aefe7: flag = false
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1546,6 +1554,6 @@ entries: map[hash,embed] = {
         0xecf1c6bc: string = "Ekko_Skin12_W_Detonate_Slow_enemy"
         0xe7638138: string = "Characters/Ekko/Skins/Skin12/Particles/Ekko_Skin12_W_Detonate_Slow_enemy"
         0x5a6a73e2: string = "Play_sfx_Ekko_EkkoWMis_buffactivate"
-        0x9c677a2c: u8 = 245
+        0x9c677a2c: u16 = 245
     }
 }

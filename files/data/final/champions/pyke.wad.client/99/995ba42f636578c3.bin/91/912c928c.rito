@@ -236,15 +236,17 @@ entries: map[hash,embed] = {
                 0x968279e0: embed = 0x04300058 {
                     0xb4b427aa: f32 = 90
                 }
-                0x33b8543e: embed = 0x04300058 {
-                    0xb4b427aa: f32 = -90
-                }
-                0x2f2e99f2: string = "ASSETS/Characters/Pyke/Skins/Skin45/Particles/Pyke_Skin45_Z_Trail_01c.PIE_C_12_21.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.5, 0 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.25, 0.5 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Pyke/Skins/Skin45/Particles/Pyke_Skin45_Z_Trail_01c.PIE_C_12_21.dds"
+                    0x33b8543e: embed = 0x04300058 {
+                        0xb4b427aa: f32 = -90
+                    }
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.25, 0.5 }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.5, 0 }
+                    }
                 }
             }
             0x09cde442 {
@@ -490,7 +492,6 @@ entries: map[hash,embed] = {
                     0x5da05f9b: string = "ASSETS/Characters/Pyke/Skins/Skin45/Particles/Pyke_NE_Mask_2x2_Dissolve.PIE_C_12_21.dds"
                 }
                 0x3c91cebd: bool = true
-                0x7ac3b8a0: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 0, 45, 0 }
                 }
@@ -514,24 +515,27 @@ entries: map[hash,embed] = {
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0, 0.5 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Pyke/Skins/Skin45/Particles/Pyke_Skin45_R_Flames_Mask_01.PIE_C_12_21.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -0.25 }
-                }
-                0x5b249407: u8 = 3
-                0x6d97bb4d: embed = 0x6bcc7d70 {
-                    0xb4b427aa: vec2 = { 0.25, 1 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                            0.25
-                            1
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Pyke/Skins/Skin45/Particles/Pyke_Skin45_R_Flames_Mask_01.PIE_C_12_21.dds"
+                    0x5b249407: u8 = 3
+                    0x7ac3b8a0: flag = true
+                    0x22c3cf3e: embed = 0x6bcc7d70 {
+                        0xb4b427aa: vec2 = { 0.25, 1 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0x5d68eeb5: list[f32] = {
+                                0
+                                0.25
+                                1
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { 0.5, 3 }
+                                { 0.125, 0.9 }
+                                { 0.05, 0 }
+                            }
                         }
-                        0x34474c3b: list[vec2] = {
-                            { 0.5, 3 }
-                            { 0.125, 0.9 }
-                            { 0.05, 0 }
-                        }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -0.25 }
                     }
                 }
             }
@@ -637,12 +641,14 @@ entries: map[hash,embed] = {
                 0x968279e0: embed = 0x04300058 {
                     0xb4b427aa: f32 = 90
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Pyke/Skins/Skin45/Particles/ball01.PIE_C_12_21.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -0.1 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.5, 0.7 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Pyke/Skins/Skin45/Particles/ball01.PIE_C_12_21.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.5, 0.7 }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -0.1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -1429,6 +1435,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Pyke_Skin48_Emote_Dance_Dagger"
         0xe7638138: string = "Characters/Pyke/Skins/Skin48/Particles/Pyke_Skin48_Emote_Dance_Dagger"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }

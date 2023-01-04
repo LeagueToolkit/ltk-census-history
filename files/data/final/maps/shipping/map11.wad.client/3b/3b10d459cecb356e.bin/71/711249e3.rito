@@ -255,7 +255,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Shared/Particles/Base_Ash_01.TFT_1123.dds"
+                0x3c6468f4: string = "ASSETS/Shared/Particles/Base_Ash_01.dds"
                 0x1e67b0f1: u16 = 4
                 0x86a84509: vec2 = { 2, 2 }
             }
@@ -347,12 +347,14 @@ entries: map[hash,embed] = {
                 0x3559e15b: flag = true
                 0x27d40903: flag = true
                 0x3c6468f4: string = "ASSETS/Maps/Particles/SR/Infernal_South_Red_Top_Log_Burn_Mask.dds"
-                0x2f2e99f2: string = "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.TFT_Set7.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -1 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 1, 2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Maps/Particles/SR/SRX_Infernal_Fire_Mult.TFT_Set7.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 1, 2 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -426,6 +428,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "SRX_Infernal_South_Red_Top_Log"
         0xe7638138: string = "Maps/Particles/SR/SRX_Infernal_South_Red_Top_Log"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }

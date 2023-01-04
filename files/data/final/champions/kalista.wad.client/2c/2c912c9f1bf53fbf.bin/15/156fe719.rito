@@ -66,9 +66,11 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 1.8, 1, 0.9 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Kalista/Skins/Skin05/Particles/Kalista_Skin05_BA_Spear_Glow.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Kalista/Skins/Skin05/Particles/AlphaSlice_1.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.5 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Kalista/Skins/Skin05/Particles/AlphaSlice_1.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.5 }
+                    }
                 }
             }
             0x09cde442 {
@@ -308,7 +310,9 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 80, 40, 0 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Kalista/Skins/Skin05/Particles/Kalista_Skin05_BA_Spear_head.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Kalista/Skins/Skin05/Particles/Kalista_Skin05_BA_mis_spear.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Kalista/Skins/Skin05/Particles/Kalista_Skin05_BA_mis_spear.dds"
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -376,6 +380,6 @@ entries: map[hash,embed] = {
         0x3aae4707: option[f32] = {
             400
         }
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }

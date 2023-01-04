@@ -72,7 +72,6 @@ entries: map[hash,embed] = {
                 0x7b7a7318: i16 = 1
                 0x67b5d729: vec2 = { 0, -5 }
                 0x3c91cebd: bool = true
-                0xeb3aefe7: flag = false
                 0x37ddb774: flag = true
                 0x8d2e2474: flag = true
                 0x7ba817e9: flag = false
@@ -120,7 +119,10 @@ entries: map[hash,embed] = {
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { -2, -0.3 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Varus/Skins/Skin09/Particles/Varus_Skin09_dash_sub.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Varus/Skins/Skin09/Particles/Varus_Skin09_dash_sub.dds"
+                    0xeb3aefe7: flag = false
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -237,7 +239,9 @@ entries: map[hash,embed] = {
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { -2, -1 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Varus/Skins/Skin09/Particles/Varus_Skin09_bigglow02.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Varus/Skins/Skin09/Particles/Varus_Skin09_bigglow02.dds"
+                }
             }
         }
         0xecf1c6bc: string = "Varus_Skin09_Recall_Flame"

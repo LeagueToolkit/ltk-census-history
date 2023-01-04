@@ -47,15 +47,17 @@ entries: map[hash,embed] = {
                 0xe09d5ebb: flag = true
                 0x3c6468f4: string = "ASSETS/Characters/Evelynn/Skins/Skin22/Particles/Evelynn_Skin22_ShadowForm_TX_CM.dds"
                 0x1e67b0f1: u16 = 4
-                0x2f2e99f2: string = "ASSETS/Characters/Evelynn/Skins/Skin06/Particles/Evelynn_Skin06_DiamondTexture_1.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.015, 0.015 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 4, 4 }
-                }
-                0xedbcaa56: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 25
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Evelynn/Skins/Skin06/Particles/Evelynn_Skin06_DiamondTexture_1.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 4, 4 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.015, 0.015 }
+                    }
+                    0xedbcaa56: embed = 0x04300058 {
+                        0xb4b427aa: f32 = 25
+                    }
                 }
             }
             0x09cde442 {
@@ -150,7 +152,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Evelynn/Skins/Base/Particles/Evelynn_Base_W_light_wall_mult.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Evelynn/Skins/Base/Particles/Evelynn_Base_W_light_wall_mult.dds"
+                }
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.25

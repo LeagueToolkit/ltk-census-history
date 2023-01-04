@@ -580,7 +580,6 @@ entries: map[hash,embed] = {
                 }
                 0x7b7a7318: i16 = 6
                 0x6563bee8: u8 = 1
-                0xeb3aefe7: flag = false
                 0x27d40903: flag = true
                 0xdddde180: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
@@ -604,7 +603,10 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Syndra/Skins/Skin25/Particles/Syndra_Skin25_Q_Decal_Ring01.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Syndra/Skins/Skin25/Particles/Syndra_Skin25_Q_portal_tex.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Syndra/Skins/Skin25/Particles/Syndra_Skin25_Q_portal_tex.dds"
+                    0xeb3aefe7: flag = false
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1788,9 +1790,11 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Syndra/Skins/Skin25/Particles/Syndra_Skin25_MorgBA_MeshMult.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Syndra/Skins/Skin25/Particles/Syndra_Skin25_Q_Mis_Energy.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.5, 2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Syndra/Skins/Skin25/Particles/Syndra_Skin25_Q_Mis_Energy.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.5, 2 }
+                    }
                 }
             }
             0x09cde442 {
@@ -1976,6 +1980,6 @@ entries: map[hash,embed] = {
         0xecf1c6bc: string = "Syndra_Skin33_Q_Lv5_aoe_gather_enemy"
         0xe7638138: string = "Characters/Syndra/Skins/Skin33/Particles/Syndra_Skin33_Q_Lv5_aoe_gather_enemy"
         0xe0c375ae: string = "Play_sfx_SyndraSkin25_SyndraQSpell_buffactivate_lvl5"
-        0x9c677a2c: u8 = 198
+        0x9c677a2c: u16 = 198
     }
 }

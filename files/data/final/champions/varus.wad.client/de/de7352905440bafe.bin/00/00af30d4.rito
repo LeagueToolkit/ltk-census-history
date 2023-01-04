@@ -195,10 +195,12 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x86a84509: vec2 = { 1, 0.5 }
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { -0.35, -0.1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x164b5733: vec2 = { 3, 1 }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { -0.35, -0.1 }
+                    }
                 }
-                0x164b5733: vec2 = { 3, 1 }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -266,7 +268,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0xb56e8811: string = "ASSETS/Characters/Varus/Skins/Skin06/Particles/color-hold.Varus_VFX_Update.dds"
+                0xb56e8811: string = "ASSETS/Characters/Varus/Skins/Skin06/Particles/color-hold.dds"
                 0x3d7e6258: embed = 0x074f91dd {
                     0xbc037de7: pointer = 0x4349c5f5 {
                         0x5d68eeb5: list[f32] = {
@@ -379,7 +381,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Varus/Skins/Skin06/Particles/smoke_fade_01.Varus_VFX_Update.DDS"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Varus/Skins/Skin06/Particles/smoke_fade_01.DDS"
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -508,52 +512,54 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Varus/Skins/Skin06/Particles/Varus_Skin06_Q_Bow_Beam_Mult.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.15, 0 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0xa7084719: list[pointer] = {
-                            0x53a6c97e {
-                                0x40c351da: list[f32] = {
-                                    0
-                                    1
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Varus/Skins/Skin06/Particles/Varus_Skin06_Q_Bow_Beam_Mult.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.15, 0 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0xa7084719: list[pointer] = {
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        0.25
+                                        1
+                                    }
                                 }
-                                0xe44b7382: list[f32] = {
-                                    0.25
-                                    1
-                                }
+                                0x53a6c97e {}
                             }
-                            0x53a6c97e {}
-                        }
-                        0x5d68eeb5: list[f32] = {
-                            0
-                        }
-                        0x34474c3b: list[vec2] = {
-                            { 0.15, 0 }
+                            0x5d68eeb5: list[f32] = {
+                                0
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { 0.15, 0 }
+                            }
                         }
                     }
-                }
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 1, 0 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0xa7084719: list[pointer] = {
-                            0x53a6c97e {
-                                0x40c351da: list[f32] = {
-                                    0
-                                    1
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 1, 0 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0xa7084719: list[pointer] = {
+                                0x53a6c97e {
+                                    0x40c351da: list[f32] = {
+                                        0
+                                        1
+                                    }
+                                    0xe44b7382: list[f32] = {
+                                        0
+                                        1
+                                    }
                                 }
-                                0xe44b7382: list[f32] = {
-                                    0
-                                    1
-                                }
+                                0x53a6c97e {}
                             }
-                            0x53a6c97e {}
-                        }
-                        0x5d68eeb5: list[f32] = {
-                            0
-                        }
-                        0x34474c3b: list[vec2] = {
-                            { 1, 0 }
+                            0x5d68eeb5: list[f32] = {
+                                0
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { 1, 0 }
+                            }
                         }
                     }
                 }
@@ -561,6 +567,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Varus_Skin06_Idle_Forearm"
         0xe7638138: string = "Characters/Varus/Skins/Skin6/Particles/Varus_Skin06_Idle_Forearm"
-        0x9c677a2c: u8 = 199
+        0x9c677a2c: u16 = 199
     }
 }

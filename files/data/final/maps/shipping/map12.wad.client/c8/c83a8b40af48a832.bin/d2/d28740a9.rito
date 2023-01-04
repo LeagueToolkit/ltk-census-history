@@ -1908,9 +1908,11 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 2, 2 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/PetChoncc/Skins/Skin27/Particles/PetChoncc_Skin27_Emote_spray01.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -0.25 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/PetChoncc/Skins/Skin27/Particles/PetChoncc_Skin27_Emote_spray01.dds"
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -0.25 }
+                    }
                 }
             }
             0x09cde442 {
@@ -2054,7 +2056,9 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0.4, 0.5 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/PetChoncc/Skins/Skin27/Particles/PetChoncc_Skin27_glowwater.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/PetChoncc/Skins/Skin27/Particles/PetChoncc_Skin27_glowwater.dds"
+                }
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.1
@@ -2197,7 +2201,9 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0.4, 0.5 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/PetChoncc/Skins/Skin27/Particles/PetChoncc_Skin27_Emote_glowwater.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/PetChoncc/Skins/Skin27/Particles/PetChoncc_Skin27_Emote_glowwater.dds"
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -3611,12 +3617,14 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 1.5, 1 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/PetChoncc/Skins/Skin27/Particles/PetChoncc_Skin27_Emote_GradientV.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.4 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 1, 0.7 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/PetChoncc/Skins/Skin27/Particles/PetChoncc_Skin27_Emote_GradientV.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 1, 0.7 }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.4 }
+                    }
                 }
             }
             0x09cde442 {
@@ -4318,31 +4326,33 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 4, 1 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/PetChoncc/Skins/Skin27/Particles/PetChoncc_Skin27_Emote_Mask_01.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.4 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                            1
-                        }
-                        0x34474c3b: list[vec2] = {
-                            { 0, 0.32 }
-                            { 0, 0.4 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/PetChoncc/Skins/Skin27/Particles/PetChoncc_Skin27_Emote_Mask_01.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 2, 1 }
+                    }
+                    0x22c3cf3e: embed = 0x6bcc7d70 {
+                        0xb4b427aa: vec2 = { 0, -1 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0x5d68eeb5: list[f32] = {
+                                0
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { 0, -1 }
+                            }
                         }
                     }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 2, 1 }
-                }
-                0x6d97bb4d: embed = 0x6bcc7d70 {
-                    0xb4b427aa: vec2 = { 0, -1 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                        }
-                        0x34474c3b: list[vec2] = {
-                            { 0, -1 }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.4 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0x5d68eeb5: list[f32] = {
+                                0
+                                1
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { 0, 0.32 }
+                                { 0, 0.4 }
+                            }
                         }
                     }
                 }
@@ -4905,7 +4915,7 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "PetChoncc_Skin27_Emote_Surf01"
         0xe7638138: string = "Characters/PetChoncc/Skins/Skin27/Particles/PetChoncc_Skin27_Emote_Surf01"
-        0x9c677a2c: u8 = 198
+        0x9c677a2c: u16 = 198
         0xf55e1472: bool = true
     }
 }

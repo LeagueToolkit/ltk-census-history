@@ -42,15 +42,17 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 1.03, 1.05, 1 }
                 }
                 0x3c6468f4: string = "ASSETS/UX/TFTMobile/Particles/alpha_Lobby_Player.dds"
-                0x2f2e99f2: string = "ASSETS/UX/TFTMobile/Particles/Kindred_Base_I_lamb_glow.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.2 }
-                }
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.5, 0.5 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { -1, 1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/UX/TFTMobile/Particles/Kindred_Base_I_lamb_glow.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { -1, 1 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.2 }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.5, 0.5 }
+                    }
                 }
             }
             0x09cde442 {
@@ -298,12 +300,14 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 1.03, 1.05, 1 }
                 }
                 0x3c6468f4: string = "ASSETS/UX/TFTMobile/Particles/alpha_Lobby_Player.dds"
-                0x2f2e99f2: string = "ASSETS/UX/TFTMobile/Particles/Kindred_Base_I_lamb_glow.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.2 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { -1, 1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/UX/TFTMobile/Particles/Kindred_Base_I_lamb_glow.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { -1, 1 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.2 }
+                    }
                 }
             }
         }
@@ -311,7 +315,7 @@ entries: map[hash,embed] = {
         0xe7638138: string = "ClientStates/PreGame/Particles/TFTM_Lobby_Friend_Pending"
         0x5a6a73e2: string = "Play_sfx_PreGameUI_lobby_invited"
         0x3175593f: string = "ui"
-        0x9c677a2c: u8 = 215
+        0x9c677a2c: u16 = 215
         0xc803c9f6: u8 = 1
         0xdc5adca5: bool = false
     }

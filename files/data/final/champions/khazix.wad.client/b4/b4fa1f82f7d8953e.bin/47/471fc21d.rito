@@ -63,7 +63,9 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec2 = { 0, 0.1 }
                 }
                 0x86a84509: vec2 = { 4, 1 }
-                0x2f2e99f2: string = "ASSETS/Characters/KhaZix/Skins/Skin60/Particles/Khazix_Skin60_Q_mult_2.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/KhaZix/Skins/Skin60/Particles/Khazix_Skin60_Q_mult_2.dds"
+                }
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.1
@@ -144,9 +146,11 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0.5, 1 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/KhaZix/Skins/Skin60/Particles/Khazix_Skin60_Einstein_04_mult.dds"
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.5, 5 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/KhaZix/Skins/Skin60/Particles/Khazix_Skin60_Einstein_04_mult.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.5, 5 }
+                    }
                 }
             }
             0x09cde442 {
@@ -298,6 +302,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Khazix_Skin60_Q_WeaponTrail"
         0xe7638138: string = "Characters/Khazix/Skins/Skin60/Particles/Khazix_Skin60_Q_WeaponTrail"
-        0x9c677a2c: u8 = 198
+        0x9c677a2c: u16 = 198
     }
 }

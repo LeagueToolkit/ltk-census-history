@@ -21,7 +21,7 @@ entries: map[hash,embed] = {
                 0x3d25b8ce: string = "OutwardPulseNoise"
                 0x007b14f6: pointer = 0x8594e839 {
                     0x0d89732d: embed = 0x6a88780b {
-                        0xd467e8c0: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_W_CylinderDisk.PIE_C_12_2.scb"
+                        0xd467e8c0: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_W_CylinderDisk.scb"
                     }
                 }
                 0xfa784eab: u8 = 1
@@ -44,7 +44,6 @@ entries: map[hash,embed] = {
                 }
                 0x6563bee8: u8 = 1
                 0x3559e15b: flag = true
-                0x7ac3b8a0: flag = true
                 0x27d40903: flag = true
                 0xdddde180: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
@@ -66,7 +65,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_Passive_Freeze_Mult.PIE_C_12_2.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_Passive_Freeze_Mult.dds"
                 0x264afd39: u8 = 2
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { -0.4, 0 }
@@ -89,24 +88,27 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 1, 3 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Lux/Skins/Skin29/Particles/Lux_Skin29_MorgW_MeshMult.PIE_C_12_2.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.5 }
-                }
-                0x5b249407: u8 = 2
-                0x6d97bb4d: embed = 0x6bcc7d70 {
-                    0xb4b427aa: vec2 = { 0, 0.8 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                            0.7
-                            1
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Lux/Skins/Skin29/Particles/Lux_Skin29_MorgW_MeshMult.dds"
+                    0x5b249407: u8 = 2
+                    0x7ac3b8a0: flag = true
+                    0x22c3cf3e: embed = 0x6bcc7d70 {
+                        0xb4b427aa: vec2 = { 0, 0.8 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0x5d68eeb5: list[f32] = {
+                                0
+                                0.7
+                                1
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { 0, -4 }
+                                { 0, -0.8 }
+                                { 0, 0 }
+                            }
                         }
-                        0x34474c3b: list[vec2] = {
-                            { 0, -4 }
-                            { 0, -0.8 }
-                            { 0, 0 }
-                        }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.5 }
                     }
                 }
             }
@@ -160,7 +162,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    0x5da05f9b: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_R_Erode.PIE_C_12_2.dds"
+                    0x5da05f9b: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_R_Erode.dds"
                     0xb0794a80: embed = 0x074f91dd {
                         0xb4b427aa: vec4 = { 1, 0, 0, 0 }
                     }
@@ -189,7 +191,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_R_Decal_Outer.PIE_C_12_2.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_R_Decal_Outer.dds"
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -248,7 +250,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x2244caa3: f32 = 0.3
-                    0x5da05f9b: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_R_Erode.PIE_C_12_2.dds"
+                    0x5da05f9b: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_R_Erode.dds"
                     0xb0794a80: embed = 0x074f91dd {
                         0xb4b427aa: vec4 = { 1, 0, 0, 0 }
                     }
@@ -277,13 +279,15 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_R_Decal_Outer.PIE_C_12_2.dds"
-                0x2f2e99f2: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.15 }
-                }
-                0xedbcaa56: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 8
+                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_R_Decal_Outer.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Shared/Particles/3026_Items_Noise_02.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.15 }
+                    }
+                    0xedbcaa56: embed = 0x04300058 {
+                        0xb4b427aa: f32 = 8
+                    }
                 }
             }
             0x09cde442 {
@@ -308,7 +312,7 @@ entries: map[hash,embed] = {
                 }
                 0x007b14f6: pointer = 0x8594e839 {
                     0x0d89732d: embed = 0x6a88780b {
-                        0xd467e8c0: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_W_CylinderDisk.PIE_C_12_2.scb"
+                        0xd467e8c0: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_W_CylinderDisk.scb"
                     }
                 }
                 0xfa784eab: u8 = 4
@@ -318,7 +322,6 @@ entries: map[hash,embed] = {
                 0x7b7a7318: i16 = 102
                 0x6563bee8: u8 = 1
                 0x3559e15b: flag = true
-                0x7ac3b8a0: flag = true
                 0x27d40903: flag = true
                 0xdddde180: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
@@ -366,7 +369,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_BA_WhispTrail.PIE_C_12_2.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_BA_WhispTrail.dds"
                 0x264afd39: u8 = 2
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { -0.5, 0 }
@@ -374,24 +377,27 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 1, 2 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Lux/Skins/Skin29/Particles/Lux_Skin29_MorgW_MeshMult.PIE_C_12_2.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.5 }
-                }
-                0x5b249407: u8 = 2
-                0x6d97bb4d: embed = 0x6bcc7d70 {
-                    0xb4b427aa: vec2 = { 0, 1 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                            0.7
-                            1
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Lux/Skins/Skin29/Particles/Lux_Skin29_MorgW_MeshMult.dds"
+                    0x5b249407: u8 = 2
+                    0x7ac3b8a0: flag = true
+                    0x22c3cf3e: embed = 0x6bcc7d70 {
+                        0xb4b427aa: vec2 = { 0, 1 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0x5d68eeb5: list[f32] = {
+                                0
+                                0.7
+                                1
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { 0, -5 }
+                                { 0, -1 }
+                                { 0, 0 }
+                            }
                         }
-                        0x34474c3b: list[vec2] = {
-                            { 0, -5 }
-                            { 0, -1 }
-                            { 0, 0 }
-                        }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.5 }
                     }
                 }
             }
@@ -437,7 +443,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x007b14f6: pointer = 0x4beb81fd {}
-                0xb56e8811: string = "ASSETS/Characters/Kindred/skins/Skin12/Particles/Kindred_Skin12_R_Fish_77_01.PIE_C_12_2.dds"
+                0xb56e8811: string = "ASSETS/Characters/Kindred/skins/Skin12/Particles/Kindred_Skin12_R_Fish_77_01.dds"
                 0xfa784eab: u8 = 1
                 0x3d7e6258: embed = 0x074f91dd {
                     0xbc037de7: pointer = 0x4349c5f5 {
@@ -459,7 +465,7 @@ entries: map[hash,embed] = {
                 0xb99310f4: u8 = 0
                 0xbc809cdb: pointer = 0x49d51b69 {
                     0xbc5efeaa: f32 = 0.001
-                    0xe672d557: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_CrackDistortion.PIE_C_12_2.dds"
+                    0xe672d557: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_CrackDistortion.dds"
                 }
                 0x6563bee8: u8 = 1
                 0x3559e15b: flag = true
@@ -505,7 +511,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Kindred/skins/Skin12/Particles/Kindred_Skin12_Aura_Self.PIE_C_12_2.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Kindred/skins/Skin12/Particles/Kindred_Skin12_Aura_Self.dds"
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -549,7 +555,7 @@ entries: map[hash,embed] = {
                 }
                 0x007b14f6: pointer = 0x8594e839 {
                     0x0d89732d: embed = 0x6a88780b {
-                        0xd467e8c0: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_TeaMesh.PIE_C_12_2.scb"
+                        0xd467e8c0: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_TeaMesh.scb"
                     }
                 }
                 0xfa784eab: u8 = 1
@@ -587,7 +593,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x2244caa3: f32 = 0.25
-                    0x5da05f9b: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_MordikaiserR_GroundGirdAlpha01.PIE_C_12_2.dds"
+                    0x5da05f9b: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_MordikaiserR_GroundGirdAlpha01.dds"
                 }
                 0x6563bee8: u8 = 1
                 0x27d40903: flag = true
@@ -645,7 +651,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_W_Mask_Wispy01.PIE_C_12_2.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_W_Mask_Wispy01.dds"
                 0xb9198a2a: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0.5, 0 }
                     0xbc037de7: pointer = 0x2e0ea245 {
@@ -701,7 +707,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_Glow02.PIE_C_12_2.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_Glow02.dds"
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -762,7 +770,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_R_Corona.PIE_C_12_2.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_R_Corona.dds"
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -825,7 +833,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_R_Corona.PIE_C_12_2.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_R_Corona.dds"
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -869,7 +877,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x007b14f6: pointer = 0x4beb81fd {}
-                0xb56e8811: string = "ASSETS/Characters/Kindred/skins/Skin12/Particles/Kindred_Skin12_R_Fish_77_01.PIE_C_12_2.dds"
+                0xb56e8811: string = "ASSETS/Characters/Kindred/skins/Skin12/Particles/Kindred_Skin12_R_Fish_77_01.dds"
                 0xfa784eab: u8 = 1
                 0x83cdeaa1: embed = 0x074f91dd {
                     0xb4b427aa: vec4 = { 0.1764706, 0.7647059, 0.972549, 1 }
@@ -936,7 +944,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Kindred/skins/Skin12/Particles/Kindred_Skin12_Aura_Self.PIE_C_12_2.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Kindred/skins/Skin12/Particles/Kindred_Skin12_Aura_Self.dds"
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -990,7 +998,7 @@ entries: map[hash,embed] = {
                 0xd4e17a53: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 1.25, 1, 1 }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_Glow02.PIE_C_12_2.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_Glow02.dds"
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1040,7 +1048,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    0x5da05f9b: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_R_Erode.PIE_C_12_2.dds"
+                    0x5da05f9b: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_R_Erode.dds"
                     0xb0794a80: embed = 0x074f91dd {
                         0xb4b427aa: vec4 = { 1, 0, 0, 0 }
                     }
@@ -1069,7 +1077,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_R_Decal_Inner.PIE_C_12_2.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_R_Decal_Inner.dds"
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1256,13 +1264,13 @@ entries: map[hash,embed] = {
                 }
                 0x007b14f6: pointer = 0x8594e839 {
                     0x0d89732d: embed = 0x6a88780b {
-                        0xd467e8c0: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Shards/Lissandra_Skin23_Shard_06.PIE_C_12_2.scb"
+                        0xd467e8c0: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Shards/Lissandra_Skin23_Shard_06.scb"
                     }
                 }
-                0xb56e8811: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/common_color-hold.PIE_C_12_2.dds"
+                0xb56e8811: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/common_color-hold.dds"
                 0xfa784eab: u8 = 3
                 0x3f7567cd: pointer = 0x4112ea83 {
-                    0x85a34efd: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_CubeMap.PIE_C_12_2.dds"
+                    0x85a34efd: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_CubeMap.dds"
                     0x11bc7060: f32 = 0.3
                     0x173a5bb6: f32 = 0.9
                     0x561f4fea: vec4 = { 0.6745098, 0.77254903, 1, 1 }
@@ -1370,7 +1378,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_Passive_Porcelain_Crack.PIE_C_12_2.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_Passive_Porcelain_Crack.dds"
                 0xb9198a2a: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0.5, 0.5 }
                     0xbc037de7: pointer = 0x2e0ea245 {
@@ -1493,7 +1501,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_W_CrackAOE.PIE_C_12_2.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_W_CrackAOE.dds"
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1583,7 +1591,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_W_InteriorCrack.PIE_C_12_2.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/Lissandra_Skin23_W_InteriorCrack.dds"
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1705,9 +1713,9 @@ entries: map[hash,embed] = {
                     10
                 }
                 0x5452d898: pointer = 0xbfc2e133 {
-                    0xf83ca5b7: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Lissandra_Skin23.PIE_C_12_2.skn"
-                    0x7012f6cd: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Lissandra_Skin23.PIE_C_12_2.skl"
-                    0x98557a5e: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Animations/Run_ICE.PIE_C_12_2.anm"
+                    0xf83ca5b7: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Lissandra_Skin23.skn"
+                    0x7012f6cd: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Lissandra_Skin23.skl"
+                    0x98557a5e: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Animations/Run_ICE.anm"
                     0x7c00598c: bool = true
                 }
                 0x3d25b8ce: string = "Temp_BurstUp"
@@ -1942,7 +1950,7 @@ entries: map[hash,embed] = {
                         { 0, 0, 0 }
                     }
                 }
-                0x2135c4d4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/W/Lissandra_Skin23_WShardRoot.PIE_C_12_2.scb"
+                0x2135c4d4: string = "ASSETS/Characters/Lissandra/Skins/Skin23/Particles/W/Lissandra_Skin23_WShardRoot.scb"
                 0xfa784eab: u8 = 1
                 0x3d7e6258: embed = 0x074f91dd {
                     0xbc037de7: pointer = 0x4349c5f5 {

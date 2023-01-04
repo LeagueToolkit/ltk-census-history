@@ -193,12 +193,14 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 200, 1000, 0 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Soraka/Skins/Skin16/Particles/Soraka_Skin16_Moonlight.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Soraka/Skins/Skin16/Particles/Soraka_Skin16_Fake_Sparkles.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -0.5 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 2.5, 3 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Soraka/Skins/Skin16/Particles/Soraka_Skin16_Fake_Sparkles.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 2.5, 3 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -0.5 }
+                    }
                 }
             }
             0x09cde442 {
@@ -261,6 +263,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Soraka_Skin16_Emote_Death_Vista"
         0xe7638138: string = "Characters/Soraka/Skins/Skin16/Particles/Soraka_Skin16_Emote_Death_Vista"
-        0x9c677a2c: u8 = 198
+        0x9c677a2c: u16 = 198
     }
 }

@@ -313,7 +313,9 @@ entries: map[hash,embed] = {
                     0x24f2ec89: f32 = 0.004
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Kaisa/Skins/Base/Particles/Kaisa_Base_AA_Mis_AlphaCircles.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Kaisa/Skins/Base/Particles/Kaisa_Base_AA_Mis_NeedleMult.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Kaisa/Skins/Base/Particles/Kaisa_Base_AA_Mis_NeedleMult.dds"
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -390,9 +392,11 @@ entries: map[hash,embed] = {
                     0x24f2ec89: f32 = 0.004
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Kaisa/Skins/Base/Particles/Kaisa_Base_R_circle.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Kaisa/Skins/Base/Particles/Kaisa_Base_R_ground_mult.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.25 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Kaisa/Skins/Base/Particles/Kaisa_Base_R_ground_mult.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.25 }
+                    }
                 }
             }
             0x09cde442 {
@@ -458,7 +462,7 @@ entries: map[hash,embed] = {
                 0x2b779145: pointer = 0x2f7c7780 {
                     0x24f2ec89: f32 = 0.004
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Velkoz/Skins/Base/Particles/Velkoz_Base_E_AOE.VelKoz_VFX_Update.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Velkoz/Skins/Base/Particles/Velkoz_Base_E_AOE.dds"
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1128,6 +1132,6 @@ entries: map[hash,embed] = {
         0xecf1c6bc: string = "6665_Icathia_Deactivate"
         0xe7638138: string = "Items/6665/Particles/6665_Icathia_Deactivate"
         0xe0c375ae: string = "Play_sfx_6665_obd"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }

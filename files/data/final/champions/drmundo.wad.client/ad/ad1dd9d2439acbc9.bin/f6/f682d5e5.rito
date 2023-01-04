@@ -988,11 +988,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/DrMundo/Skins/Base/Particles/DrMundo_Base_Q_Shield_Inner_Mult.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/DrMundo/Skins/Base/Particles/DrMundo_Base_Q_Shield_Inner_Mult.dds"
+                    0x5b249407: u8 = 2
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.2 }
+                    }
                 }
-                0x5b249407: u8 = 2
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1530,9 +1532,11 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 150, 150, 50 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/DrMundo/Skins/Skin03/Particles/DrMundo_Skin03_W_Cash_Sign_Up.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/DrMundo/Skins/Skin03/Particles/DrMundo_Skin03_W_Scanlines.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.05 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/DrMundo/Skins/Skin03/Particles/DrMundo_Skin03_W_Scanlines.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.05 }
+                    }
                 }
             }
             0x09cde442 {
@@ -1578,7 +1582,6 @@ entries: map[hash,embed] = {
                 0x6563bee8: u8 = 1
                 0x3559e15b: flag = true
                 0x10552a3d: flag = true
-                0x7ac3b8a0: flag = true
                 0x27d40903: flag = true
                 0xdddde180: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
@@ -1609,12 +1612,15 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 150, 150, 50 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/DrMundo/Skins/Skin03/Particles/DrMundo_Skin03_W_Cash_Sign_Up.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/DrMundo/Skins/Base/Particles/DrMundo_Base_P_block_shock.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 4 }
-                }
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/DrMundo/Skins/Base/Particles/DrMundo_Base_P_block_shock.dds"
+                    0x7ac3b8a0: flag = true
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 4 }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -1779,9 +1785,11 @@ entries: map[hash,embed] = {
                 0x968279e0: embed = 0x04300058 {
                     0xb4b427aa: f32 = -90
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/DrMundo/Skins/Base/Particles/common_color-rampdown.dds"
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { -1, 1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/DrMundo/Skins/Base/Particles/common_color-rampdown.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { -1, 1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -1862,9 +1870,11 @@ entries: map[hash,embed] = {
                 0x968279e0: embed = 0x04300058 {
                     0xb4b427aa: f32 = -90
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/DrMundo/Skins/Base/Particles/common_color-rampdown.dds"
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { -1, 1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/DrMundo/Skins/Base/Particles/common_color-rampdown.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { -1, 1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -1954,6 +1964,6 @@ entries: map[hash,embed] = {
         0xecf1c6bc: string = "DrMundo_Skin18_P_Cannister_Ground"
         0xe7638138: string = "Characters/DrMundo/Skins/Skin18/Particles/DrMundo_Skin18_P_Cannister_Ground"
         0x5a6a73e2: string = "Play_sfx_DrMundo_DrMundoPObject_land"
-        0x9c677a2c: u8 = 212
+        0x9c677a2c: u16 = 212
     }
 }

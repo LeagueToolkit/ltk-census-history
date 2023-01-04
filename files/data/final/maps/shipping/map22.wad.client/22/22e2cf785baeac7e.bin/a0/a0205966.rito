@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xa0205966 = 0x60e00531 {
+        0x19efbfdb: string = "LNY23_Gift4_B"
+        0x0773669d: map[string,pointer] = {
+            "LootTables" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "LNY23_Artifact_Loot"
+                    "LNY23_Gold5_Loot"
+                    "LNY23_Gold4_Loot"
+                    "LNY23_5Cost_Loot"
+                    "LNY23_Gold4_Loot"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

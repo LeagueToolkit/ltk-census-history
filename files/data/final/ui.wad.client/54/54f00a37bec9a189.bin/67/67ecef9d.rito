@@ -75,12 +75,14 @@ entries: map[hash,embed] = {
                     }
                     0x9e52382f: i32 = 16
                 }
-                0x2f2e99f2: string = "ASSETS/UX/TFTMobile/Particles/Base_alphaslice_mesh.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.2 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.5, 0.5 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/UX/TFTMobile/Particles/Base_alphaslice_mesh.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.5, 0.5 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.2 }
+                    }
                 }
             }
             0x09cde442 {
@@ -267,7 +269,7 @@ entries: map[hash,embed] = {
         0xe7638138: string = "ClientStates/PreGame/Particles/TFTM_Battlepass_MilestoneClaimable"
         0xe0c375ae: string = "Play_sfx_PreGameUI_battlepass_milestoneclaimable"
         0x3175593f: string = "ui"
-        0x9c677a2c: u8 = 199
+        0x9c677a2c: u16 = 199
         0xc803c9f6: u8 = 1
         0xdc5adca5: bool = false
     }

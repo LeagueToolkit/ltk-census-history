@@ -1202,7 +1202,9 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 1, 0.5 }
                 }
-                0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/Booms/Chibi_Yasuo/Particles/Yone_Base_Mask_Edge_Vertical.TFT_Booms_Yasuo_Base.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/Booms/Chibi_Yasuo/Particles/Yone_Base_Mask_Edge_Vertical.TFT_Booms_Yasuo_Base.dds"
+                }
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.5
@@ -2245,9 +2247,11 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 60, 280, 0 }
                 }
                 0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/Booms/Chibi_Yasuo/Particles/Yasuo_Base_windwall_groud_crack_alpha.TFT_Booms_Yasuo_Base.dds"
-                0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/Booms/Chibi_Yasuo/Particles/Yasuo_wind_mult_text.TFT_Booms_Yasuo_Base.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/Booms/Chibi_Yasuo/Particles/Yasuo_wind_mult_text.TFT_Booms_Yasuo_Base.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -4214,6 +4218,6 @@ entries: map[hash,embed] = {
         0xecf1c6bc: string = "TFT_Dmg_Skin52_Cas_3Star"
         0xe7638138: string = "Loadouts/TFTDamageSkins/YasuoSteelTempest/VFXDefinition/TFT_Dmg_Skin52_Cas_3Star"
         0x5a6a73e2: string = "Play_sfx_tft_dmg_skin52_tier3_cast"
-        0x9c677a2c: u8 = 208
+        0x9c677a2c: u16 = 208
     }
 }

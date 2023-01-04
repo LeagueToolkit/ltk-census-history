@@ -113,7 +113,9 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Udyr/Skins/Skin05/Particles/Udyr_Skin05_ESkin05_W_Einstein_01_mult.UdyrVGU_DragonOracleUpdate.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Udyr/Skins/Skin05/Particles/Udyr_Skin05_ESkin05_W_Einstein_01_mult.UdyrVGU_DragonOracleUpdate.dds"
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -288,11 +290,13 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Udyr/Skins/Skin05/Particles/Udyr_Skin05_egoR_Comet.UdyrVGU_DragonOracleUpdate.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Udyr/Skins/Skin05/Particles/Udyr_Skin05_egoR_Comet.UdyrVGU_DragonOracleUpdate.dds"
+                    0x5b249407: u8 = 2
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -2 }
+                    }
                 }
-                0x5b249407: u8 = 2
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -412,6 +416,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Udyr_Skin05_BA_SwipeATK_Ram_01"
         0xe7638138: string = "Characters/Udyr/Skins/Skin5/Particles/Udyr_Skin05_BA_SwipeATK_Ram_01"
-        0x9c677a2c: u8 = 198
+        0x9c677a2c: u16 = 198
     }
 }

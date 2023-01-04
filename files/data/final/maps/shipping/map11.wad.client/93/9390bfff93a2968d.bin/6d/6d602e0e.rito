@@ -1150,12 +1150,14 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0.5, 1 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Sylas/Skins/Base/Particles/Sylas_Base_Q_tar_dark_mult.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.5, 0.5 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 2, 0.5 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Sylas/Skins/Base/Particles/Sylas_Base_Q_tar_dark_mult.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 2, 0.5 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.5, 0.5 }
+                    }
                 }
             }
             0x09cde442 {
@@ -2402,7 +2404,7 @@ entries: map[hash,embed] = {
         0xecf1c6bc: string = "UltBook_Sylas_R_Sylas_W_tar"
         0xe7638138: string = "Maps/ModeSpecificData/ULTBOOK/UltBook_SylasR/Loadable/Particles/UltBook_Sylas_R_Sylas_W_tar"
         0xe0c375ae: string = "Play_sfx_UltBook_SylasW_hit_vfx"
-        0x9c677a2c: u8 = 198
+        0x9c677a2c: u16 = 198
         0xcf08f8e6: bool = true
     }
 }

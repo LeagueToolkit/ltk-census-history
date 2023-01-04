@@ -61,12 +61,14 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 150, 250, 1 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Akshan/Skins/Skin01/Particles/Akshan_Skin01_minorGlow.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Akshan/Skins/Skin01/Particles/Akshan_Skin01_Code.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -0.05 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.5, 0.5 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Akshan/Skins/Skin01/Particles/Akshan_Skin01_Code.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.5, 0.5 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -0.05 }
+                    }
                 }
             }
             0x09cde442 {
@@ -211,7 +213,9 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Akshan/Skins/Skin01/Particles/Akshan_Skin01_Beam01.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Akshan/Skins/Skin01/Particles/Akshan_Skin01_Code.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Akshan/Skins/Skin01/Particles/Akshan_Skin01_Code.dds"
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -445,9 +449,11 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 250, 300, 0 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Akshan/Skins/Skin01/Particles/Akshan_Skin01_minorGlow.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Akshan/Skins/Skin01/Particles/Akshan_Skin01_Noise04.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -0.25 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Akshan/Skins/Skin01/Particles/Akshan_Skin01_Noise04.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -0.25 }
+                    }
                 }
             }
             0x09cde442 {
@@ -734,14 +740,16 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 1, 2 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Akshan/Skins/Base/Particles/Akshan_Base_Glow01.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Akshan/Skins/Base/Particles/Akshan_Base_Glow01.dds"
+                    0x5b249407: u8 = 2
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 2 }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -0.5 }
+                    }
                 }
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -0.5 }
-                }
-                0x5b249407: u8 = 2
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.2
@@ -1105,9 +1113,11 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 50, 100, 1 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Akshan/Skins/Skin01/Particles/Akshan_Skin01_Mark03.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Akshan/Skins/Skin01/Particles/Akshan_Skin01_Gradient02.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -0.2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Akshan/Skins/Skin01/Particles/Akshan_Skin01_Gradient02.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -0.2 }
+                    }
                 }
             }
         }
@@ -1115,6 +1125,6 @@ entries: map[hash,embed] = {
         0xe7638138: string = "Characters/Akshan/Skins/Skin1/Particles/Akshan_Skin01_W_Mark"
         0xe0c375ae: string = "Play_sfx_Akshan_AkshanWMark_buffcast"
         0x5a6a73e2: string = "Play_sfx_Akshan_AkshanWMark_buffactivate"
-        0x9c677a2c: u8 = 213
+        0x9c677a2c: u16 = 213
     }
 }

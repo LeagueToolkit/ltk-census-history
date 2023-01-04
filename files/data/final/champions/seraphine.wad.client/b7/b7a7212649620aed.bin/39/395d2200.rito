@@ -73,12 +73,14 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 127, 10, 0 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Seraphine/Skins/Base/Particles/Seraphine_Base_W_ShieldHighlight.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Seraphine/Skins/Base/Particles/Seraphine_Base_E_Trail_01.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.3, -0.4 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 1, 4 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Seraphine/Skins/Base/Particles/Seraphine_Base_E_Trail_01.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 1, 4 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.3, -0.4 }
+                    }
                 }
             }
             0x09cde442 {
@@ -691,6 +693,6 @@ entries: map[hash,embed] = {
         0xecf1c6bc: string = "Seraphine_Base_W_Buf"
         0xe7638138: string = "Characters/Seraphine/Skins/Skin0/Particles/Seraphine_Base_W_Buf"
         0x5a6a73e2: string = "Play_sfx_Seraphine_SeraphineWShield_buffactivate"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }

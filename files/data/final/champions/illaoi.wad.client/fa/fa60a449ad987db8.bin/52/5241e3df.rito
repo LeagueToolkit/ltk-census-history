@@ -239,7 +239,6 @@ entries: map[hash,embed] = {
                 0xb99310f4: u8 = 0
                 0x6563bee8: u8 = 1
                 0x3559e15b: flag = true
-                0x7ac3b8a0: flag = true
                 0x27d40903: flag = true
                 0xdddde180: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
@@ -250,8 +249,11 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 100, 1, 1 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Illaoi/Skins/Skin10/Particles/Illaoi_Skin10_E_Full_Timer_01.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Illaoi/Skins/Skin10/Particles/Illaoi_Skin10_E_LostA_Timer_Mult.dds"
-                0x164b5733: vec2 = { 3, 3 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Illaoi/Skins/Skin10/Particles/Illaoi_Skin10_E_LostA_Timer_Mult.dds"
+                    0x164b5733: vec2 = { 3, 3 }
+                    0x7ac3b8a0: flag = true
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -296,9 +298,11 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 100, 1, 1 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Illaoi/Skins/Skin10/Particles/Illaoi_Skin10_E_Full_Timer_01.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Illaoi/Skins/Skin10/Particles/Illaoi_Skin10_Temp_P_Heal_tar_Spark_RGBA.DDS"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.2, 0 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Illaoi/Skins/Skin10/Particles/Illaoi_Skin10_Temp_P_Heal_tar_Spark_RGBA.DDS"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.2, 0 }
+                    }
                 }
             }
             0x09cde442 {
@@ -466,6 +470,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Illaoi_Skin10_E_SpiritTimerB"
         0xe7638138: string = "Characters/Illaoi/Skins/Skin10/Particles/Illaoi_Skin10_E_SpiritTimerB"
-        0x9c677a2c: u8 = 199
+        0x9c677a2c: u16 = 199
     }
 }

@@ -1750,7 +1750,6 @@ entries: map[hash,embed] = {
                 0x7b7a7318: i16 = 45
                 0xb99310f4: u8 = 0
                 0x6563bee8: u8 = 1
-                0xeb3aefe7: flag = false
                 0x27d40903: flag = true
                 0xdddde180: flag = true
                 0x5932ff9c: embed = 0x68dc32b6 {
@@ -1806,13 +1805,16 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/DrMundo/Skins/Base/Particles/DrMundo_Base_Q_Throw_Sparks.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/DrMundo/Skins/Base/Particles/DrMundo_Base_E_TexturMultLightning.dds"
-                0x5b249407: u8 = 2
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/DrMundo/Skins/Base/Particles/DrMundo_Base_E_TexturMultLightning.dds"
+                    0x5b249407: u8 = 2
+                    0xeb3aefe7: flag = false
+                }
             }
         }
         0xecf1c6bc: string = "DrMundo_Skin16_P_Cannister_Crush"
         0xe7638138: string = "Characters/DrMundo/Skins/Skin16/Particles/DrMundo_Skin16_P_Cannister_Crush"
         0xe0c375ae: string = "Play_sfx_DrMundo_DrMundoPObject_break"
-        0x9c677a2c: u8 = 198
+        0x9c677a2c: u16 = 198
     }
 }

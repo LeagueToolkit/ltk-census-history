@@ -65,8 +65,10 @@ entries: map[hash,embed] = {
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0, 1 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Graves/Skins/Skin25/Particles/Morgana_Base_W_Wisps_Mult.dds"
-                0x5b249407: u8 = 2
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Graves/Skins/Skin25/Particles/Morgana_Base_W_Wisps_Mult.dds"
+                    0x5b249407: u8 = 2
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -1900,17 +1902,19 @@ entries: map[hash,embed] = {
                 0x3c6468f4: string = "ASSETS/Characters/Graves/Skins/Skin25/Particles/Graves_Skin25_BA_Smoke_2.dds"
                 0x1e67b0f1: u16 = 4
                 0x86a84509: vec2 = { 2, 2 }
-                0x2f2e99f2: string = "ASSETS/Characters/Graves/Skins/Skin25/Particles/Graves_Skin25_BA_Smoke_2.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.3, 0 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Graves/Skins/Skin25/Particles/Graves_Skin25_BA_Smoke_2.dds"
+                    0x164b5733: vec2 = { 2, 2 }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.3, 0 }
+                    }
                 }
-                0x164b5733: vec2 = { 2, 2 }
             }
         }
         0xecf1c6bc: string = "Graves_Skin25_W_tar_green"
         0xe7638138: string = "Characters/Graves/Skins/Skin25/Particles/Graves_Skin25_W_tar_green"
         0xe0c375ae: string = "Play_sfx_GravesSkin25_GravesSmokeGrenadeBoom_loop"
-        0x9c677a2c: u8 = 212
+        0x9c677a2c: u16 = 212
         0xd01a2020: list[embed] = {
             0xf627e1a2 {
                 0x5127f14d: u32 = 1

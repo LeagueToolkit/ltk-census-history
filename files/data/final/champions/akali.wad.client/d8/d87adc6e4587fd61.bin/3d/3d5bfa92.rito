@@ -54,7 +54,6 @@ entries: map[hash,embed] = {
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 1.004, 1, 1 }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Akali/Skins/Base/Akali_Base_TX_CM.dds"
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -144,8 +143,10 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Akali/Skins/Base/Particles/fuzzyshad.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Akali/Skins/Base/Particles/Akali_Base_R_shield_Mult.dds"
-                0xe19d1593: vec2 = { 0, 0.25 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Akali/Skins/Base/Particles/Akali_Base_R_shield_Mult.dds"
+                    0xe19d1593: vec2 = { 0, 0.25 }
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -360,9 +361,11 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 300, 600, 50 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Akali/Skins/Skin15/Particles/Akali_Skin15_Q_Glow.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Akali/Skins/Skin32/Particles/Akali_Skin35_color-rainbow_horizontal-faded.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.65 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Akali/Skins/Skin32/Particles/Akali_Skin35_color-rainbow_horizontal-faded.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.65 }
+                    }
                 }
             }
             0x09cde442 {
@@ -406,9 +409,11 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 2, 1 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Akali/Skins/Skin32/Particles/Akali_Skin32_Q_DistortRamp.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 2.5, 0 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Akali/Skins/Skin32/Particles/Akali_Skin32_Q_DistortRamp.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 2.5, 0 }
+                    }
                 }
             }
             0x09cde442 {
@@ -443,9 +448,11 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 1.004, 1, 1 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Akali/Skins/Skin42/Akali_Skin42_Weapon_Neon_TX_CM.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Akali/Skins/Skin32/Particles/Akali_Skin35_color-rainbow_horizontal-faded.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -2.5 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Akali/Skins/Skin32/Particles/Akali_Skin35_color-rainbow_horizontal-faded.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -2.5 }
+                    }
                 }
             }
             0x09cde442 {
@@ -488,6 +495,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Akali_Skin42_W_GlobalInvisibilityShimmerLong"
         0xe7638138: string = "Characters/Akali/Skins/Skin42/Particles/Akali_Skin42_W_GlobalInvisibilityShimmerLong"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }

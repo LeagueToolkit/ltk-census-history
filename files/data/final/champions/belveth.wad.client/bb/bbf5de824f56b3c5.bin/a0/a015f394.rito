@@ -205,7 +205,9 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Belveth/Skins/Skin01/Particles/Belveth_Skin01_Q_Velkoz_Skin01_Q_Flare_Omnimax.Belveth.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Belveth/Skins/Skin01/Particles/Belveth_Skin01_R_Edge.Belveth.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Belveth/Skins/Skin01/Particles/Belveth_Skin01_R_Edge.Belveth.dds"
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -284,12 +286,14 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Belveth/Skins/Skin01/Particles/Belveth_Skin01_W_Impactspike.Belveth.dds"
-                0x33b8543e: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 90
-                }
-                0x2f2e99f2: string = "ASSETS/Characters/Belveth/Skins/Skin01/Particles/Belveth_Skin01_R_Edge.Belveth.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Belveth/Skins/Skin01/Particles/Belveth_Skin01_R_Edge.Belveth.dds"
+                    0x33b8543e: embed = 0x04300058 {
+                        0xb4b427aa: f32 = 90
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -434,6 +438,6 @@ entries: map[hash,embed] = {
         0xecf1c6bc: string = "Belveth_Skin01_W_Tar"
         0xe7638138: string = "Characters/Belveth/Skins/Skin1/Particles/Belveth_Skin01_W_Tar"
         0xe0c375ae: string = "Play_sfx_Belveth_BelvethW_knockup"
-        0x9c677a2c: u8 = 132
+        0x9c677a2c: u16 = 132
     }
 }

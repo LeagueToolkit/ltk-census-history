@@ -317,8 +317,10 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 30, 750, 50 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Teemo/Skins/Skin47/Particles/Teemo_Skin47_Alpha_Backdrop.PIE_C_12_22.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Teemo/Skins/Skin47/Particles/Teemo_Skin47_Dance_Reflections_Mask_1.PIE_C_12_22.dds"
-                0x5b249407: u8 = 2
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Teemo/Skins/Skin47/Particles/Teemo_Skin47_Dance_Reflections_Mask_1.PIE_C_12_22.dds"
+                    0x5b249407: u8 = 2
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -842,9 +844,11 @@ entries: map[hash,embed] = {
                 0x3c6468f4: string = "ASSETS/Characters/Teemo/Skins/Skin47/Particles/Teemo_Skin47_Bokeh_01.PIE_C_12_22.dds"
                 0x1e67b0f1: u16 = 4
                 0x86a84509: vec2 = { 2, 2 }
-                0x2f2e99f2: string = "ASSETS/Characters/Teemo/Skins/Skin52/Particles/Teemo_Skin52_Z_Decal_Ramp_03.Chroma_Teemo_SpaceGroove.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.5, 1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Teemo/Skins/Skin52/Particles/Teemo_Skin52_Z_Decal_Ramp_03.Chroma_Teemo_SpaceGroove.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.5, 1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -977,15 +981,17 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 2, 1 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Teemo/Skins/Skin47/Particles/Teemo_Skin47_Emote_EinsteinMul_1.PIE_C_12_22.dds"
-                0x6d97bb4d: embed = 0x6bcc7d70 {
-                    0xb4b427aa: vec2 = { 0.4, 0 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                        }
-                        0x34474c3b: list[vec2] = {
-                            { 0.4, 0 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Teemo/Skins/Skin47/Particles/Teemo_Skin47_Emote_EinsteinMul_1.PIE_C_12_22.dds"
+                    0x22c3cf3e: embed = 0x6bcc7d70 {
+                        0xb4b427aa: vec2 = { 0.4, 0 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0x5d68eeb5: list[f32] = {
+                                0
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { 0.4, 0 }
+                            }
                         }
                     }
                 }
@@ -1140,9 +1146,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Teemo/Skins/Skin47/Particles/Dissolve_Cloudy_02.PIE_C_12_22.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Teemo/Skins/Skin47/Particles/Dissolve_Cloudy_02.PIE_C_12_22.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -1548,6 +1556,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Teemo_Skin52_Z_Recall_Dark_Ground"
         0xe7638138: string = "Characters/Teemo/Skins/Skin52/Particles/Teemo_Skin52_Z_Recall_Dark_Ground"
-        0x9c677a2c: u8 = 133
+        0x9c677a2c: u16 = 133
     }
 }

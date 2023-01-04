@@ -64,8 +64,8 @@ entries: map[hash,embed] = {
                         0x90595a15: string = "ASSETS/Characters/Nunu/Skins/Base/Particles/Nunu_Snowball.skl"
                     }
                 }
-                0xa5b8cdf4: string = "ASSETS/Characters/Nunu/Skins/Base/Particles/DefaultFalloff.DDS"
-                0xb56e8811: string = "ASSETS/Characters/Nunu/Skins/Base/Particles/DefaultColorOverlifetime.dds"
+                0xa5b8cdf4: string = ""
+                0xb56e8811: string = ""
                 0xfa784eab: u8 = 1
                 0x3c91cebd: bool = true
                 0x37ddb774: flag = true
@@ -113,7 +113,6 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/NunuSnowball/skins/base/NunuSnowball_Base_TX_CM.dds"
             }
             0x09cde442 {
                 0x22e763bc: f32 = 2
@@ -1255,9 +1254,11 @@ entries: map[hash,embed] = {
                 0xb9198a2a: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 1, 1 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Nunu/Skins/Base/Particles/SRU_EastJungle_Waterfall_Swirlsteam_Mult_01.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.1, 0.1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Nunu/Skins/Base/Particles/SRU_EastJungle_Waterfall_Swirlsteam_Mult_01.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.1, 0.1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -1986,7 +1987,7 @@ entries: map[hash,embed] = {
         0xecf1c6bc: string = "Nunu_Base_W_Snowball_mis_Medium"
         0xe7638138: string = "Characters/Nunu/Skins/Skin0/Particles/Nunu_Base_W_Snowball_mis_Medium"
         0x5a6a73e2: string = "Play_sfx_Nunu_NunuWSnowballMissileSmall_cast"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
         0xe994800f: f32 = 1
     }
 }

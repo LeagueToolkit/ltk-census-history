@@ -88,9 +88,11 @@ entries: map[hash,embed] = {
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 1, 0 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Senna/Skins/Skin36/Particles/Senna_Ashe_Skin36_ground_CrackNoise_mult.PIE_C_12_20.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.5, 0 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Senna/Skins/Skin36/Particles/Senna_Ashe_Skin36_ground_CrackNoise_mult.PIE_C_12_20.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.5, 0 }
+                    }
                 }
             }
             0x09cde442 {
@@ -253,18 +255,20 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Senna/Skins/Skin36/Particles/Aura_Self.PIE_C_12_20.DDS"
-                0x33b8543e: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 90
-                }
-                0x2f2e99f2: string = "ASSETS/Characters/Senna/Skins/Skin36/Particles/Senna_Skin36_Dance_Einstein_01_mult.PIE_C_12_20.dds"
-                0x6d97bb4d: embed = 0x6bcc7d70 {
-                    0xb4b427aa: vec2 = { 0, 6 }
-                    0xbc037de7: pointer = 0x2e0ea245 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                        }
-                        0x34474c3b: list[vec2] = {
-                            { 0, 6 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Senna/Skins/Skin36/Particles/Senna_Skin36_Dance_Einstein_01_mult.PIE_C_12_20.dds"
+                    0x33b8543e: embed = 0x04300058 {
+                        0xb4b427aa: f32 = 90
+                    }
+                    0x22c3cf3e: embed = 0x6bcc7d70 {
+                        0xb4b427aa: vec2 = { 0, 6 }
+                        0xbc037de7: pointer = 0x2e0ea245 {
+                            0x5d68eeb5: list[f32] = {
+                                0
+                            }
+                            0x34474c3b: list[vec2] = {
+                                { 0, 6 }
+                            }
                         }
                     }
                 }
@@ -808,6 +812,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Senna_Skin41_Recall_Avatar"
         0xe7638138: string = "Characters/Senna/Skins/Skin41/Particles/Senna_Skin41_Recall_Avatar"
-        0x9c677a2c: u8 = 205
+        0x9c677a2c: u16 = 205
     }
 }

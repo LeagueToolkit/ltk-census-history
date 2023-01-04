@@ -330,12 +330,14 @@ entries: map[hash,embed] = {
                 0x9b111ae4: f32 = 30
                 0x1e67b0f1: u16 = 9
                 0x86a84509: vec2 = { 3, 3 }
-                0x2f2e99f2: string = "ASSETS/Shared/Particles/assassin_transform_ground_swirl_mult.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.2 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 1, 0.7 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Shared/Particles/assassin_transform_ground_swirl_mult.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 1, 0.7 }
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.2 }
+                    }
                 }
             }
             0x09cde442 {
@@ -496,6 +498,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Zoe_Skin18_E_child_timer"
         0xe7638138: string = "Characters/Zoe/Skins/Skin18/Particles/Zoe_Skin18_E_child_timer"
-        0x9c677a2c: u8 = 198
+        0x9c677a2c: u16 = 198
     }
 }

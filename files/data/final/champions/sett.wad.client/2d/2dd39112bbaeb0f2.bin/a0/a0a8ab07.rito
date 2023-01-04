@@ -466,12 +466,14 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 375, 285, 275 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Sett/Skins/Skin38/Particles/Sett_Skin38_Recall_Portal_glow.PIE_C_12_19.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Sett/Skins/Skin38/Particles/Sett_Skin38_Emote_SmokeErode.PIE_C_12_19.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.04, 0.08 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 2, 2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Sett/Skins/Skin38/Particles/Sett_Skin38_Emote_SmokeErode.PIE_C_12_19.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 2, 2 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.04, 0.08 }
+                    }
                 }
             }
             0x09cde442 {
@@ -669,9 +671,11 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 800, 800, 1 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Sett/Skins/Skin39/Particles/Sett_Skin39_R_SpiritRealm_01.Chroma_Sett_SpiritBlossom.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Sett/Skins/Skin38/Particles/Sett_Ashe_Skin38_ground_CrackNoise_mult.PIE_C_12_19.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.15, 0 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Sett/Skins/Skin38/Particles/Sett_Ashe_Skin38_ground_CrackNoise_mult.PIE_C_12_19.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.15, 0 }
+                    }
                 }
             }
             0x09cde442 {
@@ -2056,6 +2060,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Sett_Skin39_Emote_Recall_BackgroundWater"
         0xe7638138: string = "Characters/Sett/Skins/Skin39/Particles/Sett_Skin39_Emote_Recall_BackgroundWater"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }

@@ -68,9 +68,11 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 7, 7.2, 5 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Lucian/Skins/Skin31/Particles/Lucian_Skin31_Z_Plane_Mult.dds"
-                0x2f2e99f2: string = "ASSETS/Shared/Particles/alphaslice_mesh.TFT_Set7.dds"
-                0xedbcaa56: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 10
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Shared/Particles/alphaslice_mesh.TFT_Set7.dds"
+                    0xedbcaa56: embed = 0x04300058 {
+                        0xb4b427aa: f32 = 10
+                    }
                 }
             }
             0x09cde442 {
@@ -136,12 +138,14 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 7, 7.2, 5 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Lucian/Skins/Skin31/Particles/Lucian_Skin31_Z_Plane_Mult.dds"
-                0x2f2e99f2: string = "ASSETS/Shared/Particles/alphaslice_mesh.TFT_Set7.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.5, 0.5 }
-                }
-                0xedbcaa56: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 10
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Shared/Particles/alphaslice_mesh.TFT_Set7.dds"
+                    0xedbcaa56: embed = 0x04300058 {
+                        0xb4b427aa: f32 = 10
+                    }
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.5, 0.5 }
+                    }
                 }
             }
             0x09cde442 {
@@ -340,6 +344,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Lucian_Skin31_Z_Frame"
         0xe7638138: string = "Characters/Lucian/Skins/Skin31/Particles/Lucian_Skin31_Z_Frame"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }

@@ -62,12 +62,14 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/FiddleSticks_Base_Q_Crow.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddlesticks_Base_E_SoftMult.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -0.2 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 2, 1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddlesticks_Base_E_SoftMult.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 2, 1 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -0.2 }
+                    }
                 }
             }
             0x09cde442 {
@@ -1652,9 +1654,11 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddlesticks_Base_Soft_Glow.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddlesticks_Base_E_SoftMult.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 5 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Fiddlesticks/Skins/Base/Particles/Fiddlesticks_Base_E_SoftMult.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 5 }
+                    }
                 }
             }
             0x09cde442 {
@@ -1986,6 +1990,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "FiddleSticks_Base_Q_Mis_Terrify"
         0xe7638138: string = "Characters/FiddleSticks/Skins/Skin0/Particles/FiddleSticks_Base_Q_Mis_Terrify"
-        0x9c677a2c: u8 = 244
+        0x9c677a2c: u16 = 244
     }
 }

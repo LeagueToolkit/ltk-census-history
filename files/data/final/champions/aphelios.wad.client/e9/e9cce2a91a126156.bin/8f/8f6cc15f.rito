@@ -89,7 +89,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Aphelios/Skins/Skin18/Particles/Glow_Aura_Self.PIE_C_12_9.dds"
+                0x3c6468f4: string = "ASSETS/Characters/Aphelios/Skins/Skin18/Particles/Glow_Aura_Self.dds"
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -172,7 +172,9 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Shared/Particles/Z_Glow_Aura_Self.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Aphelios/Skins/Skin18/Particles/Aphelios_Skin18_Gun_Infernum_mult.PIE_C_12_9.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Aphelios/Skins/Skin18/Particles/Aphelios_Skin18_Gun_Infernum_mult.dds"
+                }
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -227,16 +229,18 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Aphelios/Skins/Skin18/Particles/Aphelios_Skin18_Guns_Mask_01.PIE_C_12_9.dds"
-                0x33b8543e: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 90
-                }
-                0x2f2e99f2: string = "ASSETS/Characters/Aphelios/Skins/Skin18/Particles/Aphelios_Skin18_Noise_01.PIE_C_12_9.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.1 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 1, 0.4 }
+                0x3c6468f4: string = "ASSETS/Characters/Aphelios/Skins/Skin18/Particles/Aphelios_Skin18_Guns_Mask_01.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Aphelios/Skins/Skin18/Particles/Aphelios_Skin18_Noise_01.dds"
+                    0x33b8543e: embed = 0x04300058 {
+                        0xb4b427aa: f32 = 90
+                    }
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 1, 0.4 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.1 }
+                    }
                 }
             }
         }

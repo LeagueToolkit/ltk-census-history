@@ -99,9 +99,11 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 1.1, 1.1, 1.1 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Ziggs/Skins/Skin06/Particles/Ziggs_Skin06_W_Plane_Grid.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Ziggs/Skins/Skin06/Particles/Ziggs_Skin06_Z_Grid_Mult.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Ziggs/Skins/Skin06/Particles/Ziggs_Skin06_Z_Grid_Mult.dds"
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -152,7 +154,9 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 1.1, 1.1, 1.1 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Ziggs/Skins/Skin06/Particles/Ziggs_Skin06_R_Border.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Ziggs/Skins/Skin06/Particles/Ziggs_Skin06_Z_Grid_Mult.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Ziggs/Skins/Skin06/Particles/Ziggs_Skin06_Z_Grid_Mult.dds"
+                }
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.1
@@ -2066,6 +2070,6 @@ entries: map[hash,embed] = {
         0xecf1c6bc: string = "Ziggs_Skin06_R_explosion"
         0xe7638138: string = "Characters/Ziggs/Skins/Skin6/Particles/Ziggs_Skin06_R_explosion"
         0xe0c375ae: string = "Play_sfx_ZiggsSkin06_ZiggsR_hit"
-        0x9c677a2c: u8 = 198
+        0x9c677a2c: u16 = 198
     }
 }

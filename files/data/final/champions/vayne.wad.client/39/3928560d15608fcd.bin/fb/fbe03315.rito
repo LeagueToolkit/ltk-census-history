@@ -76,12 +76,14 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 100, 10, 150 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Vayne/Skins/Skin11/Particles/Vayne_Skin11_Z_Glow.DDS"
-                0x2f2e99f2: string = "ASSETS/Characters/Vayne/Skins/Skin11/Particles/Vayne_Skin11_W_Scroll.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, -1 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 1, 0.5 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Vayne/Skins/Skin11/Particles/Vayne_Skin11_W_Scroll.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 1, 0.5 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, -1 }
+                    }
                 }
             }
             0x09cde442 {
@@ -148,9 +150,11 @@ entries: map[hash,embed] = {
                 0xeddebb48: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 8, 8 }
                 }
-                0x2f2e99f2: string = "ASSETS/Characters/Vayne/Skins/Skin11/Particles/Vayne_Skin11_R_Holoscroll.dds"
-                0x740ca9c0: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 0.235 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Vayne/Skins/Skin11/Particles/Vayne_Skin11_R_Holoscroll.dds"
+                    0x740ca9c0: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 0.235 }
+                    }
                 }
             }
             0x09cde442 {
@@ -205,6 +209,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Vayne_Skin11_R_GunHUD"
         0xe7638138: string = "Characters/Vayne/Skins/Skin11/Particles/Vayne_Skin11_R_GunHUD"
-        0x9c677a2c: u8 = 204
+        0x9c677a2c: u16 = 204
     }
 }

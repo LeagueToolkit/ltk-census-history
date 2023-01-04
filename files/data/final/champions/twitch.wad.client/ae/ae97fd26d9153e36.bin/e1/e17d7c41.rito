@@ -52,9 +52,11 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 300, 300, 300 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Twitch/Skins/Base/Particles/common_ring_highres.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Twitch/Skins/Skin12/Particles/Dissolve_Cloudy_01.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.5, 0 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Twitch/Skins/Skin12/Particles/Dissolve_Cloudy_01.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.5, 0 }
+                    }
                 }
             }
             0x09cde442 {
@@ -211,17 +213,19 @@ entries: map[hash,embed] = {
                     0xb4b427aa: vec3 = { 9.85, 0, 12 }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Twitch/Skins/Skin12/Particles/Twitch_Skin12_W_Indicator_blue.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Twitch/Skins/Skin12/Particles/Twitch_Skin12_P_Wisp_mult.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0.2, 1 }
-                }
-                0xcd124686: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 2, 1 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Twitch/Skins/Skin12/Particles/Twitch_Skin12_P_Wisp_mult.dds"
+                    0xcd124686: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 2, 1 }
+                    }
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0.2, 1 }
+                    }
                 }
             }
         }
         0xecf1c6bc: string = "Twitch_Skin12_W_indicator_ally_01"
         0xe7638138: string = "Characters/Twitch/Skins/Skin12/Particles/Twitch_Skin12_W_indicator_ally_01"
-        0x9c677a2c: u8 = 132
+        0x9c677a2c: u16 = 132
     }
 }

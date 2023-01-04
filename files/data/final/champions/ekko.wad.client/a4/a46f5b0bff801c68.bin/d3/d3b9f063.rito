@@ -92,7 +92,6 @@ entries: map[hash,embed] = {
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 1.1, 1, 1 }
                 }
-                0x3c6468f4: string = "ASSETS/Characters/Ekko/Skins/Base/Particles/common_color-white32.dds"
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.75
@@ -613,7 +612,9 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Ekko/Skins/Skin19/Particles/Ekko_Skin25_R_RingPop.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Ekko/Skins/Skin19/Particles/Ekko_Skin19_Z_SidewaysGradient02.dds"
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Ekko/Skins/Skin19/Particles/Ekko_Skin19_Z_SidewaysGradient02.dds"
+                }
             }
             0x09cde442 {
                 0x22e763bc: f32 = 3.55
@@ -762,9 +763,11 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3c6468f4: string = "ASSETS/Characters/Ekko/Skins/Skin19/Particles/Ekko_Skin18_Z_LongDot.dds"
-                0x2f2e99f2: string = "ASSETS/Characters/Ekko/Skins/Skin19/Particles/Ekko_Skin19_Z_Dot.dds"
-                0x32356474: embed = 0x69dc3449 {
-                    0xb4b427aa: vec2 = { 0, 2 }
+                0x2f2e99f2: pointer = 0xb097c1bd {
+                    0x2f2e99f2: string = "ASSETS/Characters/Ekko/Skins/Skin19/Particles/Ekko_Skin19_Z_Dot.dds"
+                    0x32356474: embed = 0x69dc3449 {
+                        0xb4b427aa: vec2 = { 0, 2 }
+                    }
                 }
             }
             0x09cde442 {
@@ -1023,6 +1026,6 @@ entries: map[hash,embed] = {
         }
         0xecf1c6bc: string = "Ekko_Skin19_Z_LaughVFX"
         0xe7638138: string = "Characters/Ekko/Skins/Skin19/Particles/Ekko_Skin19_Z_LaughVFX"
-        0x9c677a2c: u8 = 197
+        0x9c677a2c: u16 = 197
     }
 }
