@@ -16,7 +16,7 @@ entries: map[hash,embed] = {
             0x72256343
             0x0fe5f3f2
         }
-        0x0b44452a: i32 = 750
+        0x0b44452a: i32 = 900
         0x7d8fa230: bool = true
         0x51c4b876: bool = true
         0xf7250cac: bool = false
@@ -24,8 +24,7 @@ entries: map[hash,embed] = {
         0x5ee3c453: u8 = 6
         0x2c359091: list[link] = {
             0xdbf0e70f
-            0x1e274f28
-            0x132bbb05
+            0xd8f0e256
         }
         0xb6188f47: list[link] = {
             0x0c7ef6d4
@@ -45,7 +44,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "Cooldown"
-                0x24f2ec89: f32 = 8
+                0x24f2ec89: f32 = 6
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MythicStatAmount"
@@ -53,7 +52,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "RangedCooldown"
-                0x24f2ec89: f32 = 16
+                0x24f2ec89: f32 = 12
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ShieldDuration"
@@ -65,11 +64,11 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MeleeItemCalcValueB"
-                0x24f2ec89: f32 = 8
+                0x24f2ec89: f32 = 6
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "RangedItemCalcValueB"
-                0x24f2ec89: f32 = 16
+                0x24f2ec89: f32 = 12
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "BaseShield"
@@ -153,14 +152,14 @@ entries: map[hash,embed] = {
                 }
             }
         }
+        0x5b98619f: f32 = 15
         0x4e7a81cd: f32 = 60
-        0xb779205d: f32 = 0.07
         0xccf99b44: list[string] = {
             "Damage"
-            "LifeSteal"
-            "SpellVamp"
+            "CooldownReduction"
             "NonbootsMovement"
             "ArmorPenetration"
+            "AbilityHaste"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
@@ -194,7 +193,7 @@ entries: map[hash,embed] = {
                                 0x5127f14d: string = "Lethality"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "Omnivamp"
+                                0x5127f14d: string = "AbilityHaste"
                             }
                         }
                     }
