@@ -421,6 +421,11 @@ entries: map[hash,embed] = {
                                                 0x4060d426: string = "AllChatRemoved"
                                             }
                                         }
+                                        0x99bf5d5b {
+                                            0xc7e16877: pointer = 0xa6f7c24c {
+                                                0x4060d426: string = "PartyChatChannel"
+                                            }
+                                        }
                                     }
                                 }
                                 0xe7e19b94: u16 = 54
@@ -452,10 +457,19 @@ entries: map[hash,embed] = {
                                 0xca0e79b5: string = "Options_Interface_Chat_ShowAllChatMatchedGames"
                             }
                             0x9c74b21a {
-                                0xc7e16877: pointer = 0xcd391c99 {
-                                    0x442474e9: bool = false
-                                    0x420c4abd: bool = false
-                                    0x1dde7980: bool = false
+                                0xc7e16877: pointer = 0x0a6743a7 {
+                                    0xabd6be4c: list[pointer] = {
+                                        0xcd391c99 {
+                                            0x442474e9: bool = false
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                        0x99bf5d5b {
+                                            0xc7e16877: pointer = 0xa6f7c24c {
+                                                0x4060d426: string = "PartyChatChannel"
+                                            }
+                                        }
+                                    }
                                 }
                                 0xe7e19b94: u16 = 56
                                 0x694aaa0b: hash = 0x6243ff9d
@@ -470,6 +484,37 @@ entries: map[hash,embed] = {
                                 0xe7e19b94: u16 = 19
                                 0x694aaa0b: hash = 0x6243ff9d
                                 0xca0e79b5: string = "Options_Interface_Chat_EnableChat_TFT"
+                            }
+                            0xb2705faa {
+                                0xc7e16877: pointer = 0x0a6743a7 {
+                                    0xabd6be4c: list[pointer] = {
+                                        0xcd391c99 {
+                                            0x442474e9: bool = false
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                            0x0f623792: bool = false
+                                        }
+                                        0xa6f7c24c {
+                                            0x4060d426: string = "PartyChatChannel"
+                                        }
+                                    }
+                                }
+                                0xe7e19b94: u16 = 4
+                                0x694aaa0b: hash = 0xfbc8d581
+                                0xca0e79b5: string = "Options_Interface_Chat_ChannelVisibility_Label"
+                                0x3a79338f: list[embed] = {
+                                    0x433d3f61 {
+                                        0xb157685d: string = "Options_Interface_Chat_ChannelVisibility_PartyOnly"
+                                    }
+                                    0x433d3f61 {
+                                        0xb157685d: string = "Options_Interface_Chat_ChannelVisibility_Team"
+                                        0x425ed3ca: i32 = 1
+                                    }
+                                    0x433d3f61 {
+                                        0xb157685d: string = "Options_Interface_Chat_ChannelVisibility_All"
+                                        0x425ed3ca: i32 = 2
+                                    }
+                                }
                             }
                             0x9c74b21a {
                                 0xe7e19b94: u16 = 82

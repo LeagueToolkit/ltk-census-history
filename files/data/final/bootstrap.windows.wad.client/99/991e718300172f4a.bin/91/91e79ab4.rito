@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x91e79ab4 = 0x205255d6 {
+        0x3291437b: list[embed] = {
+            0x60a292e6 {
+                0x8d39bde6: string = "ENV_TRANSITION"
+            }
+        }
+        0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "DiffuseTexture"
+                0x32b374fa: string = "ASSETS/Maps/KitPieces/SRX/textures/Earth_RockSpike_A.dds"
+            }
+        }
+        0xae29287b: map[string,string] = {
+            "FEATURE_MASKED" = "1"
+            "FEATURE_WORLD_POSITION" = "1"
+        }
+        0x25b76221: u32 = 8
+        0x1d369c29: string = "Shaders/StaticMesh/SRX_Blend_Master"
+    }
+}

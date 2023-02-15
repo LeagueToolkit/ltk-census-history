@@ -28,7 +28,7 @@ entries: map[hash,embed] = {
             }
             0x0904b150 {
                 0x02e7fb4c: string = "DistortionB_Texture"
-                0xb311d4ef: string = "ASSETS/Shared/Materials/CrystalPattern.dds"
+                0xb311d4ef: string = "ASSETS/Shared/Materials/Base_Caustic_Noise.dds"
                 0x0f1ec3ac: u32 = 1
             }
             0x0904b150 {
@@ -38,8 +38,12 @@ entries: map[hash,embed] = {
             }
             0x0904b150 {
                 0x02e7fb4c: string = "Alpha_Scroll_Texture"
-                0xb311d4ef: string = "ASSETS/Shared/Materials/Base_Caustic_Noise.dds"
+                0xb311d4ef: string = "ASSETS/Shared/Materials/white.dds"
                 0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
+                0x02e7fb4c: string = "Diffuse_Texture"
+                0xb311d4ef: string = "ASSETS/Characters/PetCreepyCat/Themes/Base/PetCreepyCat_Base_Classic_TX_CM.LL_CreepyCat_Base.dds"
             }
         }
         0xd0ab46b8: list2[embed] = {
@@ -49,7 +53,7 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "Glitch_Strength"
-                0x425ed3ca: vec4 = { 10, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 0.5, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Screenspace_Tiling"
@@ -57,7 +61,7 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "Pixelation_Size"
-                0x425ed3ca: vec4 = { 128, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 64, 64, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "SS_Scroll_Speed"
@@ -65,7 +69,7 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "Noise_Mask_Tiling"
-                0x425ed3ca: vec4 = { 5, 5, 0, -0.03 }
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Scanline_Size"
@@ -73,31 +77,29 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "Noise_Mask_Strength"
-                0x425ed3ca: vec4 = { 1.3, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 1.2975, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "DistortionA_Strength"
-                0x425ed3ca: vec4 = { 0.5, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 1.29, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "DistortionA_Tiling"
-                0x425ed3ca: vec4 = { 2, 2, 0.01, -0.01 }
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "DistortionB_Strength"
-                0x425ed3ca: vec4 = { 0.3, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 0.5, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "DistortionB_Tiling"
-                0x425ed3ca: vec4 = { 2, 2, 0.01, -0.01 }
+                0x425ed3ca: vec4 = { 2, 2, 0, -0.01 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Gradient_Shift"
-                0x425ed3ca: vec4 = { -0.03, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Alpha_Contrast"
-                0x425ed3ca: vec4 = { 0.2, 0.4, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Alpha_Mask_Tiling"
@@ -105,7 +107,35 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "Alpha_Scroll_Tiling"
-                0x425ed3ca: vec4 = { 1, 1, 0.1, 0.15 }
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Gradient_Scroll_Speed"
+                0x425ed3ca: vec4 = { -0.5, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Wave_Controller"
+                0x425ed3ca: vec4 = { 0.4, 5, 0.5, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Wave_Strength"
+                0x425ed3ca: vec4 = { 0.5, 0, 0.5, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "DistortionA_UV_Strength"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "DistortionB_UV_Strength"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Alpha_DistortionUV_Strength"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Alpha_Distortion_Strength"
+                0x425ed3ca: vec4 = { 1.23, 0, 0, 0 }
             }
         }
         0xdd7ddb9d: list2[embed] = {
@@ -115,7 +145,6 @@ entries: map[hash,embed] = {
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "DISABLE_GLITCH"
-                0x61342fd0: bool = false
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "DISABLE_UV_DISTORTION"
@@ -126,6 +155,21 @@ entries: map[hash,embed] = {
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "USE_SS_UVS"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "DISABLE_UV_DISTORTION_ALPHA"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "DISABLE_WAVE"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "DISABLE_DIFFUSE_BLEND"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "DISTORT_BASE_ONLY"
+                0x61342fd0: bool = false
             }
         }
         0xe6d67ded: map[string,string] = {
