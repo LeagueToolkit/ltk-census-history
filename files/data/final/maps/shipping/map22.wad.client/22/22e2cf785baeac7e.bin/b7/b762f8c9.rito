@@ -1,0 +1,19 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb762f8c9 = 0x60e00531 {
+        0x19efbfdb: string = "Bonus34C"
+        0x0773669d: map[string,pointer] = {
+            "Bronze" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+            "Silver" = 0x4012fd7e {
+                0x24f2ec89: i32 = 5
+            }
+            "Gold" = 0x4012fd7e {}
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -37,88 +37,79 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "MaxHealThreshold"
-                    0x246b0d8e: list[f32] = {
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "BaseHealing"
-                    0x246b0d8e: list[f32] = {
-                        50
-                        70
-                        90
-                        110
-                        130
-                        150
-                        170
-                    }
-                }
-                0x005008a6 {
                     0x19efbfdb: string = "AttackSpeedAmount"
                     0x246b0d8e: list[f32] = {
-                        0.2
-                        0.25
-                        0.3
-                        0.35
-                        0.4
-                        0.45
-                        0.5
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "PercentManaCost"
-                    0x246b0d8e: list[f32] = {
-                        0.12
-                        0.12
-                        0.12
-                        0.12
-                        0.12
-                        0.12
-                        0.12
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "BaseManaCost"
-                    0x246b0d8e: list[f32] = {
                         35
-                        40
-                        45
-                        50
-                        55
+                        35
+                        35
+                        35
+                        35
+                        35
+                        35
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseShielding"
+                    0x246b0d8e: list[f32] = {
                         60
-                        65
+                        90
+                        120
+                        150
+                        180
+                        210
+                        240
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ManaRestore"
+                    0x246b0d8e: list[f32] = {
+                        16
+                        20
+                        24
+                        28
+                        32
+                        36
+                        40
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxManaPercIncrease"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
                     }
                 }
             }
             0x94572284: map[hash,pointer] = {
-                0xb26e9905 = 0xbc409284 {
+                0xf34bdaf0 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
-                            0xb386dcf1: hash = 0x6a93f10e
+                            0xb386dcf1: hash = 0xe81778bf
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.3
                         }
                     }
                 }
-                0x05a56471 = 0xbc409284 {
+                0x0739bb20 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
-                            0xb386dcf1: hash = 0x2cf3df7d
+                            0xb386dcf1: hash = 0xc16da2b4
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.08
                         }
                     }
                 }
             }
             0xfbd16fb5: string = "None"
             0xeed67cd5: list[string] = {
-                "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiE.dds"
+                "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiP.dds"
             }
             0x9ecac3a1: list[f32] = {
                 12
@@ -168,6 +159,14 @@ entries: map[hash,embed] = {
                 25000
                 25000
             }
+            0xd997830a: list[f32] = {
+                80
+                90
+                100
+                110
+                120
+                130
+            }
             0x5d46764f: pointer = 0x645ba277 {}
             0x048557ff: embed = 0x7dd1a902 {
                 0x2831605b: pointer = 0xa4e13b57 {
@@ -177,29 +176,26 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_YuumiSpellShield_Name"
                         "keySummary" = "Spell_YuumiSpellShield_Summary"
                         "keyTooltip" = "Spell_YuumiSpellShield_Tooltip"
-                        "keyCost" = "Spell_YuumiE_Cost"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "BaseHealing"
-                                    0x566f3406: string = "Spell_ListType_Healing"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "AttackSpeedAmount"
-                                    0xf506c7e6: f32 = 100
-                                    0x566f3406: string = "Spell_ListType_AttackSpeed"
-                                    0xac307ed6: u32 = 1
+                                    0x5127f14d: string = "BaseShielding"
+                                    0x566f3406: string = "Spell_ListType_ShieldAmount"
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"
                                     0x566f3406: string = "Spell_ListType_Cooldown"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "BaseManaCost"
+                                    0x5127f14d: string = "Cost"
                                     0x566f3406: string = "Spell_ListType_ManaCost"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "ManaRestore"
+                                    0x566f3406: string = "Spell_ListType_ManaReturn"
                                 }
                             }
                         }
