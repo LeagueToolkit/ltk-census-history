@@ -1,0 +1,92 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xff4497e1 = 0x5e7e5a06 {
+        0xc8e37ef0: string = "TFT8_ShenSpell"
+        0x56d2be52: pointer = 0x43368569 {
+            0x44b7e8dd: string = "ShenW"
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "Duration"
+                    0x246b0d8e: list[f32] = {
+                        3.5
+                        3.5
+                        4
+                        5
+                        3.5
+                        3.5
+                        3.5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DRReductionPercent"
+                    0x246b0d8e: list[f32] = {
+                        0
+                        0.45
+                        0.5
+                        0.55
+                        0
+                        0
+                        0
+                    }
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x96fe8f90 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x05abdfab {
+                            0xbfe6ad01: f32 = 100
+                            0xb386dcf1: hash = 0xebc537b5
+                        }
+                    }
+                    0x5a2297d3: bool = true
+                }
+            }
+            0xfbd16fb5: string = ""
+            0x9ecac3a1: list[f32] = {
+                0
+                0
+                0
+                0
+                0
+                0
+                0
+            }
+            0xf47a22e5: bool = true
+            0x4e47141f: f32 = 8
+            0x239f6855: u32 = 2
+            0x7b9bef1b: hash = 0x063a18c5
+            0x90f34e62: bool = true
+            0x7675f624: string = "C_BUFFBONE_GLB_CHEST_LOC"
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "TFT8_ShenSpell"
+                    0x57b8b11b: link = 0x248db87a
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Spell_TFT8_ShenW_Name"
+                        "keyTooltip" = "Spell_TFT8_ShenW_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 3
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Duration"
+                                    0x566f3406: string = "Spell_ListType_Duration"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "DRReductionPercent"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_DamageReduction"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

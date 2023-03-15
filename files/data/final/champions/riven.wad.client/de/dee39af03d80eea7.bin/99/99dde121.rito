@@ -198,12 +198,6 @@ entries: map[hash,embed] = {
         0x123393ed: list[string] = {
             "Weapon_Snap"
         }
-        0x84186f3c: list[embed] = {
-            0x33068165 {
-                0x9b0300f3: hash = 0x9f982c50
-                0x1ecb978c: string = "Buffbone_GLB_Weapon_1"
-            }
-        }
         0x089aff69: string = "ASSETS/Characters/Riven/HUD/Riven_Circle_55.PIE_C_13_5.dds"
         0xd8f64a0d: link = 0xea769a47
         0xe67284f4: option[string] = {
@@ -223,5 +217,22 @@ entries: map[hash,embed] = {
             }
         }
         0x62286e7e: link = 0x92fd7f83
+        0x87b1d303: list[pointer] = {
+            0x67ac9672 {
+                0x43c8c7b1: pointer = 0xd5a6ab25 {
+                    0x85045366: pointer = 0x087188b5 {
+                        0x30b2f4b2: list[hash] = {
+                            0x5a81bdb0
+                        }
+                    }
+                }
+                0x071f3c1d: list[embed] = {
+                    0x00fa43e4 {
+                        0x1ecb978c: string = "Buffbone_GLB_Weapon_1"
+                        0x9b0300f3: hash = 0x9f982c50
+                    }
+                }
+            }
+        }
     }
 }

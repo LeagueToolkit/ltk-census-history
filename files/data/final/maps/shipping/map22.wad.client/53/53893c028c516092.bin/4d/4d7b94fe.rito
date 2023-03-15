@@ -1,0 +1,62 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4d7b94fe = 0xff9d3409 {
+        0x8d39bde6: string = "Maps/KitPieces/TFT/Set8_5_VillainLab/Materials/Default/Set8_5_VillainLab_Board_B_Noise_MAT"
+        0x5127f14d: u32 = 0
+        0x0a6f0eb5: list2[embed] = {
+            0x0904b150 {
+                0x02e7fb4c: string = "Normal_Texture"
+                0xb311d4ef: string = "ASSETS/Shared/Materials/Water_B_Nm.dds"
+            }
+            0x0904b150 {
+                0x02e7fb4c: string = "Diffuse_Texture"
+                0xb311d4ef: string = "ASSETS/Maps/KitPieces/TFT/Set8_5_VillainLab/Textures/Set8_5_VillainLab_Board_B.TFT_ArenaSkin_SuperVillain.dds"
+                0x111ec6d2: u32 = 1
+                0x101ec53f: u32 = 1
+                0x0f1ec3ac: u32 = 1
+            }
+        }
+        0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "Flow_Strength"
+                0x425ed3ca: vec4 = { 0.01, 0.02, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Flow_Speed"
+                0x425ed3ca: vec4 = { 0.017, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Flow_Direction"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Alpha"
+                0x425ed3ca: vec4 = { 0.0525, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Normal_Tiling"
+                0x425ed3ca: vec4 = { 0.83125, 0, 0, 0 }
+            }
+        }
+        0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "ENABLE_LOW_QUALITY_ALPHA"
+            }
+        }
+        0xe6d67ded: map[string,string] = {
+            "DISABLE_DEPTH_FOG" = "1"
+        }
+        0x844f384e: list[embed] = {
+            0x060a4413 {
+                0x8d39bde6: string = "normal"
+                0x623cd25c: list[embed] = {
+                    0x8537d0c2 {
+                        0x355d5568: link = 0x43893bb2
+                    }
+                }
+            }
+        }
+    }
+}

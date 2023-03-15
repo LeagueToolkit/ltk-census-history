@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb38134b7 = 0x60e00531 {
+        0x19efbfdb: string = "CorruptedEgg_Stage2_Tier2_LootG"
+        0x0773669d: map[string,pointer] = {
+            "RandomUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TwoCostUnit"
+                    "TwoCostUnit"
+                    "TwoCostUnit"
+                    "TwoCostUnit"
+                    "TwoCostUnit"
+                    "TwoCostUnit"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

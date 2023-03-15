@@ -44,6 +44,10 @@ entries: map[hash,embed] = {
                 0x02e7fb4c: string = "Diffuse_Texture"
                 0xb311d4ef: string = "ASSETS/Characters/PetCreepyCat/Themes/Base/PetCreepyCat_Base_Classic_TX_CM.LL_CreepyCat_Base.dds"
             }
+            0x0904b150 {
+                0x02e7fb4c: string = "Effects_Mask"
+                0xb311d4ef: string = "ASSETS/Shared/Materials/white.dds"
+            }
         }
         0xd0ab46b8: list2[embed] = {
             0xde480eef {
@@ -113,14 +117,6 @@ entries: map[hash,embed] = {
                 0x425ed3ca: vec4 = { -0.5, 0, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Wave_Controller"
-                0x425ed3ca: vec4 = { 0.4, 5, 0.5, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "Wave_Strength"
-                0x425ed3ca: vec4 = { 0.5, 0, 0.5, 0 }
-            }
-            0xde480eef {
                 0x8d39bde6: string = "DistortionA_UV_Strength"
                 0x425ed3ca: vec4 = { 1, 1, 0, 0 }
             }
@@ -135,6 +131,29 @@ entries: map[hash,embed] = {
             0xde480eef {
                 0x8d39bde6: string = "Alpha_Distortion_Strength"
                 0x425ed3ca: vec4 = { 1.23, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Base_Diffuse_Tiling"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Pixelate_Strength"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Pixelate_Frequency"
+                0x425ed3ca: vec4 = { 0.5, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Effects_Mask_Tiling"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Alpha_Remap_Param_U"
+                0x425ed3ca: vec4 = { 0, 1, 0, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Alpha_Remap_Param_V"
+                0x425ed3ca: vec4 = { 0, 1, 0, 1 }
             }
         }
         0xdd7ddb9d: list2[embed] = {
@@ -160,14 +179,21 @@ entries: map[hash,embed] = {
                 0x61342fd0: bool = false
             }
             0x0e2212a1 {
-                0x8d39bde6: string = "DISABLE_WAVE"
-            }
-            0x0e2212a1 {
                 0x8d39bde6: string = "DISABLE_DIFFUSE_BLEND"
                 0x61342fd0: bool = false
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "DISTORT_BASE_ONLY"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_SS_UVS_PIXELATE"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_SS_UVS_GLITCH"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_SS_UVS_FX"
                 0x61342fd0: bool = false
             }
         }

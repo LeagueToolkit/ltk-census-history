@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x77e66158 = 0x60e00531 {
+        0x19efbfdb: string = "CorruptedEgg_Stage3_Tier3_LootB"
+        0x0773669d: map[string,pointer] = {
+            "ItemByKey" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TOMEOFTRAITS"
+                }
+            }
+            "Consumable" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Consumable_NeekosHelp"
+                    "TFT_Consumable_ShopReroller"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
