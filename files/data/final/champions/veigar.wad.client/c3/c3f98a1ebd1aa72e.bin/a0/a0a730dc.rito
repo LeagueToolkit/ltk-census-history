@@ -60,19 +60,32 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
             }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "APRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.6
+                        0.7
+                        0.8
+                        0.9
+                        1
+                        1.1
+                        1.2
+                    }
+                }
+            }
             0x94572284: map[hash,pointer] = {
                 0xf2cbde43 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x8bc08357 {
                             0x8afb1a5f: i32 = 1
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 1
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xe30c799f
                         }
                     }
                 }
             }
-            0x295c2889: f32 = 1
             0xfbd16fb5: string = "Spell2"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarDarkMatter.dds"
@@ -160,6 +173,12 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "Effect%dAmount"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "APRatio"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_APRatio"
+                                    0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cost"

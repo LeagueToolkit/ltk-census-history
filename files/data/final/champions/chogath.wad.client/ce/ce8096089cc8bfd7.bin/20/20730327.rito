@@ -31,12 +31,15 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "Anim_Wave_Speed"
+                0x425ed3ca: vec4 = { 0.5125, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Anim_Wave_Dir"
+                0x425ed3ca: vec4 = { 14, 10, 14, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Anim_Wave_Frequency"
+                0x425ed3ca: vec4 = { 1.0875, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "FlowIntensity"
@@ -71,6 +74,7 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "Anim_Wave_Dir_Intensity"
+                0x425ed3ca: vec4 = { 0.3825, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "HardOutlineSize"
@@ -87,6 +91,9 @@ entries: map[hash,embed] = {
         0xdd7ddb9d: list2[embed] = {
             0x0e2212a1 {
                 0x8d39bde6: string = "ALPHA"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "APPLY_FLOWMAP_TO_ALPHA"
             }
         }
         0xe6d67ded: map[string,string] = {
@@ -113,6 +120,62 @@ entries: map[hash,embed] = {
                 0xb696a5fe: string = "normal"
                 0xe6d67ded: map[string,string] = {
                     "TRANSITION" = "1"
+                }
+            }
+        }
+        0x86875ff3: pointer = 0x2d6bf1a2 {
+            0x48a52ed9: list[embed] = {
+                0x073f6a51 {
+                    0x8d39bde6: string = "Anim_Wave_Speed"
+                    0xe55419df: pointer = 0xab8dec42 {
+                        0x72ff2529: list[embed] = {
+                            0x45f0cf7a {
+                                0x308238bd: pointer = 0x8afb0060 {
+                                    0xa96fc6c9: hash = 0x16177004
+                                }
+                                0x24f2ec89: pointer = 0xd05c1920 {
+                                    0xe55419df: pointer = 0x8afb0060 {
+                                        0xa96fc6c9: hash = 0x16177004
+                                    }
+                                    0xb9780647: embed = 0xfe064c88 {
+                                        0x5d68eeb5: list[f32] = {
+                                            0
+                                            0.042510122
+                                        }
+                                        0x34474c3b: list[f32] = {
+                                            1
+                                            0
+                                        }
+                                    }
+                                }
+                            }
+                            0x45f0cf7a {
+                                0x308238bd: pointer = 0x087188b5 {
+                                    0x30b2f4b2: list[hash] = {
+                                        0xbd28bd4d
+                                    }
+                                }
+                                0x24f2ec89: pointer = 0xd05c1920 {
+                                    0xe55419df: pointer = 0x7fc1d873 {
+                                        0xfbd16fb5: hash = 0xbd28bd4d
+                                    }
+                                    0xb9780647: embed = 0xfe064c88 {
+                                        0x5d68eeb5: list[f32] = {
+                                            0
+                                            0.03846154
+                                        }
+                                        0x34474c3b: list[f32] = {
+                                            1
+                                            0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        0xb9b6eb7a: pointer = 0x70fff2b7 {
+                            0x24f2ec89: f32 = 1
+                        }
+                    }
                 }
             }
         }
