@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd010a925 = 0x4b413124 {
+        0x37386ae0: string = "09d09f7c-d42f-4d08-a97e-4075b8b489dc"
+        0x8d39bde6: string = "Fairy_Base_Mermaid_Table"
+        0x6194e22e: string = "companion_fairy_mermaid_name"
+        0x67a9c9d2: list[embed] = {
+            0x18599d08 {
+                0x9f245e2f: link = 0xa5019132
+                0x50a09eb9: u32 = 32766
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0xa4018f9f
+                0x50a09eb9: u32 = 180
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0xa3018e0c
+                0x50a09eb9: u32 = 1
+            }
+        }
+    }
+}

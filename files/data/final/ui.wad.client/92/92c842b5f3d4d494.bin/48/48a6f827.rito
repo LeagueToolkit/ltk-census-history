@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x48a6f827 = 0x4b413124 {
+        0x37386ae0: string = "0ea73ce6-0c6b-4a5f-839c-ef166d8e86dc"
+        0x8d39bde6: string = "Buglet_Sandbringer_Table"
+        0x6194e22e: string = "buglet_sandbringer_tier1_name"
+        0x67a9c9d2: list[embed] = {
+            0x18599d08 {
+                0x9f245e2f: link = 0xfa1d8c4c
+                0x50a09eb9: u32 = 32766
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0xfd1d9105
+                0x50a09eb9: u32 = 180
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0xfc1d8f72
+                0x50a09eb9: u32 = 1
+            }
+        }
+    }
+}

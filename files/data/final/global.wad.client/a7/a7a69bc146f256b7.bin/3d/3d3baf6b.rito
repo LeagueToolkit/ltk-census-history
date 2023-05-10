@@ -15,7 +15,7 @@ entries: map[hash,embed] = {
             0x48ff8661
             0x39b1adc9
         }
-        0x0b44452a: i32 = 800
+        0x0b44452a: i32 = 700
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
@@ -37,7 +37,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MaxStacks"
-                0x24f2ec89: f32 = 6
+                0x24f2ec89: f32 = 10
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ImmobilizeStacks"
@@ -45,16 +45,19 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "DamageReduction"
-                0x24f2ec89: f32 = 0.25
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "StackRefreshTimer"
                 0x24f2ec89: f32 = 1
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "BonusMagicResist"
+                0x24f2ec89: f32 = 30
+            }
         }
-        0x06d997bb: f32 = 350
+        0x06d997bb: f32 = 400
         0xb739c155: f32 = 0.05
-        0xb9f972a0: f32 = 70
+        0xb9f972a0: f32 = 60
         0xccf99b44: list[string] = {
             "Health"
             "SpellBlock"
@@ -65,6 +68,7 @@ entries: map[hash,embed] = {
         }
         0x57558bca: list[u8] = {
             8
+            32
         }
         0xd92888a0: embed = 0x851af275 {
             0x2831605b: pointer = 0x35f5c16c {
@@ -77,7 +81,6 @@ entries: map[hash,embed] = {
                     "keyUniqueGroup" = "Item_Unique_With_Self"
                     "keyTooltip" = "Item_4401_Tooltip"
                     "keyColloquialism" = "Item_4401_Colloquialism"
-                    "keyInventoryOnlyText" = "Item_4401_InventoryOnlyText"
                     "keyTooltipExternal" = "Item_4401_TooltipExternal"
                 }
                 0x91ed07c9: map[string,embed] = {

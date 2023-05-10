@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x051db039 = 0x4b413124 {
+        0x37386ae0: string = "c68b6105-a9cc-4bb4-be38-ed3ebbb73693"
+        0x8d39bde6: string = "Miner_Red_Table"
+        0x6194e22e: string = "miner_red_tier1_name"
+        0x67a9c9d2: list[embed] = {
+            0x18599d08 {
+                0x9f245e2f: link = 0xe7b38d36
+                0x50a09eb9: u32 = 32766
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0xe6b38ba3
+                0x50a09eb9: u32 = 180
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0xe5b38a10
+                0x50a09eb9: u32 = 1
+            }
+        }
+    }
+}

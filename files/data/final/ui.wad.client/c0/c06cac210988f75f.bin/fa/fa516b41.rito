@@ -1,0 +1,51 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xfa516b41 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/PreGame/UX/RiotUI/IncrementalPurchaseDialog/Scene/PurchaseDialog_DownButton"
+        0x2063cb13: link = 0x2ed19af2
+        0x5a94b0cc: list[link] = {
+            0x8260f7e3
+            0xaa3e137f
+            0xa1db7094
+            0x276a17b6
+            0x87a2c30a
+            0x24a88f2f
+            0xccd06afa
+            0x81ccb113
+            0x11efb984
+        }
+        0xdf2b45ce: bool = true
+        0x6bf3194e: link = 0x276a17b6
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0xaa3e137f
+                0x24a88f2f
+            }
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0xa1db7094
+                0x11efb984
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x8260f7e3
+                0x81ccb113
+            }
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x87a2c30a
+                0xccd06afa
+            }
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_PreGameUI_button_selection_tap"
+            0x84b6cf03: string = "Play_sfx_PreGameUI_store_button_purchase_confirmation_release"
+        }
+    }
+}

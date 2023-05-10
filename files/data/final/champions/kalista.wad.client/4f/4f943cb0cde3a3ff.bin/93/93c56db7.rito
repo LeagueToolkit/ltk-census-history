@@ -210,6 +210,30 @@ entries: map[hash,embed] = {
                         6.5
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "APRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowAPRatio"
+                    0x246b0d8e: list[f32] = {
+                        5e-04
+                        5e-04
+                        5e-04
+                        5e-04
+                        5e-04
+                        5e-04
+                        5e-04
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0xe45b309f = 0xbc409284 {
@@ -220,6 +244,9 @@ entries: map[hash,embed] = {
                         0x5815b0a9 {
                             0x4cec2c8a: u8 = 2
                             0x295c2889: f32 = 0.7
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xe30c799f
                         }
                     }
                 }
@@ -232,7 +259,35 @@ entries: map[hash,embed] = {
                             0x4cec2c8a: u8 = 2
                             0xb386dcf1: hash = 0x14d5f8b0
                         }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xe30c799f
+                        }
                     }
+                }
+                0x61a7ccad = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xe30c799f
+                        }
+                    }
+                }
+                0x1beefb16 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xe30c799f
+                        }
+                    }
+                }
+                0xeaf11e4c = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x8cbf9724
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xc7b21518
+                        }
+                    }
+                    0x5a2297d3: bool = true
                 }
             }
             0xfbd16fb5: string = "Spell3"

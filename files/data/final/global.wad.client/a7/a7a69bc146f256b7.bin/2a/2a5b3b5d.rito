@@ -42,7 +42,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "Cooldown"
-                0x24f2ec89: f32 = 15
+                0x24f2ec89: f32 = 10
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "TakedownWindow"
@@ -75,6 +75,18 @@ entries: map[hash,embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "MythicMovespeedAmount"
                 0x24f2ec89: f32 = 5
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MaxAmpAmount"
+                0x24f2ec89: f32 = 1
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MinHealthThreshold"
+                0x24f2ec89: f32 = 0.2
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "SpellMaxAmp"
+                0x24f2ec89: f32 = 0.15
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -194,10 +206,8 @@ entries: map[hash,embed] = {
         }
         0x5f8284a2: pointer = 0xef3a0f33 {
             0xd2f58721: map[hash,link] = {
-                0xd036b801 = 0x449e0f65
-                0x6675e394 = 0x24b3d3fe
-                0xd3d750ed = 0x24b3d3fe
                 0x3608c359 = 0x6c1db2a7
+                0x8537597c = 0x824a5e8f
             }
         }
     }

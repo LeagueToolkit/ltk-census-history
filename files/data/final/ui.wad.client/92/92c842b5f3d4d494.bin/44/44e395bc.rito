@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x44e395bc = 0x4b413124 {
+        0x37386ae0: string = "15618b09-324c-4e7e-8047-829af05d2965"
+        0x8d39bde6: string = "Miner_RPG_Order_Table"
+        0x6194e22e: string = "companion_name_miner_order"
+        0x67a9c9d2: list[embed] = {
+            0x18599d08 {
+                0x9f245e2f: link = 0x53cae875
+                0x50a09eb9: u32 = 32766
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x50cae3bc
+                0x50a09eb9: u32 = 180
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x51cae54f
+                0x50a09eb9: u32 = 1
+            }
+        }
+    }
+}

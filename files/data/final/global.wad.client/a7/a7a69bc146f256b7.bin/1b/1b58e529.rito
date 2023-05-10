@@ -76,11 +76,11 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ShieldMinTOOLTIP"
-                0x24f2ec89: f32 = 180
+                0x24f2ec89: f32 = 200
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ShieldMaxTOOLTIP"
-                0x24f2ec89: f32 = 330
+                0x24f2ec89: f32 = 360
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -102,8 +102,8 @@ entries: map[hash,embed] = {
                     0x84a63373 {
                         0xa066cc28: list[pointer] = {
                             0x15fecdbc {
-                                0xd06c375d: f32 = 180
-                                0x1cd7e522: f32 = 330
+                                0xd06c375d: f32 = 200
+                                0x1cd7e522: f32 = 360
                             }
                         }
                     }
@@ -117,11 +117,10 @@ entries: map[hash,embed] = {
         0xccf99b44: list[string] = {
             "Health"
             "SpellBlock"
+            "HealthRegen"
             "Armor"
             "Aura"
             "Active"
-            "CooldownReduction"
-            "AbilityHaste"
         }
         0x57558bca: list[u8] = {
             32
@@ -150,16 +149,16 @@ entries: map[hash,embed] = {
                                 0x566f3406: string = "OrnnStat_Health"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "AbilityHaste"
-                                0x566f3406: string = "OrnnStat_Haste"
-                            }
-                            0x9a1b3505 {
                                 0x5127f14d: string = "Armor"
                                 0x566f3406: string = "OrnnStat_Ar"
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "MagicResist"
                                 0x566f3406: string = "OrnnStat_MR"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AbilityHaste"
+                                0x566f3406: string = "OrnnStat_Haste"
                             }
                         }
                     }

@@ -14,7 +14,7 @@ entries: map[hash,embed] = {
         }
         0x2103d934: hash = 0x7afa5b33
         0x0b44452a: i32 = 1100
-        0x44bcd422: i32 = 1
+        0x8e70b3a0: string = "S11Support_Quest_Completion_Buff"
         0x4e3683bf: bool = true
         0x8f449c8b: bool = true
         0xf028019b: bool = true
@@ -30,27 +30,24 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "NewWardMax"
-                0x24f2ec89: f32 = 4
+                0x24f2ec89: f32 = 3
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "WardIncrease"
-                0x24f2ec89: f32 = 1
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "RequiredLevel"
-                0x24f2ec89: f32 = 13
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "StealthWardsRequired"
-                0x24f2ec89: f32 = 15
+                0x19efbfdb: string = "BonusStatMod"
+                0x24f2ec89: f32 = 0.08
             }
         }
         0x5b98619f: f32 = 10
         0x06d997bb: f32 = 150
+        0xa77b63e1: f32 = 0.5
         0xccf99b44: list[string] = {
             "Health"
             "Damage"
             "SpellDamage"
+            "ManaRegen"
             "Vision"
             "Active"
             "CooldownReduction"
@@ -75,6 +72,8 @@ entries: map[hash,embed] = {
                     "keyColloquialism" = "Item_4638_Colloquialism"
                     "keyTooltipExternal" = "Item_4638_TooltipExternal"
                     "keyInventoryOnlyText" = "Item_4638_InventoryOnlyText"
+                    "keyShopOnlyText" = "Item_Wardstone_Requirements"
+                    "keyTooltipDynamic" = "Item_4638_TooltipDynamic"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -84,6 +83,9 @@ entries: map[hash,embed] = {
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "AbilityHaste"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "BaseManaRegen"
                             }
                         }
                     }

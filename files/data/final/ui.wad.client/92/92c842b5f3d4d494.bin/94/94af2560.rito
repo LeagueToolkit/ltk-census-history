@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x94af2560 = 0x4b413124 {
+        0x37386ae0: string = "0bbb527a-8b86-4327-9f96-91e8e6ee7eb6"
+        0x8d39bde6: string = "MiniGolem_Lava_Table"
+        0x6194e22e: string = "minigolem_lava_tier1_name"
+        0x67a9c9d2: list[embed] = {
+            0x18599d08 {
+                0x9f245e2f: link = 0x55433d45
+                0x50a09eb9: u32 = 32766
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x5243388c
+                0x50a09eb9: u32 = 180
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x53433a1f
+                0x50a09eb9: u32 = 1
+            }
+        }
+    }
+}

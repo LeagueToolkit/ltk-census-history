@@ -16,28 +16,28 @@ entries: map[hash,embed] = {
             0x705ee247
             0x32984313
         }
-        0x0b44452a: i32 = 625
+        0x0b44452a: i32 = 650
         0xf028019b: bool = true
         0x7d8fa230: bool = true
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 6
         0x2c359091: list[link] = {
-            0xcc321933
-            0x9021f270
-            0x1f2750bb
+            0x1c274c02
+            0xda6d403d
+            0x1e274f28
         }
         0xb6188f47: list[link] = {
             0x0c7ef6d4
         }
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
-                0x19efbfdb: string = "Cooldown"
-                0x24f2ec89: f32 = 110
+                0x19efbfdb: string = "MythicStatAmount"
+                0x24f2ec89: f32 = 5
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "MythicStatAmount"
-                0x24f2ec89: f32 = 0.02
+                0x19efbfdb: string = "Cooldown"
+                0x24f2ec89: f32 = 90
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MaxDistance"
@@ -53,46 +53,75 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ExecuteMaxThreshold"
-                0x24f2ec89: f32 = 0.3
+                0x24f2ec89: f32 = 0.25
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ExecuteMaxDamage"
-                0x24f2ec89: f32 = 0.5
+                0x24f2ec89: f32 = 0.6
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MaxDamageFromCrit"
+                0x24f2ec89: f32 = 250
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MinDamageTooltip"
+                0x24f2ec89: f32 = 150
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MaxDamageTooltip"
+                0x24f2ec89: f32 = 350
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
             0x05148a7c = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
                     0x5cf69ece {
-                        0xad62f672: f32 = 60
+                        0xad62f672: f32 = 150
                         0x7b5d1934: list[embed] = {
                             0x8e93d8ee {
-                                0xa77654ae: u32 = 10
-                                0x57fdc438: f32 = 5
+                                0xa77654ae: u32 = 9
+                                0x57fdc438: f32 = 20
                             }
                         }
                     }
-                    0x5815b0a9 {
-                        0x4cec2c8a: u8 = 2
-                        0x7d3150ec: u8 = 2
-                        0x295c2889: f32 = 0.15
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 7
+                        0xb386dcf1: hash = 0xe6cd8508
                     }
                 }
             }
-            0x78e501d4 = 0x070e3593 {
-                0x2c77adff: pointer = 0x9ef92080 {
-                    0xe202bca9: f32 = 3
+            0xb7d9566c = 0x070e3593 {
+                0x2c77adff: pointer = 0x84a63373 {
+                    0xa066cc28: list[pointer] = {
+                        0x9ef92080 {
+                            0xe202bca9: f32 = 1
+                        }
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xfb759c13
+                        }
+                    }
                 }
                 0x7f93cf4e: hash = 0x05148a7c
             }
+            0xe185b21e = 0xbc409284 {
+                0x2c77adff: pointer = 0x332eb441 {
+                    0xb386dcf1: hash = 0x3f0ecb5d
+                }
+                0x50f145c0: list[pointer] = {
+                    0x663d5e00 {
+                        0xcac1b6d2: f32 = 1
+                        0x5ee3c453: u8 = 5
+                    }
+                }
+            }
         }
+        0xb739c155: f32 = 0.07
         0xbc050325: f32 = 0.2
-        0x4e7a81cd: f32 = 60
-        0xc5658c30: f32 = 0.2
+        0x4e7a81cd: f32 = 55
+        0xc5658c30: f32 = 0.15
         0xccf99b44: list[string] = {
             "Damage"
             "CriticalStrike"
-            "AttackSpeed"
             "Active"
             "NonbootsMovement"
         }
@@ -115,7 +144,7 @@ entries: map[hash,embed] = {
                     "keyTooltip" = "Item_6671_Tooltip"
                     "keyActiveExternal" = "Item_6671_ActiveExternal"
                     "keyColloquialism" = "Item_6671_Colloquialism"
-                    "keyTooltipExternal" = "Item_6671_TooltipExternal"
+                    "KeyActiveDynamic" = "Item_6671_ActiveDynamic"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -128,6 +157,9 @@ entries: map[hash,embed] = {
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "CritChance"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "MoveSpeedPercent"
                             }
                         }
                     }

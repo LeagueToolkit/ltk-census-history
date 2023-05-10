@@ -11,7 +11,7 @@ entries: map[hash,embed] = {
             0xb0bee26d
             0x218b5fe6
         }
-        0x0b44452a: i32 = 750
+        0x0b44452a: i32 = 550
         0x51c4b876: bool = true
         0xf7250cac: bool = false
         0x0a502bcf: bool = false
@@ -26,28 +26,44 @@ entries: map[hash,embed] = {
         }
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
-                0x19efbfdb: string = "MaxCounter"
-                0x24f2ec89: f32 = 4
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "HealShieldAmpPerStack"
+                0x19efbfdb: string = "MythicPassiveAbilityHaste"
                 0x24f2ec89: f32 = 5
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "PendantOfVitalityBuffDuration"
-                0x24f2ec89: f32 = 6
+                0x19efbfdb: string = "HealRange"
+                0x24f2ec89: f32 = 800
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "EveryXSecondsDoHeal"
-                0x24f2ec89: f32 = 2
+                0x19efbfdb: string = "ChainHealMinTOOLTIP"
+                0x24f2ec89: f32 = 0.2
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "MythicPassiveHealIncrease"
-                0x24f2ec89: f32 = 8
+                0x19efbfdb: string = "ChainHealMaxTOOLTIP"
+                0x24f2ec89: f32 = 0.35
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "BaseHealAmount"
-                0x24f2ec89: f32 = 60
+                0x19efbfdb: string = "SingleHealMinTOOLTIP"
+                0x24f2ec89: f32 = 0.15
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "SingleHealMaxTOOLTIP"
+                0x24f2ec89: f32 = 0.25
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "SingleShieldMinTOOLTIP"
+                0x24f2ec89: f32 = 0.2
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "SingleShieldMaxTOOLTIP"
+                0x24f2ec89: f32 = 0.3
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ChainShieldMinTOOLTIP"
+                0x24f2ec89: f32 = 0.3
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ChainShieldMaxTOOLTIP"
+                0x24f2ec89: f32 = 0.4
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -59,35 +75,54 @@ entries: map[hash,embed] = {
                             0x5ee3c453: u8 = 5
                         }
                         0x4914452d: pointer = 0x332eb441 {
-                            0xb386dcf1: hash = 0xd7058286
+                            0xb386dcf1: hash = 0x5a39e94d
                         }
                     }
                 }
             }
-            0x041fa779 = 0xbc409284 {
-                0x2c77adff: pointer = 0x332eb441 {
-                    0xb386dcf1: hash = 0xffc4b557
-                }
-                0xcbcac618: u8 = 5
-                0x37070a8d: u8 = 5
-                0xe6eebb2f: u8 = 5
-                0xd6b7a622: bool = true
+            0xb389d204 = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
-                    0x332eb441 {
-                        0xb386dcf1: hash = 0xc9e0b00d
+                    0x15fecdbc {
+                        0xd06c375d: f32 = 0.2
+                        0x1cd7e522: f32 = 0.35
+                    }
+                }
+            }
+            0xb5d7f85b = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x15fecdbc {
+                        0xd06c375d: f32 = 0.15
+                        0x1cd7e522: f32 = 0.25
+                    }
+                }
+            }
+            0x288eb5c0 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x15fecdbc {
+                        0xd06c375d: f32 = 0.2
+                        0x1cd7e522: f32 = 0.3
+                    }
+                }
+            }
+            0x3e41fb6f = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x15fecdbc {
+                        0xd06c375d: f32 = 0.3
+                        0x1cd7e522: f32 = 0.4
                     }
                 }
             }
         }
         0x5b98619f: f32 = 20
         0x06d997bb: f32 = 200
-        0x288a964d: f32 = 40
+        0x288a964d: f32 = 35
         0xa77b63e1: f32 = 1
         0xccf99b44: list[string] = {
             "Health"
             "SpellDamage"
             "ManaRegen"
             "CooldownReduction"
+            "AbilityHaste"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
@@ -144,6 +179,9 @@ entries: map[hash,embed] = {
                 0x6702de4b = 0x9ea9a4bf
                 0x7cede635 = 0xac963311
                 0x7ba2b0fe = 0xead683ea
+                0xea79d968 = 0x490cd89c
+                0xa2a991be = 0x807cfab2
+                0x337519b0 = 0x6495c852
             }
         }
     }

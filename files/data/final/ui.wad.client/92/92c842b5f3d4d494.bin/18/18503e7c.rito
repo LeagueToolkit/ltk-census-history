@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x18503e7c = 0x4b413124 {
+        0x37386ae0: string = "54775e8b-c729-4c5d-b05d-67e3d3828a4b"
+        0x8d39bde6: string = "Water_Beam_Table"
+        0x6194e22e: string = "tft_damageskin_hydroblast"
+        0x67a9c9d2: list[embed] = {
+            0x18599d08 {
+                0x9f245e2f: link = 0x0352beca
+                0x50a09eb9: u32 = 32766
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x0252bd37
+                0x50a09eb9: u32 = 180
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x0152bba4
+                0x50a09eb9: u32 = 1
+            }
+        }
+    }
+}

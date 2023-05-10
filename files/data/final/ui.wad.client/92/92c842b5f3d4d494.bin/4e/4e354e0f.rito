@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4e354e0f = 0x4b413124 {
+        0x37386ae0: string = "52b75d43-bb3f-42ef-ac6a-9cc8e4a474e5"
+        0x8d39bde6: string = "JawDragon_Base_Variant2_Table"
+        0x6194e22e: string = "companion_name_jawdragon_variant2"
+        0x67a9c9d2: list[embed] = {
+            0x18599d08 {
+                0x9f245e2f: link = 0x044a032e
+                0x50a09eb9: u32 = 32766
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x034a019b
+                0x50a09eb9: u32 = 180
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x024a0008
+                0x50a09eb9: u32 = 1
+            }
+        }
+    }
+}

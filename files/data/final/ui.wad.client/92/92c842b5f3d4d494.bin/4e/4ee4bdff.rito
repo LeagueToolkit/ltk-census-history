@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4ee4bdff = 0x4b413124 {
+        0x37386ae0: string = "0eb90be7-2e65-40d2-9b20-4daedba62eec"
+        0x8d39bde6: string = "SpiritFox_Fae_Table"
+        0x6194e22e: string = "spiritfox_fae_tier1_name"
+        0x67a9c9d2: list[embed] = {
+            0x18599d08 {
+                0x9f245e2f: link = 0x33062735
+                0x50a09eb9: u32 = 32766
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x3006227c
+                0x50a09eb9: u32 = 180
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x3106240f
+                0x50a09eb9: u32 = 1
+            }
+        }
+    }
+}

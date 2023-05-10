@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xfb9b2d2c = 0x4b413124 {
+        0x37386ae0: string = "a2c87364-b55c-4e92-bbcd-a0d199eb8798"
+        0x8d39bde6: string = "Duckbill_Base_Variant2_Table"
+        0x6194e22e: string = "companion_name_duckbill_variant2"
+        0x67a9c9d2: list[embed] = {
+            0x18599d08 {
+                0x9f245e2f: link = 0x53ed36b8
+                0x50a09eb9: u32 = 32766
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x56ed3b71
+                0x50a09eb9: u32 = 180
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x55ed39de
+                0x50a09eb9: u32 = 1
+            }
+        }
+    }
+}

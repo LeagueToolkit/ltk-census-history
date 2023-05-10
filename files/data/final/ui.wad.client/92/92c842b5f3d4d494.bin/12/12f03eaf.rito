@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x12f03eaf = 0x4b413124 {
+        0x37386ae0: string = "f08db147-75bf-4d9e-b822-5d6c5f80f3f6"
+        0x8d39bde6: string = "Wings_Table"
+        0x6194e22e: string = "tft_damageskin_wings"
+        0x67a9c9d2: list[embed] = {
+            0x18599d08 {
+                0x9f245e2f: link = 0x927631a2
+                0x50a09eb9: u32 = 32766
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x9176300f
+                0x50a09eb9: u32 = 180
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x90762e7c
+                0x50a09eb9: u32 = 1
+            }
+        }
+    }
+}

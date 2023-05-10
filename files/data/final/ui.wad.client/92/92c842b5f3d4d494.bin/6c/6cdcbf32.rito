@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6cdcbf32 = 0x4b413124 {
+        0x37386ae0: string = "b84a0a74-5342-423b-9abc-9521e577d8d7"
+        0x8d39bde6: string = "DSWhale_Goo_Table"
+        0x6194e22e: string = "dswhale_goo_tier1_name"
+        0x67a9c9d2: list[embed] = {
+            0x18599d08 {
+                0x9f245e2f: link = 0x861b8a8e
+                0x50a09eb9: u32 = 32766
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x851b88fb
+                0x50a09eb9: u32 = 180
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x841b8768
+                0x50a09eb9: u32 = 1
+            }
+        }
+    }
+}

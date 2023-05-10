@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xaf4ec285 = 0x4b413124 {
+        0x37386ae0: string = "4afba7c8-e0cd-4e27-b035-94c7d0ca048f"
+        0x8d39bde6: string = "GemTiger_Jeweled_Table"
+        0x6194e22e: string = "gemtiger_jeweled_tier1_name"
+        0x67a9c9d2: list[embed] = {
+            0x18599d08 {
+                0x9f245e2f: link = 0x0e4a4fb1
+                0x50a09eb9: u32 = 32766
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x0b4a4af8
+                0x50a09eb9: u32 = 180
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x0c4a4c8b
+                0x50a09eb9: u32 = 1
+            }
+        }
+    }
+}
