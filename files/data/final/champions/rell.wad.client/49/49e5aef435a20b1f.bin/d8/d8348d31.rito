@@ -109,14 +109,15 @@ entries: map[hash,embed] = {
                         "Play_sfx_RellSkin01_RellBasicAttack_OnHit"
                         "Play_sfx_RellSkin01_RellCritAttack_OnCast"
                         "Play_sfx_RellSkin01_RellCritAttack_OnHit"
-                        "Play_sfx_RellSkin01_RellE_cast"
-                        "Play_sfx_RellSkin01_RellE_hit"
-                        "Play_sfx_RellSkin01_RellE_Tether_buffactivate"
-                        "Play_sfx_RellSkin01_RellE_Tether_buffcast"
-                        "Play_sfx_RellSkin01_RellE_Tether_cast"
+                        "Play_sfx_RellSkin01_RellE_buffactivate"
+                        "Play_sfx_RellSkin01_RellE_empowered_hit"
+                        "Play_sfx_RellSkin01_RellE_footstep_buffactivate"
+                        "Play_sfx_RellSkin01_RellE_footstep_mute"
+                        "Play_sfx_RellSkin01_RellE_loop_buffactivate"
+                        "Play_sfx_RellSkin01_RellE_OnCast"
+                        "Play_sfx_RellSkin01_RellE_RampSpeed_buffactivate"
                         "Play_sfx_RellSkin01_RellE_Tether_missilecast"
-                        "Play_sfx_RellSkin01_RellEmpoweredAttack_hit"
-                        "Play_sfx_RellSkin01_RellP_armorshred"
+                        "Play_sfx_RellSkin01_RellP_debuff_maxstack_buffactivate"
                         "Play_sfx_RellSkin01_RellQ_hit"
                         "Play_sfx_RellSkin01_RellQ_idleout"
                         "Play_sfx_RellSkin01_RellQ_OnCast"
@@ -128,6 +129,8 @@ entries: map[hash,embed] = {
                         "Play_sfx_RellSkin01_RellW_Dismount_land"
                         "Play_sfx_RellSkin01_RellW_Dismount_OnBuffActivate"
                         "Play_sfx_RellSkin01_RellW_Dismount_OnCast"
+                        "Play_sfx_RellSkin01_RellW_EmpoweredAttack_cast"
+                        "Play_sfx_RellSkin01_RellW_EmpoweredAttack_hit"
                         "Play_sfx_RellSkin01_RellW_MountUp_OnBuffActivate"
                         "Play_sfx_RellSkin01_RellW_MountUp_OnBuffCast"
                         "Play_sfx_RellSkin01_RellW_MountUp_OnBuffDeactivate"
@@ -135,6 +138,10 @@ entries: map[hash,embed] = {
                         "Play_sfx_RellSkin01_Respawn3D_buffactivate"
                         "Play_sfx_RellSkin01_Taunt3D_cast"
                         "Play_sfx_RellSkin01_Winddown3D_buffactivate"
+                        "Stop_sfx_RellSkin01_RellE_buffactivate"
+                        "Stop_sfx_RellSkin01_RellE_footstep_buffactivate"
+                        "Stop_sfx_RellSkin01_RellE_loop_buffactivate"
+                        "Stop_sfx_RellSkin01_RellE_RampSpeed_buffactivate"
                     }
                 }
             }
@@ -246,6 +253,7 @@ entries: map[hash,embed] = {
                     0x93b7fa73: f32 = 35
                 }
             }
+            0x309683ca: bool = true
         }
         0x2d0d1f1d: string = "Metal"
         0x123393ed: list[string] = {

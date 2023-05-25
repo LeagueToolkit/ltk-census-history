@@ -142,12 +142,12 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "AdditionalBaseDamage"
                     0x246b0d8e: list[f32] = {
                         4
-                        10
+                        8
+                        12
                         16
-                        22
+                        20
+                        24
                         28
-                        34
-                        40
                     }
                 }
                 0x005008a6 {
@@ -189,25 +189,25 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "AdditionalADRatio"
                     0x246b0d8e: list[f32] = {
-                        0.1885
-                        0.232
-                        0.2755
-                        0.319
-                        0.3625
-                        0.406
-                        0.4495
+                        0.2
+                        0.25
+                        0.3
+                        0.35
+                        0.4
+                        0.45
+                        0.5
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "FakedCooldown"
                     0x246b0d8e: list[f32] = {
-                        15.5
-                        14
-                        12.5
-                        11
+                        10.5
+                        10
                         9.5
+                        9
+                        8.5
                         8
-                        6.5
+                        7.5
                     }
                 }
                 0x005008a6 {
@@ -378,6 +378,16 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "AdditionalBaseDamage"
+                                    0x566f3406: string = "Spell_ListType_DamageperStack"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "AdditionalADRatio"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_KalistaExpungeWrapper_RatioPerStack"
+                                    0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "SlowAmount"

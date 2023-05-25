@@ -58,10 +58,13 @@ entries: map[hash,embed] = {
             0x362e4fca = 0xfc27a63e {
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Basic Attack"
+                        0xfecc56e5: string = "Basic 1"
                         0x2aff6c4a: list[pointer] = {
                             0x605ed8ec {
                                 0x56d2be52: hash = 0xe7b4de05
+                            }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 30
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
@@ -76,10 +79,13 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Basic Attack"
+                        0xfecc56e5: string = "Basic 2"
                         0x2aff6c4a: list[pointer] = {
                             0x605ed8ec {
                                 0x56d2be52: hash = 0xf8b9d095
+                            }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 30
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
@@ -99,6 +105,9 @@ entries: map[hash,embed] = {
                             0x605ed8ec {
                                 0x56d2be52: hash = 0xb5620255
                             }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 30
+                            }
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "cast3D"
@@ -117,6 +126,9 @@ entries: map[hash,embed] = {
                             0x605ed8ec {
                                 0x56d2be52: hash = 0x52743c7d
                             }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 50
+                            }
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "cast3D"
@@ -124,7 +136,6 @@ entries: map[hash,embed] = {
                             0x415965e7: string = "cast3D"
                             0xe810044c: string = "cast3D"
                         }
-                        0x68fee3c4: bool = true
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
                             0xc59f257e: bool = true
@@ -136,6 +147,9 @@ entries: map[hash,embed] = {
                             0x605ed8ec {
                                 0x56d2be52: hash = 0xe0c2427d
                             }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 50
+                            }
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "cast3D"
@@ -143,7 +157,6 @@ entries: map[hash,embed] = {
                             0x415965e7: string = "cast3D"
                             0xe810044c: string = "cast3D"
                         }
-                        0x68fee3c4: bool = true
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
                             0xc59f257e: bool = true
@@ -155,6 +168,9 @@ entries: map[hash,embed] = {
                             0x605ed8ec {
                                 0x56d2be52: hash = 0xd544b3a5
                             }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 50
+                            }
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "cast3D"
@@ -162,7 +178,6 @@ entries: map[hash,embed] = {
                             0x415965e7: string = "cast3D"
                             0xe810044c: string = "cast3D"
                         }
-                        0x68fee3c4: bool = true
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
                             0xc59f257e: bool = true
@@ -181,10 +196,11 @@ entries: map[hash,embed] = {
                             0x415965e7: string = "cast3D"
                             0xe810044c: string = "cast3D"
                         }
-                        0x68fee3c4: bool = true
+                        0x0f717330: option[i32] = {
+                            90
+                        }
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
-                            0xc59f257e: bool = true
                         }
                     }
                 }
@@ -194,6 +210,7 @@ entries: map[hash,embed] = {
                     0x22d0ac10 {
                         0xfecc56e5: string = "First Move"
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "Move2DFirst"
                         }
                         0x98b66135: pointer = 0x15f6e07a {
@@ -218,7 +235,7 @@ entries: map[hash,embed] = {
             0xe189a0a2 = 0xfc27a63e {
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Kill - Pentakill"
+                        0xfecc56e5: string = "Pentakill"
                         0x2aff6c4a: list[pointer] = {
                             0x9ba5f53d {
                                 0x1f87eb90: u8 = 5
@@ -235,7 +252,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Kill - Debonair Brand"
+                        0xfecc56e5: string = "Brand"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 6
@@ -245,25 +262,15 @@ entries: map[hash,embed] = {
                                             0x6a1ec278
                                         }
                                     }
-                                    0xc879644a {
-                                        0x878fb675: list[i32] = {
-                                            21
-                                            22
-                                            24
-                                            25
-                                            26
-                                            27
-                                            28
-                                            29
-                                            30
-                                            31
-                                            32
-                                        }
+                                    0x95a7d707 {
+                                        0x8e257510: string = "skinline"
+                                        0x7e0dca60: string = "debonair"
                                     }
                                 }
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "Kill3DBrandSkin21"
                             0x415965e7: string = "Kill3DBrandSkin21"
                             0x1b80126e: bool = true
@@ -273,7 +280,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Kill - Debonair Draven"
+                        0xfecc56e5: string = "Draven"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 6
@@ -283,24 +290,15 @@ entries: map[hash,embed] = {
                                             0x8a754843
                                         }
                                     }
-                                    0xc879644a {
-                                        0x878fb675: list[i32] = {
-                                            29
-                                            30
-                                            31
-                                            32
-                                            33
-                                            34
-                                            35
-                                            36
-                                            37
-                                            38
-                                        }
+                                    0x95a7d707 {
+                                        0x8e257510: string = "skinline"
+                                        0x7e0dca60: string = "debonair"
                                     }
                                 }
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "Kill3DDravenSkin29"
                             0x415965e7: string = "Kill3DDravenSkin29"
                             0x1b80126e: bool = true
@@ -310,7 +308,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Kill - Debonair Leblanc"
+                        0xfecc56e5: string = "Leblanc"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 6
@@ -320,24 +318,15 @@ entries: map[hash,embed] = {
                                             0xcbe71fba
                                         }
                                     }
-                                    0xc879644a {
-                                        0x878fb675: list[i32] = {
-                                            35
-                                            36
-                                            37
-                                            38
-                                            39
-                                            40
-                                            41
-                                            42
-                                            43
-                                            44
-                                        }
+                                    0x95a7d707 {
+                                        0x8e257510: string = "skinline"
+                                        0x7e0dca60: string = "debonair"
                                     }
                                 }
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "Kill3DLeblancSkin35"
                             0x415965e7: string = "Kill3DLeblancSkin35"
                             0x1b80126e: bool = true
@@ -347,7 +336,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Kill - Debonair Leona"
+                        0xfecc56e5: string = "Leona"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 6
@@ -357,25 +346,15 @@ entries: map[hash,embed] = {
                                             0x8e0099d4
                                         }
                                     }
-                                    0xc879644a {
-                                        0x878fb675: list[i32] = {
-                                            33
-                                            34
-                                            35
-                                            36
-                                            37
-                                            38
-                                            39
-                                            40
-                                            41
-                                            42
-                                            43
-                                        }
+                                    0x95a7d707 {
+                                        0x8e257510: string = "skinline"
+                                        0x7e0dca60: string = "debonair"
                                     }
                                 }
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "Kill3DLeonaSkin33"
                             0x415965e7: string = "Kill3DLeonaSkin33"
                             0x1b80126e: bool = true
@@ -385,7 +364,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Kill - Debonair Malzahar"
+                        0xfecc56e5: string = "Malzahar"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 6
@@ -395,24 +374,15 @@ entries: map[hash,embed] = {
                                             0x40807b23
                                         }
                                     }
-                                    0xc879644a {
-                                        0x878fb675: list[i32] = {
-                                            28
-                                            29
-                                            30
-                                            31
-                                            32
-                                            33
-                                            34
-                                            35
-                                            36
-                                            37
-                                        }
+                                    0x95a7d707 {
+                                        0x8e257510: string = "skinline"
+                                        0x7e0dca60: string = "debonair"
                                     }
                                 }
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "Kill3DMalzaharSkin28"
                             0x415965e7: string = "Kill3DMalzaharSkin28"
                             0x1b80126e: bool = true
@@ -422,7 +392,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Kill - Debonair Master Yi"
+                        0xfecc56e5: string = "Master Yi"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 6
@@ -432,24 +402,15 @@ entries: map[hash,embed] = {
                                             0x9b79c1c9
                                         }
                                     }
-                                    0xc879644a {
-                                        0x878fb675: list[i32] = {
-                                            42
-                                            43
-                                            44
-                                            45
-                                            46
-                                            47
-                                            48
-                                            49
-                                            50
-                                            51
-                                        }
+                                    0x95a7d707 {
+                                        0x8e257510: string = "skinline"
+                                        0x7e0dca60: string = "debonair"
                                     }
                                 }
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "Kill3DMasterYiSkin42"
                             0x415965e7: string = "Kill3DMasterYiSkin42"
                             0x1b80126e: bool = true
@@ -459,7 +420,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Kill - Debonair"
+                        0xfecc56e5: string = "Debonair"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 6
@@ -472,6 +433,7 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "Kill3DDebonair"
                             0x415965e7: string = "Kill3DDebonair"
                             0x1b80126e: bool = true
@@ -481,7 +443,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Kill - Crime City Nightmare"
+                        0xfecc56e5: string = "Crime City Nightmare"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 6
@@ -494,6 +456,7 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "Kill3DCrimeCityNightmare"
                             0x415965e7: string = "Kill3DCrimeCityNightmare"
                             0x1b80126e: bool = true
@@ -503,7 +466,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Kill - General"
+                        0xfecc56e5: string = "General"
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "Kill3DGeneral"
                             0x415965e7: string = "Kill3DGeneral"
@@ -548,10 +511,14 @@ entries: map[hash,embed] = {
                 }
             }
             0x373111c9 = 0xfc27a63e {
-                0xc6a8b1d0: f32 = 10
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
                         0xfecc56e5: string = "Recall"
+                        0x2aff6c4a: list[pointer] = {
+                            0xb4a5fb60 {
+                                0x954d766f: f32 = 10
+                            }
+                        }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "Recall3DGeneral"
                         }
@@ -565,17 +532,10 @@ entries: map[hash,embed] = {
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
                         0xfecc56e5: string = "Taunt Response"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 7
-                                0xf21bb0f8: list[pointer] = {
-                                    0xc6623d61 {}
-                                }
-                            }
-                        }
                         0xddac2570: pointer = 0x2980c70d {
                             0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "TauntResponse3DGeneral"
+                            0x683ae1b9: string = "TauntResponse3DGeneral"
                             0x415965e7: string = "TauntResponse3DGeneral"
                         }
                         0x98b66135: pointer = 0x15f6e07a {
@@ -604,7 +564,7 @@ entries: map[hash,embed] = {
             0xa47d00a4 = 0xfc27a63e {
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
-                        0xfecc56e5: string = "First Encounter - Debonair Brand"
+                        0xfecc56e5: string = "Debonair Brand"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -614,34 +574,23 @@ entries: map[hash,embed] = {
                                             0x6a1ec278
                                         }
                                     }
-                                    0xc879644a {
-                                        0x878fb675: list[i32] = {
-                                            21
-                                            22
-                                            24
-                                            25
-                                            26
-                                            27
-                                            28
-                                            29
-                                            30
-                                            31
-                                            32
-                                        }
+                                    0x95a7d707 {
+                                        0x8e257510: string = "skinline"
+                                        0x7e0dca60: string = "debonair"
                                     }
                                 }
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "FirstEncounter3DBrandSkin21"
-                            0x415965e7: string = "FirstEncounter3DBrandSkin21"
                         }
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "First Encounter - Debonair Draven"
+                        0xfecc56e5: string = "Debonair Draven"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -651,33 +600,23 @@ entries: map[hash,embed] = {
                                             0x8a754843
                                         }
                                     }
-                                    0xc879644a {
-                                        0x878fb675: list[i32] = {
-                                            29
-                                            30
-                                            31
-                                            32
-                                            33
-                                            34
-                                            35
-                                            36
-                                            37
-                                            38
-                                        }
+                                    0x95a7d707 {
+                                        0x8e257510: string = "skinline"
+                                        0x7e0dca60: string = "debonair"
                                     }
                                 }
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "FirstEncounter3DDravenSkin29"
-                            0x415965e7: string = "FirstEncounter3DDravenSkin29"
                         }
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "First Encounter - Debonair Leblanc"
+                        0xfecc56e5: string = "Debonair Leblanc"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -687,33 +626,23 @@ entries: map[hash,embed] = {
                                             0xcbe71fba
                                         }
                                     }
-                                    0xc879644a {
-                                        0x878fb675: list[i32] = {
-                                            35
-                                            36
-                                            37
-                                            38
-                                            39
-                                            40
-                                            41
-                                            42
-                                            43
-                                            44
-                                        }
+                                    0x95a7d707 {
+                                        0x8e257510: string = "skinline"
+                                        0x7e0dca60: string = "debonair"
                                     }
                                 }
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "FirstEncounter3DLeblancSkin35"
-                            0x415965e7: string = "FirstEncounter3DLeblancSkin35"
                         }
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "First Encounter - Debonair Leona"
+                        0xfecc56e5: string = "Debonair Leona"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -723,34 +652,23 @@ entries: map[hash,embed] = {
                                             0x8e0099d4
                                         }
                                     }
-                                    0xc879644a {
-                                        0x878fb675: list[i32] = {
-                                            33
-                                            34
-                                            35
-                                            36
-                                            37
-                                            38
-                                            39
-                                            40
-                                            41
-                                            42
-                                            43
-                                        }
+                                    0x95a7d707 {
+                                        0x8e257510: string = "skinline"
+                                        0x7e0dca60: string = "debonair"
                                     }
                                 }
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "FirstEncounter3DLeonaSkin33"
-                            0x415965e7: string = "FirstEncounter3DLeonaSkin33"
                         }
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "First Encounter - Debonair Malzahar"
+                        0xfecc56e5: string = "Debonair Malzahar"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -760,33 +678,23 @@ entries: map[hash,embed] = {
                                             0x40807b23
                                         }
                                     }
-                                    0xc879644a {
-                                        0x878fb675: list[i32] = {
-                                            28
-                                            29
-                                            30
-                                            31
-                                            32
-                                            33
-                                            34
-                                            35
-                                            36
-                                            37
-                                        }
+                                    0x95a7d707 {
+                                        0x8e257510: string = "skinline"
+                                        0x7e0dca60: string = "debonair"
                                     }
                                 }
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "FirstEncounter3DMalzaharSkin28"
-                            0x415965e7: string = "FirstEncounter3DMalzaharSkin28"
                         }
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "First Encounter - Debonair Master Yi"
+                        0xfecc56e5: string = "Debonair Master Yi"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -796,37 +704,6 @@ entries: map[hash,embed] = {
                                             0x9b79c1c9
                                         }
                                     }
-                                    0xc879644a {
-                                        0x878fb675: list[i32] = {
-                                            42
-                                            43
-                                            44
-                                            45
-                                            46
-                                            47
-                                            48
-                                            49
-                                            50
-                                            51
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "FirstEncounter3DMasterYiSkin42"
-                            0x415965e7: string = "FirstEncounter3DMasterYiSkin42"
-                        }
-                        0x98b66135: pointer = 0x15f6e07a {
-                            0x59c20478: bool = true
-                        }
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "First Encounter - Debonair"
-                        0x2aff6c4a: list[pointer] = {
-                            0xa2c49ab2 {
-                                0xf3e8e24f: u8 = 1
-                                0xf21bb0f8: list[pointer] = {
                                     0x95a7d707 {
                                         0x8e257510: string = "skinline"
                                         0x7e0dca60: string = "debonair"
@@ -835,15 +712,15 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "FirstEncounter3DDebonair"
-                            0x415965e7: string = "FirstEncounter3DDebonair"
+                            0x307b0406: u32 = 1
+                            0xc0a5d6dd: string = "FirstEncounter3DMasterYiSkin42"
                         }
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "First Encounter - Kayn"
+                        0xfecc56e5: string = "Kayn"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -857,15 +734,15 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "FirstEncounter3DKayn"
-                            0x415965e7: string = "FirstEncounter3DKayn"
                         }
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
                         }
                     }
                     0x22d0ac10 {
-                        0xfecc56e5: string = "First Encounter - Shen"
+                        0xfecc56e5: string = "Shen"
                         0x2aff6c4a: list[pointer] = {
                             0xa2c49ab2 {
                                 0xf3e8e24f: u8 = 1
@@ -879,8 +756,29 @@ entries: map[hash,embed] = {
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "FirstEncounter3DShen"
-                            0x415965e7: string = "FirstEncounter3DShen"
+                        }
+                        0x98b66135: pointer = 0x15f6e07a {
+                            0x59c20478: bool = true
+                        }
+                    }
+                    0x22d0ac10 {
+                        0xfecc56e5: string = "Debonair"
+                        0x2aff6c4a: list[pointer] = {
+                            0xa2c49ab2 {
+                                0xf3e8e24f: u8 = 1
+                                0xf21bb0f8: list[pointer] = {
+                                    0x95a7d707 {
+                                        0x8e257510: string = "skinline"
+                                        0x7e0dca60: string = "debonair"
+                                    }
+                                }
+                            }
+                        }
+                        0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
+                            0xc0a5d6dd: string = "FirstEncounter3DDebonair"
                         }
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true

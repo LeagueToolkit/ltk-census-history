@@ -7,6 +7,13 @@ entries: map[hash,embed] = {
         0x19efbfdb: string = "TFT_Round_Simulation"
         0x8bee2972: string = "ASSETS/Characters/TFT_ItemUnknown/Skins/Skin0/TFT_Item_Unknown.dds"
         0xf2d519d1: string = "stageUI_hover_unknown_label"
+        0x61362e82: map[u32,string] = {
+            1 = "stageUI_hover_victory_label"
+            2 = "stageUI_hover_defeat_label"
+            3 = "stageUI_hover_draw_label"
+            5 = "stageUI_hover_current_label"
+            6 = "stageUI_hover_unknown_label"
+        }
         0xd20054c0: string = "ASSETS/UX/TFT/StageIcons/SwordsUpcoming.dds"
         0x304b0330: string = "ASSETS/UX/TFT/StageIcons/SwordsCurrent.dds"
         0xf862cc05: string = "ASSETS/UX/TFT/StageIcons/SwordsDefeat.dds"
@@ -15,19 +22,19 @@ entries: map[hash,embed] = {
         0x4cb318cd: string = "ASSETS/UX/TFT/StageIcons/SwordsDefeat.dds"
         0x7c4b581e: embed = 0x25cb010c {
             0x49da00a9: bool = true
-            0x85f7d4c8: f32 = 1
         }
         0x0b0ae6f9: embed = 0x25cb010c {
             0x49da00a9: bool = true
             0x85f7d4c8: f32 = 5
+            0xc5e20b46: string = "TFT_phase_title_shopping"
+            0x48c4a837: link = 0xd67663e4
         }
         0x07768113: embed = 0x25cb010c {
             0x49da00a9: bool = true
-            0x85f7d4c8: f32 = 1
         }
         0xa35db49d: embed = 0x25cb010c {
             0x49da00a9: bool = true
-            0x85f7d4c8: f32 = 3
+            0x85f7d4c8: f32 = 10
             0x3c916c06: u32 = 3
             0xc5e20b46: string = "TFT_phase_title_arrival"
             0x48c4a837: link = 0x4ee91d87
@@ -37,6 +44,10 @@ entries: map[hash,embed] = {
             0x85f7d4c8: f32 = 30
             0x3c916c06: u32 = 4
             0xc5e20b46: string = "TFT_phase_title_overtime"
+        }
+        0x79c749b6: embed = 0x25cb010c {
+            0x49da00a9: bool = true
+            0xc5e20b46: string = "TFT_phase_title_combatartcleanup"
         }
         0xf84a6a84: embed = 0x25cb010c {
             0x49da00a9: bool = true
