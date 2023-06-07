@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6741305a = 0x1a65e950 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/TFT/TFTFloatingInfoBars/UIBase/FHBTFTUnitOneStar/BigSlots/InspectButton/Background_Selected"
+        0x2063cb13: link = 0xce3ef8d0
+        0x02f3b39e: bool = true
+        0x934f4e0a: pointer = 0x44600fb6 {
+            0x3a8bfbed: embed = 0x4eb9ba4f {
+                0x934f4e0a: vec2 = { 36, 90 }
+                0x23a0d95c: vec2 = { 39, 39 }
+                0xf6647cd6: u16 = 1600
+                0xa19b2e69: u16 = 1200
+            }
+            0x487fcd1a: bool = true
+            0xe7b6c70d: bool = true
+        }
+        0xe9673baf: pointer = 0x719f1a94 {
+            0xf9721a78: string = "ASSETS/UX/TFT/TFT_UnitInfo_Texture_Atlas.TFT_Set9_ChampInspect.tex"
+            0xabb79fd0: u32 = 512
+            0x9f9705c7: u32 = 512
+            0x257ce80c: vec4 = { 399, 2, 445, 45 }
+        }
+    }
+}

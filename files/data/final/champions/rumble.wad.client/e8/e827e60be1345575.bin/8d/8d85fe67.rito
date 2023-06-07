@@ -101,38 +101,162 @@ entries: map[hash,embed] = {
                 }
                 0x92d4987c {}
             }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        120
+                        135
+                        150
+                        165
+                        180
+                        195
+                        210
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MinionMod"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.55
+                        0.6
+                        0.65
+                        0.7
+                        0.75
+                        0.8
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "HealthDamage"
+                    0x246b0d8e: list[f32] = {
+                        0.05
+                        0.06
+                        0.07
+                        0.08
+                        0.09
+                        0.1
+                        0.11
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "APRatio"
+                    0x246b0d8e: list[f32] = {
+                        1.1
+                        1.1
+                        1.1
+                        1.1
+                        1.1
+                        1.1
+                        1.1
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "OverheatMulti"
+                    0x246b0d8e: list[f32] = {
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "FlamespitterDuration"
+                    0x246b0d8e: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DebuffTicks"
+                    0x246b0d8e: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TickRate"
+                    0x246b0d8e: list[f32] = {
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TotalTicks"
+                    0x246b0d8e: list[f32] = {
+                        12
+                        12
+                        12
+                        12
+                        12
+                        12
+                        12
+                    }
+                }
+            }
             0x94572284: map[hash,pointer] = {
-                0x1ddee768 = 0xbc409284 {
-                    0xd6b7a622: bool = true
+                0xb6d91e37 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 1.1
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xe30c799f
                         }
                     }
                 }
-                0x6b30d302 = 0xbc409284 {
-                    0x2c77adff: pointer = 0x8bc08357 {
-                        0x8afb1a5f: i32 = 4
+                0x6b30d302 = 0x070e3593 {
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0x84471711
                     }
                     0xd6b7a622: bool = true
-                    0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 1.1
-                        }
-                    }
+                    0x7f93cf4e: hash = 0xb6d91e37
                 }
                 0xca82d804 = 0x070e3593 {
-                    0x2c77adff: pointer = 0x8bc08357 {
-                        0x8afb1a5f: i32 = 5
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0x3ae461f2
                     }
                     0xd6b7a622: bool = true
-                    0x7f93cf4e: hash = 0x1ddee768
+                    0x7f93cf4e: hash = 0xb6d91e37
+                }
+                0x82ab15ab = 0xbc409284 {
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0x3ae461f2
+                    }
+                    0xd6b7a622: bool = true
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x9169335e
+                        }
+                    }
+                    0x5a2297d3: bool = true
+                    0x08d47ee4: i32 = 1
+                }
+                0x56bf891f = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x15fecdbc {
+                            0xd06c375d: f32 = 65
+                            0x1cd7e522: f32 = 300
+                            0x7fe8e3b3: bool = true
+                        }
+                    }
                 }
             }
             0x295c2889: f32 = 1.1
@@ -194,19 +318,25 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Cooldown"
+                                    0x5127f14d: string = "HealthDamage"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_PercentMaxHealth"
+                                    0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "MinionMod"
                                     0x33c02d93: i32 = 4
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_RumbleDamagetominions"
                                     0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
                                 }
                             }
                         }

@@ -31,6 +31,17 @@ entries: map[hash,embed] = {
                     "Set_State_Music_Phase_Draft_Wait_NextUp"
                     "Set_State_Music_Phase_Locked"
                     "Set_State_Music_Phase_Prepare"
+                    "Set_State_Music_Set9Region_BandleCity"
+                    "Set_State_Music_Set9Region_Demacia"
+                    "Set_State_Music_Set9Region_Freljord"
+                    "Set_State_Music_Set9Region_Ionia"
+                    "Set_State_Music_Set9Region_Noxus"
+                    "Set_State_Music_Set9Region_Piltover"
+                    "Set_State_Music_Set9Region_ShadowIsles"
+                    "Set_State_Music_Set9Region_Shurima"
+                    "Set_State_Music_Set9Region_Targon"
+                    "Set_State_Music_Set9Region_Void"
+                    "Set_State_Music_Set9Region_Zaun"
                     "Set_Switch_SetThematics_Base"
                     "Set_Switch_SetThematics_Galaxies"
                     "Set_Switch_SetThematics_Journeys"
@@ -41,6 +52,7 @@ entries: map[hash,embed] = {
                     "Set_Switch_SetThematics_Set8_CreepyCat"
                     "Set_Switch_SetThematics_Set8_CreepyCat_CatLayer_Off"
                     "Set_Switch_SetThematics_Set8_CreepyCat_CatLayer_On"
+                    "Set_Switch_SetThematics_Set9"
                 }
             }
             0xa4416515 {
@@ -155,6 +167,7 @@ entries: map[hash,embed] = {
                     "Play_sfx_tft_phasetransition_top4_celebration"
                     "Play_sfx_tft_portal_arrive"
                     "Play_sfx_tft_portal_depart_cast"
+                    "Play_sfx_tft_portal_depart_deactivate"
                     "Play_sfx_tft_portal_depart_fake"
                     "Play_sfx_tft_portal_depart_loop"
                     "Play_sfx_tft_portal_transition"
@@ -168,6 +181,9 @@ entries: map[hash,embed] = {
                     "Play_sfx_tft_statechange_levelup_unit_star_three"
                     "Play_sfx_tft_statechange_levelup_unit_star_two"
                     "Play_sfx_tft_trait_activate_chasetrait"
+                    "Play_sfx_tft_ui_aug_reroll"
+                    "Play_sfx_tft_ui_rounded_press"
+                    "Play_sfx_tft_ui_rounded_release"
                     "Play_sfx_tft_unit_transition_arrive"
                     "Play_sfx_tft_unit_transition_mis"
                     "Reset_TFT_BusVolume_All"
@@ -242,16 +258,18 @@ entries: map[hash,embed] = {
                     "Play_sfx_tft_RazorBeakMini_tft_RazorBeakMiniBasicAttack2_OnHit"
                     "Play_sfx_tft_RazorBeakMini_tft_RazorBeakMiniBasicAttack_OnCast"
                     "Play_sfx_tft_RazorBeakMini_tft_RazorBeakMiniBasicAttack_OnHit"
-                    "Play_sfx_tft_RiftHerald_tft_RiftHerald_dash_run"
-                    "Play_sfx_tft_RiftHerald_tft_RiftHeraldBasicAttack2_OnCast"
-                    "Play_sfx_tft_RiftHerald_tft_RiftHeraldBasicAttack2_OnHit"
-                    "Play_sfx_tft_RiftHerald_tft_RiftHeraldBasicAttack_dash_hit"
-                    "Play_sfx_tft_RiftHerald_tft_RiftHeraldBasicAttack_OnCast"
-                    "Play_sfx_tft_RiftHerald_tft_RiftHeraldBasicAttack_OnHit"
-                    "Play_sfx_tft_riftherald_tft_riftheralddeath_inlane"
-                    "Play_sfx_tft_riftherald_tft_riftheraldidle_vox"
-                    "Play_sfx_tft_riftherald_tft_riftheraldtaunt_vox"
-                    "Play_sfx_tft_riftherald_tft_riftheraldwindup"
+                    "Play_sfx_tft_RiftHerald_dash_hit"
+                    "Play_sfx_tft_RiftHerald_dash_run"
+                    "Play_sfx_tft_RiftHerald_death_inlane"
+                    "Play_sfx_tft_RiftHerald_idle_vox"
+                    "Play_sfx_tft_RiftHerald_scream_vox"
+                    "Play_sfx_tft_RiftHerald_taunt_vox"
+                    "Play_sfx_tft_RiftHerald_windup"
+                    "Play_sfx_tft_RiftHerald_windup_vox"
+                    "Play_sfx_tft_RiftHeraldBasicAttack2_OnCast"
+                    "Play_sfx_tft_RiftHeraldBasicAttack2_OnHit"
+                    "Play_sfx_tft_RiftHeraldBasicAttack_OnCast"
+                    "Play_sfx_tft_RiftHeraldBasicAttack_OnHit"
                 }
             }
             0xa4416515 {
@@ -305,9 +323,8 @@ entries: map[hash,embed] = {
                     "Play_sfx_tft_item_runeofallegiance_activate"
                     "Play_sfx_tft_item_shroudofsilence_cast"
                     "Play_sfx_tft_item_shroudofsilence_indicator"
-                    "Play_sfx_tft_item_statikshiv_beam"
-                    "Play_sfx_tft_item_statikshiv_hit"
-                    "Play_sfx_tft_item_statikshiv_ready"
+                    "Play_sfx_tft_item_statikkshiv_beam"
+                    "Play_sfx_tft_item_statikkshiv_hit"
                     "Play_sfx_tft_item_swordofthedevine_cast"
                     "Play_sfx_tft_item_thecollector_execute"
                     "Play_sfx_tft_item_titanichydra_cast"
@@ -333,8 +350,9 @@ entries: map[hash,embed] = {
         0x5f8383ca: list[link] = {
             0xac9eb036
             0x779242b5
+            0x2736fe02
             0x2a3702bb
-            0x154260a9
+            0x29370128
         }
     }
 }

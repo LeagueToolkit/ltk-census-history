@@ -1,0 +1,16 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x98f4c3be = 0x60e00531 {
+        0x19efbfdb: string = "TFT9_BlessingTypeTable_TargonPrime"
+        0x0773669d: map[string,pointer] = {
+            "BlessingType_Medium" = 0x977517c6 {}
+            "BlessingType_High" = 0x977517c6 {
+                0x24f2ec89: f32 = 1
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

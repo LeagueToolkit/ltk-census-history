@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2f670d94 = 0x60e00531 {
+        0x19efbfdb: string = "OneTwosThreeRewardTable"
+        0x0773669d: map[string,pointer] = {
+            "RandomUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "OneCostUnit"
+                    "TwoCostUnit"
+                    "ThreeCostUnit"
+                    "TwoCostUnit"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

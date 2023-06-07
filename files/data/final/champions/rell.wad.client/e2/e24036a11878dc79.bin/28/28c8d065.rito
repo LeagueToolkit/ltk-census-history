@@ -15,13 +15,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BaseDamage"
                     0x246b0d8e: list[f32] = {
-                        20
+                        15
+                        25
                         35
-                        50
+                        45
+                        55
                         65
-                        80
-                        95
-                        110
+                        75
                     }
                 }
                 0x005008a6 {
@@ -99,13 +99,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "PercentHealthDamage"
                     0x246b0d8e: list[f32] = {
-                        0.04
-                        0.04
-                        0.04
-                        0.04
-                        0.04
-                        0.04
-                        0.04
+                        0.03
+                        0.03
+                        0.03
+                        0.03
+                        0.03
+                        0.03
+                        0.03
                     }
                 }
                 0x005008a6 {
@@ -145,18 +145,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "JungleDamageMod"
-                    0x246b0d8e: list[f32] = {
-                        2.5
-                        2.5
-                        2.5
-                        2.5
-                        2.5
-                        2.5
-                        2.5
-                    }
-                }
-                0x005008a6 {
                     0x19efbfdb: string = "Phase2Start"
                 }
                 0x005008a6 {
@@ -169,6 +157,30 @@ entries: map[hash,embed] = {
                         2
                         2
                         2
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BonusMonsterDamage"
+                    0x246b0d8e: list[f32] = {
+                        55
+                        100
+                        145
+                        190
+                        235
+                        280
+                        325
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "PercentHealthDamageCap"
+                    0x246b0d8e: list[f32] = {
+                        150
+                        150
+                        150
+                        150
+                        150
+                        150
+                        150
                     }
                 }
             }
@@ -324,10 +336,8 @@ entries: map[hash,embed] = {
                                     0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "PercentHealthDamage"
-                                    0xf506c7e6: f32 = 100
-                                    0x566f3406: string = "Spell_ListType_PercentMaxHealthDamage"
-                                    0xac307ed6: u32 = 1
+                                    0x5127f14d: string = "BonusMonsterDamage"
+                                    0x566f3406: string = "Spell_ListType_MonsterDamage"
                                 }
                             }
                         }

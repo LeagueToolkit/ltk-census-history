@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd545f65e = 0x60e00531 {
+        0x19efbfdb: string = "TFT9_Inventor_ArmoryItemList"
+        0x0773669d: map[string,pointer] = {
+            "Inventions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT9_ArmoryItem_Inventor_XS"
+                    "TFT9_ArmoryItem_Inventor_S"
+                    "TFT9_ArmoryItem_Inventor_M"
+                    "TFT9_ArmoryItem_Inventor_L"
+                    "TFT9_ArmoryItem_Inventor_XL"
+                    "TFT9_ArmoryItem_Inventor_O"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

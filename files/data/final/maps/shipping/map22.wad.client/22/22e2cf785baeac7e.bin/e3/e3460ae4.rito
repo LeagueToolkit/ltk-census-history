@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe3460ae4 = 0x60e00531 {
+        0x19efbfdb: string = "ThreshsSanctum_EarlyTable"
+        0x0773669d: map[string,pointer] = {
+            "ThreshsSanctum_Reward1" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.167
+            }
+            "ThreshsSanctum_Reward2" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.5
+            }
+            "ThreshsSanctum_Reward3" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.167
+            }
+            "ThreshsSanctum_Reward4" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.166
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

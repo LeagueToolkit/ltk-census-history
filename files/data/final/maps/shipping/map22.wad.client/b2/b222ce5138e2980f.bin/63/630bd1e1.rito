@@ -1,0 +1,74 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x630bd1e1 = 0xff9d3409 {
+        0x8d39bde6: string = "Maps/KitPieces/TFT/Set9/Materials/SamuraiDuelStage2/TFT_SamuraiDuel_Board_A_Mat"
+        0x5127f14d: u32 = 0
+        0x0a6f0eb5: list2[embed] = {
+            0x0904b150 {
+                0x02e7fb4c: string = "DiffuseTexture"
+                0xb311d4ef: string = "ASSETS/Maps/KitPieces/TFT/Set9/Textures/TFT_SamuraiDuel_Board_A.TFT_ArenaSkin_SamuraiDuel.dds"
+                0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
+                0x02e7fb4c: string = "MaskTexture"
+                0xb311d4ef: string = "ASSETS/Maps/KitPieces/TFT/Set9/Textures/TFT_SamuraiDuel_Board_A_RGBMask.TFT_ArenaSkin_SamuraiDuel.tex"
+                0x111ec6d2: u32 = 1
+                0x101ec53f: u32 = 1
+                0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
+                0x02e7fb4c: string = "NoiseTexture"
+                0xb311d4ef: string = "ASSETS/Shared/Materials/Waves_Sharp.tex"
+                0x0f1ec3ac: u32 = 1
+            }
+        }
+        0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "TintColor_R"
+                0x425ed3ca: vec4 = { 0.20784314, 0.23921569, 0.52156866, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "TintColor_G"
+                0x425ed3ca: vec4 = { 0.6117647, 0.4392157, 0.49803922, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "TintColor_B"
+                0x425ed3ca: vec4 = { 0.7294118, 0.45882353, 0.16862746, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Transform"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Noise_Control"
+                0x425ed3ca: vec4 = { 2, 2, 0.02, 0.05 }
+            }
+        }
+        0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "TRANSITION_END"
+            }
+        }
+        0x844f384e: list[embed] = {
+            0x060a4413 {
+                0x8d39bde6: string = "normal"
+                0x623cd25c: list[embed] = {
+                    0x8537d0c2 {
+                        0x355d5568: link = 0x067a8ed9
+                    }
+                }
+            }
+        }
+        0x9330e6b6: list[embed] = {
+            0x735b4c95 {
+                0x8d39bde6: string = "env_transition"
+                0xb696a5fe: string = "normal"
+                0xe6d67ded: map[string,string] = {
+                    "ENV_TRANSITION" = "1"
+                }
+            }
+        }
+    }
+}

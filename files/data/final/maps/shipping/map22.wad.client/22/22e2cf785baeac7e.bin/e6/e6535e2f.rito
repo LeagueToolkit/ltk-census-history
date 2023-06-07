@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe6535e2f = 0x60e00531 {
+        0x19efbfdb: string = "TFT9_Augment_Spoils_BonusLoot2"
+        0x0773669d: map[string,pointer] = {
+            "COMPONENT_NOSPAT" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.35
+            }
+            "GOLDCHEST" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.35
+            }
+            "Champions" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+            "ChampionsLevelUp" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+            "LesserDuplicator" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.05
+            }
+            "Duplicator" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.05
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
