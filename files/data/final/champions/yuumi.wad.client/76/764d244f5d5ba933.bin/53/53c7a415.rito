@@ -55,27 +55,15 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "MinBonusHealShieldPower"
-                    0x246b0d8e: list[f32] = {
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                    }
-                }
-                0x005008a6 {
                     0x19efbfdb: string = "MaxBonusHealShieldPower"
                     0x246b0d8e: list[f32] = {
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
                     }
                 }
                 0x005008a6 {
@@ -88,6 +76,30 @@ entries: map[hash,embed] = {
                         9
                         11
                         13
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "HealAndShieldPower"
+                    0x246b0d8e: list[f32] = {
+                        0.025
+                        0.05
+                        0.075
+                        0.1
+                        0.125
+                        0.15
+                        0.175
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MinBonusHealShieldPower"
+                    0x246b0d8e: list[f32] = {
+                        0.05
+                        0.05
+                        0.05
+                        0.05
+                        0.05
+                        0.05
+                        0.05
                     }
                 }
             }
@@ -201,6 +213,11 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "BaseHealthOnHit"
                                     0x566f3406: string = "Spell_ListType_OnHitHealing"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "HealAndShieldPower"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_YuumiW_HealShield"
                                 }
                             }
                         }
