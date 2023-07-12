@@ -1,0 +1,15 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb001af1f = 0x7feb6200 {
+        0x2610a4a3: string = "LoadingScreen"
+        0x71581e65: list2[string] = {
+            "Maps/Shipping/Map30/Modes/CHERRY"
+        }
+        0x121b136b: list2[link] = {
+            0x48219260
+        }
+    }
+}

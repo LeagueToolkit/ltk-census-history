@@ -1,0 +1,62 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4d9b2219 = 0x5e7e5a06 {
+        0xc8e37ef0: string = "Augment_FrostWraith"
+        0x56d2be52: pointer = 0x43368569 {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "Cooldown"
+                    0x246b0d8e: list[f32] = {
+                        7
+                        7
+                        7
+                        7
+                        7
+                        7
+                        7
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "RootDuration"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "Radius"
+                    0x246b0d8e: list[f32] = {
+                        450
+                        450
+                        450
+                        450
+                        450
+                        450
+                        450
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Spells/Icons2D/Terrify.dds"
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_FrostWraith"
+                    0x57b8b11b: link = 0x122a9d2c
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Cherry_FrostWraith_Name"
+                        "keySummary" = "Cherry_FrostWraith_Tooltip"
+                    }
+                }
+            }
+        }
+    }
+}

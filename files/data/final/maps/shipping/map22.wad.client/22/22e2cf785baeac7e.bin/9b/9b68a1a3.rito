@@ -1,0 +1,18 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x9b68a1a3 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_SF_WINNERITEMS"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFTEvent_SF_Item_Tournament_Remover_And_Gold"
+                    "TFTEvent_SF_Item_Tournament_Reforger_And_Gold"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

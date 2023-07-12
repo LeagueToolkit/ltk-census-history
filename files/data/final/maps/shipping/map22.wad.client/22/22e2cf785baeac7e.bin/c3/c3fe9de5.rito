@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc3fe9de5 = 0x60e00531 {
+        0x19efbfdb: string = "TFTEvent_SF_NPC_Gwen"
+        0x0773669d: map[string,pointer] = {
+            "SkinName" = 0xa188bd55 {
+                0x24f2ec89: string = "TFTEvent_SF_Boss_Gwen"
+            }
+            "Row" = 0x4012fd7e {
+                0x24f2ec89: i32 = 6
+            }
+            "Col" = 0x4012fd7e {
+                0x24f2ec89: i32 = 4
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

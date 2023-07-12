@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc47fd148 = 0x60e00531 {
+        0x19efbfdb: string = "TFTEvent_SF_Tournament_NewMatchTypeTable_Stage5"
+        0x0773669d: map[string,pointer] = {
+            "TFTEvent_SF_Tournament_NewMatch_Stage5_A" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.7
+            }
+            "TFTEvent_SF_Tournament_NewMatch_Stage5_B" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+            "TFTEvent_SF_Tournament_NewMatch_Stage5_C" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+            "TFTEvent_SF_Tournament_NewMatch_Stage5_D" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,19 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xcb62f927 = 0x60e00531 {
+        0x19efbfdb: string = "SoulPowerPayoutData_2"
+        0x0773669d: map[string,pointer] = {
+            "ArmoryContent_TFTEvent_SF_SoulPowerCompletedItem_T1" = 0x4012fd7e {}
+            "ArmoryContent_TFTEvent_SF_SoulPowerCompletedItem_T2" = 0x4012fd7e {
+                0x24f2ec89: i32 = 150
+            }
+            "ArmoryContent_TFTEvent_SF_SoulPowerCompletedItem_T3" = 0x4012fd7e {
+                0x24f2ec89: i32 = 200
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

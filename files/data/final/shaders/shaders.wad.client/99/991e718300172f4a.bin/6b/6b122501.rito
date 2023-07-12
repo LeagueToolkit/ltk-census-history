@@ -18,7 +18,7 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter1"
-                0xd872e2a5: vec4 = { 0.3, 0.2, 1, 1 }
+                0xd872e2a5: vec4 = { 0.3, 0.2, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "OutlineThickness"
@@ -29,8 +29,12 @@ entries: map[hash,embed] = {
                         0x0640657c: u32 = 2
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "AdditiveTexTile"
-                        0x0640657c: u32 = 12
+                        0x8d39bde6: string = "Diffuse_Tex_BlendVlue"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "AdditiveStrength_R"
+                        0x0640657c: u32 = 8
                     }
                 }
             }
@@ -53,7 +57,7 @@ entries: map[hash,embed] = {
                         0x0640657c: u32 = 7
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "AdditiveStrength_R"
+                        0x8d39bde6: string = "AdditiveStrength_G"
                         0x0640657c: u32 = 8
                     }
                 }
@@ -70,19 +74,29 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter5"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "AdditiveTexScrollSpeed_R"
+                        0x8d39bde6: string = "AdditiveTexTile"
                         0x0640657c: u32 = 3
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "AdditiveTexScrollSpeed_G"
+                        0x8d39bde6: string = "AdditiveTexScrollSpeed_R"
                         0x0640657c: u32 = 12
                     }
                 }
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter6"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "AdditiveTexScrollSpeed_G"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter7"
                 0xd872e2a5: vec4 = { 1, 1, 1, 0.3600061 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -91,18 +105,11 @@ entries: map[hash,embed] = {
                     }
                 }
             }
-            0x816753d8 {
-                0x8d39bde6: string = "Parameter7"
-                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
-                0x74672198: list[embed] = {
-                    0x14a2befa {
-                        0x8d39bde6: string = "AdditiveStrength_G"
-                        0x0640657c: u32 = 1
-                    }
-                }
-            }
         }
         0x3291437b: list[embed] = {
+            0x60a292e6 {
+                0x8d39bde6: string = "DIFFUSE_LERP_ON"
+            }
             0x60a292e6 {
                 0x8d39bde6: string = "IRIDESCENCE_OUTLINE"
             }
@@ -119,6 +126,10 @@ entries: map[hash,embed] = {
             0x31d1e223 {
                 0x8d39bde6: string = "Diffuse_Texture"
                 0x32b374fa: string = "ASSETS/Shared/Materials/BC_TestTexture.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Diffuse_Texture2"
+                0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "iridescentTex"

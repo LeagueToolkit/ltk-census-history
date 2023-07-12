@@ -1,0 +1,40 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xcf3d3b7f = 0x22e0db7d {
+        0xdb667233: hash = 0x834a4524
+        0x8466a4a9: link = 0x98795f7e
+        0x91b41045: string = "game_floatingtext_critical"
+        0x94e4e309: i32 = 6
+        0xd315e55d: f32 = 0.5
+        0xcbaf0880: f32 = 0.45
+        0xc3130dac: bool = true
+        0x782f286a: f32 = 10
+        0x999b31c4: f32 = 50
+        0x33f22b71: f32 = 150
+        0xc7091613: f32 = 180
+        0xbcf77154: f32 = 10
+        0xbdf772e7: f32 = 10
+        0xb9f29842: f32 = 300
+        0x82971c71: f32 = 1.25
+        0x9d399b92: f32 = 5.5
+        0xe8926662: bool = true
+        0xf9e1dd39: list[embed] = {
+            0x16d88f43 {
+                0x10537b0c: string = "ASSETS/UX/FloatingText/Characters/Samira/SamiraSkin30R_CritIcon.tex"
+                0xd3657507: vec2 = { 60, 60 }
+                0x26dbcd4b: vec2 = { -160, -2 }
+                0xf0e4d6cd: u32 = 1
+            }
+            0x16d88f43 {
+                0x10537b0c: string = "ASSETS/UX/FloatingText/Characters/Samira/SamiraSkin30R_Glow.tex"
+                0x5371e38f: rgba = { 255, 255, 255, 183 }
+                0xd3657507: vec2 = { 200, 100 }
+                0x26dbcd4b: vec2 = { -200, 0 }
+                0xf0e4d6cd: u32 = 1
+            }
+        }
+    }
+}

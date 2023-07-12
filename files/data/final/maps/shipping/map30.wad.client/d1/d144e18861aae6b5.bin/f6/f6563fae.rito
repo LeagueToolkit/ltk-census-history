@@ -1,0 +1,50 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xf6563fae = 0x5e7e5a06 {
+        0xc8e37ef0: string = "Augment_CelestialBody"
+        0x56d2be52: pointer = 0x43368569 {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "Health"
+                    0x246b0d8e: list[f32] = {
+                        1000
+                        1000
+                        1000
+                        1000
+                        1000
+                        1000
+                        1000
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DamageReduction"
+                    0x246b0d8e: list[f32] = {
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Spells/Icons2D/Terrify.dds"
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_CelestialBody"
+                    0x57b8b11b: link = 0x122a9d2c
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Cherry_CelestialBody_Name"
+                        "keySummary" = "Cherry_CelestialBody_Tooltip"
+                    }
+                }
+            }
+        }
+    }
+}

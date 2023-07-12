@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x32232bef = 0xd9438618 {
+        0xc7e16877: pointer = 0xa134eb30 {
+            0xabd6be4c: list[pointer] = {
+                0xe8fc31c8 {
+                    0xc7e16877: pointer = 0x0ad557d0 {}
+                }
+                0xe8fc31c8 {
+                    0xc7e16877: pointer = 0x8eb32520 {
+                        0xec6ee012: string = "Maps/Shipping/Map30/Modes/CHERRY"
+                    }
+                }
+            }
+        }
+        0x799f2859: list2[string] = {
+            "ClientStates/Gameplay/UX/Scoreboard"
+            "ClientStates/Gameplay/UX/LoL/TeamFrames"
+        }
+    }
+}

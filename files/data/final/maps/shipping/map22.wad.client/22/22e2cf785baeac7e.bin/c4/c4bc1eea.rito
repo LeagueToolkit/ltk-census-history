@@ -1,0 +1,63 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc4bc1eea = 0xf4a6bb27 {
+        0x19efbfdb: string = "TFTEvent_SF_Round_BossSett"
+        0x8bee2972: string = "ASSETS/Characters/TFTEvent_SF_Boss_Sett/HUD/TFTEvent_SF_Boss_Sett_Square.TFT_Event_SF.dds"
+        0xc3143d66: string = "tft_round_name_event_SF_BossSett"
+        0xf2d519d1: string = "stageUI_hover_pve_label"
+        0xd20054c0: string = "ASSETS/UX/TFT/StageIcons/SF_Sett_Upcoming.dds"
+        0x304b0330: string = "ASSETS/UX/TFT/StageIcons/SF_Sett_Current.dds"
+        0xf862cc05: string = "ASSETS/UX/TFT/StageIcons/SF_Sett_Defeat.dds"
+        0xcb830e67: string = "ASSETS/UX/TFT/StageIcons/SF_Sett_Victory.dds"
+        0xc90f19dc: string = "ASSETS/UX/TFT/StageIcons/SF_Sett_Defeat.dds"
+        0x7c4b581e: embed = 0x25cb010c {
+            0x49da00a9: bool = true
+        }
+        0x0b0ae6f9: embed = 0x25cb010c {
+            0x49da00a9: bool = true
+            0x85f7d4c8: f32 = 20
+            0x3c916c06: u32 = 6
+            0xc5e20b46: string = "TFT_phase_title_shopping"
+        }
+        0x07768113: embed = 0x25cb010c {
+            0x49da00a9: bool = true
+        }
+        0xa35db49d: embed = 0x25cb010c {
+            0x49da00a9: bool = true
+            0x85f7d4c8: f32 = 10
+            0x3c916c06: u32 = 3
+            0xc5e20b46: string = "TFT_phase_title_arrival"
+            0x48c4a837: link = 0xda856585
+        }
+        0xfd870d28: embed = 0x25cb010c {
+            0x49da00a9: bool = true
+            0x85f7d4c8: f32 = 30
+            0x3c916c06: u32 = 4
+            0xc5e20b46: string = "TFT_phase_title_overtime"
+        }
+        0xf84a6a84: embed = 0x25cb010c {
+            0x49da00a9: bool = true
+            0x85f7d4c8: f32 = 1
+        }
+        0x78f60753: map[string,pointer] = {
+            "RoundType" = 0xa188bd55 {
+                0x24f2ec89: string = "PVERound"
+            }
+            "NPCType" = 0xa188bd55 {
+                0x24f2ec89: string = "Jungle"
+            }
+            "NPCName" = 0xa188bd55 {
+                0x24f2ec89: string = "NPCRoundEventSFSett"
+            }
+            "SoulPowerPayoutRound" = 0x641de12c {
+                0x24f2ec89: bool = true
+            }
+            "IsPvEBossRound" = 0x641de12c {
+                0x24f2ec89: bool = true
+            }
+        }
+    }
+}

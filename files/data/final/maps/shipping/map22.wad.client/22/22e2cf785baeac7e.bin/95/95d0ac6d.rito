@@ -1,0 +1,37 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x95d0ac6d = 0xd186c31a {
+        0x19efbfdb: string = "TFTEvent_SF_Item_PowerUp_Rank1"
+        0x02490112: string = "TFTEvent_SF_Item_PowerUp"
+        0xc13d6d31: list[embed] = {
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x2f2f0501
+                0x425ed3ca: f32 = 0.2
+                0x3458f92b: string = "%i:scaleAD% +@Value*100@%"
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x32f90193
+                0x425ed3ca: f32 = 20
+                0x3458f92b: string = "%i:scaleAP% +@Value@"
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0xa92bb347
+                0x425ed3ca: f32 = 0.3
+                0x3458f92b: string = "%i:scaleHealth% +@Value*100@%"
+            }
+        }
+        0xa47a6adf: list[hash] = {
+            0x02127692
+        }
+        0xc3143d66: string = "tftevent_sf_item_name_powerup_rank1"
+        0x765f18da: string = "tftevent_sf_item_description_powerup_rank1"
+        0x8bee2972: string = "ASSETS/Maps/Particles/TFT/Item_Icons/Events/SF/TFT_Event_SF_SoulCrown_Training_1.TFT_Event_SF.tex"
+        0x5371e38f: option[rgba] = {
+            { 145, 77, 51, 255 }
+        }
+        0x3b2adacd: link = 0xca0f7daf
+    }
+}
