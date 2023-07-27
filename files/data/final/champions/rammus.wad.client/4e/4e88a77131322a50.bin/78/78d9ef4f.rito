@@ -128,6 +128,60 @@ entries: map[hash,embed] = {
                         225
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "MSMultiplier"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "APRatio"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                }
+            }
+            0xfb56608c: map[hash,embed] = {
+                0x497ae878 = 0x6b2f7a8d {
+                    0x52fde74f: list[embed] = {
+                        0x005008a6 {
+                            0x19efbfdb: string = "MSMultiplier"
+                            0x246b0d8e: list[f32] = {
+                                2
+                                2
+                                2
+                                2
+                                2
+                                2
+                                2
+                            }
+                        }
+                        0x005008a6 {
+                            0x19efbfdb: string = "APRatio"
+                            0x246b0d8e: list[f32] = {
+                                1.25
+                                1.25
+                                1.25
+                                1.25
+                                1.25
+                                1.25
+                                1.25
+                            }
+                        }
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x4d016f96 = 0xbc409284 {
@@ -135,13 +189,15 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0xf0847984
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 1
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xe30c799f
                         }
                     }
                 }
                 0x1c83a4b1 = 0xbc409284 {
-                    0xd6b7a622: bool = true
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0x10ce9ea2
+                    }
                     0x50f145c0: list[pointer] = {
                         0x15fecdbc {
                             0xd06c375d: f32 = 0.25
@@ -154,7 +210,6 @@ entries: map[hash,embed] = {
                     0x2c77adff: pointer = 0x8bc08357 {
                         0x8afb1a5f: i32 = 4
                     }
-                    0xd6b7a622: bool = true
                     0x7f93cf4e: hash = 0x1c83a4b1
                 }
             }

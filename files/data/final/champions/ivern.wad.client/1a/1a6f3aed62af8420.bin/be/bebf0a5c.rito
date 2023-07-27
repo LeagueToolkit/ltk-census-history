@@ -49,30 +49,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "DaisyHP"
-                    0x246b0d8e: list[f32] = {
-                        0
-                        1300
-                        2600
-                        3900
-                        5200
-                        6500
-                        7800
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "DaisyResists"
-                    0x246b0d8e: list[f32] = {
-                        0
-                        20
-                        50
-                        100
-                        0
-                        0
-                        0
-                    }
-                }
-                0x005008a6 {
                     0x19efbfdb: string = "DaisyAS"
                     0x246b0d8e: list[f32] = {
                         15
@@ -111,25 +87,25 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "DaisyDuration"
                     0x246b0d8e: list[f32] = {
-                        60
-                        60
-                        60
-                        60
-                        60
-                        60
-                        60
+                        45
+                        45
+                        45
+                        45
+                        45
+                        45
+                        45
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "ShockwaveBaseDamage"
                     0x246b0d8e: list[f32] = {
-                        0
-                        20
                         40
-                        60
-                        80
-                        100
-                        120
+                        90
+                        140
+                        190
+                        240
+                        290
+                        340
                     }
                 }
                 0x005008a6 {
@@ -160,18 +136,31 @@ entries: map[hash,embed] = {
             0x94572284: map[hash,pointer] = {
                 0xc75540a7 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0x7afd1c68
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.05
+                        0x5cf69ece {
+                            0xad62f672: f32 = 30
+                            0x7b5d1934: list[embed] = {
+                                0x8e93d8ee {
+                                    0xa77654ae: u32 = 7
+                                    0x57fdc438: f32 = 5
+                                }
+                            }
                         }
                     }
                 }
                 0x46e67e21 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0x1005e589
+                        0x5cf69ece {
+                            0xad62f672: f32 = 1000
+                            0x7b5d1934: list[embed] = {
+                                0x8e93d8ee {
+                                    0xa77654ae: u32 = 7
+                                    0x57fdc438: f32 = 50
+                                }
+                                0x8e93d8ee {
+                                    0xa77654ae: u32 = 11
+                                    0x57fdc438: f32 = 400
+                                }
+                            }
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.5
@@ -184,27 +173,17 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0x0e172b84
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.3
+                            0x295c2889: f32 = 0.15
                         }
                     }
                 }
                 0x7d2e21c1 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x84a63373 {
-                            0xa066cc28: list[pointer] = {
-                                0x332eb441 {
-                                    0xb386dcf1: hash = 0x0e172b84
-                                }
-                                0x5815b0a9 {
-                                    0x295c2889: f32 = 0.3
-                                }
-                                0x332eb441 {
-                                    0xb386dcf1: hash = 0xd9412408
-                                }
-                            }
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xd9412408
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.2
+                            0x295c2889: f32 = 0.5
                         }
                     }
                 }
@@ -308,25 +287,23 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Cooldown"
-                                    0x33c02d93: i32 = 6
-                                    0x566f3406: string = "Spell_ListType_Cooldown"
+                                    0x5127f14d: string = "DaisyAD"
+                                    0x566f3406: string = "Spell_ListType_AttackDamageBonus"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "DaisyHP"
-                                    0x33c02d93: i32 = 1
-                                    0x566f3406: string = "Spell_ListType_IvernRBaseHealth"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "DaisyResists"
-                                    0x33c02d93: i32 = 2
-                                    0x566f3406: string = "Spell_ListType_IvernRResistances"
+                                    0x5127f14d: string = "ShockwaveBaseDamage"
+                                    0x566f3406: string = "Spell_IvernR_ShockwaveDamage"
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "DaisyAS"
                                     0x33c02d93: i32 = 3
                                     0x566f3406: string = "Spell_ListType_IvernRBonusAttackSpeed"
                                     0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                    0x33c02d93: i32 = 6
+                                    0x566f3406: string = "Spell_ListType_Cooldown"
                                 }
                             }
                         }

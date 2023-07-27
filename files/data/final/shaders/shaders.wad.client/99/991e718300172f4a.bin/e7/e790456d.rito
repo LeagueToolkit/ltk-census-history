@@ -36,14 +36,14 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter2"
-                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0xd872e2a5: vec4 = { 0.45, 0.01, 1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "VFX_ScrollTex_G_UV_Tile"
+                        0x8d39bde6: string = "Outline_Control"
                         0x0640657c: u32 = 3
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "VFX_ScrollTex_G_UV_Scroll_Speed"
+                        0x8d39bde6: string = "VFX_ScrollTex_G_UV_Tile"
                         0x0640657c: u32 = 12
                     }
                 }
@@ -60,10 +60,10 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter4"
-                0xd872e2a5: vec4 = { 0.45, 0.01, 1, 1 }
+                0xd872e2a5: vec4 = { 0, 0, 1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "Outline_Control"
+                        0x8d39bde6: string = "VFX_ScrollTex_G_UV_Scroll_Speed"
                         0x0640657c: u32 = 3
                     }
                     0x14a2befa {
@@ -252,6 +252,9 @@ entries: map[hash,embed] = {
             }
         }
         0x3291437b: list[embed] = {
+            0x60a292e6 {
+                0x8d39bde6: string = "ADDITIVE_OUTLINE_ONLY"
+            }
             0x60a292e6 {
                 0x8d39bde6: string = "ALL_ADDITIVE_ON"
             }
