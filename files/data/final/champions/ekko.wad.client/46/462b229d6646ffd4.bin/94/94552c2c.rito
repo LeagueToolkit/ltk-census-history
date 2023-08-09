@@ -13,22 +13,22 @@ entries: map[hash,embed] = {
             0x251a5225: list[embed] = {
                 0x92d4987c {
                     0x425ed3ca: list[f32] = {
-                        45
-                        60
-                        75
-                        90
-                        105
-                        120
-                        135
+                        55
+                        70
+                        85
+                        100
+                        115
+                        130
+                        145
                     }
                 }
                 0x92d4987c {
                     0x425ed3ca: list[f32] = {
                         -0.25
-                        -0.32
-                        -0.39
-                        -0.46
-                        -0.53
+                        -0.4
+                        -0.45
+                        -0.5
+                        -0.55
                         -0.6
                         -0.67
                     }
@@ -82,12 +82,68 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
             }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "OutgoingDamage"
+                    0x246b0d8e: list[f32] = {
+                        55
+                        70
+                        85
+                        100
+                        115
+                        130
+                        145
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ReturnDamage"
+                    0x246b0d8e: list[f32] = {
+                        15
+                        40
+                        65
+                        90
+                        115
+                        140
+                        165
+                    }
+                }
+            }
+            0xfb56608c: map[hash,embed] = {
+                0x497ae878 = 0x6b2f7a8d {
+                    0x52fde74f: list[embed] = {
+                        0x005008a6 {
+                            0x19efbfdb: string = "OutgoingDamage"
+                            0x246b0d8e: list[f32] = {
+                                55
+                                70
+                                85
+                                100
+                                115
+                                130
+                                145
+                            }
+                        }
+                        0x005008a6 {
+                            0x19efbfdb: string = "ReturnDamage"
+                            0x246b0d8e: list[f32] = {
+                                25
+                                50
+                                75
+                                100
+                                125
+                                150
+                                175
+                            }
+                        }
+                    }
+                }
+            }
             0x94572284: map[hash,pointer] = {
                 0x69a14e52 = 0xbc409284 {
                     0xd6b7a622: bool = true
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xe1f7987a
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.3
@@ -97,8 +153,8 @@ entries: map[hash,embed] = {
                 0xb0dde3e1 = 0xbc409284 {
                     0xd6b7a622: bool = true
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 3
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xda544a8e
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.6
@@ -206,7 +262,7 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "Cost"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "OutgoingDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_OutgoingDamage"
                                 }
@@ -218,7 +274,7 @@ entries: map[hash,embed] = {
                                     0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "ReturnDamage"
                                     0x33c02d93: i32 = 3
                                     0x566f3406: string = "Spell_ListType_ReturnDamage"
                                 }

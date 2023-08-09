@@ -34,28 +34,8 @@ entries: map[hash,embed] = {
                         0.4
                     }
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        30
-                        30
-                        40
-                        50
-                        60
-                        70
-                        70
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.05
-                        0.5
-                        0.95
-                        1.4
-                        1.85
-                        2.3
-                        2.3
-                    }
-                }
+                0x92d4987c {}
+                0x92d4987c {}
                 0x92d4987c {}
                 0x92d4987c {}
                 0x92d4987c {}
@@ -63,14 +43,128 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
             }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseHealing"
+                    0x246b0d8e: list[f32] = {
+                        20
+                        30
+                        40
+                        50
+                        60
+                        70
+                        80
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BonusHealPerFury"
+                    0x246b0d8e: list[f32] = {
+                        0.05
+                        0.5
+                        0.95
+                        1.4
+                        1.85
+                        2.3
+                        2.75
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "APRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "APRatioPerFury"
+                    0x246b0d8e: list[f32] = {
+                        0.012
+                        0.012
+                        0.012
+                        0.012
+                        0.012
+                        0.012
+                        0.012
+                    }
+                }
+            }
+            0xfb56608c: map[hash,embed] = {
+                0x497ae878 = 0x6b2f7a8d {
+                    0x52fde74f: list[embed] = {
+                        0x005008a6 {
+                            0x19efbfdb: string = "BaseHealing"
+                            0x246b0d8e: list[f32] = {
+                                40
+                                60
+                                80
+                                100
+                                120
+                                140
+                                160
+                            }
+                        }
+                        0x005008a6 {
+                            0x19efbfdb: string = "BonusHealPerFury"
+                            0x246b0d8e: list[f32] = {
+                                0.25
+                                1
+                                1.75
+                                2.5
+                                3.25
+                                4
+                                4.75
+                            }
+                        }
+                        0x005008a6 {
+                            0x19efbfdb: string = "APRatio"
+                            0x246b0d8e: list[f32] = {
+                                0.5
+                                0.5
+                                0.5
+                                0.5
+                                0.5
+                                0.5
+                                0.5
+                            }
+                        }
+                        0x005008a6 {
+                            0x19efbfdb: string = "APRatioPerFury"
+                            0x246b0d8e: list[f32] = {
+                                0.02
+                                0.02
+                                0.02
+                                0.02
+                                0.02
+                                0.02
+                                0.02
+                            }
+                        }
+                    }
+                }
+            }
             0x94572284: map[hash,pointer] = {
                 0x39ce8652 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 3
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x6a93f10e
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.3
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xe30c799f
+                        }
+                    }
+                }
+                0xd5e7e08e = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xf8f29a99
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xe8959012
                         }
                     }
                 }
@@ -148,12 +242,12 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_TryndamereAttackDamageperHealthPercMissing"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BaseHealing"
                                     0x33c02d93: i32 = 3
                                     0x566f3406: string = "Spell_ListType_Healing"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BonusHealPerFury"
                                     0x33c02d93: i32 = 4
                                     0x566f3406: string = "Spell_ListType_TryndamereHealPerFury"
                                 }

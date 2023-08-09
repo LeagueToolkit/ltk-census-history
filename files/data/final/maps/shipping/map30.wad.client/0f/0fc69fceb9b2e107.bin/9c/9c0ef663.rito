@@ -1,0 +1,38 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x9c0ef663 = 0x9b67e9f6 {
+        0x8f7b194f: embed = 0x8f7b194f {
+            0xf8f29f92: list2[embed] = {
+                0xa4416515 {
+                    0x8d39bde6: string = "NPC_Global_VoidGate_SFX"
+                    0x2a21ad00: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/SFX/Shared/NPC_Global_VoidGate_SFX_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Shared/NPC_Global_VoidGate_SFX_events.bnk"
+                    }
+                    0x12d8e384: list[string] = {
+                        "Play_sfx_S5_VoidGateSpawn_cast"
+                        "Play_sfx_S5_VoidGateSpawn_deactivate"
+                        "Stop_sfx_S5_VoidGateSpawn_deactivate"
+                    }
+                }
+            }
+        }
+        0x426d89a3: embed = 0x426d89a3 {
+            0xf5fb07c7: link = 0xfb50a1c7
+        }
+        0xe67284f4: option[string] = {
+            "ASSETS/Characters/VoidGate/HUD/Voidgate_Square_0.dds"
+        }
+        0xac473fef: option[string] = {
+            "ASSETS/Characters/VoidGate/HUD/Voidgate_Square_0.dds"
+        }
+        0x51c83af8: embed = 0x11b71b5e {
+            0x643cb399: f32 = 1
+            0x4d5ff2d7: string = "Root"
+            0x3fcb5693: u8 = 1
+        }
+    }
+}
