@@ -50,9 +50,15 @@ entries: map[hash,embed] = {
             0x3018b0da: hash = 0xcd2ee2c0
             0x72ebc03f: hash = 0x90a1969d
             0xe5b78177: hash = 0x2faa6485
-            0xa2beecc2: hash = 0x7c4306f4
-            0x214b4895: hash = 0x95012453
-            0x0f9b5ab3: hash = 0x6e52a125
+            0xf0e72c76: list2[pointer] = {
+                0xef241d31 {
+                    0xbde64e3e: hash = 0x7c4306f4
+                }
+                0xdd017d46 {
+                    0xe64015f0: hash = 0x6e52a125
+                    0xbde64e3e: hash = 0x95012453
+                }
+            }
             0xeba69111: embed = 0x0df0a069 {
                 0x565b05cb: list[hash] = {
                     0xc3ab5c03
@@ -91,9 +97,13 @@ entries: map[hash,embed] = {
             0x832fe195: embed = 0x4e9d7735 {
                 0x1e871b08: hash = 0x3a8d33a1
                 0xf5b8026a: hash = 0x837881c4
-                0x0f9b5ab3: hash = 0x73a9dce2
-                0x214b4895: hash = 0x2a37e624
-                0xa2beecc2: hash = 0x79da00e9
+                0x5c1376f1: embed = 0xef241d31 {
+                    0xbde64e3e: hash = 0x79da00e9
+                }
+                0x377db006: embed = 0xdd017d46 {
+                    0xe64015f0: hash = 0x73a9dce2
+                    0xbde64e3e: hash = 0x2a37e624
+                }
             }
             0x03ea667a: embed = 0xb2feedb2 {
                 0x1e871b08: hash = 0x6d943bfd
