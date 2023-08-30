@@ -1,0 +1,45 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2a1dd596 = 0xd186c31a {
+        0x19efbfdb: string = "TFT_Item_SteraksGage"
+        0x02490112: string = "TFT_Item_SteraksGage_Buff"
+        0x8b83ba8a: list[link] = {
+            0xbd55879a
+            0xca409416
+        }
+        0xc13d6d31: list[embed] = {
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x6b98ed8f
+                0x425ed3ca: f32 = 300
+                0x3458f92b: string = "%i:scaleHealth% +@Value@"
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x4724fc58
+                0x425ed3ca: f32 = 0.1
+                0x3458f92b: string = "%i:scaleAD% +@Value*100@%"
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x28b26e8a
+                0x425ed3ca: f32 = 60
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0xdb8cb844
+                0x425ed3ca: f32 = 25
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0xc5502c89
+                0x425ed3ca: f32 = 30
+            }
+        }
+        0xc3143d66: string = "tft_item_name_SteraksGage"
+        0x765f18da: string = "tft_item_description_SteraksGage"
+        0x8bee2972: string = "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Steraks_Gage.tex"
+        0x5371e38f: option[rgba] = {
+            { 61, 81, 234, 255 }
+        }
+        0x3b2adacd: link = 0xa33c8bb2
+    }
+}

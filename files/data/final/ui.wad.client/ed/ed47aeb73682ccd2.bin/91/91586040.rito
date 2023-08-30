@@ -1,0 +1,34 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x91586040 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/PreGame/UX/RiotUI/PlayerProfile/UIBase/PlayerProfileScene/PPMHContent/MHListScene/StatsTemplate/MH_Tile/MH_Hex_Btn"
+        0x2063cb13: link = 0x4641ab08
+        0x5a94b0cc: list[link] = {
+            0xfecb3900
+            0xb3ce8d17
+            0xddbca4ab
+            0xf36c31b4
+            0xad339db5
+        }
+        0xdf2b45ce: bool = true
+        0x6bf3194e: link = 0xb3ce8d17
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0xddbca4ab
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0xf36c31b4
+            }
+        }
+        0x46564588: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0xad339db5
+            }
+        }
+    }
+}
