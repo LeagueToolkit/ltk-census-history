@@ -15,11 +15,6 @@ entries: map[hash,embed] = {
                 0x0f1ec3ac: u32 = 1
             }
             0x0904b150 {
-                0x02e7fb4c: string = "BlurDistortionNoise"
-                0xb311d4ef: string = "ASSETS/Shared/Materials/cloudNoise.dds"
-                0x0f1ec3ac: u32 = 1
-            }
-            0x0904b150 {
                 0x02e7fb4c: string = "TraitMask"
                 0xb311d4ef: string = "ASSETS/UX/TFT/DynamicUI/SocialDistance.TFT_Set9_Stage2.tex"
                 0x111ec6d2: u32 = 1
@@ -44,14 +39,6 @@ entries: map[hash,embed] = {
         }
         0xd0ab46b8: list2[embed] = {
             0xde480eef {
-                0x8d39bde6: string = "BlurDistortionScrollSpeed"
-                0x425ed3ca: vec4 = { 0.01, 0.06, 0, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "BlurDistortionStrength"
-                0x425ed3ca: vec4 = { 0.003, 0, 0, 0 }
-            }
-            0xde480eef {
                 0x8d39bde6: string = "AugmentBlurGlowIntensity"
                 0x425ed3ca: vec4 = { 0.78, 0, 0, 0 }
             }
@@ -62,10 +49,6 @@ entries: map[hash,embed] = {
             0xde480eef {
                 0x8d39bde6: string = "BackgroundColor"
                 0x425ed3ca: vec4 = { 0.11372549, 0.11372549, 0.11372549, 1 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "DistortionUVScale"
-                0x425ed3ca: vec4 = { 0.6, 0.3, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "GlowColor"
@@ -83,7 +66,7 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "TextureScale"
-                0x425ed3ca: vec4 = { 0.8, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 0.85, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "DropShadowOffset"
@@ -121,6 +104,14 @@ entries: map[hash,embed] = {
                 0x8d39bde6: string = "AugmentDropShadowIntensity"
                 0x425ed3ca: vec4 = { 1, 0, 0, 0 }
             }
+            0xde480eef {
+                0x8d39bde6: string = "TraitPrismaticBevelOffset"
+                0x425ed3ca: vec4 = { 0.009, 0.009, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "AugmentPrismaticBevelOffset"
+                0x425ed3ca: vec4 = { 0.009, 0.009, 0, 0 }
+            }
         }
         0xdd7ddb9d: list2[embed] = {
             0x0e2212a1 {
@@ -135,7 +126,11 @@ entries: map[hash,embed] = {
                 0x61342fd0: bool = false
             }
             0x0e2212a1 {
-                0x8d39bde6: string = "BEVEL"
+                0x8d39bde6: string = "ENABLEBEVEL"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "PRISMATICBEVEL"
                 0x61342fd0: bool = false
             }
         }
