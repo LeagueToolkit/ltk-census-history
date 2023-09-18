@@ -23,13 +23,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "PercentMaxHealthHeal"
                     0x246b0d8e: list[f32] = {
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                        0.1
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
                     }
                 }
                 0x005008a6 {
@@ -42,6 +42,18 @@ entries: map[hash,embed] = {
                         0.66
                         0.66
                         0.66
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "PercentOfADMark"
+                    0x246b0d8e: list[f32] = {
+                        1.35
+                        1.35
+                        1.45
+                        1.5
+                        1.5
+                        2
+                        2
                     }
                 }
             }
@@ -86,6 +98,21 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x5a2297d3: bool = true
+                }
+                0x85862e11 = 0xbc409284 {
+                    0xcbcac618: u8 = 5
+                    0x37070a8d: u8 = 5
+                    0xe6eebb2f: u8 = 5
+                    0x50f145c0: list[pointer] = {
+                        0x84a63373 {
+                            0xa066cc28: list[pointer] = {
+                                0x5f5c70a4 {
+                                    0x4cec2c8a: u8 = 2
+                                    0xb386dcf1: hash = 0x82c2447f
+                                }
+                            }
+                        }
+                    }
                 }
             }
             0x295c2889: f32 = 0.85
@@ -160,6 +187,12 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "PercentOfAD"
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_TFT9_RekSaiSpell_Damage"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "PercentOfADMark"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_TFT9_RekSai_MarkDamage"
                                     0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {

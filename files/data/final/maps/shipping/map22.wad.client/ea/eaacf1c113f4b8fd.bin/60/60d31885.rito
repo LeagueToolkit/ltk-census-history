@@ -20,6 +20,10 @@ entries: map[hash,embed] = {
                 0x101ec53f: u32 = 1
                 0x0f1ec3ac: u32 = 1
             }
+            0x0904b150 {
+                0x02e7fb4c: string = "OutlineMask_Texture"
+                0xb311d4ef: string = "ASSETS/Shared/Materials/white.dds"
+            }
         }
         0xd0ab46b8: list2[embed] = {
             0xde480eef {
@@ -72,6 +76,10 @@ entries: map[hash,embed] = {
             0xde480eef {
                 0x8d39bde6: string = "EmissionValue"
             }
+            0xde480eef {
+                0x8d39bde6: string = "OutlineMask_Strength"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
         }
         0xdd7ddb9d: list2[embed] = {
             0x0e2212a1 {
@@ -90,6 +98,14 @@ entries: map[hash,embed] = {
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "ANIMATION_ON"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "OUTLINE_MASK_ON"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "MATCAP_MASK_ON"
                 0x61342fd0: bool = false
             }
         }

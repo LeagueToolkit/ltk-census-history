@@ -70,15 +70,19 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter5"
-                0xd872e2a5: vec4 = { 0, 0, 0.05, 0.5 }
+                0xd872e2a5: vec4 = { 0, 0, 1, 0.5 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Flipbook_NumberSpeed"
                         0x0640657c: u32 = 3
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "OutlineController"
-                        0x0640657c: u32 = 12
+                        0x8d39bde6: string = "OutlineMask_Strength"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "OutlineBlendValue"
+                        0x0640657c: u32 = 8
                     }
                 }
             }
@@ -94,15 +98,15 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter7"
-                0xd872e2a5: vec4 = { 0.5, 0.5, 0, 0 }
+                0xd872e2a5: vec4 = { 0.05, 0.5, 0.5, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "OutlineBlendValue"
-                        0x0640657c: u32 = 1
+                        0x8d39bde6: string = "OutlineController"
+                        0x0640657c: u32 = 3
                     }
                     0x14a2befa {
                         0x8d39bde6: string = "EmissionValue"
-                        0x0640657c: u32 = 2
+                        0x0640657c: u32 = 4
                     }
                 }
             }
@@ -116,7 +120,13 @@ entries: map[hash,embed] = {
                 0xaae99956: bool = true
             }
             0x60a292e6 {
+                0x8d39bde6: string = "MATCAP_MASK_ON"
+            }
+            0x60a292e6 {
                 0x8d39bde6: string = "MATCAP_ON"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "OUTLINE_MASK_ON"
             }
             0x60a292e6 {
                 0x8d39bde6: string = "OUTLINE_ON"
@@ -126,6 +136,10 @@ entries: map[hash,embed] = {
             }
         }
         0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "OutlineMask_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/Atlast_Test.dds"
+            }
             0x31d1e223 {
                 0x8d39bde6: string = "MatCap_Tex"
                 0x32b374fa: string = "ASSETS/Shared/Materials/MatCap_ToonPlastic.tex"
