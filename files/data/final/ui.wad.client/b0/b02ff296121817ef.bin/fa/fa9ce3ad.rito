@@ -1,0 +1,57 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xfa9ce3ad = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/PreGame/UX/RiotUI/TFTTroves/UIBase/Scene/BannerGroup/Roll10Button"
+        0x2063cb13: link = 0xff6e79f4
+        0x5a94b0cc: list[link] = {
+            0x88bc19d2
+            0x6cb347fa
+            0xa1817e1b
+            0xd07cc8f9
+            0x528b4d5d
+            0x8ba40eab
+            0x0645531e
+            0x22dee037
+            0x748d3a41
+        }
+        0xdf2b45ce: bool = true
+        0x6bf3194e: link = 0x88bc19d2
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x6cb347fa
+            }
+            0xeec29756: link = 0x8ba40eab
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0xd07cc8f9
+            }
+            0xeec29756: link = 0x8ba40eab
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x528b4d5d
+            }
+            0xeec29756: link = 0x22dee037
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0xa1817e1b
+            }
+            0xeec29756: link = 0x0645531e
+        }
+        0xd6b1c46b: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x748d3a41
+                0xa1817e1b
+            }
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_PreGameUI_button_selection_tap"
+            0x84b6cf03: string = "Play_sfx_PreGameUI_button_selection_release"
+        }
+    }
+}

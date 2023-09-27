@@ -7,41 +7,9 @@ entries: map[hash,embed] = {
         0xc8e37ef0: string = "TryndamereQ"
         0x56d2be52: pointer = 0x43368569 {
             0x9c677a2c: u32 = 4
-            0xecf3f88d: u32 = 9221
+            0xecf3f88d: u32 = 8192
             0x3b0cf15e: embed = 0x25210743 {
                 0xc8613630: string = "Champion"
-            }
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        5
-                        10
-                        15
-                        20
-                        25
-                        30
-                        30
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.15
-                        0.15
-                        0.25
-                        0.35
-                        0.45
-                        0.55
-                        0.4
-                    }
-                }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
             }
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
@@ -90,6 +58,30 @@ entries: map[hash,embed] = {
                         0.012
                         0.012
                         0.012
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "FlatAD"
+                    0x246b0d8e: list[f32] = {
+                        5
+                        10
+                        15
+                        20
+                        25
+                        30
+                        35
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ADPerOnePercentMissingHP"
+                    0x246b0d8e: list[f32] = {
+                        0.05
+                        0.15
+                        0.25
+                        0.35
+                        0.45
+                        0.55
+                        0.65
                     }
                 }
             }
@@ -232,12 +224,12 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "FlatAD"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_AttackDamageBonus"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "ADPerOnePercentMissingHP"
                                     0x33c02d93: i32 = 2
                                     0x566f3406: string = "Spell_ListType_TryndamereAttackDamageperHealthPercMissing"
                                 }
@@ -259,6 +251,21 @@ entries: map[hash,embed] = {
         }
         0x7f0f5a79: pointer = 0x4633d794 {
             0xf1f20d72: string = "game_buff_tooltip_TryndamereQ"
+        }
+        0x4048c61e: pointer = 0xf195e56b {
+            0xec17e271: list2[embed] = {
+                0xb09016f6 {
+                    0x77e5e41c: u32 = 8
+                    0x725bd4d5: pointer = 0xbc409284 {
+                        0x50f145c0: list[pointer] = {
+                            0xf3cbe7b2 {
+                                0x88536426: hash = 0xd5e7e08e
+                            }
+                        }
+                    }
+                }
+            }
+            0x61c10808: u32 = 8
         }
     }
 }
