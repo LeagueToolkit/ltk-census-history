@@ -39,25 +39,25 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "DamagePerHit"
                     0x246b0d8e: list[f32] = {
+                        5
                         6
+                        7
                         8
+                        9
                         10
-                        12
-                        14
-                        16
-                        18
+                        11
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "OnHitRatio"
                     0x246b0d8e: list[f32] = {
-                        0.06
-                        0.06
-                        0.06
-                        0.06
-                        0.06
-                        0.06
-                        0.06
+                        0.08
+                        0.08
+                        0.08
+                        0.08
+                        0.08
+                        0.08
+                        0.08
                     }
                 }
                 0x005008a6 {
@@ -99,13 +99,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "DRPercent"
                     0x246b0d8e: list[f32] = {
+                        0.35
+                        0.42
+                        0.49
+                        0.56
+                        0.63
                         0.7
-                        0.7
-                        0.7
-                        0.7
-                        0.7
-                        0.7
-                        0.7
+                        0.77
                     }
                 }
                 0x005008a6 {
@@ -146,7 +146,7 @@ entries: map[hash,embed] = {
                         }
                         0x5815b0a9 {
                             0x4cec2c8a: u8 = 2
-                            0x295c2889: f32 = 0.06
+                            0x295c2889: f32 = 0.08
                         }
                     }
                 }
@@ -216,6 +216,12 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "DamagePerHit"
                                     0x566f3406: string = "Spell_ListType_Damage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "DRPercent"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_DamageReduction"
+                                    0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"
