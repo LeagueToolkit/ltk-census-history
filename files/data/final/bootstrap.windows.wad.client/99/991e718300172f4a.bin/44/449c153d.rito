@@ -36,20 +36,29 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter2"
-                0xd872e2a5: vec4 = { 0.5, 0, 0, 0 }
+                0xd872e2a5: vec4 = { 0.5, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Translucent"
                         0x0640657c: u32 = 1
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "Spec_Offset"
-                        0x0640657c: u32 = 14
+                        0x8d39bde6: string = "Alpha_Bias"
+                        0x0640657c: u32 = 2
                     }
                 }
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter3"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Spec_Offset"
+                        0x0640657c: u32 = 7
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter4"
                 0xd872e2a5: vec4 = { 1, 1, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {

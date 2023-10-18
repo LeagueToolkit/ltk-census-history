@@ -4,12 +4,31 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x5a87af6a = 0x94400f01 {
-        0x6f69e33c: map[hash,link] = {
-            0xe8b0cbbb = 0x5e31ba18
-            0x4f516a81 = 0xc9556bb8
-            0x35afd776 = 0x530211b1
-            0x3dddb9fd = 0xd17e62ba
-            0x7d29f88f = 0x309aa76a
+        0x70a6123f: list2[embed] = {
+            0x7ac9c856 {
+                0x8d39bde6: hash = 0xe8b0cbbb
+                0x47704df2: link = 0x5e31ba18
+            }
+            0x7ac9c856 {
+                0x8d39bde6: hash = 0x4f516a81
+                0x249f7223: u8 = 1
+                0x47704df2: link = 0xc9556bb8
+            }
+            0x7ac9c856 {
+                0x8d39bde6: hash = 0x35afd776
+                0x249f7223: u8 = 2
+                0x47704df2: link = 0x530211b1
+            }
+            0x7ac9c856 {
+                0x8d39bde6: hash = 0x3dddb9fd
+                0x249f7223: u8 = 3
+                0x47704df2: link = 0xd17e62ba
+            }
+            0x7ac9c856 {
+                0x8d39bde6: hash = 0x7d29f88f
+                0x249f7223: u8 = 4
+                0x47704df2: link = 0x309aa76a
+            }
         }
         0x83b62f63: map[hash,link] = {
             0xd61e38da = 0x309aa76a
@@ -92,14 +111,14 @@ entries: map[hash,embed] = {
             0xde69baaa = 0x309aa76a
         }
         0xfb849597: map[hash,link] = {
-            0x064f1691 = 0xc9556bb8
+            0x064f1691 = 0x5e31ba18
             0xc655a797 = 0x5e31ba18
             0xaf2298c8 = 0x5e31ba18
             0xb2229d81 = 0x5e31ba18
             0xab22927c = 0x5e31ba18
             0x221aff0c = 0xc9556bb8
             0x1c18b703 = 0xc9556bb8
-            0x9b6d38d4 = 0xc9556bb8
+            0x9b6d38d4 = 0x5e31ba18
             0x8c68a409 = 0x530211b1
             0x0a74a356 = 0xd17e62ba
             0x034f11d8 = 0x5e31ba18
@@ -121,12 +140,12 @@ entries: map[hash,embed] = {
             0x4769e8fc = 0x5e31ba18
             0xae20589e = 0x5e31ba18
             0xcdb6c599 = 0x5e31ba18
-            0xa978244f = 0x530211b1
+            0xa978244f = 0xc9556bb8
             0xcf6031b8 = 0x5e31ba18
             0x314e0143 = 0x5e31ba18
             0x42505a9d = 0xc9556bb8
             0xac205578 = 0x5e31ba18
-            0x986d341b = 0xc9556bb8
+            0x986d341b = 0x5e31ba18
             0x9a6d3741 = 0x5e31ba18
             0x9e6d3d8d = 0xc9556bb8
             0x8f6d25f0 = 0xc9556bb8
@@ -143,12 +162,53 @@ entries: map[hash,embed] = {
             0x78077190 = 0x530211b1
             0xf70467e6 = 0x530211b1
             0xf94a84ec = 0x530211b1
-            0xaae65a1f = 0x530211b1
+            0xaae65a1f = 0xc9556bb8
             0x064cd7fa = 0x530211b1
             0x0a4f1cdd = 0x530211b1
             0x094f1b4a = 0x530211b1
             0xfc4f06d3 = 0x530211b1
             0x462d84ac = 0x530211b1
+            0xac22940f = 0x5e31ba18
+            0x566e4b5d = 0x5e31ba18
+            0x77dad1c7 = 0x5e31ba18
+        }
+        0x2c0e972c: list2[embed] = {
+            0xf5022dc7 {
+                0x044fff45: string = "iPhone"
+                0x6dbb4e22: u32 = 16
+                0x47704df2: link = 0x309aa76a
+            }
+            0xf5022dc7 {
+                0x044fff45: string = "iPad"
+                0x6dbb4e22: u32 = 14
+                0x47704df2: link = 0x309aa76a
+            }
+        }
+        0xf3842cae: list2[embed] = {
+            0x3f1c01bb {
+                0x2f7e46c8: f32 = 3
+                0x47704df2: link = 0x5e31ba18
+            }
+            0x3f1c01bb {
+                0xc58ea052: f32 = 3
+                0x2f7e46c8: f32 = 4
+                0x47704df2: link = 0xc9556bb8
+            }
+            0x3f1c01bb {
+                0xc58ea052: f32 = 4
+                0x2f7e46c8: f32 = 6
+                0x47704df2: link = 0x530211b1
+            }
+            0x3f1c01bb {
+                0xc58ea052: f32 = 6
+                0x2f7e46c8: f32 = 8
+                0x47704df2: link = 0xd17e62ba
+            }
+            0x3f1c01bb {
+                0xc58ea052: f32 = 8
+                0x2f7e46c8: f32 = 9999
+                0x47704df2: link = 0x309aa76a
+            }
         }
         0xf792d796: link = 0x530211b1
     }

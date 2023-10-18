@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc7d44bfd = 0x60e00531 {
+        0x19efbfdb: string = "DeficitCompensation2"
+        0x0773669d: map[string,pointer] = {
+            "DeficitCompensation2A" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.45
+            }
+            "DeficitCompensation2B" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.45
+            }
+            "DeficitCompensation2C" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.01
+            }
+            "DeficitCompensation2D" = 0x977517c6 {}
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

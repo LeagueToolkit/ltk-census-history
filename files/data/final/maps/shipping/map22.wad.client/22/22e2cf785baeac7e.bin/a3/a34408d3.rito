@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xa34408d3 = 0x60e00531 {
+        0x19efbfdb: string = "HighGradeLATEBonusDistribution"
+        0x0773669d: map[string,pointer] = {
+            "GoldBoxLATEA" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.02
+            }
+            "GoldBoxLATEB" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.25
+            }
+            "GoldBoxLATEC" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.15
+            }
+            "GoldBoxLATED" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.15
+            }
+            "GoldBoxLATEE" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.25
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

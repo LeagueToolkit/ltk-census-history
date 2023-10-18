@@ -17,19 +17,23 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter1"
-                0xd872e2a5: vec4 = { 0.1, 1, 1, 0 }
+                0xd872e2a5: vec4 = { 0.1, 0, 1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Blink_speed"
                         0x0640657c: u32 = 1
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "ControlAll"
+                        0x8d39bde6: string = "TimeOffset"
                         0x0640657c: u32 = 2
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "Bloom_Intensity"
+                        0x8d39bde6: string = "ControlAll"
                         0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Bloom_Intensity"
+                        0x0640657c: u32 = 8
                     }
                 }
             }
@@ -43,9 +47,18 @@ entries: map[hash,embed] = {
                 }
             }
         }
+        0x3291437b: list[embed] = {
+            0x60a292e6 {
+                0x8d39bde6: string = "USE_EYELID_TEX"
+            }
+        }
         0x99108c85: list[embed] = {
             0x31d1e223 {
                 0x8d39bde6: string = "Diffuse_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Eyelid_Texture"
                 0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
             }
             0x31d1e223 {

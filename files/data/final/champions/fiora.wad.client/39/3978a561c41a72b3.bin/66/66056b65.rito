@@ -15,9 +15,10 @@ entries: map[hash,embed] = {
             0x3e1edbdb: list[string] = {
                 "PositiveEffect_MoveBlock"
             }
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "Damage"
+                    0x246b0d8e: list[f32] = {
                         60
                         70
                         80
@@ -27,8 +28,9 @@ entries: map[hash,embed] = {
                         120
                     }
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "bADRatio"
+                    0x246b0d8e: list[f32] = {
                         0.85
                         0.9
                         0.95
@@ -38,77 +40,30 @@ entries: map[hash,embed] = {
                         1.15
                     }
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        50
-                        50
-                        50
-                        50
-                        50
-                        50
-                        50
+                0x005008a6 {
+                    0x19efbfdb: string = "CDRefundPercent"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
                     }
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        50
-                        50
-                        50
-                        50
-                        50
-                        50
-                        50
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        2.5
-                        2.5
-                        2.5
-                        2.5
-                        2.5
-                        2.5
-                        2.5
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        60
-                        90
-                        120
-                        150
-                        180
-                        210
-                        240
-                    }
-                }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
             }
             0x94572284: map[hash,pointer] = {
                 0x1ddee768 = 0xbc409284 {
-                    0xd6b7a622: bool = true
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x59e94c40
                         }
                         0xcd156c7f {
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
-                            0x1cd83c4b: pointer = 0x8bc08357 {
-                                0x8afb1a5f: i32 = 2
+                            0x1cd83c4b: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0x292bbdbb
                             }
                         }
                     }
@@ -196,14 +151,16 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "Damage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "bADRatio"
                                     0x33c02d93: i32 = 2
+                                    0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_BonusADRatio"
+                                    0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"
