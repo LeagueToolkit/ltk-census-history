@@ -10,7 +10,7 @@ entries: map[hash,embed] = {
         0x514b1c48: i32 = 22
         0x939e7b29: string = "race:mythical,skinline:catsvdogs,appearance:feline"
         0x97f7188d: embed = 0xd06263ff {
-            0xb35135fa: string = "ASSETS/Characters/Kindred/skins/Skin22/KindredLoadScreen_22.PIE_C_13_7.dds"
+            0xb35135fa: string = "ASSETS/Characters/Kindred/skins/Skin22/KindredLoadScreen_22.dds"
         }
         0x8f7b194f: embed = 0x8f7b194f {
             0xd65bac4d: list[string] = {
@@ -76,13 +76,9 @@ entries: map[hash,embed] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Kindred/Skins/Skin22/Kindred_Skin22_SFX_events.bnk"
                     }
                     0x12d8e384: list[string] = {
-                        "KindredSkin22_Switch_Basic01"
-                        "KindredSkin22_Switch_Basic02"
-                        "KindredSkin22_Switch_Basic03"
-                        "KindredSkin22_Switch_Basic04"
-                        "Play_sfx_KindredSkin22_Dance3D_loop"
+                        "Play_sfx_KindredSkin22_Dance3D_buffactivate_loop"
                         "Play_sfx_KindredSkin22_Death3D_cast"
-                        "Play_sfx_KindredSkin22_Idle_buffactivate"
+                        "Play_sfx_KindredSkin22_Idle3D_run_buffactivate"
                         "Play_sfx_KindredSkin22_Joke3D_buffactivate"
                         "Play_sfx_KindredSkin22_KindredBasicAttack_OnCast"
                         "Play_sfx_KindredSkin22_KindredBasicAttack_OnHit"
@@ -96,7 +92,6 @@ entries: map[hash,embed] = {
                         "Play_sfx_KindredSkin22_KindredBasicAttackBounty3_OnCast"
                         "Play_sfx_KindredSkin22_KindredBasicAttackBounty3_OnHit"
                         "Play_sfx_KindredSkin22_KindredBasicAttackBounty3_OnMissileLaunch"
-                        "Play_sfx_KindredSkin22_KindredBasicAttackOverrideLightBombFinal_OnCast"
                         "Play_sfx_KindredSkin22_KindredCritAttack_OnCast"
                         "Play_sfx_KindredSkin22_KindredCritAttack_OnHit"
                         "Play_sfx_KindredSkin22_KindredCritAttack_OnMissileLaunch"
@@ -107,39 +102,53 @@ entries: map[hash,embed] = {
                         "Play_sfx_KindredSkin22_KindredEWolfMissile_OnMissileCast"
                         "Play_sfx_KindredSkin22_KindredEWolfMissile_OnMissileLaunch"
                         "Play_sfx_KindredSkin22_KindredFakeCastTimeSpell_OnCast"
-                        "Play_sfx_KindredSkin22_KindredMark_icon"
-                        "Play_sfx_KindredSkin22_KindredQ_missile_multi"
-                        "Play_sfx_KindredSkin22_KindredQ_missile_single"
-                        "Play_sfx_KindredSkin22_KindredQ_missile_target"
+                        "Play_sfx_KindredSkin22_KindredP_collect_buffactivate"
+                        "Play_sfx_KindredSkin22_KindredP_mark_buffactivate"
+                        "Play_sfx_KindredSkin22_KindredP_mark_buffdeactivate"
+                        "Play_sfx_KindredSkin22_KindredP_timer_buffactivate"
+                        "Play_sfx_KindredSkin22_KindredQ_cast_ground"
+                        "Play_sfx_KindredSkin22_KindredQ_missilelaunch_multi"
+                        "Play_sfx_KindredSkin22_KindredQ_missilelaunch_single"
                         "Play_sfx_KindredSkin22_KindredQ_OnCast"
-                        "Play_sfx_KindredSkin22_KindredR_aoe"
-                        "Play_sfx_KindredSkin22_KindredR_aoe_end"
-                        "Play_sfx_KindredSkin22_KindredR_aoe_heal"
-                        "Play_sfx_KindredSkin22_KindredWCloneBuff_cast"
+                        "Play_sfx_KindredSkin22_KindredQMissile_OnHit"
+                        "Play_sfx_KindredSkin22_KindredQMissile_OnMissileLaunch"
+                        "Play_sfx_KindredSkin22_KindredR_buffactivate"
+                        "Play_sfx_KindredSkin22_KindredR_buffdeactivate"
+                        "Play_sfx_KindredSkin22_KindredR_heal_buffactivate"
+                        "Play_sfx_KindredSkin22_KindredW_OnCast"
+                        "Play_sfx_KindredSkin22_KindredWChargePassive_heal_buffactivate"
+                        "Play_sfx_KindredSkin22_KindredWChargePassive_ready_buffactivate"
                         "Play_sfx_KindredSkin22_KindredWCloneBuff_missilelaunch"
+                        "Play_sfx_KindredSkin22_KindredWCloneBuff_poof_buffactivate"
                         "Play_sfx_KindredSkin22_KindredWCloneBuff_ring_cast"
-                        "Play_sfx_KindredSkin22_KindredWolfBasicAttack_hit"
-                        "Play_sfx_KindredSkin22_KindredWPassiveHeal_heal"
-                        "Play_sfx_KindredSkin22_KindredWPassiveHeal_mis"
-                        "Play_sfx_KindredSkin22_KindredWPassiveHeal_ready"
-                        "Play_sfx_KindredSkin22_Lamb_Idle_runvariant"
+                        "Play_sfx_KindredSkin22_KindredWolfBasicAttack_OnCast"
+                        "Play_sfx_KindredSkin22_KindredWolfBasicAttack_OnHit"
+                        "Play_sfx_KindredSkin22_KindredWPassiveHealMissile_OnMissileLaunch"
                         "Play_sfx_KindredSkin22_Laugh3D_buffactivate"
-                        "Play_sfx_KindredSkin22_p_bounty_collect"
-                        "Play_sfx_KindredSkin22_p_mark_deactivate"
-                        "Play_sfx_KindredSkin22_p_mark_timer"
-                        "Play_sfx_KindredSkin22_Recall_buffactivate"
+                        "Play_sfx_KindredSkin22_Recall3D_buffactivate"
                         "Play_sfx_KindredSkin22_Taunt3D_buffactivate"
-                        "Play_sfx_KindredSkin22_Wolf_Poof"
-                        "Stop_sfx_KindredSkin22_Idle_buffactivate"
+                        "Play_vosfx_KindredSkin22_Idle_buffactivate"
                         "Stop_sfx_KindredSkin22_KindredBasicAttack_OnMissileLaunch"
                         "Stop_sfx_KindredSkin22_KindredBasicAttackBounty1_OnMissileLaunch"
                         "Stop_sfx_KindredSkin22_KindredBasicAttackBounty2_OnMissileLaunch"
                         "Stop_sfx_KindredSkin22_KindredBasicAttackBounty3_OnMissileLaunch"
+                        "Stop_sfx_KindredSkin22_KindredCritAttack_OnMissileLaunch"
                         "Stop_sfx_KindredSkin22_KindredE_OnMissileLaunch"
                         "Stop_sfx_KindredSkin22_KindredEWolfMissile_OnMissileLaunch"
+                        "Stop_sfx_KindredSkin22_KindredP_collect_buffactivate"
+                        "Stop_sfx_KindredSkin22_KindredP_mark_buffactivate"
+                        "Stop_sfx_KindredSkin22_KindredP_mark_buffdeactivate"
+                        "Stop_sfx_KindredSkin22_KindredP_timer_buffactivate"
+                        "Stop_sfx_KindredSkin22_KindredQMissile_OnMissileLaunch"
+                        "Stop_sfx_KindredSkin22_KindredR_buffactivate"
+                        "Stop_sfx_KindredSkin22_KindredR_buffdeactivate"
+                        "Stop_sfx_KindredSkin22_KindredR_heal_buffactivate"
+                        "Stop_sfx_KindredSkin22_KindredWChargePassive_heal_buffactivate"
+                        "Stop_sfx_KindredSkin22_KindredWChargePassive_ready_buffactivate"
                         "Stop_sfx_KindredSkin22_KindredWCloneBuff_missilelaunch"
                         "Stop_sfx_KindredSkin22_KindredWCloneBuff_ring_cast"
-                        "Stop_sfx_KindredSkin22_p_mark_timer"
+                        "Stop_sfx_KindredSkin22_KindredWPassiveHealMissile_OnMissileLaunch"
+                        "Stop_vosfx_KindredSkin22_Idle_buffactivate"
                     }
                 }
             }
@@ -148,9 +157,9 @@ entries: map[hash,embed] = {
             0xf5fb07c7: link = 0x04240295
         }
         0x45ff5904: embed = 0x6111d8a4 {
-            0xb14c976e: string = "ASSETS/Characters/Kindred/skins/Skin22/Kindred_Skin22.PIE_C_13_7.skl"
-            0xd6a00df6: string = "ASSETS/Characters/Kindred/skins/Skin22/Kindred_Skin22.PIE_C_13_7.skn"
-            0x3c6468f4: string = "ASSETS/Characters/Kindred/skins/Skin25/Kindred_Skin25_TX_CM.Chroma_Kindred_CatsVsDogs2023.dds"
+            0xb14c976e: string = "ASSETS/Characters/Kindred/skins/Skin22/Kindred_Skin22.skl"
+            0xd6a00df6: string = "ASSETS/Characters/Kindred/skins/Skin22/Kindred_Skin22.skn"
+            0x3c6468f4: string = "ASSETS/Characters/Kindred/skins/Skin25/Kindred_Skin25_TX_CM.dds"
             0xa1f805da: f32 = 1.1
             0x252f6884: f32 = 0.7
             0x5c7a0332: option[vec3] = {
@@ -172,19 +181,19 @@ entries: map[hash,embed] = {
                     0xaad7612c: string = "Fish"
                 }
                 0x8b7a4394 {
-                    0x3c6468f4: string = "ASSETS/Characters/Kindred/skins/Skin25/Kindred_Skin25_Recall_TX_CM.Chroma_Kindred_CatsVsDogs2023.dds"
+                    0x3c6468f4: string = "ASSETS/Characters/Kindred/skins/Skin25/Kindred_Skin25_Recall_TX_CM.dds"
                     0xaad7612c: string = "Flag"
                 }
                 0x8b7a4394 {
-                    0x3c6468f4: string = "ASSETS/Characters/Kindred/skins/Skin25/Kindred_Skin25_Recall_TX_CM.Chroma_Kindred_CatsVsDogs2023.dds"
+                    0x3c6468f4: string = "ASSETS/Characters/Kindred/skins/Skin25/Kindred_Skin25_Recall_TX_CM.dds"
                     0xaad7612c: string = "Dog"
                 }
                 0x8b7a4394 {
-                    0x3c6468f4: string = "ASSETS/Characters/Kindred/skins/Skin25/Kindred_Skin25_Recall_TX_CM.Chroma_Kindred_CatsVsDogs2023.dds"
+                    0x3c6468f4: string = "ASSETS/Characters/Kindred/skins/Skin25/Kindred_Skin25_Recall_TX_CM.dds"
                     0xaad7612c: string = "Box"
                 }
                 0x8b7a4394 {
-                    0x3c6468f4: string = "ASSETS/Characters/Kindred/skins/Skin25/Kindred_Skin25_Recall_TX_CM.Chroma_Kindred_CatsVsDogs2023.dds"
+                    0x3c6468f4: string = "ASSETS/Characters/Kindred/skins/Skin25/Kindred_Skin25_Recall_TX_CM.dds"
                     0xaad7612c: string = "Balloon"
                 }
             }
@@ -203,7 +212,7 @@ entries: map[hash,embed] = {
                 0x1ecb978c: string = "Head"
             }
         }
-        0x089aff69: string = "ASSETS/Characters/Kindred/HUD/Kindred_Circle_22.PIE_C_13_7.dds"
+        0x089aff69: string = "ASSETS/Characters/Kindred/HUD/Kindred_Circle_22.dds"
         0xd8f64a0d: link = 0x4aed2f45
         0xe67284f4: option[string] = {
             "ASSETS/Characters/Kindred/HUD/Kindred_Circle.dds"

@@ -1,0 +1,19 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb1444c9b = 0x60e00531 {
+        0x19efbfdb: string = "FF_Gift2_ProwlersClaw"
+        0x0773669d: map[string,pointer] = {
+            "LootTables" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "FF_ProwlersClaw_Loot"
+                    "FF_Gold7_Loot"
+                    "FF_4Cost_Loot"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

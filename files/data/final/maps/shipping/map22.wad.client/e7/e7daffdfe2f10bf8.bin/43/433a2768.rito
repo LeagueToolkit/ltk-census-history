@@ -5,18 +5,42 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x433a2768 = 0xff9d3409 {
         0x8d39bde6: string = "Characters/TFT_SamuraiDuel_Props/Skins/Skin2/Materials/TFT_FakeShadow_inst"
+        0x0a6f0eb5: list2[embed] = {
+            0x0904b150 {
+                0x02e7fb4c: string = "Diffuse_Texture"
+                0xb311d4ef: string = "ASSETS/Shared/Materials/black.PIE_C_13_20.dds"
+            }
+        }
         0xd0ab46b8: list2[embed] = {
             0xde480eef {
                 0x8d39bde6: string = "LightDefine"
                 0x425ed3ca: vec4 = { 0, -0.5, -0.86, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "PlaneDefine"
-                0x425ed3ca: vec4 = { 0, 1, 0, 15162 }
-            }
-            0xde480eef {
                 0x8d39bde6: string = "MainColor"
                 0x425ed3ca: vec4 = { 0, 0, 0, 0.01 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "OffsetFactor"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "ReflectionAlphaFadeInfo"
+                0x425ed3ca: vec4 = { 0, 100, 1, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "PlaneNormal"
+                0x425ed3ca: vec4 = { 0, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "PlanePos"
+                0x425ed3ca: vec4 = { 0, 15162, 0, 0 }
+            }
+        }
+        0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "FAKE_REFLECTION"
+                0x61342fd0: bool = false
             }
         }
         0xe6d67ded: map[string,string] = {

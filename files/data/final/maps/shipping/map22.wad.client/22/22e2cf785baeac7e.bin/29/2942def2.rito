@@ -1,0 +1,19 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2942def2 = 0x60e00531 {
+        0x19efbfdb: string = "FF_Gift1_A"
+        0x0773669d: map[string,pointer] = {
+            "LootTables" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "FF_CompletedItem_Loot"
+                    "FF_ComponentItem_Loot"
+                    "FF_Gold3Dummy_Loot"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

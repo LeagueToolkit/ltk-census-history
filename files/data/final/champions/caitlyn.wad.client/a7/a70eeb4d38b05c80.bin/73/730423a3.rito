@@ -22,6 +22,9 @@ entries: map[hash,embed] = {
                             0x1b80126e: bool = true
                             0x316428c4: f32 = -1
                         }
+                        0x0f717330: option[i32] = {
+                            200
+                        }
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
                         }
@@ -381,7 +384,7 @@ entries: map[hash,embed] = {
             0xbc9c8463 = 0xfc27a63e {
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Tryndamere"
+                        0xfecc56e5: string = "Taunt"
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "Taunt3DGeneral"
                             0x683ae1b9: string = "Taunt3DGeneral"
@@ -397,37 +400,13 @@ entries: map[hash,embed] = {
             0xb20a78eb = 0xfc27a63e {
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Biscuit"
-                        0x2aff6c4a: list[pointer] = {
-                            0x2db74660 {
-                                0x3f2d5dae: u8 = 30
-                            }
-                            0x40bff419 {
-                                0xb12ced9c: list[hash] = {
-                                    0xb72daecb
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0x307b0406: u32 = 2
-                            0xc0a5d6dd: string = "UseItem2DBiscuit"
-                        }
-                        0x98b66135: pointer = 0x15f6e07a {
-                            0x59c20478: bool = true
-                        }
-                    }
-                    0x22d0ac10 {
                         0xfecc56e5: string = "Health Potion"
                         0x2aff6c4a: list[pointer] = {
                             0x2db74660 {
                                 0x3f2d5dae: u8 = 30
                             }
-                            0x40bff419 {
-                                0xb12ced9c: list[hash] = {
-                                    0xb02b652f
-                                    0x2a2853a6
-                                    0x28285080
-                                }
+                            0xe438c142 {
+                                0x0c621bc7: hash = 0xbdfad7ea
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
@@ -535,6 +514,9 @@ entries: map[hash,embed] = {
                             0xe438c142 {
                                 0x0c621bc7: hash = 0x7afa5b33
                             }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 50
+                            }
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0x307b0406: u32 = 2
@@ -549,6 +531,9 @@ entries: map[hash,embed] = {
                         0x2aff6c4a: list[pointer] = {
                             0xe438c142 {
                                 0x0c621bc7: hash = 0xbdfad7ea
+                            }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 50
                             }
                         }
                         0xddac2570: pointer = 0x2980c70d {
@@ -579,52 +564,9 @@ entries: map[hash,embed] = {
             0x12771576 = 0xfc27a63e {
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
-                        0xfecc56e5: string = "Ally Ezreal"
-                        0x2aff6c4a: list[pointer] = {
-                            0x2ed5772b {
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0xc34a529e
-                                        }
-                                    }
-                                    0xc6623d61 {
-                                        0x805ea36e: bool = true
-                                    }
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Move2DFirstAllyEzreal"
-                        }
-                        0x98b66135: pointer = 0x15f6e07a {
-                            0x59c20478: bool = true
-                        }
-                    }
-                    0x22d0ac10 {
-                        0xfecc56e5: string = "Enemy Ezreal"
-                        0x2aff6c4a: list[pointer] = {
-                            0x2ed5772b {
-                                0xf21bb0f8: list[pointer] = {
-                                    0xdefcc579 {
-                                        0xd6da506c: list[hash] = {
-                                            0xc34a529e
-                                        }
-                                    }
-                                    0xc6623d61 {}
-                                }
-                            }
-                        }
-                        0xddac2570: pointer = 0x2980c70d {
-                            0xc0a5d6dd: string = "Move2DFirstEnemyEzreal"
-                        }
-                        0x98b66135: pointer = 0x15f6e07a {
-                            0x59c20478: bool = true
-                        }
-                    }
-                    0x22d0ac10 {
                         0xfecc56e5: string = "General"
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "Move2DFirst"
                         }
                         0x98b66135: pointer = 0x15f6e07a {
@@ -673,6 +615,11 @@ entries: map[hash,embed] = {
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
                         0xfecc56e5: string = "General"
+                        0x2aff6c4a: list[pointer] = {
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 75
+                            }
+                        }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "Respawn2DGeneral"
                         }
@@ -683,10 +630,14 @@ entries: map[hash,embed] = {
                 }
             }
             0x373111c9 = 0xfc27a63e {
-                0xc6a8b1d0: f32 = 10
                 0x1a116faf: list[embed] = {
                     0x22d0ac10 {
                         0xfecc56e5: string = "General"
+                        0x2aff6c4a: list[pointer] = {
+                            0xb4a5fb60 {
+                                0x954d766f: f32 = 10
+                            }
+                        }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "Recall3DGeneral"
                         }
@@ -701,9 +652,13 @@ entries: map[hash,embed] = {
                     0x22d0ac10 {
                         0xfecc56e5: string = "First"
                         0xddac2570: pointer = 0x2980c70d {
+                            0x307b0406: u32 = 2
                             0xc0a5d6dd: string = "Kill3DFirst"
                             0x415965e7: string = "Kill3DFirst"
                             0x1b80126e: bool = true
+                        }
+                        0x0f717330: option[i32] = {
+                            10
                         }
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
@@ -770,6 +725,9 @@ entries: map[hash,embed] = {
                             0x347c2fe3 {
                                 0x045804f6: u32 = 3
                             }
+                            0x2db74660 {
+                                0x3f2d5dae: u8 = 75
+                            }
                         }
                         0xddac2570: pointer = 0x2980c70d {
                             0xc0a5d6dd: string = "Spell2DRRank1"
@@ -809,7 +767,6 @@ entries: map[hash,embed] = {
                         0xddac2570: pointer = 0x2980c70d {
                             0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "FirstEncounter3DRyze"
-                            0x415965e7: string = "FirstEncounter3DRyze"
                         }
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
@@ -832,7 +789,6 @@ entries: map[hash,embed] = {
                         0xddac2570: pointer = 0x2980c70d {
                             0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "FirstEncounter3DTaric"
-                            0x415965e7: string = "FirstEncounter3DTaric"
                         }
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
@@ -855,7 +811,6 @@ entries: map[hash,embed] = {
                         0xddac2570: pointer = 0x2980c70d {
                             0x307b0406: u32 = 1
                             0xc0a5d6dd: string = "FirstEncounter3DTryndamere"
-                            0x415965e7: string = "FirstEncounter3DTryndamere"
                         }
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
@@ -1009,9 +964,11 @@ entries: map[hash,embed] = {
                             0x415965e7: string = "cast3D"
                             0xe810044c: string = "cast3D"
                         }
+                        0x0f717330: option[i32] = {
+                            100
+                        }
                         0x98b66135: pointer = 0x15f6e07a {
                             0x59c20478: bool = true
-                            0xc59f257e: bool = true
                         }
                     }
                 }
