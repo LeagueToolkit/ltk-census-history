@@ -4,12 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x8d828c9b = 0x244c26e6 {
-        0x74d44065: string = "Item_3084_Name"
+        0x74d44065: string = "Item_223084_Name"
         0x13bddc7b: i32 = 223084
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
             0x218b5fe6
+            0x261a4456
         }
         0x0b44452a: i32 = 3000
         0x51c4b876: bool = true
@@ -31,11 +32,11 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "HPRatio"
-                0x24f2ec89: f32 = 0.06
+                0x24f2ec89: f32 = 0.07
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "DamageToMaxHealthRatio"
-                0x24f2ec89: f32 = 0.1
+                0x24f2ec89: f32 = 0.12
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "DistanceToChampion"
@@ -73,20 +74,6 @@ entries: map[hash,embed] = {
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
-            0x3066c1c3 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x663d5e00 {
-                        0xcac1b6d2: f32 = 1
-                        0x5ee3c453: u8 = 5
-                    }
-                }
-            }
-            0xe7cf0c47 = 0x070e3593 {
-                0x2c77adff: pointer = 0x332eb441 {
-                    0xb386dcf1: hash = 0x770b8d32
-                }
-                0x7f93cf4e: hash = 0x3066c1c3
-            }
             0x53518d28 = 0x070e3593 {
                 0x2c77adff: pointer = 0xad106e67 {
                     0x46144074: pointer = 0x332eb441 {
@@ -95,12 +82,6 @@ entries: map[hash,embed] = {
                     0x4914452d: pointer = 0x9ef92080 {
                         0xe202bca9: f32 = 100
                     }
-                }
-                0x7f93cf4e: hash = 0x3066c1c3
-            }
-            0xe537754d = 0x070e3593 {
-                0x2c77adff: pointer = 0x332eb441 {
-                    0xb386dcf1: hash = 0x276ff948
                 }
                 0x7f93cf4e: hash = 0x3066c1c3
             }
@@ -145,6 +126,26 @@ entries: map[hash,embed] = {
                     }
                 }
             }
+            0x3066c1c3 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x663d5e00 {
+                        0xcac1b6d2: f32 = 1
+                        0x5ee3c453: u8 = 5
+                    }
+                }
+            }
+            0xe537754d = 0x070e3593 {
+                0x2c77adff: pointer = 0x332eb441 {
+                    0xb386dcf1: hash = 0x276ff948
+                }
+                0x7f93cf4e: hash = 0x3066c1c3
+            }
+            0xe7cf0c47 = 0x070e3593 {
+                0x2c77adff: pointer = 0x332eb441 {
+                    0xb386dcf1: hash = 0x770b8d32
+                }
+                0x7f93cf4e: hash = 0x3066c1c3
+            }
         }
         0x5b98619f: f32 = 10
         0x06d997bb: f32 = 800
@@ -166,13 +167,13 @@ entries: map[hash,embed] = {
                 0xb482c52c: string = "223084"
                 0x57b8b11b: link = 0x7789314d
                 0x0381f7e2: map[string,string] = {
-                    "keyName" = "Item_3084_Name"
-                    "keyBrief" = "Item_3084_Brief"
-                    "keyUniqueGroup" = "Item_Unique_Mythic"
+                    "keyName" = "Item_223084_Name"
+                    "keyBrief" = "Item_223084_Brief"
+                    "keyUniqueGroup" = "Cherry_Decoupling_Unique_Mythic"
                     "keyTooltip" = "Item_223084_Tooltip"
-                    "keyTooltipExternal" = "Item_3084_TooltipExternal"
+                    "keyTooltipExternal" = "Item_223084_TooltipExternal"
                     "keyColloquialism" = "Item_3084_Colloquialism"
-                    "keyInventoryOnlyText" = "Item_3084_InventoryOnlyText"
+                    "keyInventoryOnlyText" = "Item_223084_InventoryOnlyText"
                     "keyTooltipInventory" = "Item_223084_TooltipDynamic"
                 }
                 0x91ed07c9: map[string,embed] = {

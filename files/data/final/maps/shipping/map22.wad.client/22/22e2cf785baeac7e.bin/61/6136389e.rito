@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6136389e = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_CHARACTERROLE_ADREAPER"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Item_Deathblade"
+                    "TFT_Item_MadredsBloodrazor"
+                    "TFT_Item_LastWhisper"
+                    "TFT_Item_GuardianAngel"
+                    "TFT_Item_UnstableConcoction"
+                    "TFT_Item_InfinityEdge"
+                    "TFT_Item_RunaansHurricane"
+                    "TFT_Item_Bloodthirster"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

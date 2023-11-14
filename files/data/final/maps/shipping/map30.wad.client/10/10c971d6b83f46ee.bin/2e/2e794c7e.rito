@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2e794c7e = 0x5e7e5a06 {
+        0xc8e37ef0: string = "UltBook_SharedSpellData"
+        0x56d2be52: pointer = 0x43368569 {
+            0x94572284: map[hash,pointer] = {
+                0xab98aeda = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x15fecdbc {
+                            0xd06c375d: f32 = 5
+                            0x1cd7e522: f32 = 35
+                            0x7fe8e3b3: bool = true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

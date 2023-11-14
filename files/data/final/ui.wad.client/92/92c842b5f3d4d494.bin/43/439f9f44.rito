@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x439f9f44 = 0x4b413124 {
+        0x37386ae0: string = "0baa7338-e89e-4d97-8467-3bd6f51f7917"
+        0x8d39bde6: string = "AoShin"
+        0x6194e22e: string = "companion_aoshin_default_name"
+        0x67a9c9d2: list[embed] = {
+            0x18599d08 {
+                0x9f245e2f: link = 0x8142b24f
+                0x50a09eb9: u32 = 1
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x1208edd4
+                0x50a09eb9: u32 = 1
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0xafef3fe5
+                0x50a09eb9: u32 = 1
+            }
+        }
+    }
+}

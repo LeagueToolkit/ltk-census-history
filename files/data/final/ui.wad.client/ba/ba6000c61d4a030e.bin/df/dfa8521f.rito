@@ -1,0 +1,39 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xdfa8521f = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/TFTPreGame/UX/RiotUI/TFTEmeraldRankNotificationModal/TFTEmeraldRankScene/EmeraldRank_ConfirmButton"
+        0x2063cb13: link = 0x627baee5
+        0x5a94b0cc: list[link] = {
+            0xfbb6901b
+            0x07ca5ad7
+            0x288eb4d6
+            0x1dc42ffc
+            0x689bd442
+            0x96814c2a
+            0x782c46e1
+        }
+        0xdf2b45ce: bool = true
+        0x6bf3194e: link = 0x288eb4d6
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x07ca5ad7
+            }
+            0xeec29756: link = 0x96814c2a
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x1dc42ffc
+            }
+            0xeec29756: link = 0x782c46e1
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0xfbb6901b
+            }
+            0xeec29756: link = 0x689bd442
+        }
+    }
+}

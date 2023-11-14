@@ -22,6 +22,7 @@ entries: map[hash,embed] = {
         }
         0x4d5e9d13: list2[link] = {
             0xac0e2357
+            0x500b8930
         }
         0xf74504c0: list2[link] = {
             0x5966a590
@@ -45,9 +46,19 @@ entries: map[hash,embed] = {
                 0x24f2ec89: string = "SetTutorialPersonalities"
             }
             "SetLevelScriptName" = 0xa188bd55 {}
+            "SetAugmentCharacter" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT9_Augment"
+            }
+            "TutorialAugmentsEnabled" = 0x641de12c {
+                0x24f2ec89: bool = true
+            }
         }
         0x2bc5935b: link = 0x0d9e4e58
         0x9fb0e5e5: link = 0x5da51e3f
         0x8063dbb0: hash = 0x1ec47486
+        0xb43288f2: pointer = 0x2483c715 {
+            0x3f19432c: hash = 0x89b65195
+            0x6f2b10db: hash = 0xe01c5b02
+        }
     }
 }

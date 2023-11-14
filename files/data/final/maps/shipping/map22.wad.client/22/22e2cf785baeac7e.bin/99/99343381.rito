@@ -1,0 +1,33 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x99343381 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT10_PBJ_Cashout14_Option2"
+        0x0773669d: map[string,pointer] = {
+            "Gold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 13
+            }
+            "ItemByKey" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "RADIANTITEMS_SET5"
+                }
+            }
+            "MeepTypeUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_ArmoryKeyCompleted"
+                    "TFT_ArmoryKeyOrnn"
+                    "TFT_ArmoryKeySupport"
+                }
+            }
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Consumable_ItemRemover"
+                    "TFT_Consumable_ItemReroller"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

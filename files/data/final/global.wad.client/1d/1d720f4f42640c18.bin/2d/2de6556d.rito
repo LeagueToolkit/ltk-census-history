@@ -4,7 +4,8 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x2de6556d = 0x244c26e6 {
-        0x74d44065: string = "game_item_displayname_4403"
+        0x74d44065: string = "game_item_displayname_224403"
+        0xc4ca4906: string = "CanPurchase"
         0x13bddc7b: i32 = 224403
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
@@ -14,27 +15,19 @@ entries: map[hash,embed] = {
         0x0b44452a: i32 = 687
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
-        0x2c359091: list[link] = {
-            0xda6d403d
-            0x1c274c02
-            0x132bbb05
-            0x4985f3e0
-            0x182bc2e4
-            0x6ae97967
-        }
         0x5b98619f: f32 = 20
-        0x06d997bb: f32 = 250
-        0xc1cd174b: f32 = 1
+        0x06d997bb: f32 = 350
+        0xc1cd174b: f32 = 2
         0xb739c155: f32 = 0.1
-        0xb594d102: f32 = 30
-        0xb9f972a0: f32 = 30
-        0xbc050325: f32 = 0.3
-        0x4e7a81cd: f32 = 70
-        0x288a964d: f32 = 120
-        0xc5658c30: f32 = 0.5
-        0x03355c22: f32 = 0.1
-        0x9fdc5a73: f32 = 250
-        0xa77b63e1: f32 = 1
+        0xb594d102: f32 = 40
+        0xb9f972a0: f32 = 40
+        0xbc050325: f32 = 0.35
+        0x4e7a81cd: f32 = 100
+        0x288a964d: f32 = 150
+        0xc5658c30: f32 = 0.7
+        0x03355c22: f32 = 0.15
+        0x9fdc5a73: f32 = 350
+        0xa77b63e1: f32 = 2
         0xccf99b44: list[string] = {
             "Health"
             "SpellBlock"
@@ -50,6 +43,9 @@ entries: map[hash,embed] = {
             "CooldownReduction"
             "NonbootsMovement"
         }
+        0x57c6c7d0: embed = 0xc03becd9 {
+            0x5d7d4fb0: bool = true
+        }
         0x57558bca: list[u8] = {
             1
             2
@@ -63,10 +59,13 @@ entries: map[hash,embed] = {
                 0xb482c52c: string = "224403"
                 0x57b8b11b: link = 0x7789314d
                 0x0381f7e2: map[string,string] = {
-                    "keyName" = "game_item_displayname_4403"
-                    "keyTooltip" = "game_item_tooltip_4403"
-                    "keyTooltipExternal" = "Item_4403_TooltipExternal"
+                    "keyName" = "game_item_displayname_224403"
+                    "keyTooltipInventory" = "Item_224403_Tooltip"
+                    "keyTooltipExternal" = "Item_224403_TooltipExternal"
                     "keyColloquialism" = "Item_4403_Colloquialism"
+                    "keyUniqueGroup" = "Item_Unique_With_Self"
+                    "keyBrief" = "Item_224403_Augment"
+                    "keyTooltip" = "Item_224403_Tooltip_Shop"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -114,9 +113,9 @@ entries: map[hash,embed] = {
                     }
                 }
             }
-            0xf1f20d72: string = "GeneratedTip_Item_4403_Description"
-            0x9a5a3a84: string = "GeneratedTip_Item_4403_TooltipInventory"
-            0x561ba63f: string = "GeneratedTip_Item_4403_TooltipShop"
+            0xf1f20d72: string = "GeneratedTip_Item_224403_Description"
+            0x9a5a3a84: string = "GeneratedTip_Item_224403_TooltipInventory"
+            0x561ba63f: string = "GeneratedTip_Item_224403_TooltipShop"
             0xc68db52e: string = "ASSETS/Items/Icons2D/4403_GoldenSpatula.dds"
             0x5ee3c453: u8 = 0
         }

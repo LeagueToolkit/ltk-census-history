@@ -1,0 +1,34 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4deff278 = 0xd186c31a {
+        0x19efbfdb: string = "TFT10_Item_DJ_Mode3"
+        0x02490112: string = "TFT10_ItemDJ_Mode2_Buff"
+        0xc13d6d31: list[embed] = {
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x20f1bdcc
+                0x425ed3ca: f32 = 100
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0xbf4b1194
+                0x425ed3ca: f32 = 600
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0xc24b164d
+                0x425ed3ca: f32 = 900
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0xc14b14ba
+                0x425ed3ca: f32 = 9000
+            }
+        }
+        0xc3143d66: string = "tft_item_name_TFT10_DJ_Mode3"
+        0x8bee2972: string = "ASSETS/Maps/TFT/Icons/TFT10/TFT10_Item_DJ_ModeRed.TFT_Set10.tex"
+        0x5371e38f: option[rgba] = {
+            { 92, 100, 19, 255 }
+        }
+        0x3b2adacd: link = 0x9e95a291
+    }
+}

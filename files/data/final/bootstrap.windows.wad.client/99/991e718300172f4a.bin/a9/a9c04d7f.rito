@@ -8,7 +8,7 @@ entries: map[hash,embed] = {
         0x48a52ed9: list[embed] = {
             0x816753d8 {
                 0x8d39bde6: string = "Parameter0"
-                0xd872e2a5: vec4 = { 3, 0, 0.2, 1.2 }
+                0xd872e2a5: vec4 = { 3, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "ColorFresnelSize"
@@ -19,12 +19,8 @@ entries: map[hash,embed] = {
                         0x0640657c: u32 = 2
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "DissolveWidth"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "DissolveBias"
-                        0x0640657c: u32 = 8
+                        0x8d39bde6: string = "Grid_Contrast"
+                        0x0640657c: u32 = 12
                     }
                 }
             }
@@ -40,42 +36,132 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter2"
-                0xd872e2a5: vec4 = { 1, -0.42, -0.42, -0.42 }
+                0xd872e2a5: vec4 = { 2, 0, 0, 0.2 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "Alpha_Mutliplier"
+                        0x8d39bde6: string = "Fresnel_Size"
                         0x0640657c: u32 = 1
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "RimLightOffset"
-                        0x0640657c: u32 = 14
-                    }
-                }
-            }
-            0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
-                0xd872e2a5: vec4 = { 2, 64, 1.42, 1 }
-                0x74672198: list[embed] = {
-                    0x14a2befa {
-                        0x8d39bde6: string = "MinSpec"
-                        0x0640657c: u32 = 1
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "MaxSpec"
+                        0x8d39bde6: string = "Mat_Control"
                         0x0640657c: u32 = 2
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "Spec_Intensity"
+                        0x8d39bde6: string = "Alpha_Intensity"
                         0x0640657c: u32 = 4
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "MaxSpec_Intensity"
+                        0x8d39bde6: string = "DissolveWidth"
                         0x0640657c: u32 = 8
                     }
                 }
             }
             0x816753d8 {
+                0x8d39bde6: string = "Parameter3"
+                0xd872e2a5: vec4 = { 2, 2, 0.2, 0.2 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Crystal_Params"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
                 0x8d39bde6: string = "Parameter4"
+                0xd872e2a5: vec4 = { 0, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Panning_Params"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter5"
+                0xd872e2a5: vec4 = { 0, 0, 0, 1.2 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "DissolveStartPoint"
+                        0x0640657c: u32 = 7
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "DissolveBias"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter6"
+                0xd872e2a5: vec4 = { 0, 0, 0, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "DissolveEndPoint"
+                        0x0640657c: u32 = 7
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Alpha_Mutliplier"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter7"
+                0xd872e2a5: vec4 = { 2, 3, 0, 0.1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Noise_Tiling"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter8"
+                0xd872e2a5: vec4 = { 0.17000076, 1, 0, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Color_A"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter9"
+                0xd872e2a5: vec4 = { -0.42, -0.42, -0.42, 2 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "RimLightOffset"
+                        0x0640657c: u32 = 7
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "MinSpec"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter10"
+                0xd872e2a5: vec4 = { 64, 1.42, 1, 0.01 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "MaxSpec"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Spec_Intensity"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "MaxSpec_Intensity"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "MinSpec_Intensity"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter11"
                 0xd872e2a5: vec4 = { 1, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -85,23 +171,23 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter5"
-                0xd872e2a5: vec4 = { 0.01, 1, 1.42, 0 }
+                0x8d39bde6: string = "Parameter12"
+                0xd872e2a5: vec4 = { 1, 1.42, 0, 0.2 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "MinSpec_Intensity"
+                        0x8d39bde6: string = "LQ_Lighting_Intensity"
                         0x0640657c: u32 = 1
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "LQ_Lighting_Intensity"
+                        0x8d39bde6: string = "EnvMap_Intensity"
                         0x0640657c: u32 = 2
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "EnvMap_Intensity"
+                        0x8d39bde6: string = "Bloom_Intensity"
                         0x0640657c: u32 = 4
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "Bloom_Intensity"
+                        0x8d39bde6: string = "MoveIntensity"
                         0x0640657c: u32 = 8
                     }
                 }
@@ -121,6 +207,9 @@ entries: map[hash,embed] = {
                 0xaae99956: bool = true
             }
             0x60a292e6 {
+                0x8d39bde6: string = "USE_DIRECTIONALDISSOLUTION"
+            }
+            0x60a292e6 {
                 0x8d39bde6: string = "USE_LQ_LIGHTING"
             }
         }
@@ -134,12 +223,25 @@ entries: map[hash,embed] = {
                 0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
             }
             0x31d1e223 {
+                0x8d39bde6: string = "Crystal_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/CrystalPattern.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Grid_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Particles/21.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Alpha_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/Default/Default_Grid.dds"
+            }
+            0x31d1e223 {
                 0x8d39bde6: string = "Dissolve_Texture"
                 0x32b374fa: string = "ASSETS/Shared/Particles/Base_plasma_noise.dds"
             }
         }
         0xae29287b: map[string,string] = {
             "FEATURE_BLOOM" = "1"
+            "FEATURE_SCREENSPACE_UV" = "1"
             "FEATURE_SHADOW" = "1"
             "FEATURE_WORLD_NORMAL" = "1"
             "FEATURE_WORLD_POSITION" = "1"

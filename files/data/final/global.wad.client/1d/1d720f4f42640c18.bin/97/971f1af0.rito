@@ -11,6 +11,7 @@ entries: map[hash,embed] = {
             0xb0bee26d
             0x218b5fe6
             0xfa7e0dfd
+            0xc3315699
         }
         0x5b0a81be: list[link] = {
             0x6b46d6ab
@@ -26,10 +27,6 @@ entries: map[hash,embed] = {
         }
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
-                0x19efbfdb: string = "MythicOmnivamp"
-                0x24f2ec89: f32 = 0.02
-            }
-            0xb2c62c87 {
                 0x19efbfdb: string = "SecondsInCombat"
                 0x24f2ec89: f32 = 3
             }
@@ -42,22 +39,42 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 0.09
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "TrueDamageConversionPercent"
+                0x19efbfdb: string = "BuffCounterDuration"
+                0x24f2ec89: f32 = 5
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "HealthToAPConversionPercent"
                 0x24f2ec89: f32 = 1
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "BuffCounterDuration"
+                0x19efbfdb: string = "MaxAPMultiplier"
                 0x24f2ec89: f32 = 3
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "VampAmountMelee"
+                0x24f2ec89: f32 = 8
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "VampAmountRanged"
+                0x24f2ec89: f32 = 0.06
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MythicAP"
                 0x24f2ec89: f32 = 8
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MythicOmnivamp"
+                0x24f2ec89: f32 = 0.02
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "TrueDamageConversionPercent"
+                0x24f2ec89: f32 = 1
+            }
         }
         0x0ac4f0d5: map[hash,pointer] = {
-            0xb2d1a6ec = 0xbc409284 {
+            0xef38dcbc = 0xbc409284 {
                 0x2c77adff: pointer = 0x332eb441 {
-                    0xb386dcf1: hash = 0x27c4fbb2
+                    0xb386dcf1: hash = 0xf585d19a
                 }
                 0x50f145c0: list[pointer] = {
                     0x663d5e00 {
@@ -65,11 +82,10 @@ entries: map[hash,embed] = {
                         0x5ee3c453: u8 = 5
                     }
                 }
-                0x5a2297d3: bool = true
             }
-            0xef38dcbc = 0xbc409284 {
+            0xb2d1a6ec = 0xbc409284 {
                 0x2c77adff: pointer = 0x332eb441 {
-                    0xb386dcf1: hash = 0xf585d19a
+                    0xb386dcf1: hash = 0x27c4fbb2
                 }
                 0x50f145c0: list[pointer] = {
                     0x663d5e00 {
@@ -100,12 +116,12 @@ entries: map[hash,embed] = {
                 0x57b8b11b: link = 0x7789314d
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_7009_Name"
-                    "keyBrief" = "Item_4633_Brief"
-                    "keyInventoryOnlyText" = "Item_4633_InventoryOnlyText"
-                    "keyUniqueGroup" = "Item_Unique_Mythic"
-                    "keyTooltip" = "Item_4633_Tooltip"
-                    "keyTooltipExternal" = "Item_4633_TooltipExternal"
+                    "keyBrief" = "Item_224633_Brief"
+                    "keyInventoryOnlyText" = "Item_224633_InventoryOnlyText"
+                    "keyTooltip" = "Item_224633_Tooltip"
+                    "keyTooltipExternal" = "Item_224633_TooltipExternal"
                     "keyColloquialism" = "Item_4633_Colloquialism"
+                    "keyUniqueGroup" = "Cherry_Decoupling_Unique_Mythic"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {

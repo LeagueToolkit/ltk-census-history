@@ -4,12 +4,13 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xa47ec764 = 0x244c26e6 {
-        0x74d44065: string = "Item_6617_Name"
+        0x74d44065: string = "Item_226617_Name"
         0x13bddc7b: i32 = 226617
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
             0x218b5fe6
+            0xa83770c5
         }
         0x0b44452a: i32 = 3000
         0x51c4b876: bool = true
@@ -79,19 +80,6 @@ entries: map[hash,embed] = {
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
-            0x217ef13b = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0xad106e67 {
-                        0x46144074: pointer = 0x663d5e00 {
-                            0xcac1b6d2: f32 = 1
-                            0x5ee3c453: u8 = 5
-                        }
-                        0x4914452d: pointer = 0x332eb441 {
-                            0xb386dcf1: hash = 0x3306bd24
-                        }
-                    }
-                }
-            }
             0xb389d204 = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
                     0x332eb441 {
@@ -120,6 +108,18 @@ entries: map[hash,embed] = {
                     }
                 }
             }
+            0x217ef13b = 0xbc409284 {
+                0x2c77adff: pointer = 0x332eb441 {
+                    0xb386dcf1: hash = 0x3306bd24
+                }
+                0x50f145c0: list[pointer] = {
+                    0x663d5e00 {
+                        0xcac1b6d2: f32 = 1
+                        0x5ee3c453: u8 = 5
+                    }
+                }
+                0x5a2297d3: bool = true
+            }
         }
         0x5b98619f: f32 = 30
         0x06d997bb: f32 = 200
@@ -143,13 +143,13 @@ entries: map[hash,embed] = {
                 0xb482c52c: string = "226617"
                 0x57b8b11b: link = 0x7789314d
                 0x0381f7e2: map[string,string] = {
-                    "keyName" = "Item_6617_Name"
-                    "keyBrief" = "Item_6617_Brief"
+                    "keyName" = "Item_226617_Name"
+                    "keyBrief" = "Item_226617_Brief"
                     "keyInventoryOnlyText" = "Item_226617_InventoryOnlyText"
-                    "keyUniqueGroup" = "Item_Unique_Mythic"
                     "keyTooltip" = "Item_226617_Tooltip"
-                    "keyTooltipExternal" = "Item_6617_TooltipExternal"
+                    "keyTooltipExternal" = "Item_226617_TooltipExternal"
                     "keyColloquialism" = "Item_6617_Colloquialism"
+                    "keyUniqueGroup" = "Cherry_Decoupling_Unique_Mythic"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {

@@ -14,13 +14,11 @@ entries: map[hash,embed] = {
             0x0904b150 {
                 0x02e7fb4c: string = "Main_Texture"
                 0xb311d4ef: string = "ASSETS/Characters/Sejuani/Skins/Skin25/Sejuani_Skin25_TX_CM.dds"
-                0x111ec6d2: u32 = 1
-                0x101ec53f: u32 = 1
                 0x0f1ec3ac: u32 = 1
             }
             0x0904b150 {
                 0x02e7fb4c: string = "OutlineMask_Texture"
-                0xb311d4ef: string = "ASSETS/Shared/Materials/black.PIE_C_13_20.dds"
+                0xb311d4ef: string = "ASSETS/Shared/Materials/black.PIE_C_13_24.dds"
                 0x111ec6d2: u32 = 2
                 0x101ec53f: u32 = 2
                 0x0f1ec3ac: u32 = 2
@@ -98,6 +96,13 @@ entries: map[hash,embed] = {
                 0x8d39bde6: string = "NoiseUV"
                 0x425ed3ca: vec4 = { 5, 5, 0, 0 }
             }
+            0xde480eef {
+                0x8d39bde6: string = "ScrollSpeedMainTex"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "MainTex_Tile"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
         }
         0xdd7ddb9d: list2[embed] = {
             0x0e2212a1 {
@@ -148,6 +153,10 @@ entries: map[hash,embed] = {
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "BLOOM_TINTCOLOR_ON"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "SCROLL_MAIN_TEX"
                 0x61342fd0: bool = false
             }
         }

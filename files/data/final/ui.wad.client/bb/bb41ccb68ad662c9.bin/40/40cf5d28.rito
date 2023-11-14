@@ -1,0 +1,35 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x40cf5d28 = 0x7a18122a {
+        0x2dc3bb11: file = 0xb8f70dd97e92043e
+        0x3f19432c: link = 0x91d7b286
+        0x5bfa274b: link = 0x34a28d2d
+        0x2063cb13: hash = 0xf3d3961d
+        0xe0f169f8: hash = 0x9ed37c53
+        0x0e845aa2: hash = 0x318b42cc
+        0x9227218a: embed = 0x34cca270 {
+            0x5fb91e8c: hash = 0x4ebf2769
+            0x43b27471: hash = 0xc9c08b9a
+            0xc256041d: list2[hash] = {
+                0x0dda7aa1
+                0x473259cc
+                0x4037f44f
+                0xfca642ab
+            }
+            0x9865b509: hash = 0x52d3a3e5
+            0x43c6ee46: hash = 0xc7436ff9
+        }
+        0x2b8fe885: embed = 0xf3cf86a3 {
+            0x2063cb13: hash = 0x203d7427
+            0x4babd89d: hash = 0xa75a5616
+            0xe64015f0: hash = 0x95e142d3
+            0x9865b509: hash = 0x86d9b750
+            0x346f3b69: hash = 0x33bbdbde
+            0x43b27471: hash = 0x7a09336f
+            0xb6b04242: hash = 0xa3507182
+        }
+    }
+}
