@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xf7da9d20 = 0x4b413124 {
+        0x37386ae0: string = "09380e64-79fb-4fcd-9ba9-012b271d332d"
+        0x8d39bde6: string = "Star"
+        0x6194e22e: string = "standalone_table_featured"
+        0x67a9c9d2: list[embed] = {
+            0x18599d08 {
+                0x9f245e2f: link = 0x2311c711
+                0x50a09eb9: u32 = 1
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x3f182b2f
+                0x50a09eb9: u32 = 1
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0xa5eb2bcf
+                0x50a09eb9: u32 = 1
+            }
+        }
+    }
+}

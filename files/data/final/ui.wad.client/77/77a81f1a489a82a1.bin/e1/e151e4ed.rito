@@ -1,0 +1,28 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe151e4ed = 0x828bfdbd {
+        0x8d39bde6: string = "ClientStates/PreGame/UX/RiotUI/Home/UIBase/HomeScene/BattlepassProgressBar/Progress"
+        0x2063cb13: link = 0x6b9b20d7
+        0x5a94b0cc: list[link] = {
+            0xc64e1742
+            0xe5fc613c
+            0x1918d64a
+            0xf7836583
+        }
+        0x8178e6ff: pointer = 0xa1c2c89f {
+            0x93698491: list2[link] = {
+                0xe5fc613c
+            }
+            0x4255c7d1: list2[link] = {
+                0x1918d64a
+            }
+            0x82ad3a6e: link = 0xf7836583
+        }
+        0xa2a39d73: list2[link] = {
+            0xc64e1742
+        }
+    }
+}

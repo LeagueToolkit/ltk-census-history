@@ -86,7 +86,7 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter5"
-                0xd872e2a5: vec4 = { 1, 0.2, 2, 0.4 }
+                0xd872e2a5: vec4 = { 1, 0.2, 2, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Fresnel_Color_Intensity"
@@ -101,7 +101,7 @@ entries: map[hash,embed] = {
                         0x0640657c: u32 = 4
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "FlowSpeed"
+                        0x8d39bde6: string = "Alpha_Control"
                         0x0640657c: u32 = 8
                     }
                 }
@@ -118,11 +118,15 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter7"
-                0xd872e2a5: vec4 = { 2, 0, 0, 0 }
+                0xd872e2a5: vec4 = { 0.4, 2, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "Fresnel"
+                        0x8d39bde6: string = "FlowSpeed"
                         0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel"
+                        0x0640657c: u32 = 2
                     }
                 }
             }
