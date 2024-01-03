@@ -10,14 +10,12 @@ entries: map[hash,embed] = {
         0x72d02fc7: list[link] = {
             0xb0bee26d
             0x0538eb90
-            0x889485d4
         }
         0x5b0a81be: list[link] = {
-            0xf3246d2c
-            0x32984313
+            0x39b1adc9
+            0x30f046e4
         }
         0x0b44452a: i32 = 3000
-        0x51c4b876: bool = true
         0xf7250cac: bool = false
         0x0a502bcf: bool = false
         0xd1dbada1: bool = true
@@ -83,6 +81,14 @@ entries: map[hash,embed] = {
                 0x19efbfdb: string = "RangedAHAPRatio_CC"
                 0x24f2ec89: f32 = 0.018
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "TooltipValue"
+                0x24f2ec89: f32 = 3
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "RangedMod"
+                0x24f2ec89: f32 = 0.5
+            }
         }
         0x0ac4f0d5: map[hash,pointer] = {
             0x56b3f555 = 0xe9ced584 {
@@ -110,78 +116,15 @@ entries: map[hash,embed] = {
             0xe5c634ce = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
                     0x332eb441 {
-                        0xb386dcf1: hash = 0x06003f6f
-                    }
-                    0x5f5c70a4 {
-                        0x4cec2c8a: u8 = 2
-                        0x7d3150ec: u8 = 2
-                        0xb386dcf1: hash = 0x6c8e4764
-                    }
-                    0x5f5c70a4 {
-                        0xb386dcf1: hash = 0xb165494e
+                        0xb386dcf1: hash = 0x95de7de1
                     }
                 }
             }
-            0x3b00d8b1 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x332eb441 {
-                        0xb386dcf1: hash = 0xabc7a00e
-                    }
-                    0x5f5c70a4 {
-                        0x4cec2c8a: u8 = 2
-                        0x7d3150ec: u8 = 2
-                        0xb386dcf1: hash = 0x7d2fe04d
-                    }
-                    0x5f5c70a4 {
-                        0xb386dcf1: hash = 0xc6d178c1
-                    }
+            0x3b00d8b1 = 0x070e3593 {
+                0x2c77adff: pointer = 0x332eb441 {
+                    0xb386dcf1: hash = 0x21749476
                 }
-            }
-            0x6304eac4 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x332eb441 {
-                        0xb386dcf1: hash = 0x6757025e
-                    }
-                    0x5f5c70a4 {
-                        0x4cec2c8a: u8 = 2
-                        0x7d3150ec: u8 = 2
-                        0xb386dcf1: hash = 0x9693e31f
-                    }
-                    0x5f5c70a4 {
-                        0xb386dcf1: hash = 0xfeb1fc39
-                    }
-                }
-            }
-            0xb5555429 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x332eb441 {
-                        0xb386dcf1: hash = 0x814149f9
-                    }
-                    0x5f5c70a4 {
-                        0x4cec2c8a: u8 = 2
-                        0x7d3150ec: u8 = 2
-                        0xb386dcf1: hash = 0x898cd7e4
-                    }
-                    0x5f5c70a4 {
-                        0xb386dcf1: hash = 0x4ff63568
-                    }
-                }
-            }
-            0x6404ec57 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x332eb441 {
-                        0xb386dcf1: hash = 0xcedd6a4b
-                    }
-                }
-                0x5a2297d3: bool = true
-            }
-            0xb4555296 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x332eb441 {
-                        0xb386dcf1: hash = 0x0068aa5c
-                    }
-                }
-                0x5a2297d3: bool = true
+                0x7f93cf4e: hash = 0xe5c634ce
             }
         }
         0x5b98619f: f32 = 20
@@ -190,7 +133,6 @@ entries: map[hash,embed] = {
         0xccf99b44: list[string] = {
             "Health"
             "Damage"
-            "NonbootsMovement"
             "AbilityHaste"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
@@ -198,7 +140,6 @@ entries: map[hash,embed] = {
         }
         0x57558bca: list[u8] = {
             1
-            4
         }
         0xd92888a0: embed = 0x851af275 {
             0x2831605b: pointer = 0x35f5c16c {
@@ -208,7 +149,6 @@ entries: map[hash,embed] = {
                     "keyName" = "Item_223161_Name"
                     "keyBrief" = "Item_223161_Brief"
                     "keyTooltip" = "Item_223161_Tooltip"
-                    "keyTooltipInventory" = "Item_223161_TooltipDynamic"
                     "keyTooltipExternal" = "Item_223161_TooltipExternal"
                     "keyUniqueGroup" = "Item_Unique_With_Self"
                 }

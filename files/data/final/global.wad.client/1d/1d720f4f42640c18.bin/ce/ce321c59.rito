@@ -30,11 +30,12 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 4
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "BaseDamage"
-            }
-            0xb2c62c87 {
                 0x19efbfdb: string = "TotalADRatio"
                 0x24f2ec89: f32 = 0.65
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "APRatio"
+                0x24f2ec89: f32 = 0.6
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MaxAmpNumber"
@@ -47,10 +48,6 @@ entries: map[hash,embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "AmpDuration"
                 0x24f2ec89: f32 = 6
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "APRatio"
-                0x24f2ec89: f32 = 0.6
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -83,11 +80,12 @@ entries: map[hash,embed] = {
         }
         0xbc050325: f32 = 0.2
         0x4e7a81cd: f32 = 40
-        0xc5658c30: f32 = 0.3
+        0xc5658c30: f32 = 0.35
         0xccf99b44: list[string] = {
             "Damage"
             "CriticalStrike"
             "AttackSpeed"
+            "OnHit"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
@@ -102,11 +100,9 @@ entries: map[hash,embed] = {
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_6672_Name"
                     "keyBrief" = "Item_6672_Brief"
-                    "keyInventoryOnlyText" = "Item_6672_InventoryOnlyText"
                     "keyTooltip" = "Item_6672_Tooltip"
                     "keyTooltipExternal" = "Item_6672_TooltipExternal"
                     "keyColloquialism" = "Item_6672_Colloquialism"
-                    "keyUniqueGroup" = "Item_6672_UniqueGroup"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {

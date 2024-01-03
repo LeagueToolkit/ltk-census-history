@@ -47,12 +47,14 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 3
             }
         }
-        0x5b98619f: f32 = 10
+        0x5b98619f: f32 = 20
         0x06d997bb: f32 = 250
-        0xa77b63e1: f32 = 0.5
+        0xb594d102: f32 = 25
+        0xb9f972a0: f32 = 30
         0xccf99b44: list[string] = {
             "Health"
-            "ManaRegen"
+            "SpellBlock"
+            "Armor"
             "Vision"
             "Active"
             "CooldownReduction"
@@ -71,7 +73,6 @@ entries: map[hash,embed] = {
                 0x57b8b11b: link = 0x7789314d
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_4643_Name"
-                    "keyUniqueGroup" = "Item_Unique_IxtalStone"
                     "keyBrief" = "Item_4643_Brief"
                     "keyTooltip" = "Item_4643_Tooltip"
                     "keyTooltipExternal" = "Item_4643_TooltipExternal"
@@ -90,7 +91,10 @@ entries: map[hash,embed] = {
                                 0x5127f14d: string = "AbilityHaste"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "BaseManaRegen"
+                                0x5127f14d: string = "Armor"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "MagicResist"
                             }
                         }
                     }

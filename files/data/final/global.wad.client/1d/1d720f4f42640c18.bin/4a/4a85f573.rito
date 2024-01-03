@@ -16,13 +16,8 @@ entries: map[hash,embed] = {
         0x2c359091: list[link] = {
             0x12297adb
         }
-        0x1f4d20a6: list[embed] = {
-            0xb2c62c87 {
-                0x19efbfdb: string = "MovementSpeed"
-                0x24f2ec89: f32 = 0.05
-            }
-        }
         0x06d997bb: f32 = 150
+        0xb739c155: f32 = 0.05
         0xccf99b44: list[string] = {
             "Health"
             "NonbootsMovement"
@@ -33,6 +28,7 @@ entries: map[hash,embed] = {
         0x57558bca: list[u8] = {
             8
             32
+            1
         }
         0xd92888a0: embed = 0x851af275 {
             0x2831605b: pointer = 0x35f5c16c {
@@ -40,7 +36,6 @@ entries: map[hash,embed] = {
                 0x57b8b11b: link = 0x7789314d
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_3066_Name"
-                    "keyTooltip" = "Item_3066_Tooltip"
                     "keyColloquialism" = "Item_3066_Colloquialism"
                 }
                 0x91ed07c9: map[string,embed] = {
@@ -48,6 +43,9 @@ entries: map[hash,embed] = {
                         0x5a94b0cc: list[embed] = {
                             0x9a1b3505 {
                                 0x5127f14d: string = "Health"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "MoveSpeedPercent"
                             }
                         }
                     }

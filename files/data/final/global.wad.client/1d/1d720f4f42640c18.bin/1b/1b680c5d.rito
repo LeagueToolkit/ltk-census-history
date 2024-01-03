@@ -35,19 +35,15 @@ entries: map[hash,embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "WardIncrease"
             }
-            0xb2c62c87 {
-                0x19efbfdb: string = "BonusStatMod"
-                0x24f2ec89: f32 = 0.08
-            }
         }
         0x5b98619f: f32 = 10
         0x06d997bb: f32 = 150
-        0xa77b63e1: f32 = 0.5
+        0xb594d102: f32 = 10
+        0xb9f972a0: f32 = 15
         0xccf99b44: list[string] = {
             "Health"
-            "Damage"
-            "SpellDamage"
-            "ManaRegen"
+            "SpellBlock"
+            "Armor"
             "Vision"
             "Active"
             "CooldownReduction"
@@ -58,7 +54,6 @@ entries: map[hash,embed] = {
         }
         0x57558bca: list[u8] = {
             32
-            8
         }
         0xd92888a0: embed = 0x851af275 {
             0x2831605b: pointer = 0x35f5c16c {
@@ -67,7 +62,6 @@ entries: map[hash,embed] = {
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_4638_Name"
                     "keyBrief" = "Item_4638_Brief"
-                    "keyUniqueGroup" = "Item_Unique_IxtalStone"
                     "keyTooltip" = "Item_4638_Tooltip"
                     "keyColloquialism" = "Item_4638_Colloquialism"
                     "keyTooltipExternal" = "Item_4638_TooltipExternal"
@@ -85,7 +79,10 @@ entries: map[hash,embed] = {
                                 0x5127f14d: string = "AbilityHaste"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "BaseManaRegen"
+                                0x5127f14d: string = "Armor"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "MagicResist"
                             }
                         }
                     }

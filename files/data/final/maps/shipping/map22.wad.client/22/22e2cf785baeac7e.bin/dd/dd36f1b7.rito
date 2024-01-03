@@ -1,0 +1,19 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xdd36f1b7 = 0x60e00531 {
+        0x19efbfdb: string = "CT_Gift2_ProwlersClaw"
+        0x0773669d: map[string,pointer] = {
+            "LootTables" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "CT_ProwlersClaw_Loot"
+                    "CT_Gold7_Loot"
+                    "CT_4Cost_Loot"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

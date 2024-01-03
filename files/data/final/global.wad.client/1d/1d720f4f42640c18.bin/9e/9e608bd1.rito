@@ -12,10 +12,9 @@ entries: map[hash,embed] = {
             0xbd7d02c0
         }
         0x5b0a81be: list[link] = {
-            0x33ee068f
             0x8fd6c485
         }
-        0x0b44452a: i32 = 700
+        0x0b44452a: i32 = 850
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
@@ -26,39 +25,20 @@ entries: map[hash,embed] = {
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "HealthThreshold"
-                0x24f2ec89: f32 = 0.4
+                0x24f2ec89: f32 = 0.35
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "AdditionalMPenToGrant"
-                0x24f2ec89: f32 = 20
+                0x19efbfdb: string = "SpellItemDamageAmp"
+                0x24f2ec89: f32 = 0.2
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "RecentlyHadShieldOrBuffDuration"
-                0x24f2ec89: f32 = 5
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "MPenMin"
-                0x24f2ec89: f32 = 10
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "DoTDuration"
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "DoTTickRate"
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "MaxHealthThresholdValue"
-                0x24f2ec89: f32 = 2500
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "MinHealthThresholdValue"
-                0x24f2ec89: f32 = 1000
+                0x19efbfdb: string = "DamageOverTimeAmp"
+                0x24f2ec89: f32 = 0.3
             }
         }
-        0x06d997bb: f32 = 200
-        0x288a964d: f32 = 100
+        0xec1482d9: f32 = 12
+        0x288a964d: f32 = 120
         0xccf99b44: list[string] = {
-            "Health"
             "SpellDamage"
             "MagicPenetration"
         }
@@ -72,13 +52,14 @@ entries: map[hash,embed] = {
             0x2831605b: pointer = 0x35f5c16c {
                 0xb482c52c: string = "4645"
                 0x57b8b11b: link = 0x7789314d
+                0xfea35e52: bool = true
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_4645_Name"
                     "keyBrief" = "Item_4645_Brief"
-                    "keyUniqueGroup" = "Item_Unique_With_Self"
                     "keyTooltip" = "Item_4645_Tooltip"
                     "keyTooltipExternal" = "Item_4645_TooltipExternal"
-                    "keyInventoryOnlyText" = "Item_4645_InventoryOnlyText"
+                    "keyTooltipExtended" = "Item_4645_TooltipExtended"
+                    "keyTooltipExtendedRules" = "Item_4645_TooltipExtendedRules"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -87,7 +68,7 @@ entries: map[hash,embed] = {
                                 0x5127f14d: string = "AbilityPower"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "Health"
+                                0x5127f14d: string = "MagicPen"
                             }
                         }
                     }

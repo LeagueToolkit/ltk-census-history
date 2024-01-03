@@ -1,0 +1,28 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb0b76f88 = 0x1a65e950 {
+        0x8d39bde6: string = "ClientStates/PreGame/UX/RiotUI/Lobby/UIBase/LobbyScene/LobbyReadyCheck/LobbyReadyCheck_AcceptButton/LobbyReadyCheck_AcceptButton_ButtonHover"
+        0x2063cb13: link = 0x31e18073
+        0x07a640f6: u32 = 10
+        0x934f4e0a: pointer = 0x44600fb6 {
+            0x3a8bfbed: embed = 0x4eb9ba4f {
+                0x934f4e0a: vec2 = { 513, 525 }
+                0x23a0d95c: vec2 = { 310, 91 }
+                0xf6647cd6: u16 = 1334
+                0xa19b2e69: u16 = 750
+            }
+            0x23563745: pointer = 0x5338e7f0 {
+                0x42edcab4: vec2 = { 0.5, 0.5 }
+            }
+        }
+        0xe502c1dc: pointer = 0x719f1a94 {
+            0xf9721a78: string = "ASSETS/UX/TFTMobile/Lobby/TFTM_Ready_Check_Texture_Atlas.tex"
+            0xabb79fd0: u32 = 1024
+            0x9f9705c7: u32 = 1024
+            0x257ce80c: vec4 = { 359, 21, 669, 112 }
+        }
+    }
+}

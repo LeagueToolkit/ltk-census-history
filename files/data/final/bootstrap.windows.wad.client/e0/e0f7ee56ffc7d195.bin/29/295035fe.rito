@@ -1,0 +1,26 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x295035fe = 0x25e82b58 {
+        0x8d39bde6: string = "Patching/UX/RiotUI/Login/UIBase/LoginScene/LoginProviderButtonLayout/4_LoginProviderButton_Facebook"
+        0x2063cb13: link = 0xb3d3cc70
+        0x5a94b0cc: list[link] = {
+            0x0d580200
+            0x45d05e5f
+            0xf02035e0
+        }
+        0x6bf3194e: link = 0xf02035e0
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x0d580200
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x45d05e5f
+            }
+        }
+    }
+}

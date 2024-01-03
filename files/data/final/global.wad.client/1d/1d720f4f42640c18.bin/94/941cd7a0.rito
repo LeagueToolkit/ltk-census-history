@@ -19,7 +19,6 @@ entries: map[hash,embed] = {
             0x39b1adc9
         }
         0xf028019b: bool = true
-        0x7d8fa230: bool = true
         0x51c4b876: bool = true
         0xf7250cac: bool = false
         0xd1dbada1: bool = true
@@ -27,9 +26,6 @@ entries: map[hash,embed] = {
         0x8fd9f6e7: u8 = 7
         0x2c359091: list[link] = {
             0x0e83eb70
-        }
-        0xb6188f47: list[link] = {
-            0x8e0f53d2
         }
         0x251a5225: list[f32] = {
             0.5
@@ -93,6 +89,7 @@ entries: map[hash,embed] = {
         }
         0x0ac4f0d5: map[hash,pointer] = {
             0x4f9d2d87 = 0xbc409284 {
+                0xe6eebb2f: u8 = 2
                 0x50f145c0: list[pointer] = {
                     0x5f5c70a4 {
                         0x4cec2c8a: u8 = 2
@@ -101,6 +98,50 @@ entries: map[hash,embed] = {
                     }
                     0x5f5c70a4 {
                         0xb386dcf1: hash = 0xe30c799f
+                    }
+                }
+            }
+            0xe5c634ce = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5815b0a9 {
+                        0x4cec2c8a: u8 = 2
+                        0x295c2889: f32 = 0.4
+                    }
+                }
+            }
+            0x3b00d8b1 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5815b0a9 {
+                        0x4cec2c8a: u8 = 2
+                        0x295c2889: f32 = 0.2
+                    }
+                }
+            }
+            0x56b3f555 = 0xe9ced584 {
+                0xcbcac618: u8 = 5
+                0x37070a8d: u8 = 5
+                0xe6eebb2f: u8 = 5
+                0x011436b4: hash = 0x792cf56b
+                0x006fde67: hash = 0x06387172
+                0xc0482365: pointer = 0xdc65ffe4 {}
+            }
+            0x792cf56b = 0xbc409284 {
+                0xcbcac618: u8 = 5
+                0x37070a8d: u8 = 5
+                0xe6eebb2f: u8 = 5
+                0x50f145c0: list[pointer] = {
+                    0x9ef92080 {
+                        0xe202bca9: f32 = 1
+                    }
+                }
+            }
+            0x06387172 = 0xbc409284 {
+                0xcbcac618: u8 = 5
+                0x37070a8d: u8 = 5
+                0xe6eebb2f: u8 = 5
+                0x50f145c0: list[pointer] = {
+                    0x9ef92080 {
+                        0xe202bca9: f32 = 2
                     }
                 }
             }
@@ -125,7 +166,6 @@ entries: map[hash,embed] = {
             "Health"
             "Damage"
             "AttackSpeed"
-            "Active"
             "CooldownReduction"
             "Slow"
             "NonbootsMovement"
@@ -141,13 +181,10 @@ entries: map[hash,embed] = {
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_7016_Name"
                     "keyBrief" = "Item_226631_Brief"
-                    "keyInventoryOnlyText" = "Item_226631_InventoryOnlyText"
-                    "keyUniqueGroup" = "Cherry_Decoupling_Unique_Mythic"
-                    "keyActive" = "Item_226631_Active"
                     "keyTooltip" = "Item_226631_Tooltip"
-                    "keyActiveExternal" = "Item_226631_ActiveExternal"
                     "keyColloquialism" = "Item_6631_Colloquialism"
                     "keyTooltipExternal" = "Item_226631_TooltipExternal"
+                    "keyActive" = "Item_6631_Active"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -163,10 +200,6 @@ entries: map[hash,embed] = {
                             0x9a1b3505 {
                                 0x5127f14d: string = "Health"
                                 0x566f3406: string = "OrnnStat_Health"
-                            }
-                            0x9a1b3505 {
-                                0x5127f14d: string = "AbilityHaste"
-                                0x566f3406: string = "OrnnStat_Haste"
                             }
                         }
                     }
@@ -188,6 +221,7 @@ entries: map[hash,embed] = {
                 0x3a1f9578 = 0xe4b806c0
                 0x204e512e = 0x1e5a255b
                 0x548973ff = 0xf40f8dd7
+                0x256a45b9 = 0x59c03181
             }
         }
     }

@@ -55,6 +55,10 @@ entries: map[hash,embed] = {
                 0x19efbfdb: string = "TooltipMaxStackTime"
                 0x24f2ec89: f32 = 60
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "Cooldown"
+                0x24f2ec89: f32 = 90
+            }
         }
         0x5b98619f: f32 = 20
         0x06d997bb: f32 = 650
@@ -74,15 +78,16 @@ entries: map[hash,embed] = {
             0x2831605b: pointer = 0x35f5c16c {
                 0xb482c52c: string = "8001"
                 0x57b8b11b: link = 0x7789314d
+                0xfea35e52: bool = true
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_8001_Name"
                     "keyActive" = "Item_8001_Active"
                     "keyTooltip" = "Item_8001_Tooltip"
                     "keyBrief" = "Item_8001_Brief"
-                    "keyInventoryOnlyText" = "Item_8001_InventoryOnlyText"
-                    "keyUniqueGroup" = "Item_Unique_With_Self"
                     "keyTooltipExternal" = "Item_8001_TooltipExternal"
                     "keyActiveExternal" = "Item_8001_ActiveExternal"
+                    "keyTooltipExtended" = "Item_8001_TooltipExtended"
+                    "keyFlavorText" = "Item_8001_FlavorText"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {

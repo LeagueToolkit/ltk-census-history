@@ -11,6 +11,7 @@ entries: map[hash,embed] = {
         0x72d02fc7: list[link] = {
             0xb0bee26d
             0x123d7d35
+            0x8b55a7b3
         }
         0x0b44452a: i32 = 3000
         0x51c4b876: bool = true
@@ -39,7 +40,15 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "SpellbladeADRatio"
-                0x24f2ec89: f32 = 0.75
+                0x24f2ec89: f32 = 1
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "SheenASBuff"
+                0x24f2ec89: f32 = 0.5
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "Cooldown"
+                0x24f2ec89: f32 = 1.5
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -58,12 +67,12 @@ entries: map[hash,embed] = {
         }
         0x5b98619f: f32 = 20
         0xb739c155: f32 = 0.1
-        0x288a964d: f32 = 85
+        0x288a964d: f32 = 100
         0xccf99b44: list[string] = {
+            "AttackSpeed"
             "SpellDamage"
             "OnHit"
             "NonbootsMovement"
-            "AbilityHaste"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
@@ -75,14 +84,15 @@ entries: map[hash,embed] = {
             0x2831605b: pointer = 0x35f5c16c {
                 0xb482c52c: string = "223100"
                 0x57b8b11b: link = 0x7789314d
+                0xfea35e52: bool = true
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_223100_Name"
                     "keyBrief" = "Item_223100_Brief"
-                    "keyInventoryOnlyText" = "Item_223100_InventoryOnlyText"
-                    "keyUniqueGroup" = "Item_Unique_With_Self"
                     "keyTooltip" = "Item_223100_Tooltip"
                     "keyTooltipExternal" = "Item_223100_TooltipExternal"
                     "keyColloquialism" = "Item_3100_Colloquialism"
+                    "keyTooltipExtended" = "Item_3100_TooltipExtended"
+                    "keySecondaryBrief" = "Item_3100_SecondaryBrief"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -91,11 +101,11 @@ entries: map[hash,embed] = {
                                 0x5127f14d: string = "AbilityPower"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "AbilityHaste"
+                                0x5127f14d: string = "MoveSpeedPercent"
                                 0x566f3406: string = "BuffedStat_Haste"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "MoveSpeedPercent"
+                                0x5127f14d: string = "AbilityHaste"
                                 0x566f3406: string = "BuffedStat_MSPerc"
                             }
                         }

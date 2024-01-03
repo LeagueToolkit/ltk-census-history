@@ -15,7 +15,6 @@ entries: map[hash,embed] = {
         }
         0x5b0a81be: list[link] = {
             0xe625a35a
-            0x6b46d6ab
         }
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
@@ -23,9 +22,6 @@ entries: map[hash,embed] = {
         0x8fd9f6e7: u8 = 7
         0x2c359091: list[link] = {
             0x988941dc
-        }
-        0xb6188f47: list[link] = {
-            0x8e0f53d2
         }
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
@@ -74,7 +70,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MaxBonusMagicAmp"
-                0x24f2ec89: f32 = 12
+                0x24f2ec89: f32 = 15
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MaxDamageHPThreshold"
@@ -86,21 +82,6 @@ entries: map[hash,embed] = {
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
-            0x82cb04b9 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x332eb441 {
-                        0xb386dcf1: hash = 0x3eee14e8
-                    }
-                    0x5f5c70a4 {
-                        0xb386dcf1: hash = 0x8c40ef78
-                    }
-                    0x5f5c70a4 {
-                        0x4cec2c8a: u8 = 2
-                        0x7d3150ec: u8 = 2
-                        0xb386dcf1: hash = 0xff19b2dc
-                    }
-                }
-            }
             0x3066c1c3 = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
                     0x663d5e00 {
@@ -111,13 +92,12 @@ entries: map[hash,embed] = {
             }
         }
         0x5b98619f: f32 = 25
+        0x06d997bb: f32 = 300
         0x288a964d: f32 = 100
         0x9fdc5a73: f32 = 800
         0xccf99b44: list[string] = {
+            "Health"
             "SpellDamage"
-            "Mana"
-            "CooldownReduction"
-            "AbilityHaste"
         }
         0x57558bca: list[u8] = {
             16
@@ -126,13 +106,14 @@ entries: map[hash,embed] = {
             0x2831605b: pointer = 0x35f5c16c {
                 0xb482c52c: string = "227012"
                 0x57b8b11b: link = 0x7789314d
+                0xfea35e52: bool = true
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_7012_Name"
                     "keyBrief" = "Item_226653_Brief"
-                    "keyInventoryOnlyText" = "Item_226653_InventoryOnlyText"
                     "keyTooltip" = "Item_226653_Tooltip"
                     "keyTooltipExternal" = "Item_226653_TooltipExternal"
                     "keyColloquialism" = "Item_6653_Colloquialism"
+                    "keyTooltipExtended" = "Item_6653_TooltipExtended"
                     "keyUniqueGroup" = "Cherry_Decoupling_Unique_Mythic"
                 }
                 0x91ed07c9: map[string,embed] = {

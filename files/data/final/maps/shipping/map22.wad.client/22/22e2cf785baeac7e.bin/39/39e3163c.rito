@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x39e3163c = 0x60e00531 {
+        0x19efbfdb: string = "CT_Gift3_A"
+        0x0773669d: map[string,pointer] = {
+            "LootTables" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "CT_Gold6_Loot"
+                    "CT_Tome_Loot"
+                    "CT_Duplicator3_Loot"
+                    "CT_Duplicator3_Loot"
+                    "CT_Gold3_Loot"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

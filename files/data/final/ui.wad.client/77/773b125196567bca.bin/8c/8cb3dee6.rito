@@ -1,0 +1,38 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x8cb3dee6 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/PreGame/UX/RiotUI/TFTExternalBrowserDialog/UIBase/ExtBrwsrScene/ExternalBrowser_CancelButton"
+        0x2063cb13: link = 0xd2fa0b49
+        0x5a94b0cc: list[link] = {
+            0xbece9891
+            0xc829de65
+            0x1d4065e4
+            0xdd2fc86b
+            0xc19bcce7
+            0x9f860c2c
+            0x114a8739
+        }
+        0x6bf3194e: link = 0x114a8739
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0xbece9891
+                0xc19bcce7
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0xc829de65
+                0xdd2fc86b
+            }
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x1d4065e4
+                0x9f860c2c
+            }
+        }
+    }
+}

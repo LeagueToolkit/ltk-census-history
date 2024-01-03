@@ -1,0 +1,43 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x5a8038a8 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/PreGame/UX/RiotUI/NavHeader/UIBase/NavHeaderScene/NavSocialButton"
+        0x2063cb13: link = 0x0f5f2d11
+        0x5a94b0cc: list[link] = {
+            0x443bb1a7
+            0x6f5cb6db
+            0x5a709b0e
+            0x04e54df8
+            0x33058962
+        }
+        0xdf2b45ce: bool = true
+        0x6bf3194e: link = 0x33058962
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x6f5cb6db
+            }
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x04e54df8
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x443bb1a7
+            }
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x5a709b0e
+            }
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_CommonUI_button_standard_tap"
+            0x84b6cf03: string = "Play_sfx_PreGameUI_button_standard_release"
+        }
+    }
+}

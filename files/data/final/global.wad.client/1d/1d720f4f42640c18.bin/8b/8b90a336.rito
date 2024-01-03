@@ -23,9 +23,6 @@ entries: map[hash,embed] = {
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 6
-        0xb6188f47: list[link] = {
-            0x0c7ef6d4
-        }
         0x251a5225: list[f32] = {
             45
             0
@@ -83,20 +80,6 @@ entries: map[hash,embed] = {
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
-            0xacc2ecc9 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x5cf69ece {
-                        0xad62f672: f32 = 9
-                        0x7b5d1934: list[embed] = {
-                            0x8e93d8ee {
-                                0xa77654ae: u32 = 8
-                                0xd5fd07ed: f32 = 1
-                                0x57fdc438: f32 = 1
-                            }
-                        }
-                    }
-                }
-            }
             0x792cf56b = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
                     0x9ef92080 {
@@ -164,7 +147,6 @@ entries: map[hash,embed] = {
             "Active"
             "NonbootsMovement"
             "ArmorPenetration"
-            "AbilityHaste"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
@@ -176,16 +158,15 @@ entries: map[hash,embed] = {
             0x2831605b: pointer = 0x35f5c16c {
                 0xb482c52c: string = "223142"
                 0x57b8b11b: link = 0x7789314d
+                0xfea35e52: bool = true
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_223142_Name"
                     "keyBrief" = "Item_223142_Brief"
-                    "keyUniqueGroup" = "Cherry_Decoupling_Unique_Mythic"
                     "keyActive" = "Item_223142_Active"
                     "keyTooltip" = "Item_223142_Tooltip"
-                    "keyTooltipExternal" = "Item_223142_TooltipExternal"
                     "keyActiveExternal" = "Item_223142_ActiveExternal"
                     "keyColloquialism" = "Item_3142_Colloquialism"
-                    "keyInventoryOnlyText" = "Item_223142_InventoryOnlyText"
+                    "keyKeywordDefinitions" = "Item_3142_KeywordDefinitions"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {

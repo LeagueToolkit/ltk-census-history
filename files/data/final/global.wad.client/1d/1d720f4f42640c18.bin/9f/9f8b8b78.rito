@@ -36,7 +36,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "SlowFieldDuration"
-                0x24f2ec89: f32 = 2.5
+                0x24f2ec89: f32 = 2
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "AoERadius"
@@ -64,7 +64,6 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "DamageReduction"
-                0x24f2ec89: f32 = 0.1
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "CrippleDuration"
@@ -72,7 +71,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "CrippleSlowAmp"
-                0x24f2ec89: f32 = 2
+                0x24f2ec89: f32 = 1
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "HealthPerLegendary"
@@ -89,6 +88,10 @@ entries: map[hash,embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "SlowIncreaseTooltip"
                 0x24f2ec89: f32 = 100
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "Cooldown"
+                0x24f2ec89: f32 = 1.5
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -189,7 +192,7 @@ entries: map[hash,embed] = {
             }
         }
         0x5b98619f: f32 = 10
-        0x06d997bb: f32 = 400
+        0x06d997bb: f32 = 300
         0xb594d102: f32 = 50
         0xccf99b44: list[string] = {
             "Health"
@@ -204,6 +207,7 @@ entries: map[hash,embed] = {
         }
         0x57558bca: list[u8] = {
             8
+            1
         }
         0xd92888a0: embed = 0x851af275 {
             0x2831605b: pointer = 0x35f5c16c {
@@ -212,12 +216,10 @@ entries: map[hash,embed] = {
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_226662_Name"
                     "keyBrief" = "Item_226662_Brief"
-                    "keyInventoryOnlyText" = "Item_226662_InventoryOnlyText"
-                    "keyUniqueGroup" = "Cherry_Decoupling_Unique_Mythic"
-                    "keyTooltipInventory" = "Item_226662_TooltipDynamic"
                     "keyTooltip" = "Item_226662_Tooltip"
                     "keyTooltipExternal" = "Item_226662_TooltipExternal"
                     "keyColloquialism" = "Item_6662_Colloquialism"
+                    "keySecondaryBrief" = "Item_6662_SecondaryBrief"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {

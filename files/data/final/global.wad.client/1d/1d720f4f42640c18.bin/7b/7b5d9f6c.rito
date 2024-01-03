@@ -13,6 +13,7 @@ entries: map[hash,embed] = {
             0xb0bee26d
         }
         0x0b44452a: i32 = 3000
+        0xf028019b: bool = true
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
@@ -93,8 +94,8 @@ entries: map[hash,embed] = {
                 }
             }
         }
-        0x5b98619f: f32 = 25
-        0x4e7a81cd: f32 = 65
+        0x5b98619f: f32 = 20
+        0x4e7a81cd: f32 = 70
         0x03355c22: f32 = 0.15
         0xccf99b44: list[string] = {
             "Damage"
@@ -108,21 +109,22 @@ entries: map[hash,embed] = {
         }
         0x57558bca: list[u8] = {
             1
-            4
         }
         0xd92888a0: embed = 0x851af275 {
             0x2831605b: pointer = 0x35f5c16c {
                 0xb482c52c: string = "223074"
                 0x57b8b11b: link = 0x7789314d
+                0xfea35e52: bool = true
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_223074_Name"
-                    "keyUniqueGroup" = "Item_Unique_Hydra"
-                    "keyInventoryOnlyText" = "Item_223074_InventoryOnlyText"
                     "keyTooltip" = "Item_223074_Tooltip"
                     "keyTooltipExternal" = "Item_223074_TooltipExternal"
                     "keyColloquialism" = "Item_3074_Colloquialism"
-                    "keyTooltipInventory" = "Item_223074_TooltipDynamic"
-                    "keyBrief" = "Item_223074_Brief"
+                    "keyBrief" = "Item_3074_Brief"
+                    "keyTooltipExtended" = "Item_3074_TooltipExtended"
+                    "keyActiveExternal" = "Item_3074_ActiveExternal"
+                    "keySecondaryBrief" = "Item_3074_SecondaryBrief"
+                    "keyTooltipExtendedRules" = "Item_3074_TooltipExtendedRules"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -148,6 +150,12 @@ entries: map[hash,embed] = {
             0xe963940d: string = "ASSETS/Items/Icons2D/AutoAtlas/SmallIcons/3074_Fighter_T3_RavenousHydra.png"
             0x023e40a9: string = "ASSETS/Items/Icons2D/AutoAtlas/LargeIcons/3074_Fighter_T3_RavenousHydra.png"
             0x5ee3c453: u8 = 5
+        }
+        0x5f8284a2: pointer = 0xef3a0f33 {
+            0xd2f58721: map[hash,link] = {
+                0x821ad789 = 0x75887835
+                0x1b47a755 = 0x4dedaeb1
+            }
         }
     }
 }

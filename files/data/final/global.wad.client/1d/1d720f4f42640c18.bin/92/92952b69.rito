@@ -35,19 +35,20 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 3
             }
         }
+        0x5b98619f: f32 = 15
         0x06d997bb: f32 = 250
-        0xec1482d9: f32 = 10
         0x288a964d: f32 = 100
         0xccf99b44: list[string] = {
-            "Health"
             "SpellDamage"
-            "MagicPenetration"
+            "CooldownReduction"
+            "AbilityHaste"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
         0x57558bca: list[u8] = {
             16
+            32
         }
         0xd92888a0: embed = 0x851af275 {
             0x2831605b: pointer = 0x35f5c16c {
@@ -57,9 +58,9 @@ entries: map[hash,embed] = {
                     "keyName" = "Item_223165_Name"
                     "keyInventoryOnlyText" = "Item_223165_InventoryOnlyText"
                     "keyBrief" = "Item_223165_Brief"
-                    "keyUniqueGroup" = "Item_Unique_With_Self"
                     "keyTooltip" = "Item_223165_Tooltip"
                     "keyColloquialism" = "Item_3165_Colloquialism"
+                    "keyKeywordDefinitions" = "Item_3165_KeywordDefinitions"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -69,11 +70,8 @@ entries: map[hash,embed] = {
                                 0x566f3406: string = "BuffedStat_AP"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "Health"
+                                0x5127f14d: string = "AbilityHaste"
                                 0x566f3406: string = "BuffedStat_Health"
-                            }
-                            0x9a1b3505 {
-                                0x5127f14d: string = "MagicPen"
                             }
                         }
                     }

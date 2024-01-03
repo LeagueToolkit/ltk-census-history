@@ -1,0 +1,42 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2f52d6d0 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/PreGame/UX/RiotUI/TFTXBGPEndedDialog/UIBase/TFTXBGPEndedDialogScene/XBGPEnded_ConfirmButton"
+        0x2063cb13: link = 0x8e0a0f9b
+        0x5a94b0cc: list[link] = {
+            0xa0b20294
+            0x7ddd8dac
+            0xbcc7ebbb
+            0x9df27eed
+            0xeda89e79
+            0x898dd170
+            0x924909b6
+        }
+        0x6bf3194e: link = 0x898dd170
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0xeda89e79
+            }
+            0xeec29756: link = 0x7ddd8dac
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x924909b6
+            }
+            0xeec29756: link = 0xbcc7ebbb
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x9df27eed
+            }
+            0xeec29756: link = 0xa0b20294
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_CommonUI_button_standard_tap"
+            0x84b6cf03: string = "Play_sfx_PreGameUI_button_standard_release"
+        }
+    }
+}

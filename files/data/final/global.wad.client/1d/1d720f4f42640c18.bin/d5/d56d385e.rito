@@ -12,14 +12,14 @@ entries: map[hash,embed] = {
             0xb0bee26d
             0xa292a6ef
         }
-        0x0b44452a: i32 = 500
+        0x0b44452a: i32 = 600
         0x51c4b876: bool = true
         0xf7250cac: bool = false
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
             0x9922009b
-            0x4985f3e0
+            0x4a85f573
             0xec9aeda8
         }
         0x251a5225: list[f32] = {
@@ -44,7 +44,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "HealthThreshold"
-                0x24f2ec89: f32 = 1100
+                0x24f2ec89: f32 = 1300
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "OOCTimerChampion"
@@ -53,6 +53,10 @@ entries: map[hash,embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "OOCTimer"
                 0x24f2ec89: f32 = 3
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "OOCMS"
+                0x24f2ec89: f32 = 0.1
             }
         }
         0xfb56608c: map[hash,embed] = {
@@ -85,14 +89,13 @@ entries: map[hash,embed] = {
                 0x7f93cf4e: hash = 0xb26e9905
             }
         }
-        0x5b98619f: f32 = 10
-        0x06d997bb: f32 = 800
+        0x06d997bb: f32 = 750
         0xc1cd174b: f32 = 2
+        0xb739c155: f32 = 0.05
         0xccf99b44: list[string] = {
             "Health"
             "HealthRegen"
-            "CooldownReduction"
-            "AbilityHaste"
+            "NonbootsMovement"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
@@ -107,7 +110,6 @@ entries: map[hash,embed] = {
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_3083_Name"
                     "keyBrief" = "Item_3083_Brief"
-                    "keyUniqueGroup" = "Item_Unique_With_Self"
                     "keyTooltip" = "Item_3083_Tooltip"
                     "keyTooltipExternal" = "Item_3083_TooltipExternal"
                     "keyColloquialism" = "Item_3083_Colloquialism"
@@ -120,7 +122,7 @@ entries: map[hash,embed] = {
                                 0x5127f14d: string = "Health"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "AbilityHaste"
+                                0x5127f14d: string = "MoveSpeedPercent"
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "BaseHealthRegen"

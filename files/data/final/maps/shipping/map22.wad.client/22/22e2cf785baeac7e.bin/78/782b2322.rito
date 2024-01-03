@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x782b2322 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT10_PBJ_Cashout20_Option2"
+        0x0773669d: map[string,pointer] = {
+            "PlayerBuff" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_GrantThreeStarFiveCost_PlayerBuff"
+                    "2"
+                }
+            }
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Consumable_ItemRemover"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

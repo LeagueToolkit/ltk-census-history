@@ -1,0 +1,59 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2475ad35 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/PreGame/UX/RiotUI/IncrementalPurchaseDialog/UIBase/Scene/PurchaseDialog_TenUpButton"
+        0x2063cb13: link = 0x2b45e23a
+        0x5a94b0cc: list[link] = {
+            0xf89db97f
+            0x15df1e73
+            0xa204ce00
+            0x844d088a
+            0x44fcc306
+            0x4f05cf36
+            0xb9a52de5
+            0x61f95ae6
+            0xfb71070d
+            0xb5c3a69c
+            0x6c472854
+            0xea1fa093
+            0x9b33f0d3
+        }
+        0xdf2b45ce: bool = true
+        0x6bf3194e: link = 0x844d088a
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x15df1e73
+                0x6c472854
+            }
+            0xeec29756: link = 0x44fcc306
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0xa204ce00
+                0x9b33f0d3
+            }
+            0xeec29756: link = 0xb9a52de5
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0xf89db97f
+                0xb5c3a69c
+            }
+            0xeec29756: link = 0x4f05cf36
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0x072d935c: list[link] = {
+                0x61f95ae6
+                0xea1fa093
+            }
+            0xeec29756: link = 0xfb71070d
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_PreGameUI_button_selection_tap"
+            0x84b6cf03: string = "Play_sfx_PreGameUI_store_button_purchase_confirmation_release"
+        }
+    }
+}

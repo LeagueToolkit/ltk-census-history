@@ -26,31 +26,35 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 3
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "BonusMoveSpeed"
+                0x19efbfdb: string = "SkipperADRatio"
                 0x24f2ec89: f32 = 0.2
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "TowerMoveSpeed"
+                0x19efbfdb: string = "SkipperADRatioVSStructures"
                 0x24f2ec89: f32 = 20
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "TowerDamage"
+                0x19efbfdb: string = "SkipperStackDuration"
                 0x24f2ec89: f32 = 0.2
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "MinionMultiplier"
+                0x19efbfdb: string = "RangedSkipperADRatio"
                 0x24f2ec89: f32 = 3
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "RangedSkipperADRatioVSStructures"
+                0x24f2ec89: f32 = 2
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MaxStackDamageHPRatio"
+                0x24f2ec89: f32 = 0.035
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MaxStackDamageVSStructuresHPRatio"
+                0x24f2ec89: f32 = 0.07
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
-            0xe5c634ce = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x15fecdbc {
-                        0xd06c375d: f32 = 15
-                        0x1cd7e522: f32 = 100
-                    }
-                }
-            }
             0x56b3f555 = 0xe9ced584 {
                 0xcbcac618: u8 = 5
                 0x37070a8d: u8 = 5
@@ -58,14 +62,6 @@ entries: map[hash,embed] = {
                 0x011436b4: hash = 0x792cf56b
                 0x006fde67: hash = 0x06387172
                 0xc0482365: pointer = 0xdc65ffe4 {}
-            }
-            0x3b00d8b1 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x15fecdbc {
-                        0xd06c375d: f32 = 10
-                        0x1cd7e522: f32 = 75
-                    }
-                }
             }
             0x792cf56b = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
@@ -81,12 +77,164 @@ entries: map[hash,embed] = {
                     }
                 }
             }
+            0x07ab337f = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x15fecdbc {
+                        0xd06c375d: f32 = 20
+                        0x1cd7e522: f32 = 135
+                    }
+                }
+            }
+            0x77fe55e2 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x84a63373 {
+                        0xa066cc28: list[pointer] = {
+                            0x5f5c70a4 {
+                                0x4cec2c8a: u8 = 2
+                                0x7d3150ec: u8 = 1
+                                0xb386dcf1: hash = 0xe6a24c87
+                            }
+                            0x5f5c70a4 {
+                                0x4cec2c8a: u8 = 11
+                                0xb386dcf1: hash = 0xf35b5a79
+                            }
+                        }
+                    }
+                }
+            }
+            0xf873c8c7 = 0xbc409284 {
+                0xe6eebb2f: u8 = 7
+                0x50f145c0: list[pointer] = {
+                    0x84a63373 {
+                        0xa066cc28: list[pointer] = {
+                            0x5f5c70a4 {
+                                0x4cec2c8a: u8 = 2
+                                0x7d3150ec: u8 = 1
+                                0xb386dcf1: hash = 0xc214b432
+                            }
+                            0x5f5c70a4 {
+                                0x4cec2c8a: u8 = 11
+                                0xb386dcf1: hash = 0x28e141a2
+                            }
+                        }
+                    }
+                }
+            }
+            0x664db79e = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x15fecdbc {
+                        0xd06c375d: f32 = 10
+                        0x1cd7e522: f32 = 68
+                    }
+                }
+            }
+            0x5ba354ad = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x84a63373 {
+                        0xa066cc28: list[pointer] = {
+                            0x5f5c70a4 {
+                                0x4cec2c8a: u8 = 2
+                                0x7d3150ec: u8 = 1
+                                0xb386dcf1: hash = 0xf19c697c
+                            }
+                            0x5f5c70a4 {
+                                0x4cec2c8a: u8 = 11
+                                0xb386dcf1: hash = 0xf35b5a79
+                            }
+                        }
+                    }
+                }
+            }
+            0x70cb5ef4 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x84a63373 {
+                        0xa066cc28: list[pointer] = {
+                            0x5f5c70a4 {
+                                0x4cec2c8a: u8 = 2
+                                0x7d3150ec: u8 = 1
+                                0xb386dcf1: hash = 0xa64ff4fd
+                            }
+                            0x5f5c70a4 {
+                                0x4cec2c8a: u8 = 11
+                                0xb386dcf1: hash = 0x28e141a2
+                            }
+                        }
+                    }
+                }
+            }
+            0xe5c634ce = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 2
+                        0x7d3150ec: u8 = 1
+                        0xb386dcf1: hash = 0xe6a24c87
+                    }
+                }
+            }
+            0x3b00d8b1 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 2
+                        0x7d3150ec: u8 = 1
+                        0xb386dcf1: hash = 0xf19c697c
+                    }
+                }
+            }
+            0xf98c6abd = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 11
+                        0xb386dcf1: hash = 0xf35b5a79
+                    }
+                }
+            }
+            0x6304eac4 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 2
+                        0x7d3150ec: u8 = 1
+                        0xb386dcf1: hash = 0xc214b432
+                    }
+                }
+            }
+            0xb5555429 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 2
+                        0x7d3150ec: u8 = 1
+                        0xb386dcf1: hash = 0xa64ff4fd
+                    }
+                }
+            }
+            0x5afe9d9c = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 11
+                        0xb386dcf1: hash = 0x28e141a2
+                    }
+                }
+            }
+            0x6404ec57 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x15fecdbc {
+                        0xd06c375d: f32 = 20
+                        0x1cd7e522: f32 = 135
+                    }
+                }
+            }
+            0xb4555296 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x15fecdbc {
+                        0xd06c375d: f32 = 10
+                        0x1cd7e522: f32 = 68
+                    }
+                }
+            }
         }
         0x06d997bb: f32 = 500
-        0xc1cd174b: f32 = 1.5
         0x1bbe94ff: f32 = 0.05
         0xb739c155: f32 = 0.05
-        0x4e7a81cd: f32 = 60
+        0x4e7a81cd: f32 = 65
         0xccf99b44: list[string] = {
             "Health"
             "SpellBlock"
@@ -104,15 +252,14 @@ entries: map[hash,embed] = {
             0x2831605b: pointer = 0x35f5c16c {
                 0xb482c52c: string = "223181"
                 0x57b8b11b: link = 0x7789314d
+                0xfea35e52: bool = true
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_223181_Name"
                     "keyBrief" = "Item_223181_Brief"
-                    "keyUniqueGroup" = "Item_Unique_With_Self"
-                    "keyInventoryOnlyText" = "Item_223181_InventoryOnlyText"
                     "keyTooltip" = "Item_223181_Tooltip"
                     "keyTooltipExternal" = "Item_223181_TooltipExternal"
-                    "keyColloquialism" = "Item_3181_Colloquialism"
                     "keyTooltipInventory" = "Item_223181_TooltipDynamic"
+                    "keyTooltipExtended" = "Item_3181_TooltipExtended"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -124,9 +271,6 @@ entries: map[hash,embed] = {
                             0x9a1b3505 {
                                 0x5127f14d: string = "Health"
                                 0x566f3406: string = "BuffedStat_Health"
-                            }
-                            0x9a1b3505 {
-                                0x5127f14d: string = "BaseHealthRegen"
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "MoveSpeedPercent"
@@ -150,6 +294,8 @@ entries: map[hash,embed] = {
                 0x5a4f553f = 0xb49873a8
                 0xa8e5554d = 0x02deb930
                 0x7e5efd95 = 0xcd4325be
+                0x2913e780 = 0x0f3d0e01
+                0x67ef5445 = 0xf4e4a820
             }
         }
     }

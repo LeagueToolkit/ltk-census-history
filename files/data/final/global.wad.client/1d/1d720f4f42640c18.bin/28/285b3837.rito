@@ -32,7 +32,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "Cooldown"
-                0x24f2ec89: f32 = 5
+                0x24f2ec89: f32 = 30
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MeleeBaseDamage"
@@ -40,7 +40,6 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MeleeBonusADRatio"
-                0x24f2ec89: f32 = 0.55
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "RangedBaseDamage"
@@ -48,11 +47,10 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "RangedBonusADRatio"
-                0x24f2ec89: f32 = 0.35
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "BuffDuration"
-                0x24f2ec89: f32 = 3
+                0x24f2ec89: f32 = 4
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "SlowAmount"
@@ -61,6 +59,14 @@ entries: map[hash,embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "SlowDuration"
                 0x24f2ec89: f32 = 0.5
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MissingHPPerc"
+                0x24f2ec89: f32 = 0.1
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "CurrentHPPerc"
+                0x24f2ec89: f32 = 0.1
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -167,6 +173,11 @@ entries: map[hash,embed] = {
             0xd2f58721: map[hash,link] = {
                 0x341a0253 = 0xd232a6cb
                 0x820e6503 = 0xd2ec188b
+                0xb7e8cfff = 0x303accfe
+                0x63bd2c81 = 0xebde9af4
+                0x02faa744 = 0x06d75dfb
+                0xfc7b01fd = 0x4cb1024e
+                0x1c18856d = 0xfcbb8f25
             }
         }
     }

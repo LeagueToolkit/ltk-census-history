@@ -37,16 +37,8 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 0.3
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "ShieldSizeFlat"
-                0x24f2ec89: f32 = 200
-            }
-            0xb2c62c87 {
                 0x19efbfdb: string = "ShieldDuration"
                 0x24f2ec89: f32 = 4.5
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "ShieldCooldown"
-                0x24f2ec89: f32 = 45
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "HealthPercent"
@@ -54,7 +46,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "HealPercent"
-                0x24f2ec89: f32 = 0.02
+                0x24f2ec89: f32 = 45
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "RangedEffectiveness"
@@ -86,11 +78,14 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "SizeIncrease"
-                0x24f2ec89: f32 = 0.25
+                0x24f2ec89: f32 = 0.1
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "TenacityAmount"
-                0x24f2ec89: f32 = 0.3
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "Cooldown"
+                0x24f2ec89: f32 = 60
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -211,6 +206,7 @@ entries: map[hash,embed] = {
             1800
         }
         0x06d997bb: f32 = 350
+        0xcfac6a19: f32 = 0.2
         0xccf99b44: list[string] = {
             "Health"
             "Damage"
@@ -220,7 +216,6 @@ entries: map[hash,embed] = {
             0x5d7d4fb0: bool = true
         }
         0x57558bca: list[u8] = {
-            8
             1
         }
         0xd92888a0: embed = 0x851af275 {
@@ -229,7 +224,6 @@ entries: map[hash,embed] = {
                 0x57b8b11b: link = 0x7789314d
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_223053_Name"
-                    "keyUniqueGroup" = "Item_Unique_Lifeline"
                     "keyBrief" = "Item_223053_Brief"
                     "keyTooltipInventory" = "Item_223053_TooltipDynamic"
                     "keyTooltip" = "Item_223053_Tooltip"
@@ -242,6 +236,9 @@ entries: map[hash,embed] = {
                             0x9a1b3505 {
                                 0x5127f14d: string = "Health"
                                 0x566f3406: string = "NerfedStat_Health"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "Tenacity"
                             }
                         }
                     }

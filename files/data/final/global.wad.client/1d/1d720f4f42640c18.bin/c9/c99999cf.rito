@@ -1,0 +1,44 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc99999cf = 0x5e7e5a06 {
+        0xc8e37ef0: string = "7036_Speed"
+        0x56d2be52: pointer = 0x43368569 {
+            0xeed67cd5: list[string] = {
+                "ASSETS/Items/Icons2D/3073_Hexaegis.dds"
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "7036_Speed"
+                    0x57b8b11b: link = 0xe1e3731b
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "3073_Buffname"
+                        "keyTooltip" = "Hexplate_Overdrive_Buff"
+                    }
+                }
+            }
+        }
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0xf1f20d72: string = "buff_desc_3073"
+            0x87b1d303: list2[pointer] = {
+                0x67ac9672 {
+                    0x071f3c1d: list2[embed] = {
+                        0x00fa43e4 {
+                            0x9b0300f3: hash = 0x9b7eb004
+                        }
+                        0x00fa43e4 {
+                            0x1ecb978c: string = "L_BUFFBONE_GLB_HAND_LOC"
+                            0x9b0300f3: hash = 0x9cd5b66c
+                        }
+                        0x00fa43e4 {
+                            0x1ecb978c: string = "R_BUFFBONE_GLB_HAND_LOC"
+                            0x9b0300f3: hash = 0x9cd5b66c
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

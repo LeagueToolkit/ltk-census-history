@@ -24,9 +24,9 @@ entries: map[hash,embed] = {
                 }
                 0x007b14f6: pointer = 0x8594e839 {
                     0x0d89732d: embed = 0x6a88780b {
-                        0x8c41a32e: string = "ASSETS/Maps/Particles/TFT/TFT9_NaafiriPackmate_Base.TFT_Set9_Stage2.skn"
-                        0x90595a15: string = "ASSETS/Maps/Particles/TFT/TFT9_NaafiriPackmate_Base.TFT_Set9_Stage2.skl"
-                        0xfbd16fb5: string = "ASSETS/Maps/Particles/TFT/TFT9_NaafiriPackmate_Spell2Dash.TFT_Set9_Stage2.anm"
+                        0x8c41a32e: string = "ASSETS/Maps/Particles/TFT/TFT9_NaafiriPackmate_Base.skn"
+                        0x90595a15: string = "ASSETS/Maps/Particles/TFT/TFT9_NaafiriPackmate_Base.skl"
+                        0xfbd16fb5: string = "ASSETS/Maps/Particles/TFT/TFT9_NaafiriPackmate_Spell2Dash.anm"
                     }
                 }
                 0xfa784eab: u8 = 1
@@ -36,7 +36,7 @@ entries: map[hash,embed] = {
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 270, 0, 180 }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_NaafiriPackmate_Base_Main_TX_CM.TFT_Set9_Stage2.dds"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_NaafiriPackmate_Base_Main_TX_CM.dds"
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -56,9 +56,9 @@ entries: map[hash,embed] = {
                 }
                 0x007b14f6: pointer = 0x8594e839 {
                     0x0d89732d: embed = 0x6a88780b {
-                        0x8c41a32e: string = "ASSETS/Maps/Particles/TFT/TFT9_NaafiriPackmate_Base.TFT_Set9_Stage2.skn"
-                        0x90595a15: string = "ASSETS/Maps/Particles/TFT/TFT9_NaafiriPackmate_Base.TFT_Set9_Stage2.skl"
-                        0xfbd16fb5: string = "ASSETS/Maps/Particles/TFT/TFT9_NaafiriPackmate_Spell2Cast.TFT_Set9_Stage2.anm"
+                        0x8c41a32e: string = "ASSETS/Maps/Particles/TFT/TFT9_NaafiriPackmate_Base.skn"
+                        0x90595a15: string = "ASSETS/Maps/Particles/TFT/TFT9_NaafiriPackmate_Base.skl"
+                        0xfbd16fb5: string = "ASSETS/Maps/Particles/TFT/TFT9_NaafiriPackmate_Spell2Cast.anm"
                     }
                 }
                 0xfa784eab: u8 = 1
@@ -80,7 +80,7 @@ entries: map[hash,embed] = {
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 270, 0, 180 }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_NaafiriPackmate_Base_Main_TX_CM.TFT_Set9_Stage2.dds"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_NaafiriPackmate_Base_Main_TX_CM.dds"
             }
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
@@ -101,22 +101,10 @@ entries: map[hash,embed] = {
                 }
                 0x3d25b8ce: string = "ADD_EdgeGlow"
                 0xb9516a6f: u8 = 2
-                0x9dc3d926: embed = 0x77cf93a8 {
-                    0xff7d0e41: embed = 0x68dc32b6 {
-                        0xbc037de7: pointer = 0xacd81180 {
-                            0xa7084719: list[pointer] = {
-                                0x53a6c97e {}
-                                0x53a6c97e {}
-                                0x53a6c97e {}
-                            }
-                            0x5d68eeb5: list[f32] = {
-                                0
-                            }
-                            0x34474c3b: list[vec3] = {
-                                { 0, 0, 0 }
-                            }
-                        }
-                    }
+                0xca406316: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     0xe5f268dd: embed = 0x68dc32b6 {
                         0xbc037de7: pointer = 0xacd81180 {
                             0xa7084719: list[pointer] = {
@@ -141,8 +129,20 @@ entries: map[hash,embed] = {
                         { 0, 0, 0 }
                     }
                 }
-                0xca406316: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 1
+                0x563d4a22: embed = 0x68dc32b6 {
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
                 }
                 0x007b14f6: pointer = 0xa4aea2a5 {
                     0x0d89732d: embed = 0x6a88780b {
@@ -186,7 +186,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    0x5da05f9b: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_VGU_Generic_Erosion01.TFT_Set9_Stage2.dds"
+                    0x5da05f9b: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_VGU_Generic_Erosion01.dds"
                     0xb0794a80: embed = 0x074f91dd {
                         0xb4b427aa: vec4 = { 1, 0, 0, 0 }
                     }
@@ -194,7 +194,7 @@ entries: map[hash,embed] = {
                 0x67b5d729: vec2 = { -1, -35 }
                 0x37ddb774: flag = true
                 0x8d2e2474: flag = true
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/Draven_Base_P_Color-hold.TFT_Set9_Stage2.DDS"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/Draven_Base_P_Color-hold.DDS"
                 0x86a84509: vec2 = { 0.45, 0.45 }
             }
             0x09cde442 {
@@ -234,7 +234,7 @@ entries: map[hash,embed] = {
                 }
                 0x007b14f6: pointer = 0x8594e839 {
                     0x0d89732d: embed = 0x6a88780b {
-                        0xd467e8c0: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Skin20_P_weaponswipe6.TFT_Set9_Stage2.scb"
+                        0xd467e8c0: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Skin20_P_weaponswipe6.scb"
                     }
                 }
                 0xfa784eab: u8 = 1
@@ -269,7 +269,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x7c7970d8: f32 = 1
-                    0x5da05f9b: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_VGU_Awaken_Ribbonmask01.TFT_Set9_Stage2.dds"
+                    0x5da05f9b: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_VGU_Awaken_Ribbonmask01.dds"
                 }
                 0x3c91cebd: bool = true
                 0x3559e15b: flag = true
@@ -338,7 +338,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_VGU_P_Ele_Flat_Energy.TFT_Set9_Stage2.dds"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_VGU_P_Ele_Flat_Energy.dds"
                 0x324f9f10: u8 = 2
                 0x645e1b8b: embed = 0x6bcc7d70 {
                     0xb4b427aa: vec2 = { 1, 0 }
@@ -442,10 +442,20 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x9dc3d926: embed = 0x77cf93a8 {
-                    0xff7d0e41: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { 0, -25, 0 }
+                0xca406316: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 1
+                    0xbc037de7: pointer = 0xfe064c88 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.5
+                        }
+                        0x34474c3b: list[f32] = {
+                            1
+                            0
+                        }
                     }
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     0xe5f268dd: embed = 0x68dc32b6 {
                         0xb4b427aa: vec3 = { 15, 0, 0 }
                     }
@@ -502,18 +512,8 @@ entries: map[hash,embed] = {
                         { 0, 1, 0 }
                     }
                 }
-                0xca406316: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 1
-                    0xbc037de7: pointer = 0xfe064c88 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                            0.5
-                        }
-                        0x34474c3b: list[f32] = {
-                            1
-                            0
-                        }
-                    }
+                0x563d4a22: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 0, -25, 0 }
                 }
                 0x007b14f6: pointer = 0x4beb81fd {}
                 0xfa784eab: u8 = 1
@@ -552,7 +552,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    0x5da05f9b: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_Generic_Dissolve.TFT_Set9_Stage2.dds"
+                    0x5da05f9b: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_Generic_Dissolve.dds"
                 }
                 0xddfca826: flag = true
                 0xe09d5ebb: flag = true
@@ -605,14 +605,14 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_AnimeShapes02.TFT_Set9_Stage2.dds"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_AnimeShapes02.dds"
                 0x1e67b0f1: u16 = 4
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0, 0.5 }
                 }
                 0x86a84509: vec2 = { 2, 2 }
                 0x2f2e99f2: pointer = 0xb097c1bd {
-                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_RibbonPan01.TFT_Set9_Stage2.tex"
+                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_RibbonPan01.tex"
                     0xcd124686: embed = 0x69dc3449 {
                         0xb4b427aa: vec2 = { 2, 1 }
                     }
@@ -711,10 +711,20 @@ entries: map[hash,embed] = {
                 0x8275da98: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 8, 5, 8 }
                 }
-                0x9dc3d926: embed = 0x77cf93a8 {
-                    0xff7d0e41: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { 0, -25, 0 }
+                0xca406316: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 1
+                    0xbc037de7: pointer = 0xfe064c88 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.5
+                        }
+                        0x34474c3b: list[f32] = {
+                            1
+                            0
+                        }
                     }
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     0xe5f268dd: embed = 0x68dc32b6 {
                         0xb4b427aa: vec3 = { 15, 0, 0 }
                     }
@@ -771,18 +781,8 @@ entries: map[hash,embed] = {
                         { 0, 1, 0 }
                     }
                 }
-                0xca406316: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 1
-                    0xbc037de7: pointer = 0xfe064c88 {
-                        0x5d68eeb5: list[f32] = {
-                            0
-                            0.5
-                        }
-                        0x34474c3b: list[f32] = {
-                            1
-                            0
-                        }
-                    }
+                0x563d4a22: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 0, -25, 0 }
                 }
                 0x007b14f6: pointer = 0x4beb81fd {}
                 0xfa784eab: u8 = 1
@@ -844,7 +844,7 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
-                    0x5da05f9b: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_Generic_Dissolve.TFT_Set9_Stage2.dds"
+                    0x5da05f9b: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_Generic_Dissolve.dds"
                 }
                 0xddfca826: flag = true
                 0xe09d5ebb: flag = true
@@ -898,14 +898,14 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_AnimeShapes02.TFT_Set9_Stage2.dds"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_AnimeShapes02.dds"
                 0x1e67b0f1: u16 = 4
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0, 0.5 }
                 }
                 0x86a84509: vec2 = { 2, 2 }
                 0x2f2e99f2: pointer = 0xb097c1bd {
-                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_RibbonPan01.TFT_Set9_Stage2.tex"
+                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_RibbonPan01.tex"
                     0xcd124686: embed = 0x69dc3449 {
                         0xb4b427aa: vec2 = { 2, 1 }
                     }
@@ -954,13 +954,11 @@ entries: map[hash,embed] = {
                 0xfa41ab8d: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 0, 0, 50 }
                 }
-                0x9dc3d926: embed = 0x77cf93a8 {
-                    0xff7d0e41: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { 0, 50, 0 }
-                    }
-                }
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
+                }
+                0x563d4a22: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 0, 50, 0 }
                 }
                 0x007b14f6: pointer = 0x4beb81fd {}
                 0xfa784eab: u8 = 4
@@ -1006,7 +1004,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/Generic_GlowSoft.TFT_Set9_Stage2.dds"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/Generic_GlowSoft.dds"
             }
             0x09cde442 {
                 0x22e763bc: f32 = 0.8
@@ -1017,40 +1015,30 @@ entries: map[hash,embed] = {
                     0xb4b427aa: f32 = 0.5
                 }
                 0x3d25b8ce: string = "Temp_Mesh"
-                0x9dc3d926: embed = 0x77cf93a8 {
-                    0xff7d0e41: embed = 0x68dc32b6 {
-                        0xbc037de7: pointer = 0xacd81180 {
-                            0xa7084719: list[pointer] = {
-                                0x53a6c97e {}
-                                0x53a6c97e {}
-                                0x53a6c97e {}
-                            }
-                            0x5d68eeb5: list[f32] = {
-                                0
-                            }
-                            0x34474c3b: list[vec3] = {
-                                { 0, 0, 0 }
-                            }
-                        }
-                    }
-                    0xe5f268dd: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { 0, 0, 150 }
-                    }
-                    0x07f41838: list[embed] = {
-                        0x04300058 {}
-                        0x04300058 {}
-                    }
-                    0xd1789c65: list[vec3] = {
-                        { 0, 0, 0 }
-                        { 0, 0, 0 }
-                    }
-                }
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
                 }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    0xe5f268dd: vec3 = { 0, 0, 150 }
+                }
+                0x563d4a22: embed = 0x68dc32b6 {
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
                 0x007b14f6: pointer = 0x8594e839 {
                     0x0d89732d: embed = 0x6a88780b {
-                        0xd467e8c0: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_P_Swipe_A.TFT_Set9_Stage2.scb"
+                        0xd467e8c0: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_P_Swipe_A.scb"
                     }
                 }
                 0xfa784eab: u8 = 1
@@ -1081,7 +1069,7 @@ entries: map[hash,embed] = {
                 0xd4e17a53: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 1, 0.3, 0.3 }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_P_Swipe_A.TFT_Set9_Stage2.dds"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_P_Swipe_A.dds"
                 0xb9198a2a: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0, -0.5 }
                 }
@@ -1096,40 +1084,30 @@ entries: map[hash,embed] = {
                     0xb4b427aa: f32 = 0.5
                 }
                 0x3d25b8ce: string = "Temp_Mesh1"
-                0x9dc3d926: embed = 0x77cf93a8 {
-                    0xff7d0e41: embed = 0x68dc32b6 {
-                        0xbc037de7: pointer = 0xacd81180 {
-                            0xa7084719: list[pointer] = {
-                                0x53a6c97e {}
-                                0x53a6c97e {}
-                                0x53a6c97e {}
-                            }
-                            0x5d68eeb5: list[f32] = {
-                                0
-                            }
-                            0x34474c3b: list[vec3] = {
-                                { 0, 0, 0 }
-                            }
-                        }
-                    }
-                    0xe5f268dd: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { 0, 0, 150 }
-                    }
-                    0x07f41838: list[embed] = {
-                        0x04300058 {}
-                        0x04300058 {}
-                    }
-                    0xd1789c65: list[vec3] = {
-                        { 0, 0, 0 }
-                        { 0, 0, 0 }
-                    }
-                }
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
                 }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    0xe5f268dd: vec3 = { 0, 0, 150 }
+                }
+                0x563d4a22: embed = 0x68dc32b6 {
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
                 0x007b14f6: pointer = 0x8594e839 {
                     0x0d89732d: embed = 0x6a88780b {
-                        0xd467e8c0: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_P_Swipe_A.TFT_Set9_Stage2.scb"
+                        0xd467e8c0: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_P_Swipe_A.scb"
                     }
                 }
                 0xfa784eab: u8 = 1
@@ -1183,7 +1161,7 @@ entries: map[hash,embed] = {
                 0xd4e17a53: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 0.7, 0.35, 0.35 }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_P_Swipe_A.TFT_Set9_Stage2.dds"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_P_Swipe_A.dds"
                 0xb9198a2a: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0, -0.5 }
                 }
@@ -1206,40 +1184,30 @@ entries: map[hash,embed] = {
                     0xb4b427aa: f32 = 0.5
                 }
                 0x3d25b8ce: string = "Temp_Mesh2"
-                0x9dc3d926: embed = 0x77cf93a8 {
-                    0xff7d0e41: embed = 0x68dc32b6 {
-                        0xbc037de7: pointer = 0xacd81180 {
-                            0xa7084719: list[pointer] = {
-                                0x53a6c97e {}
-                                0x53a6c97e {}
-                                0x53a6c97e {}
-                            }
-                            0x5d68eeb5: list[f32] = {
-                                0
-                            }
-                            0x34474c3b: list[vec3] = {
-                                { 0, 0, 0 }
-                            }
-                        }
-                    }
-                    0xe5f268dd: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { 0, 0, 150 }
-                    }
-                    0x07f41838: list[embed] = {
-                        0x04300058 {}
-                        0x04300058 {}
-                    }
-                    0xd1789c65: list[vec3] = {
-                        { 0, 0, 0 }
-                        { 0, 0, 0 }
-                    }
-                }
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
                 }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    0xe5f268dd: vec3 = { 0, 0, 150 }
+                }
+                0x563d4a22: embed = 0x68dc32b6 {
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
                 0x007b14f6: pointer = 0x8594e839 {
                     0x0d89732d: embed = 0x6a88780b {
-                        0xd467e8c0: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_P_Swipe_A.TFT_Set9_Stage2.scb"
+                        0xd467e8c0: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_P_Swipe_A.scb"
                     }
                 }
                 0xfa784eab: u8 = 4
@@ -1293,7 +1261,7 @@ entries: map[hash,embed] = {
                 0xd4e17a53: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 0.2, 0.35, 0.35 }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_P_Swipe_A.TFT_Set9_Stage2.dds"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_P_Swipe_A.dds"
                 0xb9198a2a: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0, -0.5 }
                 }
@@ -1319,40 +1287,30 @@ entries: map[hash,embed] = {
                     0xb4b427aa: f32 = 0.5
                 }
                 0x3d25b8ce: string = "Temp_Mesh3"
-                0x9dc3d926: embed = 0x77cf93a8 {
-                    0xff7d0e41: embed = 0x68dc32b6 {
-                        0xbc037de7: pointer = 0xacd81180 {
-                            0xa7084719: list[pointer] = {
-                                0x53a6c97e {}
-                                0x53a6c97e {}
-                                0x53a6c97e {}
-                            }
-                            0x5d68eeb5: list[f32] = {
-                                0
-                            }
-                            0x34474c3b: list[vec3] = {
-                                { 0, 0, 0 }
-                            }
-                        }
-                    }
-                    0xe5f268dd: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { 0, 0, 150 }
-                    }
-                    0x07f41838: list[embed] = {
-                        0x04300058 {}
-                        0x04300058 {}
-                    }
-                    0xd1789c65: list[vec3] = {
-                        { 0, 0, 0 }
-                        { 0, 0, 0 }
-                    }
-                }
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
                 }
+                0x3bf0b4ed: pointer = 0xee39916f {
+                    0xe5f268dd: vec3 = { 0, 0, 150 }
+                }
+                0x563d4a22: embed = 0x68dc32b6 {
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
+                }
                 0x007b14f6: pointer = 0x8594e839 {
                     0x0d89732d: embed = 0x6a88780b {
-                        0xd467e8c0: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_P_Swipe_A.TFT_Set9_Stage2.scb"
+                        0xd467e8c0: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_P_Swipe_A.scb"
                     }
                 }
                 0xfa784eab: u8 = 1
@@ -1388,13 +1346,13 @@ entries: map[hash,embed] = {
                 0xd4e17a53: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 2, 0.3, 0.3 }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_P_Swipe_A.TFT_Set9_Stage2.dds"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_P_Swipe_A.dds"
                 0xb9198a2a: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0, -0.5 }
                 }
                 0x324f9f10: u8 = 2
                 0x2f2e99f2: pointer = 0xb097c1bd {
-                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_Foundation_Missile03.TFT_Set9_Stage2.dds"
+                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_Foundation_Missile03.dds"
                     0x33b8543e: embed = 0x04300058 {
                         0xb4b427aa: f32 = 90
                     }
@@ -1418,22 +1376,10 @@ entries: map[hash,embed] = {
                 0x3d25b8ce: string = "ADD_EdgeGlow1"
                 0x33f36f05: bool = true
                 0xb9516a6f: u8 = 2
-                0x9dc3d926: embed = 0x77cf93a8 {
-                    0xff7d0e41: embed = 0x68dc32b6 {
-                        0xbc037de7: pointer = 0xacd81180 {
-                            0xa7084719: list[pointer] = {
-                                0x53a6c97e {}
-                                0x53a6c97e {}
-                                0x53a6c97e {}
-                            }
-                            0x5d68eeb5: list[f32] = {
-                                0
-                            }
-                            0x34474c3b: list[vec3] = {
-                                { 0, 0, 0 }
-                            }
-                        }
-                    }
+                0xca406316: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     0xe5f268dd: embed = 0x68dc32b6 {
                         0xbc037de7: pointer = 0xacd81180 {
                             0xa7084719: list[pointer] = {
@@ -1458,8 +1404,20 @@ entries: map[hash,embed] = {
                         { 0, 0, 0 }
                     }
                 }
-                0xca406316: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 1
+                0x563d4a22: embed = 0x68dc32b6 {
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
                 }
                 0x007b14f6: pointer = 0xa4aea2a5 {
                     0x0d89732d: embed = 0x6a88780b {
@@ -1488,7 +1446,7 @@ entries: map[hash,embed] = {
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 270, 0, 180 }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/Draven_Base_P_Color-hold.TFT_Set9_Stage2.DDS"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/Draven_Base_P_Color-hold.DDS"
                 0x86a84509: vec2 = { 0.45, 0.45 }
             }
             0x09cde442 {
@@ -1506,22 +1464,10 @@ entries: map[hash,embed] = {
                 0x3d25b8ce: string = "ADD_EdgeGlow2"
                 0x33f36f05: bool = true
                 0xb9516a6f: u8 = 2
-                0x9dc3d926: embed = 0x77cf93a8 {
-                    0xff7d0e41: embed = 0x68dc32b6 {
-                        0xbc037de7: pointer = 0xacd81180 {
-                            0xa7084719: list[pointer] = {
-                                0x53a6c97e {}
-                                0x53a6c97e {}
-                                0x53a6c97e {}
-                            }
-                            0x5d68eeb5: list[f32] = {
-                                0
-                            }
-                            0x34474c3b: list[vec3] = {
-                                { 0, 0, 0 }
-                            }
-                        }
-                    }
+                0xca406316: embed = 0x04300058 {
+                    0xb4b427aa: f32 = 1
+                }
+                0x3bf0b4ed: pointer = 0x4f4e2ed7 {
                     0xe5f268dd: embed = 0x68dc32b6 {
                         0xbc037de7: pointer = 0xacd81180 {
                             0xa7084719: list[pointer] = {
@@ -1546,8 +1492,20 @@ entries: map[hash,embed] = {
                         { 0, 0, 0 }
                     }
                 }
-                0xca406316: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 1
+                0x563d4a22: embed = 0x68dc32b6 {
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 0, 0, 0 }
+                        }
+                    }
                 }
                 0x007b14f6: pointer = 0xa4aea2a5 {
                     0x0d89732d: embed = 0x6a88780b {
@@ -1586,7 +1544,7 @@ entries: map[hash,embed] = {
                 0x5932ff9c: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 270, 0, 180 }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/Draven_Base_P_Color-hold.TFT_Set9_Stage2.DDS"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/Draven_Base_P_Color-hold.DDS"
                 0x86a84509: vec2 = { 0.45, 0.45 }
             }
             0x09cde442 {
@@ -1603,13 +1561,11 @@ entries: map[hash,embed] = {
                 0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "head_"
                 0xb9516a6f: u8 = 2
-                0x9dc3d926: embed = 0x77cf93a8 {
-                    0xff7d0e41: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { 0, 0, 150 }
-                    }
-                }
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
+                }
+                0x563d4a22: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 0, 0, 150 }
                 }
                 0xfa784eab: u8 = 1
                 0x83cdeaa1: embed = 0x074f91dd {
@@ -1624,7 +1580,7 @@ entries: map[hash,embed] = {
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 75, 200, 100 }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_Foundation_Glow01.TFT_Set9_Stage2.dds"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_Foundation_Glow01.dds"
                 0x2f2e99f2: pointer = 0xb097c1bd {
                     0xcd124686: embed = 0x69dc3449 {
                         0xb4b427aa: vec2 = { 0.5, 0.5 }
@@ -1691,13 +1647,11 @@ entries: map[hash,embed] = {
                 0x5452d898: pointer = 0xbfc2e133 {}
                 0x3d25b8ce: string = "head_1"
                 0xb9516a6f: u8 = 2
-                0x9dc3d926: embed = 0x77cf93a8 {
-                    0xff7d0e41: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { 0, 0, 150 }
-                    }
-                }
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
+                }
+                0x563d4a22: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 0, 0, 150 }
                 }
                 0xfa784eab: u8 = 1
                 0x83cdeaa1: embed = 0x074f91dd {
@@ -1713,7 +1667,7 @@ entries: map[hash,embed] = {
                 0xf0eb7084: embed = 0x68dc32b6 {
                     0xb4b427aa: vec3 = { 30, 200, 100 }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_Foundation_Glow01.TFT_Set9_Stage2.dds"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_Foundation_Glow01.dds"
                 0x2f2e99f2: pointer = 0xb097c1bd {
                     0xcd124686: embed = 0x69dc3449 {
                         0xb4b427aa: vec2 = { 0.5, 0.5 }
@@ -1780,10 +1734,8 @@ entries: map[hash,embed] = {
                     1
                 }
                 0x3d25b8ce: string = "TrailBlend"
-                0x9dc3d926: embed = 0x77cf93a8 {
-                    0xff7d0e41: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { 0, 0, 150 }
-                    }
+                0x563d4a22: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 0, 0, 150 }
                 }
                 0x007b14f6: pointer = 0x5705625a {
                     0x5e661fd4: embed = 0x00c2a390 {
@@ -1854,7 +1806,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_Foundation_Missile01.TFT_Set9_Stage2.dds"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_Foundation_Missile01.dds"
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 0.5, 0 }
                 }
@@ -1890,13 +1842,11 @@ entries: map[hash,embed] = {
                 }
                 0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "Temp_Ray"
-                0x9dc3d926: embed = 0x77cf93a8 {
-                    0xff7d0e41: embed = 0x68dc32b6 {
-                        0xb4b427aa: vec3 = { 0, 100, 150 }
-                    }
-                }
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
+                }
+                0x563d4a22: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 0, 100, 150 }
                 }
                 0x007b14f6: pointer = 0xa14bd4d0 {}
                 0xfa784eab: u8 = 1
@@ -1940,7 +1890,7 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_Foundation_Missile02.TFT_Set9_Stage2.dds"
+                0x3c6468f4: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_Foundation_Missile02.dds"
                 0xcfb707de: embed = 0x69dc3449 {
                     0xb4b427aa: vec2 = { 4, 0 }
                 }
@@ -1951,7 +1901,7 @@ entries: map[hash,embed] = {
                     0xb4b427aa: f32 = 90
                 }
                 0x2f2e99f2: pointer = 0xb097c1bd {
-                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_Foundation_Glow01.TFT_Set9_Stage2.dds"
+                    0x2f2e99f2: string = "ASSETS/Maps/Particles/TFT/TFT9_Naafiri_Base_Foundation_Glow01.dds"
                     0x5b249407: u8 = 2
                     0x7ac3b8a0: flag = true
                 }

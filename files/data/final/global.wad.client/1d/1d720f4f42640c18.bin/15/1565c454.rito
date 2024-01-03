@@ -14,7 +14,7 @@ entries: map[hash,embed] = {
         0x5b0a81be: list[link] = {
             0x30f046e4
         }
-        0x0b44452a: i32 = 1050
+        0x0b44452a: i32 = 700
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
@@ -35,12 +35,47 @@ entries: map[hash,embed] = {
                 0x19efbfdb: string = "SnipeRange"
                 0x24f2ec89: f32 = 700
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MaxRange"
+                0x24f2ec89: f32 = 700
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ItemCooldown"
+                0x24f2ec89: f32 = 30
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "DamageRatio"
+                0x24f2ec89: f32 = 1
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "VisionRadius"
+                0x24f2ec89: f32 = 1200
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "VisionDuration"
+                0x24f2ec89: f32 = 2
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "SecondaryBuffDuration"
+                0x24f2ec89: f32 = 3
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "Cooldown"
+                0x24f2ec89: f32 = 30
+            }
         }
-        0x5b98619f: f32 = 15
-        0x06d997bb: f32 = 150
-        0x288a964d: f32 = 100
+        0x0ac4f0d5: map[hash,pointer] = {
+            0x60cc2931 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5f5c70a4 {
+                        0xb386dcf1: hash = 0x049f8e33
+                    }
+                }
+            }
+        }
+        0x5b98619f: f32 = 20
+        0x288a964d: f32 = 90
         0xccf99b44: list[string] = {
-            "Health"
             "SpellDamage"
             "AbilityHaste"
         }
@@ -54,23 +89,19 @@ entries: map[hash,embed] = {
             0x2831605b: pointer = 0x35f5c16c {
                 0xb482c52c: string = "4628"
                 0x57b8b11b: link = 0x7789314d
+                0xfea35e52: bool = true
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_4628_Name"
                     "keyBrief" = "Item_4628_Brief"
-                    "keyInventoryOnlyText" = "Item_4628_InventoryOnlyText"
-                    "keyUniqueGroup" = "Item_Unique_With_Self"
                     "keyTooltip" = "Item_4628_Tooltip"
                     "keyColloquialism" = "Item_4628_Colloquialism"
-                    "keyTooltipExternal" = "Item_4628_TooltipExternal"
+                    "keyTooltipExtended" = "Item_4628_TooltipExtended"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
                         0x5a94b0cc: list[embed] = {
                             0x9a1b3505 {
                                 0x5127f14d: string = "AbilityPower"
-                            }
-                            0x9a1b3505 {
-                                0x5127f14d: string = "Health"
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "AbilityHaste"
@@ -92,6 +123,7 @@ entries: map[hash,embed] = {
             0xd2f58721: map[hash,link] = {
                 0x9e9a5698 = 0x1f28d390
                 0x5f96538d = 0x7663d695
+                0x91bb6a05 = 0x37575902
             }
         }
     }

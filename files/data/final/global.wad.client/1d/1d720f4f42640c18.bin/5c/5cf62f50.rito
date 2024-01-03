@@ -17,15 +17,14 @@ entries: map[hash,embed] = {
             0x165d7c1f
             0xdfe0e8e4
         }
-        0x0b44452a: i32 = 350
+        0x0b44452a: i32 = 400
         0xf028019b: bool = true
         0x7d8fa230: bool = true
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
-            0x5ad81716
-            0x5de964f0
+            0x182bc2e4
             0x09dabf84
         }
         0x251a5225: list[f32] = {
@@ -33,15 +32,18 @@ entries: map[hash,embed] = {
             2.5
             120
         }
-        0x5b98619f: f32 = 15
-        0xb594d102: f32 = 45
-        0x288a964d: f32 = 80
+        0x1f4d20a6: list[embed] = {
+            0xb2c62c87 {
+                0x19efbfdb: string = "Cooldown"
+                0x24f2ec89: f32 = 120
+            }
+        }
+        0xb594d102: f32 = 50
+        0x288a964d: f32 = 120
         0xccf99b44: list[string] = {
             "Armor"
             "SpellDamage"
             "Active"
-            "CooldownReduction"
-            "AbilityHaste"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
@@ -53,13 +55,13 @@ entries: map[hash,embed] = {
             0x2831605b: pointer = 0x35f5c16c {
                 0xb482c52c: string = "3157"
                 0x57b8b11b: link = 0x7789314d
+                0xfea35e52: bool = true
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_3157_Name"
                     "keyBrief" = "Item_3157_Brief"
-                    "keyUniqueGroup" = "Item_Unique_With_Self"
                     "keyActive" = "Item_3157_Active"
-                    "keyActiveExternal" = "Item_3157_ActiveExternal"
                     "keyColloquialism" = "Item_3157_Colloquialism"
+                    "keyKeywordDefinitions" = "Item_3157_KeywordDefinitions"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -69,9 +71,6 @@ entries: map[hash,embed] = {
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "Armor"
-                            }
-                            0x9a1b3505 {
-                                0x5127f14d: string = "AbilityHaste"
                             }
                         }
                     }

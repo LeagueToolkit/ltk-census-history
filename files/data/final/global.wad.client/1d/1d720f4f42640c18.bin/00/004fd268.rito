@@ -12,15 +12,9 @@ entries: map[hash,embed] = {
             0x218b5fe6
             0xc3315699
         }
-        0x5b0a81be: list[link] = {
-            0x6b46d6ab
-        }
         0x0b44452a: i32 = 3000
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 6
-        0xb6188f47: list[link] = {
-            0x0c7ef6d4
-        }
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "SecondsInCombat"
@@ -68,6 +62,53 @@ entries: map[hash,embed] = {
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
+            0x1247259a = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 11
+                        0x7d3150ec: u8 = 2
+                        0xb386dcf1: hash = 0x68b6b530
+                    }
+                }
+            }
+            0xe5c634ce = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0xf3bede07
+                    }
+                }
+                0x5a2297d3: bool = true
+            }
+            0x3b00d8b1 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x1dded6be
+                    }
+                }
+                0x5a2297d3: bool = true
+            }
+            0x56b3f555 = 0xe9ced584 {
+                0xcbcac618: u8 = 5
+                0x37070a8d: u8 = 5
+                0xe6eebb2f: u8 = 5
+                0x011436b4: hash = 0x792cf56b
+                0x006fde67: hash = 0x06387172
+                0xc0482365: pointer = 0xdc65ffe4 {}
+            }
+            0x792cf56b = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x9ef92080 {
+                        0xe202bca9: f32 = 1
+                    }
+                }
+            }
+            0x06387172 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x9ef92080 {
+                        0xe202bca9: f32 = 2
+                    }
+                }
+            }
             0xef38dcbc = 0xbc409284 {
                 0x2c77adff: pointer = 0x332eb441 {
                     0xb386dcf1: hash = 0xf585d19a
@@ -106,8 +147,6 @@ entries: map[hash,embed] = {
             "SpellDamage"
             "CooldownReduction"
             "SpellVamp"
-            "MagicPenetration"
-            "AbilityHaste"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
@@ -122,10 +161,10 @@ entries: map[hash,embed] = {
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_224633_Name"
                     "keyBrief" = "Item_224633_Brief"
-                    "keyInventoryOnlyText" = "Item_224633_InventoryOnlyText"
                     "keyTooltip" = "Item_224633_Tooltip"
                     "keyTooltipExternal" = "Item_224633_TooltipExternal"
                     "keyColloquialism" = "Item_4633_Colloquialism"
+                    "keyTooltipInventory" = "Item_224633_TooltipDynamic"
                     "keyUniqueGroup" = "Cherry_Decoupling_Unique_Mythic"
                 }
                 0x91ed07c9: map[string,embed] = {

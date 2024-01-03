@@ -12,6 +12,7 @@ entries: map[hash,embed] = {
             0xb0bee26d
             0x2221d1df
             0x9b3188ed
+            0xe42924be
         }
         0x5b0a81be: list[link] = {
             0x165d7c1f
@@ -28,6 +29,12 @@ entries: map[hash,embed] = {
             2.5
             30
         }
+        0x1f4d20a6: list[embed] = {
+            0xb2c62c87 {
+                0x19efbfdb: string = "Cooldown"
+                0x24f2ec89: f32 = 120
+            }
+        }
         0x5b98619f: f32 = 15
         0xb594d102: f32 = 45
         0x288a964d: f32 = 80
@@ -35,8 +42,6 @@ entries: map[hash,embed] = {
             "Armor"
             "SpellDamage"
             "Active"
-            "CooldownReduction"
-            "AbilityHaste"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
@@ -48,13 +53,13 @@ entries: map[hash,embed] = {
             0x2831605b: pointer = 0x35f5c16c {
                 0xb482c52c: string = "223157"
                 0x57b8b11b: link = 0x7789314d
+                0xfea35e52: bool = true
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_223157_Name"
                     "keyBrief" = "Item_223157_Brief"
-                    "keyUniqueGroup" = "Item_Unique_With_Self"
                     "keyActive" = "Item_223157_Active"
-                    "keyActiveExternal" = "Item_223157_ActiveExternal"
                     "keyColloquialism" = "Item_3157_Colloquialism"
+                    "keyKeywordDefinitions" = "Item_3157_KeywordDefinitions"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {

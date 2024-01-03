@@ -11,13 +11,12 @@ entries: map[hash,embed] = {
         0x72d02fc7: list[link] = {
             0xb0bee26d
             0xad6770b3
+            0x6036b656
         }
         0x5b0a81be: list[link] = {
             0x48ff8661
-            0x705ee247
         }
         0x0b44452a: i32 = 3000
-        0xf028019b: bool = true
         0x7d8fa230: bool = true
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
@@ -107,18 +106,56 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 0.5
             }
         }
-        0x5b98619f: f32 = 10
+        0x0ac4f0d5: map[hash,pointer] = {
+            0xbbd98b36 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x9ef92080 {
+                        0xe202bca9: f32 = 10
+                    }
+                    0x5815b0a9 {
+                        0x4cec2c8a: u8 = 11
+                        0x7d3150ec: u8 = 2
+                        0x295c2889: f32 = 0.0175
+                    }
+                }
+            }
+            0xe22a4dfe = 0x070e3593 {
+                0x2c77adff: pointer = 0x332eb441 {
+                    0xb386dcf1: hash = 0x6df27940
+                }
+                0x7f93cf4e: hash = 0xbbd98b36
+            }
+            0x049cea52 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x15fecdbc {
+                        0xd06c375d: f32 = 12
+                        0x1cd7e522: f32 = 30
+                    }
+                }
+            }
+            0x5c1db0b9 = 0x070e3593 {
+                0x2c77adff: pointer = 0x332eb441 {
+                    0xb386dcf1: hash = 0x54a0b00d
+                }
+                0xd6b7a622: bool = true
+                0x7f93cf4e: hash = 0xbbd98b36
+            }
+            0xf002950e = 0x070e3593 {
+                0x2c77adff: pointer = 0x332eb441 {
+                    0xb386dcf1: hash = 0xe783c9be
+                }
+                0x7f93cf4e: hash = 0xbbd98b36
+            }
+        }
         0x06d997bb: f32 = 600
-        0xb9f972a0: f32 = 50
+        0xc1cd174b: f32 = 1
+        0xb9f972a0: f32 = 40
         0xccf99b44: list[string] = {
             "Health"
             "SpellBlock"
-            "Active"
-            "CooldownReduction"
-            "Slow"
-            "NonbootsMovement"
+            "HealthRegen"
+            "Aura"
             "MagicResist"
-            "AbilityHaste"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
@@ -130,16 +167,13 @@ entries: map[hash,embed] = {
             0x2831605b: pointer = 0x35f5c16c {
                 0xb482c52c: string = "226664"
                 0x57b8b11b: link = 0x7789314d
+                0xfea35e52: bool = true
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_226664_Name"
-                    "keyInventoryOnlyText" = "Item_226664_InventoryOnlyText"
                     "keyTooltip" = "Item_226664_Tooltip"
-                    "keyTooltipExternal" = "Item_226664_TooltipExternal"
-                    "keyActiveExternal" = "Item_226664_ActiveExternal"
-                    "keyColloquialism" = "Item_6664_Colloquialism"
+                    "keyFlavorText" = "Item_6664_FlavorText"
                     "keyActive" = "Item_226664_Active"
                     "keyUniqueGroup" = "Item_Unique_With_Self"
-                    "keyBrief" = "Item_226664_Brief"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -152,7 +186,7 @@ entries: map[hash,embed] = {
                                 0x5127f14d: string = "MagicResist"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "AbilityHaste"
+                                0x5127f14d: string = "BaseHealthRegen"
                             }
                         }
                     }
@@ -169,6 +203,9 @@ entries: map[hash,embed] = {
         }
         0x5f8284a2: pointer = 0xef3a0f33 {
             0xd2f58721: map[hash,link] = {
+                0x41f0132b = 0xdad377ed
+                0x8c3d5ea3 = 0x822ae455
+                0xb9b00367 = 0x0c98aad1
                 0xe28701f1 = 0x44c888ef
                 0x4e4f2115 = 0x06be8283
                 0xed847f66 = 0xeb860840

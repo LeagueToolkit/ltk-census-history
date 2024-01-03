@@ -10,25 +10,22 @@ entries: map[hash,embed] = {
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
-            0x218b5fe6
+            0x3179bd6e
         }
         0x5b0a81be: list[link] = {
             0x705ee247
             0x32984313
         }
-        0x0b44452a: i32 = 550
+        0x0b44452a: i32 = 350
         0xf028019b: bool = true
         0x7d8fa230: bool = true
         0xe114db54: bool = true
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
-        0x5ee3c453: u8 = 6
+        0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
-            0x4985f3e0
+            0x68ebb4d8
             0x9f608d64
-        }
-        0xb6188f47: list[link] = {
-            0x0c7ef6d4
         }
         0x251a5225: list[f32] = {
             0
@@ -46,16 +43,8 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 0.3
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "PassiveMSDuration"
-                0x24f2ec89: f32 = 1.5
-            }
-            0xb2c62c87 {
                 0x19efbfdb: string = "BuffDuration"
                 0x24f2ec89: f32 = 4
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "ShurelyasMythicPassive"
-                0x24f2ec89: f32 = 5
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ActiveCooldown"
@@ -66,39 +55,19 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 1000
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "PassiveMSToGrant"
-                0x24f2ec89: f32 = 0.2
-            }
-            0xb2c62c87 {
                 0x19efbfdb: string = "PerChampCD"
                 0x24f2ec89: f32 = 4
             }
-        }
-        0x0ac4f0d5: map[hash,pointer] = {
-            0x217ef13b = 0xbc409284 {
-                0x2c77adff: pointer = 0x332eb441 {
-                    0xb386dcf1: hash = 0x226d2f2a
-                }
-                0x50f145c0: list[pointer] = {
-                    0x663d5e00 {
-                        0xcac1b6d2: f32 = 1
-                        0x5ee3c453: u8 = 5
-                    }
-                }
-            }
-            0x6a0557ba = 0x070e3593 {
-                0x2c77adff: pointer = 0x9ef92080 {
-                    0xe202bca9: f32 = 1
-                }
-                0x7f93cf4e: hash = 0x217ef13b
+            0xb2c62c87 {
+                0x19efbfdb: string = "Cooldown"
+                0x24f2ec89: f32 = 75
             }
         }
-        0x5b98619f: f32 = 20
-        0x06d997bb: f32 = 200
-        0x288a964d: f32 = 35
-        0xa77b63e1: f32 = 1
+        0x5b98619f: f32 = 15
+        0xb739c155: f32 = 0.08
+        0x288a964d: f32 = 55
+        0xa77b63e1: f32 = 1.25
         0xccf99b44: list[string] = {
-            "Health"
             "SpellDamage"
             "ManaRegen"
             "Active"
@@ -119,13 +88,8 @@ entries: map[hash,embed] = {
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_2065_Name"
                     "keyBrief" = "Item_2065_Brief"
-                    "keyUniqueGroup" = "Item_Unique_Mythic"
-                    "keyInventoryOnlyText" = "Item_2065_InventoryOnlyText"
                     "keyActive" = "Item_2065_Active"
-                    "keyTooltip" = "Item_2065_Tooltip"
                     "keyActiveExternal" = "Item_2065_ActiveExternal"
-                    "keyColloquialism" = "Item_2065_Colloquialism"
-                    "keyTooltipExternal" = "Item_2065_TooltipExternal"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -134,10 +98,10 @@ entries: map[hash,embed] = {
                                 0x5127f14d: string = "AbilityPower"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "Health"
+                                0x5127f14d: string = "AbilityHaste"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "AbilityHaste"
+                                0x5127f14d: string = "MoveSpeedPercent"
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "BaseManaRegen"
@@ -151,7 +115,6 @@ entries: map[hash,embed] = {
             0x561ba63f: string = "GeneratedTip_Item_2065_TooltipShop"
             0xc68db52e: string = "ASSETS/Items/Icons2D/2065_Tank_T4_ShurelyasBattlesong.dds"
             0xe963940d: string = "ASSETS/Items/Icons2D/AutoAtlas/SmallIcons/2065_Tank_T4_ShurelyasBattlesong.png"
-            0xe3f7ce73: link = 0x7b6a081d
             0x5ee3c453: u8 = 6
         }
         0x5f8284a2: pointer = 0xef3a0f33 {

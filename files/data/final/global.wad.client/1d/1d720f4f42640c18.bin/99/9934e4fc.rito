@@ -11,8 +11,9 @@ entries: map[hash,embed] = {
         0x72d02fc7: list[link] = {
             0xb0bee26d
             0x5ea32161
+            0x8b55a7b3
         }
-        0x0b44452a: i32 = 500
+        0x0b44452a: i32 = 300
         0x51c4b876: bool = true
         0xf7250cac: bool = false
         0x0a502bcf: bool = false
@@ -39,6 +40,10 @@ entries: map[hash,embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "SpellbladeBonusADRatio"
                 0x24f2ec89: f32 = 0.2
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "Cooldown"
+                0x24f2ec89: f32 = 1.5
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -87,11 +92,10 @@ entries: map[hash,embed] = {
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_3508_Name"
                     "keyBrief" = "Item_3508_Brief"
-                    "keyUniqueGroup" = "Item_Unique_With_Self"
-                    "keyInventoryOnlyText" = "Item_3508_InventoryOnlyText"
                     "keyTooltip" = "Item_3508_Tooltip"
                     "keyTooltipExternal" = "Item_3508_TooltipExternal"
                     "keyColloquialism" = "Item_3508_Colloquialism"
+                    "keySecondaryBrief" = "Item_3508_SecondaryBrief"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {

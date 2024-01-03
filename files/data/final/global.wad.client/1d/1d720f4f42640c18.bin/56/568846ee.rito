@@ -4,7 +4,6 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x568846ee = 0x244c26e6 {
-        0x822e38a2: string = "3050Active"
         0x74d44065: string = "Item_3050_Name"
         0x13bddc7b: i32 = 3050
         0x8ccddbb3: i32 = 1
@@ -14,14 +13,13 @@ entries: map[hash,embed] = {
         }
         0x5b0a81be: list[link] = {
             0x165d7c1f
+            0xf3246d2c
         }
-        0x0b44452a: i32 = 250
-        0xf028019b: bool = true
-        0xf7250cac: bool = false
+        0x0b44452a: i32 = 500
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
-            0xd57c42e8
+            0x4985f3e0
             0xdc7c4ded
         }
         0x251a5225: list[f32] = {
@@ -44,31 +42,29 @@ entries: map[hash,embed] = {
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "Duration"
-                0x24f2ec89: f32 = 8
+                0x24f2ec89: f32 = 5
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "BindCooldown"
-                0x24f2ec89: f32 = 60
+                0x19efbfdb: string = "Cooldown"
+                0x24f2ec89: f32 = 45
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "TetherRange"
-                0x24f2ec89: f32 = 1250
+                0x19efbfdb: string = "SlowAmount"
+                0x24f2ec89: f32 = 0.3
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "TooltipMinCharLevelDamage"
-                0x24f2ec89: f32 = 30
+                0x19efbfdb: string = "DamagePerSecond"
+                0x24f2ec89: f32 = 50
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "TooltipMaxCharLevelDamage"
-                0x24f2ec89: f32 = 70
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "TotalHealthRatio"
-                0x24f2ec89: f32 = 0.015
+                0x19efbfdb: string = "StormRadius"
+                0x24f2ec89: f32 = 350
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "TotalAPRatio"
-                0x24f2ec89: f32 = 0.075
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "TotalHealthRatio"
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -88,14 +84,13 @@ entries: map[hash,embed] = {
                 }
             }
         }
-        0x5b98619f: f32 = 15
+        0x5b98619f: f32 = 20
         0x06d997bb: f32 = 200
-        0xb594d102: f32 = 45
+        0xb594d102: f32 = 30
         0x9fdc5a73: f32 = 250
         0xccf99b44: list[string] = {
             "Health"
             "Armor"
-            "Active"
             "CooldownReduction"
             "OnHit"
             "AbilityHaste"
@@ -113,14 +108,9 @@ entries: map[hash,embed] = {
                 0x57b8b11b: link = 0x7789314d
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_3050_Name"
-                    "keyInventoryOnlyText" = "Item_3050_InventoryOnlyText"
                     "keyBrief" = "Item_3050_Brief"
-                    "keyUniqueGroup" = "Item_Unique_With_Self"
-                    "keyActive" = "Item_3050_Active"
                     "keyTooltip" = "Item_3050_Tooltip"
                     "keyTooltipExternal" = "Item_3050_TooltipExternal"
-                    "keyActiveExternal" = "Item_3050_ActiveExternal"
-                    "keyColloquialism" = "Item_3050_Colloquialism"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -156,6 +146,8 @@ entries: map[hash,embed] = {
                 0xbf8705e8 = 0x764d7b62
                 0xd648ce0e = 0x23f00394
                 0x79be870b = 0x1f7c2ea9
+                0xb450d50d = 0x2db06f67
+                0x3fbd4c6f = 0x8f317af5
             }
         }
     }

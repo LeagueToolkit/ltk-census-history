@@ -15,40 +15,51 @@ entries: map[hash,embed] = {
             0x3868804c
             0x39b1adc9
         }
-        0x0b44452a: i32 = 815
+        0x0b44452a: i32 = 450
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
-            0x5de964f0
+            0x4985f3e0
             0x68ebb4d8
-            0x122bb972
+            0x5de964f0
         }
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "StackDuration"
-                0x24f2ec89: f32 = 5
+                0x24f2ec89: f32 = 2
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MaxStacks"
-                0x24f2ec89: f32 = 4
+                0x24f2ec89: f32 = 3
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MovespeedToGrant"
-                0x24f2ec89: f32 = 0.025
+                0x24f2ec89: f32 = 40
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MaxMovespeedTooltip"
-                0x24f2ec89: f32 = 0.2
+                0x24f2ec89: f32 = 0.15
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "MovespeedToGrantBonus"
-                0x24f2ec89: f32 = 0.1
+                0x19efbfdb: string = "ItemCooldown"
+                0x24f2ec89: f32 = 10
             }
         }
-        0x5b98619f: f32 = 30
+        0x0ac4f0d5: map[hash,pointer] = {
+            0xbdc3d00b = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x15fecdbc {
+                        0xd06c375d: f32 = 25
+                        0x1cd7e522: f32 = 60
+                    }
+                }
+            }
+        }
+        0x5b98619f: f32 = 25
+        0x06d997bb: f32 = 250
         0xb739c155: f32 = 0.05
-        0x288a964d: f32 = 100
+        0x288a964d: f32 = 80
         0xccf99b44: list[string] = {
             "SpellDamage"
             "CooldownReduction"
@@ -69,9 +80,7 @@ entries: map[hash,embed] = {
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_4629_Name"
                     "keyBrief" = "Item_4629_Brief"
-                    "keyUniqueGroup" = "Item_Unique_With_Self"
                     "keyTooltip" = "Item_4629_Tooltip"
-                    "keyTooltipExternal" = "Item_4629_TooltipExternal"
                     "keyColloquialism" = "Item_4629_Colloquialism"
                 }
                 0x91ed07c9: map[string,embed] = {
@@ -79,6 +88,9 @@ entries: map[hash,embed] = {
                         0x5a94b0cc: list[embed] = {
                             0x9a1b3505 {
                                 0x5127f14d: string = "AbilityPower"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "Health"
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "AbilityHaste"

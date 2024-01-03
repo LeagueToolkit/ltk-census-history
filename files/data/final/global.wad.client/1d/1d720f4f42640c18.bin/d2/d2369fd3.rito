@@ -14,12 +14,12 @@ entries: map[hash,embed] = {
         0x5b0a81be: list[link] = {
             0x3868804c
         }
-        0x0b44452a: i32 = 450
+        0x0b44452a: i32 = 600
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
-            0x68ebb4d8
+            0x5de964f0
             0x6febbfdd
         }
         0x1f4d20a6: list[embed] = {
@@ -28,20 +28,39 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 4
             }
             0xb2c62c87 {
+                0x19efbfdb: string = "MSDecayThreshold"
+                0x24f2ec89: f32 = 2
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MSDecayPercentage"
+                0x24f2ec89: f32 = 0.75
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MSDecayPercentageThresholdUnused"
+                0x24f2ec89: f32 = 0.015
+            }
+            0xb2c62c87 {
                 0x19efbfdb: string = "AbilityPowerMin"
                 0x24f2ec89: f32 = 30
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "AbilityPowerMax"
+                0x19efbfdb: string = "AbilityPowerMaxUnused"
                 0x24f2ec89: f32 = 45
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "AbilityHaste"
-                0x24f2ec89: f32 = 20
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "PassiveMSToGrant"
+                0x24f2ec89: f32 = 0.1
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "PerChampCD"
+                0x24f2ec89: f32 = 1
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
-            0x24b342ef = 0xbc409284 {
+            0xa54f5b45 = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
                     0x84a63373 {
                         0xa066cc28: list[pointer] = {
@@ -65,7 +84,7 @@ entries: map[hash,embed] = {
                                                     }
                                                 }
                                                 0x332eb441 {
-                                                    0xb386dcf1: hash = 0x7c408434
+                                                    0xb386dcf1: hash = 0x09dd7d9e
                                                 }
                                             }
                                         }
@@ -77,14 +96,15 @@ entries: map[hash,embed] = {
                 }
             }
         }
-        0xb739c155: f32 = 0.05
-        0x288a964d: f32 = 35
+        0x5b98619f: f32 = 15
+        0x288a964d: f32 = 40
         0x0c3d1323: f32 = 0.08
-        0xa77b63e1: f32 = 0.75
+        0xa77b63e1: f32 = 1.25
         0xccf99b44: list[string] = {
             "SpellDamage"
             "ManaRegen"
-            "NonbootsMovement"
+            "CooldownReduction"
+            "AbilityHaste"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
@@ -99,11 +119,9 @@ entries: map[hash,embed] = {
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_6616_Name"
                     "keyBrief" = "Item_6616_Brief"
-                    "keyUniqueGroup" = "Item_Unique_With_Self"
                     "keyTooltip" = "Item_6616_Tooltip"
                     "keyColloquialism" = "Item_6616_Colloquialism"
                     "keyTooltipExternal" = "Item_6616_TooltipExternal"
-                    "keyInventoryOnlyText" = "Item_6616_InventoryOnlyText"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -118,7 +136,7 @@ entries: map[hash,embed] = {
                                 0x5127f14d: string = "BaseManaRegen"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "MoveSpeedPercent"
+                                0x5127f14d: string = "AbilityHaste"
                             }
                         }
                     }
@@ -135,6 +153,7 @@ entries: map[hash,embed] = {
         0x5f8284a2: pointer = 0xef3a0f33 {
             0xd2f58721: map[hash,link] = {
                 0x4621f995 = 0x036e058d
+                0xc67c37f5 = 0xf00d946c
             }
         }
     }
