@@ -66,7 +66,7 @@ entries: map[hash,embed] = {
                 0xd39243c4: hash = 0x3ddc94d8
                 0xf598463e: map[hash,pointer] = {
                     0xe3b9a5fc = 0x9c566034 {
-                        0x9d477e74: string = "Play_sfx_pet_littlelegend_recall3d"
+                        0x9d477e74: string = "Play_sfx_pet_littlelegend_cast_loop3d"
                         0xd91e32ee: bool = false
                     }
                 }
@@ -79,7 +79,7 @@ entries: map[hash,embed] = {
                 0xd39243c4: hash = 0x3ddc94d8
                 0xf598463e: map[hash,pointer] = {
                     0x60d6d39f = 0x9c566034 {
-                        0x9d477e74: string = "Play_sfx_pet_littlelegend_respawn3d"
+                        0x9d477e74: string = "Play_sfx_pet_littlelegend_cast_loop3d"
                         0xd91e32ee: bool = false
                     }
                 }
@@ -186,6 +186,7 @@ entries: map[hash,embed] = {
                 0xd39243c4: hash = 0x3ddc94d8
                 0xf598463e: map[hash,pointer] = {
                     0x8e7d291a = 0x9c566034 {
+                        0x488bfb2c: bool = true
                         0x9d477e74: string = "Play_sfx_pet_littlelegend_cast3d"
                         0xd91e32ee: bool = false
                     }
@@ -200,6 +201,7 @@ entries: map[hash,embed] = {
                 0xf598463e: map[hash,pointer] = {
                     0x36e2420f = 0x9c566034 {
                         0xb725173e: f32 = -2
+                        0x488bfb2c: bool = true
                         0x9d477e74: string = "Play_sfx_pet_littlelegend_cast_loop3d"
                         0xd91e32ee: bool = false
                     }
@@ -421,7 +423,46 @@ entries: map[hash,embed] = {
                 0x16860572: pointer = 0x6c816d62 {}
                 0x4628a916: bool = true
                 0x4d7a54c0: hash = 0x2acd4eca
-                0x24af5ac1: hash = 0xbc9c8463
+                0x24af5ac1: hash = 0x3d644ea9
+            }
+            0x212cc641 = 0x5bd9a1e6 {
+                0xd39243c4: hash = 0x3ddc94d8
+                0xf598463e: map[hash,pointer] = {
+                    0x720fc94f = 0x9c566034 {
+                        0x488bfb2c: bool = true
+                        0x9d477e74: string = "Play_sfx_pet_littlelegend_taunt3d"
+                        0xd91e32ee: bool = false
+                    }
+                    0x85f259b4 = 0x0542d41d {
+                        0xf6386280: hash = 0x0c2e454b
+                        0x60645d6a: list[embed] = {
+                            0x5dd693f9 {}
+                        }
+                    }
+                }
+                0xb49f754e: embed = 0x9a4b299d {
+                    0x0329f1d7: string = "ASSETS/Characters/PetPupDragon/Themes/Base/Animations/PetPupDragon_Base_Taunt_In.anm"
+                }
+            }
+            0xea12cd8e = 0x5bd9a1e6 {
+                0x8d80922b: u32 = 2
+                0xd39243c4: hash = 0x3ddc94d8
+                0xf598463e: map[hash,pointer] = {
+                    0x720fc94f = 0x9c566034 {
+                        0x488bfb2c: bool = true
+                        0x9d477e74: string = "Play_sfx_pet_littlelegend_taunt_loop3d"
+                        0xd91e32ee: bool = false
+                    }
+                }
+                0xb49f754e: embed = 0x9a4b299d {
+                    0x0329f1d7: string = "ASSETS/Characters/PetPupDragon/Themes/Base/Animations/PetPupDragon_Base_Taunt_Loop.anm"
+                }
+            }
+            0x3d644ea9 = 0x8d30a7c0 {
+                0x078cafd9: list[hash] = {
+                    0x212cc641
+                    0xea12cd8e
+                }
             }
         }
         0x38ea85a7: map[hash,embed] = {

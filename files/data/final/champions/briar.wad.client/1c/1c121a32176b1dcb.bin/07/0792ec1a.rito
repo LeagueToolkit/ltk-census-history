@@ -10,7 +10,13 @@ entries: map[hash,embed] = {
             0xecf3f88d: u32 = 22591
             0x9119fdbf: u32 = 16
             0x3b0cf15e: embed = 0x25210743 {
-                0xc8613630: string = "Champion | Champion_Clone | Monster | Minion | Plant"
+                0xa47810c1: list2[hash] = {
+                    0xea595ca6
+                    0xc02a7870
+                    0xd8042091
+                    0x08f942d3
+                    0xbbcae592
+                }
             }
             0x44b7e8dd: string = "BriarQ"
             0x3e1edbdb: list[string] = {
@@ -93,40 +99,16 @@ entries: map[hash,embed] = {
                 }
             }
             0xfb56608c: map[hash,embed] = {
-                0x497ae878 = 0x6b2f7a8d {
-                    0x52fde74f: list[embed] = {
-                        0x005008a6 {
-                            0x19efbfdb: string = "BaseDamage"
-                            0x246b0d8e: list[f32] = {
-                                15
-                                50
-                                85
-                                120
-                                155
-                                190
-                                225
-                            }
-                        }
-                        0x005008a6 {
-                            0x19efbfdb: string = "ShredPercent"
-                            0x246b0d8e: list[f32] = {
-                                0.075
-                                0.1
-                                0.125
-                                0.15
-                                0.175
-                                0.2
-                                0.225
-                            }
-                        }
-                    }
-                }
+                0x497ae878 = 0x6b2f7a8d {}
             }
             0x94572284: map[hash,pointer] = {
                 0x1ddee768 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0x03da00f9
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.6
                         }
                         0x5815b0a9 {
                             0x4cec2c8a: u8 = 2
@@ -138,7 +120,7 @@ entries: map[hash,embed] = {
             }
             0xfbd16fb5: string = "Spell1"
             0xeed67cd5: list[string] = {
-                "ASSETS/Characters/Briar/HUD/Icons2D/BriarQ.Briar.dds"
+                "ASSETS/Characters/Briar/HUD/Icons2D/BriarQ.dds"
             }
             0x90fb0576: f32 = 0.25
             0x9ecac3a1: list[f32] = {
@@ -202,6 +184,7 @@ entries: map[hash,embed] = {
                         "keyTooltip" = "Spell_BriarQ_Tooltip"
                         "keyCost" = "Spell_BriarP_Cost"
                         "keySummary" = "Spell_BriarQ_Summary"
+                        "keyTooltipExtendedBelowLine" = "Spell_BriarQ_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {

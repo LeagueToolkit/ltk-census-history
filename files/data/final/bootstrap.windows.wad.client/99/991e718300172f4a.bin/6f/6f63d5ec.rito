@@ -21,37 +21,41 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter1"
-                0xd872e2a5: vec4 = { 0, 0.6, 1, 0.16 }
+                0xd872e2a5: vec4 = { 0, 1, 0, 0.6 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
+                        0x8d39bde6: string = "ProgressScope"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
                         0x8d39bde6: string = "ParamStage1"
-                        0x0640657c: u32 = 1
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "EdgeNoiseIntensity"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "NoiseTexTilling"
                         0x0640657c: u32 = 4
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "EdgeRangeOuter"
+                        0x8d39bde6: string = "EdgeNoiseIntensity"
                         0x0640657c: u32 = 8
                     }
                 }
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter2"
-                0xd872e2a5: vec4 = { 0.3, 1, 0, 0 }
+                0xd872e2a5: vec4 = { 1, 0.16, 0.3, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "EdgeRange"
+                        0x8d39bde6: string = "NoiseTexTilling"
                         0x0640657c: u32 = 1
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "ColorTexTilling"
+                        0x8d39bde6: string = "EdgeRangeOuter"
                         0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "EdgeRange"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "ColorTexTilling"
+                        0x0640657c: u32 = 8
                     }
                 }
             }
@@ -78,7 +82,7 @@ entries: map[hash,embed] = {
             }
             0x31d1e223 {
                 0x8d39bde6: string = "ColorTexture"
-                0x32b374fa: string = "ASSETS/Shared/Materials/SRI_Icon_Noise.dds"
+                0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
             }
         }
         0xae29287b: map[string,string] = {

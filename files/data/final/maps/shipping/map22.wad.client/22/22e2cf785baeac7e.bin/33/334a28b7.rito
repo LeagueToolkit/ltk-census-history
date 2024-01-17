@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x334a28b7 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_EMBLEM_SET3_Tailored"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT3_Item_BattlecastEmblem"
+                    "TFT3_Item_BlademasterEmblem"
+                    "TFT3_Item_CelestialEmblem"
+                    "TFT3_Item_DarkStarEmblem"
+                    "TFT3_Item_InfiltratorEmblem"
+                    "TFT3_Item_ProtectorEmblem"
+                    "TFT3_Item_RebelEmblem"
+                    "TFT3_Item_StarGuardianEmblem"
+                }
+            }
+            "TailorBy_AtLeastOneUnitWithTrait" = 0x641de12c {
+                0x24f2ec89: bool = true
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

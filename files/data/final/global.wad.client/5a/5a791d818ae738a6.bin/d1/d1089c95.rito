@@ -9,7 +9,13 @@ entries: map[hash,embed] = {
             0x9c677a2c: u32 = 20
             0xecf3f88d: u32 = 6154
             0x3b0cf15e: embed = 0x25210743 {
-                0xc8613630: string = "Monster_Large | Monster_Epic | Minion | Champion | Monster_Medium"
+                0xa47810c1: list2[hash] = {
+                    0xd0af0f35
+                    0x592aa99b
+                    0x08f942d3
+                    0xea595ca6
+                    0x1d6fa889
+                }
             }
             0x9509c71b: embed = 0x5acfdf50 {
                 0x926099c4: i32 = 3
@@ -40,6 +46,32 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
                 0x92d4987c {}
+            }
+            0xf9c2333e: map[hash,embed] = {
+                0x288f3c60 = 0x92d4987c {
+                    0x425ed3ca: list[f32] = {
+                        10
+                        10
+                        10
+                        10
+                        10
+                        10
+                        10
+                    }
+                }
+            }
+            0xb08bc498: map[hash,embed] = {
+                0x288f3c60 = 0x92d4987c {
+                    0x425ed3ca: list[f32] = {
+                        120
+                        120
+                        120
+                        120
+                        120
+                        120
+                        120
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x212622c7 = 0xbc409284 {
@@ -133,7 +165,9 @@ entries: map[hash,embed] = {
                     0x166d5141: list[pointer] = {
                         0x571d3ae6 {
                             0x1c20c45f: embed = 0x25210743 {
-                                0xc8613630: string = "Monster_Epic"
+                                0xa47810c1: list2[hash] = {
+                                    0x592aa99b
+                                }
                             }
                         }
                     }

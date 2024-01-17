@@ -1,0 +1,35 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x295abb6d = 0x9b67e9f6 {
+        0x8f7b194f: embed = 0x8f7b194f {
+            0xd65bac4d: list[string] = {
+                "TFT_NPC_WolfMini"
+                "TFT3_NPC_WolfMini"
+            }
+            0xf8f29f92: list2[embed] = {
+                0xa4416515 {
+                    0x8d39bde6: string = "MODE_TFT3_NPC_Wolf_SFX"
+                    0x2a21ad00: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_TFT3_NPC_Wolf_SFX_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Shared/MODE_TFT3_NPC_Wolf_SFX_events.bnk"
+                    }
+                }
+            }
+        }
+        0x426d89a3: embed = 0x426d89a3 {
+            0xf5fb07c7: link = 0x4a2f8f71
+        }
+        0x45ff5904: embed = 0x6111d8a4 {
+            0xa1f805da: f32 = 1.2
+        }
+        0x51c83af8: embed = 0x11b71b5e {
+            0x643cb399: f32 = 300
+            0x3fcb5693: u8 = 12
+            0x09373493: bool = true
+            0x9c5124c0: bool = false
+        }
+    }
+}

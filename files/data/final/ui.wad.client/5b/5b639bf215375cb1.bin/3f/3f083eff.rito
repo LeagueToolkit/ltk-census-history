@@ -1,0 +1,36 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3f083eff = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/PreGame/UX/RiotUI/TFTEventHubViewController/UIBase/Scene/TroveButton/TroveButton"
+        0x2063cb13: link = 0x07219f43
+        0x5a94b0cc: list[link] = {
+            0x0854cf11
+            0xa4056210
+            0xc05408c0
+            0x15758790
+            0xd16d1a0c
+            0x9259503e
+            0x2871e529
+            0x709059f5
+        }
+        0xdf2b45ce: bool = true
+        0x6bf3194e: link = 0x0854cf11
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xc05408c0
+                0xd16d1a0c
+            }
+            0xeec29756: link = 0x15758790
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xa4056210
+                0x709059f5
+            }
+            0xeec29756: link = 0x2871e529
+        }
+    }
+}

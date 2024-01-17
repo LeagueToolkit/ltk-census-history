@@ -13,98 +13,6 @@ entries: map[hash,embed] = {
                 "PositiveEffect_EmpowerAttack"
                 "Trait_AttackReset"
             }
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        20
-                        20
-                        40
-                        60
-                        80
-                        100
-                        95
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        1.05
-                        1.15
-                        1.25
-                        1.35
-                        1.45
-                        1.55
-                        1.65
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        20
-                        20
-                        25
-                        30
-                        35
-                        40
-                        45
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        -10
-                        -10
-                        -12.5
-                        -15
-                        -17.5
-                        -20
-                        -22.5
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        7
-                        7
-                        7
-                        7
-                        7
-                        7
-                        7
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        5
-                        5
-                        5
-                        5
-                        5
-                        5
-                        5
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.75
-                        0.75
-                        0.75
-                        0.75
-                        0.75
-                        0.75
-                        0.75
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                        0.1
-                    }
-                }
-                0x92d4987c {}
-                0x92d4987c {}
-            }
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "TooltipQADRatio"
@@ -118,17 +26,124 @@ entries: map[hash,embed] = {
                         0.65
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "BonusRange"
+                    0x246b0d8e: list[f32] = {
+                        25
+                        25
+                        25
+                        25
+                        25
+                        25
+                        25
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ADScaling"
+                    0x246b0d8e: list[f32] = {
+                        1.05
+                        1.15
+                        1.25
+                        1.35
+                        1.45
+                        1.55
+                        1.65
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BonusDamage"
+                    0x246b0d8e: list[f32] = {
+                        0
+                        20
+                        40
+                        60
+                        80
+                        100
+                        120
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BonusAD"
+                    0x246b0d8e: list[f32] = {
+                        15
+                        20
+                        25
+                        30
+                        35
+                        40
+                        45
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SappedAD"
+                    0x246b0d8e: list[f32] = {
+                        -7.5
+                        -10
+                        -12.5
+                        -15
+                        -17.5
+                        -20
+                        -22.5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SapDebuffDuration"
+                    0x246b0d8e: list[f32] = {
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowDuration"
+                    0x246b0d8e: list[f32] = {
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowAmount"
+                    0x246b0d8e: list[f32] = {
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "PrepDuration"
+                    0x246b0d8e: list[f32] = {
+                        7
+                        7
+                        7
+                        7
+                        7
+                        7
+                        7
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x1ddee768 = 0xbc409284 {
-                    0xd6b7a622: bool = true
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x58022635
                         }
                         0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
-                            0xb386dcf1: hash = 0x61b6b0cd
+                            0xb386dcf1: hash = 0xe476601d
                         }
                     }
                 }
@@ -208,27 +223,33 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_TrundleTrollSmash_Name"
                         "keySummary" = "Spell_TrundleTrollSmash_Summary"
                         "keyTooltip" = "Spell_TrundleTrollSmash_Tooltip"
+                        "keyTooltipExtendedBelowLine" = "Spell_TrundleTrollSmash_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BonusDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 3
-                                    0x566f3406: string = "Spell_ListType_AttackDamageBonus"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "TooltipQADRatio"
+                                    0x5127f14d: string = "ADScaling"
                                     0x33c02d93: i32 = 2
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "SpellListType_AttackDamageRatio"
                                     0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BonusAD"
+                                    0x33c02d93: i32 = 3
+                                    0x566f3406: string = "Spell_ListType_AttackDamageBonus"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "SappedAD"
+                                    0xf506c7e6: f32 = -1
+                                    0x566f3406: string = "Spell_TrundleTrollSmash_SappedAD"
                                 }
                             }
                         }
