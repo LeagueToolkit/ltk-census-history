@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x45953e83 = 0x4b413124 {
+        0x37386ae0: string = "c356c105-b60b-4a4c-9df1-7fb596641e23"
+        0x8d39bde6: string = "Root"
+        0x67a9c9d2: list[embed] = {
+            0x18599d08 {
+                0x9f245e2f: link = 0x6034caaf
+                0x50a09eb9: u32 = 1
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0xda38386d
+                0x50a09eb9: u32 = 15
+            }
+            0x18599d08 {
+                0x9f245e2f: link = 0x9cda45d8
+                0x50a09eb9: u32 = 84
+            }
+        }
+    }
+}
