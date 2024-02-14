@@ -110,18 +110,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "RCooldown"
-                    0x246b0d8e: list[f32] = {
-                        110
-                        100
-                        90
-                        80
-                        70
-                        60
-                        50
-                    }
-                }
-                0x005008a6 {
                     0x19efbfdb: string = "RBaseDamage"
                     0x246b0d8e: list[f32] = {
                         -50
@@ -157,6 +145,54 @@ entries: map[hash,embed] = {
                         1.1
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxHealthDamage"
+                    0x246b0d8e: list[f32] = {
+                        0.08
+                        0.1
+                        0.12
+                        0.14
+                        0.16
+                        0.18
+                        0.2
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ADRatio"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "Slow"
+                    0x246b0d8e: list[f32] = {
+                        -0.5
+                        -0.5
+                        -0.5
+                        -0.5
+                        -0.5
+                        -0.5
+                        -0.5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SlowDuration"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x77849cb0 = 0xbc409284 {
@@ -164,38 +200,26 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0x1be488a9
                         }
-                        0x5815b0a9 {
+                        0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 1.75
-                        }
-                    }
-                }
-                0x25035f52 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x5f5c70a4 {
-                            0x4cec2c8a: u8 = 9
-                            0xb386dcf1: hash = 0xb66bca58
-                        }
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0xb66bca58
+                            0xb386dcf1: hash = 0x382d671b
                         }
                     }
                 }
             }
-            0xd7141e61: f32 = 2
             0xfbd16fb5: string = ""
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/RekSai/HUD/Icons2D/RekSai_R.dds"
             }
             0x9ecac3a1: list[f32] = {
-                110
+                100
                 100
                 90
                 80
-                70
-                60
-                50
+                80
+                80
+                80
             }
             0x18330965: f32 = -1
             0x3a4c4690: f32 = -1
@@ -263,12 +287,11 @@ entries: map[hash,embed] = {
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "PercentMissingHealthDamage"
-                                    0x566f3406: string = "Spell_ListType_MissingHealthDamage"
+                                    0x566f3406: string = "Spell_ListType_PercentMissingHealthDamage"
                                     0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "RCooldown"
-                                    0x566f3406: string = "Spell_RekSaiRWrapper_Cooldown"
+                                    0x5127f14d: string = "Cooldown"
                                 }
                             }
                         }

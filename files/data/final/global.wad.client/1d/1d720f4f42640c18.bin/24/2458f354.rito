@@ -13,6 +13,7 @@ entries: map[hash,embed] = {
             0xb0bee26d
             0xe0c9f93f
             0xb45aafc5
+            0x22b8e842
         }
         0x5b0a81be: list[link] = {
             0x705ee247
@@ -82,6 +83,10 @@ entries: map[hash,embed] = {
                 0x19efbfdb: string = "MoveSpeedDuration"
                 0x24f2ec89: f32 = 2
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "DecayRate"
+                0x24f2ec89: f32 = 0.8
+            }
         }
         0x0ac4f0d5: map[hash,pointer] = {
             0x4f9d2d87 = 0xbc409284 {
@@ -145,7 +150,6 @@ entries: map[hash,embed] = {
             "Health"
             "Damage"
             "AttackSpeed"
-            "CooldownReduction"
             "Slow"
             "NonbootsMovement"
         }
@@ -166,6 +170,8 @@ entries: map[hash,embed] = {
                     "keyColloquialism" = "Item_6631_Colloquialism"
                     "keyActive" = "Item_6631_Active"
                     "keySecondaryBrief" = "Item_Unique_Hydra"
+                    "keyActiveExternal" = "Item_6631_ActiveExternal"
+                    "keyTooltipExternal" = "Item_6631_TooltipExternal"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
