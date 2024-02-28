@@ -6,11 +6,14 @@ entries: map[hash,embed] = {
     0x29a1fa8e = 0x60e00531 {
         0x19efbfdb: string = "GoldBoxB"
         0x0773669d: map[string,pointer] = {
-            "Item" = 0xa188bd55 {
-                0x24f2ec89: string = "TFT_Item_Spatula"
-            }
             "Gold" = 0x4012fd7e {
-                0x24f2ec89: i32 = 2
+                0x24f2ec89: i32 = 4
+            }
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Consumable_ItemReroller"
+                    "TFT_Item_Spatula"
+                }
             }
         }
         0x9be36761: link = 0xb874104c

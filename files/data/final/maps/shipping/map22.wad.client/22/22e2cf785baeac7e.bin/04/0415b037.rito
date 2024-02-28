@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x0415b037 = 0x60e00531 {
+        0x19efbfdb: string = "MedGradePlusBonusDistribution"
+        0x0773669d: map[string,pointer] = {
+            "SilverBoxPlusA" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.46
+            }
+            "SilverBoxPlusB" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.47
+            }
+            "SilverBoxPlusC" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.01
+            }
+            "SilverBoxPlusD" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.03
+            }
+            "SilverBoxPlusE" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.03
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

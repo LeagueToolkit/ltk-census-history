@@ -1,0 +1,33 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb1bf1f28 = 0x60e00531 {
+        0x19efbfdb: string = "Stage2Base"
+        0x0773669d: map[string,pointer] = {
+            "Stage2Base1" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "Stage2Base2" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "Stage2Base3" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "Stage2Base4" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.15
+            }
+            "Stage2Base5" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.15
+            }
+            "Stage2Base6" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.05
+            }
+            "Stage2Base7" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.05
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

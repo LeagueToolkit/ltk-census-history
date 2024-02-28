@@ -67,6 +67,42 @@ entries: map[hash,embed] = {
                         0.05
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "Tier3_Burn_Stack_Mult"
+                    0x246b0d8e: list[f32] = {
+                        1e-04
+                        1e-04
+                        1e-04
+                        1e-04
+                        1e-04
+                        1e-04
+                        1e-04
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "Tier3_Breakpoint"
+                    0x246b0d8e: list[f32] = {
+                        225
+                        225
+                        225
+                        225
+                        225
+                        225
+                        225
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "Tier2_Breakpoint"
+                    0x246b0d8e: list[f32] = {
+                        125
+                        125
+                        125
+                        125
+                        125
+                        125
+                        125
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0xc8f2acb1 = 0xbc409284 {
@@ -115,30 +151,6 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x5b059e5f = 0xbc409284 {
-                    0x2c77adff: pointer = 0xf3cbe7b2 {
-                        0x88536426: hash = 0x06323a3f
-                    }
-                    0x37070a8d: u8 = 5
-                    0x50f145c0: list[pointer] = {
-                        0x4ad0847a {
-                            0x02490112: hash = 0x32bcea5d
-                            0x008dde20: string = "%i:Smolder%"
-                            0x295c2889: f32 = 0.2
-                        }
-                    }
-                }
-                0x06323a3f = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0x576964ae
-                        }
-                        0x5f5c70a4 {
-                            0x4cec2c8a: u8 = 7
-                            0xb386dcf1: hash = 0x7a8e0a5f
-                        }
-                    }
-                }
                 0x1d8714b3 = 0xbc409284 {
                     0x37070a8d: u8 = 2
                     0xd6b7a622: bool = true
@@ -163,9 +175,16 @@ entries: map[hash,embed] = {
                     }
                     0x5a2297d3: bool = true
                 }
-                0x263d707f = 0xbc409284 {
-                    0x37070a8d: u8 = 2
-                    0xd6b7a622: bool = true
+                0x8bb96d46 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x4ad0847a {
+                            0x02490112: hash = 0x32bcea5d
+                            0x008dde20: string = "%i:Smolder%"
+                            0x295c2889: f32 = 0.02
+                        }
+                    }
+                }
+                0xef104a56 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x4ad0847a {
                             0x02490112: hash = 0x32bcea5d
@@ -173,19 +192,35 @@ entries: map[hash,embed] = {
                             0x295c2889: f32 = 0.2
                         }
                     }
-                    0x5a2297d3: bool = true
                 }
-                0xa559a8cd = 0xbc409284 {
-                    0x37070a8d: u8 = 2
-                    0xd6b7a622: bool = true
+                0x25da54ae = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x7af9aae9 {
-                            0x02490112: hash = 0x098531db
-                            0x008dde20: string = "%i:scaleCrit%"
-                            0xb386dcf1: hash = 0x7a8e0a5f
+                            0x02490112: hash = 0x32bcea5d
+                            0x008dde20: string = "%i:Smolder%"
+                            0xb386dcf1: hash = 0xc9e6b5b0
                         }
                     }
                     0x5a2297d3: bool = true
+                    0x08d47ee4: i32 = 2
+                }
+                0xf7fa8047 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x4ad0847a {
+                            0x02490112: hash = 0x32bcea5d
+                            0x008dde20: string = "%i:Smolder%"
+                            0x295c2889: f32 = 0.015
+                        }
+                    }
+                }
+                0xbd6f2082 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x4ad0847a {
+                            0x02490112: hash = 0x32bcea5d
+                            0x008dde20: string = "%i:Smolder%"
+                            0x295c2889: f32 = 0.025
+                        }
+                    }
                 }
             }
             0xfbd16fb5: string = ""

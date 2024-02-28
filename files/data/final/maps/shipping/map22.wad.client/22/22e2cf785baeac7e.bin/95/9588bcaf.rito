@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x9588bcaf = 0x60e00531 {
+        0x19efbfdb: string = "LowGradePlusBonusDistribution"
+        0x0773669d: map[string,pointer] = {
+            "BronzeBoxPlusA" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.47
+            }
+            "BronzeBoxPlusB" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.46
+            }
+            "BronzeBoxPlusF" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.03
+            }
+            "BronzeBoxPlusG" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.03
+            }
+            "BronzeBoxPlusH" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.01
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

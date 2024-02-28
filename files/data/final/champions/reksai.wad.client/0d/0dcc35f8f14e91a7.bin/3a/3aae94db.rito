@@ -6,7 +6,6 @@ entries: map[hash,embed] = {
     0x3aae94db = 0x5e7e5a06 {
         0xc8e37ef0: string = "RekSaiRWrapper"
         0x56d2be52: pointer = 0x43368569 {
-            0x9c677a2c: u32 = 4
             0xecf3f88d: u32 = 4106
             0x9119fdbf: u32 = 32
             0x3b0cf15e: embed = 0x25210743 {
@@ -112,25 +111,25 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "RBaseDamage"
                     0x246b0d8e: list[f32] = {
-                        -50
-                        100
-                        250
-                        400
-                        550
-                        700
-                        850
+                        0
+                        150
+                        300
+                        450
+                        600
+                        750
+                        900
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "PercentMissingHealthDamage"
                     0x246b0d8e: list[f32] = {
-                        15
                         20
                         25
                         30
                         35
                         40
                         45
+                        50
                     }
                 }
                 0x005008a6 {
@@ -146,18 +145,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "MaxHealthDamage"
-                    0x246b0d8e: list[f32] = {
-                        0.08
-                        0.1
-                        0.12
-                        0.14
-                        0.16
-                        0.18
-                        0.2
-                    }
-                }
-                0x005008a6 {
                     0x19efbfdb: string = "ADRatio"
                     0x246b0d8e: list[f32] = {
                         1
@@ -167,30 +154,6 @@ entries: map[hash,embed] = {
                         1
                         1
                         1
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "Slow"
-                    0x246b0d8e: list[f32] = {
-                        -0.5
-                        -0.5
-                        -0.5
-                        -0.5
-                        -0.5
-                        -0.5
-                        -0.5
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "SlowDuration"
-                    0x246b0d8e: list[f32] = {
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
                     }
                 }
             }
@@ -221,8 +184,8 @@ entries: map[hash,embed] = {
                 80
                 80
             }
-            0x18330965: f32 = -1
-            0x3a4c4690: f32 = -1
+            0x18330965: f32 = -0.998
+            0x3a4c4690: f32 = -0.9995
             0xe321919c: bool = true
             0x8804c850: bool = true
             0x6083fb6f: bool = false
