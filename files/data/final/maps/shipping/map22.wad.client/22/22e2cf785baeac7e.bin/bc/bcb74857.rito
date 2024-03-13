@@ -1,0 +1,56 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xbcb74857 = 0x84972e16 {
+        0x8d39bde6: string = "TFT11_Encounter_Kayn_DeathItems"
+        0xee030e3d: u8 = 1
+        0x4371a441: link = 0xfe235f23
+        0xd2538e5a: map[string,pointer] = {
+            "EncounterStartSFX" = 0xa188bd55 {
+                0x24f2ec89: string = "Play_vo_tft11_encounters_Kayn"
+            }
+            "EncounterEndSFX" = 0xa188bd55 {
+                0x24f2ec89: string = "Play_sfx_tft11_encounters_end"
+            }
+            "EncounterBiomeVFX_BiomeStart" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT11_Encounter_Biome_Cave_Ceremony_Board"
+            }
+            "ChampionSkin" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT11_Kayn"
+            }
+            "EncounterLength" = 0x4012fd7e {
+                0x24f2ec89: i32 = 40
+            }
+            "EncounterRulesText" = 0xf4700e9c {
+                0x24f2ec89: string = "TFT_Encounter_Kayn_DeathItems_MainRules"
+            }
+            "EncounterFlavorText" = 0xf4700e9c {}
+        }
+        0xd292c403: list2[hash] = {
+            0xbcbd20b3
+            0x9e6d10c2
+        }
+        0x10e3dbdd: list2[link] = {
+            0x99328f6a
+        }
+        0x359dd774: list2[i32] = {
+            2
+            3
+            4
+            5
+            6
+        }
+        0xf1f30bb9: list2[i32] = {
+            3
+            4
+            5
+            6
+            7
+            8
+            9
+        }
+        0x74cf1ad1: string = "ASSETS/UX/TFT/Hud/EncounterPanel/EncounterFrame_Portrait.tex"
+    }
+}

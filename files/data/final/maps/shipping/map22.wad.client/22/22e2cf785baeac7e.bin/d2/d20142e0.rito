@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd20142e0 = 0xd186c31a {
+        0x19efbfdb: string = "TFT11_Encounter_ChoiceItem_GiveWarmogs"
+        0xc13d6d31: list[embed] = {
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x6b98ed8f
+                0x425ed3ca: f32 = 600
+                0x3458f92b: string = "%i:scaleHealth% +@Value@"
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0xdd270afd
+                0x425ed3ca: f32 = 0.08
+            }
+        }
+        0xc3143d66: string = "TFT_item_name_WarmogsArmor"
+        0x765f18da: string = "TFT_item_description_WarmogsArmor"
+        0x8bee2972: string = "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Warmogs_Armor.tex"
+        0x5371e38f: option[rgba] = {
+            { 33, 166, 36, 255 }
+        }
+        0x3b2adacd: link = 0x3a7db299
+    }
+}

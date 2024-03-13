@@ -1,0 +1,29 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xaac68cf7 = 0x60e00531 {
+        0x19efbfdb: string = "TFT11_Fortune20C"
+        0x0773669d: map[string,pointer] = {
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Item_ForceOfNature"
+                }
+            }
+            "TwoStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT11_Azir"
+                    "TFT11_Udyr"
+                    "TFT11_Sett"
+                    "TFT11_Irelia"
+                    "TFT11_WuKong"
+                    "TFT11_XayahRakanDummy"
+                    "TFT11_Lissandra"
+                    "TFT11_Hwei"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

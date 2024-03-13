@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x5f9abd05 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_EMBLEM_SET11_Craftable"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT11_Item_PorcelainEmblemItem"
+                    "TFT11_Item_UmbralEmblemItem"
+                    "TFT11_Item_GhostlyEmblemItem"
+                    "TFT11_Item_MythicEmblemItem"
+                    "TFT11_Item_HeavenlyEmblemItem"
+                    "TFT11_Item_DryadEmblemItem"
+                    "TFT11_Item_StoryweaverEmblemItem"
+                    "TFT11_Item_FatedEmblemItem"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

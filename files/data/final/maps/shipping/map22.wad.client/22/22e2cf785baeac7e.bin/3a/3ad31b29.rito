@@ -1,0 +1,49 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3ad31b29 = 0x84972e16 {
+        0x8d39bde6: string = "TFT11_Encounter_Darius_SpoilsOfWar"
+        0xee030e3d: u8 = 1
+        0x4371a441: link = 0x54bc76cf
+        0xd2538e5a: map[string,pointer] = {
+            "EncounterStartSFX" = 0xa188bd55 {
+                0x24f2ec89: string = "Play_vo_tft11_encounters_Darius"
+            }
+            "EncounterEndSFX" = 0xa188bd55 {
+                0x24f2ec89: string = "Play_sfx_tft11_encounters_end"
+            }
+            "EncounterBiomeVFX_BiomeStart" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT11_Encounter_Biome_Water_Ceremony"
+            }
+            "ChampionSkin" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT11_Darius"
+            }
+            "EncounterLength" = 0x4012fd7e {
+                0x24f2ec89: i32 = 13
+            }
+            "EncounterRulesText" = 0xf4700e9c {
+                0x24f2ec89: string = "TFT11_Encounter_Darius_SpoilsOfWar_MainRules"
+            }
+            "EncounterFlavorText" = 0xf4700e9c {}
+        }
+        0xd292c403: list2[hash] = {
+            0xf2196170
+            0xe6512306
+            0x42a85b31
+        }
+        0x136fc91f: list2[link] = {
+            0x43f85ef3
+            0xc0fd29d3
+            0xbffd2840
+        }
+        0x359dd774: list2[i32] = {
+            1
+        }
+        0xf1f30bb9: list2[i32] = {
+            1
+        }
+        0x74cf1ad1: string = "ASSETS/UX/TFT/Hud/EncounterPanel/EncounterFrame_Portrait.tex"
+    }
+}

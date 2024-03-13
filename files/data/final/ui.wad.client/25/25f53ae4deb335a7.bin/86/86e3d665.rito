@@ -1,0 +1,36 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x86e3d665 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/LoLCommon/UX/Options/UIBase/Options/Opt_ActiveTab/Templates/Dropdown/Dropdown/OptT_DropdownBtn"
+        0x2063cb13: link = 0x5df2954d
+        0x5a94b0cc: list[link] = {
+            0x820bcc49
+            0x38884a8d
+            0x51dd1644
+            0x1f12ffe2
+            0x3f40df07
+        }
+        0x6bf3194e: link = 0x51dd1644
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x38884a8d
+            }
+            0xeec29756: link = 0x3f40df07
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x1f12ffe2
+            }
+            0xeec29756: link = 0x3f40df07
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x820bcc49
+            }
+            0xeec29756: link = 0x3f40df07
+        }
+    }
+}

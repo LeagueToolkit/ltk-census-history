@@ -1,0 +1,59 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xf18ce803 = 0x84972e16 {
+        0x8d39bde6: string = "TFT11_Encounter_ChoGath_TradeShopSlotForComponents"
+        0xee030e3d: u8 = 1
+        0xac397529: f32 = 4
+        0x4371a441: link = 0x7491697c
+        0xd2538e5a: map[string,pointer] = {
+            "EncounterStartSFX" = 0xa188bd55 {
+                0x24f2ec89: string = "Play_vo_tft11_encounters_Chogath"
+            }
+            "EncounterEndSFX" = 0xa188bd55 {
+                0x24f2ec89: string = "Play_sfx_tft11_encounters_end"
+            }
+            "EncounterBiomeVFX_BiomeStart" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT11_Encounter_Biome_Mountain_Ceremony_Board"
+            }
+            "ChampionSkin" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT11_ChoGath"
+            }
+            "EncounterLength" = 0x4012fd7e {
+                0x24f2ec89: i32 = 40
+            }
+            "EncounterRulesText" = 0xf4700e9c {
+                0x24f2ec89: string = "TFT11_Encounter_ChoGath_TradeShopSlotForComponents_MainRules"
+            }
+            "EncounterFlavorText" = 0xf4700e9c {}
+        }
+        0xd292c403: list2[hash] = {
+            0xbcbd20b3
+            0x63c75443
+            0xaa89c0d3
+            0x8b1fb089
+        }
+        0x10e3dbdd: list2[link] = {
+            0x7b78cd4f
+            0x93991ec4
+        }
+        0xa09626f2: list2[link] = {
+            0x2434259f
+            0xf9607712
+        }
+        0x359dd774: list2[i32] = {
+            3
+            4
+            5
+        }
+        0xf1f30bb9: list2[i32] = {
+            5
+            6
+            7
+            8
+        }
+        0x74cf1ad1: string = "ASSETS/UX/TFT/Hud/EncounterPanel/EncounterFrame_Portrait.tex"
+    }
+}

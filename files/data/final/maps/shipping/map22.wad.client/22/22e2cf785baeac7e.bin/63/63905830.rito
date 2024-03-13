@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x63905830 = 0x60e00531 {
+        0x19efbfdb: string = "TFT11_FiveCostChampions"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT11_ChampionItem_Hwei"
+                    "TFT11_ChampionItem_Irelia"
+                    "TFT11_ChampionItem_Karthus"
+                    "TFT11_ChampionItem_Lissandra"
+                    "TFT11_ChampionItem_Sett"
+                    "TFT11_ChampionItem_Udyr"
+                    "TFT11_ChampionItem_Wukong"
+                    "TFT11_ChampionItem_XayahRakan"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,17 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x909b283d = 0xab3db96c {
+        0x2dc3bb11: file = 0x4aaaab5db9d99d7c
+        0x3f19432c: link = 0x1eb3d435
+        0x5bfa274b: link = 0x7725132a
+        0xac307ed6: u8 = 1
+        0xc4b1c5aa: embed = 0x055937f1 {
+            0x2063cb13: hash = 0x6db6f4ae
+            0xbf98d308: hash = 0x2be0a3ac
+            0x9865b509: hash = 0x608f1dfa
+        }
+    }
+}

@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x736c7152 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_SET11_ENCOUNTERSTARTERKITS"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT11_Encounter_ChoiceItem_KitReaper"
+                    "TFT11_Encounter_ChoiceItem_KitInvokers"
+                    "TFT11_Encounter_ChoiceItem_KitDuelist"
+                    "TFT11_Encounter_ChoiceItem_KitBrawler"
+                    "TFT11_Encounter_ChoiceItem_KitBehemoth"
+                    "TFT11_Encounter_ChoiceItem_KitArcanist"
+                    "TFT11_Encounter_ChoiceItem_Kit2Cost"
+                    "TFT11_Encounter_ChoiceItem_Kit3Cost"
+                    "TFT11_Encounter_ChoiceItem_KitSniper"
+                    "TFT11_Encounter_ChoiceItem_KitWarden"
+                    "TFT11_Encounter_ChoiceItem_KitTrickshot"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,19 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xff57de22 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_Storyweaver3_Items"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT11_Storyweaver3_AS"
+                    "TFT11_Storyweaver3_AP"
+                    "TFT11_Storyweaver3_Support"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

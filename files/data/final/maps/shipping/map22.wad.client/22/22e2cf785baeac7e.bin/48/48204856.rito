@@ -1,0 +1,26 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x48204856 = 0x60e00531 {
+        0x19efbfdb: string = "TFT11_Fortune16A"
+        0x0773669d: map[string,pointer] = {
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT11_Item_DragonlordEmblemItem"
+                    "TFT11_Item_DragonlordEmblemItem"
+                    "TFT11_Item_DragonlordEmblemItem"
+                    "TFT_Item_DragonsClaw"
+                }
+            }
+            "TwoStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT11_LeeSin"
+                    "TFT11_XayahRakanDummy"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

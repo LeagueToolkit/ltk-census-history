@@ -1,0 +1,61 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x16f48776 = 0x84972e16 {
+        0x8d39bde6: string = "TFT11_Encounter_Zoe_OddLevels"
+        0xee030e3d: u8 = 1
+        0x4371a441: link = 0x624ee013
+        0xd2538e5a: map[string,pointer] = {
+            "EncounterStartSFX" = 0xa188bd55 {
+                0x24f2ec89: string = "Play_vo_tft11_encounters_Zoe"
+            }
+            "EncounterEndSFX" = 0xa188bd55 {
+                0x24f2ec89: string = "Play_sfx_tft11_encounters_end"
+            }
+            "EncounterBiomeVFX_BiomeStart" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT11_Encounter_Biome_Mountain_Ceremony"
+            }
+            "ChampionSkin" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT11_Zoe"
+            }
+            "EncounterLength" = 0x4012fd7e {
+                0x24f2ec89: i32 = 12
+            }
+            "EncounterRulesText" = 0xf4700e9c {
+                0x24f2ec89: string = "TFT11_Encounter_Zoe_OddLevels_MainRules"
+            }
+            "EncounterFlavorText" = 0xf4700e9c {}
+        }
+        0xd292c403: list2[hash] = {
+            0x42a85b31
+            0x54f1e2bc
+            0x8b1fb089
+            0xe8ea3cea
+        }
+        0x136fc91f: list2[link] = {
+            0xd7df25dc
+            0xd8df276f
+            0x4cec9205
+            0xba83dca5
+        }
+        0x10e3dbdd: list2[link] = {
+            0xa7e85c3c
+        }
+        0x359dd774: list2[i32] = {
+            1
+        }
+        0xf1f30bb9: list2[i32] = {
+            2
+            3
+            4
+            5
+            6
+            7
+            8
+            9
+        }
+        0x74cf1ad1: string = "ASSETS/UX/TFT/Hud/EncounterPanel/EncounterFrame_Portrait.tex"
+    }
+}

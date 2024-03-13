@@ -12,7 +12,7 @@ entries: map[hash,embed] = {
             }
             0x0904b150 {
                 0x02e7fb4c: string = "Scroll_Texture"
-                0xb311d4ef: string = "ASSETS/Shared/Materials/black.PIE_C_13_24.dds"
+                0xb311d4ef: string = "ASSETS/Shared/Materials/black.dds"
             }
             0x0904b150 {
                 0x02e7fb4c: string = "EmissionR_DistortionG_Texture"
@@ -30,12 +30,15 @@ entries: map[hash,embed] = {
                 0x02e7fb4c: string = "ScreenSpace_Mask"
                 0xb311d4ef: string = "ASSETS/Shared/Materials/white.dds"
             }
-            0x0904b150 {
-                0x02e7fb4c: string = "Outline_Mask"
-                0xb311d4ef: string = "ASSETS/Shared/Materials/white.dds"
-            }
         }
         0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "Exclude_Mask_from_TintColor_Value"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "VFX_ScreenSpaceTex_UV_Scroll_Speed"
+            }
             0xde480eef {
                 0x8d39bde6: string = "RMA_Value"
                 0x425ed3ca: vec4 = { 0.3, 1, 3, 0 }
@@ -167,6 +170,14 @@ entries: map[hash,embed] = {
             }
         }
         0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "EXCLUDE_MASK_FROM_TINTCOLOR"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "VFX_SCREENSPACETEX_SCROLL"
+                0x61342fd0: bool = false
+            }
             0x0e2212a1 {
                 0x8d39bde6: string = "VFX_ON"
                 0x61342fd0: bool = false

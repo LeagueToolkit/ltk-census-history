@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x56266e8e = 0x60e00531 {
+        0x19efbfdb: string = "TFT11_Fortune14C"
+        0x0773669d: map[string,pointer] = {
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Item_ForceOfNature"
+                    "TFT_Item_ForceOfNature"
+                }
+            }
+            "TwoStarUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "FiveCostUnit"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

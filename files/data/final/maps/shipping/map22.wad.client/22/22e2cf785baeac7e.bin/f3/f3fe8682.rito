@@ -1,0 +1,54 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xf3fe8682 = 0x84972e16 {
+        0x8d39bde6: string = "TFT11_Encounter_Bard_Level3Start"
+        0xee030e3d: u8 = 1
+        0xac397529: f32 = 10
+        0x4371a441: link = 0x2e007cf5
+        0xd2538e5a: map[string,pointer] = {
+            "EncounterStartSFX" = 0xa188bd55 {
+                0x24f2ec89: string = "Play_vo_tft11_encounters_Bard"
+            }
+            "EncounterEndSFX" = 0xa188bd55 {
+                0x24f2ec89: string = "Play_sfx_tft11_encounters_end"
+            }
+            "EncounterBiomeVFX_BiomeStart" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT11_Encounter_Biome_Mountain_Ceremony"
+            }
+            "ChampionSkin" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT11_Bard"
+            }
+            "EncounterLength" = 0x4012fd7e {
+                0x24f2ec89: i32 = 13
+            }
+            "EncounterRulesText" = 0xf4700e9c {
+                0x24f2ec89: string = "TFT11_Encounter_Bard_Level3Start_MainRules"
+            }
+            "EncounterFlavorText" = 0xf4700e9c {}
+            "PlayerLevelToReach" = 0x4012fd7e {
+                0x24f2ec89: i32 = 3
+            }
+            "GoldToGive" = 0x4012fd7e {
+                0x24f2ec89: i32 = 5
+            }
+        }
+        0xd292c403: list2[hash] = {
+            0x42a85b31
+            0xe6512306
+            0xf2196170
+            0xe8ea3cea
+        }
+        0x136fc91f: list2[link] = {
+            0x4cec9205
+            0xba83dca5
+        }
+        0x359dd774: list2[i32] = {
+            1
+        }
+        0x9fb0e5e5: hash = 0x54ee88b0
+        0x74cf1ad1: string = "ASSETS/UX/TFT/Hud/EncounterPanel/EncounterFrame_Portrait.tex"
+    }
+}

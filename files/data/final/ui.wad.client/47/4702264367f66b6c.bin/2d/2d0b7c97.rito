@@ -1,0 +1,86 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2d0b7c97 = 0xaf9f3bac {
+        0xe2db859f: string = "Options_Tab_Voice"
+        0x9255c052: bool = false
+        0xc7e16877: pointer = 0x00c58386 {}
+        0x3a79338f: list[pointer] = {
+            0xd79b9cc2 {
+                0x694aaa0b: hash = 0xc228d247
+                0xca0e79b5: string = "Options_Voice_InputSettings_label"
+                0x3a79338f: list[pointer] = {
+                    0x9c74b21a {
+                        0x4102143e: bool = true
+                        0xe7e19b94: u16 = 95
+                        0x694aaa0b: hash = 0xa5390815
+                        0xca0e79b5: string = "Options_Voice_InputSettings_ShowVoicePanelWithScoreboard"
+                    }
+                    0x9c74b21a {
+                        0x4102143e: bool = true
+                        0xe7e19b94: u16 = 96
+                        0x694aaa0b: hash = 0xa5390815
+                        0xca0e79b5: string = "Options_Voice_InputSettings_ShowSpeakingIndicatorsOnHUD"
+                    }
+                    0xf5324e2a {
+                        0x694aaa0b: hash = 0xa7b9df09
+                        0xca0e79b5: string = "Options_Voice_InputSettings_InputDevice_label"
+                    }
+                    0xa9abb748 {
+                        0x4102143e: bool = true
+                        0x694aaa0b: hash = 0xe0bc419d
+                        0xca0e79b5: string = "Options_Voice_InputSettings_InputVolumeGain"
+                        0xe7e19b94: u16 = 29
+                    }
+                    0xb2705faa {
+                        0xe7e19b94: u16 = 24
+                        0x694aaa0b: hash = 0xa7b9df09
+                        0xca0e79b5: string = "Options_Voice_InputSettings_InputMode_label"
+                        0x3a79338f: list[embed] = {
+                            0x433d3f61 {
+                                0xb157685d: string = "Options_Voice_InputSettings_InputMode_VoiceActivity"
+                            }
+                            0x433d3f61 {
+                                0xb157685d: string = "Options_Voice_InputSettings_InputMode_PushToTalk"
+                                0x425ed3ca: i32 = 1
+                            }
+                        }
+                    }
+                    0xa9abb748 {
+                        0x4102143e: bool = true
+                        0x694aaa0b: hash = 0xe0bc419d
+                        0xca0e79b5: string = "Options_Voice_InputSettings_ActivationThreshold"
+                        0xe7e19b94: u16 = 28
+                    }
+                    0xd79b9cc2 {
+                        0x694aaa0b: hash = 0xbda9345b
+                        0xca0e79b5: string = "Options_Voice_InputSettings_Interface"
+                        0xe467132e: bool = true
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x6b8648e5: string = "Options_Voice_InputSettings_VoiceControlHotkeys_label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Voice_InputSettings_VoiceControlHotkeys_ShowHideVoiceChatPanel"
+                                        0x2a078c9c: string = "[GameEvents]evtShowVoicePanel"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Voice_InputSettings_VoiceControlHotkeys_PushToTalk"
+                                        0x2a078c9c: string = "[GameEvents]evtPushToTalk"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x176e1300 = 0x60e00531 {
+        0x19efbfdb: string = "TFT11_FourCostChampions"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT11_ChampionItem_Annie"
+                    "TFT11_ChampionItem_Ashe"
+                    "TFT11_ChampionItem_Galio"
+                    "TFT11_ChampionItem_Kaisa"
+                    "TFT11_ChampionItem_Kayn"
+                    "TFT11_ChampionItem_LeeSin"
+                    "TFT11_ChampionItem_Lillia"
+                    "TFT11_ChampionItem_Morgana"
+                    "TFT11_ChampionItem_Ornn"
+                    "TFT11_ChampionItem_Shyvana"
+                    "TFT11_ChampionItem_Sylas"
+                    "TFT11_ChampionItem_Syndra"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

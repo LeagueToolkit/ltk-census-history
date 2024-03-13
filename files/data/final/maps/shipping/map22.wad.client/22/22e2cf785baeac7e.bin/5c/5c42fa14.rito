@@ -1,0 +1,29 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x5c42fa14 = 0x60e00531 {
+        0x19efbfdb: string = "TFT11_Fortune18A"
+        0x0773669d: map[string,pointer] = {
+            "TrainingDummy_Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT5_Item_WarmogsArmorRadiant"
+                    "TFT5_Item_WarmogsArmorRadiant"
+                }
+            }
+            "TwoStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT11_Sett"
+                }
+            }
+            "TrainingDummy_ItemByKey" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "RADIANTWARMOGS"
+                    "RADIANTWARMOGS"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

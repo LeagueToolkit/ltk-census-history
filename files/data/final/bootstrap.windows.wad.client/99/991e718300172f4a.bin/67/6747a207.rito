@@ -84,6 +84,20 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter6"
+                0xd872e2a5: vec4 = { 0, 0, 0.45, 0.01 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "VFX_ScreenSpaceTex_UV_Scroll_Speed"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Outline_Control"
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter7"
                 0xd872e2a5: vec4 = { 0, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -93,29 +107,15 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter7"
-                0xd872e2a5: vec4 = { 0.45, 0.01, 1, 1 }
+                0x8d39bde6: string = "Parameter8"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
                 0x74672198: list[embed] = {
-                    0x14a2befa {
-                        0x8d39bde6: string = "Outline_Control"
-                        0x0640657c: u32 = 3
-                    }
                     0x14a2befa {
                         0x8d39bde6: string = "VFX_ScrollTex_R_UV_Tile"
-                        0x0640657c: u32 = 12
-                    }
-                }
-            }
-            0x816753d8 {
-                0x8d39bde6: string = "Parameter8"
-                0xd872e2a5: vec4 = { 0, 0, 1, 1 }
-                0x74672198: list[embed] = {
-                    0x14a2befa {
-                        0x8d39bde6: string = "VFX_ScrollTex_R_UV_Scroll_Speed"
                         0x0640657c: u32 = 3
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "VFX_ScrollTex_B_UV_Tile"
+                        0x8d39bde6: string = "VFX_ScrollTex_R_UV_Scroll_Speed"
                         0x0640657c: u32 = 12
                     }
                 }
@@ -132,24 +132,42 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter10"
-                0xd872e2a5: vec4 = { 0, 0, 1, 1 }
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "VFX_ScrollTex_B_UV_Scroll_Speed"
+                        0x8d39bde6: string = "VFX_ScrollTex_B_UV_Tile"
                         0x0640657c: u32 = 3
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "VFX_MaskStrength"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "VFX_ScreenSpace_Mask_Strength"
-                        0x0640657c: u32 = 8
+                        0x8d39bde6: string = "VFX_ScrollTex_B_UV_Scroll_Speed"
+                        0x0640657c: u32 = 12
                     }
                 }
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter11"
+                0xd872e2a5: vec4 = { 1, 1, 0, 5 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "VFX_MaskStrength"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "VFX_ScreenSpace_Mask_Strength"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Exclude_Mask_from_TintColor_Value"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "DissolveValue"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter12"
                 0xd872e2a5: vec4 = { 0, 0, 1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -159,7 +177,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter12"
+                0x8d39bde6: string = "Parameter13"
                 0xd872e2a5: vec4 = { 1, 1, 1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -169,21 +187,20 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter13"
-                0xd872e2a5: vec4 = { 5, 0, 0, 0 }
+                0x8d39bde6: string = "Parameter14"
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "DissolveValue"
-                        0x0640657c: u32 = 1
+                        0x8d39bde6: string = "DissolveLocationOffset"
+                        0x0640657c: u32 = 7
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "DissolveLocationOffset"
-                        0x0640657c: u32 = 14
+                        0x8d39bde6: string = "OutlineBlendValue"
+                        0x0640657c: u32 = 8
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter14"
+                0x8d39bde6: string = "Parameter15"
                 0xd872e2a5: vec4 = { 0.66999316, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -193,25 +210,21 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter15"
-                0xd872e2a5: vec4 = { 10, 10, 0, 1 }
+                0x8d39bde6: string = "Parameter16"
+                0xd872e2a5: vec4 = { 10, 10, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DissolveEdgePowObjSize"
                         0x0640657c: u32 = 3
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "OutlineBlendValue"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
                         0x8d39bde6: string = "All_Additive_Strength"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 4
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter16"
+                0x8d39bde6: string = "Parameter17"
                 0xd872e2a5: vec4 = { 1, 5, 5, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -221,7 +234,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter17"
+                0x8d39bde6: string = "Parameter18"
                 0xd872e2a5: vec4 = { 1, 1, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -231,7 +244,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter18"
+                0x8d39bde6: string = "Parameter19"
                 0xd872e2a5: vec4 = { 1, 1, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -241,7 +254,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter19"
+                0x8d39bde6: string = "Parameter20"
                 0xd872e2a5: vec4 = { 1, 0, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -251,7 +264,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter20"
+                0x8d39bde6: string = "Parameter21"
                 0xd872e2a5: vec4 = { 0, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -261,7 +274,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter21"
+                0x8d39bde6: string = "Parameter22"
                 0xd872e2a5: vec4 = { 0, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -271,7 +284,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter22"
+                0x8d39bde6: string = "Parameter23"
                 0xd872e2a5: vec4 = { 0, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -291,6 +304,9 @@ entries: map[hash,embed] = {
             }
             0x60a292e6 {
                 0x8d39bde6: string = "DISTORTION_ON"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "VFX_SCREENSPACETEX_SCROLL"
             }
             0x60a292e6 {
                 0x8d39bde6: string = "OUTLINE_ON"
@@ -313,6 +329,9 @@ entries: map[hash,embed] = {
             }
             0x60a292e6 {
                 0x8d39bde6: string = "VFX_ON"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "EXCLUDE_MASK_FROM_TINTCOLOR"
             }
             0x60a292e6 {
                 0x8d39bde6: string = "FRESNEL_OUTLINE_ONLY"

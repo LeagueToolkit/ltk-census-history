@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6313b30a = 0x60e00531 {
+        0x19efbfdb: string = "TFT11_Fortune8B"
+        0x0773669d: map[string,pointer] = {
+            "FourCostUnit" = 0x4012fd7e {
+                0x24f2ec89: i32 = 3
+            }
+            "MeepTypeUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_ArmoryKeyCompleted"
+                }
+            }
+            "Gold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,28 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x5e20296e = 0x60e00531 {
+        0x19efbfdb: string = "GoldSubscription_RewardTable"
+        0x0773669d: map[string,pointer] = {
+            "StageScaledGoldXSmall" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.15
+            }
+            "StageScaledGoldSmall" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.35
+            }
+            "StageScaledGoldMedium" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.25
+            }
+            "StageScaledGoldLarge" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.23
+            }
+            "StageScaledGoldXLarge" = 0x977517c6 {}
+            "StageScaledGoldGiga" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.02
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
