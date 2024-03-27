@@ -7,9 +7,15 @@ entries: map[hash,embed] = {
         0x87225880: u32 = 2
         0x2d78c328: string = "SkarnerSkin06"
         0x514b1c48: i32 = 5
-        0x939e7b29: string = "faction:shurima,skinline:cosmic"
+        0x939e7b29: string = "faction:ixtal,skinline:cosmic"
+        0x68f2b69c: embed = 0x68f2b69c {
+            0xcb522723: list[link] = {
+                0xacec80cb
+                0x9da3c2da
+            }
+        }
         0x97f7188d: embed = 0xd06263ff {
-            0xb35135fa: string = "ASSETS/Characters/Skarner/Skins/Skin05/SkarnerLoadScreen_5.dds"
+            0xb35135fa: string = "ASSETS/Characters/Skarner/Skins/Skin05/SkarnerLoadScreen_5.Skarner_Rework.dds"
         }
         0x8f7b194f: embed = 0x8f7b194f {
             0xd65bac4d: list[string] = {
@@ -18,30 +24,7 @@ entries: map[hash,embed] = {
             }
             0xf8f29f92: list2[embed] = {
                 0xa4416515 {
-                    0x8d39bde6: string = "Skarner_Skin05_VO"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Skarner/Skins/Skin05/Skarner_Skin05_VO_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Skarner/Skins/Skin05/Skarner_Skin05_VO_events.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Skarner/Skins/Skin05/Skarner_Skin05_VO_audio.wpk"
-                    }
-                    0x12d8e384: list[string] = {
-                        "Play_vo_SkarnerSkin05_Attack2DGeneral"
-                        "Play_vo_SkarnerSkin05_Death3D"
-                        "Play_vo_SkarnerSkin05_Joke3DGeneral"
-                        "Play_vo_SkarnerSkin05_Laugh3DGeneral"
-                        "Play_vo_SkarnerSkin05_Move2DStandard"
-                        "Play_vo_SkarnerSkin05_SkarnerBasicAttack2_cast3D"
-                        "Play_vo_SkarnerSkin05_SkarnerBasicAttack3_cast3D"
-                        "Play_vo_SkarnerSkin05_SkarnerBasicAttack_cast3D"
-                        "Play_vo_SkarnerSkin05_SkarnerBrushSound_OnBuffActivate"
-                        "Play_vo_SkarnerSkin05_SkarnerCritAttack_cast3D"
-                        "Play_vo_SkarnerSkin05_SkarnerFracture_cast3D"
-                        "Play_vo_SkarnerSkin05_SkarnerImpale_cast3D"
-                        "Play_vo_SkarnerSkin05_SkarnerVirulentSlash_cast3D"
-                        "Play_vo_SkarnerSkin05_Taunt3DGeneral"
-                        "Stop_vo_SkarnerSkin05_SkarnerImpale_cast3D"
-                    }
-                    0x3b13aa4b: bool = true
+                    0x8d39bde6: string = "Skarner_Base_SFX_OutOfGame"
                 }
                 0xa4416515 {
                     0x8d39bde6: string = "Skarner_Skin05_SFX"
@@ -50,53 +33,174 @@ entries: map[hash,embed] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Skarner/Skins/Skin05/Skarner_Skin05_SFX_events.bnk"
                     }
                     0x12d8e384: list[string] = {
-                        "Play_sfx_SkarnerSkin05_Dance3D_buffactivate"
-                        "Play_sfx_SkarnerSkin05_Death3D_cast"
+                        "Play_sfx_SkarnerSkin05_Dance3D_var1_buffactivate"
+                        "Play_sfx_SkarnerSkin05_Dance3D_var2_buffactivate"
+                        "Play_sfx_SkarnerSkin05_Death3D_buffactivate"
+                        "Play_sfx_SkarnerSkin05_E_warning_loop"
+                        "Play_sfx_SkarnerSkin05_Emote3D_rock"
                         "Play_sfx_SkarnerSkin05_Joke3D_buffactivate"
-                        "Play_sfx_SkarnerSkin05_Recall_leadin"
+                        "Play_sfx_SkarnerSkin05_Laugh3D_buffactivate"
+                        "Play_sfx_SkarnerSkin05_Recall3D_buffactivate"
+                        "Play_sfx_SkarnerSkin05_Recall3D_winddown"
                         "Play_sfx_SkarnerSkin05_SkarnerBasicAttack2_OnCast"
                         "Play_sfx_SkarnerSkin05_SkarnerBasicAttack2_OnHit"
-                        "Play_sfx_SkarnerSkin05_SkarnerBasicAttack3_OnCast"
-                        "Play_sfx_SkarnerSkin05_SkarnerBasicAttack3_OnHit"
                         "Play_sfx_SkarnerSkin05_SkarnerBasicAttack_OnCast"
                         "Play_sfx_SkarnerSkin05_SkarnerBasicAttack_OnHit"
                         "Play_sfx_SkarnerSkin05_SkarnerCritAttack_OnCast"
                         "Play_sfx_SkarnerSkin05_SkarnerCritAttack_OnHit"
-                        "Play_sfx_SkarnerSkin05_SkarnerExoskeleton_OnBuffActivate"
-                        "Play_sfx_SkarnerSkin05_SkarnerExoskeleton_OnBuffDeactivate"
-                        "Play_sfx_SkarnerSkin05_SkarnerExoskeleton_OnCast"
-                        "Play_sfx_SkarnerSkin05_SkarnerFracture_OnCast"
-                        "Play_sfx_SkarnerSkin05_SkarnerFractureMissile_hit"
-                        "Play_sfx_SkarnerSkin05_SkarnerFractureMissile_OnMissileLaunch"
-                        "Play_sfx_SkarnerSkin05_SkarnerImpale_OnBuffActivate"
-                        "Play_sfx_SkarnerSkin05_SkarnerImpale_OnBuffDeactivate"
-                        "Play_sfx_SkarnerSkin05_SkarnerImpale_OnCast"
-                        "Play_sfx_SkarnerSkin05_SkarnerImpale_OnHit"
+                        "Play_sfx_SkarnerSkin05_SkarnerE_hit"
+                        "Play_sfx_SkarnerSkin05_SkarnerE_OnCast"
+                        "Play_sfx_SkarnerSkin05_SkarnerEGrab_buffactivate"
+                        "Play_sfx_SkarnerSkin05_SkarnerEMovement_footstep"
+                        "Play_sfx_SkarnerSkin05_SkarnerEMovement_loop"
+                        "Play_sfx_SkarnerSkin05_SkarnerEMovement_wall_exit"
+                        "Play_sfx_SkarnerSkin05_SkarnerP_loop"
                         "Play_sfx_SkarnerSkin05_SkarnerPassiveAttack_OnCast"
                         "Play_sfx_SkarnerSkin05_SkarnerPassiveAttack_OnHit"
-                        "Play_sfx_SkarnerSkin05_SkarnerPassiveBuff_loop"
-                        "Play_sfx_SkarnerSkin05_SkarnerPassiveBuff_OnBuffActivate"
-                        "Play_sfx_SkarnerSkin05_SkarnerPassiveBuffChamp_buffactivate"
-                        "Play_sfx_SkarnerSkin05_SkarnerPassiveBuffMinion_buffactivate"
-                        "Play_sfx_SkarnerSkin05_SkarnerPassiveCrystalBuffCooldown_buffactivate"
-                        "Play_sfx_SkarnerSkin05_SkarnerPassiveCrystalMSMax_OnBuffActivate"
-                        "Play_sfx_SkarnerSkin05_SkarnerPassiveCrystalMSMax_OnBuffCast"
-                        "Play_sfx_SkarnerSkin05_SkarnerPassiveCrystalMSMax_OnBuffDeactivate"
-                        "Play_sfx_SkarnerSkin05_SkarnerPassiveCrystalParticleSwitch_buffcast"
-                        "Play_sfx_SkarnerSkin05_SkarnerVirulentSlash_cast_charged"
-                        "Play_sfx_SkarnerSkin05_SkarnerVirulentSlash_cast_uncharged"
-                        "Play_sfx_SkarnerSkin05_SkarnerVirulentSlash_hit"
-                        "Play_sfx_SkarnerSkin05_SkarnerVirulentSlash_OnBuffActivate"
-                        "Play_sfx_SkarnerSkin05_SkarnerVirulentSlash_OnBuffDeactivate"
+                        "Play_sfx_SkarnerSkin05_SkarnerQ_buffdeactivate"
+                        "Play_sfx_SkarnerSkin05_SkarnerQ_OnCast"
+                        "Play_sfx_SkarnerSkin05_SkarnerQ_timer"
+                        "Play_sfx_SkarnerSkin05_SkarnerQClawAttack_OnCast"
+                        "Play_sfx_SkarnerSkin05_SkarnerQClawAttack_OnHit"
+                        "Play_sfx_SkarnerSkin05_SkarnerQRockAttack_OnCast"
+                        "Play_sfx_SkarnerSkin05_SkarnerQRockAttack_OnHit"
+                        "Play_sfx_SkarnerSkin05_SkarnerQRockThrow_OnCast"
+                        "Play_sfx_SkarnerSkin05_SkarnerQThrow_hit"
+                        "Play_sfx_SkarnerSkin05_SkarnerQThrow_missilelaunch"
+                        "Play_sfx_SkarnerSkin05_SkarnerQThrow_obd"
+                        "Play_sfx_SkarnerSkin05_SkarnerR_buffactivate"
+                        "Play_sfx_SkarnerSkin05_SkarnerR_buffdeactivate"
+                        "Play_sfx_SkarnerSkin05_SkarnerR_cast"
+                        "Play_sfx_SkarnerSkin05_SkarnerR_hit"
+                        "Play_sfx_SkarnerSkin05_SkarnerR_hitlocation"
+                        "Play_sfx_SkarnerSkin05_SkarnerR_missilelaunch"
+                        "Play_sfx_SkarnerSkin05_SkarnerTurretAttack_OnCast"
+                        "Play_sfx_SkarnerSkin05_SkarnerTurretAttack_OnHit"
+                        "Play_sfx_SkarnerSkin05_SkarnerW_hit"
+                        "Play_sfx_SkarnerSkin05_SkarnerW_missilelaunch"
+                        "Play_sfx_SkarnerSkin05_SkarnerW_OnCast"
                         "Play_sfx_SkarnerSkin05_Taunt3D_buffactivate"
-                        "Stop_sfx_SkarnerSkin05_SkarnerExoskeleton_OnBuffActivate"
-                        "Stop_sfx_SkarnerSkin05_SkarnerFractureMissile_OnMissileLaunch"
-                        "Stop_sfx_SkarnerSkin05_SkarnerImpale_OnBuffActivate"
-                        "Stop_sfx_SkarnerSkin05_SkarnerPassiveBuff_loop"
-                        "Stop_sfx_SkarnerSkin05_SkarnerPassiveCrystalBuffCooldown_buffactivate"
-                        "Stop_sfx_SkarnerSkin05_SkarnerPassiveCrystalMSMax_OnBuffActivate"
-                        "Stop_sfx_SkarnerSkin05_SkarnerVirulentSlash_OnBuffActivate"
+                        "Stop_sfx_SkarnerSkin05_E_warning_loop"
+                        "Stop_sfx_SkarnerSkin05_SkarnerEGrab_buffactivate"
+                        "Stop_sfx_SkarnerSkin05_SkarnerEMovement_footstep"
+                        "Stop_sfx_SkarnerSkin05_SkarnerEMovement_loop"
+                        "Stop_sfx_SkarnerSkin05_SkarnerP_loop"
+                        "Stop_sfx_SkarnerSkin05_SkarnerQ_OnCast"
+                        "Stop_sfx_SkarnerSkin05_SkarnerQ_timer"
+                        "Stop_sfx_SkarnerSkin05_SkarnerQRockThrow_OnCast"
+                        "Stop_sfx_SkarnerSkin05_SkarnerQThrow_missilelaunch"
+                        "Stop_sfx_SkarnerSkin05_SkarnerR_buffactivate"
+                        "Stop_sfx_SkarnerSkin05_SkarnerR_cast"
+                        "Stop_sfx_SkarnerSkin05_SkarnerR_hitlocation"
+                        "Stop_sfx_SkarnerSkin05_SkarnerW_cast"
+                        "Stop_sfx_SkarnerSkin05_SkarnerW_missilelaunch"
                     }
+                }
+                0xa4416515 {
+                    0x8d39bde6: string = "Skarner_Skin05_VO"
+                    0x2a21ad00: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Skarner/Skins/Skin05/Skarner_Skin05_VO_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Skarner/Skins/Skin05/Skarner_Skin05_VO_events.bnk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Skarner/Skins/Skin05/Skarner_Skin05_VO_audio.wpk"
+                    }
+                    0x12d8e384: list[string] = {
+                        "Play_vo_SkarnerSkin05_Attack2DBaron"
+                        "Play_vo_SkarnerSkin05_Attack2DBlueSentinel"
+                        "Play_vo_SkarnerSkin05_Attack2DElderDragon"
+                        "Play_vo_SkarnerSkin05_Attack2DElementalDragon"
+                        "Play_vo_SkarnerSkin05_Attack2DGeneral"
+                        "Play_vo_SkarnerSkin05_Attack2DGromp"
+                        "Play_vo_SkarnerSkin05_Attack2DHerald"
+                        "Play_vo_SkarnerSkin05_Attack2DKrug"
+                        "Play_vo_SkarnerSkin05_Attack2DNeutral"
+                        "Play_vo_SkarnerSkin05_Dance3DGeneral"
+                        "Play_vo_SkarnerSkin05_Dance5DGeneral"
+                        "Play_vo_SkarnerSkin05_Death3D"
+                        "Play_vo_SkarnerSkin05_Death5D"
+                        "Play_vo_SkarnerSkin05_FirstEncounter5DAscended"
+                        "Play_vo_SkarnerSkin05_FirstEncounter5DAzir"
+                        "Play_vo_SkarnerSkin05_FirstEncounter5DBelVeth"
+                        "Play_vo_SkarnerSkin05_FirstEncounter5DDarkin"
+                        "Play_vo_SkarnerSkin05_FirstEncounter5DGeneral"
+                        "Play_vo_SkarnerSkin05_FirstEncounter5DIxtal"
+                        "Play_vo_SkarnerSkin05_FirstEncounter5DJax"
+                        "Play_vo_SkarnerSkin05_FirstEncounter5DMalphite"
+                        "Play_vo_SkarnerSkin05_FirstEncounter5DMilio"
+                        "Play_vo_SkarnerSkin05_FirstEncounter5DQiyana"
+                        "Play_vo_SkarnerSkin05_FirstEncounter5DRammus"
+                        "Play_vo_SkarnerSkin05_FirstEncounter5DTaliyah"
+                        "Play_vo_SkarnerSkin05_FirstEncounter5DVoid"
+                        "Play_vo_SkarnerSkin05_FirstEncounter5DZyra"
+                        "Play_vo_SkarnerSkin05_Joke3DGeneral"
+                        "Play_vo_SkarnerSkin05_Joke5DGeneral"
+                        "Play_vo_SkarnerSkin05_JokeResponse3DGeneral"
+                        "Play_vo_SkarnerSkin05_JokeResponse5DGeneral"
+                        "Play_vo_SkarnerSkin05_Kill3DAscended"
+                        "Play_vo_SkarnerSkin05_Kill3DAzir"
+                        "Play_vo_SkarnerSkin05_Kill3DBelVeth"
+                        "Play_vo_SkarnerSkin05_Kill3DDarkin"
+                        "Play_vo_SkarnerSkin05_Kill3DGeneral"
+                        "Play_vo_SkarnerSkin05_Kill3DIxtal"
+                        "Play_vo_SkarnerSkin05_Kill3DJax"
+                        "Play_vo_SkarnerSkin05_Kill3DMalphite"
+                        "Play_vo_SkarnerSkin05_Kill3DMilio"
+                        "Play_vo_SkarnerSkin05_Kill3DPenta"
+                        "Play_vo_SkarnerSkin05_Kill3DQiyana"
+                        "Play_vo_SkarnerSkin05_Kill3DRammus"
+                        "Play_vo_SkarnerSkin05_Kill3DTaliyah"
+                        "Play_vo_SkarnerSkin05_Kill5DAscended"
+                        "Play_vo_SkarnerSkin05_Kill5DAzir"
+                        "Play_vo_SkarnerSkin05_Kill5DBelVeth"
+                        "Play_vo_SkarnerSkin05_Kill5DDarkin"
+                        "Play_vo_SkarnerSkin05_Kill5DGeneral"
+                        "Play_vo_SkarnerSkin05_Kill5DIxtal"
+                        "Play_vo_SkarnerSkin05_Kill5DJax"
+                        "Play_vo_SkarnerSkin05_Kill5DMalphite"
+                        "Play_vo_SkarnerSkin05_Kill5DMilio"
+                        "Play_vo_SkarnerSkin05_Kill5DPenta"
+                        "Play_vo_SkarnerSkin05_Kill5DQiyana"
+                        "Play_vo_SkarnerSkin05_Kill5DRammus"
+                        "Play_vo_SkarnerSkin05_Kill5DTaliyah"
+                        "Play_vo_SkarnerSkin05_Laugh3DGeneral"
+                        "Play_vo_SkarnerSkin05_Laugh5DGeneral"
+                        "Play_vo_SkarnerSkin05_Move2DFirst"
+                        "Play_vo_SkarnerSkin05_Move2DJungle"
+                        "Play_vo_SkarnerSkin05_Move2DLong"
+                        "Play_vo_SkarnerSkin05_Move2DStandard"
+                        "Play_vo_SkarnerSkin05_Recall5DGeneral"
+                        "Play_vo_SkarnerSkin05_Respawn2DGeneral"
+                        "Play_vo_SkarnerSkin05_SkarnerBasicAttack2_cast3D"
+                        "Play_vo_SkarnerSkin05_SkarnerBasicAttack2_cast5D"
+                        "Play_vo_SkarnerSkin05_SkarnerBasicAttack3_cast3D"
+                        "Play_vo_SkarnerSkin05_SkarnerBasicAttack3_cast5D"
+                        "Play_vo_SkarnerSkin05_SkarnerBasicAttack_cast3D"
+                        "Play_vo_SkarnerSkin05_SkarnerBasicAttack_cast5D"
+                        "Play_vo_SkarnerSkin05_SkarnerCritAttack_cast3D"
+                        "Play_vo_SkarnerSkin05_SkarnerCritAttack_cast5D"
+                        "Play_vo_SkarnerSkin05_SkarnerQ_cast3D"
+                        "Play_vo_SkarnerSkin05_SkarnerQ_cast5D"
+                        "Play_vo_SkarnerSkin05_SkarnerQClawAttack_cast3D"
+                        "Play_vo_SkarnerSkin05_SkarnerQClawAttack_cast5D"
+                        "Play_vo_SkarnerSkin05_SkarnerQRockAttack_cast3D"
+                        "Play_vo_SkarnerSkin05_SkarnerQRockAttack_cast5D"
+                        "Play_vo_SkarnerSkin05_SkarnerQRockThrow_cast3D"
+                        "Play_vo_SkarnerSkin05_SkarnerQRockThrow_cast5D"
+                        "Play_vo_SkarnerSkin05_SkarnerQRockThrow_hit3D"
+                        "Play_vo_SkarnerSkin05_SkarnerQRockThrow_hit5D"
+                        "Play_vo_SkarnerSkin05_SkarnerR_cast3D"
+                        "Play_vo_SkarnerSkin05_SkarnerR_cast5D"
+                        "Play_vo_SkarnerSkin05_SkarnerW_cast3D"
+                        "Play_vo_SkarnerSkin05_SkarnerW_cast5D"
+                        "Play_vo_SkarnerSkin05_Spell3DEStun"
+                        "Play_vo_SkarnerSkin05_Spell3DRHitMax"
+                        "Play_vo_SkarnerSkin05_Spell5DEStun"
+                        "Play_vo_SkarnerSkin05_Spell5DRHitMax"
+                        "Play_vo_SkarnerSkin05_Taunt3DGeneral"
+                        "Play_vo_SkarnerSkin05_Taunt5DGeneral"
+                        "Play_vo_SkarnerSkin05_TauntResponse3DGeneral"
+                        "Play_vo_SkarnerSkin05_TauntResponse5DGeneral"
+                    }
+                    0x3b13aa4b: bool = true
                 }
             }
         }
@@ -104,28 +208,51 @@ entries: map[hash,embed] = {
             0xf5fb07c7: link = 0x42429b65
         }
         0x45ff5904: embed = 0x6111d8a4 {
-            0xb14c976e: string = "ASSETS/Characters/Skarner/Skins/Skin05/Skarner_Skin05.skl"
-            0xd6a00df6: string = "ASSETS/Characters/Skarner/Skins/Skin05/Skarner_Skin05.skn"
-            0x3c6468f4: string = "ASSETS/Characters/Skarner/Skins/Skin06/Skarner_Skin06_TX_CM.dds"
+            0xb14c976e: string = "ASSETS/Characters/Skarner/Skins/Skin05/Skarner_Rework_Skin05.Skarner_Rework.skl"
+            0xd6a00df6: string = "ASSETS/Characters/Skarner/Skins/Skin05/Skarner_Rework_Skin05.Skarner_Rework.skn"
+            0x3c6468f4: string = "ASSETS/Characters/Skarner/Skins/Skin06/Skarner_Rework_Skin06_TX_CM.Skarner_Rework.dds"
             0xa1f805da: f32 = 0.9
             0x252f6884: f32 = 0.7
             0x5c7a0332: option[vec3] = {
-                { 230, 190, 230 }
+                { 280, 160, 280 }
             }
             0xd2e4d060: link = 0x691e6ebc
-            0x38ec08cf: rgba = { 13, 38, 64, 255 }
-            0x9137d3b8: f32 = 0.1
-            0x11bc7060: f32 = 1
-            0x130d610b: f32 = 0.8
-            0x561f4fea: rgba = { 153, 153, 153, 255 }
+            0x80b7f78f: string = "Stone"
             0x24725910: list[embed] = {
                 0x8b7a4394 {
-                    0xd2e4d060: link = 0xf51ee61a
-                    0xaad7612c: string = "Tailorb"
+                    0x3c6468f4: string = "ASSETS/Characters/Skarner/Skins/Skin06/Skarner_Rework_Skin06_Props_TX_CM.Skarner_Rework.tex"
+                    0xaad7612c: string = "Stone"
                 }
-                0x8b7a4394 {
-                    0xd2e4d060: link = 0xf51ee61a
-                    0xaad7612c: string = "Toporb"
+            }
+            0xe9c98281: list[pointer] = {
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0xaf16cf46
+                    0x96dbc896: hash = 0xae16cdb3
+                    0x50271332: hash = 0x7136e1bc
+                    0x93b7fa73: f32 = 20
+                    0xfaf26cff: f32 = 5
+                }
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0xb8168555
+                    0x96dbc896: hash = 0xb516809c
+                    0x50271332: hash = 0x7136e1bc
+                    0x93b7fa73: f32 = 24
+                    0xfaf26cff: f32 = 6
+                }
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0x4a782e84
+                    0x96dbc896: hash = 0x4d78333d
+                    0x50271332: hash = 0x7136e1bc
+                    0x93b7fa73: f32 = 22
+                    0xfaf26cff: f32 = 4
+                }
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0xbdd959d1
+                    0x96dbc896: hash = 0xb8168555
+                    0x50271332: hash = 0x8a9731a7
+                    0x93b7fa73: f32 = 25
+                    0xfaf26cff: f32 = 5
+                    0x3288d6d8: f32 = 0.5
                 }
             }
         }
@@ -137,11 +264,11 @@ entries: map[hash,embed] = {
         0x84186f3c: list[embed] = {
             0x33068165 {
                 0x9b0300f3: hash = 0x554605ec
-                0x1ecb978c: string = "L_Crystals"
+                0x1ecb978c: string = "Buffbone_Cstm_LeftHand"
             }
             0x33068165 {
                 0x9b0300f3: hash = 0x6b46288e
-                0x1ecb978c: string = "R_Crystals"
+                0x1ecb978c: string = "Buffbone_Cstm_RightHand"
             }
             0x33068165 {
                 0x9b0300f3: hash = 0x2a6c580d
@@ -152,17 +279,16 @@ entries: map[hash,embed] = {
                 0x1ecb978c: string = "C_Buffbone_Glb_Layout_Loc"
             }
         }
-        0x089aff69: string = "ASSETS/Characters/Skarner/HUD/Skarner_Circle_5.dds"
+        0x089aff69: string = "ASSETS/Characters/Skarner/HUD/Skarner_Circle_5.Skarner_Rework.dds"
         0xd8f64a0d: link = 0x8e02d819
         0xe67284f4: option[string] = {
-            "ASSETS/Characters/Skarner/HUD/Skarner_Circle.dds"
+            "ASSETS/Characters/Skarner/HUD/Skarner_Circle_0.Skarner_Rework.dds"
         }
         0xac473fef: option[string] = {
-            "ASSETS/Characters/Skarner/HUD/Skarner_Square.dds"
+            "ASSETS/Characters/Skarner/HUD/Skarner_Square_0.Skarner_Rework.dds"
         }
         0x51c83af8: embed = 0x11b71b5e {
-            0x4d5ff2d7: string = "Buffbone_Cstm_Healthbar"
-            0x3fcb5693: u8 = 9
+            0x3fcb5693: u8 = 10
         }
         0x62286e7e: link = 0x69c649e5
     }

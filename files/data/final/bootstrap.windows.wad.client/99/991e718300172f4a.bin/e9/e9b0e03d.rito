@@ -23,7 +23,7 @@ entries: map[hash,embed] = {
                         0x0640657c: u32 = 4
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "Bloom_Value"
+                        0x8d39bde6: string = "Emissive_Value"
                         0x0640657c: u32 = 8
                     }
                 }
@@ -40,6 +40,16 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Bloom_Value"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter3"
                 0xd872e2a5: vec4 = { 1, 0.39215687, 0.039215688, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
