@@ -1,0 +1,42 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xf97a217f = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/TFTPreGame/UX/RiotUI/IncrementalPurchaseDialog/UIBase/Scene/PurchaseDialog_CloseButton"
+        0x2063cb13: link = 0x598a5e7e
+        0x5a94b0cc: list[link] = {
+            0x2e9feacd
+            0x12ad0459
+            0x6ad7f46c
+            0x96824e96
+            0x7b8aabdc
+        }
+        0x6bf3194e: link = 0x7b8aabdc
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x12ad0459
+            }
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x96824e96
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x2e9feacd
+            }
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x6ad7f46c
+            }
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_CommonUI_button_standard_tap"
+            0x84b6cf03: string = "Play_sfx_PreGameUI_button_standard_release"
+        }
+    }
+}

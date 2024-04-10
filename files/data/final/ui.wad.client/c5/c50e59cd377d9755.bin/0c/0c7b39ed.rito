@@ -1,0 +1,34 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x0c7b39ed = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/TFTPreGame/UX/RiotUI/PlayerProfile/UIBase/PlayerProfileScene/PPMHContent/MHListScene/StatsTemplate/MH_Unit/MH_Unit_Btn"
+        0x2063cb13: link = 0xb9bcece4
+        0x5a94b0cc: list[link] = {
+            0x1d7e0799
+            0xfcc63a3c
+            0x03898dd6
+            0x6359cf51
+            0x398fb75f
+            0xa461fccb
+        }
+        0x6bf3194e: link = 0x398fb75f
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xfcc63a3c
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x1d7e0799
+            }
+        }
+        0x46564588: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xa461fccb
+            }
+        }
+    }
+}

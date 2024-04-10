@@ -1,0 +1,52 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xf39b8602 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/TFTPreGame/UX/RiotUI/NavHeader/UIBase/NavHeaderScene/NavStarShardsButton"
+        0x2063cb13: link = 0x8e4b5f15
+        0x5a94b0cc: list[link] = {
+            0xf2fb80d4
+            0x3fb194ec
+            0x342bd66b
+            0x7a872dfb
+            0x8a459312
+            0x674b2a93
+            0x78fcab75
+        }
+        0x6bf3194e: link = 0x8a459312
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x674b2a93
+                0x3fb194ec
+            }
+            0xeec29756: link = 0x78fcab75
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x674b2a93
+                0x7a872dfb
+            }
+            0xeec29756: link = 0x78fcab75
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x674b2a93
+                0xf2fb80d4
+            }
+            0xeec29756: link = 0x78fcab75
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x674b2a93
+                0x342bd66b
+            }
+            0xeec29756: link = 0x78fcab75
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_CommonUI_button_standard_tap"
+            0x84b6cf03: string = "Play_sfx_PreGameUI_button_StarShards_release"
+        }
+    }
+}

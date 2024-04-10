@@ -1,0 +1,48 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4da57bdb = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/TFTPreGame/UX/RiotUI/IncrementalPurchaseDialog/UIBase/Scene/PurchaseDialog_ConfirmButton"
+        0x2063cb13: link = 0x598a5e7e
+        0x5a94b0cc: list[link] = {
+            0x8ea175f1
+            0xe7f31e55
+            0xf9fe97da
+            0xc32bf118
+            0x13243755
+            0x5b9ce741
+            0x493a3c8e
+        }
+        0x6bf3194e: link = 0xc32bf118
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xe7f31e55
+            }
+            0xeec29756: link = 0x5b9ce741
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xf9fe97da
+            }
+            0xeec29756: link = 0x493a3c8e
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x8ea175f1
+            }
+            0xeec29756: link = 0x13243755
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x8ea175f1
+            }
+            0xeec29756: link = 0x13243755
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_PreGameUI_button_selection_tap"
+            0x84b6cf03: string = "Play_sfx_PreGameUI_store_button_purchase_confirmation_release"
+        }
+    }
+}

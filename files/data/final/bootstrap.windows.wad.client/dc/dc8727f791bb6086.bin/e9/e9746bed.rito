@@ -1,0 +1,28 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe9746bed = 0x95ef430a {
+        0x8d39bde6: string = "MantisSharedMapParameters"
+        0x5127f14d: u32 = 1
+        0xadb3e562: list[embed] = {
+            0x0125d45c {
+                0x8d39bde6: string = "SUN_LIGHTING_COLOR_1"
+                0x5127f14d: u32 = 2
+            }
+            0x0125d45c {
+                0x8d39bde6: string = "SUN_LIGHTING_COLOR_2"
+                0x5127f14d: u32 = 2
+            }
+            0x0125d45c {
+                0x8d39bde6: string = "SOME_OTHER_PARAMETER_1"
+                0x5127f14d: u32 = 2
+            }
+            0x0125d45c {
+                0x8d39bde6: string = "SOME_OTHER_PARAMETER_2"
+                0x5127f14d: u32 = 2
+            }
+        }
+    }
+}

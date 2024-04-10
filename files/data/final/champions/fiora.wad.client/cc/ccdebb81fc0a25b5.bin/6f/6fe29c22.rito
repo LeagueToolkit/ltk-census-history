@@ -8,21 +8,33 @@ entries: map[hash,embed] = {
         0x0a6f0eb5: list2[embed] = {
             0x0904b150 {
                 0x02e7fb4c: string = "Diffuse_Texture"
-                0xb311d4ef: string = "ASSETS/Characters/Fiora/Skins/Skin84/Fiora_Skin84_TX_CM.Chroma_Fiora_Dragonmancer.dds"
+                0xb311d4ef: string = "ASSETS/Characters/Fiora/Skins/Skin84/Fiora_Skin84_TX_CM.dds"
                 0x111ec6d2: u32 = 1
                 0x101ec53f: u32 = 1
                 0x0f1ec3ac: u32 = 1
             }
             0x0904b150 {
                 0x02e7fb4c: string = "iridescentTex"
-                0xb311d4ef: string = "ASSETS/Characters/Fiora/Skins/Skin80/Fiora_Skin80_Body_CM.PIE_C_14_1.dds"
+                0xb311d4ef: string = "ASSETS/Characters/Fiora/Skins/Skin80/Fiora_Skin80_Body_CM.dds"
                 0x111ec6d2: u32 = 1
                 0x101ec53f: u32 = 1
                 0x0f1ec3ac: u32 = 1
             }
             0x0904b150 {
+                0x02e7fb4c: string = "AdditiveScrollTex"
+                0xb311d4ef: string = "ASSETS/Shared/Materials/black.Skarner_Rework.dds"
+                0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
                 0x02e7fb4c: string = "AdditiveScroll_Mask"
-                0xb311d4ef: string = "ASSETS/Characters/Fiora/Skins/Skin80/Fiora_Skin80_MASK_CM.PIE_C_14_1.dds"
+                0xb311d4ef: string = "ASSETS/Shared/Materials/black.Skarner_Rework.dds"
+                0x111ec6d2: u32 = 1
+                0x101ec53f: u32 = 1
+                0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
+                0x02e7fb4c: string = "Diffuse_Texture2"
+                0xb311d4ef: string = "ASSETS/Shared/Materials/black.Skarner_Rework.dds"
                 0x111ec6d2: u32 = 1
                 0x101ec53f: u32 = 1
                 0x0f1ec3ac: u32 = 1
@@ -30,12 +42,52 @@ entries: map[hash,embed] = {
         }
         0xd0ab46b8: list2[embed] = {
             0xde480eef {
+                0x8d39bde6: string = "OutlineColor"
+                0x425ed3ca: vec4 = { 0, 0, 0, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "OutlineThickness"
+                0x425ed3ca: vec4 = { 0.3, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "OutlineSoftness"
+                0x425ed3ca: vec4 = { 0.1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "AdditiveTexTile"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
                 0x8d39bde6: string = "IridescentControl"
                 0x425ed3ca: vec4 = { 1, 0.8, 0.5, 0 }
             }
             0xde480eef {
+                0x8d39bde6: string = "AdditiveStrength_R"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
                 0x8d39bde6: string = "TintColor"
                 0x425ed3ca: vec4 = { 1, 1, 1, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "AdditiveScroll_ColorTint_R"
+                0x425ed3ca: vec4 = { 1, 1, 1, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "AdditiveTexScrollSpeed_R"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "AdditiveTexScrollSpeed_G"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "AdditiveScroll_ColorTint_G"
+                0x425ed3ca: vec4 = { 1, 1, 1, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "AdditiveStrength_G"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Diffuse_Tex_BlendVlue"
             }
             0xde480eef {
                 0x8d39bde6: string = "AdditiveTexScrollSpeed_A"
@@ -56,6 +108,14 @@ entries: map[hash,embed] = {
         0xdd7ddb9d: list2[embed] = {
             0x0e2212a1 {
                 0x8d39bde6: string = "OUTLINE_ON"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "IRIDESCENCE_OUTLINE"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "DIFFUSE_LERP_ON"
                 0x61342fd0: bool = false
             }
             0x0e2212a1 {
