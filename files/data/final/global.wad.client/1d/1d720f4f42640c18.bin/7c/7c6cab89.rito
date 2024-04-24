@@ -6,7 +6,7 @@ entries: map[hash,embed] = {
     0x7c6cab89 = 0x244c26e6 {
         0x822e38a2: string = "AtmasImpalerDummySpell"
         0x74d44065: string = "Item_223011_Name"
-        0x13bddc7b: i32 = 223011
+        0x13bddc7b: u32 = 223011
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
@@ -15,7 +15,7 @@ entries: map[hash,embed] = {
         0x5b0a81be: list[link] = {
             0x50f0b493
         }
-        0x0b44452a: i32 = 3000
+        0x0b44452a: i32 = 2500
         0xe114db54: bool = true
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
@@ -29,10 +29,19 @@ entries: map[hash,embed] = {
                 0x19efbfdb: string = "GrievousDuration"
                 0x24f2ec89: f32 = 3
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "GrievousAmpAmount"
+                0x24f2ec89: f32 = 0.6
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "GrievousAmpThreshold"
+                0x24f2ec89: f32 = 0.8
+            }
         }
         0x5b98619f: f32 = 30
         0x288a964d: f32 = 40
-        0x0c3d1323: f32 = 0.16
+        0x0c3d1323: f32 = 0.12
+        0x46493f5f: f32 = 0.5
         0xa77b63e1: f32 = 0.75
         0xccf99b44: list[string] = {
             "SpellDamage"
@@ -55,6 +64,7 @@ entries: map[hash,embed] = {
                     "keyInventoryOnlyText" = "Item_223011_InventoryOnlyText"
                     "keyTooltip" = "Item_223011_Tooltip"
                     "keyColloquialism" = "Item_3011_Colloquialism"
+                    "keySummary" = "Item_223011_Summary"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -64,14 +74,12 @@ entries: map[hash,embed] = {
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "HealShieldPower"
-                                0x566f3406: string = "BuffedStat_HealShieldPower"
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "BaseManaRegen"
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "AbilityHaste"
-                                0x566f3406: string = "BuffedStat_Haste"
                             }
                         }
                     }

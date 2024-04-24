@@ -144,25 +144,25 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BaseDamage"
                     0x246b0d8e: list[f32] = {
-                        15
-                        65
-                        115
-                        165
-                        215
-                        265
-                        315
+                        10
+                        60
+                        110
+                        160
+                        210
+                        260
+                        310
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "MonsterDamage"
                     0x246b0d8e: list[f32] = {
                         -5
-                        5
-                        15
+                        10
                         25
-                        35
-                        45
+                        40
                         55
+                        70
+                        85
                     }
                 }
             }
@@ -274,6 +274,7 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_OlafAxeThrowCast_Name"
                         "keySummary" = "Spell_OlafAxeThrowCast_Summary"
                         "keyTooltip" = "Spell_OlafAxeThrowCast_Tooltip"
+                        "keyTooltipExtendedBelowLine" = "Spell_OlafAxeThrowCast_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
@@ -285,10 +286,6 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Cost"
-                                    0x566f3406: string = "Spell_ListType_ManaCost"
-                                }
-                                0x9a1b3505 {
                                     0x5127f14d: string = "SlowAmount"
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_Slow"
@@ -297,6 +294,10 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "MonsterDamage"
                                     0x566f3406: string = "Spell_ListType_MonsterDamage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cost"
+                                    0x566f3406: string = "Spell_ListType_ManaCost"
                                 }
                             }
                         }

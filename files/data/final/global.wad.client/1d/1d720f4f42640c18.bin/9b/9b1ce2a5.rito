@@ -7,7 +7,7 @@ entries: map[hash,embed] = {
         0x822e38a2: string = "223152Active"
         0x74d44065: string = "Item_7011_Name"
         0x17982f46: string = "HextechRocketBelt"
-        0x13bddc7b: i32 = 227011
+        0x13bddc7b: u32 = 227011
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
@@ -22,7 +22,7 @@ entries: map[hash,embed] = {
         0xf028019b: bool = true
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
-        0x5ee3c453: u8 = 6
+        0x5ee3c453: u8 = 5
         0x8fd9f6e7: u8 = 7
         0x2c359091: list[link] = {
             0x8d92e4f3
@@ -41,15 +41,15 @@ entries: map[hash,embed] = {
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "Cooldown"
-                0x24f2ec89: f32 = 0.3
+                0x24f2ec89: f32 = 25
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "BaseDamage"
-                0x24f2ec89: f32 = 1.5
+                0x24f2ec89: f32 = 100
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "APRatio"
-                0x24f2ec89: f32 = 5
+                0x24f2ec89: f32 = 0.1
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -68,6 +68,7 @@ entries: map[hash,embed] = {
         0x06d997bb: f32 = 500
         0xec1482d9: f32 = 15
         0x288a964d: f32 = 120
+        0x46493f5f: f32 = 0.5
         0xccf99b44: list[string] = {
             "Health"
             "SpellDamage"
@@ -91,6 +92,7 @@ entries: map[hash,embed] = {
                     "keyColloquialism" = "Item_3152_Colloquialism"
                     "keyTooltipExtendedRules" = "Item_3152_TooltipExtendedRules"
                     "keyInventoryOnlyText" = "Item_3152_InventoryOnlyText"
+                    "keySummary" = "Item_223152_Summary"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -100,16 +102,12 @@ entries: map[hash,embed] = {
                                 0x566f3406: string = "OrnnStat_AP"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "MagicPen"
+                                0x5127f14d: string = "Health"
                                 0x566f3406: string = "OrnnStat_MPen"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "Health"
-                                0x566f3406: string = "OrnnStat_Health"
-                            }
-                            0x9a1b3505 {
                                 0x5127f14d: string = "AbilityHaste"
-                                0x566f3406: string = "OrnnStat_Haste"
+                                0x566f3406: string = "OrnnStat_Health"
                             }
                         }
                     }
@@ -121,7 +119,6 @@ entries: map[hash,embed] = {
             0xc68db52e: string = "ASSETS/Items/Icons2D/3152_Mage_T4_HextechRocketBelt.dds"
             0xe963940d: string = "ASSETS/Items/Icons2D/AutoAtlas/SmallIcons/3152_Mage_T4_HextechRocketBelt.png"
             0x023e40a9: string = "ASSETS/Items/Icons2D/AutoAtlas/LargeIcons/3152_Mage_T4_HextechRocketBelt.png"
-            0xe3f7ce73: link = 0x26961598
             0x5ee3c453: u8 = 6
         }
         0x5f8284a2: pointer = 0xef3a0f33 {

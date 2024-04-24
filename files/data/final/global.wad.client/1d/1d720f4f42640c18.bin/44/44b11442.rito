@@ -4,29 +4,22 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x44b11442 = 0x244c26e6 {
-        0x822e38a2: string = ""
+        0x822e38a2: string = "3748Active"
         0x74d44065: string = "Item_223748_Name"
         0x95f1b682: string = "game_item_requirePurchaseIdentity_Melee"
         0x17982f46: string = "ItemTitanicHydra"
-        0x13bddc7b: i32 = 223748
+        0x13bddc7b: u32 = 223748
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
+            0x22b8e842
         }
-        0x0b44452a: i32 = 3000
+        0x0b44452a: i32 = 2500
         0xf028019b: bool = true
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
         0x1f4d20a6: list[embed] = {
-            0xb2c62c87 {
-                0x19efbfdb: string = "PrimaryTargetBase"
-                0x24f2ec89: f32 = 4
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "SplashBase"
-                0x24f2ec89: f32 = 40
-            }
             0xb2c62c87 {
                 0x19efbfdb: string = "PrimaryTargetHPRatio"
                 0x24f2ec89: f32 = 0.015
@@ -37,23 +30,15 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "RangedEffectiveness"
-                0x24f2ec89: f32 = 0.75
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "ActivePrimaryTargetBase"
-                0x24f2ec89: f32 = 40
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "ActiveSplashBase"
-                0x24f2ec89: f32 = 40
+                0x24f2ec89: f32 = 0.5
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ActivePrimaryTargetHPRatio"
-                0x24f2ec89: f32 = 0.1
+                0x24f2ec89: f32 = 0.04
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ActiveSplashHPRatio"
-                0x24f2ec89: f32 = 0.1
+                0x24f2ec89: f32 = 0.09
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ActiveRangedEffectiveness"
@@ -62,10 +47,6 @@ entries: map[hash,embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "Cooldown"
                 0x24f2ec89: f32 = 10
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "BonusHealthToADRatio"
-                0x24f2ec89: f32 = 0.015
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -117,18 +98,10 @@ entries: map[hash,embed] = {
                     0xb386dcf1: hash = 0xea1217fc
                 }
             }
-            0x5119f0ff = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x5f5c70a4 {
-                        0x4cec2c8a: u8 = 11
-                        0x7d3150ec: u8 = 2
-                        0xb386dcf1: hash = 0xc3003be1
-                    }
-                }
-            }
         }
         0x06d997bb: f32 = 400
-        0x4e7a81cd: f32 = 50
+        0x4e7a81cd: f32 = 40
+        0x46493f5f: f32 = 0.5
         0xccf99b44: list[string] = {
             "Health"
             "HealthRegen"
@@ -149,11 +122,13 @@ entries: map[hash,embed] = {
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_223748_Name"
                     "keyBrief" = "Item_223748_Brief"
-                    "keyTooltip" = "Item_223748_Tooltip"
+                    "keyTooltip" = "Item_3748_Tooltip"
                     "keyColloquialism" = "Item_3748_Colloquialism"
                     "keyActiveExternal" = "Item_3748_ActiveExternal"
                     "keySecondaryBrief" = "Item_Unique_Hydra"
                     "keyTooltipExtendedRules" = "Item_3748_TooltipExtendedRules"
+                    "keySummary" = "Item_223748_Summary"
+                    "keyActive" = "Item_3748_Active"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {

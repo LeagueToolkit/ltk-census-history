@@ -5,7 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x9192eb3f = 0x244c26e6 {
         0x74d44065: string = "Item_223156_Name"
-        0x13bddc7b: i32 = 223156
+        0x13bddc7b: u32 = 223156
         0x72d02fc7: list[link] = {
             0xb0bee26d
             0x69bb99e4
@@ -14,7 +14,7 @@ entries: map[hash,embed] = {
             0x48ff8661
             0xdfe0e8e4
         }
-        0x0b44452a: i32 = 3000
+        0x0b44452a: i32 = 2500
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
@@ -48,7 +48,7 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 5
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "ShieldCooldown"
+                0x19efbfdb: string = "Cooldown"
                 0x24f2ec89: f32 = 45
             }
             0xb2c62c87 {
@@ -133,11 +133,16 @@ entries: map[hash,embed] = {
                 }
             }
         }
-        0xb9f972a0: f32 = 50
-        0x4e7a81cd: f32 = 65
+        0x5b98619f: f32 = 15
+        0xb9f972a0: f32 = 40
+        0x4e7a81cd: f32 = 50
+        0x46493f5f: f32 = 0.5
         0xccf99b44: list[string] = {
             "SpellBlock"
             "Damage"
+            "LifeSteal"
+            "SpellVamp"
+            "AbilityHaste"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
@@ -158,12 +163,17 @@ entries: map[hash,embed] = {
                     "keyTooltipExternal" = "Item_223156_TooltipExternal"
                     "keyInventoryOnlyText" = "Item_3156_InventoryOnlyText"
                     "keySecondaryBrief" = "Item_Unique_Lifeline"
+                    "keySummary" = "Item_223156_Summary"
+                    "keyTooltipInventory" = "Item_223156_TooltipDynamic"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
                         0x5a94b0cc: list[embed] = {
                             0x9a1b3505 {
                                 0x5127f14d: string = "AttackDamage"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "AbilityHaste"
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "MagicResist"

@@ -9,7 +9,7 @@ entries: map[hash,embed] = {
         0x514b1c48: i32 = 41
         0x939e7b29: string = "faction:ionia,gender:male,race:human,skinline:zenithgames"
         0x97f7188d: embed = 0xd06263ff {
-            0xb35135fa: string = "ASSETS/Characters/LeeSin/Skins/Skin41/LeeSinLoadScreen_41.dds"
+            0xb35135fa: string = "ASSETS/Characters/LeeSin/Skins/Skin41/LeeSinLoadScreen_41.ASU_LeeSin.dds"
         }
         0x8f7b194f: embed = 0x8f7b194f {
             0xd65bac4d: list[string] = {
@@ -26,14 +26,6 @@ entries: map[hash,embed] = {
                     }
                     0x12d8e384: list[string] = {
                         "Play_vo_LeeSin_Attack2DGeneral"
-                        "Play_vo_LeeSin_BlindMonkEOne_cast3D"
-                        "Play_vo_LeeSin_BlindMonkETwo_cast3D"
-                        "Play_vo_LeeSin_BlindMonkQOne_cast3D"
-                        "Play_vo_LeeSin_BlindMonkQTwo_cast3D"
-                        "Play_vo_LeeSin_BlindMonkRKick_cast3D"
-                        "Play_vo_LeeSin_BlindMonkWOne_hit3D"
-                        "Play_vo_LeeSin_BlindMonkWOne_hit3DAlly"
-                        "Play_vo_LeeSin_BlindMonkWTwo_cast3D"
                         "Play_vo_LeeSin_Death3D"
                         "Play_vo_LeeSin_FirstEncounter3DAurelionSol"
                         "Play_vo_LeeSin_FirstEncounter3DFreljord"
@@ -69,6 +61,14 @@ entries: map[hash,embed] = {
                         "Play_vo_LeeSin_LeeSinBasicAttack4_cast3D"
                         "Play_vo_LeeSin_LeeSinBasicAttack_cast3D"
                         "Play_vo_LeeSin_LeeSinCritAttack_cast3D"
+                        "Play_vo_LeeSin_LeeSinEOne_cast3D"
+                        "Play_vo_LeeSin_LeeSinETwo_cast3D"
+                        "Play_vo_LeeSin_LeeSinQOne_cast3D"
+                        "Play_vo_LeeSin_LeeSinQTwo_cast3D"
+                        "Play_vo_LeeSin_LeeSinR_cast3D"
+                        "Play_vo_LeeSin_LeeSinWOne_hit3D"
+                        "Play_vo_LeeSin_LeeSinWOne_hit3DAlly"
+                        "Play_vo_LeeSin_LeeSinWTwo_cast3D"
                         "Play_vo_LeeSin_Move2DFirst"
                         "Play_vo_LeeSin_Move2DLong"
                         "Play_vo_LeeSin_Move2DStandard"
@@ -85,25 +85,12 @@ entries: map[hash,embed] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/LeeSin/Skins/Skin41/LeeSin_Skin41_SFX_events.bnk"
                     }
                     0x12d8e384: list[string] = {
-                        "Play_sfx_LeeSinSkin41_BlindMonkEOne_OnCast"
-                        "Play_sfx_LeeSinSkin41_BlindMonkETwo_OnCast"
-                        "Play_sfx_LeeSinSkin41_BlindMonkETwoMissile_OnBuffActivate"
-                        "Play_sfx_LeeSinSkin41_BlindMonkQOne_hit"
-                        "Play_sfx_LeeSinSkin41_BlindMonkQOne_OnBuffActivate"
-                        "Play_sfx_LeeSinSkin41_BlindMonkQOne_OnCast"
-                        "Play_sfx_LeeSinSkin41_BlindMonkQOne_OnMissileLaunch"
-                        "Play_sfx_LeeSinSkin41_BlindMonkQOneChaos_OnBuffActivate"
-                        "Play_sfx_LeeSinSkin41_BlindMonkQTwo_missilelaunch"
-                        "Play_sfx_LeeSinSkin41_BlindMonkQTwo_OnCast"
-                        "Play_sfx_LeeSinSkin41_BlindMonkQTwoDash_hit"
-                        "Play_sfx_LeeSinSkin41_BlindMonkRKick_hit"
-                        "Play_sfx_LeeSinSkin41_BlindMonkRKick_OnCast"
-                        "Play_sfx_LeeSinSkin41_BlindMonkRKick_OnHit"
-                        "Play_sfx_LeeSinSkin41_BlindMonkWOne_missilelaunch"
-                        "Play_sfx_LeeSinSkin41_BlindMonkWOne_OnCast"
-                        "Play_sfx_LeeSinSkin41_BlindMonkWOneShield_OnBuffActivate"
-                        "Play_sfx_LeeSinSkin41_BlindMonkWOneShield_OnBuffDeactivate"
-                        "Play_sfx_LeeSinSkin41_BlindMonkWTwo_OnCast"
+                        "Play_sfx_LeeSinSkin41_Dance3D_buffactivate"
+                        "Play_sfx_LeeSinSkin41_Dance3D_buffactivate_loop"
+                        "Play_sfx_LeeSinSkin41_Death3D_cast"
+                        "Play_sfx_LeeSinSkin41_Idle3D_buffactivate"
+                        "Play_sfx_LeeSinSkin41_Joke3D_buffactivate"
+                        "Play_sfx_LeeSinSkin41_Laugh3D_buffactivate"
                         "Play_sfx_LeeSinSkin41_LeeSinBasicAttack2_OnCast"
                         "Play_sfx_LeeSinSkin41_LeeSinBasicAttack2_OnHit"
                         "Play_sfx_LeeSinSkin41_LeeSinBasicAttack3_OnCast"
@@ -114,14 +101,37 @@ entries: map[hash,embed] = {
                         "Play_sfx_LeeSinSkin41_LeeSinBasicAttack_OnHit"
                         "Play_sfx_LeeSinSkin41_LeeSinCritAttack_OnCast"
                         "Play_sfx_LeeSinSkin41_LeeSinCritAttack_OnHit"
-                        "Play_sfx_LeeSinSkin41_Recall_oba"
-                        "Stop_sfx_LeeSinSkin41_BlindMonkETwoMissile_OnBuffActivate"
-                        "Stop_sfx_LeeSinSkin41_BlindMonkQOne_OnBuffActivate"
-                        "Stop_sfx_LeeSinSkin41_BlindMonkQOne_OnMissileLaunch"
-                        "Stop_sfx_LeeSinSkin41_BlindMonkQOneChaos_OnBuffActivate"
-                        "Stop_sfx_LeeSinSkin41_BlindMonkQTwo_missilelaunch"
-                        "Stop_sfx_LeeSinSkin41_BlindMonkWOne_missilelaunch"
-                        "Stop_sfx_LeeSinSkin41_BlindMonkWOneShield_OnBuffActivate"
+                        "Play_sfx_LeeSinSkin41_LeeSinEOne_hitlocation_ground"
+                        "Play_sfx_LeeSinSkin41_LeeSinEOne_OnBuffActivate"
+                        "Play_sfx_LeeSinSkin41_LeeSinEOne_OnCast"
+                        "Play_sfx_LeeSinSkin41_LeeSinEOne_OnHitLocation"
+                        "Play_sfx_LeeSinSkin41_LeeSinETwo_OnCast"
+                        "Play_sfx_LeeSinSkin41_LeeSinETwoDebuff_buffactivate"
+                        "Play_sfx_LeeSinSkin41_LeeSinQOne_OnBuffActivate"
+                        "Play_sfx_LeeSinSkin41_LeeSinQOne_OnBuffDeactivate"
+                        "Play_sfx_LeeSinSkin41_LeeSinQOne_OnCast"
+                        "Play_sfx_LeeSinSkin41_LeeSinQOne_OnHit"
+                        "Play_sfx_LeeSinSkin41_LeeSinQOne_OnMissileLaunch"
+                        "Play_sfx_LeeSinSkin41_LeeSinQTwo_OnCast"
+                        "Play_sfx_LeeSinSkin41_LeeSinQTwoDash_buffactivate"
+                        "Play_sfx_LeeSinSkin41_LeeSinQTwoDash_hit"
+                        "Play_sfx_LeeSinSkin41_LeeSinR_hit2"
+                        "Play_sfx_LeeSinSkin41_LeeSinR_OnCast"
+                        "Play_sfx_LeeSinSkin41_LeeSinR_OnHit"
+                        "Play_sfx_LeeSinSkin41_LeeSinWOne_OnCast"
+                        "Play_sfx_LeeSinSkin41_LeeSinWOneDash_OnBuffActivate"
+                        "Play_sfx_LeeSinSkin41_LeeSinWOneShield_OnBuffActivate"
+                        "Play_sfx_LeeSinSkin41_LeeSinWOneShield_OnBuffDeactivate"
+                        "Play_sfx_LeeSinSkin41_LeeSinWTwo_OnCast"
+                        "Play_sfx_LeeSinSkin41_Recall3D_buffactivate"
+                        "Play_sfx_LeeSinSkin41_Respawn3D_buffactivate"
+                        "Play_sfx_LeeSinSkin41_Taunt3D_buffactivate"
+                        "Stop_sfx_LeeSinSkin41_LeeSinETwoDebuff_buffactivate"
+                        "Stop_sfx_LeeSinSkin41_LeeSinQOne_OnBuffActivate"
+                        "Stop_sfx_LeeSinSkin41_LeeSinQOne_OnMissileLaunch"
+                        "Stop_sfx_LeeSinSkin41_LeeSinQTwoDash_buffactivate"
+                        "Stop_sfx_LeeSinSkin41_LeeSinWOneDash_OnBuffActivate"
+                        "Stop_sfx_LeeSinSkin41_LeeSinWOneShield_OnBuffActivate"
                     }
                 }
             }
@@ -130,14 +140,10 @@ entries: map[hash,embed] = {
             0xf5fb07c7: link = 0x481b3fab
         }
         0x45ff5904: embed = 0x6111d8a4 {
-            0xb14c976e: string = "ASSETS/Characters/LeeSin/Skins/Skin41/LeeSin_Skin41.skl"
-            0xd6a00df6: string = "ASSETS/Characters/LeeSin/Skins/Skin41/LeeSin_Skin41.skn"
-            0x3c6468f4: string = "ASSETS/Characters/LeeSin/Skins/Skin46/LeeSin_Skin46_TX_CM.dds"
-            0xa1f805da: f32 = 1.82
+            0xb14c976e: string = "ASSETS/Characters/LeeSin/Skins/Skin41/LeeSin_Skin41.ASU_LeeSin.skl"
+            0xd6a00df6: string = "ASSETS/Characters/LeeSin/Skins/Skin41/LeeSin_Skin41.ASU_LeeSin.skn"
+            0x3c6468f4: string = "ASSETS/Characters/LeeSin/Skins/Skin46/LeeSin_Skin46_TX_CM.Chroma_LeeSin_ZenithGames_ASU2024.dds"
             0x252f6884: f32 = 0.9
-            0x5c7a0332: option[vec3] = {
-                { 100, 130, 50 }
-            }
             0x80b7f78f: string = " UAV RecallProp TracheaA TracheaB"
             0x24725910: list[embed] = {
                 0x8b7a4394 {
@@ -153,17 +159,29 @@ entries: map[hash,embed] = {
                     0xaad7612c: string = "Glasses"
                 }
             }
+            0xe9c98281: list[pointer] = {
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0x633c9818
+                    0x96dbc896: hash = 0x62638a1e
+                    0x50271332: hash = 0x0d40c09d
+                    0x93b7fa73: f32 = 200
+                    0xfaf26cff: f32 = 25
+                    0xa4e3d433: bool = true
+                    0x0afc0620: f32 = 1
+                }
+            }
         }
         0x2d0d1f1d: string = "Flesh"
-        0x089aff69: string = "ASSETS/Characters/LeeSin/HUD/LeeSin_Circle_41.dds"
+        0x089aff69: string = "ASSETS/Characters/LeeSin/HUD/LeeSin_Circle_41.ASU_LeeSin.dds"
         0xd8f64a0d: link = 0xcde1446f
         0xe67284f4: option[string] = {
-            "ASSETS/Characters/LeeSin/HUD/LeeSin_Circle.dds"
+            "ASSETS/Characters/LeeSin/HUD/LeeSin_Circle_0.ASU_LeeSin.dds"
         }
         0xac473fef: option[string] = {
-            "ASSETS/Characters/LeeSin/HUD/LeeSin_Square.dds"
+            "ASSETS/Characters/LeeSin/HUD/LeeSin_Square_0.ASU_LeeSin.dds"
         }
         0x51c83af8: embed = 0x11b71b5e {
+            0x4d5ff2d7: string = "Buffbone_Cstm_Healthbar"
             0x3fcb5693: u8 = 10
         }
         0x62286e7e: link = 0xa9be0e49

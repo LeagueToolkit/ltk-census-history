@@ -6,19 +6,18 @@ entries: map[hash,embed] = {
     0x0f83ed03 = 0x244c26e6 {
         0x822e38a2: string = "6630Active"
         0x74d44065: string = "Item_226630_Name"
-        0x13bddc7b: i32 = 226630
+        0x13bddc7b: u32 = 226630
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
-            0x218b5fe6
             0x2d3cbf52
         }
-        0x0b44452a: i32 = 3000
+        0x0b44452a: i32 = 2500
         0xf028019b: bool = true
         0x51c4b876: bool = true
         0xf7250cac: bool = false
         0xd1dbada1: bool = true
-        0x5ee3c453: u8 = 6
+        0x5ee3c453: u8 = 5
         0xb6188f47: list[link] = {
             0x0c7ef6d4
         }
@@ -39,26 +38,12 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 0.1
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "MythicHealthPerLegendary"
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "MythicADPerLegendary"
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "MythicHasteAmount"
-                0x24f2ec89: f32 = 3
-            }
-            0xb2c62c87 {
                 0x19efbfdb: string = "CleaveRadius"
                 0x24f2ec89: f32 = 450
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "HealBaseADRatio"
                 0x24f2ec89: f32 = 0.2
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "MythicHealthAmount"
-                0x24f2ec89: f32 = 50
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "APRatio"
@@ -82,17 +67,6 @@ entries: map[hash,embed] = {
                     }
                 }
             }
-            0x16a7e1a7 = 0xbc409284 {
-                0x2c77adff: pointer = 0x332eb441 {
-                    0xb386dcf1: hash = 0x18e822d2
-                }
-                0x50f145c0: list[pointer] = {
-                    0x663d5e00 {
-                        0xcac1b6d2: f32 = 1
-                        0x5ee3c453: u8 = 5
-                    }
-                }
-            }
             0x3a69585b = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
                     0x5f5c70a4 {
@@ -104,22 +78,12 @@ entries: map[hash,embed] = {
                     }
                 }
             }
-            0xe127efac = 0xbc409284 {
-                0x2c77adff: pointer = 0x332eb441 {
-                    0xb386dcf1: hash = 0x96baa391
-                }
-                0x50f145c0: list[pointer] = {
-                    0x663d5e00 {
-                        0xcac1b6d2: f32 = 1
-                        0x5ee3c453: u8 = 5
-                    }
-                }
-            }
         }
-        0x5b98619f: f32 = 20
+        0x5b98619f: f32 = 10
         0x06d997bb: f32 = 400
-        0x4e7a81cd: f32 = 55
+        0x4e7a81cd: f32 = 45
         0xb779205d: f32 = 0.08
+        0x46493f5f: f32 = 0.5
         0xccf99b44: list[string] = {
             "Health"
             "Damage"
@@ -128,9 +92,6 @@ entries: map[hash,embed] = {
             "CooldownReduction"
             "SpellVamp"
             "AbilityHaste"
-        }
-        0x57c6c7d0: embed = 0xc03becd9 {
-            0x5d7d4fb0: bool = true
         }
         0x57558bca: list[u8] = {
             1
@@ -148,6 +109,7 @@ entries: map[hash,embed] = {
                     "keyActiveExternal" = "Item_226630_ActiveExternal"
                     "keyColloquialism" = "Item_6630_Colloquialism"
                     "keyTooltipExternal" = "Item_226630_TooltipExternal"
+                    "keySummary" = "Item_226630_Summary"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -174,7 +136,6 @@ entries: map[hash,embed] = {
             0xc68db52e: string = "ASSETS/Items/Icons2D/6630_Fighter_T4_GoreDrinker.dds"
             0xe963940d: string = "ASSETS/Items/Icons2D/AutoAtlas/SmallIcons/6630_Fighter_T4_GoreDrinker.png"
             0x023e40a9: string = "ASSETS/Items/Icons2D/AutoAtlas/LargeIcons/6630_Fighter_T4_GoreDrinker.png"
-            0xe3f7ce73: link = 0x50091535
             0x5ee3c453: u8 = 6
         }
         0x5f8284a2: pointer = 0xef3a0f33 {

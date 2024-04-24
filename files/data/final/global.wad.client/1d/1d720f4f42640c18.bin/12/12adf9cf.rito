@@ -5,45 +5,49 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x12adf9cf = 0x244c26e6 {
         0x74d44065: string = "Item_223181_Name"
-        0x13bddc7b: i32 = 223181
+        0x13bddc7b: u32 = 223181
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
             0x212a0d1a
             0x34242e30
         }
-        0x0b44452a: i32 = 3000
+        0x0b44452a: i32 = 2500
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "SkipperADRatio"
-                0x24f2ec89: f32 = 900
+                0x24f2ec89: f32 = 1.4
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "SkipperADRatioVSStructures"
-                0x24f2ec89: f32 = 3
+                0x24f2ec89: f32 = 4
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "SkipperStackDuration"
-                0x24f2ec89: f32 = 0.2
+                0x24f2ec89: f32 = 10
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "RangedSkipperADRatio"
-                0x24f2ec89: f32 = 20
+                0x24f2ec89: f32 = 0.7
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "RangedSkipperADRatioVSStructures"
-                0x24f2ec89: f32 = 0.2
+                0x24f2ec89: f32 = 2
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MaxStackDamageHPRatio"
-                0x24f2ec89: f32 = 3
+                0x24f2ec89: f32 = 0.035
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MaxStackDamageVSStructuresHPRatio"
                 0x24f2ec89: f32 = 0.07
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "IsolationRange"
+                0x24f2ec89: f32 = 900
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -115,31 +119,82 @@ entries: map[hash,embed] = {
                     }
                 }
             }
+            0x56b3f555 = 0xe9ced584 {
+                0xcbcac618: u8 = 5
+                0x37070a8d: u8 = 5
+                0xe6eebb2f: u8 = 5
+                0x011436b4: hash = 0x792cf56b
+                0x006fde67: hash = 0x06387172
+                0xc0482365: pointer = 0xdc65ffe4 {}
+            }
+            0x792cf56b = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x9ef92080 {
+                        0xe202bca9: f32 = 1
+                    }
+                }
+            }
+            0x06387172 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x9ef92080 {
+                        0xe202bca9: f32 = 2
+                    }
+                }
+            }
+            0x6304eac4 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 2
+                        0x7d3150ec: u8 = 1
+                        0xb386dcf1: hash = 0xe6a24c87
+                    }
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 11
+                        0xb386dcf1: hash = 0xf35b5a79
+                    }
+                }
+            }
+            0xb5555429 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 2
+                        0x7d3150ec: u8 = 1
+                        0xb386dcf1: hash = 0xf19c697c
+                    }
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 11
+                        0xb386dcf1: hash = 0xf35b5a79
+                    }
+                }
+            }
+            0xe5c634ce = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x15fecdbc {
+                        0xd06c375d: f32 = 20
+                        0x1cd7e522: f32 = 100
+                    }
+                }
+            }
+            0x3b00d8b1 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x15fecdbc {
+                        0xd06c375d: f32 = 10
+                        0x1cd7e522: f32 = 50
+                    }
+                }
+            }
         }
-        0x4308c416: map[hash,pointer] = {
-            0x6e8f1501 = 0x4750ceb6 {
-                0xf61974d2: string = "@MaxStackDamage@"
-                0x158508fb: string = "@RangedMaxStackDamage@"
-                0xd92cd177: string = "@MaxStackDamage@"
-            }
-            0x66f6bdb2 = 0x4750ceb6 {
-                0xf61974d2: string = "@MaxStackDamageVSStructures@"
-                0x158508fb: string = "@RangedMaxStackDamageVSStructures@"
-                0xd92cd177: string = "@MaxStackDamageVSStructures@"
-            }
-            0x1c85ffe0 = 0x4750ceb6 {
-                0xf61974d2: string = "@MeleeBonusMinionResists@"
-                0x158508fb: string = "@RangedBonusMinionResists@"
-                0xd92cd177: string = "@MeleeBonusMinionResists@"
-            }
-        }
-        0x06d997bb: f32 = 500
+        0x06d997bb: f32 = 450
         0x1bbe94ff: f32 = 0.05
         0xb739c155: f32 = 0.05
-        0x4e7a81cd: f32 = 65
+        0x4e7a81cd: f32 = 55
+        0x46493f5f: f32 = 0.5
         0xccf99b44: list[string] = {
             "Health"
+            "SpellBlock"
+            "Armor"
             "Damage"
+            "OnHit"
             "NonbootsMovement"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
@@ -158,18 +213,18 @@ entries: map[hash,embed] = {
                     "keyTooltip" = "Item_223181_Tooltip"
                     "keyTooltipExternal" = "Item_223181_TooltipExternal"
                     "keyColloquialism" = "Item_3181_Colloquialism"
-                    "keyInventoryOnlyText" = "Item_3181_InventoryOnlyText"
+                    "keyInventoryOnlyText" = "Item_223181_InventoryOnlyText"
+                    "keySummary" = "Item_223181_Summary"
+                    "keyTooltipInventory" = "Item_223181_TooltipInventory"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
                         0x5a94b0cc: list[embed] = {
                             0x9a1b3505 {
                                 0x5127f14d: string = "AttackDamage"
-                                0x566f3406: string = "BuffedStat_AD"
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "Health"
-                                0x566f3406: string = "BuffedStat_Health"
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "MoveSpeedPercent"

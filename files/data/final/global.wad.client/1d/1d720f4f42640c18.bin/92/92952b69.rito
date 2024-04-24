@@ -5,7 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x92952b69 = 0x244c26e6 {
         0x74d44065: string = "Item_223165_Name"
-        0x13bddc7b: i32 = 223165
+        0x13bddc7b: u32 = 223165
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
@@ -14,7 +14,7 @@ entries: map[hash,embed] = {
         0x5b0a81be: list[link] = {
             0x50f0b493
         }
-        0x0b44452a: i32 = 3000
+        0x0b44452a: i32 = 2500
         0xe114db54: bool = true
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
@@ -34,10 +34,19 @@ entries: map[hash,embed] = {
                 0x19efbfdb: string = "GrievousDuration"
                 0x24f2ec89: f32 = 3
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "GrievousAmpAmount"
+                0x24f2ec89: f32 = 0.6
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "GrievousAmpThreshold"
+                0x24f2ec89: f32 = 0.8
+            }
         }
         0x5b98619f: f32 = 15
         0x06d997bb: f32 = 250
-        0x288a964d: f32 = 100
+        0x288a964d: f32 = 80
+        0x46493f5f: f32 = 0.5
         0xccf99b44: list[string] = {
             "SpellDamage"
             "CooldownReduction"
@@ -61,17 +70,16 @@ entries: map[hash,embed] = {
                     "keyTooltip" = "Item_223165_Tooltip"
                     "keyColloquialism" = "Item_3165_Colloquialism"
                     "keyKeywordDefinitions" = "Item_3165_KeywordDefinitions"
+                    "keySummary" = "Item_223165_Summary"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
                         0x5a94b0cc: list[embed] = {
                             0x9a1b3505 {
                                 0x5127f14d: string = "AbilityPower"
-                                0x566f3406: string = "BuffedStat_AP"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "AbilityHaste"
-                                0x566f3406: string = "BuffedStat_Health"
+                                0x5127f14d: string = "Health"
                             }
                         }
                     }

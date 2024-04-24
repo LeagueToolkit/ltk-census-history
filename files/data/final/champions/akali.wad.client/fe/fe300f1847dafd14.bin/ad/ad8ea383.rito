@@ -1,0 +1,68 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xad8ea383 = 0xff9d3409 {
+        0x8d39bde6: string = "Characters/Akali/Skins/Skin87/Materials/Flames_inst"
+        0x0a6f0eb5: list2[embed] = {
+            0x0904b150 {
+                0x02e7fb4c: string = "Diffuse_Texture"
+                0xb311d4ef: string = "ASSETS/Characters/Akali/Skins/Skin87/Particles/Akali_Skin87_Flame_Color_Mat2.Chroma_Akali_Empyrean.dds"
+                0x111ec6d2: u32 = 1
+                0x101ec53f: u32 = 1
+                0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
+                0x02e7fb4c: string = "Panning_Texture"
+                0xb311d4ef: string = "ASSETS/Characters/Akali/Skins/Skin82/Particles/Akali_Skin82_Flame_Color_Mat_Mul3.SKINS_Akali_Skin82.dds"
+                0x0f1ec3ac: u32 = 1
+            }
+        }
+        0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "Panning_Scale"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Panning_Speed"
+                0x425ed3ca: vec4 = { 0, -0.5, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Bloom_Intensity"
+                0x425ed3ca: vec4 = { 0.7, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Alpha_Control"
+            }
+        }
+        0xe6d67ded: map[string,string] = {
+            "NUM_BLEND_WEIGHTS" = "4"
+        }
+        0x844f384e: list[embed] = {
+            0x060a4413 {
+                0x8d39bde6: string = "normal"
+                0x623cd25c: list[embed] = {
+                    0x8537d0c2 {
+                        0x355d5568: link = 0x6e9b4f0f
+                        0x23b75597: bool = true
+                        0x4b0f55ce: bool = false
+                        0x22c0c7d0: u32 = 6
+                        0xa0958d01: u32 = 6
+                        0xbe0abbf5: u32 = 7
+                        0x7385e534: u32 = 7
+                    }
+                }
+            }
+        }
+        0x9330e6b6: list[embed] = {
+            0x735b4c95 {
+                0x8d39bde6: string = "transition"
+                0xb696a5fe: string = "normal"
+                0xe6d67ded: map[string,string] = {
+                    "TRANSITION" = "1"
+                }
+            }
+        }
+    }
+}

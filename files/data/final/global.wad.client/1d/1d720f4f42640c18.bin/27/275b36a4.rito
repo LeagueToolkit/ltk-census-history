@@ -6,7 +6,7 @@ entries: map[hash,embed] = {
     0x275b36a4 = 0x244c26e6 {
         0x74d44065: string = "Item_7001_Name"
         0x40244883: string = "Ornn"
-        0x13bddc7b: i32 = 7001
+        0x13bddc7b: u32 = 7001
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
@@ -34,7 +34,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MeleeItemCalcValueB"
-                0x24f2ec89: f32 = 8
+                0x24f2ec89: f32 = 6
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "RangedItemCalcValueB"
@@ -49,36 +49,46 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 2
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "BaseShield"
+                0x19efbfdb: string = "MeleeBaseShield"
                 0x24f2ec89: f32 = 160
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "ShieldADRatio"
+                0x19efbfdb: string = "RangedBaseShield"
+                0x24f2ec89: f32 = 80
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MeleeShieldADRatio"
                 0x24f2ec89: f32 = 0.4
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "RangedShieldMod"
-                0x24f2ec89: f32 = 0.5
+                0x19efbfdb: string = "RangedShieldADRatio"
+                0x24f2ec89: f32 = 0.2
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
             0xe5c634ce = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
                     0x332eb441 {
-                        0xb386dcf1: hash = 0xa8c1dce1
+                        0xb386dcf1: hash = 0xe3e9f14b
                     }
                     0x5f5c70a4 {
                         0x4cec2c8a: u8 = 2
                         0x7d3150ec: u8 = 2
-                        0xb386dcf1: hash = 0xec4c2f64
+                        0xb386dcf1: hash = 0x4f40a6e2
                     }
                 }
             }
-            0x3b00d8b1 = 0x070e3593 {
-                0x2c77adff: pointer = 0x332eb441 {
-                    0xb386dcf1: hash = 0xb318dfcd
+            0x3b00d8b1 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0xd5c755fe
+                    }
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 2
+                        0x7d3150ec: u8 = 2
+                        0xb386dcf1: hash = 0xf15ae2c9
+                    }
                 }
-                0x7f93cf4e: hash = 0xe5c634ce
             }
             0x56b3f555 = 0xe9ced584 {
                 0xcbcac618: u8 = 5
@@ -133,6 +143,7 @@ entries: map[hash,embed] = {
                     "keyTooltip" = "Item_6692_Tooltip"
                     "keyTooltipExternal" = "Item_6692_TooltipExternal"
                     "keyInventoryOnlyText" = "Item_6692_InventoryOnlyText"
+                    "keyTooltipInventory" = "Item_6692_TooltipInventory"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
