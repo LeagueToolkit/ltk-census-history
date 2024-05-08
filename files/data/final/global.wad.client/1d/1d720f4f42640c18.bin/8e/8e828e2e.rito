@@ -30,23 +30,35 @@ entries: map[hash,embed] = {
         }
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
-                0x19efbfdb: string = "BounceRange"
+                0x19efbfdb: string = "BounceRangeMinion"
                 0x24f2ec89: f32 = 500
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "BounceRangeChampion"
+                0x24f2ec89: f32 = 650
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "BounceDelay"
                 0x24f2ec89: f32 = 0.05
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "Cooldown"
+                0x24f2ec89: f32 = 6
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MinionChainBounces"
+                0x24f2ec89: f32 = 6
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ChampionChainBounces"
+                0x24f2ec89: f32 = 186
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ShivChampionDamage"
+                0x24f2ec89: f32 = 90
+            }
         }
         0x0ac4f0d5: map[hash,pointer] = {
-            0x506cb051 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x15fecdbc {
-                        0xd06c375d: f32 = 150
-                        0x1cd7e522: f32 = 400
-                    }
-                }
-            }
             0x59b78b46 = 0xbc409284 {
                 0xcbcac618: u8 = 6
                 0x37070a8d: u8 = 6
@@ -57,17 +69,9 @@ entries: map[hash,embed] = {
                     }
                 }
             }
-            0x6b30d302 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x9ef92080 {
-                        0xe202bca9: f32 = 150
-                    }
-                }
-            }
         }
-        0xbc050325: f32 = 0.2
-        0x4e7a81cd: f32 = 35
-        0xc5658c30: f32 = 0.25
+        0x4e7a81cd: f32 = 50
+        0xc5658c30: f32 = 0.4
         0x46493f5f: f32 = 0.5
         0xccf99b44: list[string] = {
             "Damage"
@@ -90,9 +94,6 @@ entries: map[hash,embed] = {
                     "keyBrief" = "Item_223087_Brief"
                     "keyTooltip" = "Item_223087_Tooltip"
                     "keyTooltipExternal" = "Item_223087_TooltipExternal"
-                    "keyTooltipExtended" = "Item_223087_TooltipExtended"
-                    "keyKeywordDefinitions" = "Item_3087_KeywordDefinitions"
-                    "keyTooltipExtendedRules" = "Item_3087_TooltipExtendedRules"
                     "keyInventoryOnlyText" = "Item_223087_InventoryOnlyText"
                     "keySummary" = "Item_223087_Summary"
                 }
@@ -104,9 +105,6 @@ entries: map[hash,embed] = {
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "AttackSpeed"
-                            }
-                            0x9a1b3505 {
-                                0x5127f14d: string = "CritChance"
                             }
                         }
                     }
@@ -125,6 +123,9 @@ entries: map[hash,embed] = {
                 0xb5b77045 = 0x6bf33af4
                 0x355bcb48 = 0xdc63e1e1
                 0x4d886479 = 0xb392ddb2
+                0x3d38b988 = 0xb9161f0b
+                0x83a40087 = 0x312f677c
+                0xd39a7944 = 0xe8639699
             }
         }
     }

@@ -40,46 +40,18 @@ entries: map[hash,embed] = {
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "CDRAmount"
-                0x24f2ec89: f32 = 0.12
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "CritAmpVal"
-                0x24f2ec89: f32 = 0.2
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "MythicStatAmount"
-            }
-        }
-        0x0ac4f0d5: map[hash,pointer] = {
-            0x33c3f261 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x5f5c70a4 {
-                        0x4cec2c8a: u8 = 7
-                        0xb386dcf1: hash = 0xeda4f3f0
-                    }
-                }
-                0x5a2297d3: bool = true
-            }
-            0xe1051ee9 = 0xbc409284 {
-                0x2c77adff: pointer = 0x332eb441 {
-                    0xb386dcf1: hash = 0x3f0ecb5d
-                }
-                0x50f145c0: list[pointer] = {
-                    0x663d5e00 {
-                        0x5ee3c453: u8 = 5
-                    }
-                }
+                0x24f2ec89: f32 = 0.15
             }
         }
         0x5b98619f: f32 = 25
-        0xbc050325: f32 = 0.2
+        0xb739c155: f32 = 0.07
+        0xbc050325: f32 = 0.25
         0x4e7a81cd: f32 = 85
+        0xc5658c30: f32 = 0.4
         0xccf99b44: list[string] = {
-            "Damage"
             "CriticalStrike"
-            "CooldownReduction"
-            "OnHit"
-            "AbilityHaste"
+            "AttackSpeed"
+            "NonbootsMovement"
         }
         0x57558bca: list[u8] = {
             2
@@ -93,21 +65,20 @@ entries: map[hash,embed] = {
                     "keyBrief" = "Item_6675_Brief"
                     "keyTooltip" = "Item_7032_Tooltip"
                     "keyTooltipExternal" = "Item_6675_TooltipExternal"
-                    "keySecondaryBrief" = "Item_Unique_Unbounded"
                     "keyColloquialism" = "Item_6675_Colloquialism"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
                         0x5a94b0cc: list[embed] = {
                             0x9a1b3505 {
-                                0x5127f14d: string = "AttackDamage"
+                                0x5127f14d: string = "AttackSpeed"
                                 0x566f3406: string = "OrnnStat_AD"
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "CritChance"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "AbilityHaste"
+                                0x5127f14d: string = "MoveSpeedPercent"
                                 0x566f3406: string = "OrnnStat_Haste"
                             }
                         }
@@ -117,9 +88,7 @@ entries: map[hash,embed] = {
             0xf1f20d72: string = "GeneratedTip_Item_227032_Description"
             0x9a5a3a84: string = "GeneratedTip_Item_227032_TooltipInventory"
             0x561ba63f: string = "GeneratedTip_Item_227032_TooltipShop"
-            0xc68db52e: string = "ASSETS/Items/Icons2D/6675_Marksman_T3_NavoriQuickblades.dds"
-            0xe963940d: string = "ASSETS/Items/Icons2D/AutoAtlas/SmallIcons/6675_Marksman_T3_NavoriQuickblades.png"
-            0x023e40a9: string = "ASSETS/Items/Icons2D/AutoAtlas/LargeIcons/6675_Marksman_T3_NavoriQuickblades.png"
+            0xc68db52e: string = "ASSETS/Items/Icons2D/6675_NavoriFlickerblade.dds"
             0x5ee3c453: u8 = 5
         }
         0x5f8284a2: pointer = 0xef3a0f33 {}

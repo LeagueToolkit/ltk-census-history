@@ -6,11 +6,16 @@ entries: map[hash,embed] = {
     0xe8f5f8c0 = 0x60e00531 {
         0x19efbfdb: string = "UltraBoxPlusB"
         0x0773669d: map[string,pointer] = {
-            "Neeko" = 0x4012fd7e {
-                0x24f2ec89: i32 = 1
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Consumable_MasterworkUpgrade"
+                    "TFT_Consumable_ItemRemover"
+                }
             }
-            "Gold" = 0x4012fd7e {
-                0x24f2ec89: i32 = 16
+            "MeepTypeUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_ArmoryKeyCompleted"
+                }
             }
         }
         0x9be36761: link = 0xb874104c
