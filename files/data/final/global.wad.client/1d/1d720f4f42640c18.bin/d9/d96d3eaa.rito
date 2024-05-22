@@ -15,14 +15,14 @@ entries: map[hash,embed] = {
         0x5b0a81be: list[link] = {
             0x30f046e4
         }
-        0x0b44452a: i32 = 700
+        0x0b44452a: i32 = 1000
         0x55d2cdb6: string = "HeroPassive"
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
         0x2c359091: list[link] = {
             0xd9f32280
-            0x57884881
+            0xe8233abd
         }
         0x251a5225: list[f32] = {
             0
@@ -59,19 +59,21 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ChainDamageMinion"
-                0x24f2ec89: f32 = 90
+                0x24f2ec89: f32 = 120
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ChainDamageChampion"
                 0x24f2ec89: f32 = 270
             }
         }
-        0x4e7a81cd: f32 = 50
-        0xc5658c30: f32 = 0.4
+        0xb739c155: f32 = 0.07
+        0x4e7a81cd: f32 = 55
+        0xc5658c30: f32 = 0.45
         0xccf99b44: list[string] = {
             "Damage"
             "AttackSpeed"
             "OnHit"
+            "NonbootsMovement"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
@@ -98,6 +100,9 @@ entries: map[hash,embed] = {
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "AttackSpeed"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "MoveSpeedPercent"
                             }
                         }
                     }

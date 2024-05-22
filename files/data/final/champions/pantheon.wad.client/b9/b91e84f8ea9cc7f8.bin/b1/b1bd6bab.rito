@@ -26,13 +26,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BaseDamage"
                     0x246b0d8e: list[f32] = {
-                        20
-                        60
-                        100
-                        140
-                        180
-                        220
-                        260
+                        25
+                        0
+                        0
+                        0
+                        0
+                        0
+                        0
                     }
                 }
                 0x005008a6 {
@@ -83,6 +83,42 @@ entries: map[hash,embed] = {
                         0.6
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxHealthDamage"
+                    0x246b0d8e: list[f32] = {
+                        0.045
+                        0.05
+                        0.055
+                        0.06
+                        0.065
+                        0.07
+                        0.075
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MonsterDamageCap"
+                    0x246b0d8e: list[f32] = {
+                        200
+                        200
+                        200
+                        200
+                        200
+                        200
+                        200
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MonsterDamageMin"
+                    0x246b0d8e: list[f32] = {
+                        50
+                        50
+                        50
+                        50
+                        50
+                        50
+                        50
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0xc9e3357d = 0xbc409284 {
@@ -111,6 +147,22 @@ entries: map[hash,embed] = {
                         0xe202bca9: f32 = 3
                     }
                     0x7f93cf4e: hash = 0x1b016817
+                }
+                0x1979809f = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x6964cc9a
+                        }
+                        0x5815b0a9 {
+                            0x4cec2c8a: u8 = 11
+                            0x7d3150ec: u8 = 2
+                            0x295c2889: f32 = 4e-05
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.00015
+                        }
+                    }
+                    0x5a2297d3: bool = true
                 }
             }
             0x295c2889: f32 = 1
@@ -170,14 +222,17 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_PantheonW_Name"
                         "keySummary" = "Spell_PantheonW_Summary"
                         "keyTooltip" = "Spell_PantheonW_Tooltip"
+                        "keyTooltipExtendedBelowLine" = "Spell_PantheonW_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "BaseDamage"
-                                    0x566f3406: string = "Spell_ListType_Damage"
+                                    0x5127f14d: string = "MaxHealthDamage"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "game_effect_description_PercentHPPoolMod"
+                                    0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"
