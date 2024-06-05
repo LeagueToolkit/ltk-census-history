@@ -1,0 +1,42 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd39c5da9 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/TFTPreGame/UX/RiotUI/TFTEventHubIntroDialog/UIBase/IntroScene/ConfirmButton"
+        0x2063cb13: link = 0x16f8de86
+        0x5a94b0cc: list[link] = {
+            0xb7e1153b
+            0xc3f4dff7
+            0x16f31a1c
+            0xef802e40
+            0xaf0be5b1
+            0xb7c59030
+            0x6c479457
+        }
+        0x6bf3194e: link = 0xaf0be5b1
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xb7c59030
+            }
+            0xeec29756: link = 0xc3f4dff7
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x6c479457
+            }
+            0xeec29756: link = 0x16f31a1c
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xef802e40
+            }
+            0xeec29756: link = 0xb7e1153b
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_CommonUI_button_standard_tap"
+            0x84b6cf03: string = "Play_sfx_PreGameUI_button_standard_release"
+        }
+    }
+}
