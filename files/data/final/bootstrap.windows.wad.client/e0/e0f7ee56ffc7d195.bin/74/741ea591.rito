@@ -1,0 +1,48 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x741ea591 = 0x25e82b58 {
+        0x8d39bde6: string = "Patching/UX/RiotUI/Login/UIBase/LoginScene/LoginQueueMaintenance/LoginMaintenanceButton"
+        0x2063cb13: link = 0xb3d3cc70
+        0x5a94b0cc: list[link] = {
+            0x8d488a0c
+            0x6c90b283
+            0xab8ec603
+            0xe040f334
+            0x6bb425e5
+            0xfec73d84
+        }
+        0xcb42693f: bool = false
+        0x6bf3194e: link = 0x6bb425e5
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xfec73d84
+            }
+            0xeec29756: link = 0xe040f334
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xab8ec603
+            }
+            0xeec29756: link = 0xe040f334
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x8d488a0c
+            }
+            0xeec29756: link = 0xe040f334
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x6c90b283
+            }
+            0xeec29756: link = 0xe040f334
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_CommonUI_button_standard_tap"
+            0x84b6cf03: string = "Play_sfx_CommonUI_button_rounded_release"
+        }
+    }
+}

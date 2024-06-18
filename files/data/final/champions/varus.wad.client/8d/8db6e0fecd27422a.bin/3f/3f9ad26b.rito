@@ -130,25 +130,25 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "VarusWOnHitDamage"
                     0x246b0d8e: list[f32] = {
-                        1
+                        0
                         7
-                        13
-                        19
-                        25
-                        31
-                        37
+                        14
+                        21
+                        28
+                        35
+                        42
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "CDRPerBlightStack"
                     0x246b0d8e: list[f32] = {
-                        0.12
-                        0.12
-                        0.12
-                        0.12
-                        0.12
-                        0.12
-                        0.12
+                        0.13
+                        0.13
+                        0.13
+                        0.13
+                        0.13
+                        0.13
+                        0.13
                     }
                 }
                 0x005008a6 {
@@ -161,6 +161,30 @@ entries: map[hash,embed] = {
                         1.5
                         1.5
                         1.5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "OnHitRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.35
+                        0.35
+                        0.35
+                        0.35
+                        0.35
+                        0.35
+                        0.35
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "WQHealthDamage"
+                    0x246b0d8e: list[f32] = {
+                        0.04
+                        0.06
+                        0.08
+                        0.1
+                        0.12
+                        0.14
+                        0.16
                     }
                 }
             }
@@ -186,26 +210,8 @@ entries: map[hash,embed] = {
                 }
                 0x8286c138 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x5cf69ece {
-                            0xad62f672: f32 = 0.06
-                            0x7b5d1934: list[embed] = {
-                                0x8e93d8ee {
-                                    0xa77654ae: u32 = 4
-                                    0xd5fd07ed: f32 = 0.02
-                                }
-                                0x8e93d8ee {
-                                    0xa77654ae: u32 = 7
-                                    0xd5fd07ed: f32 = 0.02
-                                }
-                                0x8e93d8ee {
-                                    0xa77654ae: u32 = 10
-                                    0xd5fd07ed: f32 = 0.02
-                                }
-                                0x8e93d8ee {
-                                    0xa77654ae: u32 = 13
-                                    0xd5fd07ed: f32 = 0.02
-                                }
-                            }
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x7c34025e
                         }
                     }
                     0x5a2297d3: bool = true
@@ -215,8 +221,8 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0xfdd9e74e
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.35
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x0f8aac24
                         }
                     }
                 }
@@ -331,7 +337,13 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "BasePercentHPPerStack"
                                     0x33c02d93: i32 = 2
                                     0xf506c7e6: f32 = 100
-                                    0x566f3406: string = "Spell_ListType_VarusWDamageFromBlight"
+                                    0x566f3406: string = "Spell_ListType_MaxHealthDamage"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "WQHealthDamage"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_MissingHealthDamage"
                                     0xac307ed6: u32 = 1
                                 }
                             }

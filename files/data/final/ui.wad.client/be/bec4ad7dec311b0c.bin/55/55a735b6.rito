@@ -1,0 +1,42 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x55a735b6 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/TFTPreGame/UX/RiotUI/Loadout/UIBase/LoadoutScene/SortOrderDropdown/SortOrderDropdown_Button"
+        0x2063cb13: link = 0xcf002079
+        0x5a94b0cc: list[link] = {
+            0x5f0cd59a
+            0xd976b562
+            0x30395b23
+            0x6d9bc269
+            0x1f87a602
+            0x557de493
+        }
+        0xdf2b45ce: bool = true
+        0x6bf3194e: link = 0x30395b23
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xd976b562
+            }
+            0xeec29756: link = 0x1f87a602
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x6d9bc269
+            }
+            0xeec29756: link = 0x1f87a602
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x5f0cd59a
+            }
+            0xeec29756: link = 0x557de493
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_UIKit_Dropdown_Click"
+            0x7c552179: string = "Play_sfx_UIKit_Dropdown_Click"
+        }
+    }
+}
