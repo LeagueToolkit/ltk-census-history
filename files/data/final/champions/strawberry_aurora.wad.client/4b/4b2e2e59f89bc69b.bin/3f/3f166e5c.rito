@@ -1,0 +1,29 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3f166e5c = 0x9b67e9f6 {
+        0x426d89a3: embed = 0x426d89a3 {
+            0xf5fb07c7: link = 0x17cfbd10
+        }
+        0x45ff5904: embed = 0x6111d8a4 {
+            0xa1f805da: f32 = 0.8
+            0x252f6884: f32 = 2.5
+            0xe9c98281: list[pointer] = {
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0x37a460a4
+                    0x96dbc896: hash = 0xca4c1463
+                    0x50271332: hash = 0x4fc1e099
+                }
+            }
+        }
+        0x2d0d1f1d: string = "Flesh"
+        0x123393ed: list[string] = {
+            "Jaw"
+        }
+        0xac473fef: option[string] = {
+            "ASSETS/Characters/Strawberry_AuroraSpirits/HUD/Voidling_Square.StrawberryRebuild.dds"
+        }
+    }
+}

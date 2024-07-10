@@ -1,0 +1,31 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4fa63fd5 = 0x2a4b4fcd {
+        0x37386ae0: string = "dbd7edd8-9acc-40a2-b229-aa318e7fa651"
+        0x6eacca83: string = "LCU/Strawberry/Progression/Story_LIS1/Story_LIS1RewardGroup"
+        0x081f82f1: string = "rewardgroup_name_Story_LIS1RewardGroup"
+        0xb7c96973: u8 = 2
+        0x3730b3d2: embed = 0x3730b3d2 {
+            0xb21ccbf0: i16 = 2
+            0xdc402f3a: i16 = 2
+        }
+        0xa1d9de0b: list[pointer] = {
+            0x1cfeba20 {
+                0x31c5f01c: string = "rewards_details_Story_GoldRewardGroup"
+                0x4b728fd8: i16 = 1000
+                0xfc9adf03: pointer = 0x77274757 {
+                    0xb35135fa: string = "ASSETS/Strawberry/ObjectiveRewards/Others/Gold.tex"
+                }
+                0x13bddc7b: string = "8155c44b-0801-5c5f-b3c7-e923eb5071df"
+            }
+            0x9f4272ac {
+                0x13bddc7b: string = "a26063ce-2e57-403c-b6bf-3f5649673fd9"
+                0x4948dd56: string = "960cb1b0-d943-4090-ab97-b5176d38f1bd"
+            }
+        }
+        0x14d7d5a7: u8 = 0
+    }
+}

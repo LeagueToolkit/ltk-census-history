@@ -1,0 +1,23 @@
+sha256: "2af44b133479bc775dedb6ff90b9a9d897a5fcfc0c842e1ac2620e27c4020dd9"
+checksum: "de86d980cc2d8e89"
+kind: "skl"
+skeleton:
+ influences: 3
+ joints:
+  - name: "Root"
+  - name: "Chest"
+    parent: "Root"
+  - name: "Neck"
+    parent: "Chest"
+  - name: "Head"
+    parent: "Neck"
+  - name: "Hat"
+    parent: "Head"
+  - name: "L_Clavicle"
+    parent: "Chest"
+  - name: "R_Clavicle"
+    parent: "Chest"
+  - name: "L_Shoulder"
+    parent: "L_Clavicle"
+  - name: "R_Shoulder"
+    parent: "R_Clavicle"
