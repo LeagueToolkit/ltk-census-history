@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xff65b29a = 0x60e00531 {
+        0x19efbfdb: string = "Aug_Fortune5B"
+        0x0773669d: map[string,pointer] = {
+            "MeepTypeUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_ArmoryKeyComponent"
+                }
+            }
+            "Gold" = 0x4012fd7e {}
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Item_Spatula"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

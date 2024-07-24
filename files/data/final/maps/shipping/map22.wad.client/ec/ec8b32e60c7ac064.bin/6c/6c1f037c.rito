@@ -1,0 +1,36 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6c1f037c = 0xff9d3409 {
+        0x8d39bde6: string = "Maps/KitPieces/TFT/Set12/Materials/Default/MagicLibrary_Shelf_B_Mat"
+        0x5127f14d: u32 = 0
+        0x0a6f0eb5: list2[embed] = {
+            0x0904b150 {
+                0x02e7fb4c: string = "DiffuseTexture"
+                0xb311d4ef: string = "ASSETS/Maps/KitPieces/TFT/Set12/Textures/MagicLibrary_Shelf_B.TFT_ArenaSkin_MagicLibrary.dds"
+                0x0f1ec3ac: u32 = 1
+            }
+        }
+        0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "TintColor"
+                0x425ed3ca: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "PitchFactor"
+            }
+        }
+        0x844f384e: list[embed] = {
+            0x060a4413 {
+                0x8d39bde6: string = "normal"
+                0x623cd25c: list[embed] = {
+                    0x8537d0c2 {
+                        0x355d5568: link = 0xb965c5a4
+                    }
+                }
+            }
+        }
+    }
+}

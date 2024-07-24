@@ -1,0 +1,38 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe168b1be = 0x6f870247 {
+        0x19efbfdb: string = "TFT12_Ascendant"
+        0xc3143d66: string = "tft_trait_displayname_Set12_Ascendant"
+        0x765f18da: string = "tft_trait_description_Set12_Ascendant"
+        0x8bee2972: string = "ASSETS/UX/TraitIcons/Trait_Icon_12_Ascendant.TFT_Set12.tex"
+        0x88730233: u8 = 2
+        0x6f4cf34d: list[embed] = {
+            0xe132f2d0 {}
+        }
+        0x93dd1f25: list[embed] = {
+            0x18ee4f3b {
+                0x86b5abcb: list2[embed] = {
+                    0x76621fa6 {
+                        0x24593d1d: u8 = 2
+                        0x92f50a07: string = "TFT12_Ascendant_PlayerBuff"
+                    }
+                }
+                0xc13d6d31: list[embed] = {
+                    0x62ff42f4 {
+                        0x8d39bde6: hash = 0x30692b01
+                        0x425ed3ca: f32 = 8
+                    }
+                    0x62ff42f4 {
+                        0x8d39bde6: hash = 0x30552ed5
+                        0x425ed3ca: f32 = 40
+                    }
+                }
+                0x8912eb52: u32 = 1
+                0xac307ed6: u8 = 6
+            }
+        }
+    }
+}

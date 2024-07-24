@@ -1,0 +1,52 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd6bb7bd1 = 0xff9d3409 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/TFT/UiMaterials/Set12/UI_TextureGlow"
+        0x5127f14d: u32 = 3
+        0x0a6f0eb5: list2[embed] = {
+            0x0904b150 {
+                0x02e7fb4c: string = "GlowNoise"
+                0xb311d4ef: string = "ASSETS/Shared/Materials/Base_Caustic_Noise.dds"
+                0x0f1ec3ac: u32 = 1
+            }
+        }
+        0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "ScrollSpeed"
+                0x425ed3ca: vec4 = { 0.05, 0.05, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "GlowMultiplier"
+                0x425ed3ca: vec4 = { 0.245, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "GlowColor"
+                0x425ed3ca: vec4 = { 0.9799954, 0.85999846, 0.6500038, 0.77999544 }
+            }
+        }
+        0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "DESATURATE"
+                0x61342fd0: bool = false
+            }
+        }
+        0x844f384e: list[embed] = {
+            0x060a4413 {
+                0x8d39bde6: string = "normal"
+                0x623cd25c: list[embed] = {
+                    0x8537d0c2 {
+                        0x355d5568: link = 0x76a71465
+                        0xd2507939: bool = false
+                        0x23b75597: bool = true
+                        0x4b0f55ce: bool = false
+                        0xbe0abbf5: u32 = 7
+                        0x7385e534: u32 = 7
+                    }
+                }
+            }
+        }
+    }
+}

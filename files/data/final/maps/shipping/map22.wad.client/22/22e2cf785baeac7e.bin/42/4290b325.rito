@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4290b325 = 0x60e00531 {
+        0x19efbfdb: string = "JourneyLootB"
+        0x0773669d: map[string,pointer] = {
+            "Gold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 5
+            }
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Item_ZekesHerald"
+                    "TFT_Item_Chalice"
+                    "TFT11_Item_ThiefsGlovesSupport"
+                }
+            }
+            "MeepTypeUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_ArmoryKeySupport"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,15 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xf41efa07 = 0x60e00531 {
+        0x19efbfdb: string = "TFT12_Zap_TheCount_BuffContainer"
+        0x0773669d: map[string,pointer] = {
+            "TFT12_Zap_TheCount_PlayerBuff" = 0xa188bd55 {
+                0x24f2ec89: string = "Player"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

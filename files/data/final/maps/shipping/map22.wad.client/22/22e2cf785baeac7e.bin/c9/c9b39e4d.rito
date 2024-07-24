@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc9b39e4d = 0x60e00531 {
+        0x19efbfdb: string = "ZapSystemParameters"
+        0x0773669d: map[string,pointer] = {
+            "ZapFrequency" = 0x4012fd7e {
+                0x24f2ec89: i32 = 3
+            }
+            "ZapFrequencyLate" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+            "ZapFrequencyStageChange" = 0x4012fd7e {
+                0x24f2ec89: i32 = 5
+            }
+            "ZapFrequencyRoundChange" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+            "ZapStageStart" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+            "ZapRoundStart" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

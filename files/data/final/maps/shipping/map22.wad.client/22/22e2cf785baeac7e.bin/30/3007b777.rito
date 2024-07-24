@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3007b777 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_EMBLEM_SET12_Craftable"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT12_Item_HoneymancyEmblemItem"
+                    "TFT12_Item_FaerieEmblemItem"
+                    "TFT12_Item_PortalEmblemItem"
+                    "TFT12_Item_PyroEmblemItem"
+                    "TFT12_Item_SugarcraftEmblemItem"
+                    "TFT12_Item_FrostEmblemItem"
+                    "TFT12_Item_WitchcraftEmblemItem"
+                    "TFT12_Item_EldritchEmblemItem"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

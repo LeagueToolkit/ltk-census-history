@@ -1,0 +1,103 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x936f62dd = 0x205255d6 {
+        0x48a52ed9: list[embed] = {
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter0"
+                0xd872e2a5: vec4 = { 0.05, 0.05, 7, 5 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "DiffuseXYOffset"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "ShineFrequencySpeed"
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter1"
+                0xd872e2a5: vec4 = { 1, 1, 0.2, 0.25 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "ShineDirection"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "ShineStrength"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "SaturationValue"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { 1, 1, 1, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "ShineColor"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter3"
+                0xd872e2a5: vec4 = { 0.31444266, 0.25256732, 0.35342947, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Tint"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter4"
+                0xd872e2a5: vec4 = { 0, 0.5, 0, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "RGBAGlowMinMax"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter5"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "GlowPulseFrequency"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+        }
+        0x3291437b: list[embed] = {
+            0x60a292e6 {
+                0x8d39bde6: string = "ENABLE_WOBBLE"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "ENABLE_SHINE"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "ENABLE_GLOWPULSE"
+            }
+        }
+        0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "MaskTexture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
+            }
+        }
+        0xae29287b: map[string,string] = {
+            "FEATURE_UI_ORIGINAL_TEXCOORDS" = "1"
+        }
+        0x1d369c29: string = "Shaders/UI/TFT/UI_OffsetShine"
+    }
+}

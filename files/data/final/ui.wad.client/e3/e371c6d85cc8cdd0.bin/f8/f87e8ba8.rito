@@ -1,0 +1,40 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xf87e8ba8 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/TFT/TFTScoreboard/UIBase/TFT_Scoreboard/TFT_Scoreboard_P0/Opponent_CustomButton"
+        0x2063cb13: link = 0xf9987eb6
+        0x5a94b0cc: list[link] = {
+            0xc818b7bf
+            0x5a8f5b3d
+            0x3f77bdb6
+            0x93558623
+            0x85ece9e0
+            0x0b5448f4
+            0xe81e6a1b
+            0x5ccb366c
+        }
+        0xcb42693f: bool = false
+        0x6bf3194e: link = 0x5a8f5b3d
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x5ccb366c
+                0x85ece9e0
+            }
+        }
+        0x46564588: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x93558623
+                0xe81e6a1b
+            }
+        }
+        0xd6b1c46b: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xc818b7bf
+                0x3f77bdb6
+            }
+        }
+    }
+}

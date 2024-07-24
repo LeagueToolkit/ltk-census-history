@@ -13,28 +13,8 @@ entries: map[hash,embed] = {
                 "PositiveEffect_MoveBlock"
             }
             0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        60
-                        60
-                        120
-                        180
-                        240
-                        175
-                        175
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                    }
-                }
+                0x92d4987c {}
+                0x92d4987c {}
                 0x92d4987c {
                     0x425ed3ca: list[f32] = {
                         1
@@ -52,35 +32,73 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
                 0x92d4987c {}
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        120
-                        120
-                        100
-                        80
-                        80
-                        80
-                        80
-                    }
-                }
+                0x92d4987c {}
             }
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BaseDamage"
                     0x246b0d8e: list[f32] = {
-                        -60
-                        80
+                        0
+                        110
                         220
-                        360
-                        500
-                        640
-                        780
+                        330
+                        440
+                        550
+                        660
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "R2BaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        0
+                        70
+                        140
+                        210
+                        280
+                        350
+                        420
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "R1ADRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "R1APRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "R2APRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "MaxExecuteThreshold"
                     0x246b0d8e: list[f32] = {
-                        0
+                        0.3
                         0.3
                         0.3
                         0.3
@@ -92,25 +110,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "CooldownBetweenCasts"
                     0x246b0d8e: list[f32] = {
-                        0
                         2.5
                         2.5
                         2.5
                         2.5
                         2.5
                         2.5
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "R2BaseDamage"
-                    0x246b0d8e: list[f32] = {
-                        60
-                        60
-                        130
-                        200
-                        200
-                        90
-                        0
+                        2.5
                     }
                 }
                 0x005008a6 {
@@ -133,13 +139,13 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0x03da00f9
                         }
-                        0x5815b0a9 {
+                        0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 0.5
+                            0xb386dcf1: hash = 0x98838b20
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.3
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xa3015204
                         }
                     }
                 }
@@ -149,8 +155,8 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0x18964e99
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.3
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xcaa2debf
                         }
                     }
                 }
@@ -162,8 +168,6 @@ entries: map[hash,embed] = {
                     0x7f93cf4e: hash = 0x05fdb137
                 }
             }
-            0x295c2889: f32 = 0.3
-            0xd7141e61: f32 = 0.7
             0xfbd16fb5: string = "None"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Akali/HUD/Icons2D/Akali_R.dds"
@@ -171,8 +175,8 @@ entries: map[hash,embed] = {
             0x90fb0576: f32 = 0.25
             0x9ecac3a1: list[f32] = {
                 120
-                100
-                80
+                120
+                90
                 60
                 60
                 60
@@ -259,13 +263,17 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
-                                    0x566f3406: string = "Spell_AkaliR_BaseDamage"
+                                    0x566f3406: string = "Spell_ListType_InitialDamage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "R2BaseDamage"
+                                    0x566f3406: string = "Spell_ListType_MinimumDamage"
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "R2BaseDamage"
                                     0x33c02d93: i32 = 1
                                     0xf506c7e6: f32 = 3
-                                    0x566f3406: string = "Spell_AkaliR_MaxDamage"
+                                    0x566f3406: string = "Spell_ListType_MaximumDamage"
                                 }
                             }
                         }

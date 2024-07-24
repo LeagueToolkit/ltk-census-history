@@ -1,0 +1,66 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x1b8d5368 = 0xff9d3409 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/TFT/UiMaterials/Set12/UI_ZapShopBackground"
+        0x5127f14d: u32 = 3
+        0x0a6f0eb5: list2[embed] = {
+            0x0904b150 {
+                0x02e7fb4c: string = "RayTexture"
+                0xb311d4ef: string = "ASSETS/UX/TFT/Mograph/Sets/Set12/ShopCard/Shaders/TFT_Zaps_Rays.tex"
+                0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
+                0x02e7fb4c: string = "BGNoiseTexture"
+                0xb311d4ef: string = "ASSETS/UX/TFT/Mograph/Sets/Set12/ShopCard/Shaders/TFT_Zaps_Noise.tex"
+                0x0f1ec3ac: u32 = 1
+            }
+        }
+        0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "RayColor"
+                0x425ed3ca: vec4 = { 0.85999846, 0.14999619, 0.7900053, 0.6 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "RayScrollSpeed"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "RayMultiplier"
+                0x425ed3ca: vec4 = { 0.1475, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "BGNoiseMultiplier"
+                0x425ed3ca: vec4 = { 0.3125, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "BGNoiseColor"
+                0x425ed3ca: vec4 = { 0.1600061, 0.11000229, 0.20999466, 0.17000076 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "BGNoiseScrollSpeed"
+                0x425ed3ca: vec4 = { 0, 0.35, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "RayAdditionalUVControl"
+                0x425ed3ca: vec4 = { 0, 0.001, 0, 0 }
+            }
+        }
+        0x844f384e: list[embed] = {
+            0x060a4413 {
+                0x8d39bde6: string = "normal"
+                0x623cd25c: list[embed] = {
+                    0x8537d0c2 {
+                        0x355d5568: link = 0xa2cac268
+                        0xd2507939: bool = false
+                        0x23b75597: bool = true
+                        0x4b0f55ce: bool = false
+                        0xbe0abbf5: u32 = 7
+                        0x7385e534: u32 = 7
+                    }
+                }
+            }
+        }
+    }
+}

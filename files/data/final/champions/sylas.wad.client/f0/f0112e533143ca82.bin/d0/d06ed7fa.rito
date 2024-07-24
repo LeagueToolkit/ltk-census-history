@@ -10,34 +10,9 @@ entries: map[hash,embed] = {
             0xecf3f88d: u32 = 6154
             0x3e1edbdb: list[string] = {
                 "PositiveEffect_MoveBlock"
-                "Trait_AttackReset"
                 "Trait_SwapsIntoImmobilizingCCSpell"
             }
             0x1f4d20a6: list[embed] = {
-                0x005008a6 {
-                    0x19efbfdb: string = "EBaseCooldown"
-                    0x246b0d8e: list[f32] = {
-                        8.5
-                        8
-                        7.5
-                        7
-                        6.5
-                        6
-                        5.5
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "ShieldBase"
-                    0x246b0d8e: list[f32] = {
-                        45
-                        80
-                        115
-                        150
-                        185
-                        220
-                        255
-                    }
-                }
                 0x005008a6 {
                     0x19efbfdb: string = "PullDamage"
                     0x246b0d8e: list[f32] = {
@@ -48,18 +23,6 @@ entries: map[hash,embed] = {
                         230
                         280
                         330
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "ShieldDuration"
-                    0x246b0d8e: list[f32] = {
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
                     }
                 }
                 0x005008a6 {
@@ -74,6 +37,18 @@ entries: map[hash,embed] = {
                         0.5
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "APRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x59e94c40 = 0xbc409284 {
@@ -81,23 +56,12 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0x7ba7344b
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 1
-                        }
-                    }
-                }
-                0xd72beee1 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0x0c2eb095
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 1
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xe30c799f
                         }
                     }
                 }
             }
-            0x295c2889: f32 = 0.25
             0xfbd16fb5: string = "Spell3"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Sylas/HUD/Icons2D/SylasE.dds"

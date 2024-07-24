@@ -1,0 +1,18 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd3ccdcae = 0x60e00531 {
+        0x19efbfdb: string = "TFT12_Doodad_DevilTrident_BuffContainer"
+        0x0773669d: map[string,pointer] = {
+            "TFT12_Doodad_DevilTrident_ArmyBuff" = 0xa188bd55 {
+                0x24f2ec89: string = "Army"
+            }
+            "TFT12_Doodad_DevilTrident_UnitBuff" = 0xa188bd55 {
+                0x24f2ec89: string = "AllyUnits"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
