@@ -22,14 +22,14 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter1"
-                0xd872e2a5: vec4 = { 0.85, 0.2, 0.8, 1 }
+                0xd872e2a5: vec4 = { 0.85, 0.2, 0.8, 1.2 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Base_Color"
                         0x0640657c: u32 = 7
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "Alpha"
+                        0x8d39bde6: string = "Fresnel_Range"
                         0x0640657c: u32 = 8
                     }
                 }
@@ -43,21 +43,21 @@ entries: map[hash,embed] = {
                         0x0640657c: u32 = 7
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "Bloom_Intensity"
+                        0x8d39bde6: string = "Alpha"
                         0x0640657c: u32 = 8
                     }
                 }
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter3"
-                0xd872e2a5: vec4 = { 1.2, 0.9, 0, 1.2 }
+                0xd872e2a5: vec4 = { 1.2, 0.9, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Front_Color"
                         0x0640657c: u32 = 7
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "Fresnel_Range"
+                        0x8d39bde6: string = "Bloom_Intensity"
                         0x0640657c: u32 = 8
                     }
                 }
@@ -72,11 +72,13 @@ entries: map[hash,embed] = {
         0x99108c85: list[embed] = {
             0x31d1e223 {
                 0x8d39bde6: string = "MatCap_Tex"
-                0x32b374fa: string = "ASSETS/Shared/Materials/Noise_Clouds_01.dds"
+                0x32b374fa: string = "ASSETS/Shared/Materials/MatCap_ToonPlastic.tex"
             }
         }
         0xae29287b: map[string,string] = {
             "FEATURE_BLOOM" = "1"
+            "FEATURE_WORLD_NORMAL" = "1"
+            "FEATURE_WORLD_POSITION" = "1"
         }
         0x25b76221: u32 = 1
         0x1d369c29: string = "Shaders/SkinnedMesh/HKG_MatCap_DiscoBall"
