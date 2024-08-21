@@ -21,7 +21,7 @@ entries: map[hash,embed] = {
                 0x3d25b8ce: string = "Trail_Honey_Gold"
                 0xb9516a6f: u8 = 2
                 0x563d4a22: embed = 0x68dc32b6 {
-                    0xb4b427aa: vec3 = { 0, 20, 10 }
+                    0xb4b427aa: vec3 = { 0, 20, 45 }
                 }
                 0x007b14f6: pointer = 0x287851b9 {
                     0x5e661fd4: embed = 0x00c2a390 {
@@ -112,8 +112,9 @@ entries: map[hash,embed] = {
                     2
                 }
                 0x3d25b8ce: string = "Trail_Honey_BrightGold"
+                0xb9516a6f: u8 = 2
                 0x563d4a22: embed = 0x68dc32b6 {
-                    0xb4b427aa: vec3 = { 0, 20, 10 }
+                    0xb4b427aa: vec3 = { 0, 20, 45 }
                 }
                 0x007b14f6: pointer = 0x287851b9 {
                     0x5e661fd4: embed = 0x00c2a390 {
@@ -195,15 +196,22 @@ entries: map[hash,embed] = {
                     0xb4b427aa: f32 = 1
                 }
                 0x2a552694: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 4
+                    0xb4b427aa: f32 = 0.7
+                }
+                0x2431d42c: option[f32] = {
+                    1
+                }
+                0x5212abee: option[f32] = {
+                    1
                 }
                 0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "Add_GlowFade_Gold"
+                0xb9516a6f: u8 = 2
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
                 }
                 0x563d4a22: embed = 0x68dc32b6 {
-                    0xb4b427aa: vec3 = { 0, 20, 0 }
+                    0xb4b427aa: vec3 = { 0, 20, 35 }
                 }
                 0xfa784eab: u8 = 4
                 0x83cdeaa1: embed = 0x074f91dd {
@@ -236,44 +244,49 @@ entries: map[hash,embed] = {
                 0x3c6468f4: string = "ASSETS/Shared/Particles/TFT/TFT8_Alistar_Base_Aura_Self.dds"
             }
             0x09cde442 {
-                0x22e763bc: f32 = 2
                 0xae839c67: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
                 }
                 0x2a552694: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 1
+                    0xb4b427aa: f32 = 0.7
+                }
+                0x2431d42c: option[f32] = {
+                    1
+                }
+                0x5212abee: option[f32] = {
+                    1
                 }
                 0x3d25b8ce: string = "Add_Glow_Gold"
-                0xb9516a6f: u8 = 0
+                0xb9516a6f: u8 = 2
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0xee39916f {
-                    0xe5f268dd: vec3 = { 0, 20, 0 }
-                }
                 0x563d4a22: embed = 0x68dc32b6 {
-                    0xbc037de7: pointer = 0xacd81180 {
-                        0xa7084719: list[pointer] = {
-                            0x53a6c97e {}
-                            0x53a6c97e {}
-                            0x53a6c97e {}
-                        }
-                        0x5d68eeb5: list[f32] = {
-                            0
-                        }
-                        0x34474c3b: list[vec3] = {
-                            { 0, 0, 0 }
-                        }
-                    }
+                    0xb4b427aa: vec3 = { 0, 20, 35 }
                 }
                 0xfa784eab: u8 = 4
                 0x83cdeaa1: embed = 0x074f91dd {
                     0xb4b427aa: vec4 = { 1, 0.4509804, 0, 0.49019608 }
                 }
                 0x3d7e6258: embed = 0x074f91dd {
-                    0xb4b427aa: vec4 = { 1, 1, 1, 0.7100023 }
+                    0xb4b427aa: vec4 = { 1, 1, 1, 0.45882353 }
+                    0xbc037de7: pointer = 0x4349c5f5 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.05
+                            0.6
+                            1
+                        }
+                        0x34474c3b: list[vec4] = {
+                            { 1, 1, 1, 0 }
+                            { 1, 1, 1, 0.45882353 }
+                            { 1, 1, 1, 0.16976506 }
+                            { 1, 1, 1, 0 }
+                        }
+                    }
                 }
                 0x7b7a7318: i16 = 10
+                0xb99310f4: u8 = 0
                 0x6563bee8: u8 = 1
                 0x37ddb774: flag = true
                 0x3559e15b: flag = true
@@ -311,33 +324,21 @@ entries: map[hash,embed] = {
                     0xb4b427aa: f32 = 1
                 }
                 0x2a552694: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 1
+                    0xb4b427aa: f32 = 0.7
+                }
+                0x2431d42c: option[f32] = {
+                    1
                 }
                 0x5212abee: option[f32] = {
-                    2
+                    1
                 }
                 0x3d25b8ce: string = "Add_GlowStrobe_Gold"
-                0xb9516a6f: u8 = 0
+                0xb9516a6f: u8 = 2
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
                 }
-                0x3bf0b4ed: pointer = 0xee39916f {
-                    0xe5f268dd: vec3 = { 0, 20, 0 }
-                }
                 0x563d4a22: embed = 0x68dc32b6 {
-                    0xbc037de7: pointer = 0xacd81180 {
-                        0xa7084719: list[pointer] = {
-                            0x53a6c97e {}
-                            0x53a6c97e {}
-                            0x53a6c97e {}
-                        }
-                        0x5d68eeb5: list[f32] = {
-                            0
-                        }
-                        0x34474c3b: list[vec3] = {
-                            { 0, 0, 0 }
-                        }
-                    }
+                    0xb4b427aa: vec3 = { 0, 20, 35 }
                 }
                 0xfa784eab: u8 = 4
                 0x83cdeaa1: embed = 0x074f91dd {
@@ -355,9 +356,24 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x3d7e6258: embed = 0x074f91dd {
-                    0xb4b427aa: vec4 = { 1, 1, 1, 0.28000304 }
+                    0xb4b427aa: vec4 = { 1, 1, 1, 0.45882353 }
+                    0xbc037de7: pointer = 0x4349c5f5 {
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.05
+                            0.6
+                            1
+                        }
+                        0x34474c3b: list[vec4] = {
+                            { 1, 0.7019608, 0, 0 }
+                            { 1, 0.7411765, 0.12941177, 0.45882353 }
+                            { 1, 0.5799954, 0.26999313, 0.1881152 }
+                            { 1, 0.4509804, 0.003921569, 0 }
+                        }
+                    }
                 }
                 0x7b7a7318: i16 = 10
+                0xb99310f4: u8 = 0
                 0x6563bee8: u8 = 1
                 0x37ddb774: flag = true
                 0x3559e15b: flag = true
@@ -374,15 +390,22 @@ entries: map[hash,embed] = {
                     0xb4b427aa: f32 = 1
                 }
                 0x2a552694: embed = 0x04300058 {
-                    0xb4b427aa: f32 = 4
+                    0xb4b427aa: f32 = 0.7
                 }
                 0x2431d42c: option[f32] = {
-                    0.4
+                    1
+                }
+                0x5212abee: option[f32] = {
+                    1
                 }
                 0x42bd7f6b: flag = true
                 0x3d25b8ce: string = "Alpha_Glow_Gold"
+                0xb9516a6f: u8 = 2
                 0xca406316: embed = 0x04300058 {
                     0xb4b427aa: f32 = 1
+                }
+                0x563d4a22: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 0, 20, 35 }
                 }
                 0xfa784eab: u8 = 1
                 0x83cdeaa1: embed = 0x074f91dd {
@@ -400,7 +423,7 @@ entries: map[hash,embed] = {
                         0x34474c3b: list[vec4] = {
                             { 1, 0.7019608, 0, 0 }
                             { 1, 0.7411765, 0.12941177, 0.45882353 }
-                            { 1, 0.5764706, 0.27058825, 0.45882353 }
+                            { 1, 0.5799954, 0.26999313, 0.1835294 }
                             { 1, 0.4509804, 0.003921569, 0 }
                         }
                     }

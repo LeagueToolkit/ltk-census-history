@@ -8,7 +8,7 @@ entries: map[hash,embed] = {
         0x48a52ed9: list[embed] = {
             0x816753d8 {
                 0x8d39bde6: string = "Parameter0"
-                0xd872e2a5: vec4 = { -1, 0.2, 2, -1 }
+                0xd872e2a5: vec4 = { -1, 0.2, 0.05, 0.06 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "TexDissolveBias"
@@ -19,12 +19,8 @@ entries: map[hash,embed] = {
                         0x0640657c: u32 = 2
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "HardOutlineSize"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "DissolveBias"
-                        0x0640657c: u32 = 8
+                        0x8d39bde6: string = "HardOutline_Smooth_Step"
+                        0x0640657c: u32 = 12
                     }
                 }
             }
@@ -50,19 +46,37 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter3"
-                0xd872e2a5: vec4 = { 0, 0.65, 1, 1 }
+                0xd872e2a5: vec4 = { 2, 2, 0, 0.65 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
+                        0x8d39bde6: string = "HardOutline_Softness"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "HardOutlineSize"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
                         0x8d39bde6: string = "SmoothStep"
-                        0x0640657c: u32 = 3
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter4"
+                0xd872e2a5: vec4 = { -1, 1, 1, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "DissolveBias"
+                        0x0640657c: u32 = 1
                     }
                     0x14a2befa {
                         0x8d39bde6: string = "Alpha"
-                        0x0640657c: u32 = 4
+                        0x0640657c: u32 = 2
                     }
                     0x14a2befa {
                         0x8d39bde6: string = "Bloom_Intensity"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 4
                     }
                 }
             }
@@ -70,6 +84,9 @@ entries: map[hash,embed] = {
         0x3291437b: list[embed] = {
             0x60a292e6 {
                 0x8d39bde6: string = "TEX_SWAP"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "DEFINE_INK_COLOR_BY_TEXTURE"
             }
             0x60a292e6 {
                 0x8d39bde6: string = "USE_ALPHA"
@@ -87,6 +104,10 @@ entries: map[hash,embed] = {
             0x31d1e223 {
                 0x8d39bde6: string = "Ink_Texture"
                 0x32b374fa: string = "ASSETS/Shared/Materials/Smoke_Test.dds"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Ink_Color_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
             }
         }
         0xae29287b: map[string,string] = {

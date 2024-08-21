@@ -1,0 +1,48 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc8285353 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/TFT/TFTScoreboard_PVE/UIBase/SB/Buttons/Fight_Button"
+        0x2063cb13: link = 0x7414d415
+        0x5a94b0cc: list[link] = {
+            0xc0bf13f0
+            0x06d262a0
+            0x65d09d47
+            0x4bf68e87
+            0xdf1668f6
+            0xd8e4be0f
+            0x0c83b68c
+            0x3828e1cd
+            0x4768bbfd
+        }
+        0xdf2b45ce: bool = true
+        0x6bf3194e: link = 0x0c83b68c
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x06d262a0
+                0xd8e4be0f
+            }
+            0xeec29756: link = 0xdf1668f6
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x4bf68e87
+            }
+            0xeec29756: link = 0xdf1668f6
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xc0bf13f0
+            }
+            0xeec29756: link = 0x3828e1cd
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x65d09d47
+            }
+            0xeec29756: link = 0x4768bbfd
+        }
+    }
+}

@@ -86,13 +86,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BaseDamageMax"
                     0x246b0d8e: list[f32] = {
-                        -40
-                        15
-                        70
-                        125
-                        180
-                        235
-                        290
+                        20
+                        90
+                        160
+                        230
+                        300
+                        370
+                        440
                     }
                 }
                 0x005008a6 {
@@ -110,37 +110,37 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "tADRatioMax"
                     0x246b0d8e: list[f32] = {
-                        1.2
-                        1.25
-                        1.3
-                        1.35
                         1.4
-                        1.45
                         1.5
+                        1.6
+                        1.7
+                        1.8
+                        1.9
+                        2
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "BaseDamageMinTooltip"
                     0x246b0d8e: list[f32] = {
-                        -26.67
-                        10
-                        46.67
-                        83.34
-                        120.01
-                        156.68
-                        193.35
+                        19.33333
+                        60
+                        100.66667
+                        141.33334
+                        182.00002
+                        222.66669
+                        263.33334
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "tADRatioMin"
                     0x246b0d8e: list[f32] = {
-                        0.8
                         0.83333
-                        0.8666
                         0.9
-                        0.93333
-                        0.96666
-                        1
+                        0.96667
+                        1.03334
+                        1.10001
+                        1.16668
+                        1.23335
                     }
                 }
                 0x005008a6 {
@@ -170,31 +170,11 @@ entries: map[hash,embed] = {
                 }
             }
             0x94572284: map[hash,pointer] = {
-                0xb3ef3984 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0xad106e67 {
-                            0x46144074: pointer = 0x332eb441 {
-                                0xb386dcf1: hash = 0x0952928d
-                            }
-                            0x4914452d: pointer = 0x332eb441 {
-                                0xb386dcf1: hash = 0xcef5d6aa
-                            }
-                        }
-                        0xad106e67 {
-                            0x46144074: pointer = 0xad106e67 {
-                                0x46144074: pointer = 0x332eb441 {
-                                    0xb386dcf1: hash = 0xcef5d6aa
-                                }
-                                0x4914452d: pointer = 0x332eb441 {
-                                    0xb386dcf1: hash = 0x61571ee1
-                                }
-                            }
-                            0x4914452d: pointer = 0x5815b0a9 {
-                                0x4cec2c8a: u8 = 2
-                                0x295c2889: f32 = 1
-                            }
-                        }
+                0xb3ef3984 = 0x070e3593 {
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0xcef5d6aa
                     }
+                    0x7f93cf4e: hash = 0xc202d746
                 }
                 0xc202d746 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
@@ -203,20 +183,16 @@ entries: map[hash,embed] = {
                         }
                         0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
                             0xb386dcf1: hash = 0x61571ee1
                         }
                     }
                 }
-                0x52fe101f = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0xa878fcc2
-                        }
-                        0x5f5c70a4 {
-                            0x4cec2c8a: u8 = 2
-                            0xb386dcf1: hash = 0x736ac2ef
-                        }
+                0x52fe101f = 0x070e3593 {
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0xcef5d6aa
                     }
+                    0x7f93cf4e: hash = 0xc202d746
                 }
             }
             0x295c2889: f32 = 1
@@ -320,6 +296,7 @@ entries: map[hash,embed] = {
             }
             0x77b9f839: u32 = 1
             0x5d46764f: pointer = 0xdf6dc76a {}
+            0x8958fee2: pointer = 0x8958fee2 {}
             0x03f432a6: u8 = 1
             0x00f7e5bc: bool = true
             0x048557ff: embed = 0x7dd1a902 {
@@ -349,7 +326,7 @@ entries: map[hash,embed] = {
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "tADRatioMax"
-                                    0x566f3406: string = "Spell_ListType_TotalADRatio"
+                                    0x566f3406: string = "Spell_ListType_BonusADRatio"
                                 }
                             }
                         }

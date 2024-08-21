@@ -165,9 +165,9 @@ entries: map[hash,embed] = {
                 { 150, 150, 150 }
             }
             0x561f4fea: rgba = { 0, 0, 0, 255 }
-            0x80b7f78f: string = "JellyBase JellyHead JellySpikes Lock LockFace"
-            0xf4ba5c9e: string = "LockFace Helmet"
-            0x2d7b4ab4: string = "Helmet Sylas_Body Gauntlet_L Gauntlet_R Chain_R Chain_L Lock"
+            0x80b7f78f: string = "JellyBase JellyHead JellySpikes Lock LockFace Helmet"
+            0xf4ba5c9e: string = "LockFace"
+            0x2d7b4ab4: string = "Helmet Sylas_Body Chain_R Chain_L Lock"
             0x24725910: list[embed] = {
                 0x8b7a4394 {
                     0xd2e4d060: link = 0x612cbf10
@@ -205,10 +205,6 @@ entries: map[hash,embed] = {
                     0xd2e4d060: link = 0xb433d05e
                     0xaad7612c: string = "Sylas_Body"
                 }
-                0x8b7a4394 {
-                    0xd2e4d060: link = 0xcd114d51
-                    0xaad7612c: string = "Helmet"
-                }
             }
             0xe9c98281: list[pointer] = {
                 0xce0b9a93 {
@@ -244,7 +240,7 @@ entries: map[hash,embed] = {
         }
         0x51c83af8: embed = 0x11b71b5e {
             0x4d5ff2d7: string = "Buffbone_Cstm_Healthbar"
-            0x3fcb5693: u8 = 10
+            0x3fcb5693: u8 = 11
         }
         0x62286e7e: link = 0x4f239360
         0x87b1d303: list2[pointer] = {
@@ -280,6 +276,9 @@ entries: map[hash,embed] = {
                     0x00fa43e4 {
                         0x9b0300f3: hash = 0x1f29eae7
                     }
+                }
+                0xa826e328: list2[hash] = {
+                    0x8d7a7c20
                 }
             }
         }

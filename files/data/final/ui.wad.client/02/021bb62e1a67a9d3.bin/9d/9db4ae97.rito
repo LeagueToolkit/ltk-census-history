@@ -1,0 +1,39 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x9db4ae97 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/TFT/TFTScoreboard_PVE/UIBase/SB/TFT_Generic_BlueButton"
+        0x2063cb13: link = 0x7414d415
+        0x5a94b0cc: list[link] = {
+            0x70897d43
+            0xc275d903
+            0x7b1b1e6f
+            0x210a5090
+            0xacb902c2
+            0x4c2ec80f
+            0x6d90ef29
+        }
+        0x6bf3194e: link = 0x70897d43
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xc275d903
+            }
+            0xeec29756: link = 0x7b1b1e6f
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x210a5090
+            }
+            0xeec29756: link = 0xacb902c2
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x4c2ec80f
+            }
+            0xeec29756: link = 0x6d90ef29
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {}
+    }
+}
