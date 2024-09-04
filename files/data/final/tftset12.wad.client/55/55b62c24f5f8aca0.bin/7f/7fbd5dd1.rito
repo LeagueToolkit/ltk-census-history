@@ -11,19 +11,7 @@ entries: map[hash,embed] = {
             0x9119fdbf: u32 = 32
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
-                    0x19efbfdb: string = "BaseBonusMagicDamage"
-                    0x246b0d8e: list[f32] = {
-                        0
-                        40
-                        60
-                        180
-                        300
-                        300
-                        300
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "CastsPerStack"
+                    0x19efbfdb: string = "StacksPerCast"
                     0x246b0d8e: list[f32] = {
                         1
                         1
@@ -41,42 +29,30 @@ entries: map[hash,embed] = {
                         95
                         145
                         430
+                        600
                         300
                         300
-                        300
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "BonusStacks"
-                    0x246b0d8e: list[f32] = {
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "MaxVisualSnips"
                     0x246b0d8e: list[f32] = {
-                        6
-                        6
-                        6
-                        6
-                        6
-                        6
-                        6
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "SmallSnipBaseDamage"
                     0x246b0d8e: list[f32] = {
                         75
-                        40
-                        60
-                        180
+                        45
+                        70
+                        210
                         340
                         340
                         340
@@ -107,6 +83,21 @@ entries: map[hash,embed] = {
                                 0xb386dcf1: hash = 0x294d44c0
                             }
                             0xb8dcfcbb: f32 = 0.01
+                        }
+                    }
+                }
+                0x34800f3f = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x84a63373 {
+                            0xa066cc28: list[pointer] = {
+                                0x9ef92080 {
+                                    0xe202bca9: f32 = 2
+                                }
+                                0x4ad0847a {
+                                    0x02490112: hash = 0xce18edce
+                                    0x295c2889: f32 = 1
+                                }
+                            }
                         }
                     }
                 }

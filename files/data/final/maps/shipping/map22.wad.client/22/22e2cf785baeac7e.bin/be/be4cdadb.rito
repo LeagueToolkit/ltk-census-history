@@ -1,0 +1,19 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xbe4cdadb = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_TACTICIANSITEMS"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Item_ForceOfNature"
+                    "TFT_Item_TacticiansRing"
+                    "TFT_Item_TacticiansScepter"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,18 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x65149400 = 0x89a3465f {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/TFT/TFTCombatRecap/UIBase/TFT_CombatRecap/CR_Panel_Line/Layout"
+        0x2063cb13: link = 0x90051e2d
+        0x6971d77f: list2[link] = {
+            0xba6c52a5
+            0xc9f6c412
+            0x0a044863
+        }
+        0x031afe7d: link = 0xba6c52a5
+        0xfa4c41a0: pointer = 0x26f2a088 {}
+        0x6e4f45c5: bool = true
+    }
+}
