@@ -30,6 +30,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MonsterMod"
+                0x24f2ec89: f32 = 0.25
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "Range"
@@ -80,12 +81,12 @@ entries: map[hash,embed] = {
             0xbbd98b36 = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
                     0x9ef92080 {
-                        0xe202bca9: f32 = 10
+                        0xe202bca9: f32 = 15
                     }
                     0x5815b0a9 {
                         0x4cec2c8a: u8 = 11
                         0x7d3150ec: u8 = 2
-                        0x295c2889: f32 = 0.0175
+                        0x295c2889: f32 = 0.01
                     }
                 }
             }
@@ -95,13 +96,11 @@ entries: map[hash,embed] = {
                 }
                 0x7f93cf4e: hash = 0xbbd98b36
             }
-            0x049cea52 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x15fecdbc {
-                        0xd06c375d: f32 = 12
-                        0x1cd7e522: f32 = 30
-                    }
+            0x049cea52 = 0x070e3593 {
+                0x2c77adff: pointer = 0x9ef92080 {
+                    0xe202bca9: f32 = 1
                 }
+                0x7f93cf4e: hash = 0xe22a4dfe
             }
             0x5c1db0b9 = 0x070e3593 {
                 0x2c77adff: pointer = 0x332eb441 {
@@ -118,7 +117,7 @@ entries: map[hash,embed] = {
             }
         }
         0x5b98619f: f32 = 10
-        0x06d997bb: f32 = 450
+        0x06d997bb: f32 = 400
         0xc1cd174b: f32 = 1
         0xb9f972a0: f32 = 40
         0xccf99b44: list[string] = {
@@ -146,6 +145,7 @@ entries: map[hash,embed] = {
                     "keyFlavorText" = "Item_6664_FlavorText"
                     "keySecondaryBrief" = "Item_Unique_Immolate"
                     "keyInventoryOnlyText" = "Item_6664_InventoryOnlyText"
+                    "keyTooltipExtendedRules" = "Item_6664_TooltipExtendedRules"
                     "keyTooltipExternal" = "Item_6664_TooltipExternal"
                 }
                 0x91ed07c9: map[string,embed] = {

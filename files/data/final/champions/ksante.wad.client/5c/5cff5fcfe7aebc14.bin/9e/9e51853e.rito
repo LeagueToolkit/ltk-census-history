@@ -16,25 +16,37 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "AllOutDuration"
                     0x246b0d8e: list[f32] = {
-                        20
-                        20
-                        20
-                        20
-                        20
-                        20
-                        20
+                        15
+                        15
+                        15
+                        15
+                        15
+                        15
+                        15
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "BaseDamage"
                     0x246b0d8e: list[f32] = {
-                        30
-                        70
-                        110
+                        45
+                        80
+                        115
                         150
-                        190
-                        230
-                        270
+                        185
+                        220
+                        255
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "SlamDownStrikeDamage"
+                    0x246b0d8e: list[f32] = {
+                        45
+                        80
+                        115
+                        150
+                        185
+                        220
+                        255
                     }
                 }
                 0x005008a6 {
@@ -60,12 +72,6 @@ entries: map[hash,embed] = {
                         0.25
                         0.25
                     }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "WallKnockUpDuration"
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "NoWallKnockUpDuration"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "MaxSuppressTime"
@@ -206,27 +212,39 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "ADGainedPerPoint"
+                    0x19efbfdb: string = "Omnivamp"
                     0x246b0d8e: list[f32] = {
-                        1
-                        1.25
-                        1.5
-                        1.75
-                        2
-                        2.25
-                        2.5
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "AttackSpeedIncrease"
+                    0x19efbfdb: string = "AttackSpeed"
                     0x246b0d8e: list[f32] = {
-                        0.15
-                        0.25
-                        0.35
-                        0.45
-                        0.55
-                        0.65
-                        0.75
+                        0.2
+                        0.4
+                        0.6
+                        0.8
+                        1
+                        1.2
+                        1.4
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ArmorPenPercent"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
                     }
                 }
                 0x005008a6 {
@@ -419,18 +437,6 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "DebugWallExplosions"
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "SlamDownStrikeDamage"
-                    0x246b0d8e: list[f32] = {
-                        30
-                        70
-                        110
-                        150
-                        190
-                        230
-                        270
-                    }
-                }
-                0x005008a6 {
                     0x19efbfdb: string = "AnimationDashTime"
                     0x246b0d8e: list[f32] = {
                         0.3
@@ -577,30 +583,6 @@ entries: map[hash,embed] = {
                         0.8
                     }
                 }
-                0x005008a6 {
-                    0x19efbfdb: string = "AllOutBaseAttackDamage"
-                    0x246b0d8e: list[f32] = {
-                        -5
-                        10
-                        25
-                        40
-                        55
-                        70
-                        85
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "AllOutBaseOmnivamp"
-                    0x246b0d8e: list[f32] = {
-                        10
-                        15
-                        20
-                        25
-                        30
-                        35
-                        40
-                    }
-                }
             }
             0xfb56608c: map[hash,embed] = {
                 0x497ae878 = 0x6b2f7a8d {
@@ -634,58 +616,15 @@ entries: map[hash,embed] = {
                 }
             }
             0x94572284: map[hash,pointer] = {
-                0x1ddee768 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0x03da00f9
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.65
-                        }
-                    }
-                }
-                0x7ceb4985 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0xad49d150
-                        }
-                        0x5815b0a9 {
-                            0x4cec2c8a: u8 = 1
-                            0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 0.25
-                        }
-                        0x5815b0a9 {
-                            0x4cec2c8a: u8 = 5
-                            0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 0.25
-                        }
-                    }
-                }
-                0xc5ba1e39 = 0xbc409284 {
-                    0xcbcac618: u8 = 5
-                    0x37070a8d: u8 = 5
-                    0xe6eebb2f: u8 = 5
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0x38dd1f00
-                        }
-                    }
-                }
-                0x79ea0a1f = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0x0937c030
-                        }
-                    }
-                    0x5a2297d3: bool = true
-                }
                 0x6c52a28d = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0xe43dfc97
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.65
+                            0x4cec2c8a: u8 = 11
+                            0x7d3150ec: u8 = 2
+                            0x295c2889: f32 = 0.05
                         }
                     }
                 }
@@ -712,6 +651,7 @@ entries: map[hash,embed] = {
             0x27a5c707: bool = true
             0xdf73f8e2: bool = true
             0xd13b3d08: bool = true
+            0xa4cd4aa5: bool = true
             0x1b9cbd9b: list[f32] = {
                 350
                 350
@@ -793,10 +733,6 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Cooldown"
-                                    0x566f3406: string = "Spell_ListType_Cooldown"
-                                }
-                                0x9a1b3505 {
                                     0x5127f14d: string = "BaseDamage"
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
@@ -805,18 +741,13 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_KSanteR_Wall_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "AllOutBaseAttackDamage"
-                                    0x566f3406: string = "Spell_ListType_AttackDamageBonus"
+                                    0x5127f14d: string = "Cooldown"
+                                    0x566f3406: string = "Spell_ListType_Cooldown"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "AttackSpeedIncrease"
+                                    0x5127f14d: string = "AttackSpeed"
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_AttackSpeed"
-                                    0xac307ed6: u32 = 1
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "AllOutBaseOmnivamp"
-                                    0x566f3406: string = "Spell_KSanteR_Healing"
                                     0xac307ed6: u32 = 1
                                 }
                             }
@@ -879,7 +810,7 @@ entries: map[hash,embed] = {
                     0x725bd4d5: pointer = 0xbc409284 {
                         0x50f145c0: list[pointer] = {
                             0x332eb441 {
-                                0xb386dcf1: hash = 0x51edb62f
+                                0xb386dcf1: hash = 0x3f1d6126
                             }
                         }
                     }

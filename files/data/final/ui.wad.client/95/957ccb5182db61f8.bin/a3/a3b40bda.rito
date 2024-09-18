@@ -3,5 +3,39 @@ type: string = "PROP"
 version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
-    0xa3b40bda = 0xbd264fe3 {}
+    0xa3b40bda = 0xbd264fe3 {
+        0x8ddbeb4b: string = "ASSETS/UX/Fonts/TFTTeamPlannerTextIcons.TFT_TP_MultiSets.tex"
+        0xf9e1dd39: map[string,embed] = {
+            "TFTSet12SelectedDefault" = 0xede5bb41 {
+                0x58637fda: vec2 = { 66, 1 }
+                0x6747c0fa: vec2 = { 30, 31 }
+                0x81e208ef: f32 = 7
+            }
+            "TFTSet12UnselectedDefault" = 0xede5bb41 {
+                0x58637fda: vec2 = { 2, 1 }
+                0x6747c0fa: vec2 = { 30, 31 }
+                0x81e208ef: f32 = 7
+            }
+            "TFTSet12UnselectedClicked" = 0xede5bb41 {
+                0x58637fda: vec2 = { 34, 1 }
+                0x6747c0fa: vec2 = { 30, 31 }
+                0x81e208ef: f32 = 7
+            }
+            "TFTSet5Stage2SelectedDefault" = 0xede5bb41 {
+                0x58637fda: vec2 = { 66, 34 }
+                0x6747c0fa: vec2 = { 30, 26 }
+                0x81e208ef: f32 = 5
+            }
+            "TFTSet5Stage2UnselectedDefault" = 0xede5bb41 {
+                0x58637fda: vec2 = { 2, 34 }
+                0x6747c0fa: vec2 = { 30, 26 }
+                0x81e208ef: f32 = 5
+            }
+            "TFTSet5Stage2UnselectedClicked" = 0xede5bb41 {
+                0x58637fda: vec2 = { 34, 34 }
+                0x6747c0fa: vec2 = { 30, 26 }
+                0x81e208ef: f32 = 5
+            }
+        }
+    }
 }

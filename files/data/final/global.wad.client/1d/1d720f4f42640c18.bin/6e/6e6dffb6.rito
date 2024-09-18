@@ -14,7 +14,7 @@ entries: map[hash,embed] = {
             0xb0bee26d
             0x22b8e842
         }
-        0x0b44452a: i32 = 550
+        0x0b44452a: i32 = 50
         0xf028019b: bool = true
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
@@ -22,12 +22,12 @@ entries: map[hash,embed] = {
         0x2c359091: list[link] = {
             0x4983b549
             0x26260ec3
-            0x12297adb
+            0x9922009b
         }
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "PrimaryTargetHPRatio"
-                0x24f2ec89: f32 = 0.015
+                0x24f2ec89: f32 = 0.01
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "SplashHPRatio"
@@ -99,9 +99,31 @@ entries: map[hash,embed] = {
                     0xb386dcf1: hash = 0xea1217fc
                 }
             }
+            0x93c9469d = 0xe9a3c91d {
+                0x50f145c0: list[pointer] = {
+                    0x5815b0a9 {
+                        0x4cec2c8a: u8 = 11
+                        0x295c2889: f32 = 0.01
+                    }
+                }
+                0x68508370: pointer = 0x9ef92080 {
+                    0xe202bca9: f32 = 0.5
+                }
+            }
+            0xa466f0c6 = 0xe9a3c91d {
+                0x50f145c0: list[pointer] = {
+                    0x5815b0a9 {
+                        0x4cec2c8a: u8 = 11
+                        0x295c2889: f32 = 0.03
+                    }
+                }
+                0x68508370: pointer = 0x9ef92080 {
+                    0xe202bca9: f32 = 0.5
+                }
+            }
         }
-        0x06d997bb: f32 = 550
-        0x4e7a81cd: f32 = 50
+        0x06d997bb: f32 = 600
+        0x4e7a81cd: f32 = 40
         0xccf99b44: list[string] = {
             "Health"
             "HealthRegen"
@@ -125,9 +147,10 @@ entries: map[hash,embed] = {
                     "keyTooltip" = "Item_3748_Tooltip"
                     "keyColloquialism" = "Item_3748_Colloquialism"
                     "keyActive" = "Item_3748_Active"
-                    "keyActiveExternal" = "Item_3748_ActiveExternal"
                     "keySecondaryBrief" = "Item_Unique_Hydra"
                     "keyTooltipExtendedRules" = "Item_3748_TooltipExtendedRules"
+                    "keyTooltipExternal" = "Item_3748_TooltipExternal"
+                    "keyActiveExternal" = "Item_3748_ActiveExternal"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {

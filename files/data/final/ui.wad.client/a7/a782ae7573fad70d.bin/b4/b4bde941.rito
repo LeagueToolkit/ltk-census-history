@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb4bde941 = 0x89a3465f {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/LoL/TeamFrames/UIBase/TeamFrames/ReciprocityLayout"
+        0x2063cb13: link = 0xf662d2a3
+        0x6971d77f: list2[link] = {
+            0xac0e5079
+            0xefa489f8
+            0xb1c0fad3
+        }
+        0x031afe7d: link = 0xb1c0fad3
+        0xfa4c41a0: pointer = 0xb277fa06 {
+            0xa1527ead: u8 = 1
+            0xf00a885b: u8 = 3
+            0xb49ed6f0: u8 = 1
+        }
+        0xb824a2c2: bool = true
+    }
+}

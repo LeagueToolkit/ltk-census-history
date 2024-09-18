@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x9e40c277 = 0x60e00531 {
+        0x19efbfdb: string = "Set5Personality_Legionnaire"
+        0x0773669d: map[string,pointer] = {
+            "Set5_Legionnaire" = 0x977517c6 {
+                0x24f2ec89: f32 = 5
+            }
+            "TFT5_Darius" = 0x977517c6 {
+                0x24f2ec89: f32 = 3
+            }
+            "TFT5_Taric" = 0x977517c6 {
+                0x24f2ec89: f32 = 2.5
+            }
+            "TFT5_Morgana" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+            "TFT5_Pantheon" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+        }
+        0x9be36761: link = 0xa0011303
+    }
+}

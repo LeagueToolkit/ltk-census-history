@@ -16,7 +16,7 @@ entries: map[hash,embed] = {
             0x0fe5f3f2
             0x705ee247
         }
-        0x0b44452a: i32 = 800
+        0x0b44452a: i32 = 150
         0xf028019b: bool = true
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
@@ -24,6 +24,7 @@ entries: map[hash,embed] = {
         0x2c359091: list[link] = {
             0xdbf0e70f
             0xe8233abd
+            0x1f2750bb
         }
         0x251a5225: list[f32] = {
             45
@@ -41,8 +42,8 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 18
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "MeleeItemCalcValue"
-                0x24f2ec89: f32 = 40
+                0x19efbfdb: string = "OOCMS"
+                0x24f2ec89: f32 = 20
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ChampCombatTimer"
@@ -53,16 +54,20 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 45
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "RangedItemCalcValue"
-                0x24f2ec89: f32 = 20
-            }
-            0xb2c62c87 {
                 0x19efbfdb: string = "MeleeItemCalcValueB"
                 0x24f2ec89: f32 = 20
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "RangedItemCalcValueB"
                 0x24f2ec89: f32 = 15
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "Duration"
+                0x24f2ec89: f32 = 6
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "Cooldown"
+                0x24f2ec89: f32 = 45
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -115,7 +120,6 @@ entries: map[hash,embed] = {
                     "keyActiveExternal" = "Item_3142_ActiveExternal"
                     "keyColloquialism" = "Item_3142_Colloquialism"
                     "keyKeywordDefinitions" = "Item_3142_KeywordDefinitions"
-                    "keyTooltipExternal" = "Item_3142_TooltipExternal"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
