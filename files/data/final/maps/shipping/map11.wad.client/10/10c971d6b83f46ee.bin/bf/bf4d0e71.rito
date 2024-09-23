@@ -15,13 +15,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BaseDamage"
                     0x246b0d8e: list[f32] = {
-                        200
-                        300
-                        400
-                        500
-                        600
-                        700
-                        800
+                        225
+                        275
+                        325
+                        375
+                        425
+                        475
+                        525
                     }
                 }
                 0x005008a6 {
@@ -48,6 +48,18 @@ entries: map[hash,embed] = {
                         200
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "StunDuration"
+                    0x246b0d8e: list[f32] = {
+                        0.25
+                        0.4
+                        0.55
+                        0.7
+                        0.85
+                        1
+                        1.15
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0xc9e3357d = 0xbc409284 {
@@ -66,9 +78,9 @@ entries: map[hash,embed] = {
                 "UltBook_Tristana_Square.dds"
             }
             0x9ecac3a1: list[f32] = {
-                120
-                120
-                110
+                100
+                100
+                100
                 100
                 100
                 100
@@ -149,9 +161,6 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Cooldown"
-                                }
-                                0x9a1b3505 {
                                     0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
@@ -160,6 +169,10 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "KnockbackDistance"
                                     0x33c02d93: i32 = 2
                                     0x566f3406: string = "Spell_ListType_TristanaKnockbackDistance"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "StunDuration"
+                                    0x566f3406: string = "Spell_ListType_StunDuration"
                                 }
                             }
                         }
