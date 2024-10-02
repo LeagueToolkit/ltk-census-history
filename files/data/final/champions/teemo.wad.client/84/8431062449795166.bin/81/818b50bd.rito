@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x818b50bd = 0x5e7e5a06 {
+        0xc8e37ef0: string = "TeemoPStealthBuff"
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0xf1f20d72: string = "game_buff_tooltip_TeemoPStealthBuff"
+            0x87b1d303: list2[pointer] = {
+                0x67ac9672 {
+                    0x071f3c1d: list2[embed] = {
+                        0x00fa43e4 {
+                            0x9b0300f3: hash = 0x349d9b74
+                        }
+                        0x00fa43e4 {
+                            0x1ecb978c: string = "Goggles"
+                            0x9b0300f3: hash = 0x9bfec370
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

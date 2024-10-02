@@ -6,7 +6,7 @@ entries: map[hash,embed] = {
     0x42348332 = 0x9b67e9f6 {
         0x87225880: u32 = 1
         0x2d78c328: string = "TeemoSkin47"
-        0x939e7b29: string = "faction:bandlecity,race:yordle,gender:male,skinline:spacegroove"
+        0x939e7b29: string = "faction:bandlecity,race:yordle,gender:male,skinline:spacegroove,thememusic:teemo"
         0x97f7188d: embed = 0xd06263ff {
             0xb35135fa: string = "ASSETS/Characters/Teemo/Skins/Skin47/TeemoLoadScreen_47.dds"
         }
@@ -26,19 +26,13 @@ entries: map[hash,embed] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Teemo/Skins/Skin47/Teemo_Skin47_SFX_events.bnk"
                     }
                     0x12d8e384: list[string] = {
-                        "Play_sfx_TeemoSkin47_BantamTrap_boom_blue"
-                        "Play_sfx_TeemoSkin47_BantamTrap_boom_green"
-                        "Play_sfx_TeemoSkin47_BantamTrap_boom_orange"
-                        "Play_sfx_TeemoSkin47_BantamTrap_boom_pink"
-                        "Play_sfx_TeemoSkin47_BantamTrap_boom_purple"
-                        "Play_sfx_TeemoSkin47_BantamTrap_bounce"
-                        "Play_sfx_TeemoSkin47_BantamTrap_OnBuffActivate"
-                        "Play_sfx_TeemoSkin47_BantamTrap_OnCast"
-                        "Play_sfx_TeemoSkin47_BlindingDart_OnCast"
-                        "Play_sfx_TeemoSkin47_BlindingDart_OnHit"
-                        "Play_sfx_TeemoSkin47_BlindingDart_OnMissileLaunch"
-                        "Play_sfx_TeemoSkin47_CamouflageStealth_OnBuffActivate"
-                        "Play_sfx_TeemoSkin47_CamouflageStealth_OnBuffDeactivate"
+                        "Play_sfx_TeemoMushroomSkin47_TeemoRTrap_buffactivate_arm"
+                        "Play_sfx_TeemoMushroomSkin47_TeemoRTrap_buffdeactivate"
+                        "Play_sfx_TeemoMushroomSkin47_TeemoRTrap_hitlocation_blue"
+                        "Play_sfx_TeemoMushroomSkin47_TeemoRTrap_hitlocation_green"
+                        "Play_sfx_TeemoMushroomSkin47_TeemoRTrap_hitlocation_orange"
+                        "Play_sfx_TeemoMushroomSkin47_TeemoRTrap_hitlocation_pink"
+                        "Play_sfx_TeemoMushroomSkin47_TeemoRTrap_hitlocation_purple"
                         "Play_sfx_TeemoSkin47_Dance3D_loop"
                         "Play_sfx_TeemoSkin47_Dance3D_music_loop"
                         "Play_sfx_TeemoSkin47_Death3D_cast"
@@ -50,10 +44,6 @@ entries: map[hash,embed] = {
                         "Play_sfx_TeemoSkin47_Joke3D_In_buffactivate"
                         "Play_sfx_TeemoSkin47_Joke3D_Loop_buffactivate"
                         "Play_sfx_TeemoSkin47_Laugh3D_buffactivate"
-                        "Play_sfx_TeemoSkin47_MoveQuick_OnBuffActivate"
-                        "Play_sfx_TeemoSkin47_MoveQuick_OnBuffDeactivate"
-                        "Play_sfx_TeemoSkin47_MoveQuick_OnCast"
-                        "Play_sfx_TeemoSkin47_MoveQuick_Rollerskate_buffactivate"
                         "Play_sfx_TeemoSkin47_Recall3D_leadin"
                         "Play_sfx_TeemoSkin47_Recall3D_winddown"
                         "Play_sfx_TeemoSkin47_Respawn3D_buffactivate"
@@ -69,24 +59,56 @@ entries: map[hash,embed] = {
                         "Play_sfx_TeemoSkin47_TeemoCritAttack_OnCast"
                         "Play_sfx_TeemoSkin47_TeemoCritAttack_OnHit"
                         "Play_sfx_TeemoSkin47_TeemoCritAttack_OnMissileLaunch"
+                        "Play_sfx_TeemoSkin47_TeemoEAttack_OnCast"
+                        "Play_sfx_TeemoSkin47_TeemoEAttack_OnHit"
+                        "Play_sfx_TeemoSkin47_TeemoEAttack_OnMissileCast"
+                        "Play_sfx_TeemoSkin47_TeemoEAttack_OnMissileLaunch"
+                        "Play_sfx_TeemoSkin47_TeemoECrit_OnCast"
+                        "Play_sfx_TeemoSkin47_TeemoECrit_OnHit"
+                        "Play_sfx_TeemoSkin47_TeemoECrit_OnMissileCast"
+                        "Play_sfx_TeemoSkin47_TeemoECrit_OnMissileLaunch"
                         "Play_sfx_TeemoSkin47_TeemoP_Mute"
                         "Play_sfx_TeemoSkin47_TeemoP_UnMute"
-                        "Play_sfx_TeemoSkin47_ToxicShotAttack_OnCast"
-                        "Play_sfx_TeemoSkin47_ToxicShotAttack_OnHit"
-                        "Play_sfx_TeemoSkin47_ToxicShotAttack_OnMissileCast"
-                        "Stop_sfx_TeemoSkin47_BantamTrap_bounce"
-                        "Stop_sfx_TeemoSkin47_BantamTrap_OnCast"
-                        "Stop_sfx_TeemoSkin47_CamouflageStealth_OnBuffDeactivate"
+                        "Play_sfx_TeemoSkin47_TeemoPStealthBuff_buffactivate"
+                        "Play_sfx_TeemoSkin47_TeemoPStealthBuff_buffdeactivate"
+                        "Play_sfx_TeemoSkin47_TeemoPStealthBuff_cast"
+                        "Play_sfx_TeemoSkin47_TeemoPStealthBuff_OnBuffActivate"
+                        "Play_sfx_TeemoSkin47_TeemoPStealthBuff_OnBuffDeactivate"
+                        "Play_sfx_TeemoSkin47_TeemoQ_buffactivate"
+                        "Play_sfx_TeemoSkin47_TeemoQ_OnBuffDeactivate"
+                        "Play_sfx_TeemoSkin47_TeemoQ_OnCast"
+                        "Play_sfx_TeemoSkin47_TeemoQ_OnHit"
+                        "Play_sfx_TeemoSkin47_TeemoQ_OnMissileLaunch"
+                        "Play_sfx_TeemoSkin47_TeemoR_missilelaunch"
+                        "Play_sfx_TeemoSkin47_TeemoR_OnCast"
+                        "Play_sfx_TeemoSkin47_TeemoRBounce_missilecast"
+                        "Play_sfx_TeemoSkin47_TeemoRDot_OnBuffActivate"
+                        "Play_sfx_TeemoSkin47_TeemoRDot_OnBuffDeactivate"
+                        "Play_sfx_TeemoSkin47_TeemoRTrap_OnBuffActivate"
+                        "Play_sfx_TeemoSkin47_TeemoW_OnBuffActivate"
+                        "Play_sfx_TeemoSkin47_TeemoW_OnBuffDeactivate"
+                        "Play_sfx_TeemoSkin47_TeemoW_OnCast"
+                        "Play_sfx_TeemoSkin47_TeemoW_rollerskate_buffactivate"
+                        "Stop_sfx_TeemoMushroomSkin47_TeemoRTrap_buffactivate_arm"
                         "Stop_sfx_TeemoSkin47_Dance3D_loop"
                         "Stop_sfx_TeemoSkin47_Death3D_cast"
                         "Stop_sfx_TeemoSkin47_Homeguard3D_loop"
-                        "Stop_sfx_TeemoSkin47_MoveQuick_OnBuffActivate"
-                        "Stop_sfx_TeemoSkin47_MoveQuick_Rollerskate_buffactivate"
                         "Stop_sfx_TeemoSkin47_Taunt3D_buffactivate"
                         "Stop_sfx_TeemoSkin47_TeemoBasicAttack2_OnMissileLaunch"
                         "Stop_sfx_TeemoSkin47_TeemoBasicAttack_OnMissileLaunch"
                         "Stop_sfx_TeemoSkin47_TeemoCritAttack_OnMissileLaunch"
-                        "Stop_sfx_TeemoSkin47_ToxicShotAttack_OnMissileCast"
+                        "Stop_sfx_TeemoSkin47_TeemoEAttack_OnMissileCast"
+                        "Stop_sfx_TeemoSkin47_TeemoEAttack_OnMissileLaunch"
+                        "Stop_sfx_TeemoSkin47_TeemoECrit_OnMissileCast"
+                        "Stop_sfx_TeemoSkin47_TeemoECrit_OnMissileLaunch"
+                        "Stop_sfx_TeemoSkin47_TeemoPStealthBuff_buffactivate"
+                        "Stop_sfx_TeemoSkin47_TeemoPStealthBuff_cast"
+                        "Stop_sfx_TeemoSkin47_TeemoR_missilelaunch"
+                        "Stop_sfx_TeemoSkin47_TeemoR_OnCast"
+                        "Stop_sfx_TeemoSkin47_TeemoRBounce_missilecast"
+                        "Stop_sfx_TeemoSkin47_TeemoRDot_OnBuffActivate"
+                        "Stop_sfx_TeemoSkin47_TeemoW_OnBuffActivate"
+                        "Stop_sfx_TeemoSkin47_TeemoW_rollerskate_buffactivate"
                     }
                 }
                 0xa4416515 {
@@ -157,6 +179,9 @@ entries: map[hash,embed] = {
             0x3c6468f4: string = "ASSETS/Characters/Teemo/Skins/Skin47/Teemo_Skin47_TX_CM.dds"
             0xa1f805da: f32 = 1.6
             0x252f6884: f32 = 0.7
+            0x5c7a0332: option[vec3] = {
+                { 34, 93.5, 90 }
+            }
             0x561f4fea: rgba = { 0, 0, 0, 255 }
             0x80b7f78f: string = "Teemo_Skin47_Discoball_MAT Teemo_Skin47_Boombox_MAT Teemo_Skin47_BlueBoogieBody_MAT Teemo_Skin47_BlueBoogieFaceDefault_MAT Teemo_Skin47_BlueBoogieFaceStars_MAT Teemo_Skin47_BlueBoogieFaceTongue_MAT Teemo_Skin47_PurpleBoogieArmor_MAT Teemo_Skin47_PurpleBoogieFaceDefault_MAT Teemo_Skin47_PurpleBoogieFaceStars_MAT Teemo_Skin47_PurpleBoogieFaceTongue_MAT Teemo_Skin47_PurpleBoogieBody_MAT Teemo_Skin47_OrangeBoogieBody_MAT Teemo_Skin47_OrangeBoogieFaceTongue_MAT Teemo_Skin47_OrangeBoogieFaceStars_MAT Teemo_Skin47_OrangeBoogieFaceDefault_MAT Teemo_Skin47_OrangeBoogieArmor_MAT Teemo_Skin47_BlueBoogieArmor_MAT Teemo_Skin47_EyesExcited_MAT Teemo_Skin47_EyesHappy_MAT Teemo_Skin47_EyesShocked_MAT"
             0x2d7b4ab4: string = "Teemo_Skin47_Body_MAT, Teemo_Skin47_BlueBoogieBody_MAT, Teemo_Skin47_BlueBoogieFaceDefault_MAT, Teemo_Skin47_BlueBoogieFaceStars_MAT, Teemo_Skin47_BlueBoogieFaceTongue_MAT, Teemo_Skin47_PurpleBoogieFaceDefault_MAT, Teemo_Skin47_PurpleBoogieFaceStars_MAT, Teemo_Skin47_PurpleBoogieFaceTongue_MAT, Teemo_Skin47_OrangeBoogieFaceDefault_MAT, Teemo_Skin47_OrangeBoogieFaceStars_MAT, Teemo_Skin47_OrangeBoogieFaceTongue_MAT"
@@ -294,10 +319,10 @@ entries: map[hash,embed] = {
         0x089aff69: string = "ASSETS/Characters/Teemo/HUD/Teemo_Circle_47.tex"
         0xd8f64a0d: link = 0x172cdda4
         0xe67284f4: option[string] = {
-            "ASSETS/Characters/Teemo/HUD/Teemo_Circle_0.tex"
+            "ASSETS/Characters/Teemo/HUD/Teemo_Circle_0.ASU_Teemo.tex"
         }
         0xac473fef: option[string] = {
-            "ASSETS/Characters/Teemo/HUD/Teemo_Square_0.tex"
+            "ASSETS/Characters/Teemo/HUD/Teemo_Square_0.ASU_Teemo.dds"
         }
         0x51c83af8: embed = 0x11b71b5e {
             0x4d5ff2d7: string = "Buffbone_Cstm_Healthbar"
@@ -313,7 +338,7 @@ entries: map[hash,embed] = {
         0x87b1d303: list2[pointer] = {
             0x67ac9672 {
                 0x43c8c7b1: pointer = 0x8afb0060 {
-                    0xa96fc6c9: hash = 0x63b82792
+                    0xa96fc6c9: hash = 0x1a1d5bb8
                 }
                 0x071f3c1d: list2[embed] = {
                     0x00fa43e4 {

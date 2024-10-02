@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6180fe50 = 0x432837bc {
+        0x8d39bde6: string = "TFTOnAugmentRerolled"
+        0xe12f5ab7: map[string,pointer] = {
+            "OldAugmentName" = 0x22383aea {
+                0x8a25e7be: hash = 0x9728edce
+            }
+            "NewAugmentName" = 0x22383aea {
+                0x8a25e7be: hash = 0x2faa9d17
+            }
+            "AugmentIndex" = 0x22383aea {
+                0x8a25e7be: hash = 0x1be0ae74
+            }
+        }
+    }
+}

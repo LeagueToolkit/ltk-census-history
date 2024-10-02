@@ -13,30 +13,53 @@ entries: map[hash,embed] = {
         0xf5172483: list[string] = {
             "perk_eog_stat_desc_PhaseRush"
         }
-        0xcf491eb4: string = "perk_display_stat_percent100"
+        0xcf491eb4: string = "perk_display_stat_PhaseRush"
         0x57be823b: string = "ASSETS/Perks/Styles/Sorcery/PhaseRush/PhaseRush.dds"
         0x452d5fcb: pointer = 0x1ddec1f2 {
             0x2c13bd72: string = "ASSETS/Perks/Styles/Sorcery/PhaseRush/PhaseRush.lua"
             0xa51be889: embed = 0xa4e7a4a2 {
                 0x251a5225: map[hash,f32] = {
-                    0x3942e855 = 0.15
-                    0x4d883efe = 0.4
+                    0x3942e855 = 0.25
+                    0x4d883efe = 0.5
                     0x68fc5c2a = 0.75
                     0x2fa0fd0d = 3
                     0xa172b7dd = 4
-                    0x36750e6b = 0.25
-                    0xfb062806 = 0.5
                     0xb8240605 = 4
                     0xf9adb0b2 = 1
                     0x0974bad2 = 10
                     0x4cfb1634 = 30
                     0x0511c1dd = 3
+                    0xea1217fc = 0.75
                 }
                 0x90b03cc0: map[hash,embed] = {
                     0x288f3c60 = 0xb12485e0 {
                         0x98be1607: map[hash,f32] = {
                             0x0974bad2 = 10
                             0x4cfb1634 = 10
+                        }
+                    }
+                }
+                0xdca91c56: map[hash,pointer] = {
+                    0x80d113f5 = 0xbc409284 {
+                        0xcbcac618: u8 = 4
+                        0x50f145c0: list[pointer] = {
+                            0x15fecdbc {
+                                0xd06c375d: f32 = 30
+                                0x1cd7e522: f32 = 10
+                            }
+                        }
+                    }
+                    0x5486c90e = 0xe9a3c91d {
+                        0xcbcac618: u8 = 4
+                        0x50f145c0: list[pointer] = {
+                            0x15fecdbc {
+                                0xd06c375d: f32 = 0.25
+                                0x1cd7e522: f32 = 0.5
+                            }
+                        }
+                        0x5a2297d3: bool = true
+                        0x68508370: pointer = 0x332eb441 {
+                            0xb386dcf1: hash = 0xea1217fc
                         }
                     }
                 }

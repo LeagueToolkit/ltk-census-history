@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xdb25de97 = 0x432837bc {
+        0x8d39bde6: string = "TFTBoardCombatResolved"
+        0xe12f5ab7: map[string,pointer] = {
+            "WinningPlayerRef" = 0x22383aea {
+                0x8a25e7be: hash = 0xb7045b13
+            }
+            "LosingPlayerRef" = 0x22383aea {
+                0x8a25e7be: hash = 0xe250fc6b
+            }
+            "IsOnPartnersBoard" = 0x22383aea {
+                0x8a25e7be: hash = 0x0bcfde01
+            }
+        }
+    }
+}

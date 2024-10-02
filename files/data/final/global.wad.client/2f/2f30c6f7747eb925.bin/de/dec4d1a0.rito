@@ -1,0 +1,17 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xdec4d1a0 = 0x432837bc {
+        0x8d39bde6: string = "HubrisStatueCountUpdate"
+        0xe12f5ab7: map[string,pointer] = {
+            "StatueNumber" = 0x22383aea {
+                0x8a25e7be: hash = 0xb1a10844
+            }
+            "BoughtOrSold" = 0x22383aea {
+                0x8a25e7be: hash = 0xa8597615
+            }
+        }
+    }
+}

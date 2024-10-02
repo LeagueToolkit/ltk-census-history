@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x945823c7 = 0x432837bc {
+        0x8d39bde6: string = "TFTGoldAmountChange"
+        0xe12f5ab7: map[string,pointer] = {
+            "GoldBefore" = 0x22383aea {
+                0x8a25e7be: hash = 0x00021c6c
+            }
+            "GoldAfter" = 0x22383aea {
+                0x8a25e7be: hash = 0x5863d83b
+            }
+            "Source" = 0x22383aea {
+                0x8a25e7be: hash = 0x1bcf29d8
+            }
+        }
+    }
+}

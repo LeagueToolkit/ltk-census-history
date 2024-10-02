@@ -1,0 +1,38 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x0f4576e7 = 0x432837bc {
+        0x8d39bde6: string = "TFTOnArmoryUpdate"
+        0xe12f5ab7: map[string,pointer] = {
+            "ArmoryUpdateFlag" = 0x22383aea {
+                0x8a25e7be: hash = 0xdfeed1a8
+            }
+            "ArmoryID" = 0x22383aea {
+                0x8a25e7be: hash = 0xec7f7eda
+            }
+            "ArmoryContentDefinition" = 0x22383aea {
+                0x8a25e7be: hash = 0x7ae06ba1
+            }
+            "NumItemsShown" = 0x22383aea {
+                0x8a25e7be: hash = 0xad82b196
+            }
+            "ItemsTaken" = 0x22383aea {
+                0x8a25e7be: hash = 0x87400216
+            }
+            "ItemsNotTaken" = 0x22383aea {
+                0x8a25e7be: hash = 0x9ee1a487
+            }
+            "ArmoryOpenTime" = 0x22383aea {
+                0x8a25e7be: hash = 0x59ac4df2
+            }
+            "ArmoryCloseTime" = 0x22383aea {
+                0x8a25e7be: hash = 0xf4cd6bcc
+            }
+            "ArmoryRefreshNum" = 0x22383aea {
+                0x8a25e7be: hash = 0x36259392
+            }
+        }
+    }
+}

@@ -15,7 +15,7 @@ entries: map[hash,embed] = {
             "perk_eog_stat_desc_ConditioningArmor"
             "perk_eog_stat_desc_ConditioningMR"
         }
-        0xcf491eb4: string = "perk_display_stat_veteran"
+        0xcf491eb4: string = "perk_display_stat_Conditioning"
         0x57be823b: string = "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.dds"
         0x452d5fcb: pointer = 0x1ddec1f2 {
             0x2c13bd72: string = "ASSETS/Perks/Styles/Resolve/Conditioning/Conditioning.lua"
@@ -23,7 +23,7 @@ entries: map[hash,embed] = {
                 0x251a5225: map[hash,f32] = {
                     0x7bc8a2a1 = 8
                     0x5f4c2ae3 = 8
-                    0x8a2276fb = 3
+                    0x8a2276fb = 0.03
                     0xfadc0cd2 = 800
                     0xbbbde607 = 12
                 }
@@ -46,6 +46,32 @@ entries: map[hash,embed] = {
                     0x9e03f6c0 = 0xb12485e0 {
                         0x98be1607: map[hash,f32] = {
                             0xbbbde607 = 8
+                        }
+                    }
+                }
+                0xdca91c56: map[hash,pointer] = {
+                    0xf95514e4 = 0xbc409284 {
+                        0xcbcac618: u8 = 4
+                        0x50f145c0: list[pointer] = {
+                            0x332eb441 {
+                                0xb386dcf1: hash = 0x7bc8a2a1
+                            }
+                            0x5f5c70a4 {
+                                0x4cec2c8a: u8 = 1
+                                0xb386dcf1: hash = 0x8a2276fb
+                            }
+                        }
+                    }
+                    0xb9bfafca = 0xbc409284 {
+                        0xcbcac618: u8 = 4
+                        0x50f145c0: list[pointer] = {
+                            0x332eb441 {
+                                0xb386dcf1: hash = 0x5f4c2ae3
+                            }
+                            0x5f5c70a4 {
+                                0x4cec2c8a: u8 = 5
+                                0xb386dcf1: hash = 0x8a2276fb
+                            }
                         }
                     }
                 }

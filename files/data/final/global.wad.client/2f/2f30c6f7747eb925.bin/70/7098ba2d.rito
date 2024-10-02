@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x7098ba2d = 0x432837bc {
+        0x8d39bde6: string = "TFTReinforcementsDeployed"
+        0xe12f5ab7: map[string,pointer] = {
+            "DeployedToBoardID" = 0x22383aea {
+                0x8a25e7be: hash = 0x3444d877
+            }
+            "DeployedFromBoardID" = 0x22383aea {
+                0x8a25e7be: hash = 0xe19c754c
+            }
+            "IsMirrorUnitPlacement" = 0x22383aea {
+                0x8a25e7be: hash = 0x8d866cd3
+            }
+        }
+    }
+}

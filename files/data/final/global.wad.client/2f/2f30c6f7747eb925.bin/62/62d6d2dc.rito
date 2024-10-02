@@ -1,0 +1,17 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x62d6d2dc = 0x432837bc {
+        0x8d39bde6: string = "TFTOnUnitSold"
+        0xe12f5ab7: map[string,pointer] = {
+            "UnitID" = 0x22383aea {
+                0x8a25e7be: hash = 0x6dbc7bca
+            }
+            "SourceSlotID" = 0x22383aea {
+                0x8a25e7be: hash = 0x12870d09
+            }
+        }
+    }
+}
