@@ -4,7 +4,7 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x0c2db2ed = 0x45cd899f {
-        0x6781e762: list[pointer] = {
+        0x868eb76a: list[pointer] = {
             0x09cde442 {
                 0xae839c67: embed = 0x04300058 {
                     0xb4b427aa: f32 = 40
@@ -21,7 +21,7 @@ entries: map[hash,embed] = {
                 0x3d25b8ce: string = "Skin02Clone"
                 0x007b14f6: pointer = 0xa4aea2a5 {
                     0x0d89732d: embed = 0x6a88780b {
-                        0xd467e8c0: string = "ASSETS/Shared/Particles/arrow01.scb"
+                        0xe79da182: bool = true
                     }
                 }
                 0xb56e8811: string = "ASSETS/Characters/Thresh/Skins/Skin02/Particles/common_color-blue_slice.dds"
@@ -32,26 +32,32 @@ entries: map[hash,embed] = {
                 0x155f244b: u8 = 1
                 0x0a5eb702: f32 = 0.03
                 0x37ddb774: flag = true
-                0x3c6468f4: string = "ASSETS/Characters/Thresh/Skins/Base/Particles/common_alphaslice_mesh.dds"
-                0xbc022424: pointer = 0x7f70a2b2 {
-                    0x82971c71: embed = 0x04300058 {
-                        0xbc037de7: pointer = 0xfe064c88 {
-                            0x5d68eeb5: list[f32] = {
-                                0
-                                0.3
-                                0.9
-                                1
-                            }
-                            0x34474c3b: list[f32] = {
-                                1.2
-                                1.1
-                                1.05
-                                1.05
-                            }
+                0x3559e15b: flag = true
+                0x5932ff9c: embed = 0x68dc32b6 {
+                    0xb4b427aa: vec3 = { 0, 180, 90 }
+                }
+                0xd4e17a53: embed = 0x68dc32b6 {
+                    0xbc037de7: pointer = 0xacd81180 {
+                        0xa7084719: list[pointer] = {
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                            0x53a6c97e {}
+                        }
+                        0x5d68eeb5: list[f32] = {
+                            0
+                            0.3
+                            0.9
+                            1
+                        }
+                        0x34474c3b: list[vec3] = {
+                            { 1.2, 1.2, 1.2 }
+                            { 1.1, 1.1, 1.1 }
+                            { 1.05, 1.05, 1.05 }
+                            { 1.05, 1.05, 1.05 }
                         }
                     }
-                    0xc545bc21: u8 = 3
                 }
+                0x3c6468f4: string = "ASSETS/Characters/Thresh/Skins/Base/Particles/common_alphaslice_mesh.dds"
             }
         }
         0xecf1c6bc: string = "Thresh_Skin02_Soul_Eat_buf"

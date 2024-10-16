@@ -11,129 +11,41 @@ entries: map[hash,embed] = {
             0x3e1edbdb: list[string] = {
                 "Trait_ImmobilizingCCSpell"
             }
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        35
-                        35
-                        45
-                        55
-                        65
-                        75
-                        85
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        35
-                        35
-                        70
-                        105
-                        140
-                        175
-                        210
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        1500
-                        1500
-                        1500
-                        1500
-                        1500
-                        1500
-                        1500
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        -0.5
-                        -0.5
-                        -0.5
-                        -0.5
-                        -0.5
-                        -0.5
-                        -0.5
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.75
-                        0.75
-                        0.75
-                        0.75
-                        0.75
-                        0.75
-                        0.75
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        60
-                        60
-                        85
-                        105
-                        125
-                        150
-                        175
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        60
-                        60
-                        85
-                        105
-                        125
-                        150
-                        175
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        15
-                        15
-                        15
-                        15
-                        15
-                        15
-                        15
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        400
-                        400
-                        400
-                        400
-                        400
-                        400
-                        400
-                    }
-                }
-            }
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
-                    0x19efbfdb: string = "CooldownRefund"
+                    0x19efbfdb: string = "E2Damage"
                     0x246b0d8e: list[f32] = {
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
+                        40
+                        80
+                        120
+                        160
+                        200
+                        240
+                        280
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "E2Ratio"
+                    0x246b0d8e: list[f32] = {
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "RootDuration"
+                    0x246b0d8e: list[f32] = {
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
                     }
                 }
                 0x005008a6 {
@@ -148,25 +60,39 @@ entries: map[hash,embed] = {
                         290
                     }
                 }
-            }
-            0x94572284: map[hash,pointer] = {
-                0x69a14e52 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 2
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.25
-                        }
+                0x005008a6 {
+                    0x19efbfdb: string = "CooldownRefund"
+                    0x246b0d8e: list[f32] = {
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "ExplosionRadius"
+                    0x246b0d8e: list[f32] = {
+                        205
+                        205
+                        205
+                        205
+                        205
+                        205
+                        205
+                    }
+                }
+            }
+            0x94572284: map[hash,pointer] = {
                 0xdc93cefc = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xc51e9cf3
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.25
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x485c344d
                         }
                     }
                 }
@@ -174,6 +100,15 @@ entries: map[hash,embed] = {
             0xfbd16fb5: string = "Spell3"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Swain/HUD/Icons2D/Swain_E.dds"
+            }
+            0x9ecac3a1: list[f32] = {
+                14
+                14
+                13
+                12
+                11
+                10
+                10
             }
             0x18330965: f32 = -0.5
             0x3a4c4690: f32 = -1
@@ -208,16 +143,15 @@ entries: map[hash,embed] = {
             0x5c46e292: f32 = 0
             0x0df767db: pointer = 0xbffcb1fc {
                 0xb43c852c: f32 = 85
-                0xfdfac367: pointer = 0x06302899 {
-                    0x2df5584d: bool = false
-                    0x27a5c707: bool = true
-                    0x6e1e9eb3: bool = false
-                    0x4cc16573: f32 = 935
+                0xfdfac367: pointer = 0xaf905da2 {
+                    0x82ff2d4c: f32 = 1125
+                    0xc8847abf: f32 = 1125
+                    0xef7f4569: f32 = 1800
+                    0x82f1d787: f32 = 1125
                 }
                 0x6cb549bd: pointer = 0x294cb1a0 {}
                 0x018bb815: pointer = 0x22673575 {}
                 0xa0f69e3c: list[pointer] = {
-                    0xd9f51778 {}
                     0xfb0dfd42 {}
                 }
             }
@@ -248,12 +182,12 @@ entries: map[hash,embed] = {
                 0
             }
             0xd997830a: list[f32] = {
-                50
-                50
-                50
-                50
-                50
-                50
+                60
+                65
+                70
+                75
+                80
+                80
             }
             0x77b9f839: u32 = 2
             0x5d46764f: pointer = 0xdf6dc76a {}
@@ -276,14 +210,15 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 2
-                                    0x566f3406: string = "Spell_ListType_SwainPass-throughDamage"
+                                    0x5127f14d: string = "E2Damage"
+                                    0x33c02d93: i32 = 1
+                                    0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 1
-                                    0x566f3406: string = "Spell_ListType_SwainDetonationDamage"
+                                    0x5127f14d: string = "Cooldown"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cost"
                                 }
                             }
                         }
