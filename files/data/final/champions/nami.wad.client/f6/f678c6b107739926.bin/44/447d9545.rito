@@ -19,15 +19,20 @@ entries: map[hash,embed] = {
                 0x0f1ec3ac: u32 = 1
             }
             0x0904b150 {
-                0x02e7fb4c: string = "Mask1"
+                0x02e7fb4c: string = "Mask_1"
                 0xb311d4ef: string = "ASSETS/Characters/Nami/Skins/Skin24/Nami_Skin24_Mask22_TX.dds"
                 0x0f1ec3ac: u32 = 1
             }
             0x0904b150 {
-                0x02e7fb4c: string = "Mask2"
+                0x02e7fb4c: string = "Mask_2"
                 0xb311d4ef: string = "ASSETS/Characters/Nami/Skins/Skin24/Nami_Skin24_Mask_TX.dds"
+            }
+            0x0904b150 {
+                0x02e7fb4c: string = "Fresnel_Texture"
+                0xb311d4ef: string = "ASSETS/Shared/Materials/black.dds"
                 0x111ec6d2: u32 = 1
                 0x101ec53f: u32 = 1
+                0x0f1ec3ac: u32 = 1
             }
         }
         0xd0ab46b8: list2[embed] = {
@@ -40,26 +45,77 @@ entries: map[hash,embed] = {
                 0x425ed3ca: vec4 = { 0, 0.2, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Color"
-                0x425ed3ca: vec4 = { 0.1882353, 1, 0.93333334, 1 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "Blue_Scale"
+                0x8d39bde6: string = "SS_Intensity"
                 0x425ed3ca: vec4 = { 1, 0, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Blue_Rate"
+                0x8d39bde6: string = "Dodge_Scale"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "BloomIntensity"
+                0x8d39bde6: string = "Dodge_Rate"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Dodge_Color"
+                0x425ed3ca: vec4 = { 1, 1, 1, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Dodge_Bias"
+                0x425ed3ca: vec4 = { 0.5, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Bloom_Intensity"
             }
             0xde480eef {
                 0x8d39bde6: string = "Fresnel_Size"
                 0x425ed3ca: vec4 = { 1, 0, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Dodge_Bias"
-                0x425ed3ca: vec4 = { 0.5, 0, 0, 0 }
+                0x8d39bde6: string = "Fresnel_Contrast"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Fresnel_Color"
+                0x425ed3ca: vec4 = { 0.1882353, 1, 0.93333334, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Fresnel_Saturation"
+                0x425ed3ca: vec4 = { 5, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Additional_Alpha_Scale"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Additional_Alpha_Rate"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Additional_Alpha_Override"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Alpha_Bias"
+            }
+        }
+        0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "ADD_SCREEN_SPACE_TEXTURE"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "OVERRLAY_DODGE_COLOR"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_SATURATED_DIFFUSE_AS_FRESNEL_COLOR"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_FRESNEL_TEXTURE_COLOR"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_FRESNEL_TEXTURE_ALPHA"
+                0x61342fd0: bool = false
             }
         }
         0xe6d67ded: map[string,string] = {
