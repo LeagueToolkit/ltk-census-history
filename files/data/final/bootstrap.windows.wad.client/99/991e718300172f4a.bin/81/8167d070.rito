@@ -8,7 +8,7 @@ entries: map[hash,embed] = {
         0x48a52ed9: list[embed] = {
             0x816753d8 {
                 0x8d39bde6: string = "Parameter0"
-                0xd872e2a5: vec4 = { 1, 0, 0, 1 }
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "SS_Scale"
@@ -19,114 +19,47 @@ entries: map[hash,embed] = {
                         0x0640657c: u32 = 6
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "SS_Intensity"
+                        0x8d39bde6: string = "Dodge_Bias"
                         0x0640657c: u32 = 8
                     }
                 }
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter1"
-                0xd872e2a5: vec4 = { 0, 5, 1, 1 }
+                0xd872e2a5: vec4 = { 0.80999464, 0.050003815, 0.9100023, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "Dodge_Bias"
-                        0x0640657c: u32 = 1
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Fresnel_Saturation"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Fresnel_Size"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Fresnel_Contrast"
-                        0x0640657c: u32 = 8
+                        0x8d39bde6: string = "Color"
+                        0x0640657c: u32 = 15
                     }
                 }
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter2"
-                0xd872e2a5: vec4 = { 1, 1, 1, 1 }
+                0xd872e2a5: vec4 = { 1, 0, 1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "Dodge_Color"
-                        0x0640657c: u32 = 15
+                        0x8d39bde6: string = "Fresnel_Size"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "BloomIntensity"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Blue_Scale"
+                        0x0640657c: u32 = 12
                     }
                 }
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter3"
-                0xd872e2a5: vec4 = { 0.80999464, 0.050003815, 0.9100023, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "Fresnel_Color"
-                        0x0640657c: u32 = 15
-                    }
-                }
-            }
-            0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
-                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
-                0x74672198: list[embed] = {
-                    0x14a2befa {
-                        0x8d39bde6: string = "Additional_Alpha_Scale"
+                        0x8d39bde6: string = "Blue_Rate"
                         0x0640657c: u32 = 3
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Additional_Alpha_Rate"
-                        0x0640657c: u32 = 12
-                    }
                 }
-            }
-            0x816753d8 {
-                0x8d39bde6: string = "Parameter5"
-                0x74672198: list[embed] = {
-                    0x14a2befa {
-                        0x8d39bde6: string = "Additional_Alpha_Override"
-                        0x0640657c: u32 = 1
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Alpha_Bias"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Bloom_Intensity"
-                        0x0640657c: u32 = 4
-                    }
-                }
-            }
-            0x816753d8 {
-                0x8d39bde6: string = "Parameter6"
-                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
-                0x74672198: list[embed] = {
-                    0x14a2befa {
-                        0x8d39bde6: string = "Dodge_Scale"
-                        0x0640657c: u32 = 3
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Dodge_Rate"
-                        0x0640657c: u32 = 12
-                    }
-                }
-            }
-        }
-        0x3291437b: list[embed] = {
-            0x60a292e6 {
-                0x8d39bde6: string = "ADD_SCREEN_SPACE_TEXTURE"
-            }
-            0x60a292e6 {
-                0x8d39bde6: string = "OVERRLAY_DODGE_COLOR"
-            }
-            0x60a292e6 {
-                0x8d39bde6: string = "USE_SATURATED_DIFFUSE_AS_FRESNEL_COLOR"
-            }
-            0x60a292e6 {
-                0x8d39bde6: string = "USE_FRESNEL_TEXTURE_COLOR"
-            }
-            0x60a292e6 {
-                0x8d39bde6: string = "USE_FRESNEL_TEXTURE_ALPHA"
             }
         }
         0x99108c85: list[embed] = {
@@ -139,15 +72,11 @@ entries: map[hash,embed] = {
                 0x32b374fa: string = "ASSETS/Shared/Materials/UVAnimate/stars.dds"
             }
             0x31d1e223 {
-                0x8d39bde6: string = "Mask_1"
+                0x8d39bde6: string = "Mask1"
                 0x32b374fa: string = "ASSETS/Shared/Materials/Generic_Noise.dds"
             }
             0x31d1e223 {
-                0x8d39bde6: string = "Fresnel_Texture"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
-            }
-            0x31d1e223 {
-                0x8d39bde6: string = "Mask_2"
+                0x8d39bde6: string = "Mask2"
                 0x32b374fa: string = "ASSETS/Shared/Materials/Generic_Noise.dds"
             }
         }
