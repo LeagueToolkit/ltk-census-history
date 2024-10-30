@@ -4,44 +4,121 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xa3b40bda = 0xbd264fe3 {
-        0x8ddbeb4b: string = "ASSETS/UX/Fonts/TFTTeamPlannerTextIcons.TFT_TP_MultiSets.tex"
+        0xb5575dbf: map[string,embed] = {
+            "maximum" = 0x571b1165 {
+                0x3d7e6258: option[rgba] = {
+                    { 55, 30, 190, 255 }
+                }
+            }
+        }
         0xf9e1dd39: map[string,embed] = {
             "TFTSet12SelectedDefault" = 0xede5bb41 {
-                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TFTSet12SelectedDefault.tex"
-                0x58637fda: vec2 = { 66, 1 }
-                0x6747c0fa: vec2 = { 30, 31 }
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TFTSet12SelectedDefault.png"
                 0x81e208ef: f32 = 7
             }
             "TFTSet12UnselectedDefault" = 0xede5bb41 {
-                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TFTSet12UnselectedDefault.tex"
-                0x58637fda: vec2 = { 2, 1 }
-                0x6747c0fa: vec2 = { 30, 31 }
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TFTSet12UnselectedDefault.png"
                 0x81e208ef: f32 = 7
             }
             "TFTSet12UnselectedClicked" = 0xede5bb41 {
-                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TFTSet12UnselectedClicked.tex"
-                0x58637fda: vec2 = { 34, 1 }
-                0x6747c0fa: vec2 = { 30, 31 }
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TFTSet12UnselectedClicked.png"
                 0x81e208ef: f32 = 7
             }
             "TFTSet5Stage2SelectedDefault" = 0xede5bb41 {
-                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TFTSet5Stage2SelectedDefault.tex"
-                0x58637fda: vec2 = { 66, 34 }
-                0x6747c0fa: vec2 = { 30, 26 }
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TFTSet5Stage2SelectedDefault.png"
                 0x81e208ef: f32 = 5
             }
             "TFTSet5Stage2UnselectedDefault" = 0xede5bb41 {
-                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TFTSet5Stage2UnselectedDefault.tex"
-                0x58637fda: vec2 = { 2, 34 }
-                0x6747c0fa: vec2 = { 30, 26 }
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TFTSet5Stage2UnselectedDefault.png"
                 0x81e208ef: f32 = 5
             }
             "TFTSet5Stage2UnselectedClicked" = 0xede5bb41 {
-                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TFTSet5Stage2UnselectedClicked.tex"
-                0x58637fda: vec2 = { 34, 34 }
-                0x6747c0fa: vec2 = { 30, 26 }
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TFTSet5Stage2UnselectedClicked.png"
                 0x81e208ef: f32 = 5
             }
+            "ClearIconDefault" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/ClearIconDefault.png"
+                0x81e208ef: f32 = 12
+            }
+            "SnapshotIconDefault" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/SnapshotIconDefault.png"
+                0x81e208ef: f32 = 2
+            }
+            "SnapshotIconDisabled" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/SnapshotIconDisabled.png"
+                0x81e208ef: f32 = 2
+            }
+            "SnapshotIconHover" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/SnapshotIconHover.png"
+                0x81e208ef: f32 = 2
+            }
+            "ClearIconHover" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/ClearIconHover.png"
+                0x81e208ef: f32 = 12
+            }
+            "ClearIconDisabled" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/ClearIconDisabled.png"
+                0x81e208ef: f32 = 12
+            }
+            "CopyIconDefault" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TPOptionsMenuCopyTeamCode.png"
+            }
+            "CopyIconHover" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TPOptionsMenuCopyTeamCodeHover.png"
+            }
+            "CopyIconPressed" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TPOptionsMenuCopyTeamCodePressed.png"
+            }
+            "DeleteIconDefault" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TPOptionsMenuDeleteTeam.png"
+            }
+            "DeleteIconHover" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TPOptionsMenuDeleteTeamHover.png"
+            }
+            "DeleteIconPressed" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TPOptionsMenuDeleteTeamPressed.png"
+            }
+            "NewIconDefault" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TPCreateIconDefault.png"
+                0x81e208ef: f32 = 8
+            }
+            "NewIconHover" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TPCreateIconHover.png"
+                0x81e208ef: f32 = 8
+            }
+            "NewIconPressed" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TPCreateIconClicked.png"
+                0x81e208ef: f32 = 8
+            }
+            "NewIconDisabled" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TPCreateIconDisabled.png"
+                0x81e208ef: f32 = 8
+            }
+            "PasteIconDefault" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TPPasteIconDefault.png"
+                0x81e208ef: f32 = 6
+            }
+            "PasteIconHover" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TPPasteIconDefaultHover.png"
+                0x81e208ef: f32 = 6
+            }
+            "PasteIconPressed" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TPPasteIconDefaultClicked.png"
+                0x81e208ef: f32 = 6
+            }
+            "PasteIconDisabled" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/TPPasteIconDefaultDisabled.png"
+                0x81e208ef: f32 = 6
+            }
+            "ClearIconPressed" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/ClearIconPressed.png"
+                0x81e208ef: f32 = 12
+            }
+            "SnapshotIconPressed" = 0xede5bb41 {
+                0x3c6468f4: string = "ASSETS/UX/Fonts/TextIcons/TFT/TeamPlanner/SnapshotIconPressed.png"
+                0x81e208ef: f32 = 2
+            }
         }
+        0x2dc3bb11: file = 0x1684146379f8a0bb
     }
 }

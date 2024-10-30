@@ -5,18 +5,15 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x76cdaacb = 0xd186c31a {
         0x19efbfdb: string = "TFT_Item_FreeDeathblade"
-        0xc13d6d31: list[embed] = {
-            0x62ff42f4 {
-                0x8d39bde6: hash = 0x55ce8055
-            }
-            0x62ff42f4 {
-                0x8d39bde6: hash = 0xd0fcc895
-                0x425ed3ca: f32 = 40
-            }
-            0x62ff42f4 {
-                0x8d39bde6: hash = 0x4724fc58
-                0x425ed3ca: f32 = 30
-                0x3458f92b: string = "%i:scaleAD% +@Value@"
+        0xadb3e562: embed = 0xd65315ee {
+            0xdf085b93: map[hash,pointer] = {
+                0x55ce8055 = 0x977517c6 {}
+                0xd0fcc895 = 0x977517c6 {
+                    0x24f2ec89: f32 = 40
+                }
+                0x4724fc58 = 0x977517c6 {
+                    0x24f2ec89: f32 = 30
+                }
             }
         }
         0xc3143d66: string = "tft_item_name_Deathblade"

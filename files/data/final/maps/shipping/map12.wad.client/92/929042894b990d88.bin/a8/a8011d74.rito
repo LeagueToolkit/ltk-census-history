@@ -1,0 +1,38 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xa8011d74 = 0x5e7e5a06 {
+        0xc8e37ef0: string = "Crepe_Piltover_SummonerEnhancement"
+        0x56d2be52: pointer = 0x43368569 {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "SummonerCooldown"
+                    0x246b0d8e: list[f32] = {
+                        15
+                        15
+                        15
+                        15
+                        15
+                        15
+                        15
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Spells/Icons2D/Crepe_Pil_BackupBattery.HA_CREPE.dds"
+            }
+        }
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "Crepe_Piltover_SummonerEnhancement"
+                0x57b8b11b: link = 0xb34f999a
+                0x0381f7e2: map[string,string] = {
+                    "keyTooltip" = "Crepe_SummonerEnhancement_Tooltip"
+                    "keyName" = "Crepe_SummonerEnhancement_Name"
+                }
+            }
+        }
+    }
+}

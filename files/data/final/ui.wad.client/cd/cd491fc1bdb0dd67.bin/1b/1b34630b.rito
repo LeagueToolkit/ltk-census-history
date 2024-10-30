@@ -1,0 +1,37 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x1b34630b = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/TFTCommon/UX/TFTImportTeam/UIBase/TFTImportTeam/FailureScene/TFTImportTeam_TeamCodeInfoButton"
+        0x2063cb13: link = 0x3e67b873
+        0x5a94b0cc: list2[link] = {
+            0x2d922a09
+            0xe40d154d
+            0x8d22eda2
+            0xe176c1e0
+        }
+        0xdf2b45ce: bool = true
+        0x6bf3194e: link = 0xe176c1e0
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xe40d154d
+            }
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x8d22eda2
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x2d922a09
+            }
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_CommonUI_button_standard_tap"
+            0x84b6cf03: string = "Play_sfx_PreGameUI_button_standard_release"
+        }
+    }
+}

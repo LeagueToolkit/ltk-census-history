@@ -1,0 +1,50 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb4cf2b74 = 0x5e7e5a06 {
+        0xc8e37ef0: string = "Crepe_SingedVsHeimerdinger_HeimerdingerReward"
+        0x56d2be52: pointer = 0x43368569 {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "ShieldMaxPer"
+                    0x246b0d8e: list[f32] = {
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TurretRange"
+                    0x246b0d8e: list[f32] = {
+                        300
+                        300
+                        300
+                        300
+                        300
+                        300
+                        300
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Characters/Jhin/HUD/Icons2D/JhinQuestVictory.dds"
+            }
+        }
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "Crepe_SingedVsHeimerdinger_HeimerdingerReward"
+                0x57b8b11b: link = 0x2ca8f134
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Crepe_HeimerReward_Name"
+                    "keyTooltip" = "Crepe_HeimerReward_Tooltip"
+                }
+            }
+        }
+    }
+}

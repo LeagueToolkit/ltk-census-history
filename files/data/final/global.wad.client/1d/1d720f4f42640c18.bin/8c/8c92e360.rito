@@ -41,15 +41,15 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "RangedValue"
-                0x24f2ec89: f32 = 0.06
+                0x24f2ec89: f32 = 0.05
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MeleeValue"
-                0x24f2ec89: f32 = 0.09
+                0x24f2ec89: f32 = 0.08
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MonsterDamageCap"
-                0x24f2ec89: f32 = 60
+                0x24f2ec89: f32 = 100
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "AttackCounterDuration"
@@ -69,6 +69,19 @@ entries: map[hash,embed] = {
                 0x006fde67: hash = 0x06387172
                 0xc0482365: pointer = 0xdc65ffe4 {}
             }
+            0xd6c08fcd = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5cf69ece {
+                        0xad62f672: f32 = 40
+                        0x7b5d1934: list[embed] = {
+                            0x8e93d8ee {
+                                0xa77654ae: u32 = 10
+                                0x57fdc438: f32 = 7
+                            }
+                        }
+                    }
+                }
+            }
             0xe5c634ce = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
                     0x332eb441 {
@@ -76,7 +89,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x5a2297d3: bool = true
-                0x08d47ee4: i32 = 1
             }
             0x3b00d8b1 = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
@@ -97,6 +109,20 @@ entries: map[hash,embed] = {
                 0x50f145c0: list[pointer] = {
                     0x9ef92080 {
                         0xe202bca9: f32 = 2
+                    }
+                }
+            }
+            0xc0b34d7a = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x4b504bad
+                    }
+                }
+            }
+            0xfe7dca43 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x479f9d7e
                     }
                 }
             }
@@ -123,10 +149,9 @@ entries: map[hash,embed] = {
                 0x5a2297d3: bool = true
             }
         }
-        0x4e7a81cd: f32 = 30
-        0xc5658c30: f32 = 0.2
+        0x4e7a81cd: f32 = 40
+        0xc5658c30: f32 = 0.25
         0x03355c22: f32 = 0.1
-        0x46493f5f: f32 = 0.5
         0xccf99b44: list[string] = {
             "Damage"
             "AttackSpeed"
@@ -149,11 +174,10 @@ entries: map[hash,embed] = {
                     "keyName" = "Item_223153_Name"
                     "keyBrief" = "Item_223153_Brief"
                     "keyTooltip" = "Item_223153_Tooltip"
-                    "keyColloquialism" = "Item_3153_Colloquialism"
+                    "keyColloquialism" = "Item_223153_Colloquialism"
                     "keyTooltipExtended" = "Item_223153_TooltipExtended"
                     "keyInventoryOnlyText" = "Item_223153_InventoryOnlyText"
-                    "keyTooltipExternal" = "Item_3153_TooltipExternal"
-                    "keySummary" = "Item_223153_Summary"
+                    "keyTooltipExternal" = "Item_223153_TooltipExternal"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {

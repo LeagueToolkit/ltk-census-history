@@ -5,18 +5,17 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x222a0f51 = 0xd186c31a {
         0x19efbfdb: string = "TFT11_Encounter_ChoiceItem_UnitBuffs3Cost"
-        0xc13d6d31: list[embed] = {
-            0x62ff42f4 {
-                0x8d39bde6: hash = 0xe85c3338
-                0x425ed3ca: f32 = 3
-            }
-            0x62ff42f4 {
-                0x8d39bde6: hash = 0x6b98ed8f
-                0x425ed3ca: f32 = 150
-            }
-            0x62ff42f4 {
-                0x8d39bde6: hash = 0x5e25208d
-                0x425ed3ca: f32 = 0.15
+        0xadb3e562: embed = 0xd65315ee {
+            0xdf085b93: map[hash,pointer] = {
+                0xe85c3338 = 0x977517c6 {
+                    0x24f2ec89: f32 = 3
+                }
+                0x6b98ed8f = 0x977517c6 {
+                    0x24f2ec89: f32 = 150
+                }
+                0x5e25208d = 0x977517c6 {
+                    0x24f2ec89: f32 = 0.15
+                }
             }
         }
         0xa47a6adf: list2[hash] = {

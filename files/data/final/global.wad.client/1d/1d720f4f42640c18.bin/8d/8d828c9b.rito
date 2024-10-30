@@ -9,7 +9,7 @@ entries: map[hash,embed] = {
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
-            0x261a4456
+            0x9f92a236
         }
         0x0b44452a: i32 = 2500
         0x51c4b876: bool = true
@@ -20,19 +20,19 @@ entries: map[hash,embed] = {
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "PerTargetCooldown"
-                0x24f2ec89: f32 = 20
+                0x24f2ec89: f32 = 30
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "BaseDamage"
-                0x24f2ec89: f32 = 125
+                0x24f2ec89: f32 = 95
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "HPRatio"
-                0x24f2ec89: f32 = 0.07
+                0x24f2ec89: f32 = 0.06
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "DamageToMaxHealthRatio"
-                0x24f2ec89: f32 = 0.12
+                0x24f2ec89: f32 = 0.1
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "DistanceToChampion"
@@ -51,8 +51,8 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 0.5
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "ItemHPRatio"
-                0x24f2ec89: f32 = 0.12
+                0x19efbfdb: string = "MaxHPRatio"
+                0x24f2ec89: f32 = 0.06
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "HealthSizeThreshold"
@@ -88,6 +88,14 @@ entries: map[hash,embed] = {
                     }
                 }
             }
+            0x3dcdf41b = 0x61f8c41c {
+                0x06afef1b: list[embed] = {
+                    0xb2c62c87 {
+                        0x19efbfdb: string = "DamageToMaxHealthRatio"
+                        0x24f2ec89: f32 = 0.05
+                    }
+                }
+            }
         }
         0x0ac4f0d5: map[hash,pointer] = {
             0x55672b05 = 0xbc409284 {
@@ -120,11 +128,20 @@ entries: map[hash,embed] = {
                     }
                 }
             }
+            0xc9e3357d = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 11
+                        0xb386dcf1: hash = 0x1ba6bd60
+                    }
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x03da00f9
+                    }
+                }
+            }
         }
-        0x5b98619f: f32 = 10
         0x06d997bb: f32 = 700
         0xc1cd174b: f32 = 1
-        0x46493f5f: f32 = 0.5
         0xccf99b44: list[string] = {
             "Health"
             "HealthRegen"
@@ -142,12 +159,12 @@ entries: map[hash,embed] = {
                 0x0381f7e2: map[string,string] = {
                     "keyName" = "Item_223084_Name"
                     "keyBrief" = "Item_223084_Brief"
-                    "keyTooltip" = "Item_3084_Tooltip"
-                    "keyColloquialism" = "Item_3084_Colloquialism"
+                    "keyTooltip" = "Item_223084_TooltipInventory"
+                    "keyColloquialism" = "Item_223084_Colloquialism"
                     "keyInventoryOnlyText" = "Item_223084_InventoryOnlyText"
-                    "keyTooltipInventory" = "Item_3084_TooltipInventory"
-                    "keyTooltipExternal" = "Item_3084_TooltipExternal"
-                    "keySummary" = "Item_223084_Summary"
+                    "keyTooltipExtended" = "Item_223084_TooltipExtended"
+                    "keyTooltipInventory" = "Item_223084_TooltipInventory"
+                    "keyTooltipExternal" = "Item_223084_TooltipExternal"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {

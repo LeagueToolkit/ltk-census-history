@@ -10,7 +10,7 @@ entries: map[hash,embed] = {
         0x8ccddbb3: i32 = 1
         0x72d02fc7: list[link] = {
             0xb0bee26d
-            0x2e3cc0e5
+            0xb45aafc5
             0x22b8e842
         }
         0x5b0a81be: list[link] = {
@@ -40,11 +40,14 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ADRatio"
-                0x24f2ec89: f32 = 1.75
+                0x24f2ec89: f32 = 0.8
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "Haste"
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MSSlow"
-                0x24f2ec89: f32 = -0.4
+                0x24f2ec89: f32 = -0.35
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "Duration"
@@ -52,7 +55,6 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "FlatMS"
-                0x24f2ec89: f32 = 20
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "CleaveRadius"
@@ -60,15 +62,22 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ActiveMS"
-                0x24f2ec89: f32 = 0.4
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "APRatio"
-                0x24f2ec89: f32 = 1.05
+                0x24f2ec89: f32 = 0.35
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "PassiveRadius"
                 0x24f2ec89: f32 = 350
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MoveSpeedMod"
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MoveSpeedDuration"
+                0x24f2ec89: f32 = 2
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "DecayRate"
+                0x24f2ec89: f32 = 0.8
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -77,11 +86,7 @@ entries: map[hash,embed] = {
                 0x50f145c0: list[pointer] = {
                     0x5f5c70a4 {
                         0x4cec2c8a: u8 = 2
-                        0x7d3150ec: u8 = 1
                         0xb386dcf1: hash = 0x382d671b
-                    }
-                    0x5f5c70a4 {
-                        0xb386dcf1: hash = 0xe30c799f
                     }
                 }
             }
@@ -130,11 +135,9 @@ entries: map[hash,embed] = {
                 }
             }
         }
-        0x5b98619f: f32 = 20
-        0x06d997bb: f32 = 375
-        0x4e7a81cd: f32 = 50
-        0xc5658c30: f32 = 0.15
-        0x46493f5f: f32 = 0.5
+        0x06d997bb: f32 = 450
+        0x4e7a81cd: f32 = 40
+        0xc5658c30: f32 = 0.25
         0xccf99b44: list[string] = {
             "Health"
             "Damage"
@@ -156,14 +159,12 @@ entries: map[hash,embed] = {
                     "keyName" = "Item_226631_Name"
                     "keyBrief" = "Item_226631_Brief"
                     "keyTooltip" = "Item_226631_Tooltip"
-                    "keyColloquialism" = "Item_6631_Colloquialism"
-                    "keyActive" = "Item_6631_Active"
-                    "keySecondaryBrief" = "Item_Unique_Hydra"
-                    "keyActiveExternal" = "Item_6631_ActiveExternal"
-                    "keyTooltipExtendedRules" = "Item_6631_TooltipExtendedRules"
-                    "keyTooltipExternal" = "Item_6631_TooltipExternal"
-                    "keySummary" = "Item_226631_Summary"
-                    "keyTooltipInventory" = "Item_226631_TooltipInventory"
+                    "keyColloquialism" = "Item_226631_Colloquialism"
+                    "keyActive" = "Item_226631_Active"
+                    "keySecondaryBrief" = "Item_226631_SecondaryBrief"
+                    "keyActiveExternal" = "Item_226631_ActiveExternal"
+                    "keyTooltipExtendedRules" = "Item_226631_TooltipExtendedRules"
+                    "keyTooltipExternal" = "Item_226631_TooltipExternal"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -197,7 +198,6 @@ entries: map[hash,embed] = {
                 0x204e512e = 0x1e5a255b
                 0x548973ff = 0xf40f8dd7
                 0x256a45b9 = 0x59c03181
-                0x48d33623 = 0x0576997f
             }
         }
     }

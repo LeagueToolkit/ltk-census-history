@@ -32,7 +32,11 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 15
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "SpellBladeManaRefundRatio"
+                0x19efbfdb: string = "FlatManaRefund"
+                0x24f2ec89: f32 = 0.1
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ManaRefundRatio"
                 0x24f2ec89: f32 = 0.1
             }
         }
@@ -69,37 +73,22 @@ entries: map[hash,embed] = {
                     }
                 }
             }
-            0x15ce57c0 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x5815b0a9 {
-                        0x4cec2c8a: u8 = 2
-                        0x7d3150ec: u8 = 1
-                        0x295c2889: f32 = 1.4
-                    }
-                    0x5815b0a9 {
-                        0x4cec2c8a: u8 = 2
-                        0x7d3150ec: u8 = 2
-                        0x295c2889: f32 = 0.2
-                    }
-                }
-            }
             0xde040888 = 0xbc409284 {
+                0x2c77adff: pointer = 0x332eb441 {
+                    0xb386dcf1: hash = 0x73482a20
+                }
                 0x50f145c0: list[pointer] = {
-                    0x332eb441 {
-                        0xb386dcf1: hash = 0x73482a20
-                    }
-                    0x5f5c70a4 {
+                    0x5815b0a9 {
                         0x4cec2c8a: u8 = 2
                         0x7d3150ec: u8 = 2
-                        0xb386dcf1: hash = 0xb0472513
+                        0x295c2889: f32 = 0.01
                     }
                 }
             }
         }
-        0x5b98619f: f32 = 20
+        0x5b98619f: f32 = 15
         0xbc050325: f32 = 0.25
-        0x4e7a81cd: f32 = 50
-        0x46493f5f: f32 = 0.5
+        0x4e7a81cd: f32 = 60
         0xccf99b44: list[string] = {
             "Damage"
             "CriticalStrike"
@@ -122,8 +111,7 @@ entries: map[hash,embed] = {
                     "keyName" = "Item_223508_Name"
                     "keyBrief" = "Item_223508_Brief"
                     "keyTooltip" = "Item_223508_Tooltip"
-                    "keyTooltipExternal" = "Item_3508_TooltipExternal"
-                    "keySummary" = "Item_223508_Summary"
+                    "keyTooltipExternal" = "Item_223508_TooltipExternal"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {

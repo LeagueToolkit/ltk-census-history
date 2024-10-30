@@ -10,9 +10,8 @@ entries: map[hash,embed] = {
         0x72d02fc7: list[link] = {
             0xb0bee26d
             0x218b5fe6
-            0xc6315b52
         }
-        0x0b44452a: i32 = 3000
+        0x0b44452a: i32 = 2500
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 6
         0xb6188f47: list[link] = {
@@ -29,7 +28,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "TimerDuration"
-                0x24f2ec89: f32 = 15
+                0x24f2ec89: f32 = 30
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MythicPassiveAbilityHaste"
@@ -43,10 +42,6 @@ entries: map[hash,embed] = {
                 0x19efbfdb: string = "APRatio"
                 0x24f2ec89: f32 = 0.15
             }
-            0xb2c62c87 {
-                0x19efbfdb: string = "ADRatio"
-                0x24f2ec89: f32 = 0.25
-            }
         }
         0x0ac4f0d5: map[hash,pointer] = {
             0x47e70faf = 0xbc409284 {
@@ -56,11 +51,6 @@ entries: map[hash,embed] = {
                     }
                     0x5f5c70a4 {
                         0xb386dcf1: hash = 0xe30c799f
-                    }
-                    0x5f5c70a4 {
-                        0x4cec2c8a: u8 = 2
-                        0x7d3150ec: u8 = 2
-                        0xb386dcf1: hash = 0x382d671b
                     }
                 }
             }
@@ -76,8 +66,8 @@ entries: map[hash,embed] = {
                 }
             }
         }
-        0x5b98619f: f32 = 40
-        0x06d997bb: f32 = 400
+        0x5b98619f: f32 = 25
+        0x06d997bb: f32 = 300
         0x288a964d: f32 = 90
         0xccf99b44: list[string] = {
             "Health"
@@ -85,9 +75,6 @@ entries: map[hash,embed] = {
             "CooldownReduction"
             "NonbootsMovement"
             "AbilityHaste"
-        }
-        0x57c6c7d0: embed = 0xc03becd9 {
-            0x5d7d4fb0: bool = true
         }
         0x57558bca: list[u8] = {
             16
@@ -101,7 +88,7 @@ entries: map[hash,embed] = {
                     "keyBrief" = "Item_224636_Brief"
                     "keyInventoryOnlyText" = "Item_224636_InventoryOnlyText"
                     "keyTooltip" = "Item_224636_Tooltip"
-                    "keyColloquialism" = "Item_4636_Colloquialism"
+                    "keyColloquialism" = "Item_224636_Colloquialism"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -114,7 +101,6 @@ entries: map[hash,embed] = {
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "AbilityHaste"
-                                0x566f3406: string = "BuffedStat_Haste"
                             }
                         }
                     }

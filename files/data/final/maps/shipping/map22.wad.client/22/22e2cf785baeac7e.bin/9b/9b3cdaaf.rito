@@ -5,20 +5,17 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x9b3cdaaf = 0xd186c31a {
         0x19efbfdb: string = "TFT_Item_TitanicHydra"
-        0xc13d6d31: list[embed] = {
-            0x62ff42f4 {
-                0x8d39bde6: hash = 0x6b98ed8f
-                0x425ed3ca: f32 = 150
-                0x3458f92b: string = "%i:scaleHealth% +@Value@"
-            }
-            0x62ff42f4 {
-                0x8d39bde6: hash = 0x7ff4f3b6
-                0x425ed3ca: f32 = 25
-            }
-            0x62ff42f4 {
-                0x8d39bde6: hash = 0x5e25208d
-                0x425ed3ca: f32 = 10
-                0x3458f92b: string = "%i:scaleAS% +@Value@%"
+        0xadb3e562: embed = 0xd65315ee {
+            0xdf085b93: map[hash,pointer] = {
+                0x6b98ed8f = 0x977517c6 {
+                    0x24f2ec89: f32 = 150
+                }
+                0x7ff4f3b6 = 0x977517c6 {
+                    0x24f2ec89: f32 = 25
+                }
+                0x5e25208d = 0x977517c6 {
+                    0x24f2ec89: f32 = 10
+                }
             }
         }
         0xc3143d66: string = "tft_item_name_zzrotportal"

@@ -11,12 +11,11 @@ entries: map[hash,embed] = {
             0xb0bee26d
             0x218b5fe6
             0xbe7d0453
-            0xc642a473
         }
         0x5b0a81be: list[link] = {
             0xdfe0e8e4
         }
-        0x0b44452a: i32 = 3000
+        0x0b44452a: i32 = 2500
         0x51c4b876: bool = true
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 6
@@ -30,7 +29,11 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MythicMovespeed"
-                0x24f2ec89: f32 = 0.025
+                0x24f2ec89: f32 = 0.01
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "GraceDuration"
+                0x24f2ec89: f32 = 3
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "ShieldDRPercentage"
@@ -39,6 +42,14 @@ entries: map[hash,embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "ShieldLingerAfterInitiallyPopped"
                 0x24f2ec89: f32 = 2.5
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "TooltipAPMin"
+                0x24f2ec89: f32 = 10
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "TooltipAPMax"
+                0x24f2ec89: f32 = 40
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MythicAbilityPower"
@@ -59,18 +70,10 @@ entries: map[hash,embed] = {
                     }
                 }
             }
-            0x3066c1c3 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x663d5e00 {
-                        0xcac1b6d2: f32 = 1
-                        0x5ee3c453: u8 = 5
-                    }
-                }
-            }
         }
         0x5b98619f: f32 = 20
         0x06d997bb: f32 = 250
-        0x288a964d: f32 = 80
+        0x288a964d: f32 = 85
         0x9fdc5a73: f32 = 600
         0xccf99b44: list[string] = {
             "Health"
@@ -78,9 +81,6 @@ entries: map[hash,embed] = {
             "Mana"
             "NonbootsMovement"
             "AbilityHaste"
-        }
-        0x57c6c7d0: embed = 0xc03becd9 {
-            0x5d7d4fb0: bool = true
         }
         0x57558bca: list[u8] = {
             16

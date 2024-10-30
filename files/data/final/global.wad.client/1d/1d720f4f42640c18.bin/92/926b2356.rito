@@ -10,12 +10,11 @@ entries: map[hash,embed] = {
         0x72d02fc7: list[link] = {
             0xb0bee26d
             0x218b5fe6
-            0x324bd1bb
         }
         0x5b0a81be: list[link] = {
             0x0fe5f3f2
         }
-        0x0b44452a: i32 = 3000
+        0x0b44452a: i32 = 2500
         0x51c4b876: bool = true
         0xf7250cac: bool = false
         0xd1dbada1: bool = true
@@ -26,7 +25,7 @@ entries: map[hash,embed] = {
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "LethalityAmount"
-                0x24f2ec89: f32 = 22
+                0x24f2ec89: f32 = 18
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MythicHasteAmount"
@@ -38,7 +37,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "Cooldown"
-                0x24f2ec89: f32 = 10
+                0x24f2ec89: f32 = 30
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "TakedownWindow"
@@ -78,21 +77,23 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MinHealthThreshold"
-                0x24f2ec89: f32 = 0.2
+                0x24f2ec89: f32 = 0.3
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "SpellMaxAmp"
-                0x24f2ec89: f32 = 0.25
+                0x24f2ec89: f32 = 0.16
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
             0xe5c634ce = 0xbc409284 {
-                0x2c77adff: pointer = 0x9ef92080 {
-                    0xe202bca9: f32 = 100
-                }
                 0x50f145c0: list[pointer] = {
                     0x332eb441 {
-                        0xb386dcf1: hash = 0xdbebafb1
+                        0xb386dcf1: hash = 0xbe443ea3
+                    }
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 2
+                        0x7d3150ec: u8 = 2
+                        0xb386dcf1: hash = 0xc666ad1e
                     }
                 }
             }
@@ -108,6 +109,11 @@ entries: map[hash,embed] = {
                 0x50f145c0: list[pointer] = {
                     0x332eb441 {
                         0xb386dcf1: hash = 0x9741482e
+                    }
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 2
+                        0x7d3150ec: u8 = 2
+                        0xb386dcf1: hash = 0x8a8a30db
                     }
                 }
             }
@@ -136,14 +142,6 @@ entries: map[hash,embed] = {
                     }
                 }
             }
-            0x3066c1c3 = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0x663d5e00 {
-                        0xcac1b6d2: f32 = 1
-                        0x5ee3c453: u8 = 5
-                    }
-                }
-            }
         }
         0x5b98619f: f32 = 15
         0x4e7a81cd: f32 = 60
@@ -157,9 +155,6 @@ entries: map[hash,embed] = {
             "ArmorPenetration"
             "AbilityHaste"
         }
-        0x57c6c7d0: embed = 0xc03becd9 {
-            0x5d7d4fb0: bool = true
-        }
         0x57558bca: list[u8] = {
             4
         }
@@ -172,7 +167,7 @@ entries: map[hash,embed] = {
                     "keyBrief" = "Item_226691_Brief"
                     "keyInventoryOnlyText" = "Item_226691_InventoryOnlyText"
                     "keyTooltip" = "Item_226691_Tooltip"
-                    "keyColloquialism" = "Item_6691_Colloquialism"
+                    "keyColloquialism" = "Item_226691_Colloquialism"
                     "keyTooltipInventory" = "Item_226691_TooltipDynamic"
                 }
                 0x91ed07c9: map[string,embed] = {
@@ -183,7 +178,6 @@ entries: map[hash,embed] = {
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "Lethality"
-                                0x566f3406: string = "BuffedStat_Lethality"
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "AbilityHaste"
