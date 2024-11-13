@@ -1,0 +1,45 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4d04d682 = 0x60e00531 {
+        0x19efbfdb: string = "TFT13_JayceFormSwapperStats"
+        0x0773669d: map[string,pointer] = {
+            "AttackDamage_Melee" = 0x4012fd7e {
+                0x24f2ec89: i32 = 90
+            }
+            "AttackDamage_Ranged" = 0x4012fd7e {
+                0x24f2ec89: i32 = 60
+            }
+            "Resists_Melee" = 0x4012fd7e {
+                0x24f2ec89: i32 = 60
+            }
+            "Resists_Ranged" = 0x4012fd7e {
+                0x24f2ec89: i32 = 35
+            }
+            "BonusHealth_Melee" = 0x4012fd7e {
+                0x24f2ec89: i32 = 300
+            }
+            "MaxMana_Melee" = 0x977517c6 {
+                0x24f2ec89: f32 = 90
+            }
+            "MaxMana_Ranged" = 0x977517c6 {
+                0x24f2ec89: f32 = 80
+            }
+            "StartingMana_Melee" = 0x977517c6 {
+                0x24f2ec89: f32 = 40
+            }
+            "StartingMana_Ranged" = 0x977517c6 {
+                0x24f2ec89: f32 = 30
+            }
+            "AttackSpeed_Melee" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.8
+            }
+            "AttackSpeed_Ranged" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.8
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

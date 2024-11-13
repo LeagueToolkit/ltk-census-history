@@ -5,28 +5,28 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x85390927 = 0x344a9a75 {
         0xe595dd78: list[link] = {
-            0x1ca6d782
-            0xdbbe6984
-            0x57fd24c3
-            0x57ee1a39
-            0xf7c3f636
-            0x0819d4cf
-            0xaaff0833
-            0x75de8b64
-            0x8db41e1e
-            0xdc5974b5
-            0x9dca6997
-            0x8dcecd95
-            0x6597c8b9
-            0x02fe7eeb
-            0x1164a3c6
-            0x534cfe9d
-            0x0e48899e
-            0x838ab54d
-            0xca81c1c1
-            0xd475bb68
-            0x29117483
-            0xe9746bed
+            0x2fa9e31a
+            0x6a2c6fcc
+            0xa61a3acb
+            0xa60b3041
+            0x3f37d6ee
+            0xd8907437
+            0xcb07a94b
+            0xb2db15bc
+            0xb4d758b6
+            0x6ab0703d
+            0x6500c3ef
+            0x75055a4d
+            0x79d723e1
+            0x5c978103
+            0xcfa1808e
+            0x6f972b25
+            0x10db8e46
+            0xeb05a125
+            0xb35f4f89
+            0x80b187e0
+            0xccb1550b
+            0x5bd59755
         }
         0x99108c85: list[embed] = {
             0x3745189b {
@@ -35,15 +35,19 @@ entries: map[hash,embed] = {
             }
             0x3745189b {
                 0x8d39bde6: string = "SAMPLER_BACK_BUFFER_COPY"
+                0x5d26f54f: link = 0xa6bded4f
             }
             0x3745189b {
                 0x8d39bde6: string = "BLOOM_TEXTURE"
+                0x5d26f54f: link = 0xa6bded4f
             }
             0x3745189b {
                 0x8d39bde6: string = "SAMPLER_GAMMA_LOOK_UP"
+                0x5d26f54f: link = 0xa6bded4f
             }
             0x3745189b {
                 0x8d39bde6: string = "TERRAIN_BLEND"
+                0x5d26f54f: link = 0xa6bded4f
             }
             0x3745189b {
                 0x8d39bde6: string = "ENV_CUBE"
@@ -51,6 +55,7 @@ entries: map[hash,embed] = {
             }
             0x3745189b {
                 0x8d39bde6: string = "MIP_COLORS_TEX"
+                0x5d26f54f: link = 0xb40cd67c
             }
             0x3745189b {
                 0x8d39bde6: string = "UI_PRIMARY_TEXTURE"
@@ -59,9 +64,11 @@ entries: map[hash,embed] = {
             0x3745189b {
                 0x8d39bde6: string = "FOW_MAP"
                 0x2d6871c0: i32 = 14
+                0x5d26f54f: link = 0xa6bded4f
             }
             0x3745189b {
                 0x8d39bde6: string = "CLOUDS_TEXTURE"
+                0x5d26f54f: link = 0xb40cd67c
             }
             0x3745189b {
                 0x8d39bde6: string = "SHADOW_MAP"
@@ -83,18 +90,21 @@ entries: map[hash,embed] = {
                 0x8d39bde6: string = "LIGHT_GRID_TEXTURE"
                 0x5127f14d: u8 = 5
                 0x2d6871c0: i32 = 15
+                0x5d26f54f: link = 0xa6bded4f
             }
             0x3745189b {
                 0x8d39bde6: string = "SSS_LUT"
             }
             0x3745189b {
                 0x8d39bde6: string = "GRASS_TINT_MAP"
+                0x5d26f54f: link = 0xa6bded4f
             }
             0x3745189b {
                 0x8d39bde6: string = "SPOT_PROJECTED_TEXTURE"
             }
             0x3745189b {
                 0x8d39bde6: string = "GRASS_TINT_MAP_ALTERNATE"
+                0x5d26f54f: link = 0xa6bded4f
             }
             0x3745189b {
                 0x8d39bde6: string = "PLANAR_REFLECTION_MAP"
@@ -116,6 +126,7 @@ entries: map[hash,embed] = {
             }
             0x3745189b {
                 0x8d39bde6: string = "SSAO_TEXTURE"
+                0x5d26f54f: link = 0xa6bded4f
             }
             0x3745189b {
                 0x8d39bde6: string = "MANTIS_IBL_CUBEMAP_1"
@@ -128,10 +139,16 @@ entries: map[hash,embed] = {
             0x3745189b {
                 0x8d39bde6: string = "ENV_EFFECTOR_TEXTURE"
                 0xb0afcae5: u32 = 0
+                0x5d26f54f: link = 0xa6bded4f
             }
             0x3745189b {
                 0x8d39bde6: string = "PIXEL_COLOR_REMAP_RAMP"
+                0x5d26f54f: link = 0xa6bded4f
             }
+        }
+        0xe0540d74: list2[link] = {
+            0xa6bded4f
+            0xb40cd67c
         }
     }
 }

@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3865bf30 = 0xa0c80919 {
+        0x8d39bde6: string = "TFT13_GoopBuff_ToxicCloud"
+        0x900aff58: link = 0xf924cd18
+        0xc13d6d31: list2[embed] = {
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x5cc52ba8
+                0x425ed3ca: f32 = 1
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0xfaeb494f
+                0x425ed3ca: f32 = 100
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x2fa0fd0d
+                0x425ed3ca: f32 = 4
+            }
+        }
+        0x4e874e78: list2[hash] = {
+            0x03c95748
+        }
+    }
+}

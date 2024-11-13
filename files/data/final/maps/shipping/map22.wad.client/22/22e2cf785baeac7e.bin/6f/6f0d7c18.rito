@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6f0d7c18 = 0xa0c80919 {
+        0x8d39bde6: string = "TFT13_GoopBuff_EagleEye"
+        0x900aff58: link = 0xfe802395
+        0xc13d6d31: list2[embed] = {
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0xe09cc241
+                0x425ed3ca: f32 = 0.06
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x0c712be9
+                0x425ed3ca: f32 = 1
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x5d3c9be4
+                0x425ed3ca: f32 = 2
+            }
+        }
+        0x4e874e78: list2[hash] = {
+            0x03c95748
+            0x9e680282
+            0x4595b8fd
+            0x70350b3b
+        }
+    }
+}

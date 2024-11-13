@@ -1,0 +1,32 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6b84be97 = 0x60e00531 {
+        0x19efbfdb: string = "TFT13_SetMechanic_EvolveBuff_MaxHealth_Temp"
+        0x0773669d: map[string,pointer] = {
+            "HealthPercent" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+            "GoopTitle" = 0xf4700e9c {
+                0x24f2ec89: string = "TFT13_SetMechanic_EvolveBuff_MaxHealth_Temp"
+            }
+            "BuffType" = 0xa188bd55 {
+                0x24f2ec89: string = "Unit"
+            }
+            "Tags" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "Late"
+                }
+            }
+            "ReapplyTimer" = 0x977517c6 {
+                0x24f2ec89: f32 = 5
+            }
+            "HealthGrow" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.05
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

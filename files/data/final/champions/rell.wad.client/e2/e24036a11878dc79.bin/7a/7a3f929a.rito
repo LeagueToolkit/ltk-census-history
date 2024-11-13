@@ -13,7 +13,7 @@ entries: map[hash,embed] = {
             }
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
-                    0x19efbfdb: string = "BaseDamageTooltipOnly"
+                    0x19efbfdb: string = "CrashDownTooltip"
                     0x246b0d8e: list[f32] = {
                         30
                         60
@@ -25,31 +25,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "Haste"
-                    0x246b0d8e: list[f32] = {
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "HasteDuration"
-                    0x246b0d8e: list[f32] = {
-                        3.5
-                        3.5
-                        3.5
-                        3.5
-                        3.5
-                        3.5
-                        3.5
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "ShieldBaseTooltipOnly"
+                    0x19efbfdb: string = "ShieldBaseTooltip"
                     0x246b0d8e: list[f32] = {
                         -10
                         15
@@ -61,7 +37,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "FlipAttackDamage"
+                    0x19efbfdb: string = "FlipAttackTooltip"
                     0x246b0d8e: list[f32] = {
                         -5
                         10
@@ -73,7 +49,19 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "DismountedASBoostTooltipOnly"
+                    0x19efbfdb: string = "MoveSpeedTooltip"
+                    0x246b0d8e: list[f32] = {
+                        15
+                        20
+                        25
+                        30
+                        35
+                        40
+                        45
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "HasteTooltip"
                     0x246b0d8e: list[f32] = {
                         0.3
                         0.3
@@ -84,45 +72,8 @@ entries: map[hash,embed] = {
                         0.3
                     }
                 }
-                0x005008a6 {
-                    0x19efbfdb: string = "BonusMonsterDamageMountUp"
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "BonusMonsterDamageCrashdownTooltipOnly"
-                }
             }
             0x94572284: map[hash,pointer] = {
-                0xbc383d01 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0xb470f6ae
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.6
-                        }
-                    }
-                }
-                0x337519b0 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0xc837c112
-                        }
-                        0x5815b0a9 {
-                            0x4cec2c8a: u8 = 11
-                            0x295c2889: f32 = 0.12
-                        }
-                    }
-                }
-                0x3d8d4fc3 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0x337fd4df
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.4
-                        }
-                    }
-                }
                 0xa71a11d7 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x803dae4c {
@@ -145,15 +96,6 @@ entries: map[hash,embed] = {
             0xfbd16fb5: string = "Spell2_Mount"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Rell/HUD/Icons2D/RellMount.dds"
-            }
-            0x9ecac3a1: list[f32] = {
-                11
-                11
-                11
-                11
-                11
-                11
-                11
             }
             0x1b9cbd9b: list[f32] = {
                 0
@@ -180,16 +122,20 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "BaseDamageTooltipOnly"
+                                    0x5127f14d: string = "FlipAttackTooltip"
+                                    0x566f3406: string = "Spell_ListType_RellW_FlipDamage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "MoveSpeedTooltip"
+                                    0x566f3406: string = "Spell_ListType_PassiveMovementSpeed"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "CrashDownTooltip"
                                     0x566f3406: string = "Spell_ListType_RellW_DismountDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "ShieldBaseTooltipOnly"
+                                    0x5127f14d: string = "ShieldBaseTooltip"
                                     0x566f3406: string = "Spell_ListType_Shield"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "FlipAttackDamage"
-                                    0x566f3406: string = "Spell_ListType_RellW_FlipDamage"
                                 }
                             }
                         }
@@ -206,7 +152,7 @@ entries: map[hash,embed] = {
                     0x725bd4d5: pointer = 0xbc409284 {
                         0x50f145c0: list[pointer] = {
                             0x332eb441 {
-                                0xb386dcf1: hash = 0x34f98570
+                                0xb386dcf1: hash = 0xce134e1b
                             }
                         }
                     }
@@ -250,7 +196,7 @@ entries: map[hash,embed] = {
                     0x725bd4d5: pointer = 0xbc409284 {
                         0x50f145c0: list[pointer] = {
                             0x332eb441 {
-                                0xb386dcf1: hash = 0x337fd4df
+                                0xb386dcf1: hash = 0xd2d2e2e9
                             }
                         }
                     }

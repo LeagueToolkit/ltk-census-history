@@ -1,0 +1,18 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x88b8f9a3 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT13_Warband_Cashout6_Option1"
+        0x0773669d: map[string,pointer] = {
+            "FourCostUnit" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+            "FiveCostUnit" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

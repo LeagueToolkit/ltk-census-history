@@ -1,0 +1,17 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc4dbbe15 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT13_Warband_Cashout8_Option1"
+        0x0773669d: map[string,pointer] = {
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Item_ThiefsGloves"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

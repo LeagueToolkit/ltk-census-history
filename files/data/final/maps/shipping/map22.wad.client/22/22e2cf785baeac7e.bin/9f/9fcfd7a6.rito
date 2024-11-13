@@ -4,12 +4,12 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x9fcfd7a6 = 0x01d7548e {
-        0x0d43af66: link = 0x0d9d3e0c
+        0x0d43af66: link = 0x0e9d3f9f
         0xd07745a5: link = 0x49a4b7c3
         0x2d527e72: list2[link] = {
             0x46b76215
-            0x0d9d3e0c
             0x49a4b7c3
+            0x0e9d3f9f
             0x9f97b0c6
         }
         0xb40ed25a: embed = 0x54530df7 {
@@ -43,6 +43,10 @@ entries: map[hash,embed] = {
                 0xcc3ae8e4 {
                     0xff786d5a: u32 = 6
                 }
+                0xcc3ae8e4 {
+                    0xff786d5a: u32 = 7
+                    0xbf58859f: bool = true
+                }
             }
         }
         0xba589474: embed = 0x54530df7 {
@@ -74,6 +78,10 @@ entries: map[hash,embed] = {
                 }
                 0xcc3ae8e4 {
                     0xff786d5a: u32 = 3
+                }
+                0xcc3ae8e4 {
+                    0xff786d5a: u32 = 7
+                    0xbf58859f: bool = true
                 }
             }
         }
@@ -234,6 +242,34 @@ entries: map[hash,embed] = {
             0xe8ea3cea
             0x54f1e2bc
             0xe3f4c267
+        }
+        0x60461abf: list2[hash] = {
+            0x7013d630
+            0x0c285a89
+            0xbfc6b95f
+            0x64e3eb60
+            0x3b3e18e8
+            0x79ca637b
+            0x9e680282
+            0x4595b8fd
+            0xe4eb258c
+            0xaa25504e
+            0x44055224
+            0x03c95748
+            0x1064c9c3
+            0xc9d84ebc
+            0x0724b3ab
+            0x897b5f7a
+            0x848451f7
+            0x51f91098
+            0x7fa976fb
+            0x6fa0e0ef
+            0x56c5f2e1
+            0xaa95b730
+            0x70350b3b
+            0xdb219e29
+            0xce1520aa
+            0xa5dbfe1e
         }
         0xb1725d57: map[hash,string] = {
             0x6b98ed8f = "%i:scaleHealth% +@Value@"

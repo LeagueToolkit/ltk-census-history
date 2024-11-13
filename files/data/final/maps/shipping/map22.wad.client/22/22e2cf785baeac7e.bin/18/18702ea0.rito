@@ -1,0 +1,28 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x18702ea0 = 0x60e00531 {
+        0x19efbfdb: string = "AdventureLootF"
+        0x0773669d: map[string,pointer] = {
+            "Consumable" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Consumable_ItemRemover"
+                    "TFT_Consumable_ItemRemover"
+                }
+            }
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT5_Item_CrownguardRadiant"
+                    "TFT_Item_Artifact_UnendingDespair"
+                    "TFT_Item_Moonstone"
+                }
+            }
+            "Gold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 20
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

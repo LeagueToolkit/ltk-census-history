@@ -1,0 +1,29 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x69305384 = 0xa0c80919 {
+        0x8d39bde6: string = "TFT13_GoopBuff_SlimeTime"
+        0x900aff58: link = 0x3654d7cc
+        0xc13d6d31: list2[embed] = {
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x99c94704
+                0x425ed3ca: f32 = 2
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0xe30c799f
+                0x425ed3ca: f32 = 1
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x83dbe64e
+                0x425ed3ca: f32 = 1
+            }
+        }
+        0x4e874e78: list2[hash] = {
+            0x03c95748
+            0xe4eb258c
+            0x79ca637b
+        }
+    }
+}

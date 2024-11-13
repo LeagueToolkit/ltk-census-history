@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x597d2a4d = 0x60e00531 {
+        0x19efbfdb: string = "TFT13_Goop_Affix_Buffs_Early"
+        0x0773669d: map[string,pointer] = {
+            "EvolveBuffs" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT13_SetMechanic_EvolveBuff_MaxHealth_Temp"
+                    "TFT13_SetMechanic_EvolveBuff_ASRange_Temp"
+                    "TFT13_SetMechanic_EvolveBuff_TeamAD_Temp"
+                    "TFT13_SetMechanic_EvolveBuff_TeamAP_Temp"
+                    "TFT13_SetMechanic_EvolveBuff_GainEmblem"
+                    "TFT13_SetMechanic_EvolveBuff_SharpeningFocus"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,29 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x168e03e5 = 0x60e00531 {
+        0x19efbfdb: string = "TFT13_SetMechanic_EvolveBuff_Blue_CasterRole"
+        0x0773669d: map[string,pointer] = {
+            "ASBonus" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.3
+            }
+            "ASOnCast" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "GoopTitle" = 0xf4700e9c {
+                0x24f2ec89: string = "TFT13_SetMechanic_EvolveBuff_Blue_CasterRole_TRA"
+            }
+            "BuffType" = 0xa188bd55 {
+                0x24f2ec89: string = "Unit"
+            }
+            "Tags" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "Late"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

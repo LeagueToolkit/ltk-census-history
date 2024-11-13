@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4c6a868b = 0x60e00531 {
+        0x19efbfdb: string = "TFT13_Crime_LootC5"
+        0x0773669d: map[string,pointer] = {
+            "Champions_1Star" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT13_Gremlin"
+                    "TFT13_Gremlin"
+                }
+            }
+            "ExactItem" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT13_Crime_Gold_ExecutionersVorpalblade"
+                    "TFT13_Crime_Silver_DestabilizedChemtank"
+                }
+            }
+            "Remover" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

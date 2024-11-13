@@ -14,27 +14,39 @@ entries: map[hash,embed] = {
             }
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
-                    0x19efbfdb: string = "BaseDamage"
+                    0x19efbfdb: string = "CrashDownDamage"
                     0x246b0d8e: list[f32] = {
-                        60
+                        30
                         60
                         90
                         120
                         150
                         180
-                        180
+                        210
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "StunDuration"
+                    0x19efbfdb: string = "CrashDownKnockupDuration"
                     0x246b0d8e: list[f32] = {
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "CrashDownStunDuration"
+                    0x246b0d8e: list[f32] = {
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
                     }
                 }
                 0x005008a6 {
@@ -52,13 +64,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "ResistanceIncrease"
                     0x246b0d8e: list[f32] = {
-                        0.12
-                        0.12
-                        0.12
-                        0.12
-                        0.12
-                        0.12
-                        0.12
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
                     }
                 }
                 0x005008a6 {
@@ -69,20 +81,32 @@ entries: map[hash,embed] = {
                         40
                         65
                         90
-                        110
-                        110
+                        115
+                        140
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ShieldHealthRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.12
+                        0.12
+                        0.12
+                        0.12
+                        0.12
+                        0.12
+                        0.12
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "DismountedASBoost"
                     0x246b0d8e: list[f32] = {
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
                     }
                 }
                 0x005008a6 {
@@ -98,19 +122,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "MinCD"
-                    0x246b0d8e: list[f32] = {
-                        8
-                        8
-                        8
-                        8
-                        8
-                        8
-                        8
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "FlipAttackDamageTooltipOnly"
+                    0x19efbfdb: string = "MountUpDamage"
                     0x246b0d8e: list[f32] = {
                         10
                         10
@@ -122,41 +134,83 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "DismountedMSPenalty"
+                    0x19efbfdb: string = "MountUpSpeed"
                     0x246b0d8e: list[f32] = {
-                        -0.1
-                        -0.1
-                        -0.1
-                        -0.1
-                        -0.1
-                        -0.1
-                        -0.1
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "JungleDamageMod"
+                    0x19efbfdb: string = "MountUpSpeedDuration"
                     0x246b0d8e: list[f32] = {
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
+                        3.5
+                        3.5
+                        3.5
+                        3.5
+                        3.5
+                        3.5
+                        3.5
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "BonusMonsterDamageCrashdown"
+                    0x19efbfdb: string = "MountedMoveSpeed"
+                    0x246b0d8e: list[f32] = {
+                        15
+                        20
+                        25
+                        30
+                        35
+                        40
+                        45
+                    }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "BonusMonsterDamageMountUpTooltipOnly"
+                    0x19efbfdb: string = "FlipBaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        -5
+                        10
+                        25
+                        40
+                        55
+                        70
+                        85
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "FlipKnockupDuration"
+                    0x246b0d8e: list[f32] = {
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "FlipStunDuration"
+                    0x246b0d8e: list[f32] = {
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                    }
                 }
             }
             0x94572284: map[hash,pointer] = {
                 0xbc383d01 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
-                            0xb386dcf1: hash = 0x03da00f9
+                            0xb386dcf1: hash = 0x3d89e4b5
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.6
@@ -168,35 +222,37 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0x0c2eb095
                         }
-                        0x5815b0a9 {
+                        0x5f5c70a4 {
                             0x4cec2c8a: u8 = 11
-                            0x295c2889: f32 = 0.12
+                            0xb386dcf1: hash = 0xeaf24fcd
                         }
                     }
                 }
-                0x56d97794 = 0xbc409284 {
+                0x3d8d4fc3 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
-                            0xb386dcf1: hash = 0xa1e455a8
+                            0xb386dcf1: hash = 0x28241396
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.4
                         }
                     }
                 }
-                0x0767675f = 0xbc409284 {
+                0xa71a11d7 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x5f5c70a4 {
-                            0x4cec2c8a: u8 = 1
-                            0xb386dcf1: hash = 0x47c72d08
-                        }
-                    }
-                }
-                0x9079e8ad = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x5f5c70a4 {
-                            0x4cec2c8a: u8 = 1
-                            0xb386dcf1: hash = 0x47c72d08
+                        0x803dae4c {
+                            0x886fc197: option[f32] = {
+                                1
+                            }
+                            0xcc3d10ce: option[f32] = {
+                                0.2
+                            }
+                            0xa066cc28: list[pointer] = {
+                                0xea2ab5ca {
+                                    0x92f50a07: hash = 0x5a8747c2
+                                    0xcac1b6d2: f32 = 2
+                                }
+                            }
                         }
                     }
                 }
@@ -204,15 +260,6 @@ entries: map[hash,embed] = {
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Rell/HUD/Icons2D/RellW.dds"
                 "ASSETS/Characters/Rell/HUD/Icons2D/RellMount.dds"
-            }
-            0x9ecac3a1: list[f32] = {
-                11
-                11
-                11
-                11
-                11
-                11
-                11
             }
             0x8804c850: bool = true
             0xd4c233b3: list[f32] = {
@@ -249,16 +296,20 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "BaseDamage"
-                                    0x566f3406: string = "Spell_ListType_Damage"
+                                    0x5127f14d: string = "CrashDownDamage"
+                                    0x566f3406: string = "Spell_ListType_RellW_DismountDamage"
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "ShieldBase"
                                     0x566f3406: string = "Spell_ListType_Shield"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "FlipAttackDamageTooltipOnly"
+                                    0x5127f14d: string = "MountUpDamage"
                                     0x566f3406: string = "Spell_ListType_RellW_FlipDamage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "MountedMoveSpeed"
+                                    0x566f3406: string = "Spell_ListType_PassiveMovementSpeed"
                                 }
                             }
                         }

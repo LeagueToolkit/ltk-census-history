@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6360b322 = 0xa0c80919 {
+        0x8d39bde6: string = "TFT13_GoopBuff_AvalancheofArmor"
+        0x900aff58: link = 0x6767c10b
+        0xc13d6d31: list2[embed] = {
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0xabfc283d
+                0x425ed3ca: f32 = 0.25
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x85743373
+                0x425ed3ca: f32 = 50
+            }
+        }
+        0x4e874e78: list2[hash] = {
+            0x0c285a89
+            0x4595b8fd
+            0x44055224
+        }
+    }
+}

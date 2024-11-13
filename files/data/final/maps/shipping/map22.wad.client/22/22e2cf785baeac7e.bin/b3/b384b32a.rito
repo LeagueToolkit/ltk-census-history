@@ -1,0 +1,32 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb384b32a = 0x60e00531 {
+        0x19efbfdb: string = "TFT13_SetMechanic_EvolveBuff_SupportPlayer"
+        0x0773669d: map[string,pointer] = {
+            "GoopTitle" = 0xf4700e9c {
+                0x24f2ec89: string = "TFT13_SetMechanic_EvolveBuff_SupportPlayer_TRA"
+            }
+            "BuffType" = 0xa188bd55 {
+                0x24f2ec89: string = "Unit"
+            }
+            "Tags" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "Late"
+                }
+            }
+            "NumAttacks" = 0x977517c6 {
+                0x24f2ec89: f32 = 3
+            }
+            "ManaGain" = 0x977517c6 {
+                0x24f2ec89: f32 = 15
+            }
+            "NumUnits" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

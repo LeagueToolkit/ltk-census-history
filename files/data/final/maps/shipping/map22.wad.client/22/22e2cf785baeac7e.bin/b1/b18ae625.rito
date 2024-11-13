@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb18ae625 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_EMBLEM_SET13_Craftable"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT13_Item_CabalEmblemItem"
+                    "TFT13_Item_ExperimentEmblemItem"
+                    "TFT13_Item_AutomataEmblemItem"
+                    "TFT13_Item_FamilyEmblemItem"
+                    "TFT13_Item_HoverboardEmblemItem"
+                    "TFT13_Item_RebelEmblemItem"
+                    "TFT13_Item_SquadEmblemItem"
+                    "TFT13_Item_WarbandEmblemItem"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

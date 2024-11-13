@@ -1,0 +1,29 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x407feb18 = 0xa0c80919 {
+        0x8d39bde6: string = "TFT13_GoopBuff_LegacyOfShurima"
+        0x900aff58: link = 0x52878fb0
+        0xc13d6d31: list2[embed] = {
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x2fa0fd0d
+                0x425ed3ca: f32 = 10
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0x1ba6bd60
+                0x425ed3ca: f32 = 0.4
+            }
+            0x62ff42f4 {
+                0x8d39bde6: hash = 0xadb7481c
+                0x425ed3ca: f32 = 0.6
+            }
+        }
+        0x4e874e78: list2[hash] = {
+            0x03c95748
+            0x7013d630
+            0x79ca637b
+        }
+    }
+}

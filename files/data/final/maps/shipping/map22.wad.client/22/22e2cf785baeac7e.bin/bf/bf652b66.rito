@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xbf652b66 = 0x60e00531 {
+        0x19efbfdb: string = "TFT13_Crime_LootE4"
+        0x0773669d: map[string,pointer] = {
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "Tier3"
+                    "Tier3"
+                }
+            }
+            "Remover" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

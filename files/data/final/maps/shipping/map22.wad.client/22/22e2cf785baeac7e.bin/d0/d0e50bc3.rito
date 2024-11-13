@@ -1,0 +1,17 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd0e50bc3 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryTable_TFT13_Warband_Cashout20"
+        0x0773669d: map[string,pointer] = {
+            "ArmoryContent_TFT13_Warband_Cashout20_Option1" = 0x977517c6 {
+                0x24f2ec89: f32 = 1
+            }
+            "ArmoryContent_TFT13_Warband_Cashout20_Option2" = 0x977517c6 {}
+            "ArmoryContent_TFT13_Warband_Cashout20_Option3" = 0x977517c6 {}
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

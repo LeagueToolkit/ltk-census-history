@@ -1,0 +1,29 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x536cd027 = 0x60e00531 {
+        0x19efbfdb: string = "TFT13_Crime_LootB2"
+        0x0773669d: map[string,pointer] = {
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "Tier1"
+                }
+            }
+            "Champions_1Star" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT13_Chainsaw"
+                    "TFT13_Chainsaw"
+                    "TFT13_Gremlin"
+                }
+            }
+            "GoldItems" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Assist_Gold_1"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
