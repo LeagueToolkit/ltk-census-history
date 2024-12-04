@@ -1,0 +1,40 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x78013f9e = 0xf4a6bb27 {
+        0x19efbfdb: string = "TFT_Round_MacaoPortalSelect"
+        0x8bee2972: string = "ASSETS/Characters/TFT_Shared_Draft/Shared_Draft_Icon.tex"
+        0xc3143d66: string = "tft9_round_name_RegionPortalSelect"
+        0xf2d519d1: string = "tft9_round_name_RegionPortalSelect"
+        0xd20054c0: string = "ASSETS/UX/TFT/StageIcons/DraftUpcoming.tex"
+        0x304b0330: string = "ASSETS/UX/TFT/StageIcons/DraftCurrent.tex"
+        0xf862cc05: string = "ASSETS/UX/TFT/StageIcons/DraftDefeat.tex"
+        0x4b1f0de0: embed = 0x25cb010c {
+            0x49da00a9: bool = true
+            0x85f7d4c8: f32 = 6
+        }
+        0x3a2fa1eb: embed = 0x25cb010c {
+            0x49da00a9: bool = true
+            0x85f7d4c8: f32 = 20.2
+            0x3c916c06: u32 = 2
+        }
+        0x5c191701: embed = 0x25cb010c {
+            0x49da00a9: bool = true
+            0x85f7d4c8: f32 = 2
+        }
+        0x78f60753: map[string,pointer] = {
+            "RoundType" = 0xa188bd55 {
+                0x24f2ec89: string = "PortalSelect"
+            }
+            "ForcedPortals" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Portals_Macao_Stage1_Option1"
+                    "TFT_Portals_Macao_Stage1_Option2"
+                    "TFT_Portals_Macao_Stage1_Option3"
+                }
+            }
+        }
+    }
+}

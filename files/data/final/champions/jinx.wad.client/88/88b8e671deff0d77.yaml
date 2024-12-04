@@ -1,0 +1,21 @@
+sha256: "9bb0188a72ddc93f9a4077451b6349b7936462cfe008c2b635a9ff7964f928ba"
+checksum: "25253eef994aa149"
+kind: "skl"
+skeleton:
+ influences: 5
+ joints:
+  - name: "Root"
+  - name: "Fuse1"
+    parent: "Root"
+  - name: "Fuse2"
+    parent: "Fuse1"
+  - name: "Fuse_end"
+    parent: "Fuse2"
+  - name: "Head"
+    parent: "Root"
+  - name: "Cstm_Buffbone_R_Eye"
+    parent: "Head"
+  - name: "Cstm_Buffbone_L_Eye"
+    parent: "Head"
+  - name: "Jaw"
+    parent: "Root"

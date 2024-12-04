@@ -15,17 +15,17 @@ entries: map[hash,embed] = {
                 "game_spell_tooltip_ViktorRAug"
             }
             0xb0ec0f43: list[string] = {
-                "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_Q2.dds"
-                "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_W2.dds"
-                "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_E2.dds"
-                ""
+                "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_Q2.ViktorVGU.dds"
+                "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_W2.ViktorVGU.dds"
+                "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_E2.ViktorVGU.dds"
+                "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_R2.ViktorVGU.dds"
             }
         }
         0x17b55a20: f32 = 600
         0x0fd6a4da: f32 = 104
         0x4b102e57: f32 = 1.6
         0xcc3ef161: f32 = 0.13
-        0xa02a904b: f32 = 115
+        0xa02a904b: f32 = 130
         0xbbd81e0d: embed = 0xce31c975 {
             0x03187eba: u8 = 0
             0x4a3c4977: f32 = 405
@@ -50,15 +50,9 @@ entries: map[hash,embed] = {
             0xf8f757cc: option[f32] = {
                 -0.12
             }
-            0x5d75bf7b: option[f32] = {
-                0.5
-            }
         }
         0x766c34e6: list[embed] = {
             0x06ad3499 {
-                0x5d75bf7b: option[f32] = {
-                    0.5
-                }
                 0x147de9df: option[string] = {
                     "ViktorBasicAttack2"
                 }
@@ -75,21 +69,21 @@ entries: map[hash,embed] = {
             }
         }
         0xbfc37103: list[string] = {
-            "ViktorPowerTransferAbility/ViktorPowerTransfer"
-            "ViktorGravitonFieldAbility/ViktorGravitonField"
-            "ViktorDeathRayAbility/ViktorDeathRay"
-            "ViktorChaosStormAbility/ViktorChaosStorm"
+            "ViktorQAbility/ViktorQ"
+            "ViktorWAbility/ViktorW"
+            "ViktorEAbility/ViktorE"
+            "ViktorRAbility/ViktorR"
         }
         0x8c1da1da: list[string] = {
-            "ViktorDeathRayMissile"
             "BaseSpell"
-            "ViktorPowerTransferReturn"
-            "ViktorDeathRayMissile2"
+            "BaseSpell"
+            "ViktorQReturn"
+            "BaseSpell"
             "ViktorQBuff"
             "ViktorEAugMissile"
-            "ViktorEAugParticle"
             "BaseSpell"
-            "ViktorChaosStormGuide"
+            "BaseSpell"
+            "ViktorRGuide"
             "ViktorPassive"
             "BaseSpell"
             "BaseSpell"
@@ -99,20 +93,21 @@ entries: map[hash,embed] = {
             "BaseSpell"
         }
         0xe27abe56: list[link] = {
-            0x6f77e1de
-            0x0de29071
-            0x11828495
-            0xf2b4db73
+            0xd23254c9
+            0x9b120972
+            0x1f0d491c
+            0xf849d82e
             0x20fb9ba4
         }
         0xc9fa54bd: string = "game_character_passiveName_Viktor"
         0x23627deb: string = "ViktorPassive"
         0xa2bea925: string = "game_character_passiveDescription_Viktor"
-        0xf317b15b: string = "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_Passive.dds"
+        0xf317b15b: string = "ASSETS/Characters/Viktor/HUD/Icons2D/Viktor_Passive.ViktorVGU.dds"
         0x8d39bde6: string = "game_character_displayname_Viktor"
         0xd3a1950d: list[string] = {
             "ViktorBasicAttack"
         }
+        0xfbcb224e: bool = true
         0xeb5e3232: f32 = 140
         0x50713aa3: f32 = 120
         0x91bf871f: f32 = 35
@@ -128,25 +123,9 @@ entries: map[hash,embed] = {
         }
         0xec3d693a: embed = 0xec3d693a {
             0x7066e6ca: map[u32,embed] = {
-                0 = 0xd01d25c0 {
-                    0xb75b2ab8: bool = true
-                    0xb66d0e47: bool = true
-                    0x6175bb7b: bool = true
-                }
+                0 = 0xd01d25c0 {}
                 1 = 0xd01d25c0 {}
                 2 = 0xd01d25c0 {}
-                3 = 0xd01d25c0 {
-                    0xca762bfc: bool = true
-                    0xb75b2ab8: bool = true
-                    0xb66d0e47: bool = true
-                    0x6175bb7b: bool = true
-                }
-                4 = 0xd01d25c0 {
-                    0xca762bfc: bool = true
-                    0xb75b2ab8: bool = true
-                    0xb66d0e47: bool = true
-                    0x6175bb7b: bool = true
-                }
             }
             0x980de4fe: list[embed] = {
                 0x08604b90 {
@@ -159,8 +138,6 @@ entries: map[hash,embed] = {
             0xbce6912e: i32 = 9
             0x346f3b69: string = "game_character_description_Viktor"
             0x97374ff9: i32 = 4
-            0xa8c6303b: bool = true
-            0x7dfe4c9d: bool = true
             0xf2eb4b1f: i32 = 2
         }
         0x6d8233bf: bool = true

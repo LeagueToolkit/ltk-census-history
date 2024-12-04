@@ -1,0 +1,23 @@
+sha256: "f9ba57605d0ab39f03ec6fad5acb7c9f51f17fbb0cbf396f62f6319a35bc0fea"
+checksum: "dac0bd0958d6107b"
+kind: "skl"
+skeleton:
+ influences: 8
+ joints:
+  - name: "jnt_root"
+  - name: "jnt_core"
+    parent: "jnt_root"
+  - name: "jnt_crystal"
+    parent: "jnt_core"
+  - name: "jnt_arm_1"
+    parent: "jnt_core"
+  - name: "jnt_arm_1_child"
+    parent: "jnt_arm_1"
+  - name: "jnt_arm_2"
+    parent: "jnt_core"
+  - name: "jnt_arm_2_child"
+    parent: "jnt_arm_2"
+  - name: "jnt_arm_3"
+    parent: "jnt_core"
+  - name: "jnt_arm_3_child"
+    parent: "jnt_arm_3"

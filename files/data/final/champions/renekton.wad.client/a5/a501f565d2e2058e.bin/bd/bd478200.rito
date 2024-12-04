@@ -9,9 +9,10 @@ entries: map[hash,embed] = {
             0x9c677a2c: u32 = 4
             0xecf3f88d: u32 = 6154
             0x44b7e8dd: string = "RenektonCleave"
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
+                    0x246b0d8e: list[f32] = {
                         30
                         60
                         90
@@ -19,121 +20,6 @@ entries: map[hash,embed] = {
                         150
                         180
                         210
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
-                        2
-                        3
-                        4
-                        5
-                        6
-                        0
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.02
-                        0.02
-                        0.02
-                        0.02
-                        0.02
-                        0.02
-                        0.02
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
-                        50
-                        75
-                        100
-                        125
-                        150
-                        0
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        400
-                        400
-                        400
-                        400
-                        400
-                        400
-                        400
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        45
-                        90
-                        135
-                        180
-                        225
-                        270
-                        315
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
-                        6
-                        9
-                        12
-                        15
-                        18
-                        0
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.06
-                        0.06
-                        0.06
-                        0.06
-                        0.06
-                        0.06
-                        0.06
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0
-                        200
-                        300
-                        400
-                        500
-                        600
-                        0
-                    }
-                }
-                0x92d4987c {}
-            }
-            0x1f4d20a6: list[embed] = {
-                0x005008a6 {
-                    0x19efbfdb: string = "ChampHeal"
-                    0x246b0d8e: list[f32] = {
-                        4
-                        12
-                        20
-                        28
-                        36
-                        44
-                        52
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "EmpChampHeal"
-                    0x246b0d8e: list[f32] = {
-                        12
-                        36
-                        60
-                        84
-                        108
-                        132
-                        156
                     }
                 }
                 0x005008a6 {
@@ -149,6 +35,78 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
+                    0x19efbfdb: string = "BaseMinionHeal"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        2
+                        3
+                        4
+                        5
+                        6
+                        7
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MinionHealADRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.02
+                        0.02
+                        0.02
+                        0.02
+                        0.02
+                        0.02
+                        0.02
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ChampHeal"
+                    0x246b0d8e: list[f32] = {
+                        4
+                        12
+                        20
+                        28
+                        36
+                        44
+                        52
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ChampionHealADRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.17
+                        0.17
+                        0.17
+                        0.17
+                        0.17
+                        0.17
+                        0.17
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BasicHealCap"
+                    0x246b0d8e: list[f32] = {
+                        25
+                        50
+                        75
+                        100
+                        125
+                        150
+                        175
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "EmpoweredBaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        45
+                        90
+                        135
+                        180
+                        225
+                        270
+                        315
+                    }
+                }
+                0x005008a6 {
                     0x19efbfdb: string = "EmpoweredADRatio"
                     0x246b0d8e: list[f32] = {
                         1.4
@@ -160,13 +118,96 @@ entries: map[hash,embed] = {
                         1.4
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "EmpoweredHealCap"
+                    0x246b0d8e: list[f32] = {
+                        100
+                        200
+                        300
+                        400
+                        500
+                        600
+                        700
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "EmpoweredHealMultiplier"
+                    0x246b0d8e: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "Range"
+                    0x246b0d8e: list[f32] = {
+                        400
+                        400
+                        400
+                        400
+                        400
+                        400
+                        400
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "UltimateRangeMod"
+                    0x246b0d8e: list[f32] = {
+                        1.2
+                        1.2
+                        1.2
+                        1.2
+                        1.2
+                        1.2
+                        1.2
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MinionFuryGain"
+                    0x246b0d8e: list[f32] = {
+                        2.5
+                        2.5
+                        2.5
+                        2.5
+                        2.5
+                        2.5
+                        2.5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ChampionFuryGain"
+                    0x246b0d8e: list[f32] = {
+                        10
+                        10
+                        10
+                        10
+                        10
+                        10
+                        10
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "FuryGainCap"
+                    0x246b0d8e: list[f32] = {
+                        30
+                        30
+                        30
+                        30
+                        30
+                        30
+                        30
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0xf9c808a8 = 0xbc409284 {
-                    0xd6b7a622: bool = true
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
                         }
                         0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
@@ -176,10 +217,9 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x2ec3ec00 = 0xbc409284 {
-                    0xd6b7a622: bool = true
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 6
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x33985e85
                         }
                         0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
@@ -189,15 +229,14 @@ entries: map[hash,embed] = {
                     }
                 }
                 0xd92bf4c3 = 0xbc409284 {
-                    0xd6b7a622: bool = true
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 2
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xc67eac24
                         }
-                        0x5815b0a9 {
+                        0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 0.02
+                            0xb386dcf1: hash = 0xce3f64a7
                         }
                     }
                 }
@@ -206,40 +245,26 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0x899e50fa
                         }
-                        0x5815b0a9 {
+                        0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 0.17
+                            0xb386dcf1: hash = 0x6c4ea64c
                         }
                     }
                 }
-                0x89f92883 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 7
-                        }
-                        0x5815b0a9 {
-                            0x4cec2c8a: u8 = 2
-                            0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 0.06
-                        }
+                0x89f92883 = 0x070e3593 {
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0x059f2474
                     }
+                    0x7f93cf4e: hash = 0xd92bf4c3
                 }
-                0xe08b5a06 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0xe83916ba
-                        }
-                        0x5815b0a9 {
-                            0x4cec2c8a: u8 = 2
-                            0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 0.51
-                        }
+                0xe08b5a06 = 0x070e3593 {
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0x059f2474
                     }
+                    0x7f93cf4e: hash = 0xd1d81a46
                 }
             }
-            0x295c2889: f32 = 0.8
-            0xd7141e61: f32 = 1.2
             0xfbd16fb5: string = ""
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Renekton/HUD/Icons2D/Renekton_Q.dds"
@@ -309,25 +334,30 @@ entries: map[hash,embed] = {
                         "keySummary" = "Spell_RenektonCleave_Summary"
                         "keyTooltip" = "Spell_RenektonCleave_Tooltip"
                         "keyCost" = "Spell_Cost_NoCost"
+                        "keyTooltipExtendedBelowLine" = "Spell_RenektonCleave_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 9
-                                    0x566f3406: string = "Spell_ListType_RenektonMaxHealthGain"
+                                    0x5127f14d: string = "ChampHeal"
+                                    0x566f3406: string = "Spell_RenektonCleave_HealPerChampion"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BaseMinionHeal"
                                     0x33c02d93: i32 = 6
-                                    0x566f3406: string = "Spell_ListType_RenektonFuryDamage"
+                                    0x566f3406: string = "Spell_RenektonCleave_HealPerMinion"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BasicHealCap"
+                                    0x33c02d93: i32 = 9
+                                    0x566f3406: string = "Spell_ListType_RenektonMaxHealthGain"
                                 }
                             }
                         }
