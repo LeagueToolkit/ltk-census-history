@@ -12,15 +12,15 @@ entries: map[hash,embed] = {
         }
         0x5ee3c453: u8 = 3
         0x251a5225: list[f32] = {
-            0.3
-            0.4
-            1.2
-            3
+            0
+            0
+            0
+            0
         }
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "HeatingUpMultiplier"
-                0x24f2ec89: f32 = 0.4
+                0x24f2ec89: f32 = 0.5
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "HeatingUpMaxStacks"
@@ -28,11 +28,30 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "HeatingUpMaxPerc"
-                0x24f2ec89: f32 = 1.2
+                0x24f2ec89: f32 = 1.5
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "HeatingUpDuration"
-                0x24f2ec89: f32 = 3
+                0x24f2ec89: f32 = 5
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MaxDamagePercentTooltip"
+                0x24f2ec89: f32 = 2.5
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ArmorPenetration"
+                0x24f2ec89: f32 = 0.3
+            }
+        }
+        0x0ac4f0d5: map[hash,pointer] = {
+            0x3a33854b = 0xbc409284 {
+                0xcbcac618: u8 = 5
+                0x50f145c0: list[pointer] = {
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 2
+                        0xb386dcf1: hash = 0x6c73be58
+                    }
+                }
             }
         }
         0xccf99b44: list[string] = {

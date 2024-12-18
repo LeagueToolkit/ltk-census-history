@@ -7,10 +7,13 @@ entries: map[hash,embed] = {
         0xc8e37ef0: string = "SummonerTeleport"
         0x56d2be52: pointer = 0x43368569 {
             0x9c677a2c: u32 = 4
-            0xecf3f88d: u32 = 64
+            0xecf3f88d: u32 = 1108
+            0x9119fdbf: u32 = 16
             0x3b0cf15e: embed = 0x25210743 {
                 0xa47810c1: list2[hash] = {
+                    0x08f942d3
                     0x6f5525c6
+                    0x7afa5b33
                 }
             }
             0x92a6c39d: embed = 0x25210743 {
@@ -23,14 +26,17 @@ entries: map[hash,embed] = {
                 0xed8d935f: i32 = 12
                 0xfb7195e8: bool = true
                 0x346780a6: list[string] = {
-                    "ONEFORALL"
-                    "PRACTICETOOL"
                     "CLASSIC"
-                    "TUTORIAL"
-                    "ULTBOOK"
-                    "ARSR"
+                    "ONEFORALL"
                     "ASSASSINATE"
+                    "ULTBOOK"
+                    "PRACTICETOOL"
+                    "TUTORIAL"
+                    "ARSR"
+                    "WIPMODEWIP4"
                     "DOOMBOTSTEEMO"
+                    "CS"
+                    "SWIFTPLAY"
                 }
             }
             0x44b7e8dd: string = "SummonerTeleport"
@@ -56,13 +62,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "ChannelDuration"
                     0x246b0d8e: list[f32] = {
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
                     }
                 }
                 0x005008a6 {
@@ -77,18 +83,36 @@ entries: map[hash,embed] = {
                         0.5
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "TravelSpeed"
+                    0x246b0d8e: list[f32] = {
+                        1000
+                        1000
+                        1000
+                        1000
+                        1000
+                        1000
+                        1000
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxTravelTime"
+                    0x246b0d8e: list[f32] = {
+                        8
+                        8
+                        8
+                        8
+                        8
+                        8
+                        8
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x92430e24 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x5cf69ece {
-                            0xad62f672: f32 = 330
-                            0x02deb550: f32 = -10
-                            0x7b5d1934: list[embed] = {
-                                0x8e93d8ee {
-                                    0xa77654ae: u32 = 11
-                                }
-                            }
+                            0xad62f672: f32 = 240
                         }
                     }
                 }
@@ -97,16 +121,16 @@ entries: map[hash,embed] = {
             0x0dd57127: string = "recall"
             0xeefcf01b: string = "recall_winddown"
             0xeed67cd5: list[string] = {
-                "Summoner_teleport.dds"
+                "Summoner_Teleport_New.dds"
             }
             0x9ecac3a1: list[f32] = {
-                360
-                360
-                360
-                360
-                360
-                360
-                360
+                300
+                300
+                300
+                300
+                300
+                300
+                300
             }
             0x8804c850: bool = true
             0xa54ff456: bool = false
@@ -240,6 +264,9 @@ entries: map[hash,embed] = {
                     }
                 }
             }
+        }
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0xf1f20d72: string = "buff_desc_SummonerTeleport"
         }
         0x4048c61e: pointer = 0xf195e56b {
             0xec17e271: list2[embed] = {

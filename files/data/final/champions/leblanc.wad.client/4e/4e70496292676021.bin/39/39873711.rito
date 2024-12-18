@@ -82,12 +82,37 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
             }
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseInitialDamage"
+                    0x246b0d8e: list[f32] = {
+                        30
+                        50
+                        70
+                        90
+                        110
+                        130
+                        150
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDelayedDamage"
+                    0x246b0d8e: list[f32] = {
+                        40
+                        80
+                        120
+                        160
+                        200
+                        240
+                        280
+                    }
+                }
+            }
             0x94572284: map[hash,pointer] = {
                 0x69a14e52 = 0xbc409284 {
-                    0xd6b7a622: bool = true
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xb435e8ad
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.4
@@ -95,10 +120,9 @@ entries: map[hash,embed] = {
                     }
                 }
                 0xca38f8d4 = 0xbc409284 {
-                    0xd6b7a622: bool = true
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 2
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x567574b3
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.8
@@ -200,12 +224,12 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BaseInitialDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_LeblancEChainDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BaseDelayedDamage"
                                     0x33c02d93: i32 = 2
                                     0x566f3406: string = "Spell_ListType_LeblancERootDamage"
                                 }

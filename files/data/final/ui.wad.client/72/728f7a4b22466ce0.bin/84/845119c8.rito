@@ -4,10 +4,16 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x845119c8 = 0x05c8aed6 {
-        0x9865b509: string = "slime_reward_event_finished"
-        0x346f3b69: string = "game_announcement_slime_reward_GA"
-        0x35593d0b: string = "slime_reward_event_winner"
-        0x559c9ff7: string = "slime_reward_event_loser"
+        0x1ff99d7f: embed = 0xfa33a427 {
+            0x9865b509: string = "slime_reward_event_finished"
+            0xbff2f361: string = "game_announcement_slime_reward_GA"
+        }
+        0x1a3d3933: embed = 0xfa33a427 {
+            0x9865b509: string = "slime_reward_event_winner"
+        }
+        0x6229f94d: embed = 0xfa33a427 {
+            0x9865b509: string = "slime_reward_event_loser"
+        }
         0x0e5e548e: hash = 0x39e6e808
     }
 }
