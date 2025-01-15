@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xf3b3ff70 = 0x60e00531 {
+        0x19efbfdb: string = "12LossFortuneOrb"
+        0x0773669d: map[string,pointer] = {
+            "Fortune12A" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.3
+            }
+            "Fortune12B" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.3
+            }
+            "Fortune12C" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.4
+            }
+            "Fortune12D" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.4
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

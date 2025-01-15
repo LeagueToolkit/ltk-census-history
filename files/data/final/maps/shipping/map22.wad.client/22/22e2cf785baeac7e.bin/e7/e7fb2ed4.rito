@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe7fb2ed4 = 0x60e00531 {
+        0x19efbfdb: string = "FateOrbs_Bag3_Stage2"
+        0x0773669d: map[string,pointer] = {
+            "FateOrb_GoldXSmall" = 0x977517c6 {
+                0x24f2ec89: f32 = 1
+            }
+            "FateOrb_ItemRemover" = 0x977517c6 {}
+            "FateOrb_ComponentNoSpat" = 0x977517c6 {}
+            "FateOrb_ItemReroller" = 0x977517c6 {}
+            "FateOrb_ShopReroller" = 0x977517c6 {}
+            "FateOrb_TrainingDummy" = 0x977517c6 {}
+            "FateOrb_Spat" = 0x977517c6 {}
+            "FateOrb_Nothing" = 0x977517c6 {}
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x89fefe8b = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_EMBLEM_SET4_STAGE2_Classes"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT4_Item_AssassinEmblemItem"
+                    "TFT4_Item_DuelistEmblemItem"
+                    "TFT4_Item_MageEmblemItem"
+                    "TFT4_Item_VanguardEmblemItem"
+                    "TFT4_Item_BrawlerEmblemItem"
+                    "TFT4_Item_KeeperEmblemItem"
+                    "TFT4_Item_SlayerEmblemItem"
+                    "TFT4_Item_SyphonerEmblemItem"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

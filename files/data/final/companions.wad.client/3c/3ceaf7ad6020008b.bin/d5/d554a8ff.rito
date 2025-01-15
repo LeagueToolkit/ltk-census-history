@@ -1,0 +1,89 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd554a8ff = 0xff9d3409 {
+        0x8d39bde6: string = "Characters/PetStyleTwoJhin/Skins/Skin2/Materials/PetStyleTwoJhin_Skin2_EarthEye_Distortion"
+        0x5127f14d: u32 = 4
+        0x0a6f0eb5: list2[embed] = {
+            0x0904b150 {
+                0x02e7fb4c: string = "Diffuse_Texture"
+                0xb311d4ef: string = "ASSETS/Characters/PetChibiYuumi/Skins/Skin2/Particles/water_distortion2.tex"
+                0x0f1ec3ac: u32 = 1
+            }
+        }
+        0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "Distortion_Intensity"
+                0x425ed3ca: vec4 = { 0.02, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Distortion_ScrollRate"
+                0x425ed3ca: vec4 = { 0.2, 0.2, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Distortion_Scale"
+                0x425ed3ca: vec4 = { 2, 2, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Inner_Color"
+                0x425ed3ca: vec4 = { 0.9529412, 0.5921569, 1, 0.3882353 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Outer_Color"
+                0x425ed3ca: vec4 = { 0.9411765, 0.4862745, 1, 0.2901961 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Vignette_Size"
+                0x425ed3ca: vec4 = { 10, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Desaturation_Blend"
+                0x425ed3ca: vec4 = { 0.4, 0, 0, 0 }
+            }
+        }
+        0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "DISTORT"
+            }
+        }
+        0x844f384e: list[embed] = {
+            0x060a4413 {
+                0x8d39bde6: string = "normal"
+                0x623cd25c: list[embed] = {
+                    0x8537d0c2 {
+                        0x355d5568: link = 0x8ca486ac
+                        0xd2507939: bool = false
+                        0x4b0f55ce: bool = false
+                        0xba5121ec: u32 = 15
+                    }
+                }
+            }
+        }
+        0x9330e6b6: list[embed] = {
+            0x735b4c95 {
+                0x8d39bde6: string = "death"
+                0xb696a5fe: string = "normal"
+                0xe6d67ded: map[string,string] = {
+                    "DEATH_EFFECT" = "1"
+                }
+            }
+            0x735b4c95 {
+                0x8d39bde6: string = "normal_blend"
+                0xb696a5fe: string = "normal"
+                0xe6d67ded: map[string,string] = {
+                    "BLEND" = "1"
+                }
+            }
+            0x735b4c95 {
+                0x8d39bde6: string = "death_blend"
+                0xb696a5fe: string = "normal"
+                0xe6d67ded: map[string,string] = {
+                    "DEATH_EFFECT" = "1"
+                    "BLEND" = "1"
+                }
+            }
+        }
+    }
+}

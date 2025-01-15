@@ -1,0 +1,38 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x26bb70ce = 0x6f870247 {
+        0x19efbfdb: string = "TFT4_Boss"
+        0xc3143d66: string = "tft_trait_displayname_Boss"
+        0x765f18da: string = "tft_trait_description_Boss"
+        0x8bee2972: string = "ASSETS/UX/TraitIcons/Trait_Icon_4_Theboss.tex"
+        0x88730233: u8 = 1
+        0x93dd1f25: list[embed] = {
+            0x18ee4f3b {
+                0x86b5abcb: list2[embed] = {
+                    0x76621fa6 {
+                        0x24593d1d: u8 = 1
+                        0x92f50a07: string = "TFT4_UnitBuffBoss"
+                    }
+                }
+                0xadb3e562: embed = 0xd65315ee {
+                    0xdf085b93: map[hash,pointer] = {
+                        0xe0882668 = 0x977517c6 {
+                            0x24f2ec89: f32 = 15
+                        }
+                        0xa8ca7859 = 0x977517c6 {
+                            0x24f2ec89: f32 = 40
+                        }
+                    }
+                }
+                0x8912eb52: u32 = 1
+                0x03d26b40: option[u32] = {
+                    25000
+                }
+                0xac307ed6: u8 = 4
+            }
+        }
+    }
+}

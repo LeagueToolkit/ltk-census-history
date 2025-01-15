@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x0b8674b0 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_EMBLEM_SET4_STAGE2_Origins"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT4_Item_DivineEmblemItem"
+                    "TFT4_Item_DragonsoulEmblemItem"
+                    "TFT4_Item_ElderwoodEmblemItem"
+                    "TFT4_Item_WarlordEmblemItem"
+                    "TFT4_Item_CultistEmblemItem"
+                    "TFT4_Item_FortuneEmblemItem"
+                    "TFT4_Item_SpiritEmblemItem"
+                    "TFT4_Item_EnlightenedEmblemItem"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

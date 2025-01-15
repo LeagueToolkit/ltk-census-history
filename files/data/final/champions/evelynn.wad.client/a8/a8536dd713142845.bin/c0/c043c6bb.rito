@@ -37,11 +37,11 @@ entries: map[hash,embed] = {
                     0x425ed3ca: list[f32] = {
                         0.3
                         0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
+                        0.35
+                        0.4
+                        0.45
+                        0.5
+                        0.5
                     }
                 }
                 0x92d4987c {
@@ -189,13 +189,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "SpeedAmount"
                     0x246b0d8e: list[f32] = {
+                        0.25
                         0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
+                        0.35
+                        0.4
+                        0.45
+                        0.5
+                        0.55
                     }
                 }
                 0x005008a6 {
@@ -366,6 +366,12 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_EvelynnEmpoweredDamage"
                                 }
                                 0x9a1b3505 {
+                                    0x5127f14d: string = "SpeedAmount"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_MovementSpeed"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
                                     0x5127f14d: string = "Cost"
                                 }
                             }
@@ -394,6 +400,28 @@ entries: map[hash,embed] = {
         }
         0x7f0f5a79: pointer = 0x4633d794 {
             0xf1f20d72: string = "game_buff_tooltip_EvelynnE"
+        }
+        0x4048c61e: pointer = 0xf195e56b {
+            0x450d68a0: u32 = 1
+            0x6d548702: pointer = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0xf3cbe7b2 {
+                        0x88536426: hash = 0x2b0acd0d
+                    }
+                }
+            }
+            0xec17e271: list2[embed] = {
+                0xb09016f6 {
+                    0x77e5e41c: u32 = 2
+                    0x725bd4d5: pointer = 0xbc409284 {
+                        0x50f145c0: list[pointer] = {
+                            0x332eb441 {
+                                0xb386dcf1: hash = 0xa3bbc1e0
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
