@@ -7,7 +7,7 @@ entries: map[hash,embed] = {
         0x19efbfdb: string = "Fortune11B"
         0x0773669d: map[string,pointer] = {
             "FiveCostUnit" = 0x4012fd7e {
-                0x24f2ec89: i32 = 10
+                0x24f2ec89: i32 = 2
             }
             "Item" = 0xbe542f32 {
                 0x24f2ec89: list[string] = {
@@ -15,7 +15,17 @@ entries: map[hash,embed] = {
                 }
             }
             "Gold" = 0x4012fd7e {
-                0x24f2ec89: i32 = 40
+                0x24f2ec89: i32 = 45
+            }
+            "TwoStarUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "FiveCostUnit"
+                }
+            }
+            "MeepTypeUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_ArmoryKeySupport"
+                }
             }
         }
         0x9be36761: link = 0xb874104c

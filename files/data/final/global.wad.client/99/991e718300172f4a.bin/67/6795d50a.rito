@@ -1,0 +1,85 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6795d50a = 0x205255d6 {
+        0x897eefc2: link = 0xbaebc346
+        0x48a52ed9: list[embed] = {
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter0"
+                0xd872e2a5: vec4 = { 0, 1, 0, 0.5 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "DissolveDirection"
+                        0x0640657c: u32 = 7
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "NormalBias"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter1"
+                0xd872e2a5: vec4 = { 0, 100, 1, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "DissolveAmount"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Displacement"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "DisplacementStrength"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "NoiseTiling"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter2"
+                0xd872e2a5: vec4 = { 0.5, 0.5, 0.5, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Tint"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter3"
+                0xd872e2a5: vec4 = { 0.1, 0.1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "UVPanSpeed"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Feather"
+                        0x0640657c: u32 = 2
+                    }
+                }
+            }
+        }
+        0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "Noise_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/Noise_Clouds_01.dds"
+            }
+        }
+        0xae29287b: map[string,string] = {
+            "FEATURE_DISPLACEMENT" = "1"
+            "FEATURE_SCREENSPACE_UV" = "1"
+            "FEATURE_WORLD_NORMAL" = "1"
+            "FEATURE_WORLD_POSITION" = "1"
+        }
+        0x25b76221: u32 = 4
+        0x1d369c29: string = "Shaders/SkinnedMesh/TFT_DirectionalDissolve"
+    }
+}
