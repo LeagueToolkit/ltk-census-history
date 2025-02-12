@@ -7,6 +7,34 @@ entries: map[hash,embed] = {
         0x48a52ed9: list[embed] = {
             0x816753d8 {
                 0x8d39bde6: string = "Parameter0"
+                0xd872e2a5: vec4 = { 10, 20, 0, 2 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "DeformWaveController"
+                        0x0640657c: u32 = 7
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "DeformMaskStrength"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter1"
+                0xd872e2a5: vec4 = { 1, 0, 1, 2 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "DeformWaveStrength"
+                        0x0640657c: u32 = 7
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "WindIntensity"
+                        0x0640657c: u32 = 8
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter2"
                 0xd872e2a5: vec4 = { 5, 0.7, -415, 0.8 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -20,7 +48,35 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter1"
+                0x8d39bde6: string = "Parameter3"
+                0xd872e2a5: vec4 = { 0.5, -0.5, 0.1, 0.2 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "WindSpeed"
+                        0x0640657c: u32 = 1
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "AdditionalWPO"
+                        0x0640657c: u32 = 14
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter4"
+                0xd872e2a5: vec4 = { 1024, 150, 0.5, 0.5 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "WindScale"
+                        0x0640657c: u32 = 3
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "FLOW_Center"
+                        0x0640657c: u32 = 12
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Parameter5"
                 0xd872e2a5: vec4 = { 0.15, 0.15, 0.1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -30,7 +86,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
+                0x8d39bde6: string = "Parameter6"
                 0xd872e2a5: vec4 = { 1, 1, 1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -40,7 +96,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
+                0x8d39bde6: string = "Parameter7"
                 0xd872e2a5: vec4 = { 0.6714122, 0.7260548, 0.7411765, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -50,94 +106,93 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
-                0xd872e2a5: vec4 = { 0.5, 0.5, 25, 0 }
+                0x8d39bde6: string = "Parameter8"
+                0xd872e2a5: vec4 = { 25, 0, 1, 0.5 }
                 0x74672198: list[embed] = {
-                    0x14a2befa {
-                        0x8d39bde6: string = "FLOW_Center"
-                        0x0640657c: u32 = 3
-                    }
                     0x14a2befa {
                         0x8d39bde6: string = "FLOW_RIPPLE_Frequence"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "FLOW_RIPPLE_Width"
-                        0x0640657c: u32 = 8
-                    }
-                }
-            }
-            0x816753d8 {
-                0x8d39bde6: string = "Parameter5"
-                0xd872e2a5: vec4 = { 1, 0.5, 1.25, 3 }
-                0x74672198: list[embed] = {
-                    0x14a2befa {
-                        0x8d39bde6: string = "FLOW_RIPPLE_ShapeSmoothness"
                         0x0640657c: u32 = 1
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "FLOW_RIPPLE_Dark"
+                        0x8d39bde6: string = "FLOW_RIPPLE_Width"
                         0x0640657c: u32 = 2
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "FLOW_RIPPLE_Bright"
+                        0x8d39bde6: string = "FLOW_RIPPLE_ShapeSmoothness"
                         0x0640657c: u32 = 4
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "FLOW_FAN_Count"
+                        0x8d39bde6: string = "FLOW_RIPPLE_Dark"
                         0x0640657c: u32 = 8
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter6"
-                0xd872e2a5: vec4 = { 1, 1, 0.5, 0.5 }
+                0x8d39bde6: string = "Parameter9"
+                0xd872e2a5: vec4 = { 1.25, 3, 1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "EMISSION_ROTATE_TexUVScale"
-                        0x0640657c: u32 = 3
+                        0x8d39bde6: string = "FLOW_RIPPLE_Bright"
+                        0x0640657c: u32 = 1
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "EMISSION_ROTATE_RotationCenter"
+                        0x8d39bde6: string = "FLOW_FAN_Count"
+                        0x0640657c: u32 = 2
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "EMISSION_ROTATE_TexUVScale"
                         0x0640657c: u32 = 12
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter7"
-                0xd872e2a5: vec4 = { 0.1, 1, 1, 1 }
+                0x8d39bde6: string = "Parameter10"
+                0xd872e2a5: vec4 = { 0.5, 0.5, 0.1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "EMISSION_AnimationSpeed"
-                        0x0640657c: u32 = 1
+                        0x8d39bde6: string = "EMISSION_ROTATE_RotationCenter"
+                        0x0640657c: u32 = 3
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "EMISSION_EmissionColor"
-                        0x0640657c: u32 = 14
+                        0x8d39bde6: string = "EMISSION_AnimationSpeed"
+                        0x0640657c: u32 = 4
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "TransparentSpeed"
+                        0x0640657c: u32 = 8
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter8"
-                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x8d39bde6: string = "Parameter11"
+                0xd872e2a5: vec4 = { 1, 1, 1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "TransparentSpeed"
-                        0x0640657c: u32 = 1
+                        0x8d39bde6: string = "EMISSION_EmissionColor"
+                        0x0640657c: u32 = 7
                     }
                     0x14a2befa {
                         0x8d39bde6: string = "TransparentOutSpeed"
-                        0x0640657c: u32 = 2
+                        0x0640657c: u32 = 8
                     }
                 }
             }
         }
         0x3291437b: list[embed] = {
             0x60a292e6 {
+                0x8d39bde6: string = "TWO_D_DEFORM_ON"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "FLAG_ANIMATION_ON"
+            }
+            0x60a292e6 {
                 0x8d39bde6: string = "VERTEX_ANIMATION_ON"
             }
             0x60a292e6 {
                 0x8d39bde6: string = "ENV_TRANSITION"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "FOLIAGEWIND_ANIMATION_ON"
             }
             0x60a292e6 {
                 0x8d39bde6: string = "FLOW_RIPPLE_ON"
@@ -157,8 +212,15 @@ entries: map[hash,embed] = {
             0x60a292e6 {
                 0x8d39bde6: string = "TRANSPARENT_ANIMATION_ON"
             }
+            0x60a292e6 {
+                0x8d39bde6: string = "FOLIAGEWIND_ANIMATION_CLIP_ON"
+            }
         }
         0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "FlagMask_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/OutlineToneMap.tex"
+            }
             0x31d1e223 {
                 0x8d39bde6: string = "DiffuseTexture"
                 0x32b374fa: string = "ASSETS/Maps/KitPieces/SRX/Hextech/Textures/Hextech_River_DragonCamp_Ground_A.dds"
@@ -174,8 +236,9 @@ entries: map[hash,embed] = {
         }
         0xae29287b: map[string,string] = {
             "FEATURE_DISPLACEMENT" = "1"
+            "FEATURE_MASKED" = "1"
         }
-        0x25b76221: u32 = 4
+        0x25b76221: u32 = 12
         0x1d369c29: string = "Shaders/StaticMesh/SRX_DynamicEffect"
     }
 }
