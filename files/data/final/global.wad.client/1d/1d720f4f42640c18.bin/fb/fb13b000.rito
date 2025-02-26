@@ -10,6 +10,7 @@ entries: map[hash,embed] = {
         0x72d02fc7: list[link] = {
             0xb0bee26d
             0xced2e7d1
+            0x4b6ce430
         }
         0x5b0a81be: list[link] = {
             0x0fe5f3f2
@@ -38,7 +39,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "CombatTimer"
-                0x24f2ec89: f32 = 8
+                0x24f2ec89: f32 = 4
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "DamageWindowDuration"
@@ -46,15 +47,19 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "RangedLethalityMultiplier"
-                0x24f2ec89: f32 = 0.636
+                0x24f2ec89: f32 = 1
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "LethalityProcAmount"
+                0x24f2ec89: f32 = 15
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
             0x74b96ecb = 0xe9a3c91d {
                 0x37070a8d: u8 = 5
                 0x50f145c0: list[pointer] = {
-                    0x9ef92080 {
-                        0xe202bca9: f32 = 11
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x620cd6b5
                     }
                 }
                 0x68508370: pointer = 0x332eb441 {
@@ -62,8 +67,9 @@ entries: map[hash,embed] = {
                 }
             }
         }
-        0x4e7a81cd: f32 = 55
-        0xb821026a: f32 = 18
+        0x4e7a81cd: f32 = 50
+        0xb821026a: f32 = 15
+        0x46493f5f: f32 = 0.5
         0xccf99b44: list[string] = {
             "Damage"
             "Active"

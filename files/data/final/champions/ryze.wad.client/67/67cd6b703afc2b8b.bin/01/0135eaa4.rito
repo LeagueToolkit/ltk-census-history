@@ -29,12 +29,12 @@ entries: map[hash,embed] = {
             }
             0x0904b150 {
                 0xb311d4ef: string = "iridescentTex"
-                0xf0a363e3: string = "ASSETS/Characters/Ryze/Skins/Skin30/Ryze_Skin30_Holochroma_Gradient_TX_CM_2.Chroma_Ryze_SKTT1_HallOfLegends.dds"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/EDG_Rainbow2.dds"
                 0x0f1ec3ac: u32 = 1
             }
             0x0904b150 {
                 0xb311d4ef: string = "Noise_Texture"
-                0xf0a363e3: string = "ASSETS/Shared/Materials/SRI_Icon_Noise.dds"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/OnsenTexture/Noise04.tex"
                 0x0f1ec3ac: u32 = 1
             }
             0x0904b150 {
@@ -52,11 +52,11 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "MatCap_Strength"
-                0x425ed3ca: vec4 = { 0.2, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 0.1, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "MatCapSpecularPower"
-                0x425ed3ca: vec4 = { 0.55, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 0.2, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "MatCapSpecularTintColor"
@@ -64,6 +64,7 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "Iridescent_Strength"
+                0x425ed3ca: vec4 = { 0.02, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Iridescent_Value"
@@ -75,36 +76,37 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "Iridescent_Normal_Blend"
-                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "Holo_Strength"
                 0x425ed3ca: vec4 = { 0.2, 0, 0, 0 }
             }
             0xde480eef {
+                0x8d39bde6: string = "Holo_Strength"
+                0x425ed3ca: vec4 = { 0.3, 0, 0, 0 }
+            }
+            0xde480eef {
                 0x8d39bde6: string = "Holo_Gradient_Contrast"
-                0x425ed3ca: vec4 = { 2, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 3, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "BaseNoiseUVTile"
-                0x425ed3ca: vec4 = { 2, 0.8, 0, 0 }
+                0x425ed3ca: vec4 = { 0.2, 0.08, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "BaseNoiseScrollSpeed"
-                0x425ed3ca: vec4 = { -0.05, 0.01, 0, 0 }
+                0x425ed3ca: vec4 = { 0.1, 0.04, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "NoiseStrength"
-                0x425ed3ca: vec4 = { 1.1, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 5, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Flowspeed"
-                0x425ed3ca: vec4 = { 0.4, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 0.1, 0, 0, 0 }
             }
         }
         0xdd7ddb9d: list2[embed] = {
             0x0e2212a1 {
                 0x8d39bde6: string = "MATCAP_ON"
+                0x61342fd0: bool = false
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "MATCAP_MASK_ON"
@@ -115,7 +117,6 @@ entries: map[hash,embed] = {
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "IRIDESCENT_MASK_ON"
-                0x61342fd0: bool = false
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "HOLOGRAPHIC_ON"

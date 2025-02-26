@@ -53,6 +53,10 @@ entries: map[hash,embed] = {
                 0x19efbfdb: string = "AdaptiveForce"
                 0x24f2ec89: f32 = 70
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "WeakpointAngleWidth"
+                0x24f2ec89: f32 = 110
+            }
         }
         0x0ac4f0d5: map[hash,pointer] = {
             0xb5065280 = 0xbc409284 {
@@ -61,12 +65,11 @@ entries: map[hash,embed] = {
                         0xe202bca9: f32 = 0.03
                     }
                     0x5815b0a9 {
-                        0x4cec2c8a: u8 = 26
-                        0x295c2889: f32 = 0.0015
+                        0x4cec2c8a: u8 = 2
+                        0x295c2889: f32 = 3e-04
                     }
                     0x5815b0a9 {
-                        0x4cec2c8a: u8 = 19
-                        0x295c2889: f32 = 0.0015
+                        0x295c2889: f32 = 2e-04
                     }
                 }
                 0x5a2297d3: bool = true
@@ -76,26 +79,26 @@ entries: map[hash,embed] = {
                 0x50f145c0: list[pointer] = {
                     0x15fecdbc {
                         0xd06c375d: f32 = 0.15
-                        0x1cd7e522: f32 = 0.4
+                        0x1cd7e522: f32 = 0.6
                     }
                 }
                 0x5a2297d3: bool = true
             }
         }
         0x5b98619f: f32 = 30
-        0xec1482d9: f32 = 12
+        0x06d997bb: f32 = 400
         0x46493f5f: f32 = 0.4
         0xccf99b44: list[string] = {
+            "Health"
             "Damage"
             "SpellDamage"
-            "MagicPenetration"
-            "ArmorPenetration"
             "AbilityHaste"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
             0x5d7d4fb0: bool = true
         }
         0x57558bca: list[u8] = {
+            1
             4
         }
         0xd92888a0: embed = 0x851af275 {
@@ -116,10 +119,7 @@ entries: map[hash,embed] = {
                                 0x5127f14d: string = "AdaptiveForce"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "Lethality"
-                            }
-                            0x9a1b3505 {
-                                0x5127f14d: string = "MagicPen"
+                                0x5127f14d: string = "Health"
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "AbilityHaste"

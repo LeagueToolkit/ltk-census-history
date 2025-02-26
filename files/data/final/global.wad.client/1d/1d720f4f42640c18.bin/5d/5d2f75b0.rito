@@ -29,7 +29,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "SizePerAccretion"
-                0x24f2ec89: f32 = 0.01
+                0x24f2ec89: f32 = 0.02
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "Cooldown"
@@ -49,7 +49,6 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "BaseHealthRegenPerStack"
-                0x24f2ec89: f32 = 0.1
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "SlowAmount"
@@ -74,6 +73,10 @@ entries: map[hash,embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "HealthPerSecondLifetime"
                 0x24f2ec89: f32 = 0.001
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "SpellCooldown"
+                0x24f2ec89: f32 = 6
             }
         }
         0x0ac4f0d5: map[hash,pointer] = {
@@ -108,7 +111,6 @@ entries: map[hash,embed] = {
         }
         0x5b98619f: f32 = 25
         0x06d997bb: f32 = 900
-        0xc1cd174b: f32 = 2
         0x46493f5f: f32 = 0.4
         0xccf99b44: list[string] = {
             "SpellBlock"
@@ -121,7 +123,6 @@ entries: map[hash,embed] = {
         }
         0x57558bca: list[u8] = {
             8
-            2
             32
         }
         0xd92888a0: embed = 0x851af275 {
@@ -145,9 +146,6 @@ entries: map[hash,embed] = {
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "AbilityHaste"
-                            }
-                            0x9a1b3505 {
-                                0x5127f14d: string = "BaseHealthRegen"
                             }
                         }
                     }

@@ -1,0 +1,39 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x20ee3d1d = 0xff9d3409 {
+        0x8d39bde6: string = "Maps/KitPieces/Cherry/Base/Materials/Default/Cherry_ArenaSurrounding_Building_A_MAT"
+        0x5127f14d: u32 = 0
+        0x0a6f0eb5: list2[embed] = {
+            0x0904b150 {
+                0xb311d4ef: string = "DiffuseTexture"
+                0xf0a363e3: string = "ASSETS/Maps/KitPieces/Cherry/Base/Textures/Cherry_BattleArenaSurroundings_Building_TX_CM.Arena_2025_S1.tex"
+                0x0f1ec3ac: u32 = 1
+            }
+        }
+        0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "TintColor"
+                0x425ed3ca: vec4 = { 0.20784314, 0.45882353, 0.7254902, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "PitchFactor"
+            }
+        }
+        0xe6d67ded: map[string,string] = {
+            "NO_BAKED_LIGHTING" = "1"
+        }
+        0x844f384e: list[embed] = {
+            0x060a4413 {
+                0x8d39bde6: string = "normal"
+                0x623cd25c: list[embed] = {
+                    0x8537d0c2 {
+                        0x355d5568: link = 0xb965c5a4
+                    }
+                }
+            }
+        }
+    }
+}

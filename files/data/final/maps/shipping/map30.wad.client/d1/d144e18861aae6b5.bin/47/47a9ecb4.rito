@@ -1,0 +1,51 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x47a9ecb4 = 0x5e7e5a06 {
+        0xc8e37ef0: string = "2v2GuestOfHonorVIP"
+        0x56d2be52: pointer = 0x43368569 {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "DamageGivenAmp"
+                    0x246b0d8e: list[f32] = {
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "GoldGiven"
+                    0x246b0d8e: list[f32] = {
+                        250
+                        250
+                        250
+                        250
+                        250
+                        250
+                        250
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Items/Icons2D/3865_WorldAtlas.dds"
+            }
+        }
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0xf1f20d72: string = "Cherry_AugmentBuff_BlankTooltip"
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "2v2GuestOfHonorVIP"
+                0x57b8b11b: link = 0xb34f999a
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Cherry_GoH_Title_Talon"
+                    "keyTooltip" = "Cherry_GoH_TooltipShort_Talon"
+                }
+            }
+        }
+    }
+}

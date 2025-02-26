@@ -10,6 +10,7 @@ entries: map[hash,embed] = {
         0x72d02fc7: list[link] = {
             0xb0bee26d
             0x5d285841
+            0x4b6ce430
         }
         0x0b44452a: i32 = 2500
         0xd1dbada1: bool = true
@@ -51,6 +52,26 @@ entries: map[hash,embed] = {
                 0x19efbfdb: string = "StaleCastTime"
                 0x24f2ec89: f32 = 2.5
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "CurrentHealthBaseDamage"
+                0x24f2ec89: f32 = 0.05
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "HealthFactor"
+                0x24f2ec89: f32 = 1000
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MaxMultiplier"
+                0x24f2ec89: f32 = 2
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ItemCooldown"
+                0x24f2ec89: f32 = 20
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "Cooldown"
+                0x24f2ec89: f32 = 20
+            }
         }
         0xfb56608c: map[hash,embed] = {
             0x497ae878 = 0x61f8c41c {
@@ -75,13 +96,9 @@ entries: map[hash,embed] = {
                     0x9ef92080 {
                         0xe202bca9: f32 = 2
                     }
-                    0x5f5c70a4 {
-                        0x4cec2c8a: u8 = 2
-                        0x7d3150ec: u8 = 2
-                        0xb386dcf1: hash = 0xee93f91e
-                    }
-                    0x5f5c70a4 {
-                        0xb386dcf1: hash = 0x9acc0e52
+                    0x5815b0a9 {
+                        0x4cec2c8a: u8 = 26
+                        0x295c2889: f32 = 0.15
                     }
                 }
             }
@@ -90,26 +107,46 @@ entries: map[hash,embed] = {
                     0x9ef92080 {
                         0xe202bca9: f32 = 2
                     }
-                    0x5f5c70a4 {
-                        0x4cec2c8a: u8 = 2
-                        0x7d3150ec: u8 = 2
-                        0xb386dcf1: hash = 0xee93f91e
-                    }
-                    0x5f5c70a4 {
-                        0xb386dcf1: hash = 0x9acc0e52
+                    0x5815b0a9 {
+                        0x4cec2c8a: u8 = 26
+                        0x295c2889: f32 = 0.15
                     }
                 }
             }
+            0xe4dc46ad = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x03df7ad0
+                    }
+                    0x5815b0a9 {
+                        0x4cec2c8a: u8 = 26
+                        0x295c2889: f32 = 0.002
+                    }
+                }
+                0x5a2297d3: bool = true
+            }
+            0x2ec13fd1 = 0xbc409284 {
+                0x2c77adff: pointer = 0x9ef92080 {
+                    0xe202bca9: f32 = 100
+                }
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0xf0dbaa92
+                    }
+                }
+            }
+            0x89702b79 = 0x070e3593 {
+                0x2c77adff: pointer = 0x332eb441 {
+                    0xb386dcf1: hash = 0xfdb93a7a
+                }
+                0x7f93cf4e: hash = 0xe4dc46ad
+            }
         }
         0x4e7a81cd: f32 = 35
-        0xb779205d: f32 = 0.1
+        0xb821026a: f32 = 12
         0x46493f5f: f32 = 0.5
         0xccf99b44: list[string] = {
             "Damage"
-            "LifeSteal"
-            "SpellVamp"
-            "OnHit"
-            "NonbootsMovement"
             "ArmorPenetration"
         }
         0x57c6c7d0: embed = 0xc03becd9 {
@@ -117,8 +154,6 @@ entries: map[hash,embed] = {
         }
         0x57558bca: list[u8] = {
             4
-            1
-            2
         }
         0xc01bb6dd: u8 = 14
         0x51265c89: u8 = 1
@@ -142,9 +177,6 @@ entries: map[hash,embed] = {
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "Lethality"
-                            }
-                            0x9a1b3505 {
-                                0x5127f14d: string = "Omnivamp"
                             }
                         }
                     }

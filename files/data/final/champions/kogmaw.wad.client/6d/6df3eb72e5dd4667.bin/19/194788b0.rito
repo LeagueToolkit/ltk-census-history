@@ -8,50 +8,10 @@ entries: map[hash,embed] = {
         0x56d2be52: pointer = 0x43368569 {
             0xecf3f88d: u32 = 6154
             0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        80
-                        80
-                        125
-                        170
-                        215
-                        260
-                        305
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.05
-                        0.1
-                        0.15
-                        0.2
-                        0.25
-                        0.3
-                        0.35
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        16
-                        16
-                        20
-                        24
-                        28
-                        32
-                        32
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                    }
-                }
+                0x92d4987c {}
+                0x92d4987c {}
+                0x92d4987c {}
+                0x92d4987c {}
                 0x92d4987c {
                     0x425ed3ca: list[f32] = {
                         1
@@ -91,15 +51,27 @@ entries: map[hash,embed] = {
             }
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
-                    0x19efbfdb: string = "ShredAmount"
+                    0x19efbfdb: string = "AttackSpeed"
                     0x246b0d8e: list[f32] = {
-                        12
-                        16
-                        20
-                        24
-                        28
-                        32
-                        36
+                        0.05
+                        0.1
+                        0.15
+                        0.2
+                        0.25
+                        0.3
+                        0.35
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        35
+                        80
+                        125
+                        170
+                        215
+                        260
+                        305
                     }
                 }
                 0x005008a6 {
@@ -112,6 +84,30 @@ entries: map[hash,embed] = {
                         0.8
                         0.8
                         0.8
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ShredAmount"
+                    0x246b0d8e: list[f32] = {
+                        12
+                        16
+                        20
+                        24
+                        28
+                        32
+                        36
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ShredDuration"
+                    0x246b0d8e: list[f32] = {
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
                     }
                 }
             }
@@ -147,10 +143,9 @@ entries: map[hash,embed] = {
             }
             0x94572284: map[hash,pointer] = {
                 0x1ddee768 = 0xbc409284 {
-                    0xd6b7a622: bool = true
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
                         }
                         0x5f5c70a4 {
                             0xb386dcf1: hash = 0xe30c799f
@@ -158,8 +153,6 @@ entries: map[hash,embed] = {
                     }
                 }
             }
-            0x295c2889: f32 = 0.8
-            0xd7141e61: f32 = 0.01
             0xfbd16fb5: string = "Spell1"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/KogMaw/HUD/Icons2D/KogMaw_CausticSpittle.dds"
@@ -275,14 +268,14 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "AttackSpeed"
                                     0x33c02d93: i32 = 2
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_AttackSpeed"
                                     0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }

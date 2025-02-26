@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x62a87c30 = 0x5e7e5a06 {
+        0xc8e37ef0: string = "GoH_Mordekaiser_InsideSpiritRealm"
+        0x56d2be52: pointer = 0x43368569 {
+            0xeed67cd5: list[string] = {
+                "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserR.dds"
+            }
+        }
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0xf1f20d72: string = "Cherry_AugmentBuff_BlankTooltip"
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "GoH_Mordekaiser_InsideSpiritRealm"
+                0x57b8b11b: link = 0x2ca8f134
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Cherry_GoH_Title_Mordekaiser"
+                    "keyTooltip" = "Cherry_GoH_TooltipShort_Mordekaiser"
+                }
+            }
+        }
+    }
+}

@@ -33,7 +33,7 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MSDuration"
-                0x24f2ec89: f32 = 4
+                0x24f2ec89: f32 = 3
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "SlowAmount"
@@ -52,8 +52,18 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 20
             }
         }
-        0x06d997bb: f32 = 1100
-        0x1a2838da: f32 = 0.3
+        0x0ac4f0d5: map[hash,pointer] = {
+            0x11c11312 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5815b0a9 {
+                        0x4cec2c8a: u8 = 27
+                        0x295c2889: f32 = 0.75
+                    }
+                }
+                0x5a2297d3: bool = true
+            }
+        }
+        0x06d997bb: f32 = 600
         0xb739c155: f32 = 0.15
         0x46493f5f: f32 = 0.4
         0xccf99b44: list[string] = {
@@ -66,7 +76,6 @@ entries: map[hash,embed] = {
         }
         0x57558bca: list[u8] = {
             8
-            32
         }
         0xd92888a0: embed = 0x851af275 {
             0x2831605b: pointer = 0x35f5c16c {
@@ -76,9 +85,9 @@ entries: map[hash,embed] = {
                     "keyName" = "Item_443079_Name"
                     "keyTooltip" = "Item_443079_Tooltip"
                     "keyActive" = "Item_443079_Active"
-                    "keyInventoryOnlyText" = "Item_443079_InventoryOnlyText"
                     "keySummary" = "Item_443079_Summary"
                     "keyBrief" = "Item_443079_Brief"
+                    "keyKeywordDefinitions" = "Item_443079_KeywordDefinitions"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
