@@ -7,6 +7,18 @@ entries: map[hash,embed] = {
         0x8d39bde6: string = "Characters/Cassiopeia/Skins/Skin14/Materials/LLM_Dissolve_Fresnel_Blend_Body_inst"
         0x0a6f0eb5: list2[embed] = {
             0x0904b150 {
+                0xb311d4ef: string = "Grid_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Particles/21.SKINS_Sion_Skin49.dds"
+            }
+            0x0904b150 {
+                0xb311d4ef: string = "Crystal_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/CrystalPattern.dds"
+            }
+            0x0904b150 {
+                0xb311d4ef: string = "Alpha_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/Default/Default_Grid.dds"
+            }
+            0x0904b150 {
                 0xb311d4ef: string = "DiffuseTexture"
                 0xf0a363e3: string = "ASSETS/Characters/Cassiopeia/Skins/Skin14/Cassiopeia_Skin14_TX_CM.tex"
                 0x111ec6d2: u32 = 1
@@ -27,6 +39,46 @@ entries: map[hash,embed] = {
             }
         }
         0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "MoveIntensity"
+                0x425ed3ca: vec4 = { 0.2, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "DissolveEndPoint"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "DissolveStartPoint"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Panning_Params"
+                0x425ed3ca: vec4 = { 0, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Crystal_Params"
+                0x425ed3ca: vec4 = { 2, 2, 0.2, 0.2 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Alpha_Intensity"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Mat_Control"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Fresnel_Size"
+                0x425ed3ca: vec4 = { 2, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Color_A"
+                0x425ed3ca: vec4 = { 0.17000076, 1, 0, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Grid_Contrast"
+                0x425ed3ca: vec4 = { 0, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Noise_Tiling"
+                0x425ed3ca: vec4 = { 2, 3, 0, 0.1 }
+            }
             0xde480eef {
                 0x8d39bde6: string = "ColorFresnelSize"
                 0x425ed3ca: vec4 = { 0.6, 0, 0, 0 }
@@ -92,6 +144,10 @@ entries: map[hash,embed] = {
             }
         }
         0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_DIRECTIONALDISSOLUTION"
+                0x61342fd0: bool = false
+            }
             0x0e2212a1 {
                 0x8d39bde6: string = "DESATURATE_REFLECTION"
             }

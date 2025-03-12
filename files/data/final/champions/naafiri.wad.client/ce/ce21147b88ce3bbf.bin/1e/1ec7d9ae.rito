@@ -6,21 +6,27 @@ entries: map[hash,embed] = {
     0x1ec7d9ae = 0x5e7e5a06 {
         0xc8e37ef0: string = "NaafiriW"
         0x56d2be52: pointer = 0x43368569 {
-            0xecf3f88d: u32 = 6154
+            0xecf3f88d: u32 = 2
+            0x3b0cf15e: embed = 0x25210743 {
+                0xa47810c1: list2[hash] = {
+                    0xea595ca6
+                }
+            }
             0x3e1edbdb: list[string] = {
                 "PositiveEffect_MoveBlock"
+                "Trait_Ultimate"
             }
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BaseDamage"
                     0x246b0d8e: list[f32] = {
-                        -10
-                        30
-                        70
-                        110
+                        50
                         150
-                        190
-                        230
+                        250
+                        350
+                        450
+                        550
+                        650
                     }
                 }
                 0x005008a6 {
@@ -84,18 +90,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "CastRange"
-                    0x246b0d8e: list[f32] = {
-                        700
-                        700
-                        700
-                        700
-                        700
-                        700
-                        700
-                    }
-                }
-                0x005008a6 {
                     0x19efbfdb: string = "ShredDuration"
                     0x246b0d8e: list[f32] = {
                         3
@@ -105,6 +99,102 @@ entries: map[hash,embed] = {
                         3
                         3
                         3
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "TakedownWindow"
+                    0x246b0d8e: list[f32] = {
+                        7
+                        7
+                        7
+                        7
+                        7
+                        7
+                        7
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "RecastWindow"
+                    0x246b0d8e: list[f32] = {
+                        12
+                        12
+                        12
+                        12
+                        12
+                        12
+                        12
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ShieldDuration"
+                    0x246b0d8e: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ShieldSize"
+                    0x246b0d8e: list[f32] = {
+                        50
+                        100
+                        150
+                        200
+                        250
+                        300
+                        350
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "VisionDuration"
+                    0x246b0d8e: list[f32] = {
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "VisionPulseDuration"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "VisionRadius"
+                    0x246b0d8e: list[f32] = {
+                        2100
+                        2100
+                        2100
+                        2100
+                        2100
+                        2100
+                        2100
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "WRefreshOnCast"
+                    0x246b0d8e: list[f32] = {
+                        1.75
+                        1.75
+                        1.75
+                        1.75
+                        1.75
+                        1.75
+                        1.75
                     }
                 }
             }
@@ -117,7 +207,7 @@ entries: map[hash,embed] = {
                         0x5815b0a9 {
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 0.8
+                            0x295c2889: f32 = 1.2
                         }
                     }
                 }
@@ -132,6 +222,18 @@ entries: map[hash,embed] = {
                         0x5cf69ece {
                             0xad62f672: f32 = 6
                             0x02deb550: f32 = 2
+                        }
+                    }
+                }
+                0x08457caa = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x4641fc01
+                        }
+                        0x5815b0a9 {
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                            0x295c2889: f32 = 1.5
                         }
                     }
                 }
@@ -150,13 +252,13 @@ entries: map[hash,embed] = {
                 0.75
             }
             0x9ecac3a1: list[f32] = {
-                22
-                22
-                20
-                18
-                16
-                14
-                14
+                110
+                110
+                95
+                80
+                80
+                80
+                80
             }
             0x18330965: f32 = -1
             0xe321919c: bool = true
@@ -165,14 +267,15 @@ entries: map[hash,embed] = {
             0xdf73f8e2: bool = true
             0xd13b3d08: bool = true
             0x506c0c02: f32 = 2
+            0xa4cd4aa5: bool = true
             0x1b9cbd9b: list[f32] = {
-                700
-                700
-                700
-                700
-                700
-                700
-                700
+                900
+                900
+                900
+                900
+                900
+                900
+                900
             }
             0xb7250b1c: list[f32] = {
                 400
@@ -202,20 +305,20 @@ entries: map[hash,embed] = {
                 0
             }
             0xd997830a: list[f32] = {
-                70
-                60
-                50
-                40
-                30
-                20
+                100
+                100
+                100
+                100
+                100
+                100
             }
             0xc271cfd4: list[f32] = {
-                70
-                60
-                50
-                40
-                30
-                20
+                100
+                100
+                100
+                100
+                100
+                100
             }
             0x77b9f839: u32 = 1
             0x39381720: bool = true
@@ -227,17 +330,19 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_NaafiriW_Name"
                         "keyTooltip" = "Spell_NaafiriW_Tooltip"
                         "keySummary" = "Spell_NaafiriW_Summary"
+                        "keyTooltipExtendedBelowLine" = "Spell_NaafiriW_TooltipBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
-                            0x071a48dc: u32 = 5
+                            0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "BaseDamage"
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Cost"
+                                    0x5127f14d: string = "ShieldSize"
+                                    0x566f3406: string = "Spell_ListType_Shield"
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"

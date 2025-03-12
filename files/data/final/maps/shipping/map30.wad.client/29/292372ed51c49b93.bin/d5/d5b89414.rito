@@ -17,6 +17,16 @@ entries: map[hash,embed] = {
                 0xf0a363e3: string = "ASSETS/Shared/Materials/Water_A_Nm.dds"
                 0x0f1ec3ac: u32 = 1
             }
+            0x0904b150 {
+                0xb311d4ef: string = "VertexDeformationMask"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/white.dds"
+                0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
+                0xb311d4ef: string = "Diffuse_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/GreenBlue2.tex"
+                0x0f1ec3ac: u32 = 1
+            }
         }
         0xd0ab46b8: list2[embed] = {
             0xde480eef {
@@ -32,20 +42,12 @@ entries: map[hash,embed] = {
                 0x425ed3ca: vec4 = { 2, 3, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Distortion_LowHigh"
-                0x425ed3ca: vec4 = { 0.01, 0.04, 0, 0 }
-            }
-            0xde480eef {
                 0x8d39bde6: string = "Color_Outside"
                 0x425ed3ca: vec4 = { 0.15, 0.25, 0.45, 1 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Color_Inside"
                 0x425ed3ca: vec4 = { 0.07, 0.73, 0.87, 1 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "CamSpec_Color"
-                0x425ed3ca: vec4 = { 0, 1, 1, 1 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Color_Baseline"
@@ -59,22 +61,41 @@ entries: map[hash,embed] = {
                 0x8d39bde6: string = "Distortion_Highlight_Contrast"
                 0x425ed3ca: vec4 = { 0, 0.6, 0, 0 }
             }
+            0xde480eef {
+                0x8d39bde6: string = "WaveController"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "WaveStrength"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "WaveMaskStrength"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "TranslucentControl"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "ScrollDirectionSpeed"
+            }
         }
         0xdd7ddb9d: list2[embed] = {
             0x0e2212a1 {
-                0x8d39bde6: string = "DEBUG_VIEW_NORMALS"
-                0x61342fd0: bool = false
-            }
-            0x0e2212a1 {
-                0x8d39bde6: string = "DEBUG_VIEW_COLORS"
-                0x61342fd0: bool = false
-            }
-            0x0e2212a1 {
                 0x8d39bde6: string = "SS_MASK"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "DEFORM_ON"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_FLOW_MAP"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_DIFFUSE_TEXTURE"
+                0x61342fd0: bool = false
             }
         }
         0xe6d67ded: map[string,string] = {
             "DISABLE_FOW" = "1"
+            "NO_BAKED_LIGHTING" = "1"
         }
         0x844f384e: list[embed] = {
             0x060a4413 {
