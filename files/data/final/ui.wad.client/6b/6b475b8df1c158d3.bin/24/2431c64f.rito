@@ -1,0 +1,35 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2431c64f = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/TFTPreGame/UX/RiotUI/Lobby/UIBase/LobbyScene/LobbyBottom/LobbyInviteButton"
+        0x2063cb13: link = 0xfc50c9c5
+        0x5a94b0cc: list2[link] = {
+            0xcbc688f3
+            0x3d460266
+            0x9cc2cf0a
+            0xae8523ff
+        }
+        0x6bf3194e: link = 0x9cc2cf0a
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xcbc688f3
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xae8523ff
+            }
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x3d460266
+            }
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_UIKit_Button_Big_Click"
+        }
+    }
+}

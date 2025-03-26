@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x8e3a8191 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT14_Suits_Heist19_Option3"
+        0x0773669d: map[string,pointer] = {
+            "Treasure" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT14_CypherArmoryItem_Draven3Star"
+                    "TFT14_CypherArmoryItem_Galio3Star"
+                    "TFT5_Item_NightHarvesterRadiant"
+                    "TFT_Item_WarmogsArmor"
+                    "TFT_Assist_ItemArmoryComponent"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

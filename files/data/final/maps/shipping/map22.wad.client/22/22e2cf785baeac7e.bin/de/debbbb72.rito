@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xdebbbb72 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT14_Suits_Heist22_Option4"
+        0x0773669d: map[string,pointer] = {
+            "Treasure" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT14_CypherArmoryItem_3xRanduins"
+                    "TFT14_CypherArmoryItem_3xLightshield"
+                    "TFT14_CypherArmoryItem_3xDeathfire"
+                    "GOLD_10"
+                    "TFT9_Consumable_GoldenItemRemover"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

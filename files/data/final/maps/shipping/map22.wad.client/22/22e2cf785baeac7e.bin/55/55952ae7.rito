@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x55952ae7 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT14_Suits_Heist24_Option1"
+        0x0773669d: map[string,pointer] = {
+            "Treasure" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Assist_TacticiansCape_2"
+                    "TFT_Assist_RandomRadiantItem_3"
+                    "TFT_Assist_Golem_2xAegis"
+                    "TFT_Assist_Dummy_Shroud"
+                    "TFT9_Consumable_GoldenItemRemover"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -136,29 +136,33 @@ entries: map[hash,embed] = {
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter10"
-                0xd872e2a5: vec4 = { 0, 1, 0.5, 1 }
+                0xd872e2a5: vec4 = { 0, 1, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Diffuse_Tex_BlendVlue"
                         0x0640657c: u32 = 1
                     }
                     0x14a2befa {
-                        0x8d39bde6: string = "IridescentControl"
-                        0x0640657c: u32 = 14
+                        0x8d39bde6: string = "Iridescence_Pulse_Speed_Min"
+                        0x0640657c: u32 = 6
+                    }
+                    0x14a2befa {
+                        0x8d39bde6: string = "Diffuse_Fade_Mask_Value"
+                        0x0640657c: u32 = 8
                     }
                 }
             }
             0x816753d8 {
                 0x8d39bde6: string = "Parameter11"
-                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0xd872e2a5: vec4 = { 1, 0.5, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "Diffuse_Fade_Mask_Value"
-                        0x0640657c: u32 = 1
+                        0x8d39bde6: string = "IridescentControl"
+                        0x0640657c: u32 = 7
                     }
                     0x14a2befa {
                         0x8d39bde6: string = "Bloom_Intensity"
-                        0x0640657c: u32 = 2
+                        0x0640657c: u32 = 8
                     }
                 }
             }
@@ -181,6 +185,9 @@ entries: map[hash,embed] = {
             }
             0x60a292e6 {
                 0x8d39bde6: string = "DIFFUSE_LERP_ON"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "IRIDESCENCE_PULSE"
             }
             0x60a292e6 {
                 0x8d39bde6: string = "OUTLINE_ON"

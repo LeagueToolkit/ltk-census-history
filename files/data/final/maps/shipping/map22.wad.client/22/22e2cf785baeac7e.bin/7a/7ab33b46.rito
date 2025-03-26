@@ -1,0 +1,19 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x7ab33b46 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT14_Suits_Heist11_Option2"
+        0x0773669d: map[string,pointer] = {
+            "Treasure" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Assist_ItemArmoryCompleted"
+                    "TFT_Assist_ItemArmoryComponent"
+                    "REMOVER"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

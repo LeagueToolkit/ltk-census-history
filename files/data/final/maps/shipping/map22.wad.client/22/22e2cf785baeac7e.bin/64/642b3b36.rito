@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x642b3b36 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_AnimaSquad_Upgrades_Set14"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT14_AnimaSquad_Upgrade_AttackDamage"
+                    "TFT14_AnimaSquad_Upgrade_AbilityPower"
+                    "TFT14_AnimaSquad_Upgrade_AttackSpeed"
+                    "TFT14_AnimaSquad_Upgrade_Crit"
+                    "TFT14_AnimaSquad_Upgrade_Defense"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

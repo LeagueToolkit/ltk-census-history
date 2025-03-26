@@ -7,98 +7,6 @@ entries: map[hash,embed] = {
         0xc8e37ef0: string = "YorickE"
         0x56d2be52: pointer = 0x43368569 {
             0xecf3f88d: u32 = 6154
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        35
-                        70
-                        105
-                        140
-                        175
-                        210
-                        245
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        30
-                        30
-                        30
-                        30
-                        30
-                        30
-                        30
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        1500
-                        1500
-                        1500
-                        1500
-                        1500
-                        1500
-                        1500
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        20
-                        20
-                        20
-                        20
-                        20
-                        20
-                        20
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        15
-                        15
-                        15
-                        15
-                        15
-                        15
-                        15
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        300
-                        300
-                        300
-                        300
-                        300
-                        300
-                        300
-                    }
-                }
-                0x92d4987c {}
-                0x92d4987c {}
-            }
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "SlowAmount"
@@ -186,38 +94,56 @@ entries: map[hash,embed] = {
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "GhoulBonusDamage"
-                    0x246b0d8e: list[f32] = {
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                    }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "GhoulBonusCount"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
                     0x246b0d8e: list[f32] = {
-                        8
-                        8
-                        8
-                        8
-                        8
-                        8
-                        8
+                        35
+                        70
+                        105
+                        140
+                        175
+                        210
+                        245
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "APRatio"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ArmorShred"
+                    0x246b0d8e: list[f32] = {
+                        0.15
+                        0.18
+                        0.21
+                        0.24
+                        0.27
+                        0.3
+                        0.33
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "HasteAmount"
                     0x246b0d8e: list[f32] = {
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
                     }
                 }
             }
@@ -272,8 +198,17 @@ entries: map[hash,embed] = {
                     }
                     0x5a2297d3: bool = true
                 }
+                0x12cfcbfc = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xe30c799f
+                        }
+                    }
+                }
             }
-            0x295c2889: f32 = 0.7
             0xfbd16fb5: string = "Spell3"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Yorick/HUD/Icons2D/Yorick_E.dds"
@@ -343,13 +278,15 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "MinimumDamage"
+                                    0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
-                                    0x566f3406: string = "Spell_ListType_MinimumDamage"
+                                    0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "MonsterMaxDamage"
-                                    0x566f3406: string = "Spell_ListType_MaxDamageToMonsters"
+                                    0x5127f14d: string = "ArmorShred"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_ArmorReductionPercent"
+                                    0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"

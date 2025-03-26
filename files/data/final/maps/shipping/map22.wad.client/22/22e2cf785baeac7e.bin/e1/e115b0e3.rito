@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe115b0e3 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryTable_HackedTreasureDragon_Early"
+        0x0773669d: map[string,pointer] = {
+            "TFT7_Round_HackedTreasureDragon" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.6
+            }
+            "TFT7_Round_HackedTreasureDragonChaos" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "TFT7_Round_HackedTreasureDragonOrder" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

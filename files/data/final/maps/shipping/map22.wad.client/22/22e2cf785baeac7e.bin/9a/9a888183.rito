@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x9a888183 = 0xd186c31a {
+        0x19efbfdb: string = "TFT14_Item_Suits_HoldHigh"
+        0x9596a387: bool = true
+        0xadb3e562: embed = 0xd65315ee {
+            0xdf085b93: map[hash,pointer] = {
+                0x00df445b = 0x977517c6 {
+                    0x24f2ec89: f32 = 0.03
+                }
+            }
+        }
+        0xc3143d66: string = "TFT14_Item_Suits_Hold_Name"
+        0x765f18da: string = "TFT14_Item_Suits_Hold_Description"
+        0x8bee2972: string = "ASSETS/Maps/Particles/TFT/Item_Icons/Placeholders/TFT_Item_UnusableSlot.tex"
+        0x5371e38f: option[rgba] = {
+            { 208, 128, 42, 255 }
+        }
+    }
+}

@@ -11,28 +11,8 @@ entries: map[hash,embed] = {
                 "Trait_ImmobilizingCCSpell"
             }
             0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        30
-                        50
-                        70
-                        90
-                        110
-                        130
-                        150
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        40
-                        80
-                        120
-                        160
-                        200
-                        240
-                        310
-                    }
-                }
+                0x92d4987c {}
+                0x92d4987c {}
                 0x92d4987c {
                     0x425ed3ca: list[f32] = {
                         1.5
@@ -107,6 +87,30 @@ entries: map[hash,embed] = {
                         280
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "InitialAPRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DelayedAPRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x69a14e52 = 0xbc409284 {
@@ -114,8 +118,8 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0xb435e8ad
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.4
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x4db10781
                         }
                     }
                 }
@@ -124,18 +128,16 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0x567574b3
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.8
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x16e82c6b
                         }
                     }
                 }
             }
-            0x295c2889: f32 = 0.4
-            0xd7141e61: f32 = 0.8
             0xfbd16fb5: string = "Spell3"
             0xeed67cd5: list[string] = {
-                "ASSETS/Characters/Leblanc/HUD/Icons2D/LeBlancE.dds"
-                "ASSETS/Characters/Leblanc/HUD/Icons2D/LeBlancRE.dds"
+                "ASSETS/Characters/Leblanc/HUD/Icons2D/LeblancE.Leblanc_Rework.dds"
+                "ASSETS/Characters/Leblanc/HUD/Icons2D/LeblancRE.Leblanc_Rework.dds"
             }
             0x9ecac3a1: list[f32] = {
                 14
@@ -271,41 +273,6 @@ entries: map[hash,embed] = {
         }
         0x7f0f5a79: pointer = 0x4633d794 {
             0xf1f20d72: string = "LeblancE"
-        }
-        0x4048c61e: pointer = 0xf195e56b {
-            0x450d68a0: u32 = 1
-            0x6d548702: pointer = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0xf3cbe7b2 {
-                        0x88536426: hash = 0x69a14e52
-                    }
-                    0xf3cbe7b2 {
-                        0x88536426: hash = 0xca38f8d4
-                    }
-                }
-            }
-            0xec17e271: list2[embed] = {
-                0xb09016f6 {
-                    0x77e5e41c: u32 = 4096
-                    0x725bd4d5: pointer = 0xbc409284 {
-                        0x50f145c0: list[pointer] = {
-                            0x8bc08357 {
-                                0x8afb1a5f: i32 = 4
-                            }
-                        }
-                    }
-                }
-                0xb09016f6 {
-                    0x77e5e41c: u32 = 32768
-                    0x725bd4d5: pointer = 0xbc409284 {
-                        0x50f145c0: list[pointer] = {
-                            0x9ef92080 {
-                                0xe202bca9: f32 = 55
-                            }
-                        }
-                    }
-                }
-            }
         }
     }
 }

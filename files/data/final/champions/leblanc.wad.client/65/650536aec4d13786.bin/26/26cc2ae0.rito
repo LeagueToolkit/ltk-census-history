@@ -7,9 +7,9 @@ entries: map[hash,embed] = {
         0x87225880: u32 = 2
         0x2d78c328: string = "LeblancSkin17"
         0x514b1c48: i32 = 12
-        0x939e7b29: string = "faction:noxus,gender:female,race:human,subfaction:blackrose,skinline:program"
+        0x939e7b29: string = "faction:noxus,gender:female,race:human,skinline:program"
         0x97f7188d: embed = 0xd06263ff {
-            0xb35135fa: string = "ASSETS/Characters/Leblanc/Skins/Skin12/LeblancLoadscreen_12.tex"
+            0xb35135fa: string = "ASSETS/Characters/Leblanc/Skins/Skin12/LeblancLoadScreen_12.Leblanc_Rework.tex"
         }
         0x8f7b194f: embed = 0x8f7b194f {
             0xd65bac4d: list[string] = {
@@ -18,26 +18,82 @@ entries: map[hash,embed] = {
             }
             0xf8f29f92: list2[embed] = {
                 0xa4416515 {
-                    0x8d39bde6: string = "Leblanc_Base_VO"
+                    0x8d39bde6: string = "Leblanc_Skin12_VO"
                     0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Leblanc/Skins/Base/Leblanc_Base_VO_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Leblanc/Skins/Base/Leblanc_Base_VO_events.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Leblanc/Skins/Base/Leblanc_Base_VO_audio.wpk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Leblanc/Skins/Skin12/Leblanc_Skin12_VO_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Leblanc/Skins/Skin12/Leblanc_Skin12_VO_events.bnk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Leblanc/Skins/Skin12/Leblanc_Skin12_VO_audio.wpk"
                     }
                     0x12d8e384: list[string] = {
-                        "Play_vo_Leblanc_Attack2DGeneral"
-                        "Play_vo_Leblanc_Death3D"
-                        "Play_vo_Leblanc_Joke3DGeneral"
-                        "Play_vo_Leblanc_Laugh3DGeneral"
-                        "Play_vo_Leblanc_LeblancCloneDeath_OnCast"
-                        "Play_vo_Leblanc_LeblancE_cast3D"
-                        "Play_vo_Leblanc_LeblancQ_cast3D"
-                        "Play_vo_Leblanc_LeblancRE_cast3D"
-                        "Play_vo_Leblanc_LeblancRQ_cast3D"
-                        "Play_vo_Leblanc_LeblancRW_cast3D"
-                        "Play_vo_Leblanc_LeblancW_cast3D"
-                        "Play_vo_Leblanc_Move2DStandard"
-                        "Play_vo_Leblanc_Taunt3DGeneral"
+                        "Play_vo_LeBlancSkin12_Attack2DAtakhan"
+                        "Play_vo_LeBlancSkin12_Attack2DGeneral"
+                        "Play_vo_LeBlancSkin12_Death3D"
+                        "Play_vo_LeBlancSkin12_FirstEncounter3DAmbessa"
+                        "Play_vo_LeBlancSkin12_FirstEncounter3DBlackRose"
+                        "Play_vo_LeBlancSkin12_FirstEncounter3DDarkin"
+                        "Play_vo_LeBlancSkin12_FirstEncounter3DDemon"
+                        "Play_vo_LeBlancSkin12_FirstEncounter3DElise"
+                        "Play_vo_LeBlancSkin12_FirstEncounter3DGeneral"
+                        "Play_vo_LeBlancSkin12_FirstEncounter3DJarvanIV"
+                        "Play_vo_LeBlancSkin12_FirstEncounter3DKatarina"
+                        "Play_vo_LeBlancSkin12_FirstEncounter3DMel"
+                        "Play_vo_LeBlancSkin12_FirstEncounter3DMordekaiser"
+                        "Play_vo_LeBlancSkin12_FirstEncounter3DNoxus"
+                        "Play_vo_LeBlancSkin12_FirstEncounter3DRyze"
+                        "Play_vo_LeBlancSkin12_FirstEncounter3DSwain"
+                        "Play_vo_LeBlancSkin12_FirstEncounter3DTalon"
+                        "Play_vo_LeBlancSkin12_FirstEncounter3DVeigar"
+                        "Play_vo_LeBlancSkin12_FirstEncounter3DVladimir"
+                        "Play_vo_LeBlancSkin12_Joke3DGeneral"
+                        "Play_vo_LeBlancSkin12_JokeResponse3DGeneral"
+                        "Play_vo_LeBlancSkin12_Kill3DAmbessa"
+                        "Play_vo_LeBlancSkin12_Kill3DBriar"
+                        "Play_vo_LeBlancSkin12_Kill3DDarkin"
+                        "Play_vo_LeBlancSkin12_Kill3DElise"
+                        "Play_vo_LeBlancSkin12_Kill3DFirst"
+                        "Play_vo_LeBlancSkin12_Kill3DGeneral"
+                        "Play_vo_LeBlancSkin12_Kill3DJarvanIV"
+                        "Play_vo_LeBlancSkin12_Kill3DKatarina"
+                        "Play_vo_LeBlancSkin12_Kill3DMel"
+                        "Play_vo_LeBlancSkin12_Kill3DMordekaiser"
+                        "Play_vo_LeBlancSkin12_Kill3DPenta"
+                        "Play_vo_LeBlancSkin12_Kill3DRyze"
+                        "Play_vo_LeBlancSkin12_Kill3DSwain"
+                        "Play_vo_LeBlancSkin12_Kill3DTalon"
+                        "Play_vo_LeBlancSkin12_Kill3DTurret"
+                        "Play_vo_LeBlancSkin12_Kill3DVeigar"
+                        "Play_vo_LeBlancSkin12_Kill3DVladimir"
+                        "Play_vo_LeBlancSkin12_Laugh3DGeneral"
+                        "Play_vo_LeblancSkin12_LeBlancBasicAttack2_cast3D"
+                        "Play_vo_LeblancSkin12_LeBlancBasicAttack_cast3D"
+                        "Play_vo_LeblancSkin12_LeBlancCritAttack_cast3D"
+                        "Play_vo_LeblancSkin12_LeBlancE_cast3D"
+                        "Play_vo_LeblancSkin12_LeBlancQ_cast3D"
+                        "Play_vo_LeblancSkin12_LeBlancRE_cast3D"
+                        "Play_vo_LeblancSkin12_LeBlancRQ_cast3D"
+                        "Play_vo_LeblancSkin12_LeBlancRW_cast3D"
+                        "Play_vo_LeblancSkin12_LeBlancW_cast3D"
+                        "Play_vo_LeBlancSkin12_Move2DFirst"
+                        "Play_vo_LeBlancSkin12_Move2DFirstAllyAmbessa"
+                        "Play_vo_LeBlancSkin12_Move2DFirstAllyBriar"
+                        "Play_vo_LeBlancSkin12_Move2DFirstAllyCassiopeia"
+                        "Play_vo_LeBlancSkin12_Move2DFirstAllyElise"
+                        "Play_vo_LeBlancSkin12_Move2DFirstAllyMel"
+                        "Play_vo_LeBlancSkin12_Move2DFirstAllyMordekaiser"
+                        "Play_vo_LeBlancSkin12_Move2DFirstAllyRyze"
+                        "Play_vo_LeBlancSkin12_Move2DFirstAllySion"
+                        "Play_vo_LeBlancSkin12_Move2DFirstAllySwain"
+                        "Play_vo_LeBlancSkin12_Move2DFirstAllyVladimir"
+                        "Play_vo_LeBlancSkin12_Move2DLong"
+                        "Play_vo_LeBlancSkin12_Move2DStandard"
+                        "Play_vo_LeblancSkin12_OnBuffCast3DP"
+                        "Play_vo_LeBlancSkin12_Open2DGeneral"
+                        "Play_vo_LeBlancSkin12_Recall3DGeneral"
+                        "Play_vo_LeBlancSkin12_Respawn2DGeneral"
+                        "Play_vo_LeBlancSkin12_Spell2DRRankOne"
+                        "Play_vo_LeBlancSkin12_Taunt3DGeneral"
+                        "Play_vo_LeBlancSkin12_TauntResponse3DGeneral"
+                        "Play_vo_LeBlancSkin12_UseItem2DWard"
                     }
                     0x3b13aa4b: bool = true
                 }
@@ -48,86 +104,96 @@ entries: map[hash,embed] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Leblanc/Skins/Skin12/Leblanc_Skin12_SFX_events.bnk"
                     }
                     0x12d8e384: list[string] = {
+                        "Play_sfx_LeblancSkin12_Dance3D_buffactivate"
+                        "Play_sfx_LeblancSkin12_Dance3D_buffactivate_loop"
+                        "Play_sfx_LeblancSkin12_Dance3D_buffactivate_spotlight"
                         "Play_sfx_LeblancSkin12_Death3D_cast"
+                        "Play_sfx_LeblancSkin12_Homeguard3D_buffactivate"
+                        "Play_sfx_LeblancSkin12_Homeguard3D_buffactivate_loop"
+                        "Play_sfx_LeblancSkin12_Joke3D_buffactivate"
+                        "Play_sfx_LeblancSkin12_Laugh3D_buffactivate"
                         "Play_sfx_LeblancSkin12_LeblancBasicAttack2_OnCast"
                         "Play_sfx_LeblancSkin12_LeblancBasicAttack2_OnHit"
-                        "Play_sfx_LeblancSkin12_LeblancBasicAttack3_OnCast"
-                        "Play_sfx_LeblancSkin12_LeblancBasicAttack3_OnHit"
+                        "Play_sfx_LeblancSkin12_LeblancBasicAttack2_OnMissileLaunch"
                         "Play_sfx_LeblancSkin12_LeblancBasicAttack_OnCast"
                         "Play_sfx_LeblancSkin12_LeblancBasicAttack_OnHit"
+                        "Play_sfx_LeblancSkin12_LeblancBasicAttack_OnMissileLaunch"
                         "Play_sfx_LeblancSkin12_LeblancCritAttack_OnCast"
                         "Play_sfx_LeblancSkin12_LeblancCritAttack_OnHit"
+                        "Play_sfx_LeblancSkin12_LeblancCritAttack_OnMissileLaunch"
                         "Play_sfx_LeblancSkin12_LeblancE_OnBuffActivate"
+                        "Play_sfx_LeblancSkin12_LeblancE_OnBuffDeactivate"
                         "Play_sfx_LeblancSkin12_LeblancE_OnCast"
+                        "Play_sfx_LeblancSkin12_LeblancEMissile_missilelaunch"
                         "Play_sfx_LeblancSkin12_LeblancEMissile_OnHit"
-                        "Play_sfx_LeblancSkin12_LeblancEMissile_OnMissileLaunch"
+                        "Play_sfx_LeblancSkin12_LeblancERoot_buffactivate_target"
                         "Play_sfx_LeblancSkin12_LeblancERoot_OnBuffActivate"
-                        "Play_sfx_LeblancSkin12_LeblancP_deactivate"
-                        "Play_sfx_LeblancSkin12_LeblancP_OnBuffDeactivate"
+                        "Play_sfx_LeblancSkin12_LeblancP_buffactivate"
+                        "Play_sfx_LeblancSkin12_LeblancP_buffactivate_self"
+                        "Play_sfx_LeblancSkin12_LeblancP_buffdeactivate"
+                        "Play_sfx_LeblancSkin12_LeblancP_clone_buffdeactivate"
                         "Play_sfx_LeblancSkin12_LeblancQ_OnCast"
                         "Play_sfx_LeblancSkin12_LeblancQ_OnHit"
                         "Play_sfx_LeblancSkin12_LeblancQ_OnMissileLaunch"
-                        "Play_sfx_LeblancSkin12_LeblancQDetonate_OnBuffCast"
+                        "Play_sfx_LeblancSkin12_LeblancQDetonate_buffactivate"
+                        "Play_sfx_LeblancSkin12_LeblancQMark_buffactivate"
                         "Play_sfx_LeblancSkin12_LeblancQMark_OnBuffActivate"
+                        "Play_sfx_LeblancSkin12_LeblancQMark_OnBuffDeactivate"
                         "Play_sfx_LeblancSkin12_LeblancRE_OnBuffActivate"
+                        "Play_sfx_LeblancSkin12_LeblancRE_OnBuffDeactivate"
                         "Play_sfx_LeblancSkin12_LeblancRE_OnCast"
+                        "Play_sfx_LeblancSkin12_LeblancREMissile_missilelaunch"
                         "Play_sfx_LeblancSkin12_LeblancREMissile_OnHit"
-                        "Play_sfx_LeblancSkin12_LeblancREMissile_OnMissileLaunch"
+                        "Play_sfx_LeblancSkin12_LeblancRERoot_buffactivate_target"
                         "Play_sfx_LeblancSkin12_LeblancRERoot_OnBuffActivate"
                         "Play_sfx_LeblancSkin12_LeblancRQ_OnCast"
                         "Play_sfx_LeblancSkin12_LeblancRQ_OnHit"
-                        "Play_sfx_LeblancSkin12_LeblancRQ_OnMissileCast"
                         "Play_sfx_LeblancSkin12_LeblancRQ_OnMissileLaunch"
-                        "Play_sfx_LeblancSkin12_LeblancRQDetonate_OnBuffCast"
+                        "Play_sfx_LeblancSkin12_LeblancRQDetonate_buffactivate"
+                        "Play_sfx_LeblancSkin12_LeblancRQMark_buffactivate"
                         "Play_sfx_LeblancSkin12_LeblancRQMark_OnBuffActivate"
+                        "Play_sfx_LeblancSkin12_LeblancRQMark_OnBuffDeactivate"
+                        "Play_sfx_LeblancSkin12_LeblancRW_buffdeactivate"
+                        "Play_sfx_LeblancSkin12_LeblancRW_clone_buffactivate"
+                        "Play_sfx_LeblancSkin12_LeblancRW_clone_buffdeactivate"
                         "Play_sfx_LeblancSkin12_LeblancRW_hit"
                         "Play_sfx_LeblancSkin12_LeblancRW_hitlocation"
                         "Play_sfx_LeblancSkin12_LeblancRW_missilelaunch"
-                        "Play_sfx_LeblancSkin12_LeblancRW_OnCast"
-                        "Play_sfx_LeblancSkin12_LeblancRW_poof"
-                        "Play_sfx_LeblancSkin12_LeblancRWreturn_OnCast"
+                        "Play_sfx_LeblancSkin12_LeblancRWReturn_cast"
+                        "Play_sfx_LeblancSkin12_LeblancW_buffdeactivate"
+                        "Play_sfx_LeblancSkin12_LeblancW_clone_buffactivate"
+                        "Play_sfx_LeblancSkin12_LeblancW_clone_buffdeactivate"
+                        "Play_sfx_LeblancSkin12_LeblancW_foley"
                         "Play_sfx_LeblancSkin12_LeblancW_hit"
                         "Play_sfx_LeblancSkin12_LeblancW_hitlocation"
                         "Play_sfx_LeblancSkin12_LeblancW_missilelaunch"
-                        "Play_sfx_LeblancSkin12_LeblancW_OnCast"
-                        "Play_sfx_LeblancSkin12_LeblancW_poof"
-                        "Play_sfx_LeblancSkin12_LeblancWReturn_OnCast"
+                        "Play_sfx_LeblancSkin12_LeblancWReturn_cast"
                         "Play_sfx_LeblancSkin12_Recall3D_buffactivate"
+                        "Play_sfx_LeblancSkin12_Respawn3D_buffactivate"
+                        "Play_sfx_LeblancSkin12_Taunt3D_buffactivate"
+                        "Stop_sfx_LeblancSkin12_Homeguard3D_buffactivate_loop"
+                        "Stop_sfx_LeblancSkin12_LeblancBasicAttack2_OnMissileLaunch"
+                        "Stop_sfx_LeblancSkin12_LeblancBasicAttack_OnMissileLaunch"
+                        "Stop_sfx_LeblancSkin12_LeblancCritAttack_OnMissileLaunch"
                         "Stop_sfx_LeblancSkin12_LeblancE_OnBuffActivate"
-                        "Stop_sfx_LeblancSkin12_LeblancEMissile_OnMissileLaunch"
-                        "Stop_sfx_LeblancSkin12_LeblancEroot_OnBuffActivate"
+                        "Stop_sfx_LeblancSkin12_LeblancEMissile_missilelaunch"
+                        "Stop_sfx_LeblancSkin12_LeblancERoot_OnBuffActivate"
+                        "Stop_sfx_LeblancSkin12_LeblancP_buffactivate"
                         "Stop_sfx_LeblancSkin12_LeblancQ_OnMissileLaunch"
+                        "Stop_sfx_LeblancSkin12_LeblancQMark_buffactivate"
                         "Stop_sfx_LeblancSkin12_LeblancQMark_OnBuffActivate"
                         "Stop_sfx_LeblancSkin12_LeblancRE_OnBuffActivate"
-                        "Stop_sfx_LeblancSkin12_LeblancREMissile_OnMissileLaunch"
+                        "Stop_sfx_LeblancSkin12_LeblancREMissile_missilelaunch"
+                        "Stop_sfx_LeblancSkin12_LeblancRERoot_OnBuffActivate"
                         "Stop_sfx_LeblancSkin12_LeblancRQ_OnMissileLaunch"
+                        "Stop_sfx_LeblancSkin12_LeblancRQMark_buffactivate"
                         "Stop_sfx_LeblancSkin12_LeblancRQMark_OnBuffActivate"
-                        "Stop_sfx_LeblancSkin12_Recall3D_buffactivate"
+                        "Stop_sfx_LeblancSkin12_LeblancRW_clone_buffactivate"
+                        "Stop_sfx_LeblancSkin12_LeblancRW_missilelaunch"
+                        "Stop_sfx_LeblancSkin12_LeblancW_clone_buffactivate"
+                        "Stop_sfx_LeblancSkin12_LeblancW_missilelaunch"
+                        "Stop_sfx_LeblancSkin12_Taunt3D_buffactivate"
                     }
-                }
-                0xa4416515 {
-                    0x8d39bde6: string = "Leblanc_Skin12_VO"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Leblanc/Skins/Skin12/Leblanc_Skin12_VO_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Leblanc/Skins/Skin12/Leblanc_Skin12_VO_events.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Leblanc/Skins/Skin12/Leblanc_Skin12_VO_audio.wpk"
-                    }
-                    0x12d8e384: list[string] = {
-                        "Play_vo_LeblancSkin12_Attack2DGeneral"
-                        "Play_vo_LeblancSkin12_Death3D"
-                        "Play_vo_LeblancSkin12_Joke3DGeneral"
-                        "Play_vo_LeblancSkin12_Laugh3DGeneral"
-                        "Play_vo_LeblancSkin12_LeblancCloneDeath_OnCast"
-                        "Play_vo_LeblancSkin12_LeblancE_cast3D"
-                        "Play_vo_LeblancSkin12_LeblancQ_cast3D"
-                        "Play_vo_LeblancSkin12_LeblancRE_cast3D"
-                        "Play_vo_LeblancSkin12_LeblancRQ_cast3D"
-                        "Play_vo_LeblancSkin12_LeblancRW_cast3D"
-                        "Play_vo_LeblancSkin12_LeblancW_cast3D"
-                        "Play_vo_LeblancSkin12_Move2DStandard"
-                        "Play_vo_LeblancSkin12_Taunt3DGeneral"
-                    }
-                    0x3b13aa4b: bool = true
                 }
             }
         }
@@ -135,30 +201,91 @@ entries: map[hash,embed] = {
             0xf5fb07c7: link = 0x25150208
         }
         0x45ff5904: embed = 0x6111d8a4 {
-            0xb14c976e: string = "ASSETS/Characters/Leblanc/Skins/Skin12/Leblanc_Skin12.skl"
-            0xd6a00df6: string = "ASSETS/Characters/Leblanc/Skins/Skin12/Leblanc_Skin12.skn"
-            0x3c6468f4: string = "ASSETS/Characters/Leblanc/Skins/Skin17/Leblanc_Skin17_TX_CM.dds"
+            0xb14c976e: string = "ASSETS/Characters/Leblanc/Skins/Skin12/Leblanc_Skin12.Leblanc_Rework.skl"
+            0xd6a00df6: string = "ASSETS/Characters/Leblanc/Skins/Skin12/Leblanc_Skin12.Leblanc_Rework.skn"
+            0x3c6468f4: string = "ASSETS/Characters/Leblanc/Skins/Skin17/Leblanc_Skin17_TX_CM.Leblanc_Rework.tex"
             0x252f6884: f32 = 0.7
-            0x80b7f78f: string = "Heads_MAT"
-            0x2d7b4ab4: string = "LeBlanc_Skin12_MAT, LeBlanc_Head_MAT, Heads_MAT"
+            0x5c7a0332: option[vec3] = {
+                { 160, 240, 160 }
+            }
+            0x80b7f78f: string = "RecallHeads"
             0x24725910: list[embed] = {
                 0x8b7a4394 {
-                    0xd2e4d060: link = 0x4edb4e0a
-                    0xaad7612c: string = "LeBlanc_Head_MAT"
-                }
-                0x8b7a4394 {
-                    0xd2e4d060: link = 0x3d8273f2
-                    0xaad7612c: string = "Heads_Mat"
+                    0x3c6468f4: string = "ASSETS/Characters/Leblanc/Skins/Skin17/Leblanc_Skin17_Weapon_TX_CM.Leblanc_Rework.tex"
+                    0xaad7612c: string = "Weapon"
                 }
                 0x8b7a4394 {
                     0xd2e4d060: link = 0xe1aea98f
-                    0xaad7612c: string = "Cape_MAT"
+                    0xaad7612c: string = "Cape"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/Leblanc/Skins/Skin17/Leblanc_Skin17_RecallHeads_TX_CM.Leblanc_Rework.tex"
+                    0xaad7612c: string = "RecallHeads"
+                }
+            }
+            0xe9c98281: list[pointer] = {
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0xe22424eb
+                    0x96dbc896: hash = 0x5419387f
+                    0x50271332: hash = 0x2f6dc7bb
+                    0xa4e3d433: bool = true
+                    0xef1820ba: f32 = 10
+                    0x0afc0620: f32 = 10
+                }
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0x6e965ec9
+                    0x96dbc896: hash = 0x72966515
+                    0x50271332: hash = 0x2f6dc7bb
+                }
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0x13988518
+                    0x96dbc896: hash = 0xf84bc93c
+                    0x50271332: hash = 0x2f6dc7bb
+                    0x93b7fa73: f32 = 200
+                    0xfaf26cff: f32 = 8
+                    0xa4e3d433: bool = true
+                    0xef1820ba: f32 = 10
+                    0x6d3315f3: f32 = 600
+                    0x0afc0620: f32 = 10
+                }
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0x46ce13d6
+                    0x96dbc896: hash = 0x7356eb4a
+                    0x50271332: hash = 0x2f6dc7bb
+                    0x93b7fa73: f32 = 200
+                    0xfaf26cff: f32 = 8
+                    0xa4e3d433: bool = true
+                    0xef1820ba: f32 = 10
+                    0x6d3315f3: f32 = 600
+                    0x0afc0620: f32 = 10
+                }
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0x32ca6bbf
+                    0x96dbc896: hash = 0x0040e02b
+                    0x50271332: hash = 0x2f6dc7bb
+                    0x93b7fa73: f32 = 200
+                    0xfaf26cff: f32 = 8
+                    0xa4e3d433: bool = true
+                    0xef1820ba: f32 = 10
+                    0x6d3315f3: f32 = 600
+                    0x0afc0620: f32 = 10
+                }
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0xa4a140a1
+                    0x96dbc896: hash = 0xbd4bf1ed
+                    0x50271332: hash = 0x2f6dc7bb
+                    0x93b7fa73: f32 = 200
+                    0xfaf26cff: f32 = 8
+                    0xa4e3d433: bool = true
+                    0xef1820ba: f32 = 10
+                    0x6d3315f3: f32 = 600
+                    0x0afc0620: f32 = 10
                 }
             }
         }
         0x2d0d1f1d: string = "Metal"
         0x123393ed: list[string] = {
-            "Additive_Staff"
+            "WeaponSpin"
         }
         0x84186f3c: list[embed] = {
             0x33068165 {
@@ -167,17 +294,17 @@ entries: map[hash,embed] = {
             }
             0x33068165 {
                 0x9b0300f3: hash = 0x57203ccb
-                0x1ecb978c: string = "BUFFBONE_CSTM_WEAPON_1"
+                0x1ecb978c: string = "Buffbone_Cstm_WeaponTip"
             }
         }
         0xd8f64a0d: link = 0xd34af9e5
         0xe67284f4: option[string] = {
-            "ASSETS/Characters/Leblanc/HUD/Leblanc_Circle_0.tex"
+            "ASSETS/Characters/Leblanc/HUD/Leblanc_Circle_0.Leblanc_Rework.tex"
         }
         0xac473fef: option[string] = {
-            "ASSETS/Characters/Leblanc/HUD/Leblanc_Square_0.tex"
+            "ASSETS/Characters/Leblanc/HUD/Leblanc_Square_0.Leblanc_Rework.tex"
         }
-        0x089aff69: string = "ASSETS/Characters/Leblanc/HUD/Leblanc_Circle_12.tex"
+        0x089aff69: string = "ASSETS/Characters/Leblanc/HUD/Leblanc_Circle_12.Leblanc_Rework.tex"
         0x51c83af8: embed = 0x11b71b5e {
             0x3fcb5693: u8 = 12
         }

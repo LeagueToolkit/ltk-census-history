@@ -1,0 +1,33 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x93d1e37b = 0x60e00531 {
+        0x19efbfdb: string = "TFT14_Hacks_Augment_RoundWeights"
+        0x0773669d: map[string,pointer] = {
+            "TFT14_Hacks_Augment_Early_Tier1" = 0x977517c6 {}
+            "TFT14_Hacks_Augment_Early_Tier2" = 0x977517c6 {
+                0x24f2ec89: f32 = 1.35
+            }
+            "TFT14_Hacks_Augment_Early_Tier3" = 0x977517c6 {
+                0x24f2ec89: f32 = 1.3
+            }
+            "TFT14_Hacks_Augment_Mid_Tier1" = 0x977517c6 {}
+            "TFT14_Hacks_Augment_Mid_Tier2" = 0x977517c6 {
+                0x24f2ec89: f32 = 1
+            }
+            "TFT14_Hacks_Augment_Mid_Tier3" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.9
+            }
+            "TFT14_Hacks_Augment_Late_Tier1" = 0x977517c6 {}
+            "TFT14_Hacks_Augment_Late_Tier2" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.6
+            }
+            "TFT14_Hacks_Augment_Late_Tier3" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.9
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

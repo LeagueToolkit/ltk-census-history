@@ -1,0 +1,19 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x34af63bb = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT14_Suits_Heist12_Option2"
+        0x0773669d: map[string,pointer] = {
+            "Treasure" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "ORNNARTIFACTS_SET6"
+                    "GOLD_3"
+                    "TFT_Consumable_ItemReroller"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

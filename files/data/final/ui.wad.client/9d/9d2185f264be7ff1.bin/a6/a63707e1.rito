@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xa63707e1 = 0x104afcda {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/TFT/TFTArmory_Hacked/UIBase/TFT_Armory_Augments/background/hack-ceremony"
+        0x2063cb13: link = 0xf071c1d9
+        0x07a640f6: u32 = 100
+        0x934f4e0a: pointer = 0x44600fb6 {
+            0x3a8bfbed: embed = 0x4eb9ba4f {
+                0x934f4e0a: vec2 = { -896, -449 }
+                0x23a0d95c: vec2 = { 3451, 2078 }
+                0xf6647cd6: u16 = 1600
+                0xa19b2e69: u16 = 1200
+            }
+            0x23563745: pointer = 0x5338e7f0 {
+                0x42edcab4: vec2 = { 0.5, 0.5 }
+            }
+        }
+        0x81c3985d: string = "ASSETS/UX/TFT/Mograph/Sets/Set14/HackCeremony/hack-ceremony.skel"
+        0x9edb827d: string = "ASSETS/UX/TFT/Mograph/Sets/Set14/HackCeremony/hack-ceremony.atlas"
+        0xb5985cf7: list2[embed] = {
+            0xd31bbf89 {
+                0x98557a5e: string = "animation"
+                0x4a174502: f32 = 0.5
+            }
+        }
+    }
+}

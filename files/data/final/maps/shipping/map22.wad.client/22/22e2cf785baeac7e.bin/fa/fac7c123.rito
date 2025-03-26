@@ -1,0 +1,34 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xfac7c123 = 0xd186c31a {
+        0x19efbfdb: string = "TFT14_Item_GuardianEmblemItem"
+        0x9596a387: bool = true
+        0x6752c795: list[link] = {
+            0x9c99b0ad
+        }
+        0x77def630: link = 0x9c99b0ad
+        0xadb3e562: embed = 0xd65315ee {
+            0xdf085b93: map[hash,pointer] = {
+                0x6b98ed8f = 0x977517c6 {
+                    0x24f2ec89: f32 = 150
+                }
+                0xf49a3113 = 0x977517c6 {
+                    0x24f2ec89: f32 = 150
+                }
+            }
+        }
+        0xa47a6adf: list2[hash] = {
+            0xebcd1bac
+            0xd8d00bcc
+        }
+        0xc3143d66: string = "TFT14_Emblem_Name_Guardian"
+        0x765f18da: string = "TFT14_Emblem_Description_Guardian"
+        0x8bee2972: string = "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set14/TFT14_Emblem_Vanguard.TFT_Set14.tex"
+        0x5371e38f: option[rgba] = {
+            { 208, 128, 42, 255 }
+        }
+    }
+}

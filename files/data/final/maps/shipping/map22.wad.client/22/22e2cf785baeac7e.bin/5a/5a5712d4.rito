@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x5a5712d4 = 0x60e00531 {
+        0x19efbfdb: string = "HackedEgg_Tier1_LootC"
+        0x0773669d: map[string,pointer] = {
+            "RandomUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "ThreeCostUnit"
+                    "ThreeCostUnit"
+                }
+            }
+            "Consumable" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Consumable_ChampionDuplicator_III"
+                    "TFT_Consumable_ChampionDuplicator_III"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

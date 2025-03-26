@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x449f1cc0 = 0xd9438618 {
+        0xc7e16877: pointer = 0xa134eb30 {
+            0xabd6be4c: list2[pointer] = {
+                0xe8fc31c8 {
+                    0xc7e16877: pointer = 0x59025a99 {}
+                }
+                0xb0afae41 {
+                    0xa8dc4ac3: u32 = 3
+                }
+            }
+        }
+        0x799f2859: list2[string] = {
+            "ClientStates/Gameplay/UX/TFT/TFTPingRadial"
+            "ClientStates/Gameplay/UX/TFT/TFTEmoteRadial"
+            "ClientStates/Gameplay/UX/TFT/TFTMinimap"
+            "ClientStates/Gameplay/UX/TFT/TFTItemTracker"
+            "ClientStates/Gameplay/UX/TFT/TFTScoreboard_Pairs"
+        }
+    }
+}

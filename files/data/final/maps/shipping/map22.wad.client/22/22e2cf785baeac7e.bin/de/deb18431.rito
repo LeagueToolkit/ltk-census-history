@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xdeb18431 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT14_Suits_Heist13_Option1"
+        0x0773669d: map[string,pointer] = {
+            "Treasure" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Assist_5x1cost"
+                    "TFT_Assist_4x2cost"
+                    "TFT_Assist_3x3cost"
+                    "TFT_Assist_2x4cost"
+                    "TFT_Assist_1x5cost"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

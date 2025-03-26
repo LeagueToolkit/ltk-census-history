@@ -20,18 +20,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "YorickPassiveGhoulAOEReduction"
-                    0x246b0d8e: list[f32] = {
-                        50
-                        50
-                        50
-                        50
-                        50
-                        50
-                        50
-                    }
-                }
-                0x005008a6 {
                     0x19efbfdb: string = "YorickGhoulDamageReductionVsTowers"
                     0x246b0d8e: list[f32] = {
                         0.5
@@ -68,18 +56,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "YorickGhoulMonsterReduction"
-                    0x246b0d8e: list[f32] = {
-                        50
-                        50
-                        50
-                        50
-                        50
-                        50
-                        50
-                    }
-                }
-                0x005008a6 {
                     0x19efbfdb: string = "CherryGhoulHPMod"
                     0x246b0d8e: list[f32] = {
                         0.7
@@ -101,6 +77,102 @@ entries: map[hash,embed] = {
                         0.2
                         0.2
                         0.2
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "GraveDuration"
+                    0x246b0d8e: list[f32] = {
+                        300
+                        300
+                        300
+                        300
+                        300
+                        300
+                        300
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MinionMoveBonus"
+                    0x246b0d8e: list[f32] = {
+                        40
+                        40
+                        40
+                        40
+                        40
+                        40
+                        40
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MeleeAttackDamageModifier"
+                    0x246b0d8e: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "NonChampDamageModifier"
+                    0x246b0d8e: list[f32] = {
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ProcDamageModifier"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ARAMPassiveSpawnThreshold"
+                    0x246b0d8e: list[f32] = {
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "GhoulMonsterDamageMod"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "GhoulHealthRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
                     }
                 }
             }
@@ -141,34 +213,28 @@ entries: map[hash,embed] = {
             0x94572284: map[hash,pointer] = {
                 0xd978424e = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x5cf69ece {
-                            0xad62f672: f32 = 110
-                            0x02deb550: f32 = 6
+                        0x15fecdbc {
+                            0xd06c375d: f32 = 100
+                            0x1cd7e522: f32 = 300
+                            0x7fe8e3b3: bool = true
                         }
-                        0x5815b0a9 {
-                            0x4cec2c8a: u8 = 11
-                            0x295c2889: f32 = 0.2
+                        0x5f5c70a4 {
+                            0x4cec2c8a: u8 = 12
+                            0x7d3150ec: u8 = 2
+                            0xb386dcf1: hash = 0x76270a4f
                         }
                     }
                 }
                 0x23634779 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x5cf69ece {
-                            0xad62f672: f32 = 4
-                            0x02deb550: f32 = 1
-                            0x7b5d1934: list[embed] = {
-                                0x8e93d8ee {
-                                    0xa77654ae: u32 = 8
-                                    0x57fdc438: f32 = 5
-                                }
-                                0x8e93d8ee {
-                                    0xa77654ae: u32 = 14
-                                    0x57fdc438: f32 = 10
-                                }
-                            }
+                        0x15fecdbc {
+                            0xd06c375d: f32 = 15
+                            0x1cd7e522: f32 = 75
+                            0x7fe8e3b3: bool = true
                         }
                         0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
                             0xb386dcf1: hash = 0xa9e982e6
                         }
                     }
@@ -176,34 +242,56 @@ entries: map[hash,embed] = {
                 0x1d553841 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x5cf69ece {
-                            0xad62f672: f32 = 12
+                            0xad62f672: f32 = 8
                             0x7b5d1934: list[embed] = {
                                 0x8e93d8ee {
+                                    0xa77654ae: u32 = 3
+                                    0xd5fd07ed: f32 = -1
+                                }
+                                0x8e93d8ee {
+                                    0xa77654ae: u32 = 5
+                                    0xd5fd07ed: f32 = -1
+                                }
+                                0x8e93d8ee {
                                     0xa77654ae: u32 = 7
-                                    0xd5fd07ed: f32 = -6
+                                    0xd5fd07ed: f32 = -1
+                                }
+                                0x8e93d8ee {
+                                    0xa77654ae: u32 = 9
+                                    0xd5fd07ed: f32 = -1
+                                }
+                                0x8e93d8ee {
+                                    0xa77654ae: u32 = 11
+                                    0xd5fd07ed: f32 = -1
                                 }
                                 0x8e93d8ee {
                                     0xa77654ae: u32 = 13
-                                    0xd5fd07ed: f32 = -4
+                                    0xd5fd07ed: f32 = -1
                                 }
                             }
                         }
                     }
                 }
-                0xf55ebc02 = 0xbc409284 {
+                0x8e6d2390 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x5cf69ece {
-                            0xad62f672: f32 = 12
+                            0xad62f672: f32 = 0.66
+                            0x02deb550: f32 = -0.02
                             0x7b5d1934: list[embed] = {
                                 0x8e93d8ee {
-                                    0xa77654ae: u32 = 7
-                                    0xd5fd07ed: f32 = -6
-                                }
-                                0x8e93d8ee {
-                                    0xa77654ae: u32 = 13
-                                    0xd5fd07ed: f32 = -4
+                                    0xa77654ae: u32 = 15
                                 }
                             }
+                        }
+                    }
+                    0x5a2297d3: bool = true
+                }
+                0x458ded7b = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5815b0a9 {
+                            0x4cec2c8a: u8 = 4
+                            0x7d3150ec: u8 = 2
+                            0x295c2889: f32 = 1
                         }
                     }
                 }

@@ -1,0 +1,31 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x12070f22 = 0x2a4b4fcd {
+        0x37386ae0: string = "e57b7170-4a32-4add-8241-f6983f59b870"
+        0x6eacca83: string = "Rewards/TFT/RankedTFTSet13/RankedTFTSet13_Standard_Challenger"
+        0x081f82f1: string = "tft_ranked_rewards_victorious_name"
+        0xffe0c49a: list[string] = {
+            "tft"
+        }
+        0xa1d9de0b: list[pointer] = {
+            0x9f4272ac {
+                0x31c5f01c: string = "companion_name_turtle_victorious"
+                0xfc9adf03: pointer = 0x77274757 {
+                    0xb35135fa: string = "ASSETS/Loot/Companions/Turtle/Loot_Turtle_Set11RankedRewards_Victorious_Tier1.LL_Turtle_Set11RankedRewards.tex"
+                }
+                0x13bddc7b: string = "1dc26c12-4082-415e-9b03-e3174332aac7"
+                0x0ba947a2: link = 0x3a7f7569
+            }
+        }
+        0x14d7d5a7: u8 = 2
+        0xee192a3e: embed = 0xd443ea96 {
+            0x83172271: embed = 0xe27f0273 {
+                0x87ac0600: u8 = 2
+                0xc12d04c6: string = "ASSETS/UX/TFT/OutOfGame/Backgrounds/ranked-reward-celebration-evergreen.jpg"
+            }
+        }
+    }
+}

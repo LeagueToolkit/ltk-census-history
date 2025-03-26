@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x0d2eca07 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT14_Suits_Heist21_Option4"
+        0x0773669d: map[string,pointer] = {
+            "Treasure" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT14_CypherArmoryItem_Renekton2Star"
+                    "TFT14_CypherArmoryItem_Rhaast3Star"
+                    "TFT_Assist_Deathblade_2"
+                    "TFT5_Item_QuicksilverRadiant"
+                    "TFT_Item_TacticiansScepter"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

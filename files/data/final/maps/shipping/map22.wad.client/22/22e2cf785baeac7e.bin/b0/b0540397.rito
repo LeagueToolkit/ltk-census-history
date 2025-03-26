@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb0540397 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT14_Suits_Heist16_Option2"
+        0x0773669d: map[string,pointer] = {
+            "Treasure" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT14_CypherArmoryItem_Garen"
+                    "TFT_Item_SupportKnightsVow"
+                    "TFT_Item_BansheesVeil"
+                    "TFT14_CypherArmoryItem_Zed2star"
+                    "TFT9_Consumable_GoldenItemRemover"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

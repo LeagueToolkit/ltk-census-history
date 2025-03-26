@@ -10,25 +10,25 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "AttackSpeed"
                     0x246b0d8e: list[f32] = {
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "AttackReduction"
                     0x246b0d8e: list[f32] = {
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
                     }
                 }
                 0x005008a6 {
@@ -43,6 +43,28 @@ entries: map[hash,embed] = {
                         0.5
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "SecondMissileDelay"
+                    0x246b0d8e: list[f32] = {
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                    }
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x84eb6ffe = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5f5c70a4 {
+                            0x4cec2c8a: u8 = 2
+                            0xb386dcf1: hash = 0xb1c6c84a
+                        }
+                    }
+                }
             }
             0xeed67cd5: list[string] = {
                 "ASSETS/Spells/Icons2D/Terrify.dds"
@@ -53,7 +75,8 @@ entries: map[hash,embed] = {
                     0x57b8b11b: link = 0xd7c27163
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Cherry_DualWield_Name"
-                        "keySummary" = "Cherry_DualWield_Tooltip"
+                        "keySummary" = "Cherry_DualWield_Summary"
+                        "keyTooltip" = "Cherry_DualWield_Tooltip"
                     }
                 }
             }

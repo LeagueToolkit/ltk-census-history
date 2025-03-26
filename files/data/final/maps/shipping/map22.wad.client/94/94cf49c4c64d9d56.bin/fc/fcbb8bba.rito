@@ -1,0 +1,81 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xfcbb8bba = 0xff9d3409 {
+        0x8d39bde6: string = "Characters/TFT_Project_Props/Skins/Skin5/Materials/TFT_DistanceFade_Mat"
+        0x0a6f0eb5: list2[embed] = {
+            0x0904b150 {
+                0xb311d4ef: string = "Noise_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/Noise_Clouds_01.dds"
+            }
+            0x0904b150 {
+                0xb311d4ef: string = "Diffuse_Texture"
+                0xf0a363e3: string = "ASSETS/Characters/TFT_Project_Props/Skins/Skin05/Project_Arena_Prop_A.TFT_ArenaSkin_Project2021.tex"
+                0x111ec6d2: u32 = 1
+                0x101ec53f: u32 = 1
+                0x0f1ec3ac: u32 = 1
+            }
+        }
+        0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "NoiseTiling"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "FadeDistance"
+                0x425ed3ca: vec4 = { 2500, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "FadeWidth"
+                0x425ed3ca: vec4 = { 25, 0, 0, 0 }
+            }
+        }
+        0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "PER_VERTEX"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_CAMERA_PLANE"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_NOISE_TEXTURE"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_CAMERA_DISTANCE_GLOBALS"
+                0x61342fd0: bool = false
+            }
+        }
+        0xe6d67ded: map[string,string] = {
+            "NUM_BLEND_WEIGHTS" = "4"
+            "DEBUG_FULLBRIGHT" = "1"
+        }
+        0x844f384e: list[embed] = {
+            0x060a4413 {
+                0x8d39bde6: string = "normal"
+                0x623cd25c: list[embed] = {
+                    0x8537d0c2 {
+                        0x355d5568: link = 0x696e335e
+                        0x23b75597: bool = true
+                        0x22c0c7d0: u32 = 6
+                        0xa0958d01: u32 = 6
+                        0xbe0abbf5: u32 = 7
+                        0x7385e534: u32 = 7
+                    }
+                }
+            }
+        }
+        0x9330e6b6: list[embed] = {
+            0x735b4c95 {
+                0x8d39bde6: string = "transition"
+                0xb696a5fe: string = "normal"
+                0xe6d67ded: map[string,string] = {
+                    "TRANSITION" = "1"
+                }
+            }
+        }
+    }
+}

@@ -5,10 +5,21 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x413806c4 = 0xd186c31a {
         0x19efbfdb: string = "TFT6_Augment_WoodlandCharm"
-        0xadb3e562: embed = 0xd65315ee {}
+        0xadb3e562: embed = 0xd65315ee {
+            0xdf085b93: map[hash,pointer] = {
+                0x35be99a8 = 0x977517c6 {
+                    0x24f2ec89: f32 = 0.25
+                }
+                0x7a209a48 = 0x977517c6 {
+                    0x24f2ec89: f32 = 0.3
+                }
+            }
+        }
         0xa47a6adf: list2[hash] = {
             0xcf1fd3af
             0xb72bd3bf
+            0xa7b22c38
+            0xd02ae323
         }
         0xb4ee03e8: bool = true
         0xc3143d66: string = "TFT6_Augment_WoodlandCharm_Name"

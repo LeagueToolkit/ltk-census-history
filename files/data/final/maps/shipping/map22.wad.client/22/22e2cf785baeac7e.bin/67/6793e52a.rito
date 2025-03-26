@@ -5,19 +5,16 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x6793e52a = 0x84972e16 {
         0x8d39bde6: string = "TFT_OpeningEncounter_LootSubscription"
-        0xac397529: f32 = 7.5
+        0xac397529: f32 = 4
         0xd2538e5a: map[string,pointer] = {
             "EncounterStartSFX" = 0xa188bd55 {
-                0x24f2ec89: string = "Play_vo_tft13_Encounter2DLieutenant"
-            }
-            "EncounterEndSFX" = 0xa188bd55 {
-                0x24f2ec89: string = "Play_sfx_tft11_encounters_end"
+                0x24f2ec89: string = "Play_vo_TFT14_Encounter2DUrgot"
             }
             "ChampionSkin" = 0xa188bd55 {
-                0x24f2ec89: string = "TFT13_Lieutenant"
+                0x24f2ec89: string = "TFT14_Urgot"
             }
             "EncounterLength" = 0x4012fd7e {
-                0x24f2ec89: i32 = 5
+                0x24f2ec89: i32 = 7
             }
             "EncounterRulesText" = 0xf4700e9c {
                 0x24f2ec89: string = "TFT_OpeningEncounter_LootSubscription"
@@ -30,6 +27,9 @@ entries: map[hash,embed] = {
             }
             "EncounterRulesText_HR" = 0xf4700e9c {
                 0x24f2ec89: string = "TFT_OpeningEncounter_LootSubscription_HR"
+            }
+            "AnimationOverride" = 0xa188bd55 {
+                0x24f2ec89: string = "Hook_Launch"
             }
         }
         0xd292c403: list2[hash] = {

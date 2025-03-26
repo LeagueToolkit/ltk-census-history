@@ -17,17 +17,7 @@ entries: map[hash,embed] = {
                 "PositiveEffect_MoveBlock"
             }
             0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        75
-                        75
-                        115
-                        155
-                        195
-                        235
-                        235
-                    }
-                }
+                0x92d4987c {}
                 0x92d4987c {
                     0x425ed3ca: list[f32] = {
                         2
@@ -101,6 +91,18 @@ entries: map[hash,embed] = {
                         0.7
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "BaseDamage"
+                    0x246b0d8e: list[f32] = {
+                        35
+                        75
+                        115
+                        155
+                        195
+                        235
+                        275
+                    }
+                }
             }
             0xfb56608c: map[hash,embed] = {
                 0x497ae878 = 0x6b2f7a8d {
@@ -108,13 +110,13 @@ entries: map[hash,embed] = {
                         0x005008a6 {
                             0x19efbfdb: string = "WAPRatio"
                             0x246b0d8e: list[f32] = {
-                                0.8
-                                0.8
-                                0.8
-                                0.8
-                                0.8
-                                0.8
-                                0.8
+                                0.7
+                                0.7
+                                0.7
+                                0.7
+                                0.7
+                                0.7
+                                0.7
                             }
                         }
                     }
@@ -123,22 +125,21 @@ entries: map[hash,embed] = {
             0xf9c2333e: map[hash,embed] = {
                 0x497ae878 = 0x92d4987c {
                     0x425ed3ca: list[f32] = {
+                        18
+                        16
+                        14
                         12
-                        12
-                        11
                         10
-                        9
                         8
-                        8
+                        6
                     }
                 }
             }
             0x94572284: map[hash,pointer] = {
                 0x1ddee768 = 0xbc409284 {
-                    0xd6b7a622: bool = true
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
                         }
                         0x5f5c70a4 {
                             0xb386dcf1: hash = 0x27fc417a
@@ -146,14 +147,13 @@ entries: map[hash,embed] = {
                     }
                 }
             }
-            0x295c2889: f32 = 0.7
             0xfbd16fb5: string = "Spell4"
             0xeed67cd5: list[string] = {
-                "ASSETS/Characters/Leblanc/HUD/Icons2D/LeBlancW.dds"
-                "ASSETS/Characters/Leblanc/HUD/Icons2D/LeBlancRW.dds"
+                "ASSETS/Characters/Leblanc/HUD/Icons2D/LeblancW.Leblanc_Rework.dds"
+                "ASSETS/Characters/Leblanc/HUD/Icons2D/LeblancRW.Leblanc_Rework.dds"
             }
             0x9ecac3a1: list[f32] = {
-                18
+                15
                 15
                 13.75
                 12.5
@@ -242,7 +242,7 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
@@ -283,42 +283,6 @@ entries: map[hash,embed] = {
         }
         0x7f0f5a79: pointer = 0x4633d794 {
             0xf1f20d72: string = "game_buff_tooltip_LeblancW"
-        }
-        0x4048c61e: pointer = 0xf195e56b {
-            0x450d68a0: u32 = 1
-            0x6d548702: pointer = 0xbc409284 {
-                0x50f145c0: list[pointer] = {
-                    0xf3cbe7b2 {
-                        0x88536426: hash = 0x1ddee768
-                    }
-                }
-            }
-            0xec17e271: list2[embed] = {
-                0xb09016f6 {
-                    0x77e5e41c: u32 = 128
-                    0x725bd4d5: pointer = 0xbc409284 {
-                        0x50f145c0: list[pointer] = {
-                            0x8bc08357 {
-                                0x8afb1a5f: i32 = 4
-                            }
-                        }
-                    }
-                }
-            }
-            0x38382c53: list2[embed] = {
-                0x150d1b92 {
-                    0xe38f54f7: u32 = 1
-                    0x0717e686: bool = false
-                }
-                0x150d1b92 {
-                    0xe38f54f7: u32 = 4
-                    0x0717e686: bool = false
-                }
-                0x150d1b92 {
-                    0xe38f54f7: u32 = 1024
-                    0x0717e686: bool = false
-                }
-            }
         }
     }
 }

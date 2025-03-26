@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x55f136b6 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT14_Suits_Heist23_Option1"
+        0x0773669d: map[string,pointer] = {
+            "Treasure" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Item_TacticiansScepter"
+                    "TFT_Assist_MasterworkUpgrade_3"
+                    "TFT_Assist_6x5cost"
+                    "TFT_Assist_ChampionDuplicator_2"
+                    "TFT_Item_TacticiansScepter"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

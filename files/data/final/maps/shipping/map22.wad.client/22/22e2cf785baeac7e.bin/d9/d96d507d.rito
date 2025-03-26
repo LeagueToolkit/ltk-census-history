@@ -1,0 +1,59 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd96d507d = 0x60e00531 {
+        0x19efbfdb: string = "TFT_ItemDistribution_PAIRS"
+        0x0773669d: map[string,pointer] = {
+            "StageLootBase" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "Stage1Base"
+                    "Stage2Base"
+                    "Stage3Base"
+                    "Stage4Base"
+                }
+            }
+            "StageLootHigh" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "Stage1High"
+                    "Stage2High"
+                    "Stage3High"
+                    "Stage4High"
+                }
+            }
+            "EpicNPCLoot" = 0xbe542f32 {}
+            "HighOdds" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_HighOdds"
+            }
+            "SilverOrbUpgradeStage" = 0x4012fd7e {
+                0x24f2ec89: i32 = 3
+            }
+            "BlueOrbUpgradeStage" = 0x4012fd7e {
+                0x24f2ec89: i32 = 4
+            }
+            "GoldOrbUpgradeStage" = 0x4012fd7e {
+                0x24f2ec89: i32 = 4
+            }
+            "PrismaticOrbUpgradeStage" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+            "MinItems" = 0x4012fd7e {
+                0x24f2ec89: i32 = 9
+            }
+            "MaxItems" = 0x4012fd7e {
+                0x24f2ec89: i32 = 15
+            }
+            "MinBonus" = 0x4012fd7e {
+                0x24f2ec89: i32 = 20
+            }
+            "MaxBonus" = 0x4012fd7e {
+                0x24f2ec89: i32 = 79
+            }
+            "TargetItemsToRemove" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

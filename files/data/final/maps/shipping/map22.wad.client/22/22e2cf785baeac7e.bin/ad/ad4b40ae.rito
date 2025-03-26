@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xad4b40ae = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_HackedTreasureDragon_Chaos2"
+        0x0773669d: map[string,pointer] = {
+            "TreasureChaos" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "GOLD_7"
+                    "COMPONENT_NOSPAT"
+                    "ORNNARTIFACTS_NoGold"
+                    "GOLD_8"
+                    "REMOVERREFORGER"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

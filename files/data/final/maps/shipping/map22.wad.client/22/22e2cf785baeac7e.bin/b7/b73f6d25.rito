@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb73f6d25 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_HackedTreasureDragon_Base5"
+        0x0773669d: map[string,pointer] = {
+            "Treasure" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "COMPONENT_NOSPAT"
+                    "LESSERDUPLICATOR"
+                    "GOLD_16"
+                    "AUGMENT_SILVER"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
