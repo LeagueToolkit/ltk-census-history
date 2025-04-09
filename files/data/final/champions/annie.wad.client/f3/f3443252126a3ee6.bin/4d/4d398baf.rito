@@ -26,25 +26,25 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "AuraDamage"
                     0x246b0d8e: list[f32] = {
-                        10
+                        4
+                        8
+                        12
+                        16
                         20
-                        30
-                        40
-                        50
-                        60
-                        70
+                        24
+                        28
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "TibbersAttackDamage"
                     0x246b0d8e: list[f32] = {
-                        25
-                        50
+                        15
+                        30
+                        45
+                        60
                         75
-                        100
-                        125
-                        150
-                        175
+                        90
+                        105
                     }
                 }
                 0x005008a6 {
@@ -62,13 +62,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "TibbersAttackAPRatio"
                     0x246b0d8e: list[f32] = {
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
                     }
                 }
                 0x005008a6 {
@@ -141,6 +141,18 @@ entries: map[hash,embed] = {
                         1
                         1
                         1
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "RPercentPenBuff"
+                    0x246b0d8e: list[f32] = {
+                        0.075
+                        0.1
+                        0.125
+                        0.15
+                        0.175
+                        0.2
+                        0.225
                     }
                 }
             }
@@ -227,7 +239,7 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0xf7e6cdeb
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.12
+                            0x295c2889: f32 = 0.04
                         }
                     }
                 }
@@ -396,6 +408,12 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"
                                     0x566f3406: string = "Spell_AnnieR_LevelUp_Cooldown"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "RPercentPenBuff"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_AnnieR_PercPen"
+                                    0xac307ed6: u32 = 1
                                 }
                             }
                         }

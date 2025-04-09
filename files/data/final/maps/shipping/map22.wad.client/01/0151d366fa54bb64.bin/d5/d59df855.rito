@@ -1,0 +1,42 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd59df855 = 0xff9d3409 {
+        0x8d39bde6: string = "Maps/KitPieces/TFT/Set14/Materials/Default/Level1_Lux_Book_A_Mat"
+        0x5127f14d: u32 = 0
+        0x0a6f0eb5: list2[embed] = {
+            0x0904b150 {
+                0xb311d4ef: string = "DiffuseTexture"
+                0xf0a363e3: string = "ASSETS/Maps/KitPieces/TFT/Set14/Textures/Level1_Lux_Book_A.TFT_ArenaSkin_Lux.tex"
+                0x0f1ec3ac: u32 = 1
+            }
+        }
+        0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "TintColor"
+                0x425ed3ca: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "PitchFactor"
+            }
+        }
+        0x844f384e: list[embed] = {
+            0x060a4413 {
+                0x8d39bde6: string = "normal"
+                0x623cd25c: list[embed] = {
+                    0x8537d0c2 {
+                        0x355d5568: link = 0xb965c5a4
+                        0x445cbefc: bool = true
+                        0x23b75597: bool = true
+                        0x97a78d34: u32 = 6
+                        0xb68bc527: u32 = 255
+                        0x22c0c7d0: u32 = 6
+                        0xbe0abbf5: u32 = 7
+                    }
+                }
+            }
+        }
+    }
+}

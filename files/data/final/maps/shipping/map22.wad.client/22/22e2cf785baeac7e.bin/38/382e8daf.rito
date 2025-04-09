@@ -1,0 +1,18 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x382e8daf = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_Assist_StageLate_MedC"
+        0x0773669d: map[string,pointer] = {
+            "Assists" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Assist_Gold_25"
+                    "TFT_Assist_RandomOrnnItem"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

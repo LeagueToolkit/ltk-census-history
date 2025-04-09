@@ -57,19 +57,31 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "CurrentHealthDamage"
+                    0x19efbfdb: string = "HealthDamage"
                     0x246b0d8e: list[f32] = {
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
+                        5.5
+                        6
+                        6.5
+                        7
+                        7.5
+                        8
+                        8.5
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "MinimumDamage"
+                    0x19efbfdb: string = "HealthAPRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.03
+                        0.03
+                        0.03
+                        0.03
+                        0.03
+                        0.03
+                        0.03
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MinimumMinionDamage"
                     0x246b0d8e: list[f32] = {
                         35
                         70
@@ -83,43 +95,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "MonsterMaxDamage"
                     0x246b0d8e: list[f32] = {
-                        35
-                        70
-                        105
-                        140
+                        25
+                        50
+                        75
+                        100
+                        125
+                        150
                         175
-                        210
-                        245
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "GhoulBonusDamage"
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "GhoulBonusCount"
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "BaseDamage"
-                    0x246b0d8e: list[f32] = {
-                        35
-                        70
-                        105
-                        140
-                        175
-                        210
-                        245
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "APRatio"
-                    0x246b0d8e: list[f32] = {
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
                     }
                 }
                 0x005008a6 {
@@ -166,23 +148,26 @@ entries: map[hash,embed] = {
                 }
             }
             0x94572284: map[hash,pointer] = {
-                0x73f91559 = 0xbc409284 {
+                0x65333142 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x2540cffc
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 0.7
+                            0x295c2889: f32 = 1
                         }
                     }
                 }
-                0x281df70d = 0xbc409284 {
-                    0xcbcac618: u8 = 5
-                    0x37070a8d: u8 = 5
-                    0xe6eebb2f: u8 = 5
+                0xfa5a6992 = 0xbc409284 {
+                    0x2c77adff: pointer = 0x9ef92080 {
+                        0xe202bca9: f32 = 0.01
+                    }
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
-                            0xb386dcf1: hash = 0xaaf198e1
+                            0xb386dcf1: hash = 0x9169335e
+                        }
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xdf972d75
                         }
                     }
                     0x5a2297d3: bool = true
@@ -198,13 +183,13 @@ entries: map[hash,embed] = {
                     }
                     0x5a2297d3: bool = true
                 }
-                0x12cfcbfc = 0xbc409284 {
+                0xd9c290a2 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
-                            0xb386dcf1: hash = 0x03da00f9
+                            0xb386dcf1: hash = 0x855c08d0
                         }
-                        0x5f5c70a4 {
-                            0xb386dcf1: hash = 0xe30c799f
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 1
                         }
                     }
                 }
@@ -272,16 +257,12 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_YorickE_Name"
                         "keySummary" = "Spell_YorickE_Summary"
                         "keyTooltip" = "Spell_YorickE_Tooltip"
+                        "keyTooltipExtendedBelowLine" = "Spell_YorickE_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "BaseDamage"
-                                    0x33c02d93: i32 = 1
-                                    0x566f3406: string = "Spell_ListType_Damage"
-                                }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "ArmorShred"
                                     0xf506c7e6: f32 = 100
@@ -299,6 +280,10 @@ entries: map[hash,embed] = {
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cost"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "HealthDamage"
+                                    0x566f3406: string = "Spell_ListType_MaxHealthDamage"
                                 }
                             }
                         }
