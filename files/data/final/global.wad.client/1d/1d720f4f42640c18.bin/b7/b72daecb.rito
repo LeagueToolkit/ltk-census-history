@@ -22,24 +22,41 @@ entries: map[hash,embed] = {
         }
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
-                0x19efbfdb: string = "MissingHealthAndManaRatioTOOLTIP"
-                0x24f2ec89: f32 = 0.08
-            }
-            0xb2c62c87 {
                 0x19efbfdb: string = "PotionDurationTOOLTIP"
                 0x24f2ec89: f32 = 5
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "MissingHealthOnlyRatioTOOLTIP"
-                0x24f2ec89: f32 = 0.12
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "BonusMaxManaTOOLTIP"
-                0x24f2ec89: f32 = 40
-            }
-            0xb2c62c87 {
                 0x19efbfdb: string = "BonusMaxHealthTOOLTIP"
                 0x24f2ec89: f32 = 30
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "FlatHealTOOLTIP"
+                0x24f2ec89: f32 = 20
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MaxHPMultiplierTOOLTIP"
+                0x24f2ec89: f32 = 0.02
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MaxHealIncreaseTOOLTIP"
+                0x24f2ec89: f32 = 100
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MinHPThresholdTOOLTIP"
+                0x24f2ec89: f32 = 0.3
+            }
+        }
+        0x0ac4f0d5: map[hash,pointer] = {
+            0x96201921 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 12
+                        0xb386dcf1: hash = 0xd3850e11
+                    }
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x4fe025a7
+                    }
+                }
             }
         }
         0x46493f5f: f32 = 0.1
@@ -58,6 +75,7 @@ entries: map[hash,embed] = {
                     "keyName" = "Item_2010_Name"
                     "keyActive" = "Item_2010_Active"
                     "keyActiveExternal" = "Item_2010_ActiveExternal"
+                    "keyActiveExtended" = "Item_2010_ActiveExtended"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {}

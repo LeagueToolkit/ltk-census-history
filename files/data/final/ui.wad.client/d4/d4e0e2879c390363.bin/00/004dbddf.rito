@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x004dbddf = 0xd71d9476 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/DeathRecap/UIBase/DRTeammateSpectate/RespawnText"
+        0x2063cb13: link = 0x507d3903
+        0x02f3b39e: bool = true
+        0x934f4e0a: pointer = 0x44600fb6 {
+            0x3a8bfbed: embed = 0x4eb9ba4f {
+                0x934f4e0a: vec2 = { 700, 801 }
+                0x23a0d95c: vec2 = { 200, 50 }
+                0xf6647cd6: u16 = 1600
+                0xa19b2e69: u16 = 1200
+            }
+            0x23563745: pointer = 0x5338e7f0 {
+                0x42edcab4: vec2 = { 0.5, 1 }
+            }
+            0x487fcd1a: bool = true
+        }
+        0xb157685d: string = "UI_DeathRecap_RespawnText"
+        0x403767da: link = 0xb9856a0c
+        0xceaf4fab: u8 = 1
+        0xe1d30578: link = 0x9c87124a
+    }
+}

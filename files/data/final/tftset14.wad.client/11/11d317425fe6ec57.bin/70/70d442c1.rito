@@ -25,8 +25,8 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "SlamPrimaryTargetBaseDamage"
                     0x246b0d8e: list[f32] = {
                         0
-                        200
                         300
+                        450
                         13370
                         13370
                         0
@@ -34,35 +34,23 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "SlamTargetHealthRatio"
+                    0x19efbfdb: string = "SlamSecondaryTargetBaseDamage"
                     0x246b0d8e: list[f32] = {
                         0
-                        0.03
-                        0.05
-                        1
+                        150
+                        225
+                        1337
+                        1337
                         3
                         3
-                        3
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "SlamTargetHealthRatio_AP"
-                    0x246b0d8e: list[f32] = {
-                        0
-                        0.06
-                        0.1
-                        1
-                        3
-                        0
-                        0
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "PassiveHealthThreshold"
                     0x246b0d8e: list[f32] = {
                         0.3
-                        0.35
-                        0.35
+                        0.5
+                        0.5
                         0.9
                         0.3
                         0.3
@@ -73,8 +61,8 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "PassiveShieldHealthRatio"
                     0x246b0d8e: list[f32] = {
                         0
-                        0.7
-                        0.7
+                        1
+                        1
                         4
                         5
                         0
@@ -82,7 +70,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "ShieldDecayDuration"
+                    0x19efbfdb: string = "ShieldDuration"
                     0x246b0d8e: list[f32] = {
                         4
                         4
@@ -96,21 +84,21 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "EnrageAS"
                     0x246b0d8e: list[f32] = {
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
+                        1.25
+                        1.25
+                        1.25
+                        1.25
+                        1.25
+                        1.25
+                        1.25
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "EnrageOmnivamp"
                     0x246b0d8e: list[f32] = {
                         0.2
-                        0.2
-                        0.2
+                        0.3
+                        0.3
                         1
                         1
                         0.2
@@ -121,48 +109,36 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "OnHitDamage"
                     0x246b0d8e: list[f32] = {
                         0
-                        90
-                        135
-                        314
-                        0
+                        100
+                        150
+                        999
+                        999
                         0
                         0
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "DR"
+                    0x19efbfdb: string = "EnrageOnHitBonus"
                     0x246b0d8e: list[f32] = {
-                        0.6
                         0.33
                         0.33
-                        0.99
-                        1
-                        0.6
-                        0.6
+                        0.33
+                        0.33
+                        0.33
+                        0.33
+                        0.33
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "CyberbossRatio"
+                    0x19efbfdb: string = "CyberbossOnHitPercentDamage"
                     0x246b0d8e: list[f32] = {
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                        0.3
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "EnrageMana"
-                    0x246b0d8e: list[f32] = {
-                        100
-                        100
-                        100
-                        100
-                        100
-                        100
-                        100
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
                     }
                 }
             }
@@ -202,26 +178,40 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0xdd787028 = 0xbc409284 {
+                0xaedee620 = 0xbc409284 {
+                    0xcbcac618: u8 = 5
+                    0x37070a8d: u8 = 5
+                    0xe6eebb2f: u8 = 5
+                    0x50f145c0: list[pointer] = {
+                        0x995bf516 {
+                            0x1cd83c4b: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0x877bccff
+                            }
+                            0xb8dcfcbb: f32 = 0.01
+                        }
+                    }
+                }
+                0x47cf77b3 = 0xbc409284 {
                     0xcbcac618: u8 = 5
                     0x37070a8d: u8 = 5
                     0xe6eebb2f: u8 = 5
                     0x50f145c0: list[pointer] = {
                         0x84a63373 {
                             0xa066cc28: list[pointer] = {
-                                0x332eb441 {
-                                    0xb386dcf1: hash = 0xdceb8942
+                                0xf3cbe7b2 {
+                                    0x88536426: hash = 0x50e8d20d
                                 }
-                                0x995bf516 {
-                                    0x1cd83c4b: pointer = 0x332eb441 {
-                                        0xb386dcf1: hash = 0x4a3b5e66
+                                0xad106e67 {
+                                    0x46144074: pointer = 0xf3cbe7b2 {
+                                        0x88536426: hash = 0x50e8d20d
                                     }
-                                    0xb8dcfcbb: f32 = 0.01
+                                    0x4914452d: pointer = 0x332eb441 {
+                                        0xb386dcf1: hash = 0x8e6107e2
+                                    }
                                 }
                             }
                         }
                     }
-                    0x5a2297d3: bool = true
                 }
             }
             0xfbd16fb5: string = ""
@@ -235,6 +225,9 @@ entries: map[hash,embed] = {
                 0
                 0
             }
+            0x0ce7b561: bool = true
+            0xdb633223: bool = true
+            0x1e4e8270: bool = true
             0x1b9cbd9b: list[f32] = {
                 25000
                 25000
@@ -296,8 +289,7 @@ entries: map[hash,embed] = {
                                     0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "SlamTargetHealthRatio"
-                                    0xf506c7e6: f32 = 100
+                                    0x5127f14d: string = "SlamSecondaryTargetBaseDamage"
                                     0x566f3406: string = "Spell_TFT14_KobukoSpell_TargetHealthPercent"
                                     0xac307ed6: u32 = 1
                                 }
