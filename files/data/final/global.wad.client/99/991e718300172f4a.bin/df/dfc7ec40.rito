@@ -7,65 +7,77 @@ entries: map[hash,embed] = {
         0x897eefc2: link = 0xbaebc346
         0x48a52ed9: list[embed] = {
             0x816753d8 {
-                0x8d39bde6: string = "Parameter0"
-                0xd872e2a5: vec4 = { 0, 1, 1, 0.5 }
+                0x8d39bde6: string = "SketchContrast"
+                0xd872e2a5: vec4 = { 0, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "SketchContrast"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "SketchSpeed"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "SketchSpeed"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "GradientCoverage"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter1"
-                0xd872e2a5: vec4 = { 1, 1, 1.5, 1 }
+                0x8d39bde6: string = "SketchUVTile"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "SketchUVTile"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "GradientCoverage"
+                0xd872e2a5: vec4 = { 0.5, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "GradientAlphaIntensity"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "AlphaIntensity"
-                        0x0640657c: u32 = 8
+                        0x8d39bde6: string = "GradientCoverage"
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
-                0xd872e2a5: vec4 = { 1, 1.5, 1, 2.5 }
+                0x8d39bde6: string = "GradientAlphaIntensity"
+                0xd872e2a5: vec4 = { 1.5, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "GradientAlphaIntensity"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "AlphaIntensity"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "AlphaIntensity"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "AlphaControl"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "AlphaControl"
                         0x0640657c: u32 = 1
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "DiffuseBrightness"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "OverlayTexBrightness"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "GradientColorIntensity"
-                        0x0640657c: u32 = 8
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
+                0x8d39bde6: string = "DiffuseTexTint"
                 0xd872e2a5: vec4 = { 1, 1, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -75,7 +87,17 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
+                0x8d39bde6: string = "DiffuseBrightness"
+                0xd872e2a5: vec4 = { 1.5, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "DiffuseBrightness"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "OverlayTexTint"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "OverlayTexTint"
@@ -84,21 +106,27 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter5"
-                0xd872e2a5: vec4 = { 0.8, 0.9, 0.09, 0.1 }
+                0x8d39bde6: string = "OverlayTexBrightness"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "OverlayTexBrightness"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "OverlayContrast"
+                0xd872e2a5: vec4 = { 0.8, 0.9, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "OverlayContrast"
                         0x0640657c: u32 = 3
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "GradientNoiseContrast"
-                        0x0640657c: u32 = 12
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter6"
+                0x8d39bde6: string = "GradientTint"
                 0xd872e2a5: vec4 = { 0, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -108,39 +136,56 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter7"
+                0x8d39bde6: string = "GradientNoiseContrast"
+                0xd872e2a5: vec4 = { 0.09, 0.1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "GradientNoiseContrast"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "GradientNoiseTile"
                 0xd872e2a5: vec4 = { 1, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "GradientNoiseTile"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "GradientNoiseSpeed"
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "GradientNoiseSpeed"
-                        0x0640657c: u32 = 12
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter8"
-                0xd872e2a5: vec4 = { 0.75, 0.55, 0.6, 2 }
+                0x8d39bde6: string = "GradientColorIntensity"
+                0xd872e2a5: vec4 = { 2.5, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "GradientColorIntensity"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "DiffuseBlendBias"
+                0xd872e2a5: vec4 = { 0.75, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DiffuseBlendBias"
                         0x0640657c: u32 = 1
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "OutlineContrast"
-                        0x0640657c: u32 = 6
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "OutlineIntensity"
-                        0x0640657c: u32 = 8
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter9"
+                0x8d39bde6: string = "OverallTint"
                 0xd872e2a5: vec4 = { 0.32309452, 0.5063859, 0.6327001, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -150,75 +195,133 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter10"
+                0x8d39bde6: string = "OutlineContrast"
+                0xd872e2a5: vec4 = { 0.55, 0.6, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "OutlineContrast"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "OutlineIntensity"
+                0xd872e2a5: vec4 = { 2, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "OutlineIntensity"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "OutlineTile"
                 0xd872e2a5: vec4 = { 0.2, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "OutlineTile"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "OutlineSpeed"
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "OutlineSpeed"
-                        0x0640657c: u32 = 12
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter11"
-                0xd872e2a5: vec4 = { 0.3, 0.1, 0.5, 0 }
+                0x8d39bde6: string = "BloomIntensity"
+                0xd872e2a5: vec4 = { 0.3, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "BloomIntensity"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "SketchCoverage"
+                0xd872e2a5: vec4 = { 0.1, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "SketchCoverage"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "SketchCoverageMask"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "DiffuseRotationSpeed"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter12"
-                0xd872e2a5: vec4 = { 1, 1, 0.5, 0.5 }
+                0x8d39bde6: string = "SketchCoverageMask"
+                0xd872e2a5: vec4 = { 0.5, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "SketchCoverageMask"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "DiffuseTile"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DiffuseTile"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "DiffuseRotationCenter"
+                0xd872e2a5: vec4 = { 0.5, 0.5, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DiffuseRotationCenter"
-                        0x0640657c: u32 = 12
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter13"
-                0xd872e2a5: vec4 = { 0, 0, 1, 1 }
+                0x8d39bde6: string = "DiffuseRotationSpeed"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "DiffuseRotationSpeed"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "DiffuseXScrollSpeed"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DiffuseXScrollSpeed"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "DiffuseYScrollSpeed"
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DiffuseYScrollSpeed"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "OverlayTile"
-                        0x0640657c: u32 = 12
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter14"
+                0x8d39bde6: string = "OverlayTile"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "OverlayTile"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "OutlineSize"
                 0xd872e2a5: vec4 = { 1, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {

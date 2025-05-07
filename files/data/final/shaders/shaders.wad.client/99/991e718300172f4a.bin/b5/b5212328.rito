@@ -7,43 +7,47 @@ entries: map[hash,embed] = {
         0x897eefc2: link = 0xbaebc346
         0x48a52ed9: list[embed] = {
             0x816753d8 {
-                0x8d39bde6: string = "Parameter0"
-                0xd872e2a5: vec4 = { 2, 0.5, 0.5, 2 }
+                0x8d39bde6: string = "ColorTexTilling"
+                0xd872e2a5: vec4 = { 2, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "ColorTexTilling"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "ColorTexSpeed"
+                0xd872e2a5: vec4 = { 0.5, 0.5, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "ColorTexSpeed"
-                        0x0640657c: u32 = 6
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "NoiseTexTilling"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter1"
-                0xd872e2a5: vec4 = { -0.003, -0.005, 1, 0.02 }
+                0x8d39bde6: string = "NoiseTexTilling"
+                0xd872e2a5: vec4 = { 2, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "NoiseTexTilling"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "NoiseTexSpeed"
+                0xd872e2a5: vec4 = { -0.003, -0.005, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "NoiseTexSpeed"
                         0x0640657c: u32 = 3
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "EdgePosition"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "EdgeSoftness"
-                        0x0640657c: u32 = 8
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
+                0x8d39bde6: string = "Color"
                 0xd872e2a5: vec4 = { 0.11372549, 0, 0.3882353, 0.8 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -53,16 +57,41 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
+                0x8d39bde6: string = "EdgePosition"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "EdgePosition"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "EdgeSoftness"
+                0xd872e2a5: vec4 = { 0.02, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "EdgeSoftness"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "EdgeNoiseIntensity"
                 0xd872e2a5: vec4 = { 0.2, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "EdgeNoiseIntensity"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "ErosionFactor"
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "ErosionFactor"
-                        0x0640657c: u32 = 2
+                        0x0640657c: u32 = 1
                     }
                 }
             }

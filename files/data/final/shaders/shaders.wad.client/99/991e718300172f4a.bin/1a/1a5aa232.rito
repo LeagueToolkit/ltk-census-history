@@ -6,25 +6,27 @@ entries: map[hash,embed] = {
     0x1a5aa232 = 0x205255d6 {
         0x48a52ed9: list[embed] = {
             0x816753d8 {
-                0x8d39bde6: string = "Parameter0"
-                0xd872e2a5: vec4 = { 0.5, 1, 64, 64 }
+                0x8d39bde6: string = "Glitch_Speed"
+                0xd872e2a5: vec4 = { 0.5, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Glitch_Speed"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Glitch_Strength"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Glitch_Strength"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Pixelation_Size"
-                        0x0640657c: u32 = 12
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter1"
+                0x8d39bde6: string = "Alpha_Contrast"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Alpha_Contrast"
@@ -33,25 +35,26 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
-                0xd872e2a5: vec4 = { 0, 0, 1, 1 }
+                0x8d39bde6: string = "Pixelation_Size"
+                0xd872e2a5: vec4 = { 64, 64, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Pixelation_Size"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Pixelate_Strength"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Pixelate_Strength"
                         0x0640657c: u32 = 1
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Pixelate_Frequency"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Alpha_DistortionUV_Strength"
-                        0x0640657c: u32 = 12
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
+                0x8d39bde6: string = "Effects_Mask_Tiling"
                 0xd872e2a5: vec4 = { 1, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -61,7 +64,16 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
+                0x8d39bde6: string = "Pixelate_Frequency"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Pixelate_Frequency"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Alpha_Scroll_Tiling"
                 0xd872e2a5: vec4 = { 1, 1, 0, 0.01 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -71,7 +83,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter5"
+                0x8d39bde6: string = "Scanline_Size"
                 0xd872e2a5: vec4 = { 0.5, 0.75, 20, 12 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -81,7 +93,17 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter6"
+                0x8d39bde6: string = "Alpha_DistortionUV_Strength"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Alpha_DistortionUV_Strength"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "DistortionA_Tiling"
                 0xd872e2a5: vec4 = { 1, 1, 0.01, -0.03 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -91,25 +113,27 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter7"
-                0xd872e2a5: vec4 = { 1, 1, 0.3, 0.3 }
+                0x8d39bde6: string = "DistortionA_UV_Strength"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DistortionA_UV_Strength"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "DistortionA_Strength"
+                0xd872e2a5: vec4 = { 0.3, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DistortionA_Strength"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "DistortionB_Strength"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter8"
+                0x8d39bde6: string = "DistortionB_Tiling"
                 0xd872e2a5: vec4 = { 1, 1, -0.03, 0.01 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -119,25 +143,27 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter9"
-                0xd872e2a5: vec4 = { 1, 1, 1, 0 }
+                0x8d39bde6: string = "DistortionB_UV_Strength"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DistortionB_UV_Strength"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "DistortionB_Strength"
+                0xd872e2a5: vec4 = { 0.3, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "Alpha_Distortion_Strength"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Gradient_Shift"
-                        0x0640657c: u32 = 8
+                        0x8d39bde6: string = "DistortionB_Strength"
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter10"
+                0x8d39bde6: string = "Alpha_Remap_Param_U"
                 0xd872e2a5: vec4 = { 0, 1, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -147,7 +173,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter11"
+                0x8d39bde6: string = "Alpha_Remap_Param_V"
                 0xd872e2a5: vec4 = { 0, 1, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -157,7 +183,17 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter12"
+                0x8d39bde6: string = "Alpha_Distortion_Strength"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Alpha_Distortion_Strength"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Base_Diffuse_Tiling"
                 0xd872e2a5: vec4 = { 1, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -167,26 +203,41 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter13"
-                0xd872e2a5: vec4 = { 0.5, 1, 0, 0 }
+                0x8d39bde6: string = "Gradient_Shift"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Gradient_Shift"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Gradient_Scroll_Speed"
+                0xd872e2a5: vec4 = { 0.5, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Gradient_Scroll_Speed"
                         0x0640657c: u32 = 1
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Noise_Mask_Strength"
-                        0x0640657c: u32 = 2
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter14"
+                0x8d39bde6: string = "Noise_Mask_Tiling"
                 0xd872e2a5: vec4 = { 0.5, 0.2, 0, -0.03 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Noise_Mask_Tiling"
                         0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Noise_Mask_Strength"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Noise_Mask_Strength"
+                        0x0640657c: u32 = 1
                     }
                 }
             }

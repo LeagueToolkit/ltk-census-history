@@ -7,29 +7,46 @@ entries: map[hash,embed] = {
         0x897eefc2: link = 0xbaebc346
         0x48a52ed9: list[embed] = {
             0x816753d8 {
-                0x8d39bde6: string = "Parameter0"
-                0xd872e2a5: vec4 = { 50, 5, 0, 1 }
+                0x8d39bde6: string = "Vertex_Pulse_Max"
+                0xd872e2a5: vec4 = { 50, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Vertex_Pulse_Max"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Vertex_Pulse_Speed"
+                0xd872e2a5: vec4 = { 5, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Vertex_Pulse_Speed"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Vertex_Offset_Y"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Opacity"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter1"
+                0x8d39bde6: string = "Vertex_Offset_Y"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Vertex_Offset_Y"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Opacity"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Opacity"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Hex_Color"
                 0xd872e2a5: vec4 = { 0, 0.9843137, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -39,60 +56,100 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
-                0xd872e2a5: vec4 = { 0.3, 0.5, 0.5, 0.5 }
+                0x8d39bde6: string = "Rotator_Weight"
+                0xd872e2a5: vec4 = { 0.3, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Rotator_Weight"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Scroll_Weight"
+                0xd872e2a5: vec4 = { 0.5, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Scroll_Weight"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Inner_Opacity"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Rim_Opacity"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
-                0xd872e2a5: vec4 = { 3, 5, 1, 0.5 }
+                0x8d39bde6: string = "Inner_Opacity"
+                0xd872e2a5: vec4 = { 0.5, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Inner_Opacity"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Rim_Opacity"
+                0xd872e2a5: vec4 = { 0.5, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Rim_Opacity"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Emissive_Multiplier"
+                0xd872e2a5: vec4 = { 3, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Emissive_Multiplier"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "RotateTileXY"
+                0xd872e2a5: vec4 = { 5, 1, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "Rotate__Tile_XY"
-                        0x0640657c: u32 = 6
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Rotator_Speed"
-                        0x0640657c: u32 = 8
+                        0x8d39bde6: string = "RotateTileXY"
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
+                0x8d39bde6: string = "Rotator_Speed"
+                0xd872e2a5: vec4 = { 0.5, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Rotator_Speed"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Scroll_Tile_XY"
                 0xd872e2a5: vec4 = { 5, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Scroll_Tile_XY"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Scroll_X_Speed"
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Scroll_X_Speed"
-                        0x0640657c: u32 = 4
+                        0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Scroll_Y_Speed"
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Scroll_Y_Speed"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 1
                     }
                 }
             }

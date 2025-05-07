@@ -6,81 +6,87 @@ entries: map[hash,embed] = {
     0x176ea5f1 = 0x205255d6 {
         0x48a52ed9: list[embed] = {
             0x816753d8 {
-                0x8d39bde6: string = "Parameter0"
-                0xd872e2a5: vec4 = { 0, 1, 0, 0.5 }
+                0x8d39bde6: string = "Translate_Axis"
+                0xd872e2a5: vec4 = { 0, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Translate_Axis"
                         0x0640657c: u32 = 7
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Bobbing_Rate"
-                        0x0640657c: u32 = 8
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter1"
-                0xd872e2a5: vec4 = { 0, 100, -0.02, 0.02 }
+                0x8d39bde6: string = "Translate_Range"
+                0xd872e2a5: vec4 = { 0, 100, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Translate_Range"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Bobbing_Rate"
+                0xd872e2a5: vec4 = { 0.5, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "RotationAngle_Primary"
-                        0x0640657c: u32 = 12
+                        0x8d39bde6: string = "Bobbing_Rate"
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
-                0xd872e2a5: vec4 = { 0.5, 0, 1, 0.37 }
+                0x8d39bde6: string = "RotationalAxis_Primary"
+                0xd872e2a5: vec4 = { 0.5, 0, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "RotationalAxis_Primary"
                         0x0640657c: u32 = 7
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "RotationAngle_Primary"
+                0xd872e2a5: vec4 = { -0.02, 0.02, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "Secondary_Rotation_Rate"
-                        0x0640657c: u32 = 8
+                        0x8d39bde6: string = "RotationAngle_Primary"
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
-                0xd872e2a5: vec4 = { 0.2, 1, -0.3, 32 }
+                0x8d39bde6: string = "RotationalAxis_Secondary"
+                0xd872e2a5: vec4 = { 0.2, 1, -0.3, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "RotationalAxis_Secondary"
                         0x0640657c: u32 = 7
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Fresnel_Size_Inner"
-                        0x0640657c: u32 = 8
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
-                0xd872e2a5: vec4 = { -0.05, 0.05, 0.9, 0 }
+                0x8d39bde6: string = "RotationAngle_Secondary"
+                0xd872e2a5: vec4 = { -0.05, 0.05, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "RotationAngle_Secondary"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Secondary_Rotation_Rate"
+                0xd872e2a5: vec4 = { 0.37, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "Fresnel_Size_Outer"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Glass_Roughness"
-                        0x0640657c: u32 = 8
+                        0x8d39bde6: string = "Secondary_Rotation_Rate"
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter5"
+                0x8d39bde6: string = "Glass_Color1"
                 0xd872e2a5: vec4 = { 0.34999618, 0.22000457, 0.1600061, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -90,7 +96,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter6"
+                0x8d39bde6: string = "Glass_Color2"
                 0xd872e2a5: vec4 = { 0.7100023, 0.6399939, 0.13000686, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -100,7 +106,27 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter7"
+                0x8d39bde6: string = "Fresnel_Size_Inner"
+                0xd872e2a5: vec4 = { 32, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel_Size_Inner"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Fresnel_Size_Outer"
+                0xd872e2a5: vec4 = { 0.9, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel_Size_Outer"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "SunColor"
                 0xd872e2a5: vec4 = { 0.9100023, 0.86999315, 0.5300069, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -110,7 +136,16 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter8"
+                0x8d39bde6: string = "Glass_Roughness"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Glass_Roughness"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Alpha_Bias"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Alpha_Bias"

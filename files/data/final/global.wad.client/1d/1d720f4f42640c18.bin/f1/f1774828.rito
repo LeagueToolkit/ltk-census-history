@@ -13,7 +13,6 @@ entries: map[hash,embed] = {
             0x693b07b5
         }
         0x0b44452a: i32 = 700
-        0x51c4b876: bool = true
         0xf7250cac: bool = false
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 5
@@ -25,6 +24,10 @@ entries: map[hash,embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "BurnFlatDamagePerSecond"
                 0x24f2ec89: f32 = 20
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "APRatio"
+                0x24f2ec89: f32 = 0.02
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "BurnDuration"
@@ -43,7 +46,19 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 0.04
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "APRatio"
+                0x19efbfdb: string = "MinionDPS"
+                0x24f2ec89: f32 = 20
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MinionAP"
+                0x24f2ec89: f32 = 0.02
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MonsterDPS"
+                0x24f2ec89: f32 = 40
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MonsterAP"
                 0x24f2ec89: f32 = 0.02
             }
         }
@@ -55,6 +70,26 @@ entries: map[hash,embed] = {
                     }
                     0x5f5c70a4 {
                         0xb386dcf1: hash = 0xe30c799f
+                    }
+                }
+            }
+            0xdf8bce7f = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x9adc0c64
+                    }
+                    0x5f5c70a4 {
+                        0xb386dcf1: hash = 0x79694832
+                    }
+                }
+            }
+            0x9a14c749 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0xafd69c5a
+                    }
+                    0x5f5c70a4 {
+                        0xb386dcf1: hash = 0x434396e0
                     }
                 }
             }

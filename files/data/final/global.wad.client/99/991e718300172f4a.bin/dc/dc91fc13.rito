@@ -7,71 +7,96 @@ entries: map[hash,embed] = {
         0x897eefc2: link = 0x62b174c9
         0x48a52ed9: list[embed] = {
             0x816753d8 {
-                0x8d39bde6: string = "Parameter0"
-                0xd872e2a5: vec4 = { 0, 4, 0, 0.35 }
+                0x8d39bde6: string = "PitchFactor"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "PitchFactor"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "RainTiling"
+                0xd872e2a5: vec4 = { 4, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "RainTiling"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "RainOffset"
-                        0x0640657c: u32 = 12
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter1"
-                0xd872e2a5: vec4 = { 4, 4, 4, 8 }
+                0x8d39bde6: string = "RainOffset"
+                0xd872e2a5: vec4 = { 0, 0.35, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "RainOffset"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "FlipbookSize"
+                0xd872e2a5: vec4 = { 4, 4, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "FlipbookSize"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "FrameSpeed"
+                0xd872e2a5: vec4 = { 4, 8, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "FrameSpeed"
-                        0x0640657c: u32 = 12
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
-                0xd872e2a5: vec4 = { 0.5, 0.6, 0, 1 }
+                0x8d39bde6: string = "NoiseContrast"
+                0xd872e2a5: vec4 = { 0.5, 0.6, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "NoiseContrast"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "PuddleContrast"
+                0xd872e2a5: vec4 = { 0, 1, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "PuddleContrast"
-                        0x0640657c: u32 = 12
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
-                0xd872e2a5: vec4 = { 1, 0.05, 0.05, 1 }
+                0x8d39bde6: string = "MaskIntensity"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "MaskIntensity"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Flow_Strength"
+                0xd872e2a5: vec4 = { 0.05, 0.05, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Flow_Strength"
-                        0x0640657c: u32 = 6
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "ReflectionIntensity"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
+                0x8d39bde6: string = "Tint"
                 0xd872e2a5: vec4 = { 1, 1, 1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -81,7 +106,17 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter5"
+                0x8d39bde6: string = "ReflectionIntensity"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "ReflectionIntensity"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "ReflectionColor"
                 0xd872e2a5: vec4 = { 1, 1, 1, 0.77000076 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -91,57 +126,85 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter6"
-                0xd872e2a5: vec4 = { 0, 0.6, 1, 2 }
+                0x8d39bde6: string = "RainContrast"
+                0xd872e2a5: vec4 = { 0, 0.6, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "RainContrast"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "NoiseTiling"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "NoiseTiling"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "FlowTiling"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter7"
+                0x8d39bde6: string = "NoiseOffset"
                 0xd872e2a5: vec4 = { 0, 0.35, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "NoiseOffset"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "NoiseScrollSpeed"
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "NoiseScrollSpeed"
-                        0x0640657c: u32 = 12
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter8"
-                0xd872e2a5: vec4 = { 0.1, 0, 1, 1 }
+                0x8d39bde6: string = "FlowTiling"
+                0xd872e2a5: vec4 = { 2, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "FlowTiling"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "FlowSpeed"
+                0xd872e2a5: vec4 = { 0.1, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "FlowSpeed"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "FlowDirection"
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "FlowDirection"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "ReflectionParams"
-                        0x0640657c: u32 = 12
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter9"
+                0x8d39bde6: string = "ReflectionParams"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "ReflectionParams"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "SpecularSensitity"
                 0xd872e2a5: vec4 = { 0.01, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {

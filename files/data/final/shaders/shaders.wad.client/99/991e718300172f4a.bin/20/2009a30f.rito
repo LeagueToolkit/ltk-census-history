@@ -7,65 +7,84 @@ entries: map[hash,embed] = {
         0x897eefc2: link = 0xbaebc346
         0x48a52ed9: list[embed] = {
             0x816753d8 {
-                0x8d39bde6: string = "Parameter0"
-                0xd872e2a5: vec4 = { 0, 1, 1, 0.05 }
+                0x8d39bde6: string = "Distort_Amount"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Distort_Amount"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Pan_UV_Scale"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Pan_UV_Scale"
-                        0x0640657c: u32 = 6
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Film_Depth"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter1"
-                0xd872e2a5: vec4 = { 0, 0, 0.4, 0.2 }
+                0x8d39bde6: string = "Pan_Speed"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Pan_Speed"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Film_Depth"
+                0xd872e2a5: vec4 = { 0.05, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "Fresnel_Power"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "DissolveWidth"
-                        0x0640657c: u32 = 8
+                        0x8d39bde6: string = "Film_Depth"
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
-                0xd872e2a5: vec4 = { 1.2, 0, 1, 5 }
+                0x8d39bde6: string = "Fresnel_Power"
+                0xd872e2a5: vec4 = { 0.4, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel_Power"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "DissolveWidth"
+                0xd872e2a5: vec4 = { 0.2, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "DissolveWidth"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "DissolveBias"
+                0xd872e2a5: vec4 = { 1.2, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DissolveBias"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Emissive_Factor"
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Emissive_Factor"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Lighting_Intensity"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Bloom_Intensity"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
+                0x8d39bde6: string = "Dissolve_Color"
                 0xd872e2a5: vec4 = { 0.9254902, 0.81960785, 0.3882353, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -75,7 +94,27 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
+                0x8d39bde6: string = "Lighting_Intensity"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Lighting_Intensity"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Bloom_Intensity"
+                0xd872e2a5: vec4 = { 5, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Bloom_Intensity"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Bloom_Color"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Bloom_Color"
@@ -84,21 +123,27 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter5"
-                0xd872e2a5: vec4 = { 1, 1, 0.5, 0.5 }
+                0x8d39bde6: string = "UV_Scale"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "UV_Scale"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Rotation_Center"
+                0xd872e2a5: vec4 = { 0.5, 0.5, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Rotation_Center"
-                        0x0640657c: u32 = 12
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter6"
+                0x8d39bde6: string = "Rotation_Speed"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Rotation_Speed"

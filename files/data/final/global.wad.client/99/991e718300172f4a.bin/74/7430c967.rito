@@ -7,25 +7,17 @@ entries: map[hash,embed] = {
         0x897eefc2: link = 0xbaebc346
         0x48a52ed9: list[embed] = {
             0x816753d8 {
-                0x8d39bde6: string = "Parameter0"
-                0xd872e2a5: vec4 = { 3, 1, 1, 1 }
+                0x8d39bde6: string = "ColorFresnelSize"
+                0xd872e2a5: vec4 = { 3, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "ColorFresnelSize"
                         0x0640657c: u32 = 1
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "SSScale"
-                        0x0640657c: u32 = 6
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "SSFresnelSize"
-                        0x0640657c: u32 = 8
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter1"
+                0x8d39bde6: string = "Color_Fresnel_color"
                 0xd872e2a5: vec4 = { 1, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -35,25 +27,56 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
-                0xd872e2a5: vec4 = { 0, 0, 1, 3 }
+                0x8d39bde6: string = "SSScale"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "SSScale"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "SS_ScrollSpeed"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "SS_ScrollSpeed"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "SSFresnelSize"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "Master_Blend"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "BloomColorFresnelSize"
-                        0x0640657c: u32 = 8
+                        0x8d39bde6: string = "SSFresnelSize"
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
+                0x8d39bde6: string = "Master_Blend"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Master_Blend"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "BloomColorFresnelSize"
+                0xd872e2a5: vec4 = { 3, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "BloomColorFresnelSize"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Bloom_Color_Fresnel_color"
                 0xd872e2a5: vec4 = { 1, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -63,7 +86,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
+                0x8d39bde6: string = "BloomIntensity"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "BloomIntensity"

@@ -7,35 +7,27 @@ entries: map[hash,embed] = {
         0x897eefc2: link = 0x9966ff25
         0x48a52ed9: list[embed] = {
             0x816753d8 {
-                0x8d39bde6: string = "Parameter0"
+                0x8d39bde6: string = "DeformWaveController"
                 0xd872e2a5: vec4 = { 0.5, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DeformWaveController"
                         0x0640657c: u32 = 7
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "DistortionStrength"
-                        0x0640657c: u32 = 8
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter1"
-                0xd872e2a5: vec4 = { 0, 1, 0, 1 }
+                0x8d39bde6: string = "DeformWaveStrength"
+                0xd872e2a5: vec4 = { 0, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DeformWaveStrength"
                         0x0640657c: u32 = 7
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "VFX_ScrollTex_Simple_Strength"
-                        0x0640657c: u32 = 8
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
+                0x8d39bde6: string = "FresnelOutlineOnly_Color"
                 0xd872e2a5: vec4 = { 1, 1, 1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -45,21 +37,17 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
-                0xd872e2a5: vec4 = { 0.1, 1, 1, 1 }
+                0x8d39bde6: string = "FresnelOutlineOnly_Control"
+                0xd872e2a5: vec4 = { 0.1, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "FresnelOutlineOnly_Control"
                         0x0640657c: u32 = 3
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "VFX_ScrollTex_G_UV_Tile"
-                        0x0640657c: u32 = 12
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
+                0x8d39bde6: string = "FresnelOutlineOnly_BaseColor"
                 0xd872e2a5: vec4 = { 0, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -69,35 +57,54 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter5"
-                0xd872e2a5: vec4 = { 0, 0, 1, 1 }
+                0x8d39bde6: string = "DistortionStrength"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "DistortionStrength"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "VFX_ScrollTex_G_UV_Tile"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "VFX_ScrollTex_G_UV_Tile"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "VFX_ScrollTex_G_UV_Scroll_Speed"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "VFX_ScrollTex_G_UV_Scroll_Speed"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "VFX_ScreenSpaceTex_UV_Tile"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "VFX_ScreenSpaceTex_UV_Tile"
-                        0x0640657c: u32 = 12
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter6"
-                0xd872e2a5: vec4 = { 0, 0, 0.45, 0.01 }
+                0x8d39bde6: string = "VFX_ScreenSpaceTex_UV_Scroll_Speed"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "VFX_ScreenSpaceTex_UV_Scroll_Speed"
                         0x0640657c: u32 = 3
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Outline_Control"
-                        0x0640657c: u32 = 12
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter7"
+                0x8d39bde6: string = "Outline_Color"
                 0xd872e2a5: vec4 = { 0, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -107,21 +114,46 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter8"
+                0x8d39bde6: string = "Outline_Control"
+                0xd872e2a5: vec4 = { 0.45, 0.01, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Outline_Control"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "VFX_ScrollTex_R_UV_Tile"
                 0xd872e2a5: vec4 = { 1, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "VFX_ScrollTex_R_UV_Tile"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "VFX_ScrollTex_R_UV_Scroll_Speed"
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "VFX_ScrollTex_R_UV_Scroll_Speed"
-                        0x0640657c: u32 = 12
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter9"
+                0x8d39bde6: string = "VFX_ScrollTex_Simple_Strength"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "VFX_ScrollTex_Simple_Strength"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "VFX_ScrollTex_R_Tint"
                 0xd872e2a5: vec4 = { 0, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -131,43 +163,36 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter10"
+                0x8d39bde6: string = "VFX_ScrollTex_B_UV_Tile"
                 0xd872e2a5: vec4 = { 1, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "VFX_ScrollTex_B_UV_Tile"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "VFX_ScrollTex_B_UV_Scroll_Speed"
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "VFX_ScrollTex_B_UV_Scroll_Speed"
-                        0x0640657c: u32 = 12
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter11"
-                0xd872e2a5: vec4 = { 1, 1, 0, 5 }
+                0x8d39bde6: string = "VFX_MaskStrength"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "VFX_MaskStrength"
                         0x0640657c: u32 = 1
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "VFX_ScreenSpace_Mask_Strength"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Exclude_Mask_from_TintColor_Value"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "DissolveValue"
-                        0x0640657c: u32 = 8
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter12"
+                0x8d39bde6: string = "VFX_ScrollTex_G_Tint"
                 0xd872e2a5: vec4 = { 0, 0, 1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -177,7 +202,17 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter13"
+                0x8d39bde6: string = "VFX_ScreenSpace_Mask_Strength"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "VFX_ScreenSpace_Mask_Strength"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "TintColor"
                 0xd872e2a5: vec4 = { 1, 1, 1, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -187,20 +222,35 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter14"
+                0x8d39bde6: string = "Exclude_Mask_from_TintColor_Value"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Exclude_Mask_from_TintColor_Value"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "DissolveValue"
+                0xd872e2a5: vec4 = { 5, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "DissolveValue"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "DissolveLocationOffset"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DissolveLocationOffset"
                         0x0640657c: u32 = 7
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "OutlineBlendValue"
-                        0x0640657c: u32 = 8
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter15"
+                0x8d39bde6: string = "DissolveEdgeColor"
                 0xd872e2a5: vec4 = { 0.66999316, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -210,21 +260,17 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter16"
-                0xd872e2a5: vec4 = { 10, 10, 1, 0 }
+                0x8d39bde6: string = "DissolveEdgePowObjSize"
+                0xd872e2a5: vec4 = { 10, 10, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DissolveEdgePowObjSize"
                         0x0640657c: u32 = 3
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "All_Additive_Strength"
-                        0x0640657c: u32 = 4
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter17"
+                0x8d39bde6: string = "DissolveWaveStrengthLength"
                 0xd872e2a5: vec4 = { 1, 5, 5, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -234,7 +280,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter18"
+                0x8d39bde6: string = "DissolveWaveDirNoiseA"
                 0xd872e2a5: vec4 = { 1, 1, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -244,7 +290,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter19"
+                0x8d39bde6: string = "DissolveWaveDirNoiseB"
                 0xd872e2a5: vec4 = { 1, 1, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -254,7 +300,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter20"
+                0x8d39bde6: string = "RMA_Value"
                 0xd872e2a5: vec4 = { 1, 0, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -264,7 +310,16 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter21"
+                0x8d39bde6: string = "OutlineBlendValue"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "OutlineBlendValue"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "EmissionColor"
                 0xd872e2a5: vec4 = { 0, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -274,7 +329,17 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter22"
+                0x8d39bde6: string = "All_Additive_Strength"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "All_Additive_Strength"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "BloomPow_RGB"
                 0xd872e2a5: vec4 = { 0, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -284,7 +349,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter23"
+                0x8d39bde6: string = "EdgeBloomColor_RGB"
                 0xd872e2a5: vec4 = { 0, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {

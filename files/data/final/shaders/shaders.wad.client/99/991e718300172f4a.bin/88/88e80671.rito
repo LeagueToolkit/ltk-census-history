@@ -7,7 +7,7 @@ entries: map[hash,embed] = {
         0x897eefc2: link = 0xbaebc346
         0x48a52ed9: list[embed] = {
             0x816753d8 {
-                0x8d39bde6: string = "Parameter0"
+                0x8d39bde6: string = "GlowColorA"
                 0xd872e2a5: vec4 = { 1, 0.91880673, 0.6688029, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -17,7 +17,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter1"
+                0x8d39bde6: string = "GlowColorB"
                 0xd872e2a5: vec4 = { 0.9000839, 0.27154955, 0.15494011, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -27,41 +27,68 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
-                0xd872e2a5: vec4 = { 0, 1.1, 1.4, 2 }
+                0x8d39bde6: string = "GlowColorSwitch"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "GlowColorSwitch"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "MinGlow"
+                0xd872e2a5: vec4 = { 1.1, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "MinGlow"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "MaxGlow"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "GlowFrequency"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
+                0x8d39bde6: string = "MaxGlow"
+                0xd872e2a5: vec4 = { 1.4, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "MaxGlow"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "GlowFrequency"
+                0xd872e2a5: vec4 = { 2, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "GlowFrequency"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "BlendMode"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "BlendMode"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "GlowActiveSwitch"
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "GlowActiveSwitch"
-                        0x0640657c: u32 = 2
+                        0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Saturation"
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Saturation"
-                        0x0640657c: u32 = 4
+                        0x0640657c: u32 = 1
                     }
                 }
             }

@@ -1,0 +1,40 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd3ad7b90 = 0x9b67e9f6 {
+        0x2d78c328: string = "Order_Minion_Melee_SRS_Blue"
+        0x939e7b29: string = "class:minion"
+        0x8f7b194f: embed = 0x8f7b194f {
+            0xf8f29f92: list2[embed] = {
+                0xa4416515 {
+                    0x8d39bde6: string = "NPC_Global_Minions_OrderMelee_SFX"
+                    0x2a21ad00: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/SFX/Shared/NPC_Global_Minions_OrderMelee_SFX_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Shared/NPC_Global_Minions_OrderMelee_SFX_events.bnk"
+                    }
+                }
+            }
+        }
+        0x426d89a3: embed = 0x426d89a3 {
+            0xf5fb07c7: link = 0x02d6ba07
+        }
+        0x45ff5904: embed = 0x6111d8a4 {
+            0xb14c976e: string = "ASSETS/Characters/SRU_OrderMinionMelee/Skins/Skin22/Order_Minion_Melee.SRT_2025_Split1_SolKimLayer.skl"
+            0xd6a00df6: string = "ASSETS/Characters/SRU_OrderMinionMelee/Skins/Skin22/Order_Minion_Melee.SRT_2025_Split1_SolKimLayer.skn"
+            0xd62df07c: bool = true
+            0x3c6468f4: string = "ASSETS/Characters/SRU_OrderMinionMelee/Skins/Skin22/SRU_OrderMinionMelee_Skin22_TX_CM.SRT_2025_Split1_SolKimLayer.tex"
+            0xa1f805da: f32 = 0.7
+            0x252f6884: f32 = 0.6
+        }
+        0x2d0d1f1d: string = "Flesh"
+        0xb82a29c2: string = "sru_minionSpawn_01.troy"
+        0xe67284f4: option[string] = {
+            "ASSETS/Characters/SRU_OrderMinionMelee/HUD/BlueMelee_Circle.tex"
+        }
+        0xac473fef: option[string] = {
+            "ASSETS/Characters/SRU_OrderMinionMelee/HUD/BlueMelee_Square.tex"
+        }
+    }
+}

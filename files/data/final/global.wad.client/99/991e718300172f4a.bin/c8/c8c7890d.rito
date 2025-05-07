@@ -6,77 +6,86 @@ entries: map[hash,embed] = {
     0xc8c7890d = 0x205255d6 {
         0x48a52ed9: list[embed] = {
             0x816753d8 {
-                0x8d39bde6: string = "Parameter0"
-                0xd872e2a5: vec4 = { 0.5, 1, 0, 1 }
+                0x8d39bde6: string = "WaveController"
+                0xd872e2a5: vec4 = { 0.5, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "WaveController"
                         0x0640657c: u32 = 7
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "WaveMaskStrength"
-                        0x0640657c: u32 = 8
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter1"
-                0xd872e2a5: vec4 = { 0, 1, 0, 0.1 }
+                0x8d39bde6: string = "WaveStrength"
+                0xd872e2a5: vec4 = { 0, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "WaveStrength"
                         0x0640657c: u32 = 7
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "WaveMaskStrength"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "FlowMap_Speed"
-                        0x0640657c: u32 = 8
+                        0x8d39bde6: string = "WaveMaskStrength"
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
-                0xd872e2a5: vec4 = { 0.2, 1, 2, 1 }
+                0x8d39bde6: string = "Flowmap_Strength"
+                0xd872e2a5: vec4 = { 0.2, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Flowmap_Strength"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "FlowMap_Speed"
+                0xd872e2a5: vec4 = { 0.1, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "FlowNormal_Tile"
-                        0x0640657c: u32 = 12
+                        0x8d39bde6: string = "FlowMap_Speed"
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
-                0xd872e2a5: vec4 = { 0, 0, 0, 0.8 }
+                0x8d39bde6: string = "FlowNormal_Tile"
+                0xd872e2a5: vec4 = { 2, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "FlowNormal_Tile"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "ScrollDirectionSpeed"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "ScrollDirectionSpeed"
                         0x0640657c: u32 = 7
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Color_Baseline"
-                        0x0640657c: u32 = 8
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
-                0xd872e2a5: vec4 = { 0, 0.5, 0, 0.3 }
+                0x8d39bde6: string = "Distortion_Highlight_Contrast"
+                0xd872e2a5: vec4 = { 0, 0.5, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Distortion_Highlight_Contrast"
                         0x0640657c: u32 = 3
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Color_Highlight_Contrast"
-                        0x0640657c: u32 = 12
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter5"
+                0x8d39bde6: string = "Color_Outside"
                 0xd872e2a5: vec4 = { 0.14999619, 0.2500038, 0.4500038, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -86,7 +95,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter6"
+                0x8d39bde6: string = "Color_Inside"
                 0xd872e2a5: vec4 = { 0.06666667, 0.73333335, 0.8666667, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -96,7 +105,27 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter7"
+                0x8d39bde6: string = "Color_Highlight_Contrast"
+                0xd872e2a5: vec4 = { 0, 0.3, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Color_Highlight_Contrast"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Color_Baseline"
+                0xd872e2a5: vec4 = { 0.8, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Color_Baseline"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "TranslucentControl"
                 0xd872e2a5: vec4 = { 1, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {

@@ -30,14 +30,6 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 0.3
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "CurrentManaShieldRatio"
-                0x24f2ec89: f32 = 0.2
-            }
-            0xb2c62c87 {
-                0x19efbfdb: string = "ShieldBaseValue"
-                0x24f2ec89: f32 = 200
-            }
-            0xb2c62c87 {
                 0x19efbfdb: string = "ShieldDuration"
                 0x24f2ec89: f32 = 3
             }
@@ -48,6 +40,24 @@ entries: map[hash,embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "Cooldown"
                 0x24f2ec89: f32 = 90
+            }
+        }
+        0x0ac4f0d5: map[hash,pointer] = {
+            0xd72beee1 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x763d871b {
+                        0x295c2889: f32 = 0.18
+                    }
+                }
+            }
+            0xa7070c3c = 0xbc409284 {
+                0xd6b7a622: bool = true
+                0x50f145c0: list[pointer] = {
+                    0x763d871b {
+                        0x295c2889: f32 = 0.02
+                        0x7d3150ec: u8 = 2
+                    }
+                }
             }
         }
         0x5b98619f: f32 = 25

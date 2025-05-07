@@ -7,7 +7,7 @@ entries: map[hash,embed] = {
         0x897eefc2: link = 0xbaebc346
         0x48a52ed9: list[embed] = {
             0x816753d8 {
-                0x8d39bde6: string = "Parameter0"
+                0x8d39bde6: string = "Bubble_Color"
                 0xd872e2a5: vec4 = { 0.48235294, 0.48235294, 0.48235294, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -17,25 +17,27 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter1"
-                0xd872e2a5: vec4 = { 1, 0.3, 0.5, 16 }
+                0x8d39bde6: string = "Bubble_Strength"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Bubble_Strength"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Liquid_Sharpness"
+                0xd872e2a5: vec4 = { 0.3, 0.5, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Liquid_Sharpness"
-                        0x0640657c: u32 = 6
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Spec_01"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
+                0x8d39bde6: string = "Liquid_Color"
                 0xd872e2a5: vec4 = { 1, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -45,39 +47,67 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
-                0xd872e2a5: vec4 = { 0.2, 0.5, 8, 1.3 }
+                0x8d39bde6: string = "Bubble_Sharpness"
+                0xd872e2a5: vec4 = { 0.2, 0.5, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Bubble_Sharpness"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Spec_01"
+                0xd872e2a5: vec4 = { 16, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "Spec_02"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Bubble_Speed"
-                        0x0640657c: u32 = 8
+                        0x8d39bde6: string = "Spec_01"
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
-                0xd872e2a5: vec4 = { 1, 1, 1, 11 }
+                0x8d39bde6: string = "Spec_02"
+                0xd872e2a5: vec4 = { 8, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Spec_02"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Bubble_Map_Tiling"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Bubble_Map_Tiling"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Bubble_Speed"
+                0xd872e2a5: vec4 = { 1.3, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "Bubble_Tiling"
-                        0x0640657c: u32 = 12
+                        0x8d39bde6: string = "Bubble_Speed"
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter5"
+                0x8d39bde6: string = "Bubble_Tiling"
+                0xd872e2a5: vec4 = { 1, 11, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Bubble_Tiling"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Sim_Lit_Dir"
                 0xd872e2a5: vec4 = { 0, 0.75, 0.5, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {

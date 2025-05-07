@@ -1,0 +1,34 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xfd6bdb2b = 0xd186c31a {
+        0x19efbfdb: string = "TFT10_Item_PunkEmblem"
+        0x9596a387: bool = true
+        0x8b83ba8a: list[link] = {
+            0x87dd1d45
+            0xae977221
+        }
+        0x6752c795: list[link] = {
+            0xdc4c0baa
+        }
+        0x77def630: link = 0xdc4c0baa
+        0xadb3e562: embed = 0xd65315ee {
+            0xdf085b93: map[hash,pointer] = {
+                0x3abb8549 = 0x977517c6 {
+                    0x24f2ec89: f32 = 20
+                }
+            }
+        }
+        0xa47a6adf: list2[hash] = {
+            0xebcd1bac
+        }
+        0xc3143d66: string = "TFT10_Item_AnarchyEmblem"
+        0x765f18da: string = "tft_item_description_Set10AnarchyEmblemItem"
+        0x8bee2972: string = "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set10/TFT_Set10_Emblem_Punk.tex"
+        0x5371e38f: option[rgba] = {
+            { 138, 100, 55, 255 }
+        }
+    }
+}

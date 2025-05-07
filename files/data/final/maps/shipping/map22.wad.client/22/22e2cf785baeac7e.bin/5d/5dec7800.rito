@@ -1,0 +1,26 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x5dec7800 = 0x60e00531 {
+        0x19efbfdb: string = "TFT10_8Bit_LootH"
+        0x0773669d: map[string,pointer] = {
+            "Consumable" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Consumable_ItemRemover"
+                    "TFT_Consumable_ItemRemover"
+                }
+            }
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Item_SpearOfShojinRadiant"
+                    "TFT_Item_HextechGunbladeRadiant"
+                    "TFT_Item_BloodthirsterRadiant"
+                    "TFT_Item_GuardianAngelRadiant"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

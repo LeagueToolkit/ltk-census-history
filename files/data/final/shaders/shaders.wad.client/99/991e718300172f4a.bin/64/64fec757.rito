@@ -7,7 +7,7 @@ entries: map[hash,embed] = {
         0x897eefc2: link = 0xbaebc346
         0x48a52ed9: list[embed] = {
             0x816753d8 {
-                0x8d39bde6: string = "Parameter0"
+                0x8d39bde6: string = "Transparency_Color_A"
                 0xd872e2a5: vec4 = { 0.11999695, 0.050003815, 0, 0.7499962 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -17,7 +17,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter1"
+                0x8d39bde6: string = "Transparency_Color_B"
                 0xd872e2a5: vec4 = { 0.6500038, 0.4, 0.34999618, 0.5000076 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -27,7 +27,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
+                0x8d39bde6: string = "Reflection_Color"
                 0xd872e2a5: vec4 = { 0.5000076, 0.2899977, 0.059998475, 0.4 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -37,7 +37,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
+                0x8d39bde6: string = "Metal_Color"
                 0xd872e2a5: vec4 = { 0.23529412, 0.17254902, 0.32156864, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -47,7 +47,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
+                0x8d39bde6: string = "Metal_Color_R"
                 0xd872e2a5: vec4 = { 0.9411765, 0.7372549, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -57,48 +57,72 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter5"
-                0xd872e2a5: vec4 = { 1, 5, 0.25, 0.01 }
+                0x8d39bde6: string = "Lines_Size"
+                0xd872e2a5: vec4 = { 1, 5, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Lines_Size"
                         0x0640657c: u32 = 3
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Lines_Panning"
+                0xd872e2a5: vec4 = { 0.25, 0.01, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Lines_Panning"
-                        0x0640657c: u32 = 12
+                        0x0640657c: u32 = 3
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter6"
-                0xd872e2a5: vec4 = { 1, 0.5, 0.6, 2 }
+                0x8d39bde6: string = "Lines_Intensity"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Lines_Intensity"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "GradientMap_Intensity"
+                0xd872e2a5: vec4 = { 0.5, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "GradientMap_Intensity"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Bloom_Intensity"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "Metal_Spec_Intensity"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter7"
+                0x8d39bde6: string = "Bloom_Intensity"
+                0xd872e2a5: vec4 = { 0.6, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Bloom_Intensity"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Metal_Spec_Color"
                 0xd872e2a5: vec4 = { 0.19000535, 0.22000457, 0.42000458, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Metal_Spec_Color"
                         0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Metal_Spec_Intensity"
+                0xd872e2a5: vec4 = { 2, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Metal_Spec_Intensity"
+                        0x0640657c: u32 = 1
                     }
                 }
             }

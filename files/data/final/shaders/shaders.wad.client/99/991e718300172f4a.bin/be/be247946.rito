@@ -7,7 +7,7 @@ entries: map[hash,embed] = {
         0x897eefc2: link = 0xbaebc346
         0x48a52ed9: list[embed] = {
             0x816753d8 {
-                0x8d39bde6: string = "Parameter0"
+                0x8d39bde6: string = "DeformInfo"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DeformInfo"
@@ -16,28 +16,16 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter1"
+                0x8d39bde6: string = "DepthPullPush"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DepthPullPush"
                         0x0640657c: u32 = 1
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "LayerBlendMode02"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "LayerMultiFactor02"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "LayerBlendMode03"
-                        0x0640657c: u32 = 8
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
+                0x8d39bde6: string = "LayerUVFactor01"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "LayerUVFactor01"
@@ -46,7 +34,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
+                0x8d39bde6: string = "LayerTint01"
                 0xd872e2a5: vec4 = { 0.5019608, 0.5019608, 0.5019608, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -56,7 +44,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
+                0x8d39bde6: string = "DissolveInfo"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "DissolveInfo"
@@ -65,7 +53,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter5"
+                0x8d39bde6: string = "LayerUVFactor02"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "LayerUVFactor02"
@@ -74,7 +62,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter6"
+                0x8d39bde6: string = "LayerUVFactor03"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "LayerUVFactor03"
@@ -83,7 +71,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter7"
+                0x8d39bde6: string = "LayerTint02"
                 0xd872e2a5: vec4 = { 0.5019608, 0.5019608, 0.5019608, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -93,7 +81,25 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter8"
+                0x8d39bde6: string = "LayerBlendMode02"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "LayerBlendMode02"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "LayerMultiFactor02"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "LayerMultiFactor02"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "LayerTint03"
                 0xd872e2a5: vec4 = { 0.5019608, 0.5019608, 0.5019608, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -103,28 +109,43 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter9"
+                0x8d39bde6: string = "LayerBlendMode03"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "LayerBlendMode03"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "LayerMultiFactor03"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "LayerMultiFactor03"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "LayerBlendMode01"
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "LayerBlendMode01"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "EmissiveFactor"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "BloomIntensity"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter10"
+                0x8d39bde6: string = "EmissiveFactor"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "EmissiveFactor"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "BloomColor"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "BloomColor"
@@ -133,7 +154,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter11"
+                0x8d39bde6: string = "BloomWeight"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "BloomWeight"
@@ -142,21 +163,26 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter12"
+                0x8d39bde6: string = "BloomThreshold"
                 0xd872e2a5: vec4 = { 1, 1, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "BloomThreshold"
                         0x0640657c: u32 = 7
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "BloomIntensity"
+                0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "LayerUVType01"
-                        0x0640657c: u32 = 8
+                        0x8d39bde6: string = "BloomIntensity"
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter13"
+                0x8d39bde6: string = "DeformColor01"
                 0xd872e2a5: vec4 = { 0.5019608, 0.5019608, 0.5019608, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -166,7 +192,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter14"
+                0x8d39bde6: string = "DeformColor02"
                 0xd872e2a5: vec4 = { 0.5019608, 0.5019608, 0.5019608, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -176,7 +202,16 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter15"
+                0x8d39bde6: string = "LayerUVType01"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "LayerUVType01"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "BoneInfo"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "BoneInfo"
@@ -185,29 +220,26 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter16"
-                0xd872e2a5: vec4 = { 0, 1, 0, 0 }
+                0x8d39bde6: string = "MatcapType"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "MatcapType"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "MatcapNormalScale"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "MatcapNormalScale"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "NoiseUVType01"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "NoiseUVType03"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter17"
+                0x8d39bde6: string = "LayerUVInfo01"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "LayerUVInfo01"
@@ -216,7 +248,16 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter18"
+                0x8d39bde6: string = "NoiseUVType01"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "NoiseUVType01"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "NoiseUVInfo01"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "NoiseUVInfo01"
@@ -225,7 +266,16 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter19"
+                0x8d39bde6: string = "NoiseUVType03"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "NoiseUVType03"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "NoiseUVInfo03"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "NoiseUVInfo03"
@@ -234,24 +284,16 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter20"
+                0x8d39bde6: string = "NoiseUVType02"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "NoiseUVType02"
                         0x0640657c: u32 = 1
                     }
-                    0x14a2befa {
-                        0x8d39bde6: string = "LayerUVType02"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "LayerUVType03"
-                        0x0640657c: u32 = 4
-                    }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter21"
+                0x8d39bde6: string = "NoiseUVInfo02"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "NoiseUVInfo02"
@@ -260,7 +302,16 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter22"
+                0x8d39bde6: string = "LayerUVType02"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "LayerUVType02"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "LayerUVInfo02"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "LayerUVInfo02"
@@ -269,7 +320,16 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter23"
+                0x8d39bde6: string = "LayerUVType03"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "LayerUVType03"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "LayerUVInfo03"
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "LayerUVInfo03"

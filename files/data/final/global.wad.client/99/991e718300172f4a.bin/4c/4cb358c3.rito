@@ -7,7 +7,7 @@ entries: map[hash,embed] = {
         0x897eefc2: link = 0xbaebc346
         0x48a52ed9: list[embed] = {
             0x816753d8 {
-                0x8d39bde6: string = "Parameter0"
+                0x8d39bde6: string = "Fresnel_Color"
                 0xd872e2a5: vec4 = { 1, 0, 0, 1 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -17,29 +17,26 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter1"
-                0xd872e2a5: vec4 = { 1, 0, 64, 1 }
+                0x8d39bde6: string = "Fresnel_Size"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Fresnel_Size"
                         0x0640657c: u32 = 1
                     }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Shadow_Bias"
+                0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "Shadow_Bias"
-                        0x0640657c: u32 = 2
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "MaxSpec"
-                        0x0640657c: u32 = 4
-                    }
-                    0x14a2befa {
-                        0x8d39bde6: string = "LQ_Lighting_Intensity"
-                        0x0640657c: u32 = 8
+                        0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter2"
+                0x8d39bde6: string = "IridescentControl"
                 0xd872e2a5: vec4 = { 1, 0.5, 1, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -49,7 +46,7 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter3"
+                0x8d39bde6: string = "RimLightOffset"
                 0xd872e2a5: vec4 = { -0.42, -0.42, -0.42, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
@@ -59,12 +56,32 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Parameter4"
+                0x8d39bde6: string = "MaxSpec"
+                0xd872e2a5: vec4 = { 64, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "MaxSpec"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "SpecularColor"
                 0xd872e2a5: vec4 = { 1, 0.7490196, 0.11372549, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "SpecularColor"
                         0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "LQ_Lighting_Intensity"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "LQ_Lighting_Intensity"
+                        0x0640657c: u32 = 1
                     }
                 }
             }
