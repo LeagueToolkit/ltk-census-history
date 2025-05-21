@@ -4,6 +4,7 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x28d7d861 = 0x5e7e5a06 {
+        0xe095d841: string = "PykeGold"
         0xc8e37ef0: string = "PykeGold"
         0x56d2be52: pointer = 0x43368569 {
             0x9c677a2c: u32 = 4
@@ -51,6 +52,14 @@ entries: map[hash,embed] = {
         }
         0x7f0f5a79: pointer = 0x4633d794 {
             0xf1f20d72: string = "game_buff_tooltip_ItemMiniRegenPotion"
+        }
+        0x4048c61e: pointer = 0xf195e56b {
+            0x38382c53: list2[embed] = {
+                0x150d1b92 {
+                    0xe38f54f7: u32 = 8192
+                    0x0717e686: bool = false
+                }
+            }
         }
     }
 }

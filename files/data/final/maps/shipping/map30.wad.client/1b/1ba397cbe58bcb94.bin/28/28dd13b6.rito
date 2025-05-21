@@ -3,5 +3,11 @@ type: string = "PROP"
 version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
-    0x28dd13b6 = 0xef3a0f33 {}
+    0x28dd13b6 = 0xef3a0f33 {
+        0xd2f58721: map[hash,link] = {
+            0xa876802e = 0x5bf232cb
+            0x2027e79c = 0x7a1f8829
+            0xbd165765 = 0x79a1feba
+        }
+    }
 }

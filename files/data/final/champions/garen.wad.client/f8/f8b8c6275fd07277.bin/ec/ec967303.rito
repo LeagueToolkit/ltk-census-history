@@ -4,6 +4,7 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xec967303 = 0x5e7e5a06 {
+        0xe095d841: string = "GarenE"
         0xc8e37ef0: string = "GarenE"
         0x56d2be52: pointer = 0x43368569 {
             0x9c677a2c: u32 = 4
@@ -48,13 +49,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "ADRatioPerTick"
                     0x246b0d8e: list[f32] = {
-                        0.35
+                        0.34
                         0.36
-                        0.37
                         0.38
-                        0.39
                         0.4
-                        0.41
+                        0.42
+                        0.44
+                        0.46
                     }
                 }
                 0x005008a6 {
@@ -118,40 +119,34 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "OnHitModifier"
-                    0x246b0d8e: list[f32] = {
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                    }
-                }
-                0x005008a6 {
                     0x19efbfdb: string = "CritBaseMult"
                     0x246b0d8e: list[f32] = {
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "MonsterMod"
                     0x246b0d8e: list[f32] = {
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
                     }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MonsterBonus"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "RefundRate"
                 }
             }
             0xfb56608c: map[hash,embed] = {
@@ -177,15 +172,6 @@ entries: map[hash,embed] = {
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0xb4932a85
-                        }
-                        0x5cf69ece {
-                            0x02deb550: f32 = 0.8
-                            0x7b5d1934: list[embed] = {
-                                0x8e93d8ee {
-                                    0xa77654ae: u32 = 10
-                                    0x57fdc438: f32 = 0.2
-                                }
-                            }
                         }
                         0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
@@ -213,17 +199,9 @@ entries: map[hash,embed] = {
                     0x7f93cf4e: hash = 0x1ddee768
                 }
                 0x6df029ac = 0x070e3593 {
-                    0x2c77adff: pointer = 0x84a63373 {
-                        0xa066cc28: list[pointer] = {
-                            0x332eb441 {
-                                0xb386dcf1: hash = 0x70fa45de
-                            }
-                            0x5815b0a9 {
-                                0x4cec2c8a: u8 = 9
-                                0x7d3150ec: u8 = 2
-                                0x295c2889: f32 = 1
-                            }
-                        }
+                    0x2c77adff: pointer = 0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 9
+                        0xb386dcf1: hash = 0x70fa45de
                     }
                     0x7f93cf4e: hash = 0x1ddee768
                 }
@@ -239,17 +217,9 @@ entries: map[hash,embed] = {
                                 }
                             }
                         }
-                        0x4914452d: pointer = 0x84a63373 {
-                            0xa066cc28: list[pointer] = {
-                                0x332eb441 {
-                                    0xb386dcf1: hash = 0x70fa45de
-                                }
-                                0x5815b0a9 {
-                                    0x4cec2c8a: u8 = 9
-                                    0x7d3150ec: u8 = 2
-                                    0x295c2889: f32 = 1
-                                }
-                            }
+                        0x4914452d: pointer = 0x5f5c70a4 {
+                            0x4cec2c8a: u8 = 9
+                            0xb386dcf1: hash = 0x70fa45de
                         }
                     }
                     0x7f93cf4e: hash = 0x1ddee768
@@ -266,17 +236,9 @@ entries: map[hash,embed] = {
                         0x46144074: pointer = 0x332eb441 {
                             0xb386dcf1: hash = 0xd9736fba
                         }
-                        0x4914452d: pointer = 0x84a63373 {
-                            0xa066cc28: list[pointer] = {
-                                0x332eb441 {
-                                    0xb386dcf1: hash = 0x70fa45de
-                                }
-                                0x5815b0a9 {
-                                    0x4cec2c8a: u8 = 9
-                                    0x7d3150ec: u8 = 2
-                                    0x295c2889: f32 = 1
-                                }
-                            }
+                        0x4914452d: pointer = 0x5f5c70a4 {
+                            0x4cec2c8a: u8 = 9
+                            0xb386dcf1: hash = 0x70fa45de
                         }
                     }
                     0x7f93cf4e: hash = 0x1ddee768
@@ -289,11 +251,11 @@ entries: map[hash,embed] = {
             0x9ecac3a1: list[f32] = {
                 9
                 9
-                9
-                9
-                9
-                9
-                9
+                8.25
+                7.5
+                6.75
+                6
+                6
             }
             0xe321919c: bool = true
             0x1b9cbd9b: list[f32] = {
@@ -372,6 +334,9 @@ entries: map[hash,embed] = {
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_GarenE_ADRatioPerSpin"
                                     0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
                                 }
                             }
                         }
