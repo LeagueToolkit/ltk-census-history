@@ -7,6 +7,26 @@ entries: map[hash,embed] = {
         0x897eefc2: link = 0xbaebc346
         0x48a52ed9: list[embed] = {
             0x816753d8 {
+                0x8d39bde6: string = "Noise_Color"
+                0xd872e2a5: vec4 = { 1, 0.8660258, 0.45279622, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Noise_Color"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Noise_Intensity"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Noise_Intensity"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
                 0x8d39bde6: string = "MaskGIntensIty"
                 0xd872e2a5: vec4 = { 1, 0, 0, 0 }
                 0x74672198: list[embed] = {
@@ -23,6 +43,16 @@ entries: map[hash,embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "crack_color"
                         0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "MaskUVScale"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "MaskUVScale"
+                        0x0640657c: u32 = 3
                     }
                 }
             }
@@ -67,6 +97,25 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
+                0x8d39bde6: string = "Noise_Scale"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Noise_Scale"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Noise_Scrollrate"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Noise_Scrollrate"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
                 0x8d39bde6: string = "MoveIntensity"
                 0xd872e2a5: vec4 = { 5, 0, 0, 0 }
                 0x74672198: list[embed] = {
@@ -99,10 +148,17 @@ entries: map[hash,embed] = {
         }
         0x3291437b: list[embed] = {
             0x60a292e6 {
+                0x8d39bde6: string = "USE_SCROLL_TEX"
+            }
+            0x60a292e6 {
                 0x8d39bde6: string = "USE_ALPHA"
             }
         }
         0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "PannerNoise_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/black.dds"
+            }
             0x31d1e223 {
                 0x8d39bde6: string = "Diff_Tex"
                 0x32b374fa: string = "ASSETS/Characters/Kassadin/Skins/Skin14/Kassadin_Skin14_TX_CM.tex"

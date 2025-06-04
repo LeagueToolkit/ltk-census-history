@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x14a3955f = 0x60e00531 {
+        0x19efbfdb: string = "Cupcake_WolfMini_4"
+        0x0773669d: map[string,pointer] = {
+            "SkinName" = 0xa188bd55 {
+                0x24f2ec89: string = "TFTEvent5YR_CupcakeNPC"
+            }
+            "Row" = 0x4012fd7e {
+                0x24f2ec89: i32 = 8
+            }
+            "Col" = 0x4012fd7e {
+                0x24f2ec89: i32 = 6
+            }
+            "ScaleOverride" = 0x977517c6 {
+                0x24f2ec89: f32 = 1.3
+            }
+            "FlatHPPoolModOverride" = 0x4012fd7e {
+                0x24f2ec89: i32 = 625
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

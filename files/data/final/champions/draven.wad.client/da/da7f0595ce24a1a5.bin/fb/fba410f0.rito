@@ -18,13 +18,6 @@ entries: map[hash,embed] = {
             }
             0xf8f29f92: list2[embed] = {
                 0xa4416515 {
-                    0x8d39bde6: string = "Draven_Base_SFX"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Draven/Skins/Base/Draven_Base_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Draven/Skins/Base/Draven_Base_SFX_events.bnk"
-                    }
-                }
-                0xa4416515 {
                     0x8d39bde6: string = "Draven_Skin03_SFX"
                     0x2a21ad00: list[string] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Draven/Skins/Skin03/Draven_Skin03_SFX_audio.bnk"
@@ -62,6 +55,7 @@ entries: map[hash,embed] = {
                         "Play_sfx_DravenSkin03_DravenFury_OnCast"
                         "Play_sfx_DravenSkin03_DravenFuryBuff_OnBuffActivate"
                         "Play_sfx_DravenSkin03_DravenFuryBuff_OnBuffDeactivate"
+                        "Play_sfx_DravenSkin03_DravenNewPassive_buffactivate"
                         "Play_sfx_DravenSkin03_DravenR_buffactivate"
                         "Play_sfx_DravenSkin03_DravenR_buffdeactivate"
                         "Play_sfx_DravenSkin03_DravenR_hit"
@@ -91,51 +85,34 @@ entries: map[hash,embed] = {
                         "Play_sfx_DravenSkin03_Idle5_buffactivate"
                         "Play_sfx_DravenSkin03_Joke3D_buffactivate"
                         "Play_sfx_DravenSkin03_Laugh3D_buffactivate"
-                        "Play_sfx_DravenSkin03_Recall_buffactivate"
+                        "Play_sfx_DravenSkin03_Recall3D_buffactivate"
                         "Play_sfx_DravenSkin03_Taunt3D_buffactivate"
                         "Stop_sfx_DravenSkin03_DravenAttackP_L_OnMissileLaunch"
                         "Stop_sfx_DravenSkin03_DravenAttackP_R_OnMissileLaunch"
                         "Stop_sfx_DravenSkin03_DravenAttackP_RC_OnMissileLaunch"
+                        "Stop_sfx_DravenSkin03_DravenDoubleShotMissile_OnMissileLaunch"
                         "Stop_sfx_DravenSkin03_DravenFuryBuff_OnBuffActivate"
+                        "Stop_sfx_DravenSkin03_DravenNewPassive_buffactivate"
                         "Stop_sfx_DravenSkin03_DravenSpinning_OnBuffActivate"
                         "Stop_sfx_DravenSkin03_DravenSpinningLeft_OnBuffActivate"
                         "Stop_sfx_DravenSkin03_DravenSpinningReturn_OnMissileLaunch"
                     }
                 }
                 0xa4416515 {
+                    0x8d39bde6: string = "Draven_Base_SFX_OutOfGame"
+                    0x2a21ad00: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Draven/Skins/Base/Draven_Base_SFX_OutOfGame_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Draven/Skins/Base/Draven_Base_SFX_OutOfGame_events.bnk"
+                    }
+                    0x12d8e384: list[string] = {
+                        "Play_sfx_Draven_ChampionSelect_Stinger"
+                    }
+                }
+                0xa4416515 {
                     0x8d39bde6: string = "Draven_Skin03_VO"
                     0x2a21ad00: list[string] = {
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Draven/Skins/Skin03/Draven_Skin03_VO_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Draven/Skins/Skin03/Draven_Skin03_VO_events.bnk"
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Draven/Skins/Skin03/Draven_Skin03_VO_audio.wpk"
-                    }
-                    0x12d8e384: list[string] = {
-                        "Play_vo_DravenSkin03_Attack2DGeneral"
-                        "Play_vo_DravenSkin03_BuyItem2DBloodthirster"
-                        "Play_vo_DravenSkin03_BuyItem2DInfinityEdge"
-                        "Play_vo_DravenSkin03_BuyItem2DNashorsTooth"
-                        "Play_vo_DravenSkin03_BuyItem2DPhantomDancer"
-                        "Play_vo_DravenSkin03_BuyItem2DTrinityForce"
-                        "Play_vo_DravenSkin03_Dance3DGeneral"
-                        "Play_vo_DravenSkin03_Death3D"
-                        "Play_vo_DravenSkin03_DravenBasicAttack2_cast3D"
-                        "Play_vo_DravenSkin03_DravenBasicAttack_cast3D"
-                        "Play_vo_DravenSkin03_DravenCritAttack_cast3D"
-                        "Play_vo_DravenSkin03_DravenDoubleShot_cast3D"
-                        "Play_vo_DravenSkin03_DravenRCast_cast3D"
-                        "Play_vo_DravenSkin03_DravenSpinningAttack2_cast3D"
-                        "Play_vo_DravenSkin03_DravenSpinningAttack2Crit_cast3D"
-                        "Play_vo_DravenSkin03_DravenSpinningAttack_cast3D"
-                        "Play_vo_DravenSkin03_DravenSpinningAttackCrit_cast3D"
-                        "Play_vo_DravenSkin03_FirstEncounter3DDraven"
-                        "Play_vo_DravenSkin03_Joke3DGeneral"
-                        "Play_vo_DravenSkin03_Laugh3DGeneral"
-                        "Play_vo_DravenSkin03_Move2DFirst"
-                        "Play_vo_DravenSkin03_Move2DStandard"
-                        "Play_vo_DravenSkin03_Recall3DGeneral"
-                        "Play_vo_DravenSkin03_Spell3DPCast"
-                        "Play_vo_DravenSkin03_Taunt3DGeneral"
-                        "Play_vo_DravenSkin03_UseItem2DWard"
                     }
                     0x3b13aa4b: bool = true
                 }

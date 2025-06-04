@@ -17,120 +17,181 @@ entries: map[hash,embed] = {
             0x44b7e8dd: string = "DefensiveBallCurl"
             0x1f4d20a6: list[embed] = {
                 0x005008a6 {
-                    0x19efbfdb: string = "BonusDurationPerAuto"
-                    0x246b0d8e: list[f32] = {
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                    }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "MaxBonusDuration"
-                    0x246b0d8e: list[f32] = {
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                    }
-                }
-                0x005008a6 {
                     0x19efbfdb: string = "BonusArmorPercent"
                     0x246b0d8e: list[f32] = {
-                        0.25
-                        0.35
+                        0.225
+                        0.3
+                        0.375
                         0.45
-                        0.55
-                        0.65
-                        0.75
-                        0.85
+                        0.525
+                        0.6
+                        0.675
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "BonusMRPercent"
                     0x246b0d8e: list[f32] = {
-                        0.25
+                        0.225
                         0.3
-                        0.35
-                        0.4
+                        0.375
                         0.45
-                        0.5
-                        0.55
+                        0.525
+                        0.6
+                        0.675
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "FlatBonusArmor"
                     0x246b0d8e: list[f32] = {
-                        40
-                        40
-                        40
-                        40
-                        40
-                        40
-                        40
+                        27
+                        27
+                        27
+                        27
+                        27
+                        27
+                        27
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "FlatBonusMR"
                     0x246b0d8e: list[f32] = {
-                        10
-                        10
-                        10
-                        10
-                        10
-                        10
-                        10
+                        27
+                        27
+                        27
+                        27
+                        27
+                        27
+                        27
                     }
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "BuffDuration"
                     0x246b0d8e: list[f32] = {
-                        6
-                        6
-                        6
-                        6
-                        6
-                        6
-                        6
+                        7
+                        7
+                        7
+                        7
+                        7
+                        7
+                        7
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "PassiveAmplifier"
+                    0x19efbfdb: string = "DamageArmorRatio"
                     0x246b0d8e: list[f32] = {
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DamageMRRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "FlatDamageReturn"
+                    0x246b0d8e: list[f32] = {
+                        15
+                        15
+                        15
+                        15
+                        15
+                        15
+                        15
                     }
                 }
             }
             0x94572284: map[hash,pointer] = {
-                0xde08bd92 = 0xbc409284 {
-                    0xcbcac618: u8 = 5
-                    0x37070a8d: u8 = 5
-                    0xe6eebb2f: u8 = 5
+                0x2d2facab = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x91239045
+                        }
+                        0x5f5c70a4 {
+                            0x4cec2c8a: u8 = 1
+                            0xb386dcf1: hash = 0x1649dfb2
+                        }
+                        0x5f5c70a4 {
+                            0x4cec2c8a: u8 = 6
+                            0xb386dcf1: hash = 0x8eaf095a
+                        }
+                    }
+                }
+                0xf6b0b002 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0xad106e67 {
+                            0x46144074: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0x0f4d5e4c
+                            }
+                            0x4914452d: pointer = 0x84a63373 {
+                                0xa066cc28: list[pointer] = {
+                                    0x9ef92080 {
+                                        0xe202bca9: f32 = 1
+                                    }
+                                    0x332eb441 {
+                                        0xb386dcf1: hash = 0x41323f60
+                                    }
+                                }
+                            }
+                        }
+                        0x5f5c70a4 {
+                            0x4cec2c8a: u8 = 1
+                            0xb386dcf1: hash = 0x41323f60
+                        }
+                    }
+                }
+                0x1bd2a57a = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0xad106e67 {
+                            0x46144074: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0xa9a7f136
+                            }
+                            0x4914452d: pointer = 0x84a63373 {
+                                0xa066cc28: list[pointer] = {
+                                    0x9ef92080 {
+                                        0xe202bca9: f32 = 1
+                                    }
+                                    0x332eb441 {
+                                        0xb386dcf1: hash = 0x44ae5b88
+                                    }
+                                }
+                            }
+                        }
+                        0x5f5c70a4 {
+                            0x4cec2c8a: u8 = 6
+                            0xb386dcf1: hash = 0x44ae5b88
+                        }
+                    }
+                }
+                0x8985ec55 = 0xbc409284 {
                     0xd6b7a622: bool = true
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
-                            0xb386dcf1: hash = 0xcc4f6c39
+                            0xb386dcf1: hash = 0x91239045
                         }
-                        0x9ef92080 {
-                            0xe202bca9: f32 = -1
+                        0x5f5c70a4 {
+                            0x4cec2c8a: u8 = 1
+                            0xb386dcf1: hash = 0x1649dfb2
+                        }
+                        0x5f5c70a4 {
+                            0x4cec2c8a: u8 = 6
+                            0xb386dcf1: hash = 0x8eaf095a
                         }
                     }
-                    0x5a2297d3: bool = true
                 }
             }
-            0x295c2889: f32 = 0.1
             0xfbd16fb5: string = "Idle1"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Rammus/HUD/Icons2D/Armordillo_ShellBash.dds"

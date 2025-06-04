@@ -51,12 +51,12 @@ entries: map[hash,embed] = {
                         "Play_sfx_DravenSkin04_DravenBasicAttack_OnCast"
                         "Play_sfx_DravenSkin04_DravenCritAttack_OnCast"
                         "Play_sfx_DravenSkin04_DravenDoubleShot_OnCast"
-                        "Play_sfx_DravenSkin04_DravenDoubleShotMissile_Loop"
                         "Play_sfx_DravenSkin04_DravenDoubleShotMissile_OnHit"
                         "Play_sfx_DravenSkin04_DravenDoubleShotMissile_OnMissileLaunch"
                         "Play_sfx_DravenSkin04_DravenFury_OnCast"
                         "Play_sfx_DravenSkin04_DravenFuryBuff_OnBuffActivate"
                         "Play_sfx_DravenSkin04_DravenFuryBuff_OnBuffDeactivate"
+                        "Play_sfx_DravenSkin04_DravenNewPassive_buffactivate"
                         "Play_sfx_DravenSkin04_DravenR_buffactivate"
                         "Play_sfx_DravenSkin04_DravenR_buffdeactivate"
                         "Play_sfx_DravenSkin04_DravenR_hit"
@@ -87,11 +87,12 @@ entries: map[hash,embed] = {
                         "Play_sfx_DravenSkin04_Joke3D_buffactivate"
                         "Play_sfx_DravenSkin04_Laugh3D_buffactivate"
                         "Play_sfx_DravenSkin04_Recall3D_buffactivate"
+                        "Play_sfx_DravenSkin04_Recall3D_buffdeactivate"
                         "Play_sfx_DravenSkin04_Taunt3D_buffactivate"
-                        "Stop_sfx_DravenSkin04_DravenDoubleShotMissile_Loop"
                         "Stop_sfx_DravenSkin04_DravenDoubleShotMissile_OnMissileLaunch"
                         "Stop_sfx_DravenSkin04_DravenFuryBuff_OnBuffActivate"
                         "Stop_sfx_DravenSkin04_DravenFuryBuff_OnBuffDeactivate"
+                        "Stop_sfx_DravenSkin04_DravenNewPassive_buffactivate"
                         "Stop_sfx_DravenSkin04_DravenR_OnMissileLaunch"
                         "Stop_sfx_DravenSkin04_DravenSpinning_OnBuffActivate"
                         "Stop_sfx_DravenSkin04_DravenSpinningLeft_OnBuffActivate"
@@ -126,6 +127,16 @@ entries: map[hash,embed] = {
                         "Play_vo_Draven_Taunt3DGeneral"
                     }
                     0x3b13aa4b: bool = true
+                }
+                0xa4416515 {
+                    0x8d39bde6: string = "Draven_Base_SFX_OutOfGame"
+                    0x2a21ad00: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Draven/Skins/Base/Draven_Base_SFX_OutOfGame_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Draven/Skins/Base/Draven_Base_SFX_OutOfGame_events.bnk"
+                    }
+                    0x12d8e384: list[string] = {
+                        "Play_sfx_Draven_ChampionSelect_Stinger"
+                    }
                 }
             }
         }

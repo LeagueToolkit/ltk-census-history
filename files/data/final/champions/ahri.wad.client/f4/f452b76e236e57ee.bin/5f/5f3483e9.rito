@@ -7,93 +7,209 @@ entries: map[hash,embed] = {
         0x8d39bde6: string = "Characters/Ahri/Skins/Skin70/Materials/Ahri_Tails_Panner_Fresnel_inst_Tails_02"
         0x0a6f0eb5: list2[embed] = {
             0x0904b150 {
-                0xb311d4ef: string = "AlphaMask_Fresnel"
-                0xf0a363e3: string = "ASSETS/Characters/Ahri/Skins/Skin66/Ahri_Skin66_TailsMask_TX_CM.tex"
-                0x111ec6d2: u32 = 1
-                0x101ec53f: u32 = 1
-                0x0f1ec3ac: u32 = 1
+                0xb311d4ef: string = "MatCap_Tex"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/white.dds"
+            }
+            0x0904b150 {
+                0xb311d4ef: string = "MatCap_Mask"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
             }
             0x0904b150 {
                 0xb311d4ef: string = "Diffuse_Texture"
+                0xf0a363e3: string = "ASSETS/Characters/Ahri/Skins/Skin66/Ahri_Skin66_TailsPatterns.tex"
+                0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
+                0xb311d4ef: string = "Main_Texture"
                 0xf0a363e3: string = "ASSETS/Characters/Ahri/Skins/Skin70/Ahri_Skin70_Tails_TX_CM.tex"
-                0x111ec6d2: u32 = 1
-                0x101ec53f: u32 = 1
                 0x0f1ec3ac: u32 = 1
             }
             0x0904b150 {
-                0xb311d4ef: string = "Scroll_01"
-                0xf0a363e3: string = "ASSETS/Characters/Ahri/Skins/Skin70/Particles/Ahri_Skin70_Patterns_Mask2.tex"
-                0x0f1ec3ac: u32 = 1
-            }
-            0x0904b150 {
-                0xb311d4ef: string = "Mask"
-                0xf0a363e3: string = "ASSETS/Characters/Ahri/Skins/Skin70/Particles/Ahri_Skin70_Patterns_Mask2.tex"
-                0x111ec6d2: u32 = 1
-                0x101ec53f: u32 = 1
-                0x0f1ec3ac: u32 = 1
-            }
-            0x0904b150 {
-                0xb311d4ef: string = "Scroll_02"
-                0xf0a363e3: string = "ASSETS/Characters/Ahri/Skins/Skin70/Particles/Ahri_Skin70_Patterns_Mask2.tex"
-                0x0f1ec3ac: u32 = 1
-            }
-            0x0904b150 {
-                0xb311d4ef: string = "Scroll_03"
-                0xf0a363e3: string = "ASSETS/Characters/Ahri/Skins/Skin70/Particles/Ahri_Skin70_Patterns_Mask2.tex"
-                0x0f1ec3ac: u32 = 1
+                0xb311d4ef: string = "OutlineMask_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                0x111ec6d2: u32 = 2
+                0x101ec53f: u32 = 2
+                0x0f1ec3ac: u32 = 2
             }
         }
         0xd0ab46b8: list2[embed] = {
             0xde480eef {
-                0x8d39bde6: string = "Fresnel_Size"
-                0x425ed3ca: vec4 = { 0.185, 0, 0, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "Alpha_Bias"
-                0x425ed3ca: vec4 = { 0.06, 0, 0, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "Texture_UV_Scale01"
+                0x8d39bde6: string = "Distortion_Diffuse_Tex_B_Control"
                 0x425ed3ca: vec4 = { 1, 1, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Fresnel_Color"
-                0x425ed3ca: vec4 = { 1, 0.03137255, 0.5803922, 1 }
+                0x8d39bde6: string = "Distortion_Diffuse_Tex_RG_Control"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Panning_Noise_Color"
-                0x425ed3ca: vec4 = { 0.023529412, 0.31764707, 0.30588236, 1 }
+                0x8d39bde6: string = "Distortion_Main_Tex_Control"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "ScrollTexture_Control01"
+                0x8d39bde6: string = "MatCap_TintColor"
+                0x425ed3ca: vec4 = { 1, 1, 1, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "MatCap_Control"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "OutlineMask_Texture_B_UV"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "ScrollSpeedBase"
                 0x425ed3ca: vec4 = { -0.15, -0.15, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Texture_UV_Scale02"
-                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "ScrollTexture_Control02"
-                0x425ed3ca: vec4 = { -0.15, -0.15, 0, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "Texture_UV_Scale03"
-                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "ScrollTexture_Control03"
+                0x8d39bde6: string = "ScrollSpeedBlend"
                 0x425ed3ca: vec4 = { -0.05, -0.05, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "BloomIntensity"
+                0x8d39bde6: string = "TintColor"
+                0x425ed3ca: vec4 = { 1, 1, 1, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Base_Tile"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Blend_Tile"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "BaseMat_Tint"
+                0x425ed3ca: vec4 = { 0, 1, 1, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "BlendMat_Tint"
+                0x425ed3ca: vec4 = { 0, 0.5, 0.5, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "MaskStrength"
+                0x425ed3ca: vec4 = { 0.8, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "BloomValue"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "OutlineColor"
+                0x425ed3ca: vec4 = { 1, 0.32394904, 0.9317159, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "MainTex_TintColor"
+                0x425ed3ca: vec4 = { 1, 1, 1, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "OutlineControl"
+                0x425ed3ca: vec4 = { 0.2, 1.1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "OutlineMask_Strength"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "WaveController"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "WaveStrength"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "AlphaClipValue"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "AlphaClipNoiseStrength"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Bloom_TintColor"
+                0x425ed3ca: vec4 = { 1, 1, 1, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "NoiseUV"
+                0x425ed3ca: vec4 = { 5, 5, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "ScrollSpeedMainTex"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "MainTex_Tile"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Alpha_Control"
             }
         }
         0xdd7ddb9d: list2[embed] = {
             0x0e2212a1 {
-                0x8d39bde6: string = "INVERT_FRESNEL"
+                0x8d39bde6: string = "DISTORTION_DIFFUSE_TEX_RG"
+                0x61342fd0: bool = false
             }
             0x0e2212a1 {
-                0x8d39bde6: string = "USE_DIFFUSE_ALPHA"
+                0x8d39bde6: string = "DISTORTION_DIFFUSE_TEX_B"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "DISTORTION_MAIN_TEX"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "MATCAP_ON"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_OUTLINEMASK_B_ALPHA"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "BLENDCOLOR_ON"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "ADDITIVEALPHA_ON"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "MASK_ON"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "MAINTEX_ON"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "OUTLINE_ON"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "OUTLINE_MASK_ON"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "ALPHABLEND_MAIN"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_MAINTEXCOLOR"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "DEFORM_ON"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "TWO_D_DEFORM_ON"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_MAINTEXALPHA"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "ALPHACLIP_ON"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "BLOOM_TINTCOLOR_ON"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "SCROLL_MAIN_TEX"
+                0x61342fd0: bool = false
             }
         }
         0xe6d67ded: map[string,string] = {
@@ -104,7 +220,7 @@ entries: map[hash,embed] = {
                 0x8d39bde6: string = "normal"
                 0x623cd25c: list[embed] = {
                     0x8537d0c2 {
-                        0x355d5568: link = 0x4b02128e
+                        0x355d5568: link = 0xead7a1f5
                         0x23b75597: bool = true
                         0x22c0c7d0: u32 = 6
                         0xa0958d01: u32 = 6
