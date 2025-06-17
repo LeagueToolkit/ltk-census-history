@@ -1,0 +1,62 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3b2278eb = 0x5e7e5a06 {
+        0xe095d841: string = "Bloom_Hexgate_SpeedBuff"
+        0xc8e37ef0: string = "Bloom_Hexgate_SpeedBuff"
+        0x56d2be52: pointer = 0x43368569 {
+            0x1f4d20a6: list[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "BonusMS"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DecayingRate"
+                    0x246b0d8e: list[f32] = {
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "Duration"
+                    0x246b0d8e: list[f32] = {
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                        1.5
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Spells/Icons2D/Chronokeeper_Recall.dds"
+            }
+        }
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "Bloom_Hexgate_SpeedBuff"
+                0x57b8b11b: link = 0xb34f999a
+                0x0381f7e2: map[string,string] = {
+                    "keyTooltip" = "Crepe_ZaunBuff01"
+                }
+            }
+        }
+    }
+}

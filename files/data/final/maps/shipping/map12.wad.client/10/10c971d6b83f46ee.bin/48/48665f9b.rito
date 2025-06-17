@@ -1,0 +1,29 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x48665f9b = 0x5e7e5a06 {
+        0xe095d841: string = "UltBook_RenataRDebuff"
+        0xc8e37ef0: string = "UltBook_RenataRDebuff"
+        0x56d2be52: pointer = 0x43368569 {
+            0xeed67cd5: list[string] = {
+                "ASSETS/Characters/Renata/HUD/Icons2D/Renata_R.dds"
+            }
+            0x92a53e77: list[hash] = {
+                0x75a7d60b
+            }
+        }
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0xf1f20d72: string = "buff_desc_RenataRDebuff"
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "UltBook_RenataRDebuff"
+                0x57b8b11b: link = 0xb34f999a
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Buff_RenataRAbility_Name"
+                    "keyTooltip" = "Buff_RenataRAbility_Tooltip"
+                }
+            }
+        }
+    }
+}
