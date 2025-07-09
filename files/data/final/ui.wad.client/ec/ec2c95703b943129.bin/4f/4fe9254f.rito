@@ -1,0 +1,26 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4fe9254f = 0xb27d5b93 {
+        0xb482c52c: string = "SummonerSpell"
+        0xd0f83d74: map[string,string] = {
+            "keyName" = ""
+            "keySummary" = ""
+            "keyTooltip" = ""
+            "keyCooldown" = "Spell_Default_Cooldown"
+            "keyNameUnformatted" = "Spell_Default_NameUnformatted"
+            "keyHotkey" = "Spell_Default_Hotkey"
+            "keyCost" = "Spell_Cost_NoCost"
+        }
+        0x176257a1: map[string,string] = {
+            "Description" = "Template_Spell_Description"
+            "DisplayName" = "Template_Spell_DisplayName"
+            "Tooltip" = "Template_SummonerSpell_Tooltip"
+            "TooltipSimple" = "Template_SummonerSpell_Tooltip"
+            "TooltipExtended" = "Template_SummonerSpell_Tooltip"
+            "TooltipWithExtendedBehaviorHint" = "Template_SummonerSpell_Tooltip"
+        }
+    }
+}

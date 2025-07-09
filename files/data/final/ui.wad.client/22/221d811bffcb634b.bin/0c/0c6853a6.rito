@@ -1,0 +1,1635 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x0c6853a6 = 0xaf9f3bac {
+        0xe2db859f: string = "options_tab_hotkeys"
+        0xa4b002d7: list2[pointer] = {
+            0xd79b9cc2 {
+                0xc7e16877: pointer = 0xcd391c99 {
+                    0x442474e9: bool = false
+                    0x420c4abd: bool = false
+                    0x1dde7980: bool = false
+                }
+                0x694aaa0b: hash = 0xc228d247
+                0xca0e79b5: string = "Options_Hotkeys_PrimaryHotkeys_label"
+                0x3a79338f: list[pointer] = {
+                    0x920d412e {
+                        0x694aaa0b: hash = 0x79387cef
+                    }
+                }
+            }
+            0xd79b9cc2 {
+                0xc7e16877: pointer = 0xcd391c99 {
+                    0x442474e9: bool = false
+                    0x420c4abd: bool = false
+                    0x1dde7980: bool = false
+                }
+                0x694aaa0b: hash = 0xc228d247
+                0xca0e79b5: string = "Options_Hotkeys_QuickCastWithIndicator_label"
+                0x3a79338f: list[pointer] = {
+                    0x9c74b21a {
+                        0xe7e19b94: u16 = 98
+                        0x694aaa0b: hash = 0xa5390815
+                        0xca0e79b5: string = "Options_Hotkeys_QuickCastWithIndicator_ReplaceQuickCastWithIndicator"
+                    }
+                    0x9c74b21a {
+                        0xe7e19b94: u16 = 99
+                        0x694aaa0b: hash = 0xa5390815
+                        0xca0e79b5: string = "Options_Hotkeys_QuickCastWithIndicator_CastThePressedSpell"
+                    }
+                }
+            }
+            0xd79b9cc2 {
+                0xc7e16877: pointer = 0xf8026218 {}
+                0x694aaa0b: hash = 0xc228d247
+                0xca0e79b5: string = "Options_Hotkeys_MacOSOptions_label"
+                0x3a79338f: list[pointer] = {
+                    0x9c74b21a {
+                        0xe7e19b94: u16 = 46
+                        0x694aaa0b: hash = 0xa5390815
+                        0xca0e79b5: string = "Options_Hotkeys_MacOSOptions_AllowRebindingOfSystemKeyCombinations"
+                    }
+                }
+            }
+            0xd79b9cc2 {
+                0xc7e16877: pointer = 0xcd391c99 {
+                    0x442474e9: bool = false
+                    0x1dde7980: bool = false
+                }
+                0x694aaa0b: hash = 0xc228d247
+                0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_label"
+                0x3a79338f: list[pointer] = {
+                    0xd79b9cc2 {
+                        0xc7e16877: pointer = 0xcd391c99 {
+                            0x42076e94: bool = false
+                            0x442474e9: bool = false
+                            0x1dde7980: bool = false
+                        }
+                        0x694aaa0b: hash = 0xbda9345b
+                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_label"
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_DeployToBattlefieldReturnToBench"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTPlaceUnit"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_SellChampion"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTSellUnit"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_RefreshStore"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTRerollShop"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_BuyXP"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTPurchaseXP"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayerClockwise"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraClockwise"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayerCounterclockwise"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraCounterClockwise"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutNextPlayer"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboardNext"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPrevPlayer"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboardPrev"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_CenterCameraOnLittleLegend"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToSelf"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ToggleCombatRecap"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTToggleCombatRecap"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ToggleCombatRecapOpponent"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTToggleCombatRecapOpponent"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_CycleCombatRecapMode"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTCycleCombatRecapMode"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayer1"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboard1"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayer2"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboard2"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayer3"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboard3"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayer4"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboard4"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayer5"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboard5"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayer6"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboard6"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayer7"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboard7"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayer8"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboard8"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_GoToCarousel"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToCarousel"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0xd79b9cc2 {
+                        0xc7e16877: pointer = 0xcd391c99 {
+                            0x420c4abd: bool = false
+                            0x1dde7980: bool = false
+                        }
+                        0x694aaa0b: hash = 0xbda9345b
+                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_label"
+                        0x3a79338f: list[pointer] = {
+                            0xbb6f8e53 {
+                                0x694aaa0b: hash = 0x0efaffc8
+                                0xe488d460: embed = 0x55212361 {
+                                    0x6b8648e5: string = "Options_Hotkeys_AdditionalHotkeys_NormalCast_label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell1"
+                                        0x2a078c9c: string = "[GameEvents]evtNormalCastSpell1"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell2"
+                                        0x2a078c9c: string = "[GameEvents]evtNormalCastSpell2"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell3"
+                                        0x2a078c9c: string = "[GameEvents]evtNormalCastSpell3"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell4"
+                                        0x2a078c9c: string = "[GameEvents]evtNormalCastSpell4"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell1"
+                                        0x2a078c9c: string = "[GameEvents]evtNormalCastAvatarSpell1"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
+                                        0x2a078c9c: string = "[GameEvents]evtNormalCastAvatarSpell2"
+                                    }
+                                }
+                            }
+                            0xbb6f8e53 {
+                                0x694aaa0b: hash = 0x0efaffc8
+                                0xe488d460: embed = 0x55212361 {
+                                    0x6b8648e5: string = "Options_Hotkeys_AdditionalHotkeys_QuickCast_label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell1"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastSpell1"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell2"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastSpell2"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell3"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastSpell3"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell4"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastSpell4"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell1"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastAvatarSpell1"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastAvatarSpell2"
+                                    }
+                                }
+                            }
+                            0xbb6f8e53 {
+                                0x694aaa0b: hash = 0x0efaffc8
+                                0xe488d460: embed = 0x55212361 {
+                                    0x6b8648e5: string = "Options_Hotkeys_AdditionalHotkeys_QuickCastWithIndicator_label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell1"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastWithIndicatorSpell1"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell2"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastWithIndicatorSpell2"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell3"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastWithIndicatorSpell3"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell4"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastWithIndicatorSpell4"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell1"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastWithIndicatorAvatarSpell1"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastWithIndicatorAvatarSpell2"
+                                    }
+                                }
+                            }
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x6b8648e5: string = "Options_Hotkeys_AdditionalHotkeys_SelfCast_label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell1"
+                                        0x2a078c9c: string = "[GameEvents]evtSelfCastSpell1"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell2"
+                                        0x2a078c9c: string = "[GameEvents]evtSelfCastSpell2"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell3"
+                                        0x2a078c9c: string = "[GameEvents]evtSelfCastSpell3"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell4"
+                                        0x2a078c9c: string = "[GameEvents]evtSelfCastSpell4"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell1"
+                                        0x2a078c9c: string = "[GameEvents]evtSelfCastAvatarSpell1"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
+                                        0x2a078c9c: string = "[GameEvents]evtSelfCastAvatarSpell2"
+                                    }
+                                }
+                            }
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x6b8648e5: string = "Options_Hotkeys_AdditionalHotkeys_QuickPlusSelfCast_label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell1"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastSpell1"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell2"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastSpell2"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell3"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastSpell3"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell4"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastSpell4"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell1"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastAvatarSpell1"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastAvatarSpell2"
+                                    }
+                                }
+                            }
+                            0xbb6f8e53 {
+                                0x694aaa0b: hash = 0x0efaffc8
+                                0xe488d460: embed = 0x55212361 {
+                                    0x6b8648e5: string = "Options_Hotkeys_AdditionalHotkeys_QuickCastWithIndicatorPlusSelfCast_label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell1"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastWithIndicatorSpell1"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell2"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastWithIndicatorSpell2"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell3"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastWithIndicatorSpell3"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Spell4"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastWithIndicatorSpell4"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell1"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastWithIndicatorAvatarSpell1"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastWithIndicatorAvatarSpell2"
+                                    }
+                                }
+                            }
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x6b8648e5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_Other_label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_LevelUpSpell1"
+                                        0x2a078c9c: string = "[GameEvents]evtLevelSpell1"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_LevelUpSpell2"
+                                        0x2a078c9c: string = "[GameEvents]evtLevelSpell2"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_LevelUpSpell3"
+                                        0x2a078c9c: string = "[GameEvents]evtLevelSpell3"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_LevelUpSpell4"
+                                        0x2a078c9c: string = "[GameEvents]evtLevelSpell4"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_TargetChampionsOnly"
+                                        0x2a078c9c: string = "[GameEvents]evtChampionOnly"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_TeleportHome"
+                                        0x2a078c9c: string = "[GameEvents]evtUseItem7"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_ChampionSpecificInteraction1"
+                                        0x2a078c9c: string = "[GameEvents]evtChampionSpecificInteractionButton1Click"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_ChampionSpecificInteraction2"
+                                        0x2a078c9c: string = "[GameEvents]evtChampionSpecificInteractionButton2Click"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_ChampionSpecificInteraction3"
+                                        0x2a078c9c: string = "[GameEvents]evtChampionSpecificInteractionButton3Click"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_ChampionSpecificInteraction4"
+                                        0x2a078c9c: string = "[GameEvents]evtChampionSpecificInteractionButton4Click"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_ChampionSpecificInteraction5"
+                                        0x2a078c9c: string = "[GameEvents]evtChampionSpecificInteractionButton5Click"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_ChampionSpecificInteraction6"
+                                        0x2a078c9c: string = "[GameEvents]evtChampionSpecificInteractionButton6Click"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0xd79b9cc2 {
+                        0xc7e16877: pointer = 0xcd391c99 {
+                            0x420c4abd: bool = false
+                            0x1dde7980: bool = false
+                        }
+                        0x694aaa0b: hash = 0xbda9345b
+                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_label"
+                        0x3a79338f: list[pointer] = {
+                            0xbb6f8e53 {
+                                0x694aaa0b: hash = 0x0efaffc8
+                                0xe488d460: embed = 0x55212361 {
+                                    0x6b8648e5: string = "Options_Hotkeys_AdditionalHotkeys_NormalCast_label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Trinket"
+                                        0x2a078c9c: string = "[GameEvents]evtNormalCastVisionItem"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item1"
+                                        0x2a078c9c: string = "[GameEvents]evtNormalCastItem1"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item2"
+                                        0x2a078c9c: string = "[GameEvents]evtNormalCastItem2"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item3"
+                                        0x2a078c9c: string = "[GameEvents]evtNormalCastItem3"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item4"
+                                        0x2a078c9c: string = "[GameEvents]evtNormalCastItem4"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item5"
+                                        0x2a078c9c: string = "[GameEvents]evtNormalCastItem5"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item6"
+                                        0x2a078c9c: string = "[GameEvents]evtNormalCastItem6"
+                                    }
+                                }
+                            }
+                            0xbb6f8e53 {
+                                0x694aaa0b: hash = 0x0efaffc8
+                                0xe488d460: embed = 0x55212361 {
+                                    0x6b8648e5: string = "Options_Hotkeys_AdditionalHotkeys_QuickCast_label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Trinket"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastVisionItem"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item1"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastItem1"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item2"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastItem2"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item3"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastItem3"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item4"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastItem4"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item5"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastItem5"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item6"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastItem6"
+                                    }
+                                }
+                            }
+                            0xbb6f8e53 {
+                                0x694aaa0b: hash = 0x0efaffc8
+                                0xe488d460: embed = 0x55212361 {
+                                    0x6b8648e5: string = "Options_Hotkeys_AdditionalHotkeys_QuickCastWithIndicator_label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Trinket"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastWithIndicatorVisionItem"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item1"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastWithIndicatorItem1"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item2"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastWithIndicatorItem2"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item3"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastWithIndicatorItem3"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item4"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastWithIndicatorItem4"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item5"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastWithIndicatorItem5"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item6"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastWithIndicatorItem6"
+                                    }
+                                }
+                            }
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x6b8648e5: string = "Options_Hotkeys_AdditionalHotkeys_SelfCast_label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Trinket"
+                                        0x2a078c9c: string = "[GameEvents]evtSelfCastVisionItem"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item1"
+                                        0x2a078c9c: string = "[GameEvents]evtSelfCastItem1"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item2"
+                                        0x2a078c9c: string = "[GameEvents]evtSelfCastItem2"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item3"
+                                        0x2a078c9c: string = "[GameEvents]evtSelfCastItem3"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item4"
+                                        0x2a078c9c: string = "[GameEvents]evtSelfCastItem4"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item5"
+                                        0x2a078c9c: string = "[GameEvents]evtSelfCastItem5"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item6"
+                                        0x2a078c9c: string = "[GameEvents]evtSelfCastItem6"
+                                    }
+                                }
+                            }
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x6b8648e5: string = "Options_Hotkeys_AdditionalHotkeys_QuickPlusSelfCast_label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Trinket"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastVisionItem"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item1"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastItem1"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item2"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastItem2"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item3"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastItem3"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item4"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastItem4"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item5"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastItem5"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item6"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastItem6"
+                                    }
+                                }
+                            }
+                            0xbb6f8e53 {
+                                0x694aaa0b: hash = 0x0efaffc8
+                                0xe488d460: embed = 0x55212361 {
+                                    0x6b8648e5: string = "Options_Hotkeys_AdditionalHotkeys_QuickCastWithIndicatorPlusSelfCast_label"
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Trinket"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastWithIndicatorVisionItem"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item1"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastWithIndicatorItem1"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item2"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastWithIndicatorItem2"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item3"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastWithIndicatorItem3"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item4"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastWithIndicatorItem4"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item5"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastWithIndicatorItem5"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Items_Item6"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastWithIndicatorItem6"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0xd79b9cc2 {
+                        0x694aaa0b: hash = 0xbda9345b
+                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PlayerMovement_label"
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PlayerMovement_PlayerMoveClick"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerMoveClick"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PlayerMovement_PlayerAttackMoveClick"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerAttackMoveClick"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PlayerMovement_PlayerAttackOnlyClick"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerAttackOnlyClick"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PlayerMovement_PlayerAttackMove"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerAttackMove"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PlayerMovement_PlayerHoldPosition"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerHoldPosition"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PlayerMovement_PlayerStopPosition"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerStopPosition"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PlayerMovement_MovePetClick"
+                                        0x2a078c9c: string = "[GameEvents]evtPetMoveClick"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0xd79b9cc2 {
+                        0xc7e16877: pointer = 0xcd391c99 {
+                            0x420c4abd: bool = false
+                            0x1dde7980: bool = false
+                        }
+                        0x694aaa0b: hash = 0xbda9345b
+                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_label"
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_CenterCameraOnChampion"
+                                        0x2a078c9c: string = "[GameEvents]evtCameraSnap"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_SelectSelf"
+                                        0x2a078c9c: string = "[GameEvents]evtSelectSelf"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_SelectAlly1"
+                                        0x2a078c9c: string = "[GameEvents]evtSelectAlly1"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_SelectAlly2"
+                                        0x2a078c9c: string = "[GameEvents]evtSelectAlly2"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_SelectAlly3"
+                                        0x2a078c9c: string = "[GameEvents]evtSelectAlly3"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_SelectAlly4"
+                                        0x2a078c9c: string = "[GameEvents]evtSelectAlly4"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_SelectAlly5"
+                                        0x2a078c9c: string = "[GameEvents]evtSelectAlly5"
+                                        0xc7e16877: pointer = 0xee4d1304 {
+                                            0xcf093b49: string = "6v6"
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_ToggleCameraLock"
+                                        0x2a078c9c: string = "[GameEvents]evtCameraLockToggle"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_ScrollUp"
+                                        0x2a078c9c: string = "[GameEvents]evtScrollUp"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_ScrollDown"
+                                        0x2a078c9c: string = "[GameEvents]evtScrollDown"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_ScrollLeft"
+                                        0x2a078c9c: string = "[GameEvents]evtScrollLeft"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_ScrollRight"
+                                        0x2a078c9c: string = "[GameEvents]evtScrollRight"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_DragScroll"
+                                        0x2a078c9c: string = "[GameEvents]evtOnUIMouse4Pan"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_DragScrollLock"
+                                        0x2a078c9c: string = "[GameEvents]evtDragScrollLock"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0xd79b9cc2 {
+                        0x694aaa0b: hash = 0xbda9345b
+                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Display_label"
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Display_ShowHealthBars"
+                                        0x2a078c9c: string = "[GameEvents]evtShowHealthBars"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Display_ToggleMinionHealthBars"
+                                        0x2a078c9c: string = "[GameEvents]evtToggleMinionHealthBars"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Display_ShowSummonerNames"
+                                        0x2a078c9c: string = "[GameEvents]evtShowSummonerNames"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Display_ShowHideHUD"
+                                        0x2a078c9c: string = "[GameEvents]evtDrawHud"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Display_ToggleFPSDisplay"
+                                        0x2a078c9c: string = "[HUDEvents]evtToggleFPSAndLatency"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Display_ToggleDeathRecapShowcase"
+                                        0x2a078c9c: string = "[HUDEvents]evtToggleDeathRecapShowcase"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0xd79b9cc2 {
+                        0x694aaa0b: hash = 0xbda9345b
+                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_label"
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_AlertPing"
+                                        0x2a078c9c: string = "[GameEvents]evntPlayerPingCursor"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickAlertPing"
+                                        0x2a078c9c: string = "[GameEvents]evntPlayerPing"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_OnMyWayPing"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerPingOMW"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_MissingEnemyPing"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerPingMIA"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_RetreatPing"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerPingRadialDanger"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_AssistMePing"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerPingComeHere"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_AreaIsWardedPing"
+                                        0x2a078c9c: string = "[GameEvents]evtPlayerPingAreaIsWarded"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_Joke"
+                                        0x2a078c9c: string = "[GameEvents]evtEmoteJoke"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_Taunt"
+                                        0x2a078c9c: string = "[GameEvents]evtEmoteTaunt"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_Dance"
+                                        0x2a078c9c: string = "[GameEvents]evtEmoteDance"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_Laugh"
+                                        0x2a078c9c: string = "[GameEvents]evtEmoteLaugh"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_Toggle"
+                                        0x2a078c9c: string = "[GameEvents]evtEmoteToggle"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_MasteryEmote"
+                                        0x2a078c9c: string = "[GameEvents]evtChampMasteryDisplay"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_ChatHistory"
+                                        0x2a078c9c: string = "[GameEvents]evtChatHistory"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_OpenEmoteWheel"
+                                        0x2a078c9c: string = "[GameEvents]evtRadialEmoteOpen"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickOpenEmoteWheel"
+                                        0x2a078c9c: string = "[GameEvents]evtRadialEmoteInstantOpen"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickPlayEmoteNorth"
+                                        0x2a078c9c: string = "[GameEvents]evtRadialEmotePlaySlot0"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickPlayEmoteEast"
+                                        0x2a078c9c: string = "[GameEvents]evtRadialEmotePlaySlot1"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickPlayEmoteSouth"
+                                        0x2a078c9c: string = "[GameEvents]evtRadialEmotePlaySlot2"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickPlayEmoteWest"
+                                        0x2a078c9c: string = "[GameEvents]evtRadialEmotePlaySlot3"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickPlayEmoteCenter"
+                                        0x2a078c9c: string = "[GameEvents]evtRadialEmotePlaySlot4"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0xd79b9cc2 {
+                        0x694aaa0b: hash = 0xbda9345b
+                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Menus_label"
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Menus_ShowScoreboard"
+                                        0x2a078c9c: string = "[GameEvents]evtShowScoreBoard"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Menus_ShowScoreboardHold"
+                                        0x2a078c9c: string = "[HUDEvents]evtHoldShowScoreBoard"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Menus_ToggleMouseScreenLock"
+                                        0x2a078c9c: string = "[HUDEvents]evtToggleMouseClip"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Menus_SystemMenu"
+                                        0x2a078c9c: string = "[GameEvents]evtSysMenu"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Menus_ShowAdvancedPlayerStats"
+                                        0x2a078c9c: string = "[GameEvents]evtShowCharacterMenu"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Menus_ToggleBasicPlayerStats"
+                                        0x2a078c9c: string = "[HUDEvents]evtTogglePlayerStats"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0xd79b9cc2 {
+                        0xc7e16877: pointer = 0xcd391c99 {
+                            0x420c4abd: bool = false
+                            0x1dde7980: bool = false
+                        }
+                        0x694aaa0b: hash = 0xbda9345b
+                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_ItemShop_label"
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_ItemShop_OpenShop"
+                                        0x2a078c9c: string = "[GameEvents]evtOpenShop"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_ItemShop_FocusShopSearchBar"
+                                        0x2a078c9c: string = "[ShopEvents]evtShopFocusSearch"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_ItemShop_SwitchShopTabs"
+                                        0x2a078c9c: string = "[ShopEvents]evtShopSwitchTabs"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0xd79b9cc2 {
+                        0xc7e16877: pointer = 0xee4d1304 {
+                            0xcf093b49: string = "PracticeToolOptionsMenuHotkeys"
+                        }
+                        0x694aaa0b: hash = 0xbda9345b
+                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_label"
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_FastForward30sec"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolIncGameClock"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_AddGold"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolIncGold"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_LeveIUp"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolIncLevel"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_LockXPLevel"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolLockLevel"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_AutorefreshCooldowns"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolResetCooldown"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_ResetGame"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolResetGame"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_AutorefreshHP"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolResetHP"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_AutorefreshMana"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolResetPAR"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_Revive"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolRevive"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_SpawnAlliedDummy"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolSpawnAlliedTargetDummy"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_SpawnEnemyDummy"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolSpawnEnemyTargetDummy"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_ClearTargetDummies"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolRemoveTargetDummy"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_SpawnCloudDrake"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolSpawnDragonAir"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_SpawnElderDrake"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolSpawnDragonElder"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_SpawnInfernalDrake"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolSpawnDragonFire"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_SpawnMountainDrake"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolSpawnDragonEarth"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_SpawnOceanDrake"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolSpawnDragonOcean"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_SpawnJungleCamps"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolSpawnJungle"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_SpawnJunglePlants"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolSpawnJunglePlants"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_TeleportToCursor"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolTeleport"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_ToggleMinionSpawn"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolToggleMinions"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_ToggleTowerFire"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolToggleTurrets"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PracticeTool_ToggleTowerInvincibility"
+                                        0x2a078c9c: string = "[GameEvents]evtPracticeToolTurretInv"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            0xd79b9cc2 {
+                0xc7e16877: pointer = 0xcd391c99 {
+                    0x442474e9: bool = false
+                    0x420c4abd: bool = false
+                    0x1dde7980: bool = false
+                }
+                0x694aaa0b: hash = 0xc228d247
+                0xca0e79b5: string = "Options_Hotkeys_AdvancedKeybindingOptions_label"
+                0x3a79338f: list[pointer] = {
+                    0x9c74b21a {
+                        0x4102143e: bool = true
+                        0xe7e19b94: u16 = 33
+                        0x694aaa0b: hash = 0xa5390815
+                        0xca0e79b5: string = "Options_Hotkeys_AdvancedKeybindingOptions_BindAutoAttackMoveToLeftClick"
+                    }
+                }
+            }
+            0xd79b9cc2 {
+                0xc7e16877: pointer = 0xcd391c99 {
+                    0x42076e94: bool = false
+                    0x420c4abd: bool = false
+                }
+                0x694aaa0b: hash = 0xc228d247
+                0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_label"
+                0x3a79338f: list[pointer] = {
+                    0xd79b9cc2 {
+                        0xc7e16877: pointer = 0xcd391c99 {
+                            0x42076e94: bool = false
+                            0x442474e9: bool = false
+                            0x420c4abd: bool = false
+                        }
+                        0x694aaa0b: hash = 0xbda9345b
+                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_label"
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayerClockwise"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraClockwise"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayerCounterclockwise"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraCounterClockwise"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutNextPlayer"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboardNext"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPrevPlayer"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboardPrev"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_CenterCameraOnLittleLegend"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToSelf"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ToggleCombatRecap"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTToggleCombatRecap"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ToggleCombatRecapOpponent"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTToggleCombatRecapOpponent"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_CycleCombatRecapMode"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTCycleCombatRecapMode"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayer1"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboard1"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayer2"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboard2"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayer3"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboard3"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayer4"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboard4"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayer5"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboard5"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayer6"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboard6"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayer7"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboard7"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_ScoutPlayer8"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToScoreboard8"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_AdditionalHotkeys_TeamfightTactics_GoToCarousel"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTMoveCameraToCarousel"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0xd79b9cc2 {
+                        0x694aaa0b: hash = 0xbda9345b
+                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_label"
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_ToggleFogOfWar"
+                                        0x2a078c9c: string = "[GameEvents]evtToggleFogOfWar"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_ToggleFogOfWarTeam"
+                                        0x2a078c9c: string = "[GameEvents]evtToggleObserverVisibility"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_SetFogOfWarToBlueTeam"
+                                        0x2a078c9c: string = "[GameEvents]evtSetVisibilityTeam1"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_SetFogOfWarToReadTeam"
+                                        0x2a078c9c: string = "[GameEvents]evtSetVisibilityTeam2"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_SetFogOfWarToAll"
+                                        0x2a078c9c: string = "[GameEvents]evtSetVisibilityTeamNone"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_ToggleVisibilityMenu"
+                                        0x2a078c9c: string = "[GameEvents]evtToggleReplayVisibilityPanel"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_ToggleSpectatorHUD"
+                                        0x2a078c9c: string = "[GameEvents]evtToggleReplayUI"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_ToggleScoreboardItems"
+                                        0x2a078c9c: string = "[GameEvents]evtToggleScoreboardGoldDisplay"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_ToggleTeamfightUI"
+                                        0x2a078c9c: string = "[GameEvents]evtShowHideTeamfightUI"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_ToggleTimeControls"
+                                        0x2a078c9c: string = "[GameEvents]evtToggleReplayTimeControls"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_ToggleObjectiveTimers"
+                                        0x2a078c9c: string = "[GameEvents]evtToggleReplayNeutralTimers"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_ShowCharacterMenu"
+                                        0x2a078c9c: string = "[GameEvents]evtShowCharacterMenuSpectator"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_ShowScoreboard"
+                                        0x2a078c9c: string = "[GameEvents]evtShowScoreBoard"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_ShowScoreboardHold"
+                                        0x2a078c9c: string = "[HUDEvents]evtHoldShowScoreBoard"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_ChatHistory"
+                                        0x2a078c9c: string = "[GameEvents]evtChatHistory"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_ShowHealthBars"
+                                        0x2a078c9c: string = "[GameEvents]evtShowHealthBars"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_ToggleMinionHealthBars"
+                                        0x2a078c9c: string = "[GameEvents]evtToggleMinionHealthBars"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_ShowSummonerNames"
+                                        0x2a078c9c: string = "[GameEvents]evtShowSummonerNames"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_AlertPing"
+                                        0x2a078c9c: string = "[GameEvents]evntPlayerPingCursor"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_ShowHideHUD"
+                                        0x2a078c9c: string = "[GameEvents]evtDrawHud"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_TFT_Toggle_All_HUD"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTToggleAllHudElements"
+                                        0xc7e16877: pointer = 0xc8a5411c {}
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_TFT_Toggle_Stage_Round"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTToggleStageRoundPanel"
+                                        0xc7e16877: pointer = 0xc8a5411c {}
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_TFT_Toggle_Options_Buttons"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTToggleOptionsButtons"
+                                        0xc7e16877: pointer = 0xc8a5411c {}
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_TFT_Toggle_Items"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTToggleItemTracker"
+                                        0xc7e16877: pointer = 0xc8a5411c {}
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_TFT_Toggle_Traits"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTToggleTraitTracker"
+                                        0xc7e16877: pointer = 0xc8a5411c {}
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_TFT_Toggle_Player_Scoreboard"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTTogglePlayerScoreboard"
+                                        0xc7e16877: pointer = 0xc8a5411c {}
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_TFT_Toggle_Unit_Info_Board"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTToggleUnitInfo"
+                                        0xc7e16877: pointer = 0xc8a5411c {}
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_TFT_Toggle_Minimap"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTToggleMinimap"
+                                        0xc7e16877: pointer = 0xc8a5411c {}
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_TFT_Toggle_Shop"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTToggleUnitShop"
+                                        0xc7e16877: pointer = 0xc8a5411c {}
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Interface_TFT_Toggle_Armories"
+                                        0x2a078c9c: string = "[GameEvents]evtTFTToggleArmories"
+                                        0xc7e16877: pointer = 0xc8a5411c {}
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0xd79b9cc2 {
+                        0x694aaa0b: hash = 0xbda9345b
+                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_label"
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_DirectedCamera"
+                                        0x2a078c9c: string = "[GameEvents]evtEnableDirectedCamera"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_FirstPersonCamera"
+                                        0x2a078c9c: string = "[GameEvents]evtEnableFPSCamera"
+                                        0xc7e16877: pointer = 0xa4941383 {}
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_ManualCamera"
+                                        0x2a078c9c: string = "[GameEvents]evtDisableDirectedCamera"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_SelectBluePlayer1"
+                                        0x2a078c9c: string = "[GameEvents]evtSelectOrderPlayer1"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_SelectBluePlayer2"
+                                        0x2a078c9c: string = "[GameEvents]evtSelectOrderPlayer2"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_SelectBluePlayer3"
+                                        0x2a078c9c: string = "[GameEvents]evtSelectOrderPlayer3"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_SelectBluePlayer4"
+                                        0x2a078c9c: string = "[GameEvents]evtSelectOrderPlayer4"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_SelectBluePlayer5"
+                                        0x2a078c9c: string = "[GameEvents]evtSelectOrderPlayer5"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_SelectRedPlayer1"
+                                        0x2a078c9c: string = "[GameEvents]evtSelectChaosPlayer1"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_SelectRedPlayer2"
+                                        0x2a078c9c: string = "[GameEvents]evtSelectChaosPlayer2"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_SelectRedPlayer3"
+                                        0x2a078c9c: string = "[GameEvents]evtSelectChaosPlayer3"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_SelectRedPlayer4"
+                                        0x2a078c9c: string = "[GameEvents]evtSelectChaosPlayer4"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_SelectRedPlayer5"
+                                        0x2a078c9c: string = "[GameEvents]evtSelectChaosPlayer5"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_CenterCameraOnChampion"
+                                        0x2a078c9c: string = "[GameEvents]evtCameraSnap"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_ToggleCameraLock"
+                                        0x2a078c9c: string = "[GameEvents]evtCameraLockToggle"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_DragScrollLock"
+                                        0x2a078c9c: string = "[GameEvents]evtDragScrollLock"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_ScrollUp"
+                                        0x2a078c9c: string = "[GameEvents]evtScrollUp"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_ScrollDown"
+                                        0x2a078c9c: string = "[GameEvents]evtScrollDown"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_ScrollLeft"
+                                        0x2a078c9c: string = "[GameEvents]evtScrollLeft"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_ScrollRight"
+                                        0x2a078c9c: string = "[GameEvents]evtScrollRight"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_DragScroll"
+                                        0x2a078c9c: string = "[GameEvents]evtOnUIMouse4Pan"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0xd79b9cc2 {
+                        0x694aaa0b: hash = 0xbda9345b
+                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Timeshift_label"
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0xe488d460: embed = 0xea321356 {
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Timeshift_PlayPause"
+                                        0x2a078c9c: string = "[GameEvents]evtToggleReplayPause"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Timeshift_SlowDown"
+                                        0x2a078c9c: string = "[GameEvents]evtDecreaseReplaySpeed"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Timeshift_SpeedUp"
+                                        0x2a078c9c: string = "[GameEvents]evtIncreaseReplaySpeed"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Timeshift_ReturnToNormalSpeed"
+                                        0x2a078c9c: string = "[GameEvents]evtDefaultReplaySpeed"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Timeshift_JumpBack"
+                                        0x2a078c9c: string = "[GameEvents]evtJumpBack"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Timeshift_JumpFoward"
+                                        0x2a078c9c: string = "[GameEvents]evtJumpForward"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Timeshift_RecordStartStop"
+                                        0x2a078c9c: string = "[GameEvents]evtToggleVC"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0xd79b9cc2 {
+                        0xc7e16877: pointer = 0xa4941383 {}
+                        0x694aaa0b: hash = 0xbda9345b
+                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_FirstPersonCamera_label"
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x9b0dc887
+                                0x2a37b398: list[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_FirstPersonCamera_MoveForward"
+                                        0x2a078c9c: string = "[GameEvents]evtFPSForward"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_FirstPersonCamera_MoveBackward"
+                                        0x2a078c9c: string = "[GameEvents]evtFPSBackwards"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_FirstPersonCamera_StrafeLeft"
+                                        0x2a078c9c: string = "[GameEvents]evtFPSStrafeLeft"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_FirstPersonCamera_StrafeRight"
+                                        0x2a078c9c: string = "[GameEvents]evtFPSStrafeRight"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_FirstPersonCamera_PitchDown"
+                                        0x2a078c9c: string = "[GameEvents]evtFPSPitchDown"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_FirstPersonCamera_PitchUp"
+                                        0x2a078c9c: string = "[GameEvents]evtFPSPitchUp"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_FirstPersonCamera_YawLeft"
+                                        0x2a078c9c: string = "[GameEvents]evtFPSYawLeft"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_FirstPersonCamera_YawRight"
+                                        0x2a078c9c: string = "[GameEvents]evtFPSYawRight"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

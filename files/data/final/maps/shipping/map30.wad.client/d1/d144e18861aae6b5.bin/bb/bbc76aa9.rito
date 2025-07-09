@@ -1,0 +1,42 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xbbc76aa9 = 0x5e7e5a06 {
+        0xe095d841: string = "Augment_Quest_ThreeSacredTreasures"
+        0xc8e37ef0: string = "Augment_Quest_ThreeSacredTreasures"
+        0x56d2be52: pointer = 0x43368569 {
+            0x94572284: map[hash,pointer] = {
+                0xdfb0e14c = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 0.75
+                        }
+                    }
+                }
+                0x3fafb418 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5815b0a9 {
+                            0x4cec2c8a: u8 = 2
+                            0x295c2889: f32 = 1
+                        }
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Spells/Icons2D/Terrify.dds"
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_Quest_ThreeSacredTreasures"
+                    0x57b8b11b: link = 0xd7c27163
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Cherry_Quest_ThreeSacredTreasures_Name"
+                        "keySummary" = "Cherry_Quest_ThreeSacredTreasures_Tooltip"
+                    }
+                }
+            }
+        }
+    }
+}

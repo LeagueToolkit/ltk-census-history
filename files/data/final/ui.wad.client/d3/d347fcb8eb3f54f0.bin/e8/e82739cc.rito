@@ -5,7 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0xe82739cc = 0xaf9f3bac {
         0xe2db859f: string = "Options_Tab_hotkeys_WASD"
-        0x3a79338f: list[pointer] = {
+        0xa4b002d7: list2[pointer] = {
             0xd79b9cc2 {
                 0xc7e16877: pointer = 0xcd391c99 {
                     0x442474e9: bool = false
@@ -65,12 +65,12 @@ entries: map[hash,embed] = {
                 0xca0e79b5: string = "Options_Hotkeys_QuickCastWithIndicator_label"
                 0x3a79338f: list[pointer] = {
                     0x9c74b21a {
-                        0xe7e19b94: u16 = 97
+                        0xe7e19b94: u16 = 98
                         0x694aaa0b: hash = 0x2f26143a
                         0xca0e79b5: string = "Options_Hotkeys_QuickCastWithIndicator_ReplaceQuickCastWithIndicator"
                     }
                     0x9c74b21a {
-                        0xe7e19b94: u16 = 98
+                        0xe7e19b94: u16 = 99
                         0x694aaa0b: hash = 0x2f26143a
                         0xca0e79b5: string = "Options_Hotkeys_QuickCastWithIndicator_CastThePressedSpell"
                     }
@@ -82,7 +82,7 @@ entries: map[hash,embed] = {
                 0xca0e79b5: string = "Options_Hotkeys_MacOSOptions_label"
                 0x3a79338f: list[pointer] = {
                     0x9c74b21a {
-                        0xe7e19b94: u16 = 45
+                        0xe7e19b94: u16 = 46
                         0x694aaa0b: hash = 0x2f26143a
                         0xca0e79b5: string = "Options_Hotkeys_MacOSOptions_AllowRebindingOfSystemKeyCombinations"
                     }
@@ -776,6 +776,14 @@ entries: map[hash,embed] = {
                                             0x1dde7980: bool = false
                                         }
                                     }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "PORO_ELEPHANT_AttackSecondary"
+                                        0x2a078c9c: string = "[WASD]AttackSecondary"
+                                        0xc7e16877: pointer = 0xcd391c99 {
+                                            0x420c4abd: bool = false
+                                            0x1dde7980: bool = false
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -895,11 +903,11 @@ entries: map[hash,embed] = {
                                     }
                                     0x430dd10d {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Display_ToggleFPSDisplay"
-                                        0x2a078c9c: string = "[HUDEvents]evtToggleFPSAndLatency"
+                                        0x2a078c9c: string = "[WASD]ToggleFPSAndLatency"
                                     }
                                     0x430dd10d {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Display_ToggleDeathRecapShowcase"
-                                        0x2a078c9c: string = "[HUDEvents]evtToggleDeathRecapShowcase"
+                                        0x2a078c9c: string = "[WASD]ToggleDeathRecapShowcase"
                                         0xc7e16877: pointer = 0xcd391c99 {
                                             0x420c4abd: bool = false
                                             0x1dde7980: bool = false
@@ -1100,43 +1108,43 @@ entries: map[hash,embed] = {
                                     }
                                     0x430dd10d {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickOpenEmoteWheel"
-                                        0x2a078c9c: string = "[WASD]RadialEmoteInstantOpen"
+                                        0x2a078c9c: string = "[WASD]EmoteCursor"
                                     }
                                     0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickPlayEmoteNorth"
-                                        0x2a078c9c: string = "[WASD]RadialEmotePlaySlot0"
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_EmoteNorth"
+                                        0x2a078c9c: string = "[WASD]DirectionalEmoteNorth"
                                     }
                                     0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickPlayEmoteNorthEast"
-                                        0x2a078c9c: string = "[WASD]RadialEmotePlaySlot1"
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_EmoteNorthEast"
+                                        0x2a078c9c: string = "[WASD]DirectionalEmoteNorthEast"
                                     }
                                     0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickPlayEmoteEast"
-                                        0x2a078c9c: string = "[WASD]RadialEmotePlaySlot2"
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_EmoteEast"
+                                        0x2a078c9c: string = "[WASD]DirectionalEmoteEast"
                                     }
                                     0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickPlayEmoteSouthEast"
-                                        0x2a078c9c: string = "[WASD]RadialEmotePlaySlot3"
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_EmoteSouthEast"
+                                        0x2a078c9c: string = "[WASD]DirectionalEmoteSouthEast"
                                     }
                                     0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickPlayEmoteSouth"
-                                        0x2a078c9c: string = "[WASD]RadialEmotePlaySlot4"
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_EmoteSouth"
+                                        0x2a078c9c: string = "[WASD]DirectionalEmoteSouth"
                                     }
                                     0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickPlayEmoteSouthWest"
-                                        0x2a078c9c: string = "[WASD]RadialEmotePlaySlot5"
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_EmoteSouthWest"
+                                        0x2a078c9c: string = "[WASD]DirectionalEmoteSouthWest"
                                     }
                                     0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickPlayEmoteWest"
-                                        0x2a078c9c: string = "[WASD]RadialEmotePlaySlot6"
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_EmoteWest"
+                                        0x2a078c9c: string = "[WASD]DirectionalEmoteWest"
                                     }
                                     0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickPlayEmoteNorthWest"
-                                        0x2a078c9c: string = "[WASD]RadialEmotePlaySlot7"
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_EmoteNorthWest"
+                                        0x2a078c9c: string = "[WASD]DirectionalEmoteNorthWest"
                                     }
                                     0x430dd10d {
-                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_QuickPlayEmoteCenter"
-                                        0x2a078c9c: string = "[WASD]RadialEmotePlaySlot8"
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Communication_EmoteCenter"
+                                        0x2a078c9c: string = "[WASD]DirectionalEmoteCenter"
                                     }
                                 }
                             }
@@ -1177,7 +1185,7 @@ entries: map[hash,embed] = {
                                     }
                                     0x430dd10d {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Menus_ShowScoreboardHold"
-                                        0x2a078c9c: string = "[HUDEvents]evtHoldShowScoreBoard"
+                                        0x2a078c9c: string = "[WASD]HoldShowScoreBoard"
                                         0xc7e16877: pointer = 0xcd391c99 {
                                             0x420c4abd: bool = false
                                             0x1dde7980: bool = false
@@ -1185,7 +1193,7 @@ entries: map[hash,embed] = {
                                     }
                                     0x430dd10d {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Menus_ToggleMouseScreenLock"
-                                        0x2a078c9c: string = "[HUDEvents]evtToggleMouseClip"
+                                        0x2a078c9c: string = "[WASD]ToggleMouseClip"
                                     }
                                     0x430dd10d {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Menus_SystemMenu"
@@ -1201,7 +1209,7 @@ entries: map[hash,embed] = {
                                     }
                                     0x430dd10d {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_Menus_ToggleBasicPlayerStats"
-                                        0x2a078c9c: string = "[HUDEvents]evtTogglePlayerStats"
+                                        0x2a078c9c: string = "[WASD]TogglePlayerStats"
                                         0xc7e16877: pointer = 0xcd391c99 {
                                             0x420c4abd: bool = false
                                             0x1dde7980: bool = false
@@ -1365,7 +1373,7 @@ entries: map[hash,embed] = {
                 0x3a79338f: list[pointer] = {
                     0x9c74b21a {
                         0x4102143e: bool = true
-                        0xe7e19b94: u16 = 32
+                        0xe7e19b94: u16 = 33
                         0x694aaa0b: hash = 0x2f26143a
                         0xca0e79b5: string = "Options_Hotkeys_AdvancedKeybindingOptions_BindAutoAttackMoveToLeftClick"
                     }
