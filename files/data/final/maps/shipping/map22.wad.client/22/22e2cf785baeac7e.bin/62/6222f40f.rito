@@ -1,0 +1,35 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6222f40f = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_GemForce_Loot14_C"
+        0x0773669d: map[string,pointer] = {
+            "Item" = 0x80996016 {
+                0x3a79338f: list2[link] = {
+                    0x2b86c880
+                    0x2b86c880
+                    0x82972248
+                    0x82972248
+                }
+            }
+            "TwoStarSpecificUnit" = 0x9f9ec6c2 {
+                0x905580d9: list2[hash] = {
+                    0x32ff2613
+                    0x48048daf
+                    0xd79a9003
+                    0xc3939a8c
+                    0x11c62c55
+                    0x86c931a8
+                    0x15925352
+                    0x3436797d
+                }
+            }
+            "Gold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 10
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

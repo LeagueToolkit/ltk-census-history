@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xa7f2baaf = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_Augment_SoulFighter_TournamentFavorites_LootF"
+        0x0773669d: map[string,pointer] = {
+            "ItemByKey" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "COMPONENT_NOSPAT"
+                }
+            }
+            "SpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT15_Samira"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

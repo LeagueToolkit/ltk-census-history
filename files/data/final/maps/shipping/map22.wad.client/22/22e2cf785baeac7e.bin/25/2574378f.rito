@@ -1,0 +1,32 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2574378f = 0xd186c31a {
+        0x19efbfdb: string = "TFT15_Mecha_UpgradeModule"
+        0x9071fd36: list[link] = {
+            0x35880a88
+        }
+        0xadb3e562: embed = 0xd65315ee {
+            0xdf085b93: map[hash,pointer] = {
+                0x2a0d265e = 0x4012fd7e {
+                    0x24f2ec89: i32 = 2
+                }
+                0x56aa2787 = 0x977517c6 {
+                    0x24f2ec89: f32 = 0.25
+                }
+            }
+        }
+        0xa47a6adf: list2[hash] = {
+            0xd8d00bcc
+        }
+        0xc3143d66: string = "tft_item_name_UpgradeModule"
+        0x765f18da: string = "tft_item_description_UpgradeModule"
+        0x8bee2972: string = "ASSETS/Maps/TFT/Icons/TFT15/TFT15_UpgradeModule.TFT_Set15.tex"
+        0xc9becee9: hash = 0xdbbf180b
+        0x5371e38f: option[rgba] = {
+            { 222, 34, 137, 255 }
+        }
+    }
+}

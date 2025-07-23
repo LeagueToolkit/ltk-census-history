@@ -1,0 +1,34 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb3fd3dbb = 0x8e3f13b5 {
+        0x2fa0fd0d: f32 = 10
+        0x6f5882f3: list2[pointer] = {
+            0x59aa33fd {
+                0x2fa0fd0d: f32 = 5
+                0xad2d5ae5: string = "MapProp"
+                0x9b0300f3: string = "SpiritBlossom_win_fox"
+                0xef27cfa4: list2[string] = {
+                    "Player"
+                }
+                0x6230e799: string = "ArenaPos"
+                0x82ea4a57: bool = true
+            }
+        }
+        0x69c27bbb: pointer = 0x000b4a96 {
+            0x409267ef: string = "IntroPos"
+            0xeaa2781f: string = "FinisherLocator"
+            0xa02b6be0: string = "ArenaPos"
+            0xb75de03c: string = "IslandLocator"
+            0x41b7067d: string = "Player"
+            0xccbbbcf8: list2[embed] = {
+                0xe5a3f543 {
+                    0x9aa017a7: string = "TFT_SpiritBlossom_Props_Skin2_Win"
+                    0xcebe5a27: string = "MapProp"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xf66f949a = 0x60e00531 {
+        0x19efbfdb: string = "HomeCookingComponentLootC"
+        0x0773669d: map[string,pointer] = {
+            "ItemByKey" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "COMPONENT_NOSPAT"
+                }
+            }
+            "Gold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+            "Item" = 0x80996016 {
+                0x3a79338f: list2[link] = {
+                    0x22dd85c3
+                    0x22dd85c3
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

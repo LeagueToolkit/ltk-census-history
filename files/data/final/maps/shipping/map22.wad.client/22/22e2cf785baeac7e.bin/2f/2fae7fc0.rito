@@ -1,0 +1,45 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2fae7fc0 = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_MechanicTrait_SoulChipper_ScriptData"
+        0x0773669d: map[string,pointer] = {
+            "InvalidChampions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    ""
+                }
+            }
+            "Weight" = 0x4012fd7e {
+                0x24f2ec89: i32 = 10
+            }
+            "InvalidAugments" = 0x80996016 {
+                0x3a79338f: list2[link] = {
+                    0x3c6eee90
+                }
+            }
+            "MaxLevel" = 0x4012fd7e {}
+            "MinLevel" = 0x4012fd7e {}
+            "MaxStage" = 0x4012fd7e {}
+            "MinStage" = 0x4012fd7e {}
+            "TraitActive" = 0x43e9418e {}
+            "TraitLevel" = 0x4012fd7e {}
+            "MaxPlayerHealth" = 0x4012fd7e {}
+            "MinPlayerHealth" = 0x4012fd7e {}
+            "IsTrait" = 0x641de12c {}
+            "IsDuo" = 0x641de12c {}
+            "IsCommon" = 0x641de12c {
+                0x24f2ec89: bool = true
+            }
+            "IsStacking" = 0x641de12c {}
+            "IsChampion" = 0x641de12c {}
+            "IsRole" = 0x641de12c {}
+            "IsWeird" = 0x641de12c {}
+            "IsPVEAllowed" = 0x641de12c {
+                0x24f2ec89: bool = true
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

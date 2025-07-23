@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2c7816fb = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_GemForce_Loot5_A"
+        0x0773669d: map[string,pointer] = {
+            "MeepTypeUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_ArmoryKeyComponent"
+                }
+            }
+            "Gold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

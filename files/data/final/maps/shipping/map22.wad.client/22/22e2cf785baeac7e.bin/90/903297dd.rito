@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x903297dd = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_GemForce_Loot8_B"
+        0x0773669d: map[string,pointer] = {
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Consumable_NeekosHelp"
+                }
+            }
+            "FourCostUnit" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+            "Gold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 15
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

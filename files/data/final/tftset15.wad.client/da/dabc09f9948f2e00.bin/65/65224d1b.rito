@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x65224d1b = 0x5e7e5a06 {
+        0xe095d841: string = "TFT15_VolibearSpell_Slam"
+        0xc8e37ef0: string = "TFT15_VolibearSpell_Slam"
+        0x56d2be52: pointer = 0x43368569 {
+            0xecf3f88d: u32 = 6154
+            0xfbd16fb5: string = "Spell_Slam"
+            0x18330965: f32 = -0.36799997
+            0x4e47141f: f32 = 15
+            0x47e0dff9: map[u32,string] = {
+                13 = "Play_sfx_tft12_Olaf_SlamAttack_OnHit"
+                12 = "Play_sfx_tft12_Olaf_SlamAttack_OnCast"
+            }
+        }
+    }
+}

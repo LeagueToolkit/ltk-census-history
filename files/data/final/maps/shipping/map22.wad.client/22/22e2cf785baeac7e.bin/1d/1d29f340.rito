@@ -1,0 +1,31 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x1d29f340 = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_GemForce_Loot18_B"
+        0x0773669d: map[string,pointer] = {
+            "TwoStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT15_Lucian"
+                    "TFT15_Aatrox"
+                    "TFT15_Gangplank"
+                    "TFT15_Senna"
+                    "TFT15_Karma"
+                    "TFT15_JarvanIV"
+                    "TFT15_Yone"
+                }
+            }
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT15_SetMechanic_Remover"
+                }
+            }
+            "PlayerBuff" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT15_CrystalRose_MMCashout_Playerbuff"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

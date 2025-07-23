@@ -1,0 +1,40 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x5dd15926 = 0xd186c31a {
+        0x19efbfdb: string = "TFT15_Item_ProdigyEmblemItem"
+        0x9596a387: bool = true
+        0x8b83ba8a: list[link] = {
+            0xdd0b0027
+            0x75e108f6
+        }
+        0x6752c795: list[link] = {
+            0xb535157c
+        }
+        0x77def630: link = 0xb535157c
+        0xadb3e562: embed = 0xd65315ee {
+            0xdf085b93: map[hash,pointer] = {
+                0xd8f646f3 = 0x977517c6 {
+                    0x24f2ec89: f32 = 1
+                }
+                0x9f76cbea = 0x977517c6 {
+                    0x24f2ec89: f32 = 2.5
+                }
+                0x3777fe40 = 0x4012fd7e {
+                    0x24f2ec89: i32 = 1
+                }
+            }
+        }
+        0xa47a6adf: list2[hash] = {
+            0xebcd1bac
+        }
+        0xc3143d66: string = "tft15_emblem_name_Prodigy"
+        0x765f18da: string = "TFT15_Emblem_Description_Prodigy"
+        0x8bee2972: string = "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set15/TFT15_Emblem_Prodigy.TFT_Set15.tex"
+        0x5371e38f: option[rgba] = {
+            { 208, 128, 42, 255 }
+        }
+    }
+}

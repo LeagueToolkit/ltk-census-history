@@ -1,0 +1,34 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xdee0f399 = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_MechanicTraits_TFT15_Zac_HERO"
+        0x0773669d: map[string,pointer] = {
+            "Primary" = 0x71ae72e5 {
+                0x88612808: list2[link] = {
+                    0x260be062
+                    0x4f331712
+                    0x965ec772
+                    0x37b76eea
+                    0x4392e708
+                    0x39150a30
+                    0x02880ab2
+                    0x075ebf38
+                    0x963ac64e
+                }
+            }
+            "Secondary" = 0x71ae72e5 {
+                0x88612808: list2[link] = {
+                    0x591747ae
+                    0x580e08c6
+                    0x73980172
+                    0xe4ea185a
+                    0x61aa8c36
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

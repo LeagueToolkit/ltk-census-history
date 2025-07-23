@@ -1,0 +1,28 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x06fd005a = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_GemForce_Loot15_A"
+        0x0773669d: map[string,pointer] = {
+            "TwoStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT15_TwistedFate"
+                }
+            }
+            "Item" = 0x80996016 {
+                0x3a79338f: list2[link] = {
+                    0xc34afa0a
+                    0xc34afa0a
+                    0x8d060fd7
+                    0xee9312b6
+                    0x4e4061da
+                    0x2a833c3c
+                    0x82972248
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

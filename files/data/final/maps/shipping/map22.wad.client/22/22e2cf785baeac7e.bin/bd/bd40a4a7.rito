@@ -1,0 +1,36 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xbd40a4a7 = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_MechanicTraits_TFT15_Varus"
+        0x0773669d: map[string,pointer] = {
+            "Primary" = 0x71ae72e5 {
+                0x88612808: list2[link] = {
+                    0x433dff6c
+                    0xb06bf712
+                    0x2a2f94ea
+                    0x4f331712
+                    0xff0be91a
+                    0x539fddda
+                    0xc71b5a92
+                    0x5d001b86
+                    0xf3bcd5de
+                    0x772b4c7a
+                    0x963ac64e
+                }
+            }
+            "Secondary" = 0x71ae72e5 {
+                0x88612808: list2[link] = {
+                    0x5fb34836
+                    0x11affe5e
+                    0xe4ea185a
+                    0x03c2f512
+                    0x7d8c6e8e
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xdf1c6b58 = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_MechanicTrait_CRMechCashout_ScriptData"
+        0x0773669d: map[string,pointer] = {
+            "InvalidChampions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    ""
+                }
+            }
+            "Weight" = 0x4012fd7e {}
+            "IsPVEAllowed" = 0x641de12c {
+                0x24f2ec89: bool = true
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

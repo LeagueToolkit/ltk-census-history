@@ -1,0 +1,33 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4bcd0967 = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_MechanicTraits_TFT15_Shen_HERO"
+        0x0773669d: map[string,pointer] = {
+            "Primary" = 0x71ae72e5 {
+                0x88612808: list2[link] = {
+                    0x4f331712
+                    0xa942d9ea
+                    0x4392e708
+                    0x580e08c6
+                    0x02880ab2
+                    0x089dd172
+                    0x8e5cfe42
+                    0x963ac64e
+                }
+            }
+            "Secondary" = 0x71ae72e5 {
+                0x88612808: list2[link] = {
+                    0x0587c272
+                    0x591747ae
+                    0x3cf33ec4
+                    0xe4ea185a
+                    0x1b1293ae
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

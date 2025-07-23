@@ -1,0 +1,29 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x69b49e94 = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_MechanicTraits_TFT15_Ekko"
+        0x0773669d: map[string,pointer] = {
+            "Primary" = 0x71ae72e5 {
+                0x88612808: list2[link] = {
+                    0x377b4a3e
+                    0x075ebf38
+                    0x15475a22
+                    0xd31e9b52
+                    0x2e9d9acc
+                    0x965ec772
+                    0x4f331712
+                }
+            }
+            "Secondary" = 0x71ae72e5 {
+                0x88612808: list2[link] = {
+                    0x02880ab2
+                    0x4392e708
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xf56224be = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_RogueCaptain_Bounty_TeamShield"
+        0x0773669d: map[string,pointer] = {
+            "NumRounds" = 0x4012fd7e {}
+            "DataValues" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "Bounty_TeamShield_Shield"
+                    "Bounty_TeamShield_Duration"
+                }
+            }
+            "TooltipTRA" = 0xf4700e9c {
+                0x24f2ec89: string = "TFT15_RogueCaptain_Bounty_TeamShield"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

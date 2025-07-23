@@ -1,0 +1,36 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x1f5caead = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_MechanicTraits_TFT15_Neeko_HERO"
+        0x0773669d: map[string,pointer] = {
+            "Primary" = 0x71ae72e5 {
+                0x88612808: list2[link] = {
+                    0x965ec772
+                    0x4392e708
+                    0x39150a30
+                    0x580e08c6
+                    0x15475a22
+                    0xe8a7cc3e
+                    0x02880ab2
+                    0xdae5f970
+                    0x963ac64e
+                }
+            }
+            "Secondary" = 0x71ae72e5 {
+                0x88612808: list2[link] = {
+                    0x23a7189a
+                    0x44618598
+                    0x591747ae
+                    0xe4ea185a
+                    0x61aa8c36
+                    0x73980172
+                    0x2457e3aa
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

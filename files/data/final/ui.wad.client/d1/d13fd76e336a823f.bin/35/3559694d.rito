@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3559694d = 0x1a65e950 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/TFT/TFTItemTracker/UIBase/TFT_ItemTracker/CustomButtonTooltip/Frame/Header_Backdrop"
+        0x2063cb13: link = 0x62be1f00
+        0x02f3b39e: bool = true
+        0x07a640f6: u32 = 5
+        0x934f4e0a: pointer = 0x44600fb6 {
+            0x3a8bfbed: embed = 0x4eb9ba4f {
+                0x934f4e0a: vec2 = { 23, 28 }
+                0x23a0d95c: vec2 = { 390, 165 }
+                0xf6647cd6: u16 = 1600
+                0xa19b2e69: u16 = 1200
+            }
+        }
+        0xe502c1dc: pointer = 0xec9fc3ae {
+            0xb311d4ef: string = "ASSETS/UX/TFT/Hud/TFT15/ST_Tooltip/TFTM_ST_Tooltip_BG_FadedHeaderTFT_Set15.png"
+        }
+    }
+}

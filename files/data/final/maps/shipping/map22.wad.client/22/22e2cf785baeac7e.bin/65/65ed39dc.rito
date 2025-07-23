@@ -1,0 +1,34 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x65ed39dc = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_GemForce_Loot13_A"
+        0x0773669d: map[string,pointer] = {
+            "TwoStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT15_Kobuko"
+                    "TFT15_Kobuko"
+                    "TFT15_Kobuko"
+                    "TFT15_Ryze"
+                    "TFT15_Udyr"
+                    "TFT15_Yasuo"
+                }
+            }
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Item_BrambleVest"
+                    "TFT_Item_BlueBuff"
+                    "TFT_Item_RedBuff"
+                    "TFT_Item_Quicksilver"
+                    "TFT_Consumable_ItemRemover"
+                    "TFT_Consumable_ItemRemover"
+                    "TFT15_SetMechanic_Remover"
+                    "TFT15_SetMechanic_Remover"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

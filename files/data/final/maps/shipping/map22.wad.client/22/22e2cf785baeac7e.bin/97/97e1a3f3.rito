@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x97e1a3f3 = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_GemForce5_LootTier5_B"
+        0x0773669d: map[string,pointer] = {
+            "Item" = 0x80996016 {
+                0x3a79338f: list2[link] = {
+                    0x9712c74b
+                }
+            }
+            "TwoStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT15_Syndra"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

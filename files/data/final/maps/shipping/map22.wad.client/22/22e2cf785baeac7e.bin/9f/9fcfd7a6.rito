@@ -4,14 +4,11 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x9fcfd7a6 = 0x01d7548e {
-        0x0d43af66: link = 0x0b9d3ae6
-        0xe70d00d3: link = 0x0b9d3ae6
-        0xd07745a5: link = 0x0f9d4132
+        0x0d43af66: link = 0x0c9d3c79
+        0xe70d00d3: link = 0x0c9d3c79
         0x2d527e72: list2[link] = {
             0x46b76215
-            0x0b9d3ae6
-            0x0f9d4132
-            0xd28acf27
+            0x0c9d3c79
         }
         0xb40ed25a: embed = 0x54530df7 {
             0x031fa8db: string = "Play_sfx_tft_action_object_pickup"
@@ -23,6 +20,7 @@ entries: map[hash,embed] = {
                     0xff786d5a: u32 = 8
                     0x24cdeeb4: string = ""
                     0x06cb9b89: string = ""
+                    0xadd98956: string = "TFT15_Trait_ElTigre_Timer"
                 }
                 0xcc3ae8e4 {
                     0xff786d5a: u32 = 4
@@ -30,6 +28,7 @@ entries: map[hash,embed] = {
                     0x5bbd27af: f32 = 0.9
                     0x24cdeeb4: string = "TFT_Glutton_Hover"
                     0x06cb9b89: string = "TFT_Glutton_HoverEnd"
+                    0xadd98956: string = "TFT15_Trait_ElTigre_Timer"
                     0x7f78e1a0: bool = true
                 }
                 0xcc3ae8e4 {}
@@ -88,6 +87,12 @@ entries: map[hash,embed] = {
                 }
                 0xcc3ae8e4 {
                     0xff786d5a: u32 = 3
+                }
+                0xcc3ae8e4 {
+                    0xff786d5a: u32 = 5
+                }
+                0xcc3ae8e4 {
+                    0xff786d5a: u32 = 6
                 }
                 0xcc3ae8e4 {
                     0xff786d5a: u32 = 7
@@ -318,6 +323,7 @@ entries: map[hash,embed] = {
             0xdb94e296 = "%i:scaleSV% +@Value*100@%"
             0x1543aa48 = "%i:scaleDA% +@Value*100@%"
             0xcd951938 = "%i:scaleDR% +@Value*100@%"
+            0xd8f646f3 = "%i:TFTManaRegen% +@Value@"
         }
         0xaa2d04d9: string = "standalone_common_TeamPlanner_DefaultTeamName"
         0x3d387ab1: string = "standalone_common_TeamPlanner_DefaultTeamNameNumbered"

@@ -1,0 +1,19 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x8994c506 = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_RogueCaptain_Bounty_Random4Cost"
+        0x0773669d: map[string,pointer] = {
+            "NumRounds" = 0x4012fd7e {
+                0x24f2ec89: i32 = 6
+            }
+            "DataValues" = 0xbe542f32 {}
+            "TooltipTRA" = 0xf4700e9c {
+                0x24f2ec89: string = "TFT15_RogueCaptain_Bounty_Random4Cost"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

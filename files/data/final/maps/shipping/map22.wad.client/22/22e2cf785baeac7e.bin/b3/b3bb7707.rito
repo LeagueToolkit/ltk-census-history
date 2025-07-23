@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb3bb7707 = 0x60e00531 {
+        0x19efbfdb: string = "TFT15_GemForce_Loot16"
+        0x0773669d: map[string,pointer] = {
+            "TFT15_GemForce_Loot16_A" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.25
+            }
+            "TFT15_GemForce_Loot16_B" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.35
+            }
+            "TFT15_GemForce_Loot16_C" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.4
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
