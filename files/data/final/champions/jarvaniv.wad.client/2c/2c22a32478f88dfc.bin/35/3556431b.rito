@@ -8,11 +8,11 @@ entries: map[hash,embed] = {
         0x0a6f0eb5: list2[embed] = {
             0x0904b150 {
                 0xb311d4ef: string = "MatCap_Tex"
-                0xf0a363e3: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             0x0904b150 {
                 0xb311d4ef: string = "MatCap_Mask"
-                0xf0a363e3: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.dds"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             0x0904b150 {
                 0xb311d4ef: string = "Diffuse_Texture"
@@ -33,6 +33,17 @@ entries: map[hash,embed] = {
             }
         }
         0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "VColor_G_Mask_Discard_Size"
+                0x425ed3ca: vec4 = { 100, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "VColor_G_Mask_Discard_Value"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "VColor_G_Mask_Discard_Location"
+            }
             0xde480eef {
                 0x8d39bde6: string = "Distortion_Diffuse_Tex_B_Control"
                 0x425ed3ca: vec4 = { 1, 1, 0, 0 }
@@ -141,6 +152,22 @@ entries: map[hash,embed] = {
             }
         }
         0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "VCOLOR_G_MASK_DIFFUSE_W_DISCARD"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "VCOLOR_G_MASK_OUTLINE_W_DISCARD"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "VCOLOR_G_MASK_DIFFUSE"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "VCOLOR_G_MASK_OUTLINE"
+                0x61342fd0: bool = false
+            }
             0x0e2212a1 {
                 0x8d39bde6: string = "ALPHA_MAIN_SCROLL_OUTLINE_ADD"
                 0x61342fd0: bool = false

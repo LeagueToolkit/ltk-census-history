@@ -9,11 +9,11 @@ entries: map[hash,embed] = {
         0x0a6f0eb5: list2[embed] = {
             0x0904b150 {
                 0xb311d4ef: string = "Noise_Texture"
-                0xf0a363e3: string = "ASSETS/Shared/Materials/SRI_Icon_Noise.dds"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/SRI_Icon_Noise.tex"
             }
             0x0904b150 {
                 0xb311d4ef: string = "Mask_Texture"
-                0xf0a363e3: string = "ASSETS/Items/6691/6691_Duskblade_Mask.dds"
+                0xf0a363e3: string = "ASSETS/Items/6691/6691_Duskblade_Mask.tex"
             }
         }
         0xd0ab46b8: list2[embed] = {
@@ -42,24 +42,8 @@ entries: map[hash,embed] = {
                 0x425ed3ca: vec4 = { 1, 0, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Radial_Noise_Rotation"
-                0x425ed3ca: vec4 = { -0.15, 0, 0, 0 }
-            }
-            0xde480eef {
                 0x8d39bde6: string = "Radial_Noise_Frequency"
                 0x425ed3ca: vec4 = { 6.88, 0, 0, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "Radial_Noise_MinMax"
-                0x425ed3ca: vec4 = { -0.2, 0.2, 0, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "RefractionNoiseSize"
-                0x425ed3ca: vec4 = { 0.2625, 0, 0, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "RefractionNoise_Distance"
-                0x425ed3ca: vec4 = { 0.1, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "BGColor_A"
@@ -80,14 +64,6 @@ entries: map[hash,embed] = {
             0xde480eef {
                 0x8d39bde6: string = "Radial_MaskSize"
                 0x425ed3ca: vec4 = { 1, 0, 0, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "UV_Distortion_MinMax"
-                0x425ed3ca: vec4 = { -0.02, 0.02, 0, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "UV_Background_Zoom"
-                0x425ed3ca: vec4 = { 0.695, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "BGColor_B"
@@ -160,10 +136,6 @@ entries: map[hash,embed] = {
                 0x61342fd0: bool = false
             }
             0x0e2212a1 {
-                0x8d39bde6: string = "USE_LINEAR_MASK"
-                0x61342fd0: bool = false
-            }
-            0x0e2212a1 {
                 0x8d39bde6: string = "USE_RADIAL_MASK"
                 0x61342fd0: bool = false
             }
@@ -180,44 +152,10 @@ entries: map[hash,embed] = {
                 0x61342fd0: bool = false
             }
             0x0e2212a1 {
-                0x8d39bde6: string = "USE_RADIAL_NOISE"
-            }
-            0x0e2212a1 {
-                0x8d39bde6: string = "SCALE_FG"
-                0x61342fd0: bool = false
-            }
-            0x0e2212a1 {
-                0x8d39bde6: string = "SCALE_BG"
-                0x61342fd0: bool = false
-            }
-            0x0e2212a1 {
-                0x8d39bde6: string = "ENABLE_REFRACT_BG"
-                0x61342fd0: bool = false
-            }
-            0x0e2212a1 {
-                0x8d39bde6: string = "WARPS_FG_UVS_WITH_MASK"
-                0x61342fd0: bool = false
-            }
-            0x0e2212a1 {
-                0x8d39bde6: string = "WARPS_BG_UVS_WITH_MASK"
-                0x61342fd0: bool = false
-            }
-            0x0e2212a1 {
-                0x8d39bde6: string = "USE_RECT_MASK"
-                0x61342fd0: bool = false
-            }
-            0x0e2212a1 {
                 0x8d39bde6: string = "USE_SCANLINES"
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "USE_SCANLINE_NOISE"
-            }
-            0x0e2212a1 {
-                0x8d39bde6: string = "MIRROR_LINEAR_MASK"
-            }
-            0x0e2212a1 {
-                0x8d39bde6: string = "RADIAL_NOISE_COMBINE"
-                0x61342fd0: bool = false
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "TOGGLE_MULT_MAX_BLUE_CHANNEL"
@@ -234,10 +172,6 @@ entries: map[hash,embed] = {
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "TOGGLE_COLOR_ICON_BG"
-            }
-            0x0e2212a1 {
-                0x8d39bde6: string = "TRANSLATE_FG"
-                0x61342fd0: bool = false
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "USE_PINWHEEL_MASK_NOISE"

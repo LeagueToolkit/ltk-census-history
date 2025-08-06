@@ -75,6 +75,33 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
+                0x8d39bde6: string = "VColor_G_Mask_Discard_Value"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "VColor_G_Mask_Discard_Value"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "VColor_G_Mask_Discard_Location"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "VColor_G_Mask_Discard_Location"
+                        0x0640657c: u32 = 7
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "VColor_G_Mask_Discard_Size"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "VColor_G_Mask_Discard_Size"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
                 0x8d39bde6: string = "OutlineMask_Strength"
                 0xd872e2a5: vec4 = { 1, 0, 0, 0 }
                 0x74672198: list[embed] = {
@@ -290,6 +317,12 @@ entries: map[hash,embed] = {
                 0x8d39bde6: string = "DISTORTION_MAIN_TEX"
             }
             0x60a292e6 {
+                0x8d39bde6: string = "VCOLOR_G_MASK_OUTLINE_W_DISCARD"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "VCOLOR_G_MASK_OUTLINE"
+            }
+            0x60a292e6 {
                 0x8d39bde6: string = "OUTLINE_MASK_ON"
                 0xaae99956: bool = true
             }
@@ -300,7 +333,13 @@ entries: map[hash,embed] = {
                 0x8d39bde6: string = "DISTORTION_DIFFUSE_TEX_RG"
             }
             0x60a292e6 {
+                0x8d39bde6: string = "VCOLOR_G_MASK_DIFFUSE_W_DISCARD"
+            }
+            0x60a292e6 {
                 0x8d39bde6: string = "DISTORTION_DIFFUSE_TEX_B"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "VCOLOR_G_MASK_DIFFUSE"
             }
             0x60a292e6 {
                 0x8d39bde6: string = "MASK_ON"
@@ -351,15 +390,15 @@ entries: map[hash,embed] = {
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Main_Texture"
-                0x32b374fa: string = "ASSETS/Shared/Materials/lava_mask.dds"
+                0x32b374fa: string = "ASSETS/Shared/Materials/lava_mask.tex"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "OutlineMask_Texture"
-                0x32b374fa: string = "ASSETS/Shared/Materials/Atlast_Test.dds"
+                0x32b374fa: string = "ASSETS/Shared/Materials/Atlast_Test.tex"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Diffuse_Texture"
-                0x32b374fa: string = "ASSETS/Shared/Materials/GloveBG.dds"
+                0x32b374fa: string = "ASSETS/Shared/Materials/GloveBG.tex"
             }
         }
         0xae29287b: map[string,string] = {

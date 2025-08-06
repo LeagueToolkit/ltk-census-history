@@ -13,8 +13,8 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "BaseConeDamage"
                     0x246b0d8e: list[f32] = {
                         2
-                        30
-                        45
+                        10
+                        15
                         400
                         400
                         2
@@ -81,6 +81,18 @@ entries: map[hash,embed] = {
                         0.1
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "ConeSplitDamage"
+                    0x246b0d8e: list[f32] = {
+                        0
+                        40
+                        60
+                        1000
+                        0
+                        0
+                        0
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x18ced72c = 0xbc409284 {
@@ -122,6 +134,16 @@ entries: map[hash,embed] = {
                         0x995bf516 {
                             0x1cd83c4b: pointer = 0x332eb441 {
                                 0xb386dcf1: hash = 0xfa89571e
+                            }
+                            0xb8dcfcbb: f32 = 0.01
+                        }
+                    }
+                }
+                0x64b42466 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x995bf516 {
+                            0x1cd83c4b: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0x61b8f777
                             }
                             0xb8dcfcbb: f32 = 0.01
                         }
@@ -190,6 +212,10 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "BaseConeDamage"
                                     0x566f3406: string = "Spell_TFT15_GwenSpell_ConeDamage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "ConeSplitDamage"
+                                    0x566f3406: string = "Spell_TFT15_Gwen_ConeSplitDamage"
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "BaseNeedleDamage"

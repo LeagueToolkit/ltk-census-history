@@ -15,7 +15,7 @@ entries: map[hash,embed] = {
             }
             0x0904b150 {
                 0xb311d4ef: string = "Gradient_Texture"
-                0xf0a363e3: string = "ASSETS/Shared/Materials/Iridescence/gold_gradient.dds"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/Iridescence/gold_gradient.tex"
                 0x111ec6d2: u32 = 1
                 0x101ec53f: u32 = 1
                 0x0f1ec3ac: u32 = 1
@@ -26,10 +26,18 @@ entries: map[hash,embed] = {
             }
             0x0904b150 {
                 0xb311d4ef: string = "Secondary_Texture"
-                0xf0a363e3: string = "ASSETS/Shared/Materials/marble_Med_1024.dds"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/marble_Med_1024.tex"
             }
         }
         0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "Specular_Power"
+                0x425ed3ca: vec4 = { 8, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "SpecularColor"
+                0x425ed3ca: vec4 = { 0.5529412, 0.5529412, 0.5529412, 0 }
+            }
             0xde480eef {
                 0x8d39bde6: string = "ENV_BlurAmount"
                 0x425ed3ca: vec4 = { 3, 0, 0, 0 }

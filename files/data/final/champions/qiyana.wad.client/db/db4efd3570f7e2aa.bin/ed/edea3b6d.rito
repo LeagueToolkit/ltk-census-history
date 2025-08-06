@@ -63,13 +63,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "AttackSpeed"
                     0x246b0d8e: list[f32] = {
-                        0
-                        0.05
                         0.1
                         0.15
                         0.2
                         0.25
                         0.3
+                        0.35
+                        0.4
                     }
                 }
                 0x005008a6 {
@@ -135,6 +135,18 @@ entries: map[hash,embed] = {
                         0.45
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "OnHitADRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                    }
+                }
             }
             0xfb56608c: map[hash,embed] = {
                 0x497ae878 = 0x6b2f7a8d {
@@ -175,6 +187,18 @@ entries: map[hash,embed] = {
                                 0.55
                             }
                         }
+                        0x005008a6 {
+                            0x19efbfdb: string = "OnHitADRatio"
+                            0x246b0d8e: list[f32] = {
+                                0.35
+                                0.35
+                                0.35
+                                0.35
+                                0.35
+                                0.35
+                                0.35
+                            }
+                        }
                     }
                 }
             }
@@ -205,10 +229,10 @@ entries: map[hash,embed] = {
                         0x5f5c70a4 {
                             0xb386dcf1: hash = 0xa09dd13f
                         }
-                        0x5815b0a9 {
+                        0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 0.2
+                            0xb386dcf1: hash = 0xdc7209bb
                         }
                     }
                 }
@@ -368,7 +392,7 @@ entries: map[hash,embed] = {
                             }
                             0x8f99bbe1: u32 = 1
                         }
-                        0x6311ca49: string = "ASSETS/Spells/Textures/AOE_leona_outer.dds"
+                        0x6311ca49: string = "ASSETS/Spells/Textures/AOE_leona_outer.tex"
                     }
                 }
             }
