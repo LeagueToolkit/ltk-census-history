@@ -6,12 +6,17 @@ entries: map[hash,embed] = {
     0xe99fd543 = 0x9b67e9f6 {
         0x87225880: u32 = 1
         0x2d78c328: string = "XinZhaoSkin36"
-        0x939e7b29: string = "faction:demacia,gender:male,race:human,skinline:lunarrevel,subskinline:firecracker"
+        0x939e7b29: string = "faction:demacia,gender:male,race:human,subskinline:firecracker"
+        0x68f2b69c: embed = 0x68f2b69c {
+            0x771215f7: embed = 0x771215f7 {
+                0x25c5104d: u8 = 1
+            }
+        }
         0x97f7188d: embed = 0xd06263ff {
-            0xb35135fa: string = "ASSETS/Characters/XinZhao/Skins/Skin36/XinZhaoLoadscreen_36.tex"
+            0xb35135fa: string = "ASSETS/Characters/XinZhao/Skins/Skin36/XinZhaoReworkLoadScreen_36.XinZhaoRework.tex"
         }
         0xbc8eefad: embed = 0xd06263ff {
-            0xb35135fa: string = "ASSETS/Characters/XinZhao/Skins/Skin36/XinZhaoLoadscreen_36_LE.tex"
+            0xb35135fa: string = "ASSETS/Characters/XinZhao/Skins/Skin36/XinZhaoReworkLoadscreen_36_LE.XinZhaoRework.tex"
         }
         0x8f7b194f: embed = 0x8f7b194f {
             0xd65bac4d: list[string] = {
@@ -20,55 +25,42 @@ entries: map[hash,embed] = {
             }
             0xf8f29f92: list2[embed] = {
                 0xa4416515 {
-                    0x8d39bde6: string = "XinZhao_Base_VO"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/XinZhao/Skins/Base/XinZhao_Base_VO_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/XinZhao/Skins/Base/XinZhao_Base_VO_events.bnk"
-                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/XinZhao/Skins/Base/XinZhao_Base_VO_audio.wpk"
-                    }
-                    0x12d8e384: list[string] = {
-                        "Play_vo_XinZhao_Attack2DGeneral"
-                        "Play_vo_XinZhao_Death3D"
-                        "Play_vo_XinZhao_Joke3DGeneral"
-                        "Play_vo_XinZhao_Laugh3DGeneral"
-                        "Play_vo_XinZhao_Move2DStandard"
-                        "Play_vo_XinZhao_Taunt3DGeneral"
-                        "Play_vo_XinZhao_XinZhaoBasicAttack2_cast3D"
-                        "Play_vo_XinZhao_XinZhaoBasicAttack_cast3D"
-                        "Play_vo_XinZhao_XinZhaoCritAttack_cast3D"
-                        "Play_vo_XinZhao_XinZhaoEDash_cast3D"
-                        "Play_vo_XinZhao_XinZhaoPassiveCritAttack_cast3D"
-                        "Play_vo_XinZhao_XinZhaoQThrust1_cast3D"
-                        "Play_vo_XinZhao_XinZhaoQThrust2_cast3D"
-                        "Play_vo_XinZhao_XinZhaoQThrust3_cast3D"
-                        "Play_vo_XinZhao_XinZhaoR_cast3D"
-                        "Play_vo_XinZhao_XinZhaoW_cast3D"
-                    }
-                    0x3b13aa4b: bool = true
-                }
-                0xa4416515 {
                     0x8d39bde6: string = "XinZhao_Skin36_SFX"
                     0x2a21ad00: list[string] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/XinZhao/Skins/Skin36/XinZhao_Skin36_SFX_audio.bnk"
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/XinZhao/Skins/Skin36/XinZhao_Skin36_SFX_events.bnk"
                     }
                     0x12d8e384: list[string] = {
-                        "Play_sfx_XinZhaoSkin36_Dance3D_buffactivate"
+                        "Play_sfx_XinZhaoSkin36_Dance3D_buffactivate_loop"
+                        "Play_sfx_XinZhaoSkin36_Dance3D_leadin"
                         "Play_sfx_XinZhaoSkin36_Death3D_cast"
-                        "Play_sfx_XinZhaoSkin36_Laugh3D_buffactivate"
-                        "Play_sfx_XinZhaoskin36_Recall_leadin"
-                        "Play_sfx_XinZhaoSkin36_Taunt3D_buffactivate"
+                        "Play_sfx_XinZhaoSkin36_Homeguard3D_buffactivate_footstep_01"
+                        "Play_sfx_XinZhaoSkin36_Homeguard3D_buffactivate_footstep_02"
+                        "Play_sfx_XinZhaoSkin36_Joke3D_buffactivate"
+                        "Play_sfx_XinZhaoSkin36_Laugh3D_leadin"
+                        "Play_sfx_XinZhaoSkin36_Laugh3D_leadout"
+                        "Play_sfx_XinZhaoSkin36_Laugh3D_spam"
+                        "Play_sfx_XinZhaoSkin36_QIdle1_buffactivate"
+                        "Play_sfx_XinZhaoSkin36_QIdle2_buffactivate"
+                        "Play_sfx_XinZhaoSkin36_QIdle3_buffactivate"
+                        "Play_sfx_XinZhaoSkin36_Recall3D_buffactivate"
+                        "Play_sfx_XinZhaoSkin36_Taunt3D_buffactivate_loop"
+                        "Play_sfx_XinZhaoSkin36_Taunt3D_leadin"
+                        "Play_sfx_XinZhaoSkin36_Winddown3D_buffactivate"
                         "Play_sfx_XinZhaoSkin36_XinZhaoBasicAttack2_OnCast"
                         "Play_sfx_XinZhaoSkin36_XinZhaoBasicAttack2_OnHit"
                         "Play_sfx_XinZhaoSkin36_XinZhaoBasicAttack_OnCast"
                         "Play_sfx_XinZhaoSkin36_XinZhaoBasicAttack_OnHit"
                         "Play_sfx_XinZhaoSkin36_XinZhaoCritAttack_OnCast"
                         "Play_sfx_XinZhaoSkin36_XinZhaoCritAttack_OnHit"
-                        "Play_sfx_XinZhaoSkin36_XinZhaoE_OnCast"
-                        "Play_sfx_XinZhaoSkin36_XinZhaoE_OnHit"
-                        "Play_sfx_XinZhaoSkin36_XinZhaoEBattleCry_OnBuffActivate"
-                        "Play_sfx_XinZhaoSkin36_XinZhaoP_cast"
-                        "Play_sfx_XinZhaoSkin36_XinZhaoP_hit"
+                        "Play_sfx_XinZhaoSkin36_XinZhaoEBasicAttack_OnCast"
+                        "Play_sfx_XinZhaoSkin36_XinZhaoEBasicAttack_OnHit"
+                        "Play_sfx_XinZhaoSkin36_XinZhaoEBattleCry_buffactivate_loop"
+                        "Play_sfx_XinZhaoSkin36_XinZhaoEDash_cast"
+                        "Play_sfx_XinZhaoSkin36_XinZhaoEDash_hit"
+                        "Play_sfx_XinZhaoSkin36_XinZhaoPassive_heal_buffactivate"
+                        "Play_sfx_XinZhaoSkin36_XinZhaoPassiveCritAttack_OnCast"
+                        "Play_sfx_XinZhaoSkin36_XinZhaoPassiveCritAttack_OnHit"
                         "Play_sfx_XinZhaoSkin36_XinZhaoQ_OnBuffActivate"
                         "Play_sfx_XinZhaoSkin36_XinZhaoQ_OnCast"
                         "Play_sfx_XinZhaoSkin36_XinZhaoQThrust1_OnCast"
@@ -77,19 +69,103 @@ entries: map[hash,embed] = {
                         "Play_sfx_XinZhaoSkin36_XinZhaoQThrust2_OnHit"
                         "Play_sfx_XinZhaoSkin36_XinZhaoQThrust3_OnCast"
                         "Play_sfx_XinZhaoSkin36_XinZhaoQThrust3_OnHit"
-                        "Play_sfx_XinZhaoSkin36_XinZhaoR_knockback"
+                        "Play_sfx_XinZhaoSkin36_XinZhaoR_hitlocation_challenged"
+                        "Play_sfx_XinZhaoSkin36_XinZhaoR_hitlocation_knockback"
                         "Play_sfx_XinZhaoSkin36_XinZhaoR_OnCast"
+                        "Play_sfx_XinZhaoSkin36_XinZhaoRLastTargetAttacked_passivemark_buffactivate"
+                        "Play_sfx_XinZhaoSkin36_XinZhaoRLastTargetAttacked_passivemark_buffactivate_self_sweetener"
                         "Play_sfx_XinZhaoSkin36_XinZhaoRRangedImmunity_OnBuffActivate"
                         "Play_sfx_XinZhaoSkin36_XinZhaoRRangedImmunity_OnBuffDeactivate"
                         "Play_sfx_XinZhaoSkin36_XinZhaoRRangedImmunity_parry"
-                        "Play_sfx_XinZhaoSkin36_XinZhaoW_hit1"
-                        "Play_sfx_XinZhaoSkin36_XinZhaoW_hit2"
-                        "Play_sfx_XinZhaoSkin36_XinZhaoW_swing1"
-                        "Play_sfx_XinZhaoSkin36_XinZhaoW_swing2"
-                        "Stop_sfx_XinZhaoSkin36_XinZhaoEBattleCry_OnBuffActivate"
+                        "Play_sfx_XinZhaoSkin36_XinZhaoW_missilelaunch"
+                        "Play_sfx_XinZhaoSkin36_XinZhaoW_multihit"
+                        "Play_sfx_XinZhaoSkin36_XinZhaoW_OnCast"
+                        "Play_sfx_XinZhaoSkin36_XinZhaoWMissile_OnHit"
+                        "Stop_sfx_XinZhaoSkin36_Dance3D_buffactivate_loop"
+                        "Stop_sfx_XinZhaoSkin36_XinZhaoEBattleCry_buffactivate_loop"
+                        "Stop_sfx_XinZhaoSkin36_XinZhaoPassive_heal_buffactivate"
                         "Stop_sfx_XinZhaoSkin36_XinZhaoQ_OnBuffActivate"
                         "Stop_sfx_XinZhaoSkin36_XinZhaoRRangedImmunity_OnBuffActivate"
+                        "Stop_sfx_XinZhaoSkin36_XinZhaoRRangedImmunity_parry"
+                        "Stop_sfx_XinZhaoSkin36_XinZhaoW_missilelaunch"
                     }
+                }
+                0xa4416515 {
+                    0x8d39bde6: string = "XinZhao_Base_VO"
+                    0x2a21ad00: list[string] = {
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/XinZhao/Skins/Base/XinZhao_Base_VO_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/XinZhao/Skins/Base/XinZhao_Base_VO_events.bnk"
+                        "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/XinZhao/Skins/Base/XinZhao_Base_VO_audio.wpk"
+                    }
+                    0x12d8e384: list[string] = {
+                        "Play_vo_XinZhao_Attack2DAtakhan"
+                        "Play_vo_XinZhao_Attack2DBaron"
+                        "Play_vo_XinZhao_Attack2DDragon"
+                        "Play_vo_XinZhao_Attack2DGeneral"
+                        "Play_vo_XinZhao_Attack2DHerald"
+                        "Play_vo_XinZhao_Death3D"
+                        "Play_vo_XinZhao_FirstEncounter3DAlistar"
+                        "Play_vo_XinZhao_FirstEncounter3DDarkin"
+                        "Play_vo_XinZhao_FirstEncounter3DDarkin2025S3"
+                        "Play_vo_XinZhao_FirstEncounter3DDemacia"
+                        "Play_vo_XinZhao_FirstEncounter3DDraven"
+                        "Play_vo_XinZhao_FirstEncounter3DGaren"
+                        "Play_vo_XinZhao_FirstEncounter3DGeneral"
+                        "Play_vo_XinZhao_FirstEncounter3DIonia"
+                        "Play_vo_XinZhao_FirstEncounter3DJarvanIV"
+                        "Play_vo_XinZhao_FirstEncounter3DKennen"
+                        "Play_vo_XinZhao_FirstEncounter3DLeBlanc"
+                        "Play_vo_XinZhao_FirstEncounter3DNoxus"
+                        "Play_vo_XinZhao_FirstEncounter3DSion"
+                        "Play_vo_XinZhao_FirstEncounter3DSona"
+                        "Play_vo_XinZhao_FirstEncounter3DYunara"
+                        "Play_vo_XinZhao_Joke3DGeneral"
+                        "Play_vo_XinZhao_Kill2DBrambleback"
+                        "Play_vo_XinZhao_Kill2DCamp"
+                        "Play_vo_XinZhao_Kill2DSentinel"
+                        "Play_vo_XinZhao_Kill3DAlistar"
+                        "Play_vo_XinZhao_Kill3DAtakhan"
+                        "Play_vo_XinZhao_Kill3DDarkin"
+                        "Play_vo_XinZhao_Kill3DDemacia"
+                        "Play_vo_XinZhao_Kill3DDemon"
+                        "Play_vo_XinZhao_Kill3DDraven"
+                        "Play_vo_XinZhao_Kill3DFirst"
+                        "Play_vo_XinZhao_Kill3DGaren"
+                        "Play_vo_XinZhao_Kill3DGeneral"
+                        "Play_vo_XinZhao_Kill3DIonia"
+                        "Play_vo_XinZhao_Kill3DJarvanIV"
+                        "Play_vo_XinZhao_Kill3DKennen"
+                        "Play_vo_XinZhao_Kill3DLeBlanc"
+                        "Play_vo_XinZhao_Kill3DNoxus"
+                        "Play_vo_XinZhao_Kill3DPenta"
+                        "Play_vo_XinZhao_Kill3DSion"
+                        "Play_vo_XinZhao_Kill3DWard"
+                        "Play_vo_XinZhao_Kill3DYunara"
+                        "Play_vo_XinZhao_Laugh3DGeneral"
+                        "Play_vo_XinZhao_Move2DFirst"
+                        "Play_vo_XinZhao_Move2DFirstAllyDemacia"
+                        "Play_vo_XinZhao_Move2DFirstAllyJarvanIV"
+                        "Play_vo_XinZhao_Move2DFirstAllyKennen"
+                        "Play_vo_XinZhao_Move2DFirstAllySona"
+                        "Play_vo_XinZhao_Move2DFirstAllyYunara"
+                        "Play_vo_XinZhao_Move2DLong"
+                        "Play_vo_XinZhao_Move2DStandard"
+                        "Play_vo_XinZhao_Recall3DGeneral"
+                        "Play_vo_XinZhao_Respawn2DGeneral"
+                        "Play_vo_XinZhao_Spell3DQKnockup"
+                        "Play_vo_XinZhao_Taunt3DGeneral"
+                        "Play_vo_XinZhao_TauntResponse3DGeneral"
+                        "Play_vo_XinZhao_XinZhaoBasicAttack2_cast3D"
+                        "Play_vo_XinZhao_XinZhaoBasicAttack_cast3D"
+                        "Play_vo_XinZhao_XinZhaoCritAttack_cast3D"
+                        "Play_vo_XinZhao_XinZhaoEDash_cast3D"
+                        "Play_vo_XinZhao_XinZhaoQThrust1_cast3D"
+                        "Play_vo_XinZhao_XinZhaoQThrust2_cast3D"
+                        "Play_vo_XinZhao_XinZhaoR_cast3D"
+                        "Play_vo_XinZhao_XinZhaoW_cast3D"
+                        "Play_vo_XinZhao_XinZhaoWMissile_hit3D"
+                    }
+                    0x3b13aa4b: bool = true
                 }
             }
         }
@@ -97,15 +173,42 @@ entries: map[hash,embed] = {
             0xf5fb07c7: link = 0x6cca633c
         }
         0x45ff5904: embed = 0x6111d8a4 {
-            0xb14c976e: string = "ASSETS/Characters/XinZhao/Skins/Skin36/XinZhao_Skin36.skl"
-            0xd6a00df6: string = "ASSETS/Characters/XinZhao/Skins/Skin36/XinZhao_Skin36.skn"
-            0x3c6468f4: string = "ASSETS/Characters/XinZhao/Skins/Skin36/XinZhao_Skin36_TX_CM.dds"
-            0xa1f805da: f32 = 1.17
+            0xb14c976e: string = "ASSETS/Characters/XinZhao/Skins/Skin36/XinZhaoRework_Skin36.XinZhaoRework.skl"
+            0xd6a00df6: string = "ASSETS/Characters/XinZhao/Skins/Skin36/XinZhaoRework_Skin36.XinZhaoRework.skn"
+            0x3c6468f4: string = "ASSETS/Characters/XinZhao/Skins/Skin36/XinZhaoRework_Skin36_TX_CM.XinZhaoRework.tex"
             0x252f6884: f32 = 0.7
             0x5c7a0332: option[vec3] = {
                 { 100, 280, 100 }
             }
             0x561f4fea: rgba = { 0, 0, 0, 255 }
+            0x24725910: list[embed] = {
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/XinZhao/Skins/Skin36/XinZhaoRework_Skin36_Weapon_TX_CM.XinZhaoRework.tex"
+                    0xaad7612c: string = "Weapon"
+                }
+                0x8b7a4394 {
+                    0x3c6468f4: string = "ASSETS/Characters/XinZhao/Skins/Skin36/XinZhaoRework_Skin36_Weapon_TX_CM.XinZhaoRework.tex"
+                    0xaad7612c: string = "Hair"
+                }
+            }
+            0xe9c98281: list[pointer] = {
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0x663c9cd1
+                    0x96dbc896: hash = 0x5c3c8d13
+                    0x50271332: hash = 0xe92cc413
+                    0xa4e3d433: bool = true
+                    0x0afc0620: f32 = 10
+                }
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0x635c26de
+                    0x96dbc896: hash = 0x675c2d2a
+                    0x93b7fa73: f32 = 50
+                    0xfaf26cff: f32 = 40
+                    0xa4e3d433: bool = true
+                    0xef1820ba: f32 = 50
+                    0x0afc0620: f32 = 1
+                }
+            }
         }
         0x2d0d1f1d: string = "Flesh"
         0x123393ed: list[string] = {
@@ -113,12 +216,14 @@ entries: map[hash,embed] = {
         }
         0xd8f64a0d: link = 0xe0757735
         0xe67284f4: option[string] = {
-            "ASSETS/Characters/XinZhao/HUD/XinZhao_Circle_0.tex"
+            "ASSETS/Characters/XinZhao/HUD/XinZhaoRework_Circle_0.XinZhaoRework.tex"
         }
         0xac473fef: option[string] = {
-            "ASSETS/Characters/XinZhao/HUD/XinZhao_Square_0.tex"
+            "ASSETS/Characters/XinZhao/HUD/XinZhaoRework_Square_0.XinZhaoRework.tex"
         }
-        0x089aff69: string = "ASSETS/Characters/XinZhao/HUD/XinZhao_Circle_36.tex"
+        0x089aff69: string = "ASSETS/Characters/XinZhao/HUD/XinZhaoRework_Circle_36.XinZhaoRework.tex"
+        0x29306858: string = ""
+        0x5f094353: string = ""
         0x51c83af8: embed = 0x11b71b5e {
             0x4d5ff2d7: string = "Buffbone_Cstm_Healthbar"
             0x3fcb5693: u8 = 12

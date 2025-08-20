@@ -1,0 +1,82 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe89ecf3d = 0x787e8697 {
+        0xdcb68071: string = "Ruby_Curse_TinyTime_Buff"
+        0x84874d36: hash = 0xe89ecf3d
+        0xf9f16781: map[hash,embed] = {
+            0xd844d98f = 0x3641a323 {
+                0x160da1c3: list2[pointer] = {
+                    null
+                    null
+                    null
+                    null
+                }
+            }
+            0x69523460 = 0x3641a323 {
+                0x160da1c3: list2[pointer] = {
+                    null
+                    null
+                    0xbc67870e {
+                        0xd851ffa3: string = "6b10487f-f9f3-4559-944f-5d6aef905ee6"
+                        0xd33ce1c9: pointer = 0x5fe24f17 {
+                            0x425ed3ca: f32 = 0.1
+                        }
+                        0x9a032455: embed = 0xf6b622c6 {
+                            0x4a9c9bdf: pointer = 0x2f0c3844 {}
+                            0x8a25e7be: string = "HealthPercentage"
+                        }
+                    }
+                    null
+                    0x15ebaa9c {
+                        0xd851ffa3: string = "a5c2c7ac-fe69-4079-9b54-2f1e973de1ec"
+                        0x798fbc5d: string = "iv.MaxHealth * iv.HealthPercentage"
+                        0x9a032455: embed = 0xf6b622c6 {
+                            0x4a9c9bdf: pointer = 0x2f0c3844 {}
+                            0x8a25e7be: string = "MaxHealthReduction"
+                        }
+                    }
+                    null
+                }
+            }
+            0x71b38c83 = 0x3641a323 {
+                0x160da1c3: list2[pointer] = {
+                    null
+                    null
+                    0x15ebaa9c {
+                        0xd851ffa3: string = "63757cd4-ad0d-43bb-88ac-c7f9970bb45a"
+                        0x798fbc5d: string = "iv.MaxHealthReduction * -1"
+                        0x9a032455: embed = 0xf6b622c6 {
+                            0x4a9c9bdf: pointer = 0x2f0c3844 {}
+                            0x8a25e7be: string = "MaxHealthReduction"
+                        }
+                    }
+                    null
+                    0x15ebaa9c {
+                        0xd851ffa3: string = "0f6e73a5-0eda-45fc-8be7-58d329aec195"
+                        0x798fbc5d: string = "ptp.MaxHealth * (iv.HealthPercentage * ptp.Count)"
+                        0x9a032455: embed = 0xf6b622c6 {
+                            0x4a9c9bdf: pointer = 0x2f0c3844 {}
+                            0x8a25e7be: string = "MaxHealthReduction"
+                        }
+                    }
+                    0x15ebaa9c {
+                        0xd851ffa3: string = "fecfcbe8-a479-4467-9213-4f6a4bd72381"
+                        0x798fbc5d: string = "(ptp.MaxHealth*iv.HealthPercentage)*0.5"
+                        0x9a032455: embed = 0xf6b622c6 {
+                            0x8a25e7be: string = "Heal"
+                        }
+                    }
+                    null
+                }
+            }
+        }
+        0x0f7352bb: embed = 0xbe608a4c {
+            0x92f50a07: string = "Ruby_Curse_TinyTime_Buff"
+            0x9ab26724: string = "ASSETS/Characters/Gnar/HUD/Icons2D/GnarTransformTired.dds"
+            0x4fd51a36: string = "SHORT!"
+        }
+    }
+}

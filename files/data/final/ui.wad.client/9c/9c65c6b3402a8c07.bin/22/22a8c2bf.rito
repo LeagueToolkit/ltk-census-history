@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x22a8c2bf = 0xbcbc4216 {
+        0x2dc3bb11: file = 0x7231d6b360ffb4dd
+        0x3f19432c: link = 0xc75b609f
+        0x2063cb13: hash = 0xec859536
+        0x36ba7fe6: map[string,embed] = {
+            "BossCountdown" = 0x143f10a8 {
+                0x4facf6d1: list2[pointer] = {
+                    0x46a048a9 {
+                        0x5fb91e8c: hash = 0x428357e8
+                        0xab2bac33: hash = 0x83022a82
+                    }
+                }
+            }
+        }
+    }
+}

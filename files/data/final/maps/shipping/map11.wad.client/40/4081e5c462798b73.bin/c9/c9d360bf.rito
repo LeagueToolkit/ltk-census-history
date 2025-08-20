@@ -1,0 +1,13 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc9d360bf = 0x5858e503 {
+        0x8a68bc86: string = "Events"
+        0x16270f7c: map[string,link] = {
+            "Events" = 0x6efe2cac
+            "Rewards" = 0x0e32abd3
+        }
+    }
+}

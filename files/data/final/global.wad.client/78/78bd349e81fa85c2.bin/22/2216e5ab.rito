@@ -1,0 +1,13 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2216e5ab = 0x0f3f357f {
+        0x19efbfdb: string = "SetTimerTo30Sec"
+        0x41a8f652: pointer = 0x141c2ec1 {
+            0x74d44065: string = "Set Timer to 30 seconds"
+        }
+        0xb3c40830: f32 = 30
+    }
+}

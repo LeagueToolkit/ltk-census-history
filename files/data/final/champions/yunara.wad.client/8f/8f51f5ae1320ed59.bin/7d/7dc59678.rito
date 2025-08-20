@@ -28,6 +28,10 @@ entries: map[hash,embed] = {
                 0xf0a363e3: string = "ASSETS/Characters/Yunara/Skins/Skin01/Particles/Yunara_Skin01_matnoise.Yunara.tex"
             }
             0x0904b150 {
+                0xb311d4ef: string = "FlowmapTex"
+                0xf0a363e3: string = "ASSETS/Characters/Yunara/Skins/Skin01/Yunara_Skin01_FlowMap_TX_CM.Yunara.tex"
+            }
+            0x0904b150 {
                 0xb311d4ef: string = "AdditiveScroll_Mask"
                 0xf0a363e3: string = "ASSETS/Characters/Yunara/Skins/Base/Particles/color-hold.Yunara.tex"
             }
@@ -48,11 +52,11 @@ entries: map[hash,embed] = {
                 0xf0a363e3: string = "ASSETS/Characters/Yunara/Skins/Skin09/Yunara_Skin09_TX_CM.Chroma_Yunara_Onsen.tex"
             }
             0x0904b150 {
-                0xb311d4ef: string = "FlowmapTex"
-                0xf0a363e3: string = "ASSETS/Characters/Yunara/Skins/Skin01/Yunara_Skin01_FlowMap_TX_CM.Yunara.tex"
+                0xb311d4ef: string = "Mask_Swirls"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
             0x0904b150 {
-                0xb311d4ef: string = "Mask_Swirls"
+                0xb311d4ef: string = "HighLightShape"
                 0xf0a363e3: string = "ASSETS/Shared/Materials/black.SKINS_Ivern_Skin30.tex"
             }
         }
@@ -86,6 +90,10 @@ entries: map[hash,embed] = {
             0xde480eef {
                 0x8d39bde6: string = "TopArea_FresnelColor"
                 0x425ed3ca: vec4 = { 0.35733578, 0.6156863, 0.60604256, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "TopArea_FresnelRage"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "TopArea_FresnelIntensity"
@@ -180,6 +188,18 @@ entries: map[hash,embed] = {
                 0x425ed3ca: vec4 = { 0.01, 0, 0, 0 }
             }
             0xde480eef {
+                0x8d39bde6: string = "FlowmapTilling_Scrolling"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "FlowmapIntensity_Scrolling"
+                0x425ed3ca: vec4 = { 0.1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "FlowmapSpeed_Scrolling"
+                0x425ed3ca: vec4 = { 3, 0, 0, 0 }
+            }
+            0xde480eef {
                 0x8d39bde6: string = "VertexDeformFeatureStrength"
                 0x425ed3ca: vec4 = { 1, 0, 0, 0 }
             }
@@ -232,10 +252,53 @@ entries: map[hash,embed] = {
                 0x8d39bde6: string = "Inside_Color"
                 0x425ed3ca: vec4 = { 0.7, 0.7, 0.7, 1 }
             }
+            0xde480eef {
+                0x8d39bde6: string = "LightDir"
+                0x425ed3ca: vec4 = { 0.2, 0.5, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "HighLightColorTint"
+                0x425ed3ca: vec4 = { 1, 1, 1, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "LightIntensity"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Shift_Mul"
+                0x425ed3ca: vec4 = { 7.05, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Shift_Offset"
+                0x425ed3ca: vec4 = { -1.8, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "FlowmapIntensity_HighLight"
+                0x425ed3ca: vec4 = { 0.1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Speed_HighLight"
+                0x425ed3ca: vec4 = { -0.1, 0, 0, 0 }
+            }
         }
         0xdd7ddb9d: list2[embed] = {
             0x0e2212a1 {
+                0x8d39bde6: string = "STYLIZEDHIGHLIGHT"
+                0x61342fd0: bool = false
+                0x5fb91e8c: string = "Stylized Highlight"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "FLOWMAPHIGHLIGHT"
+                0x61342fd0: bool = false
+                0x5fb91e8c: string = "Stylized Highlight"
+            }
+            0x0e2212a1 {
                 0x8d39bde6: string = "SURFACE_SCROLLING"
+                0x61342fd0: bool = false
+                0x5fb91e8c: string = "Surface Scrolling Feature"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "SURFACE_SCROLLING_FLOWMAP"
                 0x61342fd0: bool = false
                 0x5fb91e8c: string = "Surface Scrolling Feature"
             }
@@ -245,7 +308,7 @@ entries: map[hash,embed] = {
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "USE_FLOW_MAP"
-                0x5fb91e8c: string = "Flow Map Feature"
+                0x5fb91e8c: string = "Flow Map Feature for Diffuse Tex"
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "FEATURE_BLOOM"

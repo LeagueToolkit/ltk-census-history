@@ -1,0 +1,48 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb376864c = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/LoL/Cherry/CherryElimination/UIBase/CherryElimination/ExitNowIncompleteCombatButton"
+        0x2063cb13: link = 0xff90c1eb
+        0x5a94b0cc: list2[link] = {
+            0x091bfc4f
+            0x95141a43
+            0x6f750df6
+            0x886c20d0
+            0xb3120c5d
+            0xb602239a
+            0xcf157d47
+            0x12a8eae8
+        }
+        0x6bf3194e: link = 0xb602239a
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x95141a43
+            }
+            0xeec29756: link = 0xb3120c5d
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x886c20d0
+            }
+            0xeec29756: link = 0x12a8eae8
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x091bfc4f
+            }
+            0xeec29756: link = 0xcf157d47
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x6f750df6
+            }
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_Cherry_Gameplay_HUD_elimination_leave_click"
+        }
+        0x8c28daf6: string = "cherry_eliminated_confirm_leave_early_incomplete_tooltip"
+    }
+}
