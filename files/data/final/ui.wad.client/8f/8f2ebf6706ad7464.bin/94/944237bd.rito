@@ -1,0 +1,41 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x944237bd = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/TFTPreGame/UX/RiotUI/LevelPurchaseDialog/UIBase/Scene/LeftLayout/Description/Group/BulkDecrement"
+        0x2063cb13: link = 0x3b8b104c
+        0x5a94b0cc: list2[link] = {
+            0x4b82586f
+            0xbf1f46bb
+            0x7ec0406c
+            0x9678aa87
+            0x9a733c6e
+        }
+        0xdf2b45ce: bool = true
+        0x6bf3194e: link = 0x4b82586f
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xbf1f46bb
+                0x7ec0406c
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x9678aa87
+                0x7ec0406c
+            }
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x9a733c6e
+                0x7ec0406c
+            }
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_PreGameUI_button_selection_tap"
+            0x84b6cf03: string = "Play_sfx_PreGameUI_store_button_purchase_confirmation_release"
+        }
+    }
+}

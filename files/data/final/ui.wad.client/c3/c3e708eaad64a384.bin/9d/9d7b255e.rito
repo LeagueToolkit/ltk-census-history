@@ -1,0 +1,37 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x9d7b255e = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/CombatOverview/UIBase/CombatOverview/CO/CODetailed_ToggleButton"
+        0x2063cb13: link = 0x892206ce
+        0x5a94b0cc: list2[link] = {
+            0xb29be0fd
+            0x28663212
+            0xc44a93d5
+            0xb282d3b9
+        }
+        0xcb42693f: bool = false
+        0x6bf3194e: link = 0xc44a93d5
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xb29be0fd
+            }
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x28663212
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xb282d3b9
+            }
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0x84b6cf03: string = "play_sfx_hud_base_Generic_Button_Click"
+            0xb416d0a8: string = "play_sfx_hud_base_Generic_Button_Click"
+        }
+    }
+}

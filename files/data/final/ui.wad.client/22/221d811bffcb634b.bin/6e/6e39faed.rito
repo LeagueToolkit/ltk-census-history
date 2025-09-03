@@ -1,0 +1,26 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6e39faed = 0xaf9f3bac {
+        0xe2db859f: string = "standalone_settings_NavItem_Notifications"
+        0xe4fd9145: u8 = 2
+        0xc7e16877: pointer = 0xd574bc5b {}
+        0xa4b002d7: list2[pointer] = {
+            0x761a2ea3 {
+                0x48261632: u8 = 2
+                0x694aaa0b: hash = 0x3af3ef38
+                0xdf6c5fec: string = "standalone_common_Settings_Notifications_PushNotificationsHeader"
+            }
+            0x9c74b21a {
+                0x4102143e: bool = true
+                0x48261632: u8 = 2
+                0xe7e19b94: u16 = 37
+                0x694aaa0b: hash = 0xa5390815
+                0xca0e79b5: string = "Options_Interface_Notifications_PromotionalNews"
+                0xba8affe1: string = "Options_Interface_Notifications_PromotionalNews_Description"
+            }
+        }
+    }
+}

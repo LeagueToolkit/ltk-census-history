@@ -15,10 +15,10 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "Shield"
                     0x246b0d8e: list[f32] = {
                         280
-                        500
-                        575
-                        1200
-                        2000
+                        280
+                        330
+                        900
+                        1300
                         280
                         280
                     }
@@ -75,10 +75,10 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "BaseDamageAD"
                     0x246b0d8e: list[f32] = {
                         3
-                        200
-                        300
-                        3000
-                        5000
+                        250
+                        375
+                        4000
+                        8000
                         3
                         3
                     }
@@ -111,10 +111,10 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "SecondaryDamageAD"
                     0x246b0d8e: list[f32] = {
                         0.75
-                        60
-                        90
-                        1000
-                        2000
+                        125
+                        200
+                        1500
+                        3000
                         0.75
                         0.75
                     }
@@ -131,16 +131,36 @@ entries: map[hash,embed] = {
                         0.5
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "ShieldPercHP"
+                    0x246b0d8e: list[f32] = {
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x33dad32f = 0xbc409284 {
                     0xcbcac618: u8 = 5
                     0x50f145c0: list[pointer] = {
-                        0x995bf516 {
-                            0x1cd83c4b: pointer = 0x332eb441 {
-                                0xb386dcf1: hash = 0x337519b0
+                        0x84a63373 {
+                            0xa066cc28: list[pointer] = {
+                                0x995bf516 {
+                                    0x1cd83c4b: pointer = 0x332eb441 {
+                                        0xb386dcf1: hash = 0x337519b0
+                                    }
+                                    0xb8dcfcbb: f32 = 0.01
+                                }
+                                0x5f5c70a4 {
+                                    0x4cec2c8a: u8 = 12
+                                    0xb386dcf1: hash = 0x44a30fa4
+                                }
                             }
-                            0xb8dcfcbb: f32 = 0.01
                         }
                     }
                 }
@@ -158,10 +178,6 @@ entries: map[hash,embed] = {
                                     0xb8dcfcbb: f32 = 1
                                     0x4cec2c8a: u8 = 3
                                 }
-                                0x5f5c70a4 {
-                                    0x4cec2c8a: u8 = 12
-                                    0xb386dcf1: hash = 0x36e95f5d
-                                }
                             }
                         }
                     }
@@ -177,10 +193,6 @@ entries: map[hash,embed] = {
                                     }
                                     0xb8dcfcbb: f32 = 1
                                     0x4cec2c8a: u8 = 3
-                                }
-                                0x5f5c70a4 {
-                                    0x4cec2c8a: u8 = 12
-                                    0xb386dcf1: hash = 0x265158c6
                                 }
                             }
                         }

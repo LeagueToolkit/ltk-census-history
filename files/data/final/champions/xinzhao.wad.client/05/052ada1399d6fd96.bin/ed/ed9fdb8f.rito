@@ -39,6 +39,7 @@ entries: map[hash,embed] = {
                         "Play_sfx_XinZhaoSkin27_Laugh3D_leadout"
                         "Play_sfx_XinZhaoSkin27_Laugh3D_spam"
                         "Play_sfx_XinZhaoSkin27_Recall3D_buffactivate"
+                        "Play_sfx_XinZhaoSkin27_Respawn3D_buffactivate_anim"
                         "Play_sfx_XinZhaoSkin27_Taunt3D_buffactivate_loop"
                         "Play_sfx_XinZhaoSkin27_Taunt3D_leadin"
                         "Play_sfx_XinZhaoSkin27_Winddown3D_buffactivate"
@@ -236,5 +237,47 @@ entries: map[hash,embed] = {
             0x3fcb5693: u8 = 12
         }
         0x62286e7e: link = 0x1b569c85
+        0x87b1d303: list2[pointer] = {
+            0x67ac9672 {
+                0x43c8c7b1: pointer = 0x9233f657 {
+                    0x7aceca0f: list[pointer] = {
+                        0x8afb0060 {
+                            0xc8e37ef0: string = "XinZhaoQ"
+                        }
+                        0xd5a6ab25 {
+                            0x85045366: pointer = 0x8afb0060 {
+                                0xc8e37ef0: string = "kalistarallyspelllock"
+                            }
+                        }
+                    }
+                }
+                0x071f3c1d: list2[embed] = {
+                    0x00fa43e4 {
+                        0x1ecb978c: string = "Buffbone_Glb_Weapon_1"
+                        0x9b0300f3: hash = 0x327a7554
+                    }
+                }
+            }
+            0x67ac9672 {
+                0x43c8c7b1: pointer = 0x9233f657 {
+                    0x7aceca0f: list[pointer] = {
+                        0x8afb0060 {
+                            0xc8e37ef0: string = "XinZhaoEBattleCry"
+                        }
+                        0xd5a6ab25 {
+                            0x85045366: pointer = 0x8afb0060 {
+                                0xc8e37ef0: string = "kalistarallyspelllock"
+                            }
+                        }
+                    }
+                }
+                0x071f3c1d: list2[embed] = {
+                    0x00fa43e4 {
+                        0x1ecb978c: string = "Weapon_Main"
+                        0x9b0300f3: hash = 0xd1bfda36
+                    }
+                }
+            }
+        }
     }
 }
