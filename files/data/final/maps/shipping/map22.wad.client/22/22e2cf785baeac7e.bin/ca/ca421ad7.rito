@@ -1,0 +1,39 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xca421ad7 = 0x60e00531 {
+        0x19efbfdb: string = "PM_Buddy_Yasuo_Data"
+        0x0773669d: map[string,pointer] = {
+            "DragonSpiritItems" = 0x80996016 {
+                0x3a79338f: list2[link] = {
+                    0xabbf2373
+                    0xd3a3d4b1
+                    0x552e61c5
+                    0xcf93f696
+                    0xd85fe397
+                }
+            }
+            "JourneyPowerYasuoHealth" = 0x4012fd7e {
+                0x24f2ec89: i32 = 300
+            }
+            "JourneyPowerYasuoAS" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "DragonCooldownDefault" = 0x977517c6 {
+                0x24f2ec89: f32 = 8
+            }
+            "JourneyPowerDragonCooldown" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+            "NumTakedownsFor2Star" = 0x4012fd7e {
+                0x24f2ec89: i32 = 25
+            }
+            "NumTakedownsFor3Star" = 0x4012fd7e {
+                0x24f2ec89: i32 = 40
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

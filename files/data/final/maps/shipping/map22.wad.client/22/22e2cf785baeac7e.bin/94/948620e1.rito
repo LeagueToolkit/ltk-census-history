@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x948620e1 = 0x60e00531 {
+        0x19efbfdb: string = "TFTEventPM_Ezreal_1Star_7_8"
+        0x0773669d: map[string,pointer] = {
+            "SkinName" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT15_Ezreal"
+            }
+            "Col" = 0x4012fd7e {
+                0x24f2ec89: i32 = 7
+            }
+            "Row" = 0x4012fd7e {
+                0x24f2ec89: i32 = 8
+            }
+            "Type" = 0xa188bd55 {
+                0x24f2ec89: string = "Unit"
+            }
+            "Level" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

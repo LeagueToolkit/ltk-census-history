@@ -1,0 +1,14 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x538445aa = 0xf58450d9 {
+        0x42f8ecb5: string = "TFT_Event_PM"
+        0xae7323cb: list2[string] = {
+            "TFTSetOverride(TFTSetEventPM)"
+            "TFT_PVE(1)"
+            "AudioFeature(TFTSetEventPM)"
+        }
+    }
+}

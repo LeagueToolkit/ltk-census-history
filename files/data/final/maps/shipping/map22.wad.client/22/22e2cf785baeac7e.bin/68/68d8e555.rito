@@ -1,0 +1,40 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x68d8e555 = 0x60e00531 {
+        0x19efbfdb: string = "PM_Buddy_Soraka_Data"
+        0x0773669d: map[string,pointer] = {
+            "HealPercent" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.15
+            }
+            "HealDelay" = 0x977517c6 {
+                0x24f2ec89: f32 = 5
+            }
+            "HealNumTargets" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+            "GolemRank3BonusHP" = 0x4012fd7e {
+                0x24f2ec89: i32 = 3000
+            }
+            "GolemRank3BonusAD" = 0x4012fd7e {
+                0x24f2ec89: i32 = 150
+            }
+            "GolemRank2Level" = 0x4012fd7e {
+                0x24f2ec89: i32 = 6
+            }
+            "GolemRank3Level" = 0x4012fd7e {
+                0x24f2ec89: i32 = 9
+            }
+            "GolemRank2BonusHP" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1300
+            }
+            "GolemRank2BonusAD" = 0x4012fd7e {}
+            "JourneyUnlockGolemHealth" = 0x4012fd7e {
+                0x24f2ec89: i32 = 500
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

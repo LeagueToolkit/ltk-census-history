@@ -80,6 +80,16 @@ entries: map[hash,embed] = {
                                         0x8a25e7be: string = "HealAdjRatio"
                                     }
                                 }
+                                0xbc67870e {
+                                    0xd851ffa3: string = "c122cda9-46d4-4a2a-81b7-f9827cfbc348"
+                                    0xd33ce1c9: pointer = 0x5fe24f17 {
+                                        0x425ed3ca: f32 = 0.75
+                                    }
+                                    0x9a032455: embed = 0xf6b622c6 {
+                                        0x4a9c9bdf: pointer = 0x2f0c3844 {}
+                                        0x8a25e7be: string = "Trial3ArmorAndMRRatio"
+                                    }
+                                }
                                 0xe524b2fc {
                                     0xd851ffa3: string = "53997507-17f8-44d1-b6f9-5bb6c445b458"
                                     0xd212fabe: pointer = 0x312c3fe8 {
@@ -96,7 +106,7 @@ entries: map[hash,embed] = {
                                             0xbc67870e {
                                                 0xd851ffa3: string = "6b0b5936-36d9-4880-a924-d802c8220946"
                                                 0xd33ce1c9: pointer = 0x2a35e80a {
-                                                    0x425ed3ca: i32 = -15
+                                                    0x425ed3ca: i32 = -10
                                                 }
                                                 0x9a032455: embed = 0xf6b622c6 {
                                                     0x4a9c9bdf: pointer = 0x2f0c3844 {}
@@ -106,7 +116,7 @@ entries: map[hash,embed] = {
                                             0xbc67870e {
                                                 0xd851ffa3: string = "2cc16e03-7382-4f37-906a-ca2274513b73"
                                                 0xd33ce1c9: pointer = 0x2a35e80a {
-                                                    0x425ed3ca: i32 = -15
+                                                    0x425ed3ca: i32 = -10
                                                 }
                                                 0x9a032455: embed = 0xf6b622c6 {
                                                     0x4a9c9bdf: pointer = 0x2f0c3844 {}
@@ -642,6 +652,29 @@ entries: map[hash,embed] = {
                                 0x15ebaa9c {
                                     0xd851ffa3: string = "82c4039b-cac3-4490-9109-89ca0d6540fe"
                                     0x798fbc5d: string = "iv.BonusArmor + iv.ArmPerLevel"
+                                    0x9a032455: embed = 0xf6b622c6 {
+                                        0x4a9c9bdf: pointer = 0x2f0c3844 {}
+                                        0x8a25e7be: string = "BonusArmor"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0xe524b2fc {
+                        0xd851ffa3: string = "f9e1be75-a7e1-49ca-aa96-66e7788a2c20"
+                        0x3c43ef68: embed = 0xa687a6a3 {
+                            0x160da1c3: list2[pointer] = {
+                                0x15ebaa9c {
+                                    0xd851ffa3: string = "e3f0bbc8-1446-48ce-b276-249f9440db16"
+                                    0x798fbc5d: string = "iv.BonusMR + (iv.MRPerLevel * iv.Trial3ArmorAndMRRatio)"
+                                    0x9a032455: embed = 0xf6b622c6 {
+                                        0x4a9c9bdf: pointer = 0x2f0c3844 {}
+                                        0x8a25e7be: string = "BonusMR"
+                                    }
+                                }
+                                0x15ebaa9c {
+                                    0xd851ffa3: string = "6d8891ab-fbe5-4fb4-a679-7a6f70a9bd02"
+                                    0x798fbc5d: string = "iv.BonusArmor + ( iv.ArmPerLevel * iv.Trial3ArmorAndMRRatio)"
                                     0x9a032455: embed = 0xf6b622c6 {
                                         0x4a9c9bdf: pointer = 0x2f0c3844 {}
                                         0x8a25e7be: string = "BonusArmor"

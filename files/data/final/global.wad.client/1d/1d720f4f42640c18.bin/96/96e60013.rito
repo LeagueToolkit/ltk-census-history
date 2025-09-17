@@ -22,17 +22,34 @@ entries: map[hash,embed] = {
         0x1f4d20a6: list[embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "LethalityAmount"
-                0x24f2ec89: f32 = 10
+                0x24f2ec89: f32 = 15
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "AdaptiveForce"
+                0x24f2ec89: f32 = 55
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "Shred"
+                0x24f2ec89: f32 = 0.2
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ShredStackTime"
+                0x24f2ec89: f32 = 1
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "MaxStacks"
+                0x24f2ec89: f32 = 3
             }
         }
-        0x5b98619f: f32 = 20
-        0xb739c155: f32 = 0.08
-        0xc5658c30: f32 = 0.5
-        0xb821026a: f32 = 10
-        0x46493f5f: f32 = 0.4
+        0x5b98619f: f32 = 10
+        0xb739c155: f32 = 0.15
+        0xec1482d9: f32 = 15
+        0xb821026a: f32 = 15
+        0x46493f5f: f32 = 0
         0xccf99b44: list[string] = {
-            "AttackSpeed"
+            "Damage"
             "NonbootsMovement"
+            "MagicPenetration"
             "ArmorPenetration"
             "AbilityHaste"
         }
@@ -58,16 +75,19 @@ entries: map[hash,embed] = {
                     "Stats" = 0xfb33f2f3 {
                         0x5a94b0cc: list[embed] = {
                             0x9a1b3505 {
-                                0x5127f14d: string = "AttackSpeed"
+                                0x5127f14d: string = "AdaptiveForce"
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "AbilityHaste"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "MoveSpeedPercent"
+                                0x5127f14d: string = "Lethality"
                             }
                             0x9a1b3505 {
-                                0x5127f14d: string = "Lethality"
+                                0x5127f14d: string = "MagicPen"
+                            }
+                            0x9a1b3505 {
+                                0x5127f14d: string = "MoveSpeedPercent"
                             }
                         }
                     }

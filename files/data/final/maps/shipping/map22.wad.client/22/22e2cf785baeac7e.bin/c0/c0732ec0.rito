@@ -1,0 +1,36 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc0732ec0 = 0x60e00531 {
+        0x19efbfdb: string = "TFTEventPM_BlueGolem_4_7_DF_FB_SF"
+        0x0773669d: map[string,pointer] = {
+            "SkinName" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_BlueGolem"
+            }
+            "Row" = 0x4012fd7e {
+                0x24f2ec89: i32 = 7
+            }
+            "Type" = 0xa188bd55 {
+                0x24f2ec89: string = "Unit"
+            }
+            "Level" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+            "Item1" = 0xa82b69c9 {
+                0x9f3833e6: link = 0x8d21b5be
+            }
+            "Col" = 0xa188bd55 {
+                0x24f2ec89: string = "4"
+            }
+            "Item2" = 0xa82b69c9 {
+                0x9f3833e6: link = 0x4a129fc9
+            }
+            "Item3" = 0xa82b69c9 {
+                0x9f3833e6: link = 0xc1c35376
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

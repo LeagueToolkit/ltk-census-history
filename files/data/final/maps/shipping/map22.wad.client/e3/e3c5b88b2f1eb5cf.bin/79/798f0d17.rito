@@ -1,0 +1,44 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x798f0d17 = 0xb25c0a3f {
+        0x3a79338f: map[hash,pointer] = {
+            0xfac7d1df = 0xc0c056f1 {
+                0xe1ad931b: mtx44 = {
+                    1.0631769, -0.08957308, 0.70636547, 0
+                    -0.33497548, 1.8061496, 0.73321897, 0
+                    -0.16864754, -0.12774885, 0.23763806, 0
+                    827.4347, 202.07785, 2254.095, 1
+                }
+                0x8d39bde6: string = "Generic_Interaction1"
+                0x52fd4a5b: string = "TFT_Generic_Interaction"
+                0xabaecc4b: bool = true
+            }
+            0x93c96767 = 0xc0c056f1 {
+                0xe1ad931b: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    2000, 0, 2000, 1
+                }
+                0x8d39bde6: string = "TFT_BattleStadium_Skin1"
+                0x52fd4a5b: string = "TFT_BattleStadium_Props"
+                0x8e058751: bool = true
+                0x74180b10: string = "idleoff"
+                0x7b34fa25: u32 = 1
+            }
+            0x2f658ab7 = 0x592ef6c3 {
+                0xe1ad931b: mtx44 = {
+                    0.99999994, 0, 0, 0
+                    0, 0.99999994, 0, 0
+                    0, 0, 0.9999999, 0
+                    2000, 0, 2000, 1
+                }
+                0x8d39bde6: string = "Level1_BattleStadium_metal1"
+                0x491e0a9c: link = 0x91155492
+            }
+        }
+    }
+}

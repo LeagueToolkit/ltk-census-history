@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xa80aa1c3 = 0x60e00531 {
+        0x19efbfdb: string = "GrantJackpot_RoundIndex0"
+        0x0773669d: map[string,pointer] = {
+            "RoundIndex" = 0x4012fd7e {}
+            "GrantJackpot" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+            "JackpotChance" = 0x977517c6 {
+                0x24f2ec89: f32 = 5
+            }
+            "PityThreshold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1000
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

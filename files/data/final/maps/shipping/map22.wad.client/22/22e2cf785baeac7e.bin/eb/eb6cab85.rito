@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xeb6cab85 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_Buddy_Gwen_MixedGoldArmory"
+        0x0773669d: map[string,pointer] = {
+            "Items" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "BUDDY_GWEN_ARTIFACTSGOLD"
+                    "BUDDY_GWEN_CHEMBARON"
+                    "BUDDY_GWEN_INKSHADOW"
+                    "BUDDY_GWEN_EXOTECH"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

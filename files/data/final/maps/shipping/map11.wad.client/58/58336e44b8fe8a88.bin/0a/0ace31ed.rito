@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x0ace31ed = 0xc8400f38 {
+        0x6bfb316f: string = "constantly_active"
+        0xb157685d: string = "Options_Hotkeys_AdvancedKeybindingOptions_label"
+        0x89ba4a26: link = 0x48dbe289
+        0x82d6dcb0: list2[pointer] = {
+            0xc8d6dccd {
+                0xf248d989: link = 0x0b1fdc5f
+                0x01d6318d: u32 = 12
+            }
+            0xcaefc854 {
+                0xf248d989: link = 0x12c81d01
+            }
+        }
+    }
+}

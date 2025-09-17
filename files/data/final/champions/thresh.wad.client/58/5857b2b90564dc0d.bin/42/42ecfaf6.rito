@@ -403,6 +403,24 @@ entries: map[hash,embed] = {
             0xa65c6f83 = 0x5bd9a1e6 {
                 0x8d80922b: u32 = 1
                 0xd39243c4: hash = 0x933b5bde
+                0xf598463e: map[hash,pointer] = {
+                    0x1ce6ffdf = 0x0542d41d {
+                        0xf6386280: hash = 0x3e4d8473
+                        0x60645d6a: list[embed] = {
+                            0x5dd693f9 {
+                                0xeb880965: hash = 0x96b05e9e
+                            }
+                        }
+                    }
+                    0x34c79190 = 0x0542d41d {
+                        0xf6386280: hash = 0x46cdebd4
+                        0x60645d6a: list[embed] = {
+                            0x5dd693f9 {
+                                0xeb880965: hash = 0xea9571d1
+                            }
+                        }
+                    }
+                }
                 0xb49f754e: embed = 0x9a4b299d {
                     0x0329f1d7: string = "ASSETS/Characters/Thresh/Skins/Base/Animations/Thresh_spell1_in.anm"
                 }
@@ -540,12 +558,11 @@ entries: map[hash,embed] = {
                     0x0329f1d7: string = "ASSETS/Characters/Thresh/Skins/Base/Animations/Thresh_run_in.anm"
                 }
             }
-            0x2acd4eca = 0x8d30a7c0 {
-                0x8d80922b: u32 = 2
-                0x078cafd9: list[hash] = {
-                    0x1cce7534
-                    0xf112f5b2
-                }
+            0x2acd4eca = 0x1560dccc {
+                0x16860572: pointer = 0xb844ad92 {}
+                0x4628a916: bool = true
+                0x4d7a54c0: hash = 0xf636cdf6
+                0x24af5ac1: hash = 0xf636cdf6
             }
             0x41472d6f = 0x5bd9a1e6 {
                 0x8d80922b: u32 = 2
@@ -616,6 +633,35 @@ entries: map[hash,embed] = {
                 0x078cafd9: list[hash] = {
                     0xcaa6e196
                     0x1fcb6757
+                }
+            }
+            0x5a81bdb0 = 0x5bd9a1e6 {
+                0xd39243c4: hash = 0x933b5bde
+                0xf598463e: map[hash,pointer] = {
+                    0xa86c592f = 0xbcf56e70 {
+                        0x19efbfdb: hash = 0xa86c592f
+                        0x250cfbe1: f32 = 46
+                        0x6d4d42d0: list[hash] = {
+                            0x5a81bdb0
+                        }
+                    }
+                    0xc329a156 = 0x0542d41d {
+                        0x19efbfdb: hash = 0xc329a156
+                        0x250cfbe1: f32 = 45
+                        0xf6386280: hash = 0x89bd4ef1
+                        0x60645d6a: list[embed] = {
+                            0x5dd693f9 {
+                                0xeb880965: hash = 0xfa56340f
+                            }
+                        }
+                    }
+                    0x584a6a6f = 0x9c566034 {
+                        0x19efbfdb: hash = 0xce1149c9
+                        0x9d477e74: string = "Play_sfx_Thresh_Recall3D_buffactivate"
+                    }
+                }
+                0xb49f754e: embed = 0x9a4b299d {
+                    0x0329f1d7: string = "ASSETS/Characters/Thresh/Skins/Skin04/Animations/Thresh_Skin04_Recall.anm"
                 }
             }
             0xbc9c8463 = 0x8d30a7c0 {
@@ -950,37 +996,37 @@ entries: map[hash,embed] = {
                     0xd3c83562
                 }
             }
-            0x5a81bdb0 = 0x5bd9a1e6 {
-                0xd39243c4: hash = 0x933b5bde
-                0xf598463e: map[hash,pointer] = {
-                    0xa86c592f = 0xbcf56e70 {
-                        0x19efbfdb: hash = 0xa86c592f
-                        0x250cfbe1: f32 = 46
-                        0x6d4d42d0: list[hash] = {
-                            0x5a81bdb0
-                        }
+            0xea90ebd8 = 0x8d30a7c0 {
+                0x8d80922b: u32 = 2
+                0x078cafd9: list[hash] = {
+                    0x1cce7534
+                    0xf112f5b2
+                }
+            }
+            0xbc1ef3fb = 0x8ebbe9e2 {
+                0x8d80922b: u32 = 2
+                0x2329eec5: list[embed] = {
+                    0x63e48060 {
+                        0xca2b847d: hash = 0xea90ebd8
+                        0x24f2ec89: f32 = 330
                     }
-                    0xc329a156 = 0x0542d41d {
-                        0x19efbfdb: hash = 0xc329a156
-                        0x250cfbe1: f32 = 45
-                        0xf6386280: hash = 0x89bd4ef1
-                        0x60645d6a: list[embed] = {
-                            0x5dd693f9 {
-                                0xeb880965: hash = 0xfa56340f
-                            }
-                        }
-                        0xd91e32ee: bool = false
-                        0x72a03ff8: bool = false
-                    }
-                    0x584a6a6f = 0x9c566034 {
-                        0x19efbfdb: hash = 0xce1149c9
-                        0x9d477e74: string = "Play_sfx_Thresh_Recall3D_buffactivate"
-                        0xd91e32ee: bool = false
+                    0x63e48060 {
+                        0xca2b847d: hash = 0xa6f67bd9
+                        0x24f2ec89: f32 = 375
                     }
                 }
-                0xb49f754e: embed = 0x9a4b299d {
-                    0x0329f1d7: string = "ASSETS/Characters/Thresh/Skins/Skin04/Animations/Thresh_Skin04_Recall.anm"
+                0x16860572: pointer = 0x3c38f0fa {}
+                0x4628a916: bool = true
+            }
+            0xf636cdf6 = 0x1560dccc {
+                0x16860572: pointer = 0xebfb09e2 {
+                    0xe55419df: pointer = 0x0d373ad1 {
+                        0xa10ad504: u8 = 15
+                    }
                 }
+                0x4628a916: bool = true
+                0x4d7a54c0: hash = 0x26aab29a
+                0x24af5ac1: hash = 0xbc1ef3fb
             }
             0x3c098129 = 0x5bd9a1e6 {
                 0xd39243c4: hash = 0x933b5bde
@@ -994,7 +1040,6 @@ entries: map[hash,embed] = {
                     0x1a66b7e0 = 0x9c566034 {
                         0x19efbfdb: hash = 0x967856ca
                         0x9d477e74: string = "Play_sfx_Thresh_Winddown3D_buffactivate"
-                        0xd91e32ee: bool = false
                     }
                 }
                 0xb49f754e: embed = 0x9a4b299d {
@@ -1524,6 +1569,12 @@ entries: map[hash,embed] = {
             1594064865837235533 = 0x3d7f07ef {
                 0xac251151: f32 = 0
             }
+            1764563415242161485 = 0x3d7f07ef {
+                0xac251151: f32 = 0
+            }
+            1764563416248605218 = 0x3d7f07ef {
+                0xac251151: f32 = 0.5
+            }
             2075725347636690253 = 0x3d7f07ef {
                 0xac251151: f32 = 0
             }
@@ -1635,6 +1686,9 @@ entries: map[hash,embed] = {
             6492419511523261773 = 0x3d7f07ef {
                 0xac251151: f32 = 0
             }
+            6521702302194646349 = 0x3d7f07ef {
+                0xac251151: f32 = 0
+            }
             6688552139442666829 = 0x3d7f07ef {
                 0xac251151: f32 = 0
             }
@@ -1687,6 +1741,12 @@ entries: map[hash,embed] = {
                 0xac251151: f32 = 0
             }
             10686364483328530978 = 0x3d7f07ef {
+                0xac251151: f32 = 0.5
+            }
+            10687648892291956045 = 0x3d7f07ef {
+                0xac251151: f32 = 0
+            }
+            10687648893298399778 = 0x3d7f07ef {
                 0xac251151: f32 = 0.5
             }
             10737785106395086157 = 0x3d7f07ef {
@@ -1917,6 +1977,9 @@ entries: map[hash,embed] = {
             17952995329355050049 = 0x3d7f07ef {
                 0xac251151: f32 = 0.5
             }
+            17952995329556938003 = 0x3d7f07ef {
+                0xac251151: f32 = 0.5
+            }
             17952995329629386036 = 0x3d7f07ef {
                 0xac251151: f32 = 0.5
             }
@@ -1981,6 +2044,9 @@ entries: map[hash,embed] = {
                 0xac251151: f32 = 0.5
             }
             17952995331634206688 = 0x3d7f07ef {
+                0xac251151: f32 = 0.5
+            }
+            17952995331634505738 = 0x3d7f07ef {
                 0xac251151: f32 = 0.5
             }
             17952995331668182413 = 0x3d7f07ef {
@@ -2069,6 +2135,12 @@ entries: map[hash,embed] = {
             }
             18016295751040490018 = 0x3d7f07ef {
                 0xac251151: f32 = 0.5
+            }
+            16902268717640498509 = 0x3d7f07ef {
+                0xac251151: f32 = 0
+            }
+            13555540190967676237 = 0x3d7f07ef {
+                0xac251151: f32 = 0
             }
         }
     }

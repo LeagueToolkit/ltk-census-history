@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x12524f7d = 0x60e00531 {
+        0x19efbfdb: string = "PM_JourneyTrack_RecommendedLevel"
+        0x0773669d: map[string,pointer] = {
+            "Difficulty1" = 0x4012fd7e {
+                0x24f2ec89: i32 = 5
+            }
+            "Difficulty2" = 0x4012fd7e {
+                0x24f2ec89: i32 = 15
+            }
+            "Difficulty3" = 0x4012fd7e {
+                0x24f2ec89: i32 = 25
+            }
+            "Difficulty4" = 0x4012fd7e {
+                0x24f2ec89: i32 = 45
+            }
+            "Difficulty5" = 0x4012fd7e {
+                0x24f2ec89: i32 = 55
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x1eb5db65 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_BUDDY_GWEN_SHADOW"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFTEventPM_Item_ZekesHeraldShadow"
+                    "TFT5_Item_ShroudOfStillnessShadow"
+                    "TFTEventPM_Item_RedemptionShadow"
+                    "TFTEventPM_Item_RunaansHurricaneShadow"
+                    "TFTEventPM_Item_FrozenHeartShadow"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

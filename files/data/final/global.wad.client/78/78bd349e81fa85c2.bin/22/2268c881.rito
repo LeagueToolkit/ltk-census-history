@@ -1,0 +1,14 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2268c881 = 0x6d7df79c {
+        0x19efbfdb: string = "TogglePrintAfkTimeCheat"
+        0x41a8f652: pointer = 0x141c2ec1 {
+            0x74d44065: string = "Toggle Print AFK Time Cheat"
+            0xfeed6654: string = "Will consistently print what a player's current AFK time is in chat"
+            0xa547a9ab: bool = true
+        }
+    }
+}

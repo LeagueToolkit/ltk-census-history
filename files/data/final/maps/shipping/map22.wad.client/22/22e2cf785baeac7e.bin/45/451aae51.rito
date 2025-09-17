@@ -1,0 +1,16 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x451aae51 = 0x60e00531 {
+        0x19efbfdb: string = "AugmentUpgrade3_RoundIndex0"
+        0x0773669d: map[string,pointer] = {
+            "RoundIndex" = 0x4012fd7e {}
+            "AugmentUpgrade" = 0x4012fd7e {
+                0x24f2ec89: i32 = 3
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,33 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6f0ae60d = 0x60e00531 {
+        0x19efbfdb: string = "TFTEventPM_ST_FairyTail_Back"
+        0x0773669d: map[string,pointer] = {
+            "Type" = 0xa188bd55 {
+                0x24f2ec89: string = "Buff"
+            }
+            "BuffName" = 0xa188bd55 {
+                0x24f2ec89: string = "TFTEVENT_PM_SecretTechnique_ArmyBuff"
+            }
+            "TargetVar" = 0xa188bd55 {
+                0x24f2ec89: string = "Role"
+            }
+            "BuffVar1" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT15_MechanicTrait_FairyTail"
+            }
+            "BuffVar2" = 0xa188bd55 {
+                0x24f2ec89: string = "Caster"
+            }
+            "BuffVar3" = 0xa188bd55 {
+                0x24f2ec89: string = "Carry"
+            }
+            "BuffVar4" = 0xa188bd55 {
+                0x24f2ec89: string = "Fighter"
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

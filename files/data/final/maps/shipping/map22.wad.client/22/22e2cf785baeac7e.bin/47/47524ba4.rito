@@ -1,0 +1,18 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x47524ba4 = 0x60e00531 {
+        0x19efbfdb: string = "RoundReroll2_RoundIndex1"
+        0x0773669d: map[string,pointer] = {
+            "RoundIndex" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+            "RoundReroll" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

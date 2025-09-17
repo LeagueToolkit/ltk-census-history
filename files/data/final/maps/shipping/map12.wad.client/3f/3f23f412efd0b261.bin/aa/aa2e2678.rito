@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xaa2e2678 = 0x0a3f1520 {
+        0x8d39bde6: hash = 0x6476eef4
+        0x93cf6a73: list2[pointer] = {
+            0x3196ef58 {
+                0x6d2badf4: u8 = 2
+            }
+        }
+        0x8e568fa0: list2[pointer] = {
+            0x3196ef58 {
+                0x6d2badf4: u8 = 3
+                0x316c9fa1: bool = true
+            }
+        }
+    }
+}

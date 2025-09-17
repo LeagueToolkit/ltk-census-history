@@ -1,0 +1,52 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x51747475 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/TFT/TFTScoreboard_EventPM/UIBase/SB/Buttons/Fight_Button"
+        0x2063cb13: link = 0xf75564bb
+        0x5a94b0cc: list2[link] = {
+            0x5551268a
+            0xed3efc12
+            0x788d4641
+            0xfb969759
+            0xa825a320
+            0x90aad9e9
+            0x7d509326
+            0xb45eee7f
+            0xdbdf26c7
+        }
+        0xdf2b45ce: bool = true
+        0x6bf3194e: link = 0x7d509326
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xed3efc12
+                0x90aad9e9
+            }
+            0xeec29756: link = 0xa825a320
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xfb969759
+            }
+            0xeec29756: link = 0xa825a320
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x5551268a
+            }
+            0xeec29756: link = 0xb45eee7f
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x788d4641
+            }
+            0xeec29756: link = 0xdbdf26c7
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xa55a6b7c: string = "Play_sfx_tft_pm_fight_button_hover"
+            0xd84e3078: string = "Play_sfx_tft_pm_fight_button_select"
+        }
+    }
+}

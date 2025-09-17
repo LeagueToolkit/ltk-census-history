@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x236e5680 = 0x60e00531 {
+        0x19efbfdb: string = "PM_Buddy_Teemo_Data"
+        0x0773669d: map[string,pointer] = {
+            "TeamSizeIncrease" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+            "MushroomDamageIncreasePerUpgrade" = 0x977517c6 {
+                0x24f2ec89: f32 = 50
+            }
+            "NumMushroomsPerUpgrade" = 0x4012fd7e {
+                0x24f2ec89: i32 = 5
+            }
+            "MushroomOdds" = 0x4012fd7e {
+                0x24f2ec89: i32 = 25
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
