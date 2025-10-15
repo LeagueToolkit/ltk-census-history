@@ -1,0 +1,51 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x83c586fd = 0x5e7e5a06 {
+        0xe095d841: string = "Augment_ARAM_DiveBomber"
+        0xc8e37ef0: string = "Augment_ARAM_DiveBomber"
+        0x56d2be52: pointer = 0x43368569 {
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "ExplosionRadius"
+                    0x246b0d8e: list[f32] = {
+                        500
+                        500
+                        500
+                        500
+                        500
+                        500
+                        500
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "PercentMaxHPDamage"
+                    0x246b0d8e: list[f32] = {
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Spells/Icons2D/Terrify.dds"
+            }
+            0x63060019: link = 0x53d3b44a
+            0x92a53e77: list[hash] = {
+                0xf98f3c58
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_ARAM_DiveBomber"
+                    0x57b8b11b: link = 0xd7c27163
+                }
+            }
+        }
+    }
+}

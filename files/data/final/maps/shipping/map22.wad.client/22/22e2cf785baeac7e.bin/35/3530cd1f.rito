@@ -1,0 +1,36 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3530cd1f = 0x60e00531 {
+        0x19efbfdb: string = "TFT7_Shimmerscale_Loot15_C"
+        0x0773669d: map[string,pointer] = {
+            "TwoStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT7_Bard"
+                    "TFT7_Jayce"
+                    "TFT7_Twitch"
+                    "TFT7_Sejuani"
+                }
+            }
+            "ThreeStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT7_Zippy"
+                }
+            }
+            "Item" = 0x80996016 {
+                0x3a79338f: list2[link] = {
+                    0x2bc978f9
+                }
+            }
+            "MeepTypeUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_ArmoryKeyCompleted"
+                    "TFT_ArmoryKeyCompleted"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

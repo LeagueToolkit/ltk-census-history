@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x39c6d36c = 0x60e00531 {
+        0x19efbfdb: string = "TFT7_Shimmerscale_Loot9_C"
+        0x0773669d: map[string,pointer] = {
+            "Set7DragonTier5" = 0x4012fd7e {
+                0x24f2ec89: i32 = 1
+            }
+            "MeepTypeUnit" = 0x9f9ec6c2 {
+                0x905580d9: list2[hash] = {
+                    0x46fc785c
+                    0x46fc785c
+                }
+            }
+            "Gold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 7
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

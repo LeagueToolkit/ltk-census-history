@@ -103,25 +103,49 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "Damage"
                     0x246b0d8e: list[f32] = {
-                        -20
-                        5
-                        30
+                        15
                         55
-                        80
-                        105
-                        130
+                        95
+                        135
+                        175
+                        215
+                        255
                     }
                 }
                 0x005008a6 {
-                    0x19efbfdb: string = "Damage_Per_Second"
+                    0x19efbfdb: string = "ADRatio"
                     0x246b0d8e: list[f32] = {
-                        -10
-                        5
-                        20
-                        35
-                        50
-                        65
-                        80
+                        0.85
+                        0.85
+                        0.85
+                        0.85
+                        0.85
+                        0.85
+                        0.85
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "APRatio"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DPS_Modifier"
+                    0x246b0d8e: list[f32] = {
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
                     }
                 }
                 0x005008a6 {
@@ -167,40 +191,27 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0x59e94c40
                         }
-                        0x5815b0a9 {
+                        0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
-                            0x295c2889: f32 = 0.85
+                            0x7d3150ec: u8 = 2
+                            0xb386dcf1: hash = 0x382d671b
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.5
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xe30c799f
                         }
                     }
                 }
-                0xd1c44fed = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0x112e6a81
-                        }
-                        0x5815b0a9 {
-                            0x4cec2c8a: u8 = 2
-                            0x295c2889: f32 = 0.4
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.25
-                        }
+                0xd1c44fed = 0x070e3593 {
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0x62fc6412
                     }
+                    0x7f93cf4e: hash = 0x84d65e87
                 }
                 0x669adf33 = 0x070e3593 {
                     0x2c77adff: pointer = 0xf3cbe7b2 {
                         0x88536426: hash = 0xf943ee4e
                     }
                     0x7f93cf4e: hash = 0x84d65e87
-                }
-                0x6e2d127d = 0x070e3593 {
-                    0x2c77adff: pointer = 0xf3cbe7b2 {
-                        0x88536426: hash = 0xf943ee4e
-                    }
-                    0x7f93cf4e: hash = 0xd1c44fed
                 }
                 0xe2e36abc = 0xbc409284 {
                     0xcbcac618: u8 = 5
@@ -360,7 +371,8 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Damage_Per_Second"
+                                    0x5127f14d: string = "Damage"
+                                    0xf506c7e6: f32 = 0.6
                                     0x566f3406: string = "Spell_ListType_DamagePerSecond"
                                 }
                             }

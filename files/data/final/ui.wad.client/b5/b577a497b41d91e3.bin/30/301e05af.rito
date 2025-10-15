@@ -1,0 +1,43 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x301e05af = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/LoL/Kiwi/KiwiAugmentSelection/UIBase/AugmentSelectionToggleScene/ToggleButton"
+        0x2063cb13: link = 0xdd107896
+        0x5a94b0cc: list2[link] = {
+            0x1fd9013d
+            0x2146e4ed
+            0x02ed4052
+            0x988fe541
+            0xf6070c56
+        }
+        0xdf2b45ce: bool = true
+        0x6bf3194e: link = 0x2146e4ed
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x1fd9013d
+                0x988fe541
+            }
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x02ed4052
+                0x988fe541
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xf6070c56
+                0x988fe541
+            }
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_Cherry_Gameplay_HUD_UI_rounded_press"
+            0x84b6cf03: string = "Play_sfx_Cherry_Gameplay_HUD_UI_rounded_release"
+            0x7c552179: string = "Play_sfx_Cherry_Gameplay_HUD_UI_rounded_press"
+            0xb416d0a8: string = "Play_sfx_Cherry_Gameplay_HUD_UI_rounded_release"
+        }
+    }
+}

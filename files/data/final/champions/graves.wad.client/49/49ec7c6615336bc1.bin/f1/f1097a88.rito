@@ -58,17 +58,7 @@ entries: map[hash,embed] = {
                         0.5
                     }
                 }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        4
-                        4
-                        7
-                        10
-                        13
-                        16
-                        16
-                    }
-                }
+                0x92d4987c {}
                 0x92d4987c {
                     0x425ed3ca: list[f32] = {
                         750
@@ -125,7 +115,82 @@ entries: map[hash,embed] = {
                     }
                 }
             }
-            0x295c2889: f32 = 1
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "ArmorPerStack"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        4
+                        7
+                        10
+                        13
+                        16
+                        19
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MRGrantPercent"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BuffDuration"
+                    0x246b0d8e: list[f32] = {
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "CooldownPerHit"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "MaxStacks"
+                    0x246b0d8e: list[f32] = {
+                        8
+                        8
+                        8
+                        8
+                        8
+                        8
+                        8
+                    }
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0xb1bc032c = 0xbc409284 {
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0xec9bea35
+                    }
+                    0x37070a8d: u8 = 5
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x75075dcd
+                        }
+                    }
+                    0x08d47ee4: i32 = 1
+                }
+            }
             0xfbd16fb5: string = "Spell3"
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Graves/HUD/Icons2D/GravesE.dds"
@@ -200,9 +265,14 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
+                                    0x5127f14d: string = "ArmorPerStack"
                                     0x33c02d93: i32 = 5
                                     0x566f3406: string = "Spell_ListType_GravesTrueGritArmor"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "ArmorPerStack"
+                                    0xf506c7e6: f32 = 0.5
+                                    0x566f3406: string = "Spell_GravesE_MagicResist"
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"

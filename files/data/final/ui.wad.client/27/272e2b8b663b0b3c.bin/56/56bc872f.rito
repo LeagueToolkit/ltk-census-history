@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x56bc872f = 0x89a3465f {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/LoL/Kiwi/KiwiScoreboard/UIBase/Scoreboard/Scoreboard_TeamScores/SB_VG_T2Layout"
+        0x2063cb13: link = 0x7593e71a
+        0x5a94b0cc: list2[link] = {
+            0xabaf3a46
+            0x294525e1
+            0xb7c82c94
+        }
+        0x031afe7d: link = 0xb7c82c94
+        0xfa4c41a0: pointer = 0xb277fa06 {
+            0xf00a885b: u8 = 1
+        }
+        0xb824a2c2: bool = true
+    }
+}

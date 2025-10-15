@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3730d045 = 0x60e00531 {
+        0x19efbfdb: string = "TFT7_Shimmerscale_Loot15_A"
+        0x0773669d: map[string,pointer] = {
+            "TwoStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT7_DragonEarth"
+                }
+            }
+            "Item" = 0x80996016 {
+                0x3a79338f: list2[link] = {
+                    0xd5d1a66a
+                    0xd5d1a66a
+                    0xd5d1a66a
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

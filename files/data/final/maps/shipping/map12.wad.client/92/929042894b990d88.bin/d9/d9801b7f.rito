@@ -1,0 +1,42 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd9801b7f = 0x60e00531 {
+        0x19efbfdb: string = "Kiwi_Balance"
+        0x0773669d: map[string,pointer] = {
+            "MeleeHealthBonus" = 0x977517c6 {
+                0x24f2ec89: f32 = 20
+            }
+            "MeleeHealthBonusMax" = 0x977517c6 {
+                0x24f2ec89: f32 = 600
+            }
+            "RangeHealthBonus" = 0x977517c6 {
+                0x24f2ec89: f32 = 20
+            }
+            "RangeHealthBonusMax" = 0x977517c6 {
+                0x24f2ec89: f32 = 400
+            }
+            "TenacityAndSlowResBonus" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+            "RangeARMRBonus" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+            "RangeARMRBonusMax" = 0x977517c6 {
+                0x24f2ec89: f32 = 25
+            }
+            "ManaRegenBonus" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+            "EnergyRegenBonus" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.1
+            }
+            "MeleeFlatArmor" = 0x977517c6 {
+                0x24f2ec89: f32 = 15
+            }
+        }
+        0x9be36761: link = 0x32f39c71
+    }
+}

@@ -17,13 +17,6 @@ entries: map[hash,embed] = {
             }
             0xf8f29f92: list2[embed] = {
                 0xa4416515 {
-                    0x8d39bde6: string = "Ezreal_Base_SFX"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Ezreal/Skins/Base/Ezreal_Base_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Ezreal/Skins/Base/Ezreal_Base_SFX_events.bnk"
-                    }
-                }
-                0xa4416515 {
                     0x8d39bde6: string = "Ezreal_Base_VO"
                     0x2a21ad00: list[string] = {
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Ezreal/Skins/Base/Ezreal_Base_VO_audio.bnk"
@@ -122,7 +115,9 @@ entries: map[hash,embed] = {
                         "ASSETS/Sounds/Wwise2016/SFX/Characters/Ezreal/Skins/Skin09/Ezreal_Skin09_SFX_events.bnk"
                     }
                     0x12d8e384: list[string] = {
-                        "Play_sfx_EzrealSkin09_EzrealArcaneShift_return"
+                        "Play_sfx_EzrealSkin09_Dance3D_buffactivate"
+                        "Play_sfx_EzrealSkin09_Dance3D_loop"
+                        "Play_sfx_EzrealSkin09_Death3D_cast"
                         "Play_sfx_EzrealSkin09_EzrealBasicAttack2_OnCast"
                         "Play_sfx_EzrealSkin09_EzrealBasicAttack2_OnHit"
                         "Play_sfx_EzrealSkin09_EzrealBasicAttack2_OnMissileLaunch"
@@ -133,6 +128,7 @@ entries: map[hash,embed] = {
                         "Play_sfx_EzrealSkin09_EzrealCritAttack_OnHit"
                         "Play_sfx_EzrealSkin09_EzrealCritAttack_OnMissileLaunch"
                         "Play_sfx_EzrealSkin09_EzrealE_OnCast"
+                        "Play_sfx_EzrealSkin09_EzrealE_return"
                         "Play_sfx_EzrealSkin09_EzrealEMissile_OnHit"
                         "Play_sfx_EzrealSkin09_EzrealEMissile_OnMissileLaunch"
                         "Play_sfx_EzrealSkin09_EzrealQ_OnCast"
@@ -145,8 +141,12 @@ entries: map[hash,embed] = {
                         "Play_sfx_EzrealSkin09_EzrealW_OnCast"
                         "Play_sfx_EzrealSkin09_EzrealW_OnHit"
                         "Play_sfx_EzrealSkin09_EzrealW_OnMissileLaunch"
-                        "Play_sfx_EzrealSkin09_EzrealWShockCombo_hit"
-                        "Play_sfx_EzrealSkin09_Recall3D_leadin"
+                        "Play_sfx_EzrealSkin09_EzrealWAttach_detonate"
+                        "Play_sfx_EzrealSkin09_Joke3D_buffactivate"
+                        "Play_sfx_EzrealSkin09_Laugh3D_buffactivate"
+                        "Play_sfx_EzrealSkin09_Recall3D_buffactivate"
+                        "Play_sfx_EzrealSkin09_Recall3D_winddown"
+                        "Play_sfx_EzrealSkin09_Taunt3D_buffactivate"
                         "Stop_sfx_EzrealSkin09_EzrealBasicAttack2_OnMissileLaunch"
                         "Stop_sfx_EzrealSkin09_EzrealBasicAttack_OnMissileLaunch"
                         "Stop_sfx_EzrealSkin09_EzrealCritAttack_OnMissileLaunch"
@@ -154,7 +154,7 @@ entries: map[hash,embed] = {
                         "Stop_sfx_EzrealSkin09_EzrealQ_OnMissileLaunch"
                         "Stop_sfx_EzrealSkin09_EzrealR_OnMissileLaunch"
                         "Stop_sfx_EzrealSkin09_EzrealW_OnMissileLaunch"
-                        "Stop_sfx_EzrealSkin09_Recall3D_leadin"
+                        "Stop_sfx_EzrealSkin09_Recall3D_buffactivate"
                     }
                 }
                 0xa4416515 {

@@ -1,0 +1,65 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x0da2a69d = 0x5e7e5a06 {
+        0xe095d841: string = "Augment_MightyShield"
+        0xc8e37ef0: string = "Augment_MightyShield"
+        0x56d2be52: pointer = 0x43368569 {
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "ShieldDuration"
+                    0x246b0d8e: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "Cooldown"
+                    0x246b0d8e: list[f32] = {
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                    }
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0xb941f48b = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x15fecdbc {
+                            0xd06c375d: f32 = 40
+                            0x1cd7e522: f32 = 100
+                        }
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Spells/Icons2D/Terrify.dds"
+            }
+            0x63060019: link = 0xd8f19f16
+            0x92a53e77: list[hash] = {
+                0x9b4c0fcc
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_MightyShield"
+                    0x57b8b11b: link = 0xd7c27163
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Kiwi_MightyShield_Name"
+                        "keySummary" = "Kiwi_MightyShield_Summary"
+                    }
+                }
+            }
+        }
+    }
+}

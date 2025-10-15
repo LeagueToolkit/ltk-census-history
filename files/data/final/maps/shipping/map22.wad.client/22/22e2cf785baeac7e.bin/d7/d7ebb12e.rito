@@ -1,0 +1,40 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd7ebb12e = 0x60e00531 {
+        0x19efbfdb: string = "TFT7_Shimmerscale_Loot18_A"
+        0x0773669d: map[string,pointer] = {
+            "TrainingDummy_Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT7_Item_LagoonEmblemItem"
+                }
+            }
+            "Item" = 0x80996016 {
+                0x3a79338f: list2[link] = {
+                    0xf5514262
+                    0xf5514262
+                    0xf5514262
+                    0xf5514262
+                    0xf5514262
+                    0xf5514262
+                    0xf5514262
+                    0xf5514262
+                    0xe869d1fa
+                    0xe869d1fa
+                    0xe869d1fa
+                }
+            }
+            "TwoStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT7_AquaticDragon"
+                }
+            }
+            "Gold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 20
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

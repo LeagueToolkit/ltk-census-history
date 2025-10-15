@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x503a71d8 = 0x5e7e5a06 {
+        0xe095d841: string = "Augment_GoldrendMSBuff"
+        0xc8e37ef0: string = "Augment_GoldrendMSBuff"
+        0x56d2be52: pointer = 0x43368569 {
+            0xeed67cd5: list[string] = {
+                "ASSETS/Spells/Icons2D/Chronokeeper_Recall.dds"
+            }
+            0x63060019: link = 0xe1d8d074
+            0x92a53e77: list[hash] = {
+                0x06e12a76
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_GoldrendMSBuff"
+                    0x57b8b11b: link = 0xb34f999a
+                    0xfea35e52: bool = false
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Kiwi_Goldrend_Name"
+                        "keyTooltip" = "Kiwi_Goldrend_MSBuff_Tooltip"
+                    }
+                }
+            }
+        }
+    }
+}

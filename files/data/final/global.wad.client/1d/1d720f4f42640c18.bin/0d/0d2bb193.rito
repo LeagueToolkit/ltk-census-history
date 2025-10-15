@@ -14,9 +14,18 @@ entries: map[hash,embed] = {
         0x0b44452a: i32 = 450
         0xd1dbada1: bool = true
         0x5ee3c453: u8 = 1
+        0x1f4d20a6: list[embed] = {
+            0xb2c62c87 {
+                0x19efbfdb: string = "HealMultiplier"
+                0x24f2ec89: f32 = 0.025
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "HealingReduction"
+                0x24f2ec89: f32 = 0.333
+            }
+        }
         0x06d997bb: f32 = 80
         0x4e7a81cd: f32 = 10
-        0x03355c22: f32 = 0.03
         0x46493f5f: f32 = 0.4
         0xccf99b44: list[string] = {
             "Health"
@@ -41,6 +50,8 @@ entries: map[hash,embed] = {
                     "keyBrief" = "Item_1055_Brief"
                     "keyColloquialism" = "Item_1055_Colloquialism"
                     "keySecondaryBrief" = "Item_Unique_Doran"
+                    "keyTooltip" = "Item_1055_Tooltip"
+                    "keyTooltipExternal" = "Item_1055_TooltipExternal"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -50,9 +61,6 @@ entries: map[hash,embed] = {
                             }
                             0x9a1b3505 {
                                 0x5127f14d: string = "Health"
-                            }
-                            0x9a1b3505 {
-                                0x5127f14d: string = "LifeSteal"
                             }
                         }
                     }

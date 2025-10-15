@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x74ed8a08 = 0x5a51d019 {
+        0x8d39bde6: hash = 0x88a9b502
+        0x8c61159d: list2[pointer] = {
+            0x7a0c339d {
+                0xa2e4c271: string = "[Button 1]"
+                0x371f336e: pointer = 0xf07517b3 {
+                    0x6bfb316f: string = "SelectObject"
+                    0xe8de69a5: string = "Options_Hotkeys_AdditionalHotkeys_SelectObject"
+                    0x5307f5e1: link = 0xadc08772
+                }
+            }
+            0x7a0c339d {
+                0xa2e4c271: string = "[Ctrl][Button 1]"
+            }
+            0xa56cc36d {
+                0x43b27471: u32 = 9
+            }
+        }
+    }
+}
