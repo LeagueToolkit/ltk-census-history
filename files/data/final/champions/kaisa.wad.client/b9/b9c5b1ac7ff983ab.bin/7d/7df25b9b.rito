@@ -237,7 +237,7 @@ entries: map[hash,embed] = {
                 0xf598463e: map[hash,pointer] = {
                     0xea1eca10 = 0xd7a6b107 {}
                     0xb97a9328 = 0x9c566034 {
-                        0x9d477e74: string = "Play_sfx_KaisaSkin40_Dance3D_leadin"
+                        0x9d477e74: string = "Play_sfx_Kaisa_Dance3D_in_buffactivate"
                         0xd91e32ee: bool = false
                     }
                     0x39de815c = 0x0542d41d {
@@ -280,7 +280,7 @@ entries: map[hash,embed] = {
                         0xd91e32ee: bool = false
                     }
                     0x4aa50760 = 0x9c566034 {
-                        0x9d477e74: string = "Play_sfx_Kaisa_Death3D"
+                        0x9d477e74: string = "Play_sfx_Kaisa_Death3D_cast"
                         0xd91e32ee: bool = false
                     }
                     0x9460ac20 = 0xbcf56e70 {
@@ -582,7 +582,7 @@ entries: map[hash,embed] = {
                 0xd39243c4: hash = 0x933b5bde
                 0xf598463e: map[hash,pointer] = {
                     0xbe5d7c22 = 0x9c566034 {
-                        0x9d477e74: string = "Play_sfx_KaisaSkin40_idle2_buffactivate"
+                        0x9d477e74: string = "Play_sfx_Kaisa_idle2_buffactivate"
                     }
                 }
                 0xb49f754e: embed = 0x9a4b299d {
@@ -611,7 +611,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     0xe95dbfd3 = 0x9c566034 {
-                        0x9d477e74: string = "Play_sfx_KaisaSkin40_idleE_buffactivate"
+                        0x9d477e74: string = "Play_sfx_Kaisa_idleE_buffactivate"
                     }
                 }
                 0xb49f754e: embed = 0x9a4b299d {
@@ -632,7 +632,7 @@ entries: map[hash,embed] = {
                 0xd39243c4: hash = 0x933b5bde
                 0xf598463e: map[hash,pointer] = {
                     0x0cf0606b = 0x9c566034 {
-                        0x9d477e74: string = "Play_sfx_KaisaSkin40_Laugh3D"
+                        0x9d477e74: string = "Play_sfx_Kaisa_Laugh3D_buffactivate"
                         0xd91e32ee: bool = false
                     }
                     0xd17a778e = 0x0542d41d {
@@ -755,10 +755,6 @@ entries: map[hash,embed] = {
                         }
                         0xd91e32ee: bool = false
                     }
-                    0xe6663e0f = 0x9c566034 {
-                        0x9d477e74: string = "Play_sfx_Kaisa_Revive3D"
-                        0xd91e32ee: bool = false
-                    }
                     0xafb6d3f9 = 0x0542d41d {
                         0xf6386280: hash = 0xe50dd6bf
                         0x60645d6a: list[embed] = {
@@ -767,6 +763,10 @@ entries: map[hash,embed] = {
                             }
                         }
                         0x72a03ff8: bool = false
+                    }
+                    0x10491e7a = 0x9c566034 {
+                        0x9d477e74: string = "Play_sfx_Kaisa_Respawn3D_buffactivate"
+                        0xd91e32ee: bool = false
                     }
                 }
                 0xb49f754e: embed = 0x9a4b299d {
@@ -1025,7 +1025,7 @@ entries: map[hash,embed] = {
                 0xd39243c4: hash = 0x933b5bde
                 0xf598463e: map[hash,pointer] = {
                     0x968821ce = 0x9c566034 {
-                        0x9d477e74: string = "Play_sfx_Kaisa_Taunt3D"
+                        0x9d477e74: string = "Play_sfx_Kaisa_Taunt3D_buffactivate"
                         0xd91e32ee: bool = false
                     }
                     0x052ca051 = 0x0542d41d {
@@ -1108,7 +1108,7 @@ entries: map[hash,embed] = {
                         0xf6e6d893: hash = 0x03b132db
                     }
                     0xbd5d7a8f = 0x9c566034 {
-                        0x9d477e74: string = "Play_sfx_KaisaSkin40_idle1_buffactivate"
+                        0x9d477e74: string = "Play_sfx_Kaisa_idle1_buffactivate"
                     }
                 }
                 0x193f611d: f32 = 0.033333
@@ -1133,12 +1133,10 @@ entries: map[hash,embed] = {
                         0x488bfb2c: bool = true
                         0x9d477e74: string = "Play_sfx_Kaisa_KaisaEvolveSelf_cast"
                         0xd91e32ee: bool = false
-                        0x72a03ff8: bool = false
                     }
                     0x9e0d719f = 0x9c566034 {
                         0x9d477e74: string = "Play_sfx_Kaisa_KaisaEvolveOthers_cast"
                         0xd91e32ee: bool = false
-                        0x72a03ff8: bool = false
                     }
                     0xf83cace1 = 0x0542d41d {
                         0xf6386280: hash = 0xd8415518
@@ -1315,13 +1313,13 @@ entries: map[hash,embed] = {
                         }
                     }
                     0xbdd64339 = 0x9c566034 {
-                        0x9d477e74: string = "Play_sfx_Kaisa_Dance3D_Foley"
+                        0x9d477e74: string = "Play_sfx_Kaisa_Dance3D_foley_buffactivate"
                     }
                     0x7d6e6530 = 0x9c566034 {
-                        0x9d477e74: string = "Play_sfx_Kaisa_Dance3D_Ina"
+                        0x9d477e74: string = "Play_sfx_Kaisa_Dance3D_ina_vofx_buffactivate"
                     }
                     0x696e83d5 = 0x9c566034 {
-                        0x9d477e74: string = "Play_sfx_Kaisa_Dance3D_Music"
+                        0x9d477e74: string = "Play_sfx_Kaisa_Dance3D_music_buffactivate"
                     }
                     0x50b34ba9 = 0xb5c1b6ad {
                         0xac70ab62: hash = 0x9d26ddbc
@@ -1454,7 +1452,7 @@ entries: map[hash,embed] = {
                         }
                     }
                     0xeed2417d = 0x9c566034 {
-                        0x9d477e74: string = "Play_sfx_Kaisa_Joke3D"
+                        0x9d477e74: string = "Play_sfx_Kaisa_Joke3D_buffactivate"
                         0xd91e32ee: bool = false
                     }
                     0x60e02fad = 0xbcf56e70 {

@@ -3,10 +3,9 @@ type: string = "PROP"
 version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
-    0x2c79af94 = 0xfce68422 {
-        0x6bfb316f: string = "UI Shop"
-        0xb157685d: string = "Options_Hotkeys_AdvancedKeybindingOptions_label"
-        0x2ec9dee5: i32 = 5
+    0x2c79af94 = 0xc8400f38 {
+        0x6bfb316f: string = "WASD UI Shop"
+        0xb157685d: string = "Options_Hotkeys_Classic_Label"
         0x89ba4a26: link = 0x142efcaa
         0x82d6dcb0: list2[pointer] = {
             0x4146f732 {
@@ -21,6 +20,9 @@ entries: map[hash,embed] = {
                 0xf248d989: link = 0xdf7025af
                 0xfa27d217: u32 = 2
             }
+            0x045d6060 {
+                0xf248d989: link = 0x8942c8ea
+            }
         }
         0x5ff6cd50: list2[pointer] = {
             0xf2839c7c {}
@@ -30,8 +32,6 @@ entries: map[hash,embed] = {
                 }
             }
         }
-        0x2394de80: pointer = 0x7b65689f {
-            0xd9535e33: u32 = 5
-        }
+        0x0e77fefb: bool = false
     }
 }

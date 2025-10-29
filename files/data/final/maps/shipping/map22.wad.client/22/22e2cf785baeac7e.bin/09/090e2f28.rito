@@ -1,0 +1,42 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x090e2f28 = 0x84972e16 {
+        0x8d39bde6: string = "TFT15_CT_OpeningEncounter_ChonccTrainingArc"
+        0xac397529: f32 = 3
+        0xd2538e5a: map[string,pointer] = {
+            "EncounterStartSFX" = 0xa188bd55 {
+                0x24f2ec89: string = "Play_vo_tft11_encounters_Bard"
+            }
+            "ChampionSkin" = 0xa188bd55 {
+                0x24f2ec89: string = "TFTEvent_CT_ChonccNPC"
+            }
+            "EncounterLength" = 0x4012fd7e {
+                0x24f2ec89: i32 = 8
+            }
+            "EncounterRulesText" = 0xf4700e9c {
+                0x24f2ec89: string = "TFT15_CT_Encounter_Choncc_Description"
+            }
+            "PortalName" = 0xa188bd55 {
+                0x24f2ec89: string = "TFT_Portals_Choncc_TrainingArc"
+            }
+            "AnimationOverride" = 0xa188bd55 {
+                0x24f2ec89: string = "Taunt"
+            }
+        }
+        0xd292c403: list2[hash] = {
+            0xe6512306
+            0xf2196170
+            0x42a85b31
+        }
+        0x359dd774: list2[i32] = {
+            1
+        }
+        0xf1f30bb9: list2[i32] = {
+            1
+        }
+        0x74cf1ad1: string = "ASSETS/UX/TFT/Hud/EncounterPanel/EncounterFrame_Portrait.tex"
+    }
+}
