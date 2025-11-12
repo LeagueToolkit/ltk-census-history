@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x88e0c42f = 0x4577ec44 {
+        0x19efbfdb: string = "Zaahen"
+        0xdc6e7daa: hash = 0x48246d53
+        0xde748cc1: list2[embed] = {
+            0x9d79fb9f {
+                0xea595ca6: link = 0xb00c7071
+            }
+        }
+        0xbd50bdef: list2[embed] = {
+            0x999c92e7 {
+                0x928eb9b4: list2[link] = {
+                    0x5bdcd96e
+                    0xea7ea7b9
+                    0xdd7875a1
+                }
+            }
+        }
+    }
+}

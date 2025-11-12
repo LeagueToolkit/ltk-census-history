@@ -1,0 +1,46 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xdee84951 = 0x5e7e5a06 {
+        0xe095d841: string = "ZaahenPassiveReviveReady"
+        0xc8e37ef0: string = "ZaahenPassiveReviveReady"
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "ZaahenPassiveReviveReady"
+                0x57b8b11b: link = 0xb34f999a
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Buff_ZaahenPassiveReviveReady_Name"
+                    "keyTooltip" = "Buff_ZaahenPassiveReviveReady_Tooltip"
+                }
+            }
+            0x87b1d303: list2[pointer] = {
+                0x67ac9672 {
+                    0x071f3c1d: list2[embed] = {
+                        0x00fa43e4 {
+                            0x1ecb978c: string = "C_Buffbone_GLB_Layout_Loc"
+                            0x9b0300f3: hash = 0xc0e47eae
+                        }
+                    }
+                }
+                0x67ac9672 {
+                    0x071f3c1d: list2[embed] = {
+                        0x00fa43e4 {
+                            0x1ecb978c: string = "L_Buffbone_Glb_Sleeve_Loc"
+                            0x9b0300f3: hash = 0xeba74f70
+                        }
+                    }
+                }
+                0x67ac9672 {
+                    0x071f3c1d: list2[embed] = {
+                        0x00fa43e4 {
+                            0x1ecb978c: string = "R_Buffbone_Glb_Sleeve_Loc"
+                            0x9b0300f3: hash = 0xe9a74c4a
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

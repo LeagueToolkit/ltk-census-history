@@ -5,44 +5,54 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0xe35a7611 = 0xff9d3409 {
         0x8d39bde6: string = "Characters/PetChibiTristana/Skins/Skin2/Materials/ChibiTristana_Translucent_inst"
-        0x0a6f0eb5: list2[embed] = {
-            0x0904b150 {
-                0xb311d4ef: string = "Mask_Texture"
-                0xf0a363e3: string = "ASSETS/Shared/Materials/white.tex"
-            }
-        }
         0xd0ab46b8: list2[embed] = {
             0xde480eef {
-                0x8d39bde6: string = "Fresnel_Color"
-                0x425ed3ca: vec4 = { 0.27058825, 0.4509804, 0.78039217, 0 }
+                0x8d39bde6: string = "Glass_Color1"
+                0x425ed3ca: vec4 = { 0.6084535, 0.6596933, 0.7112993, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Sim_Lit_Dir"
-                0x425ed3ca: vec4 = { -1, 2, 1, 0 }
+                0x8d39bde6: string = "Glass_Color2"
+                0x425ed3ca: vec4 = { 0.90769815, 0.89393455, 0.89393455, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Translucent"
-                0x425ed3ca: vec4 = { 0.335, 0, 0, 0 }
+                0x8d39bde6: string = "Fresnel_Size_Inner"
+                0x425ed3ca: vec4 = { 64, 0, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Inside_Color"
-                0x425ed3ca: vec4 = { 0.49803922, 0.49803922, 0.5411765, 0 }
+                0x8d39bde6: string = "Fresnel_Size_Outer"
+                0x425ed3ca: vec4 = { 0.48992503, 0, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Spec_Offset"
-                0x425ed3ca: vec4 = { -10, 80, 0, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "Spec_01"
-                0x425ed3ca: vec4 = { 35, 0, 0, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "Spec_02"
-                0x425ed3ca: vec4 = { 15, 0, 0, 0 }
+                0x8d39bde6: string = "Glass_Roughness"
             }
             0xde480eef {
                 0x8d39bde6: string = "Alpha_Bias"
+                0x425ed3ca: vec4 = { 0.15, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "SunColor"
+                0x425ed3ca: vec4 = { 1, 1, 1, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Light_Intensity"
+                0x425ed3ca: vec4 = { 2, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Gradient_Bias"
                 0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Style2_Color1"
+                0x425ed3ca: vec4 = { 1, 1, 1, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Style2_Color2"
+                0x425ed3ca: vec4 = { 0, 0, 0, 1 }
+            }
+        }
+        0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "DIFFERENT_STYLE"
             }
         }
         0xe6d67ded: map[string,string] = {
@@ -53,7 +63,7 @@ entries: map[hash,embed] = {
                 0x8d39bde6: string = "normal"
                 0x623cd25c: list[embed] = {
                     0x8537d0c2 {
-                        0x355d5568: link = 0x449c153d
+                        0x355d5568: link = 0x9e28d370
                         0x23b75597: bool = true
                         0x22c0c7d0: u32 = 6
                         0xa0958d01: u32 = 6

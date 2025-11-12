@@ -7,12 +7,14 @@ entries: map[hash,embed] = {
         0x31a106d0: pointer = 0x8e3f13b5 {
             0x2fa0fd0d: f32 = 3
             0x6f5882f3: list2[pointer] = {
-                0xcb76135c {
+                0x61dcaf9a {
                     0x2fa0fd0d: f32 = 3
                     0xad2d5ae5: string = "SourcePlayer"
                     0x9b0300f3: string = "TFT_PlayerDamageCas"
-                    0x4d3d18ca: string = "Source"
-                    0x1d6290fe: string = "Target"
+                    0x934f4e0a: pointer = 0x2bde0c9c {
+                        0x31e70c2f: string = "SourcePosition"
+                        0xe7d0a706: string = "SourceOrientation"
+                    }
                 }
                 0x38749c0a {
                     0xecca6f9a: f32 = 1.6
@@ -45,7 +47,7 @@ entries: map[hash,embed] = {
                 }
                 0x0f37151c {
                     0x94e4e309: u32 = 3
-                    0x2fa0fd0d: f32 = 5
+                    0x2fa0fd0d: f32 = 0.1
                     0x40d522bc: string = "Source"
                     0x31e70c2f: string = "SourcePosition"
                     0xe7d0a706: string = "SourceOrientation"
