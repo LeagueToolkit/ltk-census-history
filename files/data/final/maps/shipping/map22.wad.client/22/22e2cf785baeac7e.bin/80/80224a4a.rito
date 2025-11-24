@@ -1,0 +1,33 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x80224a4a = 0xd186c31a {
+        0x19efbfdb: string = "TFT16_Item_Bilgewater_DreadwayCannon"
+        0x425ed3ca: map[u8,i32] = {
+            4 = 400
+        }
+        0x9071fd36: list[link] = {
+            0x47395249
+        }
+        0xadb3e562: embed = 0xd65315ee {
+            0xdf085b93: map[hash,pointer] = {
+                0xe09cc241 = 0x977517c6 {
+                    0x24f2ec89: f32 = 0.2
+                }
+            }
+        }
+        0xa47a6adf: list2[hash] = {
+            0xfbff23b1
+            0x1ec6f961
+            0xd8d00bcc
+        }
+        0xc3143d66: string = "TFT16_Item_Bilgewater_DreadwayCannon_Name"
+        0x765f18da: string = "TFT16_Item_Bilgewater_DreadwayCannon_Description"
+        0x8bee2972: string = "ASSETS/Maps/Particles/TFT/Item_Icons/TFT16/TFT16_Item_Bilgewater_DreadwayCannon.TFT_Set16.tex"
+        0x5371e38f: option[rgba] = {
+            { 0, 0, 0, 255 }
+        }
+    }
+}

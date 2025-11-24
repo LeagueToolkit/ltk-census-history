@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x80b9c6e6 = 0x60e00531 {
+        0x19efbfdb: string = "TFT16_Augment_ArtifactExpert_LightshieldCrest"
+        0x0773669d: map[string,pointer] = {
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Item_Artifact_LightshieldCrest"
+                    "TFT_Item_ChainVest"
+                }
+            }
+            "TwoStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT16_Neeko"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

@@ -1,0 +1,44 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xcadc9904 = 0x56767442 {
+        0x2d78c328: string = "TFT16_THex"
+        0x8f7b194f: embed = 0x8f7b194f {
+            0xd65bac4d: list[string] = {
+                "TFT9_THex"
+                "TFT9_THexSkin0"
+                "TFT16_THex"
+            }
+        }
+        0x426d89a3: embed = 0x426d89a3 {
+            0xf5fb07c7: link = 0xd3d28b7d
+        }
+        0x45ff5904: embed = 0x6111d8a4 {
+            0xb14c976e: string = "ASSETS/Characters/TFT16_THex/Skins/Base/TFT16_THex_16.TFT_Set16.skl"
+            0xd6a00df6: string = "ASSETS/Characters/TFT16_THex/Skins/Base/TFT16_THex_16.TFT_Set16.skn"
+            0x3c6468f4: string = "ASSETS/Characters/TFT16_THex/Skins/Base/TFT16_THex_Base_TX_CM.TFT_Set16.tex"
+            0xa1f805da: f32 = 0.5115
+            0x252f6884: f32 = 0.7
+            0xd2e4d060: link = 0xf2c80dee
+            0x7ac73608: pointer = 0xeaf8e31e {}
+        }
+        0xac473fef: option[string] = {
+            "ASSETS/Characters/TFT16_THex/HUD/TFT16_THex_Square.TFT_Set16.tex"
+        }
+        0x29306858: string = ""
+        0x5f094353: string = ""
+        0x51c83af8: embed = 0x11b71b5e {
+            0x643cb399: f32 = 300
+            0x4d5ff2d7: string = "Buffbone_Cstm_Healthbar"
+            0x3fcb5693: u8 = 15
+            0x09373493: bool = true
+            0x9c5124c0: bool = false
+        }
+        0x62286e7e: link = 0xc27807a6
+        0x82725f30: list[link] = {
+            0xdd515735
+        }
+    }
+}

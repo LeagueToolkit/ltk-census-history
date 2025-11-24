@@ -1,0 +1,36 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x1bd09ded = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT16_Explorer_Cashout18_Option2"
+        0x0773669d: map[string,pointer] = {
+            "MeepTypeUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_ArmoryKeyOrnn"
+                    "TFT_ArmoryKeyOrnn"
+                }
+            }
+            "TwoStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT16_Fiddlesticks"
+                    "TFT16_Shyvana"
+                    "TFT16_Zilean"
+                    "TFT16_Ornn"
+                    "TFT16_Kindred"
+                    "TFT16_Annie"
+                }
+            }
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT9_Consumable_GoldenItemRemover"
+                }
+            }
+            "Gold" = 0x977517c6 {
+                0x24f2ec89: f32 = 25
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

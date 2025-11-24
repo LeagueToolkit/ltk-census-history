@@ -3,9 +3,12 @@ type: string = "PROP"
 version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
-    0xfdbc8228 = 0x9d9f60d2 {
-        0x23ea1915: string = "Characters/SRU_OrderMinionMelee/CharacterRecords/BRAWL"
-        0x336b65b8: string = "Characters/SRU_OrderMinionMelee/Skins/Skin26"
-        0xf1d3a034: bool = true
+    0xfdbc8228 = 0xad65d8c4 {
+        0x8d39bde6: hash = 0x011ad482
+        0x84145ca0: embed = 0x9d9f60d2 {
+            0x23ea1915: string = "Characters/SRU_OrderMinionMelee/CharacterRecords/BRAWL"
+            0x336b65b8: string = "Characters/SRU_OrderMinionMelee/Skins/Skin26"
+            0xf1d3a034: bool = true
+        }
     }
 }

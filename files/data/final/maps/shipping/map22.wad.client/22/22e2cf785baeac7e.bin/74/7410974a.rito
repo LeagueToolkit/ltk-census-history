@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x7410974a = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT16_Explorer_Cashout9_Option1"
+        0x0773669d: map[string,pointer] = {
+            "TwoStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT16_Jinx"
+                    "TFT16_Vi"
+                    "TFT16_DrMundo"
+                }
+            }
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Consumable_ItemRemover"
+                }
+            }
+            "Gold" = 0x977517c6 {
+                0x24f2ec89: f32 = 3
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

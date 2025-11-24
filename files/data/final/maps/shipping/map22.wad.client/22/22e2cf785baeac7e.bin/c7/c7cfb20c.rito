@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc7cfb20c = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_EMBLEM_SET16_Elusive"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT16_Item_PiltoverEmblemItem"
+                    "TFT16_Item_WardenEmblemItem"
+                    "TFT16_Item_LongshotEmblemItem"
+                    "TFT16_Item_MagusEmblemItem"
+                    "TFT16_Item_VanquisherEmblemItem"
+                    "TFT16_Item_IxtalEmblemItem"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

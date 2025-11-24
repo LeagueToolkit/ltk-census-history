@@ -1,0 +1,26 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xbccfbbae = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_EMBLEM_SET16_Origins"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT16_Item_BilgewaterEmblemItem"
+                    "TFT16_Item_DemaciaEmblemItem"
+                    "TFT16_Item_FreljordEmblemItem"
+                    "TFT16_Item_IoniaEmblemItem"
+                    "TFT16_Item_NoxusEmblemItem"
+                    "TFT16_Item_PiltoverEmblemItem"
+                    "TFT16_Item_VoidEmblemItem"
+                    "TFT16_Item_YordleEmblemItem"
+                    "TFT16_Item_ZaunEmblemItem"
+                    "TFT16_Item_IxtalEmblemItem"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

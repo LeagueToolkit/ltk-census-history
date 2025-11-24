@@ -1,0 +1,24 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x354a2432 = 0x60e00531 {
+        0x19efbfdb: string = "TFT16_Round1_VoidGrub"
+        0x0773669d: map[string,pointer] = {
+            "SkinName" = 0x1099c885 {
+                0x8b3aa710: link = 0xf98df4b9
+            }
+            "Row" = 0x4012fd7e {
+                0x24f2ec89: i32 = 6
+            }
+            "Col" = 0x4012fd7e {
+                0x24f2ec89: i32 = 3
+            }
+            "ItemDropChance" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.4
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

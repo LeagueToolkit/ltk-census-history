@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc7cd4ecd = 0x60e00531 {
+        0x19efbfdb: string = "TFT16_CarouselOfChaos_PowerUps_APCaster"
+        0x0773669d: map[string,pointer] = {
+            "Primary" = 0x71ae72e5 {
+                0x88612808: list2[link] = {
+                    0x4f331712
+                    0x941de572
+                    0xd1f3d382
+                    0x15475a22
+                    0x2bb5fb06
+                    0xccce9050
+                    0xab8e06b2
+                }
+            }
+            "Secondary" = 0x71ae72e5 {
+                0x88612808: list2[link] = {
+                    0x5fb34836
+                    0x6f44ecb2
+                    0xb1cda756
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

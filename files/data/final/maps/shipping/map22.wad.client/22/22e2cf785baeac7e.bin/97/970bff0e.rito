@@ -1,0 +1,28 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x970bff0e = 0x60e00531 {
+        0x19efbfdb: string = "TFT16_CarouselOfChaos_PowerUps_APFighter"
+        0x0773669d: map[string,pointer] = {
+            "Primary" = 0x71ae72e5 {
+                0x88612808: list2[link] = {
+                    0x965ec772
+                    0xd31e9b52
+                    0x1b1293ae
+                    0x2457e3aa
+                    0x70037574
+                    0x3543f184
+                    0x1b1293ae
+                }
+            }
+            "Secondary" = 0x71ae72e5 {
+                0x88612808: list2[link] = {
+                    0x5fb34836
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

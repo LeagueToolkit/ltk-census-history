@@ -1,0 +1,35 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xcd22ac82 = 0x104afcda {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/TFT/TFT3DAnnouncement_Pairs/UIBase/Scene/Frame1/Set15_Top4_FG_Bottom"
+        0x2063cb13: link = 0x03e379ca
+        0x07a640f6: u32 = 30
+        0x934f4e0a: pointer = 0x44600fb6 {
+            0x3a8bfbed: embed = 0x4eb9ba4f {
+                0x934f4e0a: vec2 = { 0, -270 }
+                0x23a0d95c: vec2 = { 1600, 758 }
+                0xf6647cd6: u16 = 1600
+                0xa19b2e69: u16 = 1200
+            }
+            0x23563745: pointer = 0xf090d2e7 {
+                0x0a567dbd: u8 = 1
+                0x0be0de52: u8 = 3
+                0x0ce0dfe5: u8 = 3
+                0xf00a15b2: vec2 = { -10, -10 }
+                0x8ecb313b: vec2 = { 0, -320 }
+            }
+            0x981fbd00: bool = true
+        }
+        0x81c3985d: string = "ASSETS/UX/TFT/Mograph/Sets/Evergreen/Top4/Top4_Evergreen_Bottom.skel"
+        0x9edb827d: string = "ASSETS/UX/TFT/Mograph/Sets/Evergreen/Top4/Top4_Evergreen_Bottom.atlas"
+        0x2181f0dd: bool = true
+        0xb5985cf7: list2[embed] = {
+            0xd31bbf89 {
+                0x98557a5e: string = "animation"
+            }
+        }
+    }
+}

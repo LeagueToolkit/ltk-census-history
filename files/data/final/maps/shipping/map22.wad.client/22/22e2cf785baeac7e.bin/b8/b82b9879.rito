@@ -1,0 +1,40 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb82b9879 = 0x6f870247 {
+        0x19efbfdb: string = "TFT16_Teamup_LucianVayne"
+        0xc3143d66: string = "tft_trait_displayname_TFT16_Teamup_LucianVayne"
+        0x765f18da: string = "tft_trait_description_TFT16_Teamup_LucianVayne"
+        0x8bee2972: string = "ASSETS/UX/TraitIcons/TeamUp_Trait_SentinelsOfLight.TFT_Set16.tex"
+        0x88730233: u8 = 3
+        0x09a34408: u8 = 2
+        0x93dd1f25: list[embed] = {
+            0x18ee4f3b {
+                0x86b5abcb: list2[embed] = {
+                    0x76621fa6 {
+                        0x24593d1d: u8 = 1
+                        0x92f50a07: string = "TFT16_TeamupAugment_LucianVayne_UnitBuff"
+                    }
+                }
+                0xadb3e562: embed = 0xd65315ee {
+                    0xdf085b93: map[hash,pointer] = {
+                        0x4f991e36 = 0x4012fd7e {
+                            0x24f2ec89: i32 = 2
+                        }
+                        0xd712dc00 = 0x977517c6 {
+                            0x24f2ec89: f32 = 0.25
+                        }
+                        0xf4497930 = 0x977517c6 {
+                            0x24f2ec89: f32 = 0.5
+                        }
+                    }
+                }
+                0x8912eb52: u32 = 2
+                0x8bab364f: bool = false
+                0xac307ed6: u8 = 4
+            }
+        }
+    }
+}

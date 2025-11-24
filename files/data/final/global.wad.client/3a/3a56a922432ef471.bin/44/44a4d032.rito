@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x44a4d032 = 0x2f24b82d {
+        0xd41aeafc: string = "81f8a688-bdf0-463c-a93e-03a462a8014e"
+        0x9ec06b81: string = "TFT16_UnlockBaronNashor_mission_title"
+        0xbcdf811c: link = 0xd6ff9be1
+        0xa1d9de0b: list2[embed] = {
+            0xab118296 {
+                0x13bddc7b: string = "41578620-f6d1-43da-9637-25aa302d0148"
+                0x54e57fb9: string = "TFT_Set16_AGE_reward_xp_blue"
+                0x4b728fd8: u32 = 100
+                0x5536e62e: link = 0xd6ff9be1
+            }
+        }
+        0x011e3a11: list2[embed] = {
+            0x8f81727c {
+                0xd790ca1a: string = "Set16AGE_Unlock_BaronNashor"
+                0xba8affe1: string = "Set16AGE_Unlock_BaronNashor"
+            }
+        }
+    }
+}

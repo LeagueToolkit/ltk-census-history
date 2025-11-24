@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6e3b05b7 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFT16_Explorer_Cashout12_Option2"
+        0x0773669d: map[string,pointer] = {
+            "FiveCostUnit" = 0x4012fd7e {
+                0x24f2ec89: i32 = 3
+            }
+            "MeepTypeUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_ArmoryKeyComponent"
+                    "TFT_ArmoryKeyComponent"
+                    "TFT_ArmoryKeyComponent"
+                }
+            }
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Consumable_NeekosHelp"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

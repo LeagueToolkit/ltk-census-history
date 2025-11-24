@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe4689090 = 0x60e00531 {
+        0x19efbfdb: string = "TFT16_Augment_ArtifactExpert_TitanicHydra"
+        0x0773669d: map[string,pointer] = {
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Item_Artifact_TitanicHydra"
+                    "TFT_Item_BFSword"
+                }
+            }
+            "TwoStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT16_Briar"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

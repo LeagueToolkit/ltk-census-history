@@ -1,0 +1,18 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x5db997ef = 0x60e00531 {
+        0x19efbfdb: string = "TFT16_BilgewaterShop_LowTierItems"
+        0x0773669d: map[string,pointer] = {
+            "TFT16_Item_Bilgewater_CaptainsBrew" = 0x4012fd7e {
+                0x24f2ec89: i32 = 15
+            }
+            "TFT16_Item_Bilgewater_LuckyEyepatch" = 0x4012fd7e {
+                0x24f2ec89: i32 = 15
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
