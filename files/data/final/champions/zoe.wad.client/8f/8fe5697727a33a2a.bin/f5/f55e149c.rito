@@ -81,6 +81,14 @@ entries: map[hash,embed] = {
                 0xb311d4ef: string = "Fresnel_Mask"
                 0xf0a363e3: string = "ASSETS/Characters/Zoe/Skins/Skin43/Zoe_Skin43_White_TX_CM.SKINS_Zoe_Skin43.tex"
             }
+            0x0904b150 {
+                0xb311d4ef: string = "DeformNoise"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+            }
+            0x0904b150 {
+                0xb311d4ef: string = "DeformMask"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+            }
         }
         0xd0ab46b8: list2[embed] = {
             0xde480eef {
@@ -110,6 +118,26 @@ entries: map[hash,embed] = {
             0xde480eef {
                 0x8d39bde6: string = "Anim_Wave_Dir"
                 0x425ed3ca: vec4 = { 5, 5, 0.5, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "VertexDeformFeatureStrength"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "VertexDeformTilling"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "VertexDeformSpeed"
+                0x425ed3ca: vec4 = { -0.2, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "DeformIntensity"
+                0x425ed3ca: vec4 = { 6, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "DeformProtection"
+                0x425ed3ca: vec4 = { 2, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Screen_Space_Strength"
@@ -254,6 +282,18 @@ entries: map[hash,embed] = {
                 0x425ed3ca: vec4 = { 10, 0, 0, 0 }
             }
             0xde480eef {
+                0x8d39bde6: string = "Fading_In_Speed"
+                0x425ed3ca: vec4 = { 0.1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Fading_Out_Speed"
+                0x425ed3ca: vec4 = { 0.3, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Fading_In_Gradient"
+                0x425ed3ca: vec4 = { 0.05, 0, 0, 0 }
+            }
+            0xde480eef {
                 0x8d39bde6: string = "Bloom_Strength"
                 0x425ed3ca: vec4 = { 3.0375, 0, 0, 0 }
             }
@@ -338,6 +378,11 @@ entries: map[hash,embed] = {
                 0x5fb91e8c: string = "Lightness_Adjustment"
             }
             0x0e2212a1 {
+                0x8d39bde6: string = "USE_LIGHTNESS_BREATHE"
+                0x61342fd0: bool = false
+                0x5fb91e8c: string = "Lightness_Adjustment"
+            }
+            0x0e2212a1 {
                 0x8d39bde6: string = "USE_BLOOM"
                 0x5fb91e8c: string = "Bloom"
             }
@@ -352,6 +397,11 @@ entries: map[hash,embed] = {
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "USE_VERTEX_ANIM"
+                0x61342fd0: bool = false
+                0x5fb91e8c: string = "Vertex_Animation"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_VERTEX_ANIMATION_BASED_ON_UV_AND_TEXTURE"
                 0x61342fd0: bool = false
                 0x5fb91e8c: string = "Vertex_Animation"
             }

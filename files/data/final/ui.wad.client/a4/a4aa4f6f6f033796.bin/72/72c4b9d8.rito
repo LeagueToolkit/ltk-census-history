@@ -1,0 +1,31 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x72c4b9d8 = 0x104afcda {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/LoL/NexusFinisher/DemaciaFinisher/DemaciaFinisherLoadable/MainScene/RootGroup/L_Banners"
+        0x2063cb13: link = 0x18aca3e3
+        0x07a640f6: u32 = 4
+        0x934f4e0a: pointer = 0x44600fb6 {
+            0x3a8bfbed: embed = 0x4eb9ba4f {
+                0x934f4e0a: vec2 = { 85, 386 }
+                0x23a0d95c: vec2 = { 655, 655 }
+                0xf6647cd6: u16 = 1600
+                0xa19b2e69: u16 = 1200
+            }
+            0x23563745: pointer = 0x5338e7f0 {
+                0x42edcab4: vec2 = { 0.5, 0.5 }
+            }
+            0x487fcd1a: bool = true
+        }
+        0x81c3985d: string = "ASSETS/Loadouts/NexusFinishers/DemaciaFinisher/Anim2D/Banners.skel"
+        0x9edb827d: string = "ASSETS/Loadouts/NexusFinishers/DemaciaFinisher/Anim2D/Banners.atlas"
+        0xb5985cf7: list2[embed] = {
+            0xd31bbf89 {
+                0x98557a5e: string = "Idle"
+                0xddef486b: bool = true
+            }
+        }
+    }
+}

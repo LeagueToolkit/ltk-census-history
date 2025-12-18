@@ -1,0 +1,63 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xfad394a5 = 0x5e7e5a06 {
+        0xe095d841: string = "SRX_DragonSoulBuffChemTech_Swiftplay"
+        0xc8e37ef0: string = "SRX_DragonSoulBuffChemTech_Swiftplay"
+        0x56d2be52: pointer = 0x43368569 {
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "TriggerThreshold"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DR"
+                    0x246b0d8e: list[f32] = {
+                        0.13
+                        0.13
+                        0.13
+                        0.13
+                        0.13
+                        0.13
+                        0.13
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "DamageAmp"
+                    0x246b0d8e: list[f32] = {
+                        0.13
+                        0.13
+                        0.13
+                        0.13
+                        0.13
+                        0.13
+                        0.13
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "DragonSoulIconChemTech.dds"
+            }
+        }
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "SRX_DragonSoulBuffChemTech_Swiftplay"
+                0x57b8b11b: link = 0x2ca8f134
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "Buff_DragonSoul_Chemtech_Name"
+                    "keyTooltip" = "Buff_DragonSoul_ChemTech_Tooltip"
+                }
+            }
+        }
+    }
+}

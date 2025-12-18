@@ -7,6 +7,14 @@ entries: map[hash,embed] = {
         0x8d39bde6: string = "Characters/Caitlyn/Skins/Skin52/Materials/Matcap_Iridescent_Holographic_inst"
         0x0a6f0eb5: list2[embed] = {
             0x0904b150 {
+                0xb311d4ef: string = "Dissolve_Gradient_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/Gradient_test_01.tex"
+            }
+            0x0904b150 {
+                0xb311d4ef: string = "Dissolve_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Particles/Base_plasma_noise.tex"
+            }
+            0x0904b150 {
                 0xb311d4ef: string = "Diffuse_Texture"
                 0xf0a363e3: string = "ASSETS/Characters/Caitlyn/Skins/Skin52/Caitlyn_Skin52_TX_CM.Chroma_Caitlyn_Prestige.tex"
                 0x111ec6d2: u32 = 1
@@ -44,6 +52,21 @@ entries: map[hash,embed] = {
             }
         }
         0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "Alpha_Sharpness"
+                0x425ed3ca: vec4 = { 0.001, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Dissolve_SmoothStep"
+                0x425ed3ca: vec4 = { 0, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Gradient_Sharpness"
+                0x425ed3ca: vec4 = { 4, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Dissolve_Bias"
+            }
             0xde480eef {
                 0x8d39bde6: string = "TintColor"
                 0x425ed3ca: vec4 = { 1, 1, 1, 1 }
@@ -105,32 +128,45 @@ entries: map[hash,embed] = {
         }
         0xdd7ddb9d: list2[embed] = {
             0x0e2212a1 {
+                0x8d39bde6: string = "USE_DISSOLVE"
+                0x61342fd0: bool = false
+                0x5fb91e8c: string = "Dissolve"
+            }
+            0x0e2212a1 {
                 0x8d39bde6: string = "FRESNEL_MASK_HOLOGRAPHIC"
                 0x61342fd0: bool = false
+                0x5fb91e8c: string = "Holographic"
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "MATCAP_ON"
+                0x5fb91e8c: string = "Mat Cap"
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "MATCAP_MASK_ON"
+                0x5fb91e8c: string = "Mat Cap"
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "IRIDESCENCE_ON"
                 0x61342fd0: bool = false
+                0x5fb91e8c: string = "Iridescent"
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "IRIDESCENT_MASK_ON"
                 0x61342fd0: bool = false
+                0x5fb91e8c: string = "Iridescent"
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "HOLOGRAPHIC_ON"
+                0x5fb91e8c: string = "Holographic"
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "HOLOGRAPHIC_MASK_ON"
+                0x5fb91e8c: string = "Holographic"
             }
             0x0e2212a1 {
                 0x8d39bde6: string = "FLOWMAP_ON"
                 0x61342fd0: bool = false
+                0x5fb91e8c: string = "Holographic"
             }
         }
         0xe6d67ded: map[string,string] = {

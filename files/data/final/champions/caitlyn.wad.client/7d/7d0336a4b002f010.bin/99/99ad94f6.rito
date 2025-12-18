@@ -9,15 +9,15 @@ entries: map[hash,embed] = {
         0x56d2be52: pointer = 0x43368569 {
             0x06afef1b: list2[embed] = {
                 0x005008a6 {
-                    0x19efbfdb: string = "CritChanceMultiplier"
+                    0x19efbfdb: string = "CriticalStrikeScaling"
                     0x246b0d8e: list[f32] = {
-                        1.25
-                        1.25
-                        1.25
-                        1.25
-                        1.25
-                        1.25
-                        1.25
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
                     }
                 }
                 0x005008a6 {
@@ -78,13 +78,20 @@ entries: map[hash,embed] = {
                                         }
                                     }
                                     0xad106e67 {
-                                        0x46144074: pointer = 0x5815b0a9 {
-                                            0x4cec2c8a: u8 = 9
-                                            0x295c2889: f32 = 1
-                                        }
-                                        0x4914452d: pointer = 0x5815b0a9 {
+                                        0x46144074: pointer = 0x5f5c70a4 {
                                             0x4cec2c8a: u8 = 8
-                                            0x295c2889: f32 = 0.85
+                                            0xb386dcf1: hash = 0x10e05b53
+                                        }
+                                        0x4914452d: pointer = 0x84a63373 {
+                                            0xa066cc28: list[pointer] = {
+                                                0x5815b0a9 {
+                                                    0x4cec2c8a: u8 = 9
+                                                    0x295c2889: f32 = 1
+                                                }
+                                                0x9ef92080 {
+                                                    0xe202bca9: f32 = -1
+                                                }
+                                            }
                                         }
                                     }
                                 }
@@ -137,6 +144,14 @@ entries: map[hash,embed] = {
                                     0xb386dcf1: hash = 0x35ffd144
                                 }
                             }
+                        }
+                    }
+                }
+                0x36ebd3cf = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5815b0a9 {
+                            0x4cec2c8a: u8 = 9
+                            0x295c2889: f32 = 1
                         }
                     }
                 }

@@ -8,15 +8,15 @@ entries: map[hash,embed] = {
         0x5127f14d: u32 = 5
         0x0a6f0eb5: list2[embed] = {
             0x0904b150 {
-                0xb311d4ef: string = "Paralax_Texture"
-                0xf0a363e3: string = "ASSETS/Characters/TFT16_AurelionSol/Skins/Base/TFT16_AurelionSol_Base_ParalaxTexture_TX_CM.TFT_Set16.tex"
-            }
-            0x0904b150 {
                 0xb311d4ef: string = "Diffuse_Texture"
                 0xf0a363e3: string = "ASSETS/Characters/TFT16_AurelionSol/Skins/Base/TFT16_AurelionSol_Base_TX_CM.TFT_Set16.tex"
                 0x111ec6d2: u32 = 1
                 0x101ec53f: u32 = 1
                 0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
+                0xb311d4ef: string = "Paralax_Texture"
+                0xf0a363e3: string = "ASSETS/Characters/TFT16_AurelionSol/Skins/Base/TFT16_AurelionSol_Base_ParalaxTexture_TX_CM.TFT_Set16.tex"
             }
             0x0904b150 {
                 0xb311d4ef: string = "Light_Mask"
@@ -28,6 +28,26 @@ entries: map[hash,embed] = {
             }
         }
         0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "SunDir_Offset"
+                0x425ed3ca: vec4 = { 0.5, 0.5, -0.25, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "SunDir_Range"
+                0x425ed3ca: vec4 = { 0, 0.333, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "HScanRange"
+                0x425ed3ca: vec4 = { 0.3, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "SunDir_Normal_Intensity"
+                0x425ed3ca: vec4 = { 0.5, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "HScan_Frequency"
+                0x425ed3ca: vec4 = { 0.5, 0, 0, 0 }
+            }
             0xde480eef {
                 0x8d39bde6: string = "OverallScrollingTexture_Intensity"
                 0x425ed3ca: vec4 = { 0.2, 0, 0, 0 }
@@ -146,6 +166,16 @@ entries: map[hash,embed] = {
             }
         }
         0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "HISTOGRAMSCAN_MASK"
+                0x61342fd0: bool = false
+                0x5fb91e8c: string = "Scrolling Mask"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "SUN_DIRECTION_MASK"
+                0x61342fd0: bool = false
+                0x5fb91e8c: string = "Sun Direction Mask"
+            }
             0x0e2212a1 {
                 0x8d39bde6: string = "INVERT_FRESNEL"
                 0x61342fd0: bool = false

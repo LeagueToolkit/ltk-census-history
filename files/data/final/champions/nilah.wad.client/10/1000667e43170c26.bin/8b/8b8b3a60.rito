@@ -13,13 +13,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "BaseDamage"
                     0x246b0d8e: list[f32] = {
+                        -10
                         0
-                        5
                         10
-                        15
                         20
-                        25
                         30
+                        40
+                        50
                     }
                 }
                 0x005008a6 {
@@ -37,13 +37,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "QADRatio"
                     0x246b0d8e: list[f32] = {
-                        0.85
-                        0.9
-                        0.95
                         1
-                        1.05
-                        1.1
-                        1.15
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
                     }
                 }
                 0x005008a6 {
@@ -73,17 +73,14 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "CritArmorPenScalar"
                     0x246b0d8e: list[f32] = {
-                        0.33
-                        0.33
-                        0.33
-                        0.33
-                        0.33
-                        0.33
-                        0.33
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
                     }
-                }
-                0x005008a6 {
-                    0x19efbfdb: string = "CritDamageRatio"
                 }
                 0x005008a6 {
                     0x19efbfdb: string = "MinionMod"
@@ -145,6 +142,21 @@ entries: map[hash,embed] = {
                         4
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "CritDamageRatio"
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "ActiveCritScaling"
+                    0x246b0d8e: list[f32] = {
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0xc9e3357d = 0xbc409284 {
@@ -153,9 +165,22 @@ entries: map[hash,embed] = {
                             0x9ef92080 {
                                 0xe202bca9: f32 = 1
                             }
-                            0x5815b0a9 {
-                                0x4cec2c8a: u8 = 8
-                                0x295c2889: f32 = 1
+                            0xad106e67 {
+                                0x46144074: pointer = 0x5f5c70a4 {
+                                    0x4cec2c8a: u8 = 8
+                                    0xb386dcf1: hash = 0x304ad448
+                                }
+                                0x4914452d: pointer = 0x84a63373 {
+                                    0xa066cc28: list[pointer] = {
+                                        0x5815b0a9 {
+                                            0x4cec2c8a: u8 = 9
+                                            0x295c2889: f32 = 1
+                                        }
+                                        0x9ef92080 {
+                                            0xe202bca9: f32 = -1
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
@@ -174,13 +199,6 @@ entries: map[hash,embed] = {
                         0x5815b0a9 {
                             0x4cec2c8a: u8 = 2
                             0x295c2889: f32 = 1
-                        }
-                    }
-                }
-                0xf5b9972d = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x5815b0a9 {
-                            0x4cec2c8a: u8 = 2
                         }
                     }
                 }
@@ -306,12 +324,6 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_Damage"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "QADRatio"
-                                    0xf506c7e6: f32 = 100
-                                    0x566f3406: string = "Spell_ListType_ADScaling"
-                                    0xac307ed6: u32 = 1
                                 }
                             }
                         }

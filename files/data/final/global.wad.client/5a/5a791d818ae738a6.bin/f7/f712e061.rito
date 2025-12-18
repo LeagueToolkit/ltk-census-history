@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xf712e061 = 0x5e7e5a06 {
+        0xe095d841: string = "FaeLightSuperwardBuff"
+        0xc8e37ef0: string = "FaeLightSuperwardBuff"
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0xf1f20d72: string = "buff_desc_FaeLightSuperwardBuff"
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "FaeLightSuperwardBuff"
+                0x57b8b11b: link = 0x2ca8f134
+                0x0381f7e2: map[string,string] = {
+                    "keyTooltip" = "buff_desc_FaeLightSuperwardBuff"
+                    "keyName" = "buff_name_FaeLightSuperwardBuff"
+                }
+            }
+        }
+    }
+}

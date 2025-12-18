@@ -97,26 +97,61 @@ entries: map[hash,embed] = {
                         15
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "ADRatio"
+                    0x246b0d8e: list[f32] = {
+                        1.2
+                        1.2
+                        1.2
+                        1.2
+                        1.2
+                        1.2
+                        1.2
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "CritMod"
+                    0x246b0d8e: list[f32] = {
+                        0.7
+                        0.7
+                        0.7
+                        0.7
+                        0.7
+                        0.7
+                        0.7
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x1ddee768 = 0xbc409284 {
-                    0x37070a8d: u8 = 0
-                    0x50f145c0: list[pointer] = {
-                        0x5815b0a9 {
-                            0x4cec2c8a: u8 = 2
-                            0x295c2889: f32 = 1.2
-                        }
-                        0xcd156c7f {
-                            0x4cec2c8a: u8 = 8
-                            0x1cd83c4b: pointer = 0xad106e67 {
-                                0x46144074: pointer = 0x9ef92080 {
-                                    0xe202bca9: f32 = 1
+                    0x2c77adff: pointer = 0x84a63373 {
+                        0xa066cc28: list[pointer] = {
+                            0x9ef92080 {
+                                0xe202bca9: f32 = 1
+                            }
+                            0xad106e67 {
+                                0x46144074: pointer = 0x5f5c70a4 {
+                                    0x4cec2c8a: u8 = 8
+                                    0xb386dcf1: hash = 0x286d993b
                                 }
-                                0x4914452d: pointer = 0x5815b0a9 {
-                                    0x4cec2c8a: u8 = 2
-                                    0x295c2889: f32 = 1.2
+                                0x4914452d: pointer = 0x84a63373 {
+                                    0xa066cc28: list[pointer] = {
+                                        0x5815b0a9 {
+                                            0x4cec2c8a: u8 = 9
+                                            0x295c2889: f32 = 1
+                                        }
+                                        0x9ef92080 {
+                                            0xe202bca9: f32 = -1
+                                        }
+                                    }
                                 }
                             }
+                        }
+                    }
+                    0x50f145c0: list[pointer] = {
+                        0x5f5c70a4 {
+                            0x4cec2c8a: u8 = 2
+                            0xb386dcf1: hash = 0x382d671b
                         }
                     }
                 }

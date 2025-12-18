@@ -4,10 +4,10 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xac54b461 = 0x4fbc08a8 {
-        0x4a30f7f9: f32 = 65
+        0x4a30f7f9: f32 = 30
         0x9a237eb0: f32 = 30
         0x98836275: f32 = 0.8
-        0xba6667fc: f32 = 60
+        0xba6667fc: f32 = 40
         0x93b6e0a6: i32 = 5
         0xdedd01f2: f32 = 600
         0x26fa0124: f32 = 300
@@ -37,8 +37,29 @@ entries: map[hash,embed] = {
             }
             0x8129e422 {
                 0x22a50aab: u8 = 4
-                0x388f6696: pointer = 0x57e882f6 {
-                    0x88923ff7: i32 = 3
+                0x388f6696: pointer = 0x2fa4c62b {
+                    0xa0f69e3c: list2[embed] = {
+                        0xee613fef {
+                            0xcfe9be27: pointer = 0x57e882f6 {
+                                0x88923ff7: i32 = 3
+                            }
+                        }
+                        0xee613fef {
+                            0x53b34144: i32 = 840
+                            0xcfe9be27: pointer = 0xb447fece {
+                                0x45cdadd0: list2[i32] = {
+                                    2
+                                    3
+                                }
+                            }
+                        }
+                        0xee613fef {
+                            0x53b34144: i32 = 1500
+                            0xcfe9be27: pointer = 0x57e882f6 {
+                                0x88923ff7: i32 = 2
+                            }
+                        }
+                    }
                 }
                 0xfee040bc: link = 0x2f33d8db
                 0xbac0c948: embed = 0xf60c70bb {
@@ -56,26 +77,7 @@ entries: map[hash,embed] = {
                 0x388f6696: pointer = 0x2fa4c62b {
                     0xa0f69e3c: list2[embed] = {
                         0xee613fef {
-                            0x53b34144: i32 = 150
-                            0xcfe9be27: pointer = 0xb447fece {
-                                0x45cdadd0: list2[i32] = {
-                                    1
-                                    0
-                                    0
-                                }
-                            }
-                        }
-                        0xee613fef {
-                            0x53b34144: i32 = 600
-                            0xcfe9be27: pointer = 0xb447fece {
-                                0x45cdadd0: list2[i32] = {
-                                    0
-                                    1
-                                }
-                            }
-                        }
-                        0xee613fef {
-                            0x53b34144: i32 = 1200
+                            0x53b34144: i32 = 90
                             0xcfe9be27: pointer = 0x57e882f6 {
                                 0x88923ff7: i32 = 1
                             }
@@ -85,7 +87,7 @@ entries: map[hash,embed] = {
                 0xfee040bc: link = 0x7e4f5ecc
                 0xbac0c948: embed = 0xf60c70bb {
                     0xef6e71d8: f32 = 5100
-                    0x643db497: f32 = 85
+                    0x643db497: f32 = 100
                     0x5fb9bd8e: f32 = 90
                     0x59eb67ec: f32 = 1.5
                     0x726ae049: f32 = 3
@@ -94,8 +96,20 @@ entries: map[hash,embed] = {
             }
             0x8129e422 {
                 0x22a50aab: u8 = 5
-                0x388f6696: pointer = 0x57e882f6 {
-                    0x88923ff7: i32 = 3
+                0x388f6696: pointer = 0x2fa4c62b {
+                    0xa0f69e3c: list2[embed] = {
+                        0xee613fef {
+                            0xcfe9be27: pointer = 0x57e882f6 {
+                                0x88923ff7: i32 = 3
+                            }
+                        }
+                        0xee613fef {
+                            0x53b34144: i32 = 1800
+                            0xcfe9be27: pointer = 0x57e882f6 {
+                                0x88923ff7: i32 = 2
+                            }
+                        }
+                    }
                 }
                 0xfee040bc: link = 0xe9130d62
                 0xbac0c948: embed = 0xf60c70bb {

@@ -37,14 +37,14 @@ entries: map[hash,embed] = {
                     0x9c74b21a {
                         0x4102143e: bool = true
                         0xc7e16877: pointer = 0xd4737a04 {}
-                        0xe7e19b94: u16 = 28
+                        0xe7e19b94: u16 = 27
                         0x694aaa0b: hash = 0x2f26143a
                         0xca0e79b5: string = "PORO_WASD_Option_MovementRotation_Description"
                     }
                     0xb2705faa {
                         0x4102143e: bool = true
                         0xc7e16877: pointer = 0xd4737a04 {}
-                        0xe7e19b94: u16 = 14
+                        0xe7e19b94: u16 = 15
                         0x694aaa0b: hash = 0xeeccf10a
                         0xca0e79b5: string = "PORO_WASD_Options_FlashHandlingType_Label"
                         0x5ff07ba8: string = "PORO_WASD_Options_FlashHandlingType_Tooltip"
@@ -93,7 +93,7 @@ entries: map[hash,embed] = {
                 0xca0e79b5: string = "Options_Hotkeys_MacOSOptions_label"
                 0x3a79338f: list[pointer] = {
                     0x9c74b21a {
-                        0xe7e19b94: u16 = 49
+                        0xe7e19b94: u16 = 48
                         0x694aaa0b: hash = 0x2f26143a
                         0xca0e79b5: string = "Options_Hotkeys_MacOSOptions_AllowRebindingOfSystemKeyCombinations"
                     }
@@ -265,6 +265,10 @@ entries: map[hash,embed] = {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
                                         0x2a078c9c: string = "[WASD]NormalCastAvatarSpell2"
                                     }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_RoleQuestActive"
+                                        0x2a078c9c: string = "[WASD]NormalCastRoleBound"
+                                    }
                                 }
                             }
                             0xbb6f8e53 {
@@ -297,6 +301,10 @@ entries: map[hash,embed] = {
                                     0x518d5fc0 {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
                                         0x2a078c9c: string = "[WASD]SmartCastAvatarSpell2"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_RoleQuestActive"
+                                        0x2a078c9c: string = "[WASD]SmartCastRoleBound"
                                     }
                                 }
                             }
@@ -331,6 +339,10 @@ entries: map[hash,embed] = {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
                                         0x2a078c9c: string = "[WASD]SmartCastWithIndicatorAvatarSpell2"
                                     }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_RoleQuestActive"
+                                        0x2a078c9c: string = "[WASD]SmartCastWithIndicatorRoleBound"
+                                    }
                                 }
                             }
                             0xbb6f8e53 {
@@ -363,6 +375,10 @@ entries: map[hash,embed] = {
                                     0x518d5fc0 {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
                                         0x2a078c9c: string = "[WASD]SelfCastAvatarSpell2"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_RoleQuestActive"
+                                        0x2a078c9c: string = "[WASD]SelfCastRoleBound"
                                     }
                                 }
                             }
@@ -397,6 +413,10 @@ entries: map[hash,embed] = {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
                                         0x2a078c9c: string = "[WASD]SmartPlusSelfCastAvatarSpell2"
                                     }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_RoleQuestActive"
+                                        0x2a078c9c: string = "[WASD]SmartPlusSelfCastRoleBound"
+                                    }
                                 }
                             }
                             0xbb6f8e53 {
@@ -429,6 +449,10 @@ entries: map[hash,embed] = {
                                     0x518d5fc0 {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
                                         0x2a078c9c: string = "[WASD]SmartPlusSelfCastWithIndicatorAvatarSpell2"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_RoleQuestActive"
+                                        0x2a078c9c: string = "[WASD]SmartPlusSelfCastWithIndicatorRoleBound"
                                     }
                                 }
                             }
@@ -1376,6 +1400,10 @@ entries: map[hash,embed] = {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
                                         0x2a078c9c: string = "[GameEvents]evtNormalCastAvatarSpell2"
                                     }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_RoleQuestActive"
+                                        0x2a078c9c: string = "[GameEvents]evtNormalCastRoleBound"
+                                    }
                                 }
                             }
                             0xbb6f8e53 {
@@ -1409,6 +1437,10 @@ entries: map[hash,embed] = {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
                                         0x2a078c9c: string = "[GameEvents]evtSmartCastAvatarSpell2"
                                     }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_RoleQuestActive"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastRoleBound"
+                                    }
                                 }
                             }
                             0xbb6f8e53 {
@@ -1441,6 +1473,10 @@ entries: map[hash,embed] = {
                                     0x518d5fc0 {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
                                         0x2a078c9c: string = "[GameEvents]evtSmartCastWithIndicatorAvatarSpell2"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_RoleQuestActive"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartCastWithIndicatorRoleBound"
                                     }
                                 }
                             }
@@ -1476,6 +1512,10 @@ entries: map[hash,embed] = {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
                                         0x2a078c9c: string = "[GameEvents]evtSelfCastAvatarSpell2"
                                     }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_RoleQuestActive"
+                                        0x2a078c9c: string = "[GameEvents]evtSelfCastRoleBound"
+                                    }
                                 }
                             }
                             0x6a9faeda {
@@ -1510,6 +1550,10 @@ entries: map[hash,embed] = {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
                                         0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastAvatarSpell2"
                                     }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_RoleQuestActive"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastRoleBound"
+                                    }
                                 }
                             }
                             0xbb6f8e53 {
@@ -1542,6 +1586,10 @@ entries: map[hash,embed] = {
                                     0x518d5fc0 {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_SummonerSpell2"
                                         0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastWithIndicatorAvatarSpell2"
+                                    }
+                                    0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_RoleQuestActive"
+                                        0x2a078c9c: string = "[GameEvents]evtSmartPlusSelfCastWithIndicatorRoleBound"
                                     }
                                 }
                             }
@@ -1576,6 +1624,10 @@ entries: map[hash,embed] = {
                                     0x430dd10d {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_TeleportHome"
                                         0x2a078c9c: string = "[GameEvents]evtUseItem7"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_RoleQuestActive"
+                                        0x2a078c9c: string = "[GameEvents]evtCastRoleBound"
                                     }
                                     0x430dd10d {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_AbilitiesAndSummonerSpells_ChampionSpecificInteraction1"
@@ -2486,7 +2538,7 @@ entries: map[hash,embed] = {
                 0x3a79338f: list[pointer] = {
                     0x9c74b21a {
                         0x4102143e: bool = true
-                        0xe7e19b94: u16 = 35
+                        0xe7e19b94: u16 = 34
                         0x694aaa0b: hash = 0x2f26143a
                         0xca0e79b5: string = "Options_Hotkeys_AdvancedKeybindingOptions_BindAutoAttackMoveToLeftClick"
                     }

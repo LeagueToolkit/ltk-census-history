@@ -13,13 +13,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "MonsterCap"
                     0x246b0d8e: list[f32] = {
-                        300
-                        300
-                        300
-                        300
-                        300
-                        300
-                        300
+                        200
+                        200
+                        200
+                        200
+                        200
+                        200
+                        200
                     }
                 }
                 0x005008a6 {
@@ -106,6 +106,30 @@ entries: map[hash,embed] = {
                         0.05
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "CritMod"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BonusADRatio"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                }
             }
             0xfb56608c: map[hash,embed] = {
                 0x497ae878 = 0x6b2f7a8d {
@@ -127,18 +151,66 @@ entries: map[hash,embed] = {
             }
             0x94572284: map[hash,pointer] = {
                 0xdf52861f = 0xbc409284 {
+                    0x2c77adff: pointer = 0x84a63373 {
+                        0xa066cc28: list[pointer] = {
+                            0x9ef92080 {
+                                0xe202bca9: f32 = 1
+                            }
+                            0xad106e67 {
+                                0x46144074: pointer = 0x5f5c70a4 {
+                                    0x4cec2c8a: u8 = 8
+                                    0xb386dcf1: hash = 0x286d993b
+                                }
+                                0x4914452d: pointer = 0x84a63373 {
+                                    0xa066cc28: list[pointer] = {
+                                        0x5815b0a9 {
+                                            0x4cec2c8a: u8 = 9
+                                            0x295c2889: f32 = 1
+                                        }
+                                        0x9ef92080 {
+                                            0xe202bca9: f32 = -1
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0x03da00f9
                         }
-                        0x5815b0a9 {
+                        0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 1
+                            0xb386dcf1: hash = 0x09a91dc8
                         }
                     }
                 }
                 0x796e1b71 = 0xbc409284 {
+                    0x2c77adff: pointer = 0x84a63373 {
+                        0xa066cc28: list[pointer] = {
+                            0x9ef92080 {
+                                0xe202bca9: f32 = 1
+                            }
+                            0xad106e67 {
+                                0x46144074: pointer = 0x5f5c70a4 {
+                                    0x4cec2c8a: u8 = 8
+                                    0xb386dcf1: hash = 0x286d993b
+                                }
+                                0x4914452d: pointer = 0x84a63373 {
+                                    0xa066cc28: list[pointer] = {
+                                        0x5815b0a9 {
+                                            0x4cec2c8a: u8 = 9
+                                            0x295c2889: f32 = 1
+                                        }
+                                        0x9ef92080 {
+                                            0xe202bca9: f32 = -1
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0xcbb12e24
@@ -166,18 +238,6 @@ entries: map[hash,embed] = {
                         }
                     }
                     0x7f93cf4e: hash = 0x796e1b71
-                }
-                0x28b26e8a = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x9ef92080 {
-                            0xe202bca9: f32 = 0.25
-                        }
-                        0x5815b0a9 {
-                            0x4cec2c8a: u8 = 8
-                            0x295c2889: f32 = 0.5
-                        }
-                    }
-                    0x5a2297d3: bool = true
                 }
                 0x9d442210 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
