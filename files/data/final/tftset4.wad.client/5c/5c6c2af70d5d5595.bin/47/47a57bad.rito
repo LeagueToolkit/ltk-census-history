@@ -1,0 +1,38 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x47a57bad = 0x5e7e5a06 {
+        0xe095d841: string = "TFT4_RaceHecarimBasicAttack"
+        0xc8e37ef0: string = "TFT4_RaceHecarimBasicAttack"
+        0x56d2be52: pointer = 0x43368569 {
+            0x44b7e8dd: string = "SejuaniBasicAttack"
+            0x1b9cbd9b: list[f32] = {
+                125
+                125
+                125
+                125
+                125
+                125
+                125
+            }
+            0x5c46e292: f32 = 100
+            0x4e47141f: f32 = 12
+            0x239f6855: u32 = 2
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "TFT4_RaceHecarimBasicAttack"
+                    0x57b8b11b: link = 0x3054f17a
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "TFT4_RaceHecarim_SpellName"
+                        "keyTooltip" = "TFT4_RaceHecarim_SpellTooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {}
+                    }
+                }
+            }
+        }
+    }
+}

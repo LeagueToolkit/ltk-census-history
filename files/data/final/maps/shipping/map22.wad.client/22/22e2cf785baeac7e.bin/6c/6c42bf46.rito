@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6c42bf46 = 0x60e00531 {
+        0x19efbfdb: string = "TFT4_CarouselOfVitality_Late"
+        0x0773669d: map[string,pointer] = {
+            "Normal_RadiantChestOrFON" = 0x977517c6 {}
+            "Normal_PanOrSpat" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.5
+            }
+            "FiveCosts_Normal" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.5
+            }
+            "Normal_Radiant" = 0x977517c6 {}
+            "Normal_DoubleComponent" = 0x977517c6 {}
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

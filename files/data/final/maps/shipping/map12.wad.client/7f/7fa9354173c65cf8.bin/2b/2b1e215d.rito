@@ -1,0 +1,41 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x2b1e215d = 0x5e7e5a06 {
+        0xe095d841: string = "Augment_ARAM_Firebrand"
+        0xc8e37ef0: string = "Augment_ARAM_Firebrand"
+        0x56d2be52: pointer = 0x43368569 {
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "PercentMaxHPDamagePer5Seconds"
+                    0x246b0d8e: list[f32] = {
+                        0.02
+                        0.02
+                        0.02
+                        0.02
+                        0.02
+                        0.02
+                        0.02
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "BleedDuration"
+                    0x246b0d8e: list[f32] = {
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Spells/Icons2D/Terrify.dds"
+            }
+        }
+    }
+}

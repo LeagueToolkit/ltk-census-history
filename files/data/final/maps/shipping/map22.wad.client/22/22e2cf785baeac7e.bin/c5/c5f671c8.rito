@@ -1,0 +1,21 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc5f671c8 = 0x60e00531 {
+        0x19efbfdb: string = "TFT4_YearOfTheHorse_Loot_1"
+        0x0773669d: map[string,pointer] = {
+            "Item" = 0x80996016 {
+                0x3a79338f: list2[link] = {
+                    0x251a2076
+                    0x251a2076
+                }
+            }
+            "Gold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 10
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
