@@ -4,7 +4,7 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0x6238f853 = 0xc8400f38 {
-        0x6bfb316f: string = "constantly_active"
+        0x6bfb316f: string = "WASD constantly_active"
         0xb157685d: string = "Options_Hotkeys_AdvancedKeybindingOptions_label"
         0x89ba4a26: link = 0xc4941007
         0x82d6dcb0: list2[pointer] = {
@@ -21,10 +21,52 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x01d6318d: u32 = 12
+                0x01d6318d: u32 = 11
             }
             0xcaefc854 {
                 0xf248d989: link = 0x98ccab27
+            }
+            0xb95142cd {
+                0xf248d989: link = 0xf8033b70
+                0x5ff6cd50: list2[pointer] = {
+                    0x2152c2a1 {
+                        0xfd36c650: bool = true
+                        0x5e3d5ec0: list2[u32] = {
+                            2
+                            6
+                        }
+                    }
+                }
+            }
+            0x0dde919c {
+                0xf248d989: link = 0xdfafcaaf
+                0x5ff6cd50: list2[pointer] = {
+                    0x2152c2a1 {
+                        0xfd36c650: bool = true
+                        0x5e3d5ec0: list2[u32] = {
+                            2
+                            6
+                        }
+                    }
+                }
+            }
+            0xc7b1ec51 {
+                0xf248d989: link = 0x2a77b5f9
+                0x5ff6cd50: list2[pointer] = {
+                    0xa8b35a0d {
+                        0xfd36c650: bool = true
+                    }
+                    0xab2fec44 {
+                        0xfd36c650: bool = true
+                    }
+                    0x2152c2a1 {
+                        0xfd36c650: bool = true
+                        0x5e3d5ec0: list2[u32] = {
+                            2
+                            6
+                        }
+                    }
+                }
             }
         }
         0x5ff6cd50: list2[pointer] = {

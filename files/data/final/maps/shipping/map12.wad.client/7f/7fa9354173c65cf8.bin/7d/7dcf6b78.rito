@@ -1,0 +1,67 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x7dcf6b78 = 0x5e7e5a06 {
+        0xe095d841: string = "Augment_Set_FullyAutomated"
+        0xc8e37ef0: string = "Augment_Set_FullyAutomated"
+        0x56d2be52: pointer = 0x43368569 {
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "AutocastPercentCDR"
+                    0x246b0d8e: list[f32] = {
+                        0
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "CDRCalculation"
+                    0x246b0d8e: list[f32] = {
+                        100
+                        100
+                        100
+                        100
+                        100
+                        100
+                        100
+                    }
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0xd9c1917b = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x84a63373 {
+                            0xa066cc28: list[pointer] = {
+                                0x332eb441 {
+                                    0xb386dcf1: hash = 0x460c9eb9
+                                }
+                                0x5815b0a9 {
+                                    0x4cec2c8a: u8 = 11
+                                    0x295c2889: f32 = 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Spells/Icons2D/Terrify.dds"
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_Set_FullyAutomated"
+                    0x57b8b11b: link = 0x798cdbee
+                    0x0381f7e2: map[string,string] = {
+                        "keyTooltip" = "Kiwi_Augment_Set_FullyAutomated_TooltipSummary"
+                    }
+                }
+            }
+        }
+    }
+}

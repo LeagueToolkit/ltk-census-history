@@ -10,6 +10,7 @@ entries: map[hash,embed] = {
             0xecf3f88d: u32 = 22543
             0x3e1edbdb: list[string] = {
                 "PositiveEffect_MoveBlock"
+                "Trait_PlayerSelectedDashDirection"
             }
             0x06afef1b: list2[embed] = {
                 0x005008a6 {
@@ -99,13 +100,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x19efbfdb: string = "MonsterDamageBonus"
                     0x246b0d8e: list[f32] = {
-                        50
-                        50
-                        50
-                        50
-                        50
-                        50
-                        50
+                        75
+                        75
+                        75
+                        75
+                        75
+                        75
+                        75
                     }
                 }
                 0x005008a6 {
@@ -299,6 +300,47 @@ entries: map[hash,embed] = {
                         }
                         0x6311ca49: string = "ASSETS/Spells/Textures/darius_cleave_outside.tex"
                     }
+                }
+            }
+        }
+        0x4048c61e: pointer = 0xf195e56b {
+            0x6d548702: pointer = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x84a63373 {
+                        0xa066cc28: list[pointer] = {
+                            0xf3cbe7b2 {
+                                0x88536426: hash = 0x84045944
+                            }
+                            0xcd156c7f {
+                                0xa8cb9c14: bool = true
+                                0x4cec2c8a: u8 = 12
+                                0x1cd83c4b: pointer = 0xad106e67 {
+                                    0x46144074: pointer = 0x332eb441 {
+                                        0xb386dcf1: hash = 0x23c5fdff
+                                    }
+                                    0x4914452d: pointer = 0x9ef92080 {
+                                        0xe202bca9: f32 = 100
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            0xec17e271: list2[embed] = {
+                0xb09016f6 {
+                    0x77e5e41c: u32 = 128
+                    0x725bd4d5: pointer = 0xbc409284 {}
+                }
+            }
+            0x38382c53: list2[embed] = {
+                0x150d1b92 {
+                    0xe38f54f7: u32 = 1
+                    0x0717e686: bool = false
+                }
+                0x150d1b92 {
+                    0xe38f54f7: u32 = 4
+                    0x0717e686: bool = false
                 }
             }
         }

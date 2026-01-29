@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x0da158e1 = 0x60e00531 {
+        0x19efbfdb: string = "GoldenQuestLoot45E"
+        0x0773669d: map[string,pointer] = {
+            "TwoStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT4_Samira"
+                }
+            }
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Item_InfinityEdge"
+                    "TFT_Item_Artifact_Fishbones"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
