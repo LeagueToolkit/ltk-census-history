@@ -27,8 +27,8 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "AttackSpeed"
                     0x246b0d8e: list[f32] = {
                         0
-                        0.65
-                        0.65
+                        0.8
+                        0.8
                         3
                         2
                         0
@@ -71,17 +71,26 @@ entries: map[hash,embed] = {
                         0.33
                     }
                 }
+                0x005008a6 {
+                    0x19efbfdb: string = "APDamage"
+                    0x246b0d8e: list[f32] = {
+                        0
+                        8
+                        12
+                        50
+                        100
+                        0
+                        0
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0xe7712601 = 0xbc409284 {
                     0xcbcac618: u8 = 5
                     0x37070a8d: u8 = 5
                     0x50f145c0: list[pointer] = {
-                        0x995bf516 {
-                            0x1cd83c4b: pointer = 0x332eb441 {
-                                0xb386dcf1: hash = 0x7a209a48
-                            }
-                            0xb8dcfcbb: f32 = 0.01
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x7a209a48
                         }
                     }
                     0x5a2297d3: bool = true
@@ -95,6 +104,12 @@ entries: map[hash,embed] = {
                             }
                             0xb8dcfcbb: f32 = 1
                             0x4cec2c8a: u8 = 3
+                        }
+                        0x995bf516 {
+                            0x1cd83c4b: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0x8478a4c5
+                            }
+                            0xb8dcfcbb: f32 = 0.01
                         }
                     }
                 }
@@ -176,7 +191,7 @@ entries: map[hash,embed] = {
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "ADDamage"
-                                    0x566f3406: string = "TFT_AD_PhysicalDamage_Scale"
+                                    0x566f3406: string = "Spell_TFT16_YunaraSpell_Damage"
                                 }
                             }
                         }

@@ -27,9 +27,9 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "ADMult"
                     0x246b0d8e: list[f32] = {
                         1
-                        2
-                        2.1
-                        4.2
+                        1.4
+                        1.5
+                        4
                         3
                         3.5
                         4
@@ -39,9 +39,9 @@ entries: map[hash,embed] = {
                     0x19efbfdb: string = "Damage"
                     0x246b0d8e: list[f32] = {
                         0
-                        50
-                        75
-                        225
+                        125
+                        200
+                        700
                         0
                         0
                         0
@@ -65,15 +65,34 @@ entries: map[hash,embed] = {
                     0xcbcac618: u8 = 5
                     0x37070a8d: u8 = 5
                     0x50f145c0: list[pointer] = {
-                        0x5f5c70a4 {
+                        0x995bf516 {
+                            0x1cd83c4b: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0xfcfce396
+                            }
+                            0xb8dcfcbb: f32 = 1
                             0x4cec2c8a: u8 = 2
-                            0xb386dcf1: hash = 0xfcfce396
+                            0x992cd7eb: string = "scaleAD"
+                            0xa5749b52: string = "scaleAD"
                         }
                         0x995bf516 {
                             0x1cd83c4b: pointer = 0x332eb441 {
                                 0xb386dcf1: hash = 0x59e94c40
                             }
                             0xb8dcfcbb: f32 = 0.01
+                            0x992cd7eb: string = "scaleAD"
+                            0xa5749b52: string = "scaleAD"
+                        }
+                    }
+                }
+                0xf24078df = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x995bf516 {
+                            0x1cd83c4b: pointer = 0x332eb441 {
+                                0xb386dcf1: hash = 0x59e94c40
+                            }
+                            0xb8dcfcbb: f32 = 0.01
+                            0x992cd7eb: string = "noScale"
+                            0xa5749b52: string = "scaleAP"
                         }
                     }
                 }
@@ -172,18 +191,12 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "ADMult"
                                     0x33c02d93: i32 = 5
                                     0xf506c7e6: f32 = 100
-                                    0x566f3406: string = "Spell_TFT5_DravenSpinning_PercentAttackDamage"
+                                    0x566f3406: string = "Spell_ListType_PercentAttackDamage"
                                     0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Damage"
-                                    0x566f3406: string = "Spell_TFT5_DravenSpinning_BonusDamage"
-                                    0xac307ed6: u32 = 1
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "Damage"
-                                    0x566f3406: string = "Spell_TFT5_DravenSpinning_Damage"
-                                    0xac307ed6: u32 = 2
+                                    0x566f3406: string = "Spell_ListType_Damage"
                                 }
                             }
                         }
