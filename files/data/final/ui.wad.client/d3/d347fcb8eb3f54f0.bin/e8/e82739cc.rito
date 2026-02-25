@@ -4,8 +4,8 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xe82739cc = 0xaf9f3bac {
-        0xe2db859f: string = "Options_Tab_hotkeys_WASD"
         0xc7e16877: pointer = 0x4e771e24 {}
+        0xe2db859f: string = "Options_Tab_hotkeys_WASD"
         0xa4b002d7: list2[pointer] = {
             0xd79b9cc2 {
                 0xc7e16877: pointer = 0xcd391c99 {
@@ -34,20 +34,48 @@ entries: map[hash,embed] = {
                         0xc7e16877: pointer = 0xd4737a04 {}
                         0x694aaa0b: hash = 0x099c9758
                     }
+                }
+            }
+            0xd79b9cc2 {
+                0xc7e16877: pointer = 0xd4737a04 {}
+                0x694aaa0b: hash = 0x3cd8d5b2
+                0xca0e79b5: string = "Options_WASDAdvancedSettings"
+                0x3a79338f: list[pointer] = {
                     0x9c74b21a {
-                        0x4102143e: bool = true
                         0xc7e16877: pointer = 0xd4737a04 {}
+                        0x4102143e: bool = true
                         0xe7e19b94: u16 = 27
                         0x694aaa0b: hash = 0x2f26143a
                         0xca0e79b5: string = "PORO_WASD_Option_MovementRotation_Description"
                     }
                     0xb2705faa {
-                        0x4102143e: bool = true
                         0xc7e16877: pointer = 0xd4737a04 {}
+                        0x4102143e: bool = true
                         0xe7e19b94: u16 = 15
                         0x694aaa0b: hash = 0xeeccf10a
                         0xca0e79b5: string = "PORO_WASD_Options_FlashHandlingType_Label"
                         0x5ff07ba8: string = "PORO_WASD_Options_FlashHandlingType_Tooltip"
+                        0xa4b002d7: list2[embed] = {
+                            0x433d3f61 {
+                                0xb157685d: string = "PORO_WASD_Options_FlashHandlingType_Cursor_Only"
+                                0x425ed3ca: i32 = 1
+                            }
+                            0x433d3f61 {
+                                0xb157685d: string = "PORO_WASD_Options_FlashHandlingType_Cursor_Enhanced"
+                            }
+                            0x433d3f61 {
+                                0xb157685d: string = "PORO_WASD_Options_FlashHandlingType_Cursor_Fallback"
+                                0x425ed3ca: i32 = 2
+                            }
+                        }
+                    }
+                    0xb2705faa {
+                        0xc7e16877: pointer = 0xd4737a04 {}
+                        0x4102143e: bool = true
+                        0xe7e19b94: u16 = 8
+                        0x694aaa0b: hash = 0xeeccf10a
+                        0xca0e79b5: string = "PORO_WASD_Options_DashHandlingType_Label"
+                        0x5ff07ba8: string = "PORO_WASD_Options_DashHandlingType_Tooltip"
                         0xa4b002d7: list2[embed] = {
                             0x433d3f61 {
                                 0xb157685d: string = "PORO_WASD_Options_FlashHandlingType_Cursor_Only"
@@ -84,62 +112,6 @@ entries: map[hash,embed] = {
                         0xe7e19b94: u16 = 104
                         0x694aaa0b: hash = 0x2f26143a
                         0xca0e79b5: string = "Options_Hotkeys_QuickCastWithIndicator_CastThePressedSpell"
-                    }
-                }
-            }
-            0xd79b9cc2 {
-                0xc7e16877: pointer = 0xd4737a04 {}
-                0x694aaa0b: hash = 0x3cd8d5b2
-                0xca0e79b5: string = "Options_WASDAdvancedSettings"
-                0x3a79338f: list[pointer] = {
-                    0xb2705faa {
-                        0x4102143e: bool = true
-                        0xc7e16877: pointer = 0xd4737a04 {}
-                        0xe7e19b94: u16 = 15
-                        0x694aaa0b: hash = 0xeeccf10a
-                        0xca0e79b5: string = "PORO_WASD_Options_FlashHandlingType_Label"
-                        0x5ff07ba8: string = "PORO_WASD_Options_FlashHandlingType_Tooltip"
-                        0xa4b002d7: list2[embed] = {
-                            0x433d3f61 {
-                                0xb157685d: string = "PORO_WASD_Options_FlashHandlingType_Cursor_Only"
-                                0x425ed3ca: i32 = 1
-                            }
-                            0x433d3f61 {
-                                0xb157685d: string = "PORO_WASD_Options_FlashHandlingType_Cursor_Enhanced"
-                            }
-                            0x433d3f61 {
-                                0xb157685d: string = "PORO_WASD_Options_FlashHandlingType_Cursor_Fallback"
-                                0x425ed3ca: i32 = 2
-                            }
-                        }
-                    }
-                    0xb2705faa {
-                        0x4102143e: bool = true
-                        0xc7e16877: pointer = 0xd4737a04 {}
-                        0xe7e19b94: u16 = 8
-                        0x694aaa0b: hash = 0xeeccf10a
-                        0xca0e79b5: string = "PORO_WASD_Options_DashHandlingType_Label"
-                        0x5ff07ba8: string = "PORO_WASD_Options_DashHandlingType_Tooltip"
-                        0xa4b002d7: list2[embed] = {
-                            0x433d3f61 {
-                                0xb157685d: string = "PORO_WASD_Options_FlashHandlingType_Cursor_Only"
-                                0x425ed3ca: i32 = 1
-                            }
-                            0x433d3f61 {
-                                0xb157685d: string = "PORO_WASD_Options_FlashHandlingType_Cursor_Enhanced"
-                            }
-                            0x433d3f61 {
-                                0xb157685d: string = "PORO_WASD_Options_FlashHandlingType_Cursor_Fallback"
-                                0x425ed3ca: i32 = 2
-                            }
-                        }
-                    }
-                    0x9c74b21a {
-                        0x4102143e: bool = true
-                        0xc7e16877: pointer = 0xd4737a04 {}
-                        0xe7e19b94: u16 = 27
-                        0x694aaa0b: hash = 0x2f26143a
-                        0xca0e79b5: string = "PORO_WASD_Option_MovementRotation_Description"
                     }
                 }
             }
@@ -814,8 +786,8 @@ entries: map[hash,embed] = {
                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_PlayerMovement_label"
                         0x3a79338f: list[pointer] = {
                             0xbb6f8e53 {
-                                0x4102143e: bool = true
                                 0xc7e16877: pointer = 0xd4737a04 {}
+                                0x4102143e: bool = true
                                 0x694aaa0b: hash = 0x25013f75
                                 0xe488d460: embed = 0x55212361 {
                                     0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
@@ -2089,6 +2061,10 @@ entries: map[hash,embed] = {
                                     0x430dd10d {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_DragScrollLock"
                                         0x2a078c9c: string = "[GameEvents]evtDragScrollLock"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "PORO_ELEPHANT_Options_Scout_Ahead_Mode_Toggle"
+                                        0x2a078c9c: string = "[GameEvents]evtFreeDynamicCameraToggle"
                                     }
                                 }
                             }

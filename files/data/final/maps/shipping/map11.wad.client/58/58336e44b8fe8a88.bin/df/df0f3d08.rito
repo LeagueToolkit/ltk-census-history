@@ -1,0 +1,42 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xdf0f3d08 = 0xc8400f38 {
+        0x6bfb316f: string = "PointAndClick Replay(constant)"
+        0xb157685d: string = "replayui_spectatorSelection"
+        0x2ec9dee5: i32 = 5
+        0x89ba4a26: link = 0x6bf19d7e
+        0x82d6dcb0: list2[pointer] = {
+            0xc8d6dccd {
+                0xf248d989: link = 0xf5ce6f38
+                0x5ff6cd50: list2[pointer] = {
+                    0x2152c2a1 {
+                        0xfd36c650: bool = true
+                        0x5e3d5ec0: list2[u32] = {
+                            5
+                            6
+                            7
+                        }
+                    }
+                }
+                0x01d6318d: u32 = 11
+            }
+            0xcaefc854 {
+                0xf248d989: link = 0xd77f30cc
+            }
+        }
+        0x5ff6cd50: list2[pointer] = {
+            0x65d58192 {}
+            0x49401c5c {
+                0xfd36c650: bool = true
+                0x5e3d5ec0: list2[u32] = {
+                    2
+                }
+            }
+            0xf5e4e61d {}
+        }
+        0x0e77fefb: bool = false
+    }
+}

@@ -1,0 +1,50 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xbb10280f = 0x5e7e5a06 {
+        0xe095d841: string = "Augment_Upgrade_SwordOfBlossom"
+        0xc8e37ef0: string = "Augment_Upgrade_SwordOfBlossom"
+        0x56d2be52: pointer = 0x43368569 {
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x19efbfdb: string = "AttackSpeed"
+                    0x246b0d8e: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "AttackDamageNerf"
+                    0x246b0d8e: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                }
+                0x005008a6 {
+                    0x19efbfdb: string = "PercentInc"
+                    0x246b0d8e: list[f32] = {
+                        2.5
+                        2.5
+                        2.5
+                        2.5
+                        2.5
+                        2.5
+                        2.5
+                    }
+                }
+            }
+        }
+    }
+}
