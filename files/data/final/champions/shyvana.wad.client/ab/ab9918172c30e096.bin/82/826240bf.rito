@@ -5,10 +5,10 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x826240bf = 0x9b67e9f6 {
         0x87225880: u32 = 1
-        0x2d78c328: string = "Shyvana_Skin06"
-        0x939e7b29: string = "faction:demacia,gender:female,element:fire,skinline:supergalaxy,appearance:dragon"
+        0x2d78c328: string = "BaseShyvana"
+        0x939e7b29: string = "faction:demacia,gender:female,element:fire,skinline:supergalaxy"
         0x97f7188d: embed = 0xd06263ff {
-            0xb35135fa: string = "ASSETS/Characters/Shyvana/Skins/skin06/ShyvanaLoadscreen_6.tex"
+            0xb35135fa: string = "ASSETS/Characters/Shyvana/Skins/Skin06/ShyvanaLoadScreen_6.Shyvana_Rework.tex"
         }
         0x8f7b194f: embed = 0x8f7b194f {
             0xd65bac4d: list[string] = {
@@ -17,52 +17,6 @@ entries: map[hash,embed] = {
             }
             0xf8f29f92: list2[embed] = {
                 0xa4416515 {
-                    0x8d39bde6: string = "Shyvana_Skin06_SFX"
-                    0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Shyvana/Skins/Skin06/Shyvana_Skin06_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Shyvana/Skins/Skin06/Shyvana_Skin06_SFX_events.bnk"
-                    }
-                    0x12d8e384: list[string] = {
-                        "Play_sfx_ShyvanaDragonSkin06_Recall_leadin"
-                        "Play_sfx_ShyvanaSkin06_Recall_leadin"
-                        "Play_sfx_ShyvanaSkin06_Respawn_buffactivate"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaDoubleAttack_OnBuffActivate"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaDoubleAttack_OnBuffDeactivate"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaDoubleAttack_OnCast"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaDoubleAttackDragon_OnBuffActivate"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaDoubleAttackDragon_OnBuffDeactivate"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaDoubleAttackDragon_OnCast"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaDoubleAttackHit_OnHit"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaDoubleAttackHitDragon_OnCast"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaDoubleAttackHitDragon_OnHit"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaFireball_OnCast"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaFireballDragon2_OnCast"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaFireballMissile_hit"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaFireballMissile_OnBuffActivate"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaFireballMissile_OnBuffDeactivate"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaFireballMissile_OnMissileLaunch"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaImmolateDragon_OnBuffActivate"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaImmolateDragon_OnBuffDeactivate"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaImmolateDragon_OnCast"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaImmolationAura_OnBuffActivate"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaImmolationAura_OnBuffDeactivate"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaImmolationAura_OnCast"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaTransform_OnBuffActivate"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaTransform_OnBuffDeactivate"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaTransformLeap_hit"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaTransformLeap_land"
-                        "Play_sfx_ShyvanaSkin06_ShyvanaTransformLeap_OnCast"
-                        "Stop_sfx_ShyvanaDragonSkin06_Recall_leadin"
-                        "Stop_sfx_ShyvanaSkin06_Recall_leadin"
-                        "Stop_sfx_ShyvanaSkin06_ShyvanaDoubleAttack_OnBuffActivate"
-                        "Stop_sfx_ShyvanaSkin06_ShyvanaDoubleAttackDragon_OnBuffActivate"
-                        "Stop_sfx_ShyvanaSkin06_ShyvanaFireballMissile_OnBuffActivate"
-                        "Stop_sfx_ShyvanaSkin06_ShyvanaFireballMissile_OnMissileLaunch"
-                        "Stop_sfx_ShyvanaSkin06_ShyvanaImmolateDragon_OnBuffActivate"
-                        "Stop_sfx_ShyvanaSkin06_ShyvanaImmolationAura_OnBuffActivate"
-                    }
-                }
-                0xa4416515 {
                     0x8d39bde6: string = "Shyvana_Base_VO"
                     0x2a21ad00: list[string] = {
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Shyvana/Skins/Base/Shyvana_Base_VO_audio.bnk"
@@ -70,38 +24,170 @@ entries: map[hash,embed] = {
                         "ASSETS/Sounds/Wwise2016/VO/en_US/Characters/Shyvana/Skins/Base/Shyvana_Base_VO_audio.wpk"
                     }
                     0x12d8e384: list[string] = {
+                        "Play_vo_Shyvana_Attack2DBaron"
+                        "Play_vo_Shyvana_Attack2DDragon"
+                        "Play_vo_Shyvana_Attack2DElderDragon"
                         "Play_vo_Shyvana_Attack2DGeneral"
-                        "Play_vo_Shyvana_Death3D"
+                        "Play_vo_Shyvana_Death3DHuman"
+                        "Play_vo_Shyvana_Dragon_Attack2DGeneral"
+                        "Play_vo_Shyvana_Dragon_Joke3DGeneral"
+                        "Play_vo_Shyvana_Dragon_Kill3DGeneral"
+                        "Play_vo_Shyvana_Dragon_Kill3DPenta"
+                        "Play_vo_Shyvana_Dragon_Taunt3DGeneral"
+                        "Play_vo_Shyvana_EnemyTeamKill3DEpicMonster"
+                        "Play_vo_Shyvana_FirstEncounter3DAurelionSol"
+                        "Play_vo_Shyvana_FirstEncounter3DDemacia"
+                        "Play_vo_Shyvana_FirstEncounter3DGeneral"
+                        "Play_vo_Shyvana_FirstEncounter3DJarvanIV"
+                        "Play_vo_Shyvana_FirstEncounter3DMilio"
+                        "Play_vo_Shyvana_FirstEncounter3DPoppy"
+                        "Play_vo_Shyvana_FirstEncounter3DQuinn"
+                        "Play_vo_Shyvana_FirstEncounter3DSmolder"
                         "Play_vo_Shyvana_Joke3DGeneral"
+                        "Play_vo_Shyvana_JokeResponse3DGeneral"
+                        "Play_vo_Shyvana_Kill3DAurelionSol"
+                        "Play_vo_Shyvana_Kill3DDemacia"
+                        "Play_vo_Shyvana_Kill3DEpicMonsterAheadAllyTeam"
+                        "Play_vo_Shyvana_Kill3DEpicMonsterBehindAllyTeam"
+                        "Play_vo_Shyvana_Kill3DFirst"
+                        "Play_vo_Shyvana_Kill3DGeneral"
+                        "Play_vo_Shyvana_Kill3DJarvanIV"
+                        "Play_vo_Shyvana_Kill3DMilio"
+                        "Play_vo_Shyvana_Kill3DPenta"
+                        "Play_vo_Shyvana_Kill3DPoppy"
+                        "Play_vo_Shyvana_Kill3DQuinn"
+                        "Play_vo_Shyvana_Kill3DSmolder"
                         "Play_vo_Shyvana_Laugh3DGeneral"
+                        "Play_vo_Shyvana_Move2DFirst"
+                        "Play_vo_Shyvana_Move2DFirstAllyDemacia"
+                        "Play_vo_Shyvana_Move2DFirstAllyJarvanIV"
+                        "Play_vo_Shyvana_Move2DFirstAllyQuinn"
+                        "Play_vo_Shyvana_Move2DLong"
                         "Play_vo_Shyvana_Move2DStandard"
+                        "Play_vo_Shyvana_Ping2DAssistMe"
+                        "Play_vo_Shyvana_Ping2DDanger"
+                        "Play_vo_Shyvana_Ping2DEnemyMissing"
+                        "Play_vo_Shyvana_Ping2DOnMyWay"
+                        "Play_vo_Shyvana_Ping2DTarget"
+                        "Play_vo_Shyvana_Recall3DGeneral"
+                        "Play_vo_Shyvana_Respawn2DGeneral"
                         "Play_vo_Shyvana_ShyvanaBasicAttack2_cast3D"
-                        "Play_vo_Shyvana_ShyvanaBasicAttack3_cast3D"
                         "Play_vo_Shyvana_ShyvanaBasicAttack_cast3D"
                         "Play_vo_Shyvana_ShyvanaCritAttack_cast3D"
-                        "Play_vo_Shyvana_ShyvanaDoubleAttackHit_cast3D"
-                        "Play_vo_Shyvana_ShyvanaFireball_cast3D"
-                        "Play_vo_Shyvana_ShyvanaTransformCast_cast3D"
+                        "Play_vo_Shyvana_ShyvanaE_cast3D"
+                        "Play_vo_Shyvana_ShyvanaQAttack2_cast3D"
+                        "Play_vo_Shyvana_ShyvanaQAttack_cast3D"
+                        "Play_vo_Shyvana_ShyvanaR_cast3D"
+                        "Play_vo_Shyvana_Spell2DRankUpGeneral"
+                        "Play_vo_Shyvana_Spell2DRRankOne"
+                        "Play_vo_Shyvana_Spell3DPMax"
                         "Play_vo_Shyvana_Taunt3DGeneral"
-                        "Play_vo_ShyvanaDragon_Attack2DGeneral"
-                        "Play_vo_ShyvanaDragon_Death3D"
-                        "Play_vo_ShyvanaDragon_Laugh3DGeneral"
-                        "Play_vo_ShyvanaDragon_Move2DStandard"
-                        "Play_vo_ShyvanaDragon_ShyvanaBasicAttack2_cast3D"
-                        "Play_vo_ShyvanaDragon_ShyvanaBasicAttack3_cast3D"
-                        "Play_vo_ShyvanaDragon_ShyvanaBasicAttack_cast3D"
-                        "Play_vo_ShyvanaDragon_ShyvanaCritAttack_cast3D"
-                        "Play_vo_ShyvanaDragon_ShyvanaDoubleAttackHitDragon_cast3D"
-                        "Play_vo_ShyvanaDragon_ShyvanaFireballDragon2_cast3D"
-                        "Play_vo_ShyvanaDragon_Taunt3DGeneral"
+                        "Play_vo_Shyvana_TauntResponse3DGeneral"
                     }
                     0x3b13aa4b: bool = true
                 }
                 0xa4416515 {
-                    0x8d39bde6: string = "Shyvana_Base_SFX"
+                    0x8d39bde6: string = "Shyvana_Skin06_SFX"
                     0x2a21ad00: list[string] = {
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Shyvana/Skins/Base/Shyvana_Base_SFX_audio.bnk"
-                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Shyvana/Skins/Base/Shyvana_Base_SFX_events.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Shyvana/Skins/Skin06/Shyvana_Skin06_SFX_audio.bnk"
+                        "ASSETS/Sounds/Wwise2016/SFX/Characters/Shyvana/Skins/Skin06/Shyvana_Skin06_SFX_events.bnk"
+                    }
+                    0x12d8e384: list[string] = {
+                        "Play_sfx_ShyvanaSkin06_ShyvanaBasicAttack2_OnCast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaBasicAttack2_OnHit"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaBasicAttack_OnCast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaBasicAttack_OnHit"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaCritAttack_OnCast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaCritAttack_OnHit"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDance3D_leadin"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDance3D_loop"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDeath3D_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonBasicAttack2_OnCast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonBasicAttack2_OnHit"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonBasicAttack_OnCast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonBasicAttack_OnHit"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonCritAttack_OnCast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonCritAttack_OnHit"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonDance3D_leadin"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonDance3D_loop"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonDeath3D_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonHomeguard3D_leadin"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonHomeguard3D_loop"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonJoke3D_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonLaugh3D_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonQ1_buffactivate_loop"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonQ2_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonQ3_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonQ3_buffactivate_loop"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonQ_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonR_hit"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonR_obd"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonR_omc"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonR_oncast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonR_ready_self"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonR_untransform"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonRecall3D_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonRespawn3D_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonRTransform_buffactivate_loop"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonTaunt3D_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonW_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonW_buffcast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonW_buffdeactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonW_heal"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonW_run_in"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaDragonW_runloop"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaE_hit"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaE_hitlocation"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaE_hitlocation_champ_sweetener"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaE_OnCast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaE_OnMissileLaunch"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaEDragon_hitlocation"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaEDragon_hitlocation_champ_sweetener"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaEDragon_hitlocation_dot"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaEDragon_OnCast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaEDragon_OnMissileCast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaEDragon_OnMissileLaunch"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaHomeguard3D_footstep_01"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaHomeguard3D_footstep_02"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaJoke3D_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaLaugh3D_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaQ2_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaQ_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaQ_buffactivate_loop"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaQAttack2_OnCast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaQAttack2_OnHit"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaQAttack_OnCast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaQAttack_OnHit"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaQAttackDragon2_OnCast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaQAttackDragon2_OnHit"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaQAttackDragon3_OnCast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaQAttackDragon3_OnHit"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaQAttackDragon_OnCast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaQAttackDragon_OnHit"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaQAttackReady2_OnBuffDeactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaQAttackReady3_OnBuffDeactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaQAttackReady_OnBuffDeactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaRecall3D_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaRespawn3D_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaTaunt3D_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaW_buffactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaW_buffcast"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaW_buffdeactivate"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaW_buffdeactivate_champ_hit"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaW_recast_ready_oc"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaW_run_footstep1"
+                        "Play_sfx_ShyvanaSkin06_ShyvanaW_run_footstep2"
+                        "Stop_sfx_ShyvanaSkin06_ShyvanaDragonQ1_buffactivate_loop"
+                        "Stop_sfx_ShyvanaSkin06_ShyvanaDragonQ3_buffactivate_loop"
+                        "Stop_sfx_ShyvanaSkin06_ShyvanaDragonR_obd"
+                        "Stop_sfx_ShyvanaSkin06_ShyvanaDragonRTransform_buffactivate_loop"
+                        "Stop_sfx_ShyvanaSkin06_ShyvanaDragonTaunt3D_buffactivate"
+                        "Stop_sfx_ShyvanaSkin06_ShyvanaDragonW_heal"
+                        "Stop_sfx_ShyvanaSkin06_ShyvanaE_hitlocation"
+                        "Stop_sfx_ShyvanaSkin06_ShyvanaE_OnMissileLaunch"
+                        "Stop_sfx_ShyvanaSkin06_ShyvanaEDragon_hitlocation_dot"
+                        "Stop_sfx_ShyvanaSkin06_ShyvanaEDragon_hitlocation_trail"
+                        "Stop_sfx_ShyvanaSkin06_ShyvanaQ_buffactivate_loop"
                     }
                 }
             }
@@ -110,49 +196,53 @@ entries: map[hash,embed] = {
             0xf5fb07c7: link = 0x84e91d9c
         }
         0x45ff5904: embed = 0x6111d8a4 {
-            0xb14c976e: string = "ASSETS/Characters/Shyvana/Skins/skin06/Shyvana_skin06.skl"
-            0xd6a00df6: string = "ASSETS/Characters/Shyvana/Skins/skin06/Shyvana_skin06.skn"
-            0x3c6468f4: string = "ASSETS/Characters/Shyvana/Skins/skin06/shyvana_skin06_TX_CM.tex"
-            0xde37b388: string = "ASSETS/Characters/Shyvana/Skins/skin06/shyvana_skin06_TX_GM.tex"
-            0xa1f805da: f32 = 1.23
+            0xb14c976e: string = "ASSETS/Characters/Shyvana/Skins/Skin06/Shyvana_Skin06.Shyvana_Rework.skl"
+            0xd6a00df6: string = "ASSETS/Characters/Shyvana/Skins/Skin06/Shyvana_Skin06.Shyvana_Rework.skn"
+            0x3c6468f4: string = "ASSETS/Characters/Shyvana/Skins/Skin06/Shyvana_Skin06_TX_CM.Shyvana_Rework.tex"
+            0xde37b388: string = "ASSETS/Characters/Shyvana/Skins/Skin06/Shyvana_Skin06_TX_GM.Shyvana_Rework.tex"
             0x252f6884: f32 = 0.7
+            0x5c7a0332: option[vec3] = {
+                { 150, 250, 150 }
+            }
+            0xd2e4d060: link = 0xd54057c9
             0x38ec08cf: rgba = { 102, 0, 59, 255 }
             0x9137d3b8: f32 = 0.05
-            0xdb40d44a: string = "ASSETS/Characters/Shyvana/Skins/skin06/shyvana_skin06_CubeMap.dds"
-            0x11bc7060: f32 = 0.45
-            0x173a5bb6: f32 = 0.05
-            0x130d610b: f32 = 0.5
+            0xdb40d44a: string = "ASSETS/Characters/Shyvana/Skins/Skin06/Basic_low_CubeMap.Shyvana_Rework.dds"
+            0x11bc7060: f32 = 1
+            0x130d610b: f32 = 0.9
+            0x561f4fea: rgba = { 247, 158, 255, 255 }
+            0xe9c98281: list[pointer] = {
+                0xce0b9a93 {
+                    0xc6a8e023: hash = 0x43c14655
+                    0x96dbc896: hash = 0xec8505fd
+                    0x50271332: hash = 0x4fc1e099
+                    0x93b7fa73: f32 = 20
+                }
+            }
         }
         0x2d0d1f1d: string = "Metal"
         0x84186f3c: list[embed] = {
             0x33068165 {
-                0x9b0300f3: hash = 0xe498900a
-                0x1ecb978c: string = "BUFFBONE_CSTM_EYE1"
+                0x9b0300f3: hash = 0x7ad6a63b
+                0x1ecb978c: string = "R_Buffbone_Glb_Ablility_Loc"
             }
-            0x33068165 {
-                0x9b0300f3: hash = 0xcad2af57
-                0x1ecb978c: string = "BUFFBONE_CSTM_EYE2"
-            }
-        }
-        0x660c8b4e: list[string] = {
-            "ShyvanaDragon"
         }
         0xd8f64a0d: link = 0xa637f951
         0xe67284f4: option[string] = {
-            "ASSETS/Characters/Shyvana/HUD/Shyvana_Circle_0.tex"
+            "ASSETS/Characters/Shyvana/HUD/Shyvana_Circle_0.Shyvana_Rework.tex"
         }
         0xac473fef: option[string] = {
-            "ASSETS/Characters/Shyvana/HUD/Shyvana_Square_0.tex"
+            "ASSETS/Characters/Shyvana/HUD/Shyvana_Square_0.Shyvana_Rework.tex"
         }
-        0x089aff69: string = "ASSETS/Characters/Shyvana/HUD/Shyvana_Circle_6.tex"
+        0x089aff69: string = "ASSETS/Characters/Shyvana/HUD/Shyvana_Circle_6.Shyvana_Rework.tex"
+        0x29306858: string = ""
+        0x5f094353: string = ""
         0x51c83af8: embed = 0x11b71b5e {
             0x3fcb5693: u8 = 12
         }
-        0xb698fb27: list[embed] = {
-            0x7ba9ed2e {
-                0x5df7536e: link = 0xb19fb4b4
-            }
-        }
         0x62286e7e: link = 0xe30ffe95
+        0x87b1d303: list2[pointer] = {
+            0x67ac9672 {}
+        }
     }
 }

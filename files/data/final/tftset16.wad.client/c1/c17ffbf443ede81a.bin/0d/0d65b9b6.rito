@@ -29,7 +29,25 @@ entries: map[hash,embed] = {
         }
         0xd0ab46b8: list2[embed] = {
             0xde480eef {
-                0x8d39bde6: string = "Bloom_Amount"
+                0x8d39bde6: string = "Colorize_Power"
+                0x425ed3ca: vec4 = { 2, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Bloom_Color"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Rim_A_High"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Rim_A_Low"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Light_Shadow_Offset"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Rim_Lighting_Offset"
+                0x425ed3ca: vec4 = { -0.42, -0.42, -0.42, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "EmissiveFresnelSmoothStep"
@@ -96,10 +114,6 @@ entries: map[hash,embed] = {
                 0x425ed3ca: vec4 = { 0, 1, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Rim_Lighting_Offset"
-                0x425ed3ca: vec4 = { -0.42, -0.42, -0.42, 0 }
-            }
-            0xde480eef {
                 0x8d39bde6: string = "Rim_Power"
                 0x425ed3ca: vec4 = { 2, 0, 0, 0 }
             }
@@ -110,9 +124,6 @@ entries: map[hash,embed] = {
             0xde480eef {
                 0x8d39bde6: string = "Color_Rim"
                 0x425ed3ca: vec4 = { 0.8299992, 0.7499962, 0.5000076, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "Light_Shadow_Offset"
             }
             0xde480eef {
                 0x8d39bde6: string = "Light_Shadow_SmoothSteps"
@@ -142,13 +153,6 @@ entries: map[hash,embed] = {
                 0x8d39bde6: string = "Rim_Intensity_A"
             }
             0xde480eef {
-                0x8d39bde6: string = "Rim_A_Low"
-            }
-            0xde480eef {
-                0x8d39bde6: string = "Rim_A_High"
-                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
-            }
-            0xde480eef {
                 0x8d39bde6: string = "Rim_Power_A"
                 0x425ed3ca: vec4 = { 2, 0, 0, 0 }
             }
@@ -158,10 +162,6 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "Colorize_Opacity"
-            }
-            0xde480eef {
-                0x8d39bde6: string = "Colorize_Power"
-                0x425ed3ca: vec4 = { 2, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "EmissiveFresnelSize"
@@ -177,6 +177,10 @@ entries: map[hash,embed] = {
             }
         }
         0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "VETEX_COLOR_BLOOM_MASK"
+                0x61342fd0: bool = false
+            }
             0x0e2212a1 {
                 0x8d39bde6: string = "USE_EFFECT_MASK"
                 0x5fb91e8c: string = "Emissive Fresnel"

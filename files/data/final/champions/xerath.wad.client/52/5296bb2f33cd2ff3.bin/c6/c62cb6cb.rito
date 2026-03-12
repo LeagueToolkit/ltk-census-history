@@ -29,6 +29,7 @@ entries: map[hash,embed] = {
             0x0904b150 {
                 0xb311d4ef: string = "FlowmapTex"
                 0xf0a363e3: string = "ASSETS/Shared/Materials/flowmap.tex"
+                0x02e7fb4c: string = "Clamp_No_Mip"
             }
             0x0904b150 {
                 0xb311d4ef: string = "AdditiveScroll_Mask"
@@ -41,6 +42,7 @@ entries: map[hash,embed] = {
             0x0904b150 {
                 0xb311d4ef: string = "DeformMask"
                 0xf0a363e3: string = "ASSETS/Characters/Xerath/Skins/Skin32/Xerath_Skin32_VFXMask_TX_CM.SKINS_Xerath_Skin32.tex"
+                0x02e7fb4c: string = "Clamp_No_Mip"
             }
             0x0904b150 {
                 0xb311d4ef: string = "DeformNoise"
@@ -49,6 +51,7 @@ entries: map[hash,embed] = {
             0x0904b150 {
                 0xb311d4ef: string = "BloomColor"
                 0xf0a363e3: string = "ASSETS/Characters/Ahri/Skins/Skin88/Ahri_Skin88_Tail_BloomColor_TX_CM.SKINS_Ahri_Skin88.tex"
+                0x02e7fb4c: string = "Clamp_No_Mip"
             }
             0x0904b150 {
                 0xb311d4ef: string = "Mask_Swirls"
@@ -61,6 +64,7 @@ entries: map[hash,embed] = {
             0x0904b150 {
                 0xb311d4ef: string = "Transition_State2"
                 0xf0a363e3: string = "ASSETS/Shared/Materials/rock_texture.tex"
+                0x02e7fb4c: string = "Clamp_No_Mip"
             }
             0x0904b150 {
                 0xb311d4ef: string = "Transition_PatternTexture"
@@ -69,9 +73,26 @@ entries: map[hash,embed] = {
             0x0904b150 {
                 0xb311d4ef: string = "Dissolve_Tex"
                 0xf0a363e3: string = "ASSETS/Shared/Materials/Generic_Noise.tex"
+                0x02e7fb4c: string = "Clamp_No_Mip"
             }
         }
         0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "modelHeight"
+                0x425ed3ca: vec4 = { 275, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "rimOffset"
+                0x425ed3ca: vec4 = { 0.3, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "albedoNewMax"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "albedoNewMin"
+                0x425ed3ca: vec4 = { 0.1, 0, 0, 0 }
+            }
             0xde480eef {
                 0x8d39bde6: string = "Transition_Pattern_Tilling"
                 0x425ed3ca: vec4 = { 0.02, 0.5, 0, 0 }
@@ -362,6 +383,14 @@ entries: map[hash,embed] = {
             }
         }
         0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_ALBEDO_REMAP"
+                0x5fb91e8c: string = "Albedo Remap"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_RIM"
+                0x5fb91e8c: string = "Rim"
+            }
             0x0e2212a1 {
                 0x8d39bde6: string = "SURFACE_SCROLLING_VFXMESH"
                 0x61342fd0: bool = false

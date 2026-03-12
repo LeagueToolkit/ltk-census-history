@@ -15,12 +15,21 @@ entries: map[hash,embed] = {
         }
         0xd0ab46b8: list2[embed] = {
             0xde480eef {
-                0x8d39bde6: string = "TintColor"
-                0x425ed3ca: vec4 = { 0.5019608, 0.5019608, 0.5019608, 0 }
-            }
-            0xde480eef {
                 0x8d39bde6: string = "AlphaTestValue"
             }
+            0xde480eef {
+                0x8d39bde6: string = "TintColor"
+                0x425ed3ca: vec4 = { 0.5, 0.5, 0.5, 1 }
+            }
+        }
+        0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "MULTIPLY_ALPHA"
+            }
+        }
+        0xe6d67ded: map[string,string] = {
+            "DISABLE_FOW" = "1"
+            "DISABLE_DEPTH_FOG" = "1"
         }
         0x844f384e: list[embed] = {
             0x060a4413 {
@@ -28,13 +37,7 @@ entries: map[hash,embed] = {
                 0x623cd25c: list[embed] = {
                     0x8537d0c2 {
                         0x355d5568: link = 0xeff08973
-                        0xe6d67ded: map[string,string] = {
-                            "DISABLE_FOW" = "1"
-                            "DISABLE_DEPTH_FOG" = "1"
-                        }
                         0x23b75597: bool = true
-                        0x22c0c7d0: u32 = 6
-                        0xa0958d01: u32 = 6
                         0xbe0abbf5: u32 = 7
                         0x7385e534: u32 = 7
                     }
