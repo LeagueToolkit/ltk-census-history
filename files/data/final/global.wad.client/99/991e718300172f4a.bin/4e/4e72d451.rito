@@ -560,6 +560,35 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
+                0x8d39bde6: string = "TransitionBloomEdgeColor"
+                0xd872e2a5: vec4 = { 0, 0, 0, 1 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "TransitionBloomEdgeColor"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "TransitionBloomEdgeWidth"
+                0xd872e2a5: vec4 = { 0.3, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "TransitionBloomEdgeWidth"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "TransitionEdgeBias"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "TransitionEdgeBias"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
                 0x8d39bde6: string = "Dissolve_Color"
                 0xd872e2a5: vec4 = { 0.99607843, 0.96862745, 0.27058825, 1 }
                 0x74672198: list[embed] = {
@@ -794,6 +823,16 @@ entries: map[hash,embed] = {
                     }
                 }
             }
+            0x816753d8 {
+                0x8d39bde6: string = "TransitionBloomEdgeIntensity"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "TransitionBloomEdgeIntensity"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
         }
         0x3291437b: list[embed] = {
             0x60a292e6 {
@@ -849,9 +888,6 @@ entries: map[hash,embed] = {
                 0x8d39bde6: string = "DISSOLVE"
             }
             0x60a292e6 {
-                0x8d39bde6: string = "DEBUG_HIDE"
-            }
-            0x60a292e6 {
                 0x8d39bde6: string = "FEATURE_BLOOM"
             }
         }
@@ -861,14 +897,12 @@ entries: map[hash,embed] = {
                 0x32b374fa: string = "ASSETS/Shared/Materials/OnsenTexture/CaseTexture03.tex"
             }
             0x31d1e223 {
-                0x8d39bde6: string = "DeformMask"
+                0x8d39bde6: string = "NoiseDisturb"
                 0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
-                0x02e7fb4c: string = "Clamp_No_Mip"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Transition_State2"
                 0x32b374fa: string = "ASSETS/Shared/Materials/rock_texture.tex"
-                0x02e7fb4c: string = "Clamp_No_Mip"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "FlowmapTex"
@@ -888,10 +922,6 @@ entries: map[hash,embed] = {
                 0x32b374fa: string = "ASSETS/Shared/Materials/BC_TestTexture.tex"
             }
             0x31d1e223 {
-                0x8d39bde6: string = "NoiseDisturb"
-                0x32b374fa: string = "ASSETS/Shared/Materials/OnsenTexture/Noise04.tex"
-            }
-            0x31d1e223 {
                 0x8d39bde6: string = "Mask"
                 0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
             }
@@ -906,20 +936,6 @@ entries: map[hash,embed] = {
             0x31d1e223 {
                 0x8d39bde6: string = "Transition_PatternTexture"
                 0x32b374fa: string = "ASSETS/Shared/Materials/white.tex"
-            }
-            0x31d1e223 {
-                0x8d39bde6: string = "Dissolve_Tex"
-                0x32b374fa: string = "ASSETS/Shared/Materials/Generic_Noise.tex"
-                0x02e7fb4c: string = "Clamp_No_Mip"
-            }
-            0x31d1e223 {
-                0x8d39bde6: string = "Mask_Swirls"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
-            }
-            0x31d1e223 {
-                0x8d39bde6: string = "BloomColor"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
-                0x02e7fb4c: string = "Clamp_No_Mip"
             }
         }
         0xae29287b: map[string,string] = {

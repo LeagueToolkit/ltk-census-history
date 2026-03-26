@@ -840,6 +840,10 @@ entries: map[hash,embed] = {
                                         0x2a078c9c: string = "[WASD]SelectAlly4"
                                     }
                                     0x518d5fc0 {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_CycleAllies"
+                                        0x2a078c9c: string = "[WASD]CycleAllies"
+                                    }
+                                    0x518d5fc0 {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_ToggleCameraLock"
                                         0x2a078c9c: string = "[WASD]CameraLockToggle"
                                     }
@@ -1152,6 +1156,42 @@ entries: map[hash,embed] = {
                                     0x518d5fc0 {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_ItemShop_SwitchShopTabs"
                                         0x2a078c9c: string = "[WASD]ShopSwitchTabs"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0xd79b9cc2 {
+                        0xc7e16877: pointer = 0xcd391c99 {
+                            0x420c4abd: bool = false
+                            0x1dde7980: bool = false
+                        }
+                        0x694aaa0b: hash = 0xb5e1975a
+                        0xca0e79b5: string = "Options_Hotkeys_Cursor_Label"
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x7df5fd7a
+                                0xe488d460: embed = 0xea321356 {
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x349ad6a6: bool = true
+                                0x098f86e0: list2[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_MoveCursorUp_Label"
+                                        0x2a078c9c: string = "[WASD]MoveCursorUp"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_MoveCursorDown_Label"
+                                        0x2a078c9c: string = "[WASD]MoveCursorDown"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_MoveCursorLeft_Label"
+                                        0x2a078c9c: string = "[WASD]MoveCursorLeft"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_MoveCursorRight_Label"
+                                        0x2a078c9c: string = "[WASD]MoveCursorRight"
                                     }
                                 }
                             }
@@ -2035,6 +2075,13 @@ entries: map[hash,embed] = {
                                         }
                                     }
                                     0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_CycleAllies"
+                                        0x2a078c9c: string = "[GameEvents]evtCycleAllies"
+                                        0xc7e16877: pointer = 0xa6f7c24c {
+                                            0x4060d426: string = "KeybindingsInputPorting"
+                                        }
+                                    }
+                                    0x430dd10d {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_CameraControl_ToggleCameraLock"
                                         0x2a078c9c: string = "[GameEvents]evtCameraLockToggle"
                                     }
@@ -2065,6 +2112,9 @@ entries: map[hash,embed] = {
                                     0x430dd10d {
                                         0xca0e79b5: string = "PORO_ELEPHANT_Options_Scout_Ahead_Mode_Toggle"
                                         0x2a078c9c: string = "[GameEvents]evtFreeDynamicCameraToggle"
+                                        0xc7e16877: pointer = 0xa6f7c24c {
+                                            0x4060d426: string = "KeybindingsInputPorting"
+                                        }
                                     }
                                 }
                             }
@@ -2437,6 +2487,48 @@ entries: map[hash,embed] = {
                                     0x430dd10d {
                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_ItemShop_SwitchShopTabs"
                                         0x2a078c9c: string = "[ShopEvents]evtShopSwitchTabs"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    0xd79b9cc2 {
+                        0xc7e16877: pointer = 0x0a6743a7 {
+                            0xabd6be4c: list[pointer] = {
+                                0xcd391c99 {
+                                    0x420c4abd: bool = false
+                                    0x1dde7980: bool = false
+                                }
+                                0xa6f7c24c {
+                                    0x4060d426: string = "KeybindingsInputPorting"
+                                }
+                            }
+                        }
+                        0x694aaa0b: hash = 0xb5e1975a
+                        0xca0e79b5: string = "Options_Hotkeys_Cursor_Label"
+                        0x3a79338f: list[pointer] = {
+                            0x6a9faeda {
+                                0x694aaa0b: hash = 0x7df5fd7a
+                                0xe488d460: embed = 0xea321356 {
+                                    0x758026f0: string = "Options_Hotkeys_AdditionalHotkeys_Set1_label"
+                                    0x34c7d48f: string = "Options_Hotkeys_AdditionalHotkeys_Set2_label"
+                                }
+                                0x098f86e0: list2[embed] = {
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_MoveCursorUp_Label"
+                                        0x2a078c9c: string = "[GameEvents]evtMoveCursorUp"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_MoveCursorDown_Label"
+                                        0x2a078c9c: string = "[GameEvents]evtMoveCursorDown"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_MoveCursorLeft_Label"
+                                        0x2a078c9c: string = "[GameEvents]evtMoveCursorLeft"
+                                    }
+                                    0x430dd10d {
+                                        0xca0e79b5: string = "Options_Hotkeys_MoveCursorRight_Label"
+                                        0x2a078c9c: string = "[GameEvents]evtMoveCursorRight"
                                     }
                                 }
                             }

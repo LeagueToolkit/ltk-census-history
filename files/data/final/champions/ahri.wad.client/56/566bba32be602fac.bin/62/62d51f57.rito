@@ -15,7 +15,7 @@ entries: map[hash,embed] = {
             }
             0x0904b150 {
                 0xb311d4ef: string = "NoiseDisturb"
-                0xf0a363e3: string = "ASSETS/Characters/Ahri/Skins/Skin88/Ahri_Skin88_Noise_Turbulence_TX_CM.SKINS_Ahri_Skin88.tex"
+                0xf0a363e3: string = "ASSETS/Characters/Ahri/Skins/Skin88/Ahri_Skin88_Shoulder_TurbulDeform_TX_CM.SKINS_Ahri_Skin88.tex"
             }
             0x0904b150 {
                 0xb311d4ef: string = "Mask"
@@ -25,11 +25,11 @@ entries: map[hash,embed] = {
             }
             0x0904b150 {
                 0xb311d4ef: string = "WaterShape"
-                0xf0a363e3: string = "ASSETS/Characters/Ahri/Skins/Skin88/Ahri_Skin88_Noise_Turbulence_TX_CM.SKINS_Ahri_Skin88.tex"
+                0xf0a363e3: string = "ASSETS/Characters/Ahri/Skins/Skin88/Ahri_Skin88_Shoulder_TurbulDeform_TX_CM.SKINS_Ahri_Skin88.tex"
             }
             0x0904b150 {
                 0xb311d4ef: string = "FlowmapTex"
-                0xf0a363e3: string = "ASSETS/Characters/Ahri/Skins/Skin88/Ahri_Skin88_Dress_Flowmap2_TX_CM.SKINS_Ahri_Skin88.tex"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/flowmap.tex"
                 0x02e7fb4c: string = "Clamp_No_Mip"
             }
             0x0904b150 {
@@ -41,22 +41,8 @@ entries: map[hash,embed] = {
                 0xf0a363e3: string = "ASSETS/Shared/Materials/BC_TestTexture.tex"
             }
             0x0904b150 {
-                0xb311d4ef: string = "DeformMask"
-                0xf0a363e3: string = "ASSETS/Characters/Ahri/Skins/Skin88/Ahri_Skin88_Dress_Deform_Mask_TX_CM.SKINS_Ahri_Skin88.tex"
-                0x02e7fb4c: string = "Clamp_No_Mip"
-            }
-            0x0904b150 {
                 0xb311d4ef: string = "DeformNoise"
                 0xf0a363e3: string = "ASSETS/Characters/Ahri/Skins/Skin88/Ahri_Skin88_CaseTexture01_TX_CM.SKINS_Ahri_Skin88.tex"
-            }
-            0x0904b150 {
-                0xb311d4ef: string = "BloomColor"
-                0xf0a363e3: string = "ASSETS/Characters/Ahri/Skins/Skin94/Ahri_Skin94_TX_CM.Chroma_Ahri_Onsen.tex"
-                0x02e7fb4c: string = "Clamp_No_Mip"
-            }
-            0x0904b150 {
-                0xb311d4ef: string = "Mask_Swirls"
-                0xf0a363e3: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
             }
             0x0904b150 {
                 0xb311d4ef: string = "HighLightShape"
@@ -65,16 +51,10 @@ entries: map[hash,embed] = {
             0x0904b150 {
                 0xb311d4ef: string = "Transition_State2"
                 0xf0a363e3: string = "ASSETS/Shared/Materials/rock_texture.tex"
-                0x02e7fb4c: string = "Clamp_No_Mip"
             }
             0x0904b150 {
                 0xb311d4ef: string = "Transition_PatternTexture"
                 0xf0a363e3: string = "ASSETS/Shared/Materials/white.tex"
-            }
-            0x0904b150 {
-                0xb311d4ef: string = "Dissolve_Tex"
-                0xf0a363e3: string = "ASSETS/Shared/Materials/Generic_Noise.tex"
-                0x02e7fb4c: string = "Clamp_No_Mip"
             }
         }
         0xd0ab46b8: list2[embed] = {
@@ -95,6 +75,13 @@ entries: map[hash,embed] = {
                 0x425ed3ca: vec4 = { 0.1, 0, 0, 0 }
             }
             0xde480eef {
+                0x8d39bde6: string = "Transition_Value"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Transition_Pattern_Intensity"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
                 0x8d39bde6: string = "Transition_Pattern_Tilling"
                 0x425ed3ca: vec4 = { 0.02, 0.5, 0, 0 }
             }
@@ -103,11 +90,19 @@ entries: map[hash,embed] = {
                 0x425ed3ca: vec4 = { 0.2, 0, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Transition_Pattern_Intensity"
-                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+                0x8d39bde6: string = "TransitionEdgeBias"
             }
             0xde480eef {
-                0x8d39bde6: string = "Transition_Value"
+                0x8d39bde6: string = "TransitionBloomEdgeWidth"
+                0x425ed3ca: vec4 = { 0.3, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "TransitionBloomEdgeColor"
+                0x425ed3ca: vec4 = { 0, 0, 0, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "TransitionBloomEdgeIntensity"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Pulse_Offset"
@@ -463,11 +458,6 @@ entries: map[hash,embed] = {
                 0x8d39bde6: string = "INSIDE_COLOR"
                 0x61342fd0: bool = false
                 0x5fb91e8c: string = "Inside Face Feature"
-            }
-            0x0e2212a1 {
-                0x8d39bde6: string = "DEBUG_HIDE"
-                0x61342fd0: bool = false
-                0x5fb91e8c: string = "Others"
             }
         }
         0x844f384e: list[embed] = {
