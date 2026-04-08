@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x39b02ff9 = 0x60e00531 {
+        0x19efbfdb: string = "TFT17_Stage2High"
+        0x0773669d: map[string,pointer] = {
+            "Stage2High1" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.44
+            }
+            "Stage2High2" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.44
+            }
+            "Stage2High3" = 0x977517c6 {}
+            "Stage2High4" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.12
+            }
+            "Stage2High5" = 0x977517c6 {}
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

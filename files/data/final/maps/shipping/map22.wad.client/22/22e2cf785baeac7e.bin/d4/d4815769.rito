@@ -1,0 +1,41 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd4815769 = 0x60e00531 {
+        0x19efbfdb: string = "TFT17_VexFormSwapperStats"
+        0x0773669d: map[string,pointer] = {
+            "AttackDamage_Melee" = 0x4012fd7e {
+                0x24f2ec89: i32 = 60
+            }
+            "AttackDamage_Ranged" = 0x4012fd7e {
+                0x24f2ec89: i32 = 50
+            }
+            "Resists_Melee" = 0x4012fd7e {
+                0x24f2ec89: i32 = 70
+            }
+            "Resists_Ranged" = 0x4012fd7e {
+                0x24f2ec89: i32 = 40
+            }
+            "BonusHealth_Melee" = 0x4012fd7e {
+                0x24f2ec89: i32 = 300
+            }
+            "MaxMana_Melee" = 0x977517c6 {
+                0x24f2ec89: f32 = 50
+            }
+            "MaxMana_Ranged" = 0x977517c6 {
+                0x24f2ec89: f32 = 60
+            }
+            "StartingMana_Melee" = 0x977517c6 {}
+            "StartingMana_Ranged" = 0x977517c6 {}
+            "AttackSpeed_Melee" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.95
+            }
+            "AttackSpeed_Ranged" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.9
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

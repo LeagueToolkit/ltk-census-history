@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xad22d53f = 0x60e00531 {
+        0x19efbfdb: string = "TFT17_Stage2MinorOffering_78"
+        0x0773669d: map[string,pointer] = {
+            "Slot1" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "3cost"
+                }
+            }
+            "Slot2" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "3cost"
+                }
+            }
+            "Slot3" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "1cost_2star"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

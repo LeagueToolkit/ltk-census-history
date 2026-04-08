@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x55544c48 = 0x60e00531 {
+        0x19efbfdb: string = "BoosterPack3LootC"
+        0x0773669d: map[string,pointer] = {
+            "RandomUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "OneCostUnit"
+                    "ThreeCostUnit"
+                    "ThreeCostUnit"
+                    "FourCostUnit"
+                }
+            }
+            "TwoStarUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "FiveCostUnit"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

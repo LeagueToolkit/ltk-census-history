@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x7d95a47c = 0xd186c31a {
+        0x19efbfdb: string = "TFT17_MarketOffering_Augment_LevelUp"
+        0xadb3e562: embed = 0xd65315ee {
+            0xdf085b93: map[hash,pointer] = {
+                0x516374d5 = 0x977517c6 {
+                    0x24f2ec89: f32 = 2
+                }
+                0x0f8bb2e3 = 0x977517c6 {
+                    0x24f2ec89: f32 = 12
+                }
+            }
+        }
+        0xc3143d66: string = "TFT6_Augment_MaxLevel10_Name"
+        0x765f18da: string = "TFT9_Augment_MaxLevel10_desc_new"
+        0x8bee2972: string = "ASSETS/Maps/TFT/Icons/Augments/Hexcore/LevelUp3.tex"
+        0x5371e38f: option[rgba] = {
+            { 76, 47, 65, 255 }
+        }
+    }
+}

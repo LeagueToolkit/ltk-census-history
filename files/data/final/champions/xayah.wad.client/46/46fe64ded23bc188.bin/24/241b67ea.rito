@@ -7,6 +7,10 @@ entries: map[hash,embed] = {
         0x8d39bde6: string = "Characters/Xayah/Skins/Skin1/Materials/XayahSkin01_staticDef"
         0x0a6f0eb5: list2[embed] = {
             0x0904b150 {
+                0xb311d4ef: string = "Mask"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/white.tex"
+            }
+            0x0904b150 {
                 0xb311d4ef: string = "Diffuse_Texture"
                 0xf0a363e3: string = "ASSETS/Shared/Materials/UVAnimate/Xayah_Skin01_Wing_TX_CM.tex"
                 0x111ec6d2: u32 = 1
@@ -26,12 +30,12 @@ entries: map[hash,embed] = {
         }
         0xd0ab46b8: list2[embed] = {
             0xde480eef {
-                0x8d39bde6: string = "Top_Tile"
-                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+                0x8d39bde6: string = "Anim_Scale_Frequency"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Anim_Wave_Frequency"
-                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+                0x8d39bde6: string = "Anim_Scale_Intensity"
+                0x425ed3ca: vec4 = { 2, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Anim_Scale_Speed"
@@ -42,19 +46,34 @@ entries: map[hash,embed] = {
                 0x425ed3ca: vec4 = { 5, 5, 0.5, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Anim_Scale_Frequency"
+                0x8d39bde6: string = "Anim_Wave_Dir_Intensity"
                 0x425ed3ca: vec4 = { 1, 0, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Anim_Scale_Intensity"
-                0x425ed3ca: vec4 = { 2, 0, 0, 0 }
+                0x8d39bde6: string = "Anim_Wave_Frequency"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Anim_Wave_Speed"
                 0x425ed3ca: vec4 = { 0.3, 0, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Anim_Wave_Dir_Intensity"
+                0x8d39bde6: string = "Bloom_Intensity"
+                0x425ed3ca: vec4 = { 2, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Bottom_ScrollSpeed"
+                0x425ed3ca: vec4 = { -0.02, 0.02, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Fresnel_ColorBias"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Fresnel_Size"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "LQ_Lighting_Intensity"
                 0x425ed3ca: vec4 = { 1, 0, 0, 0 }
             }
             0xde480eef {
@@ -62,15 +81,38 @@ entries: map[hash,embed] = {
                 0x425ed3ca: vec4 = { 1, 0, 0, 0 }
             }
             0xde480eef {
-                0x8d39bde6: string = "Bottom_ScrollSpeed"
-                0x425ed3ca: vec4 = { -0.02, 0.02, 0, 0 }
+                0x8d39bde6: string = "RimColor"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "RimLightOffset"
+                0x425ed3ca: vec4 = { -0.42, -0.42, -0.42, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Rim_max"
+                0x425ed3ca: vec4 = { -2, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Top_ScrollSpeed"
                 0x425ed3ca: vec4 = { 0.1, 0.03, 0, 0 }
             }
+            0xde480eef {
+                0x8d39bde6: string = "Top_Tile"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
         }
         0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "ADDITIVE_ALPHA"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "BLOOM"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "RIM"
+                0x61342fd0: bool = false
+            }
             0x0e2212a1 {
                 0x8d39bde6: string = "VERTEX_COLOR_ANIM"
                 0x61342fd0: bool = false

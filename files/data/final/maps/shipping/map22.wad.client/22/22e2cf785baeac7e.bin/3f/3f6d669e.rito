@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x3f6d669e = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_GodBlessing_Order13"
+        0x0773669d: map[string,pointer] = {
+            "TreasureOrder" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "ANVIL_ORNN"
+                    "ANVIL_ORNN"
+                    "ANVIL_ORNN"
+                    "ANVIL_ORNN"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

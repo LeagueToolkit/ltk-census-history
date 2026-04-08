@@ -1,0 +1,26 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x17391610 = 0x60e00531 {
+        0x19efbfdb: string = "TFT17_Primordian_StarLevelInfo_2"
+        0x0773669d: map[string,pointer] = {
+            "SpawnableUnits" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT17_Enemy_Fast"
+                }
+            }
+            "TFT17_Enemy_Fast_Cooldown" = 0x977517c6 {
+                0x24f2ec89: f32 = 2
+            }
+            "TFT17_Enemy_Fast_MaxPerPull" = 0x977517c6 {
+                0x24f2ec89: f32 = 100
+            }
+            "TFT17_Enemy_Fast_DamageToPull" = 0x977517c6 {
+                0x24f2ec89: f32 = 600
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

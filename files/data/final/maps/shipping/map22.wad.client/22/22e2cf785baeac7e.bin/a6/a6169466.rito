@@ -1,0 +1,19 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xa6169466 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_GodBlessing_Base8"
+        0x0773669d: map[string,pointer] = {
+            "Treasure" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "COMPONENT_NOSPAT"
+                    "GOD_BLESSING_SMALL"
+                    "GOD_BLESSING_LARGE"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

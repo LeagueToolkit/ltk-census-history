@@ -1,0 +1,18 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc6ad6133 = 0x60e00531 {
+        0x19efbfdb: string = "TFT17_ThreshLoot2E"
+        0x0773669d: map[string,pointer] = {
+            "Gold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 4
+            }
+            "Item" = 0xa82b69c9 {
+                0x9f3833e6: link = 0x8945166a
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

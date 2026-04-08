@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe55f34da = 0x60e00531 {
+        0x19efbfdb: string = "TFT17_ThreshLootTable_Stage4"
+        0x0773669d: map[string,pointer] = {
+            "TFT17_ThreshLoot4A" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.17
+            }
+            "TFT17_ThreshLoot4B" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "TFT17_ThreshLoot4G" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.03
+            }
+            "TFT17_ThreshLoot4I" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.25
+            }
+            "TFT17_ThreshLoot4K" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.2
+            }
+            "TFT17_ThreshLoot4F" = 0x977517c6 {
+                0x24f2ec89: f32 = 0.15
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

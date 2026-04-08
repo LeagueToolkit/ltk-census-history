@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x1d85a5b3 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_EMBLEM_SET17_Classes"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT17_Item_ResistTankEmblemItem"
+                    "TFT17_Item_HPTankEmblemItem"
+                    "TFT17_Item_ASTraitEmblemItem"
+                    "TFT17_Item_MeleeTraitEmblemItem"
+                    "TFT17_Item_ShieldTankEmblemItem"
+                    "TFT17_Item_FlexTraitEmblemItem"
+                    "TFT17_Item_SummonTraitEmblemItem"
+                    "TFT17_Item_AssassinTraitEmblemItem"
+                    "TFT17_Item_RangedTraitEmblemItem"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

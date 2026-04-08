@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x66f02d63 = 0x60e00531 {
+        0x19efbfdb: string = "TFT17_AnimaSquad_LootB"
+        0x0773669d: map[string,pointer] = {
+            "ExactItem" = 0x80996016 {
+                0x3a79338f: list2[link] = {
+                    0x780c1412
+                }
+            }
+            "Champions_1Star" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT17_Jinx"
+                    "TFT17_Jinx"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

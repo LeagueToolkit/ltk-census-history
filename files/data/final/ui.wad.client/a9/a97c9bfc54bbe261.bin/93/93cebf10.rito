@@ -1,0 +1,48 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x93cebf10 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/TFT/TFT17_Armory_Anima/UIBase/TFT_Armory_TwoAction/ContinueButton"
+        0x2063cb13: link = 0xbb7ae758
+        0x5a94b0cc: list2[link] = {
+            0xd5c50599
+            0x572c99d5
+            0xdafa3b0e
+            0x9fa549c1
+            0xe04b65d4
+            0x5f9313ab
+            0x625b3329
+        }
+        0x6bf3194e: link = 0x625b3329
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x9fa549c1
+            }
+            0xeec29756: link = 0x5f9313ab
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xdafa3b0e
+            }
+            0xeec29756: link = 0x5f9313ab
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x572c99d5
+            }
+            0xeec29756: link = 0x5f9313ab
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xe04b65d4
+            }
+            0xeec29756: link = 0x5f9313ab
+        }
+        0x7babfb4e: link = 0xd5c50599
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_tft_action_armory_click"
+        }
+    }
+}

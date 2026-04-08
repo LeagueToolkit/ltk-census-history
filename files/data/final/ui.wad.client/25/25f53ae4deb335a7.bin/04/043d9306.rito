@@ -1,0 +1,42 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x043d9306 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/LoLCommon/UX/Options/UIBase/Options/Opt_ActiveTab/Opt_Hotkey_Button_QuickCast_Pip"
+        0x2063cb13: link = 0x5df2954d
+        0x5a94b0cc: list2[link] = {
+            0x607db0dc
+            0xbf97906b
+            0x61b85684
+            0x7b8936e0
+        }
+        0xdf2b45ce: bool = true
+        0x6bf3194e: link = 0x7b8936e0
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x607db0dc
+            }
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xbf97906b
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x61b85684
+            }
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x607db0dc
+            }
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0x84b6cf03: string = "play_sfx_hud_base_Generic_Button_Click"
+            0xb416d0a8: string = "play_sfx_hud_base_Generic_Button_Click"
+        }
+    }
+}

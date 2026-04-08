@@ -1,0 +1,54 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x85460512 = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/TFT/TFTArmory_CarouselMarket/UIBase/TFT_Armory_CarouselMarket/CloseButton"
+        0x2063cb13: link = 0x8dc32605
+        0x5a94b0cc: list2[link] = {
+            0x6fc21b97
+            0x67d6216f
+            0x304bf6f0
+            0x1d88ba63
+            0x1c925296
+            0x7837c966
+            0xed9f9d77
+            0xc4dc9f19
+        }
+        0x6bf3194e: link = 0xed9f9d77
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x1d88ba63
+                0xc4dc9f19
+            }
+            0xeec29756: link = 0x7837c966
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x304bf6f0
+                0xc4dc9f19
+            }
+            0xeec29756: link = 0x7837c966
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x67d6216f
+                0xc4dc9f19
+            }
+            0xeec29756: link = 0x7837c966
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x1c925296
+                0xc4dc9f19
+            }
+            0xeec29756: link = 0x7837c966
+        }
+        0x7babfb4e: link = 0x6fc21b97
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xa55a6b7c: string = "Play_sfx_tft17_market_panel_button_hover"
+            0xd84e3078: string = "Play_sfx_tft17_market_panel_close_click"
+        }
+    }
+}

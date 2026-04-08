@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x61199b66 = 0x60e00531 {
+        0x19efbfdb: string = "TFT17_AnimaSquad_LootA4"
+        0x0773669d: map[string,pointer] = {
+            "Consumables" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Consumable_ChampionDuplicator_III"
+                }
+            }
+            "Champions_1Star" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT17_Illaoi"
+                    "TFT17_Aurora"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}
