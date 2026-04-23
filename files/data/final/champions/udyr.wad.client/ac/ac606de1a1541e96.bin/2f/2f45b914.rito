@@ -73,13 +73,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "LightningAPRatio"
                     0x34474c3b: list[f32] = {
-                        8e-05
-                        8e-05
-                        8e-05
-                        8e-05
-                        8e-05
-                        8e-05
-                        8e-05
+                        6e-05
+                        6e-05
+                        6e-05
+                        6e-05
+                        6e-05
+                        6e-05
+                        6e-05
                     }
                 }
                 0x005008a6 {
@@ -109,37 +109,37 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "BaseDamage"
                     0x34474c3b: list[f32] = {
-                        -3
-                        5
-                        13
-                        21
-                        29
-                        37
-                        45
+                        -0
+                        6
+                        12
+                        18
+                        24
+                        30
+                        36
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "MaxHPADRatio"
                     0x34474c3b: list[f32] = {
-                        4e-04
-                        4e-04
-                        4e-04
-                        4e-04
-                        4e-04
-                        4e-04
-                        4e-04
+                        0.00035
+                        0.00035
+                        0.00035
+                        0.00035
+                        0.00035
+                        0.00035
+                        0.00035
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "Q2MaxHPADRatio"
                     0x34474c3b: list[f32] = {
-                        7e-04
-                        7e-04
-                        7e-04
-                        7e-04
-                        7e-04
-                        7e-04
-                        7e-04
+                        5e-04
+                        5e-04
+                        5e-04
+                        5e-04
+                        5e-04
+                        5e-04
+                        5e-04
                     }
                 }
                 0x005008a6 {
@@ -200,6 +200,18 @@ entries: map[hash,embed] = {
                         0.7
                         0.7
                         0.7
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "OnHitBonusHPRatio"
+                    0x34474c3b: list[f32] = {
+                        0.008
+                        0.01
+                        0.012
+                        0.014
+                        0.016
+                        0.018
+                        0.02
                     }
                 }
             }
@@ -326,7 +338,6 @@ entries: map[hash,embed] = {
                             0x0b65bc23: hash = 0xc4aeb617
                         }
                         0x5f5c70a4 {
-                            0x7d3150ec: u8 = 2
                             0xb386dcf1: hash = 0x5c639cdf
                         }
                     }
@@ -364,9 +375,9 @@ entries: map[hash,embed] = {
                                     0x5f5c70a4 {
                                         0xb386dcf1: hash = 0x5c639cdf
                                     }
-                                    0x15fecdbc {
-                                        0xd06c375d: f32 = 0.015
-                                        0x1cd7e522: f32 = 0.03
+                                    0xee18a47b {
+                                        0x0589a59c: hash = 0x372a5bd5
+                                        0x0b65bc23: hash = 0xc4aeb617
                                     }
                                 }
                             }
@@ -411,7 +422,12 @@ entries: map[hash,embed] = {
                         0x5815b0a9 {
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 0.25
+                            0x295c2889: f32 = 0.2
+                        }
+                        0x5f5c70a4 {
+                            0x4cec2c8a: u8 = 12
+                            0x7d3150ec: u8 = 2
+                            0xb386dcf1: hash = 0x877e2117
                         }
                     }
                 }
@@ -428,6 +444,11 @@ entries: map[hash,embed] = {
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
                             0xb386dcf1: hash = 0x5047a7a8
+                        }
+                        0x5815b0a9 {
+                            0x4cec2c8a: u8 = 12
+                            0x7d3150ec: u8 = 2
+                            0x295c2889: f32 = 1e-05
                         }
                     }
                     0x5a2297d3: bool = true
@@ -536,6 +557,12 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "BaseDamage"
                                     0x566f3406: string = "Spell_ListType_OnHitDamage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "OnHitBonusHPRatio"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_UdyrQ_OnHit_BonusHPRatio"
+                                    0xac307ed6: u32 = 1
                                 }
                             }
                         }

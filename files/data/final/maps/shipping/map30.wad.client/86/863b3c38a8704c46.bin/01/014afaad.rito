@@ -1,0 +1,92 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x014afaad = 0x5e7e5a06 {
+        0xe095d841: string = "Augment_VeilOfWarding"
+        0xc8e37ef0: string = "Augment_VeilOfWarding"
+        0x56d2be52: pointer = 0x43368569 {
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x8d39bde6: string = "ShieldDuration"
+                    0x34474c3b: list[f32] = {
+                        2500
+                        2500
+                        2500
+                        2500
+                        2500
+                        2500
+                        2500
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "Cooldown"
+                    0x34474c3b: list[f32] = {
+                        30
+                        30
+                        30
+                        30
+                        30
+                        30
+                        30
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                }
+            }
+            0xfb56608c: map[hash,embed] = {
+                0x497ae878 = 0x6b2f7a8d {
+                    0x52fde74f: list[embed] = {
+                        0x005008a6 {
+                            0x8d39bde6: string = "Cooldown"
+                            0x34474c3b: list[f32] = {
+                                20
+                                20
+                                10
+                                10
+                                10
+                                10
+                                10
+                            }
+                        }
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Spells/Icons2D/FakeFlash.dds"
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_VeilOfWarding"
+                    0x57b8b11b: link = 0xd7c27163
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Cherry_FallenAegis_Name"
+                        "keySummary" = "Cherry_FallenAegis_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 2
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cooldown"
+                                    0x566f3406: string = "Spell_ListType_Cooldown"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

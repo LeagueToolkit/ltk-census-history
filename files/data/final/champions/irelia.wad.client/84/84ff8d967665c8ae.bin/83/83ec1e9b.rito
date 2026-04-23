@@ -7,8 +7,16 @@ entries: map[hash,embed] = {
         0x8d39bde6: string = "Characters/Irelia/Skins/Skin56/Materials/Arms"
         0x0a6f0eb5: list2[embed] = {
             0x0904b150 {
+                0xb311d4ef: string = "Scroll_Scale_Noise_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/black.tex"
+            }
+            0x0904b150 {
+                0xb311d4ef: string = "Scroll_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/black.tex"
+            }
+            0x0904b150 {
                 0xb311d4ef: string = "Alt_Diffuse_Texture"
-                0xf0a363e3: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/black.tex"
             }
             0x0904b150 {
                 0xb311d4ef: string = "Dissolve_Texture"
@@ -16,19 +24,19 @@ entries: map[hash,embed] = {
             }
             0x0904b150 {
                 0xb311d4ef: string = "Diffuse_Texture"
-                0xf0a363e3: string = "ASSETS/Characters/Irelia/Skins/Skin56/Irelia_Skin56_TX_CM.Chroma_Irelia_SpiritBlossom.tex"
+                0xf0a363e3: string = "ASSETS/Characters/Irelia/Skins/Skin56/Irelia_Skin56_TX_CM.tex"
                 0x111ec6d2: u32 = 1
                 0x101ec53f: u32 = 1
                 0x0f1ec3ac: u32 = 1
             }
             0x0904b150 {
                 0xb311d4ef: string = "Mask_Texture"
-                0xf0a363e3: string = "ASSETS/Characters/Irelia/Skins/Skin55/Irelia_Skin55_Arm_Mask.SKINS_Irelia_Skin55.tex"
+                0xf0a363e3: string = "ASSETS/Characters/Irelia/Skins/Skin55/Irelia_Skin55_Arm_Mask.tex"
                 0x0f1ec3ac: u32 = 1
             }
             0x0904b150 {
                 0xb311d4ef: string = "Noise_Texture"
-                0xf0a363e3: string = "ASSETS/Shared/Materials/black.SKINS_Lissandra_Skin43.tex"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/black.tex"
                 0x0f1ec3ac: u32 = 1
             }
             0x0904b150 {
@@ -46,6 +54,45 @@ entries: map[hash,embed] = {
             }
         }
         0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "Scroll_Scale_U_Min"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Scroll_Scale_U_Max"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Scroll_Scale_V_Max"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Scroll_Scale_Sine_Period"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Scroll_Scale_V_Min"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Scroll_Scale_Noise_Scaling"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Scroll_Scale_Noise_Speed"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Scrolll_Texture_ColorTint"
+                0x425ed3ca: vec4 = { 0, 0, 0, 1 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Scroll_Texture_Scale"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Scroll_Texture_Speed"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Gradient_Scroll_Intensity"
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Gradient_Scroll_Speed"
+            }
             0xde480eef {
                 0x8d39bde6: string = "Dissolve_Bloom_Power"
                 0x425ed3ca: vec4 = { 1, 0, 0, 0 }
@@ -171,6 +218,21 @@ entries: map[hash,embed] = {
             }
         }
         0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_SINE__SCROLL_SCALE"
+                0x61342fd0: bool = false
+                0x5fb91e8c: string = "Gradient"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_SCROLL_TEXTURE"
+                0x61342fd0: bool = false
+                0x5fb91e8c: string = "Gradient"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_GRADIENT_SCROLL"
+                0x61342fd0: bool = false
+                0x5fb91e8c: string = "Gradient"
+            }
             0x0e2212a1 {
                 0x8d39bde6: string = "USE_DISSOLVE_TRANSITION"
                 0x61342fd0: bool = false
@@ -384,7 +446,7 @@ entries: map[hash,embed] = {
                                     }
                                 }
                             }
-                            0xb311d4ef: string = "ASSETS/Characters/Irelia/Skins/Skin56/Irelia_Skin56_TM_CM_1.Chroma_Irelia_SpiritBlossom.tex"
+                            0xb311d4ef: string = "ASSETS/Characters/Irelia/Skins/Skin56/Irelia_Skin56_TM_CM_1.tex"
                         }
                     }
                 }
@@ -399,7 +461,7 @@ entries: map[hash,embed] = {
                                     }
                                 }
                             }
-                            0xb311d4ef: string = "ASSETS/Characters/Irelia/Skins/Skin55/Irelia_Skin55_Arm_Mask1.SKINS_Irelia_Skin55.tex"
+                            0xb311d4ef: string = "ASSETS/Characters/Irelia/Skins/Skin55/Irelia_Skin55_Arm_Mask1.tex"
                         }
                     }
                 }

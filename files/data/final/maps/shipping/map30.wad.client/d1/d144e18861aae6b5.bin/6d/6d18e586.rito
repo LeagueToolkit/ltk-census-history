@@ -25,13 +25,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "BurnPercentMin"
                     0x34474c3b: list[f32] = {
-                        0.01
-                        0.01
-                        0.01
-                        0.01
-                        0.01
-                        0.01
-                        0.01
+                        0.008
+                        0.008
+                        0.016
+                        0.016
+                        0.016
+                        0.016
+                        0.016
                     }
                 }
                 0x005008a6 {
@@ -61,13 +61,25 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "BurnPercentMax"
                     0x34474c3b: list[f32] = {
-                        0.04
-                        0.04
-                        0.04
-                        0.04
-                        0.04
-                        0.04
-                        0.04
+                        0.03
+                        0.03
+                        0.06
+                        0.06
+                        0.06
+                        0.06
+                        0.06
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
                     }
                 }
             }
@@ -131,6 +143,35 @@ entries: map[hash,embed] = {
             }
             0x3a7f083f: u32 = 1
             0x8a3c40d8: hash = 0xfcf47747
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_HolyFire"
+                    0x57b8b11b: link = 0xd7c27163
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Cherry_HolyFire_Name"
+                        "keySummary" = "Cherry_HolyFire_Summary"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 2
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BurnPercentMin"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_MaximumDamagePercentage"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BurnPercentMax"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_MinimumDamagePercentage"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

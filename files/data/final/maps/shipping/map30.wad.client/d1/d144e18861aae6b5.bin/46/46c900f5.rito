@@ -11,13 +11,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "AttackSpeed"
                     0x34474c3b: list[f32] = {
+                        0.15
+                        0.2
                         0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
+                        0.3
+                        0.35
+                        0.4
+                        0.45
                     }
                 }
                 0x005008a6 {
@@ -56,6 +56,30 @@ entries: map[hash,embed] = {
                         0.15
                     }
                 }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxAttackSpeedCap"
+                    0x34474c3b: list[f32] = {
+                        4
+                        4
+                        4
+                        99
+                        99
+                        99
+                        99
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x84eb6ffe = 0xbc409284 {
@@ -78,6 +102,19 @@ entries: map[hash,embed] = {
                         "keyName" = "Cherry_DualWield_Name"
                         "keySummary" = "Cherry_DualWield_Summary"
                         "keyTooltip" = "Cherry_DualWield_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 3
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "AttackSpeed"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_AttackSpeedMultiplier"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
                     }
                 }
             }

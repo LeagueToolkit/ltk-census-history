@@ -1,0 +1,118 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x92709ea1 = 0x5e7e5a06 {
+        0xe095d841: string = "Augment_RiceAndChicken"
+        0xc8e37ef0: string = "Augment_RiceAndChicken"
+        0x56d2be52: pointer = 0x43368569 {
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x8d39bde6: string = "QAbilityHaste"
+                    0x34474c3b: list[f32] = {
+                        50
+                        50
+                        50
+                        50
+                        50
+                        50
+                        50
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MoveSpeedAmp"
+                    0x34474c3b: list[f32] = {
+                        0
+                        0
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MSDuration"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "DamageAmp"
+                    0x34474c3b: list[f32] = {
+                        0.5
+                        0.5
+                        0.75
+                        1
+                        1
+                        1
+                        1
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "HealShieldAmp"
+                    0x34474c3b: list[f32] = {
+                        0.3
+                        0.3
+                        0.5
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Spells/Icons2D/Terrify.dds"
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_RiceAndChicken"
+                    0x57b8b11b: link = 0xd7c27163
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Cherry_BreadAndButter_Name"
+                        "keySummary" = "Cherry_BreadAndButter_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 2
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "DamageAmp"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_AdditionalDamage"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "HealShieldAmp"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_HealingIncrease"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

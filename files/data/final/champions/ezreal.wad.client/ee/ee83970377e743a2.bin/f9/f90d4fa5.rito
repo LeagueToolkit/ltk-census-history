@@ -51,27 +51,27 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "DamageReductionWaveclear"
+                    0x8d39bde6: string = "RAPRatio"
                     0x34474c3b: list[f32] = {
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
+                        1.1
+                        1.1
+                        1.1
+                        1.1
+                        1.1
+                        1.1
+                        1.1
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "RAPRatio"
+                    0x8d39bde6: string = "BaseDamageMinionMonster"
                     0x34474c3b: list[f32] = {
-                        0.9
-                        0.9
-                        0.9
-                        0.9
-                        0.9
-                        0.9
-                        0.9
+                        75
+                        150
+                        225
+                        300
+                        375
+                        450
+                        525
                     }
                 }
             }
@@ -120,6 +120,21 @@ entries: map[hash,embed] = {
                         }
                         0x5f5c70a4 {
                             0xb386dcf1: hash = 0x51ed68ef
+                        }
+                    }
+                }
+                0x37fb638c = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xe6a40e5f
+                        }
+                        0x5815b0a9 {
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                            0x295c2889: f32 = 1
+                        }
+                        0x5815b0a9 {
+                            0x295c2889: f32 = 1.1
                         }
                     }
                 }
@@ -247,6 +262,10 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "BaseDamage"
                                     0x566f3406: string = "Spell_ListType_Damage"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseDamageMinionMonster"
+                                    0x566f3406: string = "Spell_ListType_NonChampionDamage"
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"

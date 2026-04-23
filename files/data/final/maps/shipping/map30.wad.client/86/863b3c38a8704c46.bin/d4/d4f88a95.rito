@@ -1,0 +1,71 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xd4f88a95 = 0x5e7e5a06 {
+        0xe095d841: string = "Augment_Mercy"
+        0xc8e37ef0: string = "Augment_Mercy"
+        0x56d2be52: pointer = 0x43368569 {
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "BonusHealthRatio"
+                    0x34474c3b: list[f32] = {
+                        0.3
+                        0.3
+                        0.45
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                    }
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x59e94c40 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5f5c70a4 {
+                            0x4cec2c8a: u8 = 12
+                            0x7d3150ec: u8 = 2
+                            0xb386dcf1: hash = 0xffdea211
+                        }
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Spells/Icons2D/Terrify.dds"
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_Mercy"
+                    0x57b8b11b: link = 0xd7c27163
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 2
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BonusHealthRatio"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_BonusHealth"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

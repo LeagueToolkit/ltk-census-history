@@ -11,25 +11,37 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "MovementSpeed"
                     0x34474c3b: list[f32] = {
-                        50
-                        50
-                        50
-                        50
-                        50
-                        50
-                        50
+                        10
+                        40
+                        70
+                        100
+                        130
+                        160
+                        190
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "SlowResist"
                     0x34474c3b: list[f32] = {
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                        0.4
+                        0.15
+                        0.35
+                        0.55
+                        0.75
+                        0.95
+                        1.15
+                        1.35
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
                     }
                 }
             }
@@ -43,6 +55,23 @@ entries: map[hash,embed] = {
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Cherry_Swift_Name"
                         "keySummary" = "Cherry_Swift_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 2
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "SlowResist"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_SlowResist"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "MovementSpeed"
+                                    0x566f3406: string = "Spell_ListType_Cherry_MoveSpeedIncrease"
+                                }
+                            }
+                        }
                     }
                 }
             }

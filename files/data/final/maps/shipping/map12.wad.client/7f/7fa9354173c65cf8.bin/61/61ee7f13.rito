@@ -44,6 +44,60 @@ entries: map[hash,embed] = {
                         15
                     }
                 }
+                0x005008a6 {
+                    0x8d39bde6: string = "InstantGoldGain"
+                    0x34474c3b: list[f32] = {
+                        250
+                        250
+                        250
+                        250
+                        250
+                        250
+                        250
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                }
+            }
+            0xfb56608c: map[hash,embed] = {
+                0x497ae878 = 0x6b2f7a8d {
+                    0x52fde74f: list[embed] = {
+                        0x005008a6 {
+                            0x8d39bde6: string = "ExecutionInc"
+                            0x34474c3b: list[f32] = {
+                                0.01
+                                0.01
+                                0.02
+                                0.03
+                                0.04
+                                0.05
+                                0.06
+                            }
+                        }
+                        0x005008a6 {
+                            0x8d39bde6: string = "UpgradedGoldAmount"
+                            0x34474c3b: list[f32] = {
+                                200
+                                200
+                                500
+                                750
+                                750
+                                750
+                                750
+                            }
+                        }
+                    }
+                }
             }
             0xeed67cd5: list[string] = {
                 "ASSETS/Spells/Icons2D/Terrify.dds"
@@ -55,6 +109,23 @@ entries: map[hash,embed] = {
                 0x2831605b: pointer = 0xa4e13b57 {
                     0xb482c52c: string = "Augment_ARAM_Upgrade_Collector"
                     0x57b8b11b: link = 0xd7c27163
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 2
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "ExecutionInc"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "ListType_ExecuteThreshold"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "UpgradedGoldAmount"
+                                    0x566f3406: string = "ListType_Gold"
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

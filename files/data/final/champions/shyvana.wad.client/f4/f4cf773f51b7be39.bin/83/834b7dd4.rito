@@ -12,13 +12,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "BaseDamage"
                     0x34474c3b: list[f32] = {
+                        35
                         50
+                        65
                         80
+                        95
                         110
-                        140
-                        170
-                        200
-                        230
+                        125
                     }
                 }
                 0x005008a6 {
@@ -84,13 +84,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "SlowAmount"
                     0x34474c3b: list[f32] = {
-                        0.15
-                        0.2
-                        0.25
                         0.3
-                        0.35
-                        0.4
-                        0.45
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
                     }
                 }
                 0x005008a6 {
@@ -141,6 +141,42 @@ entries: map[hash,embed] = {
                         0.25
                     }
                 }
+                0x005008a6 {
+                    0x8d39bde6: string = "DamageAPRatio"
+                    0x34474c3b: list[f32] = {
+                        0.55
+                        0.6
+                        0.65
+                        0.7
+                        0.75
+                        0.8
+                        0.85
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxHealthDamage"
+                    0x34474c3b: list[f32] = {
+                        0.05
+                        0.05
+                        0.05
+                        0.05
+                        0.05
+                        0.05
+                        0.05
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "DamageDragonMod"
+                    0x34474c3b: list[f32] = {
+                        1.25
+                        1.25
+                        1.25
+                        1.25
+                        1.25
+                        1.25
+                        1.25
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x59e94c40 = 0xbc409284 {
@@ -148,13 +184,8 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0x03da00f9
                         }
-                        0x5815b0a9 {
-                            0x4cec2c8a: u8 = 2
-                            0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 0.35
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.7
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x84381950
                         }
                     }
                 }
@@ -183,7 +214,7 @@ entries: map[hash,embed] = {
                     0x37070a8d: u8 = 5
                     0x50f145c0: list[pointer] = {
                         0x9ef92080 {
-                            0xe202bca9: f32 = 0.5
+                            0xe202bca9: f32 = 0.4
                         }
                     }
                     0x5a2297d3: bool = true
@@ -212,6 +243,37 @@ entries: map[hash,embed] = {
                     0x37070a8d: u8 = 5
                     0x7f93cf4e: hash = 0xe2e36abc
                 }
+                0xa90da5f4 = 0xbc409284 {
+                    0xcbcac618: u8 = 5
+                    0x37070a8d: u8 = 5
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x6964cc9a
+                        }
+                    }
+                    0x5a2297d3: bool = true
+                    0x08d47ee4: i32 = 1
+                }
+                0xbb85c3b6 = 0x070e3593 {
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0xfcb67619
+                    }
+                    0xcbcac618: u8 = 5
+                    0x37070a8d: u8 = 6
+                    0x7f93cf4e: hash = 0xa90da5f4
+                }
+                0x57e0cb52 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x9ef92080 {}
+                    }
+                }
+                0x389419d8 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x9ef92080 {
+                            0xe202bca9: f32 = 200
+                        }
+                    }
+                }
             }
             0xfbd16fb5: string = "Spell3"
             0xeed67cd5: list[string] = {
@@ -223,11 +285,11 @@ entries: map[hash,embed] = {
             0x9ecac3a1: list[f32] = {
                 12
                 12
-                11.5
                 11
-                10.5
                 10
-                10
+                9
+                8
+                8
             }
             0x3d746f1f: u8 = 1
             0xe321919c: bool = true
@@ -294,9 +356,9 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "SlowAmount"
+                                    0x5127f14d: string = "DamageAPRatio"
                                     0xf506c7e6: f32 = 100
-                                    0x566f3406: string = "Spell_ListType_Slow"
+                                    0x566f3406: string = "Spell_ListType_APRatio"
                                     0xac307ed6: u32 = 1
                                 }
                             }

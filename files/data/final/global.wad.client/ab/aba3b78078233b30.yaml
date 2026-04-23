@@ -1,0 +1,21 @@
+sha256: "ca58ffc7f29bfc6be12cb0f33b106529ba7dbe043ad25d74912bb9006d499a68"
+checksum: "bdbd309196db4cf7"
+kind: "skl"
+skeleton:
+ influences: 2
+ joints:
+  - name: "cup_root"
+  - name: "Gem"
+    parent: "cup_root"
+  - name: "Cup"
+    parent: "cup_root"
+  - name: "WingTranslate"
+    parent: "cup_root"
+  - name: "RWingRotator"
+    parent: "WingTranslate"
+  - name: "RWing"
+    parent: "RWingRotator"
+  - name: "LWingRotator"
+    parent: "WingTranslate"
+  - name: "LWing"
+    parent: "LWingRotator"

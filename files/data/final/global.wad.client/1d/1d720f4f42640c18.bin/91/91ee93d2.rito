@@ -12,15 +12,16 @@ entries: map[hash,embed] = {
             0xb0bee26d
             0x324bd1bb
             0x7cbb1b94
+            0x9eb906c3
+            0xd3a7fafa
         }
         0x5b0a81be: list[link] = {
             0x0fe5f3f2
         }
-        0x0b44452a: i32 = 1000
+        0x0b44452a: i32 = 2750
         0x51c4b876: bool = true
         0xf7250cac: bool = false
         0xd1dbada1: bool = true
-        0x071eb8be: u32 = 220007
         0x5ee3c453: u8 = 9
         0xb6188f47: list[link] = {
             0x8620ca16
@@ -48,11 +49,11 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "SpellMaxAmp"
-                0x24f2ec89: f32 = 0.23
+                0x24f2ec89: f32 = 0.18
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "SpellMaxAmpRanged"
-                0x24f2ec89: f32 = 0.125
+                0x24f2ec89: f32 = 0.09
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "MeleeBaseDamage"
@@ -65,12 +66,22 @@ entries: map[hash,embed] = {
                 0x19efbfdb: string = "RangedBonusADRatio"
                 0x24f2ec89: f32 = 0.2
             }
+            0xb2c62c87 {
+                0x19efbfdb: string = "LethalityPerDamageAmp"
+                0x24f2ec89: f32 = 10
+            }
         }
         0x0ac4f0d5: map[hash,pointer] = {
             0xe5c634ce = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
                     0x332eb441 {
                         0xb386dcf1: hash = 0xdbebafb1
+                    }
+                    0x5815b0a9 {
+                        0x4cec2c8a: u8 = 29
+                        0x8a544bcf: u8 = 8
+                        0x94fb4b0c: u8 = 2
+                        0x295c2889: f32 = 0.001
                     }
                 }
                 0x5a2297d3: bool = true
@@ -86,6 +97,10 @@ entries: map[hash,embed] = {
                 0x50f145c0: list[pointer] = {
                     0x332eb441 {
                         0xb386dcf1: hash = 0x303319ae
+                    }
+                    0x5815b0a9 {
+                        0x4cec2c8a: u8 = 29
+                        0x295c2889: f32 = 0.00075
                     }
                 }
                 0x5a2297d3: bool = true

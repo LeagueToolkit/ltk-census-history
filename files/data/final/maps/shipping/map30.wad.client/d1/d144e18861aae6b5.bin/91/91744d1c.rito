@@ -11,13 +11,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "CritDamage"
                     0x34474c3b: list[f32] = {
-                        1.65
-                        1.65
-                        1.65
-                        1.65
-                        1.65
-                        1.65
-                        1.65
+                        1.4
+                        1.4
+                        1.6
+                        1.8
+                        1.8
+                        1.8
+                        1.8
                     }
                 }
                 0x005008a6 {
@@ -35,19 +35,34 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "CritConverRatio"
                     0x34474c3b: list[f32] = {
-                        0.00045
-                        0.00045
-                        0.00045
-                        0.00045
-                        0.00045
-                        0.00045
-                        0.00045
+                        4e-04
+                        4e-04
+                        5e-04
+                        6e-04
+                        6e-04
+                        6e-04
+                        6e-04
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
                     }
                 }
             }
             0x94572284: map[hash,pointer] = {
-                0x438db135 = 0xbc409284 {
+                0x47725e9c = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x3abb8549
+                        }
                         0x5f5c70a4 {
                             0xb386dcf1: hash = 0xa1904faf
                         }
@@ -57,6 +72,31 @@ entries: map[hash,embed] = {
             }
             0xeed67cd5: list[string] = {
                 "ASSETS/Spells/Icons2D/Terrify.dds"
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_JeweledGauntlet"
+                    0x57b8b11b: link = 0xd7c27163
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 3
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "CritDamage"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_CritDamage"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "CritConverRatio"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_CritConversionRatio"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

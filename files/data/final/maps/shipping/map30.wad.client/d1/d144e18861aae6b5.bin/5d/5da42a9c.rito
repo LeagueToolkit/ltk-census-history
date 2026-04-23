@@ -11,49 +11,73 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "SizeAmp"
                     0x34474c3b: list[f32] = {
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
+                        0.3
+                        0.3
+                        0.6
+                        1
+                        1
+                        1
+                        1
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "HealthAmp"
                     0x34474c3b: list[f32] = {
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
+                        0.15
+                        0.15
+                        0.3
+                        0.5
+                        0.75
+                        0.75
+                        0.75
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "ADAmp"
                     0x34474c3b: list[f32] = {
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
+                        0.1
+                        0.1
+                        0.2
+                        0.3
+                        0.3
+                        0.3
+                        0.3
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "APAmp"
                     0x34474c3b: list[f32] = {
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
+                        0.1
+                        0.1
+                        0.2
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "AFAmp"
+                    0x34474c3b: list[f32] = {
+                        0.1
+                        0.1
+                        0.2
+                        0.3
+                        0.4
+                        0.5
+                        0.6
                     }
                 }
             }
@@ -67,6 +91,25 @@ entries: map[hash,embed] = {
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Cherry_Goliath_Name"
                         "keySummary" = "Cherry_Goliath_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 3
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "HealthAmp"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_HealthPercentage"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "AFAmp"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_AdaptiveForce"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
                     }
                 }
             }

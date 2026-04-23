@@ -11,25 +11,25 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "BaseRegen"
                     0x34474c3b: list[f32] = {
-                        8
-                        8
-                        8
-                        8
-                        8
-                        8
-                        8
+                        6
+                        6
+                        12
+                        12
+                        12
+                        12
+                        12
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "AmpedRegen"
                     0x34474c3b: list[f32] = {
-                        16
-                        16
-                        16
-                        16
-                        16
-                        16
-                        16
+                        12
+                        12
+                        24
+                        24
+                        24
+                        24
+                        24
                     }
                 }
                 0x005008a6 {
@@ -37,16 +37,63 @@ entries: map[hash,embed] = {
                     0x34474c3b: list[f32] = {
                         0.25
                         0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
                     }
                 }
             }
             0xeed67cd5: list[string] = {
                 "ASSETS/Spells/Icons2D/Terrify.dds"
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_Perseverance"
+                    0x57b8b11b: link = 0xd7c27163
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Cherry_Perseverance_Name"
+                        "keySummary" = "Cherry_Perseverance_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 2
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseRegen"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_Regen"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "AmpedRegen"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_RegenAmped"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "AmpedHPThreshold"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_HPThreshold"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

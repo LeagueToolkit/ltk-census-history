@@ -7,7 +7,7 @@ entries: map[hash,embed] = {
         0xe095d841: string = "Augment_BannerofCommand"
         0xc8e37ef0: string = "Augment_BannerofCommand"
         0x56d2be52: pointer = 0x43368569 {
-            0x9c677a2c: u32 = 4
+            0x9c677a2c: u32 = 36
             0xecf3f88d: u32 = 8192
             0x06afef1b: list2[embed] = {
                 0x005008a6 {
@@ -15,11 +15,11 @@ entries: map[hash,embed] = {
                     0x34474c3b: list[f32] = {
                         0.15
                         0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
                     }
                 }
                 0x005008a6 {
@@ -27,11 +27,23 @@ entries: map[hash,embed] = {
                     0x34474c3b: list[f32] = {
                         10
                         10
-                        10
-                        10
-                        10
-                        10
-                        10
+                        15
+                        15
+                        15
+                        15
+                        15
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
                     }
                 }
             }
@@ -49,16 +61,45 @@ entries: map[hash,embed] = {
             }
             0xdb633223: bool = true
             0x534cce1b: bool = false
-            0x5d46764f: pointer = 0x645ba277 {}
+            0x1b9cbd9b: list[f32] = {
+                10000
+                10000
+                10000
+                10000
+                10000
+                10000
+                10000
+            }
+            0x5d46764f: pointer = 0x0bf5a9a6 {}
             0x048557ff: embed = 0x7dd1a902 {
                 0x2831605b: pointer = 0xa4e13b57 {
                     0xb482c52c: string = "Augment_BannerofCommand"
-                    0x57b8b11b: link = 0xb5df7ddb
+                    0x57b8b11b: link = 0xd7c27163
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Cherry_BannerofCommand_Name"
                         "keyTooltip" = "Cherry_BannerofCommand_Tooltip"
                         "keySummary" = "Cherry_BannerofCommand_Tooltip"
                     }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 2
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BuffDuration"
+                                    0x566f3406: string = "Spell_ListType_Cherry_Duration"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "EmpowermentValue"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_BonusPercentage"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
+                    }
+                }
+                0x263ba968: list[pointer] = {
+                    0x047acadf {}
                 }
             }
         }

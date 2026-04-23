@@ -11,20 +11,20 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "HealthThreshold"
                     0x34474c3b: list[f32] = {
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "HealAmount"
                     0x34474c3b: list[f32] = {
-                        0.3
-                        0.3
+                        0.25
+                        0.25
                         0.3
                         0.3
                         0.3
@@ -33,7 +33,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "Duration"
+                    0x8d39bde6: string = "HealDuration"
                     0x34474c3b: list[f32] = {
                         3
                         3
@@ -44,14 +44,33 @@ entries: map[hash,embed] = {
                         3
                     }
                 }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "HealthThresholdTwo"
+                    0x34474c3b: list[f32] = {
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x1b1a8812 = 0xbc409284 {
-                    0x2c77adff: pointer = 0x9ef92080 {
-                        0xe202bca9: f32 = 0.083
-                    }
-                    0xcbcac618: u8 = 4
-                    0x37070a8d: u8 = 4
                     0x50f145c0: list[pointer] = {
                         0x5f5c70a4 {
                             0x4cec2c8a: u8 = 12
@@ -70,6 +89,19 @@ entries: map[hash,embed] = {
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Cherry_DawnbringersResolve_Name"
                         "keySummary" = "Cherry_DawnbringersResolve_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 2
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "HealAmount"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_HealPercentOfDamageDealt"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
                     }
                 }
             }

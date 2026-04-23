@@ -11,8 +11,8 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "ItemHaste"
                     0x34474c3b: list[f32] = {
-                        300
-                        300
+                        100
+                        100
                         300
                         300
                         300
@@ -23,13 +23,25 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "TooltipCDR"
                     0x34474c3b: list[f32] = {
+                        50
+                        50
                         75
                         75
                         75
                         75
                         75
-                        75
-                        75
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
                     }
                 }
             }
@@ -43,6 +55,17 @@ entries: map[hash,embed] = {
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "CHERRY_ApexInventor_Name"
                         "keySummary" = "Cherry_ApexInventor_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 2
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "ItemHaste"
+                                    0x566f3406: string = "Spell_ListType_Cherry_ItemHaste"
+                                }
+                            }
+                        }
                     }
                 }
             }

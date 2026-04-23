@@ -1,0 +1,19 @@
+sha256: "93126e9f3c9c6b986c22e43bfdd594a4419bff3aa3b8473d6cae0461500db8ff"
+checksum: "3993a050c240f6da"
+kind: "skl"
+skeleton:
+ influences: 7
+ joints:
+  - name: "Train_Middle"
+  - name: "Train_Front"
+    parent: "Train_Middle"
+  - name: "LT_Shield"
+    parent: "Train_Front"
+  - name: "LB_Shield"
+    parent: "LT_Shield"
+  - name: "RT_Shield"
+    parent: "Train_Front"
+  - name: "RB_Shield"
+    parent: "RT_Shield"
+  - name: "Train_Back"
+    parent: "Train_Middle"

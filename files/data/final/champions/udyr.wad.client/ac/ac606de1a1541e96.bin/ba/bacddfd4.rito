@@ -26,7 +26,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "MoveSpeed"
+                    0x8d39bde6: string = "BaseMoveSpeed"
                     0x34474c3b: list[f32] = {
                         0.19
                         0.25
@@ -111,6 +111,11 @@ entries: map[hash,embed] = {
                             0xd06c375d: f32 = 0.3
                             0x1cd7e522: f32 = 0.4
                         }
+                        0x5815b0a9 {
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                            0x295c2889: f32 = 0.001
+                        }
                     }
                     0x5a2297d3: bool = true
                 }
@@ -143,6 +148,19 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
+                }
+                0x9f49799f = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x785214a0
+                        }
+                        0x5815b0a9 {
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                            0x295c2889: f32 = 5e-04
+                        }
+                    }
+                    0x5a2297d3: bool = true
                 }
             }
             0x295c2889: f32 = 1
@@ -228,7 +246,7 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 6
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "MoveSpeed"
+                                    0x5127f14d: string = "BaseMoveSpeed"
                                     0x33c02d93: i32 = 1
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_MovementSpeed"

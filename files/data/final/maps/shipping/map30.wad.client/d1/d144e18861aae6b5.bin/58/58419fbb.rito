@@ -26,10 +26,10 @@ entries: map[hash,embed] = {
                         0.08
                         0.08
                         0.08
-                        0.08
-                        0.08
-                        0.08
-                        0.08
+                        0.12
+                        0.15
+                        0.15
+                        0.15
                     }
                 }
                 0x005008a6 {
@@ -44,6 +44,42 @@ entries: map[hash,embed] = {
                         1
                     }
                 }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "APCoefficient"
+                    0x34474c3b: list[f32] = {
+                        0.045
+                        0.045
+                        0.06
+                        0.09
+                        0.09
+                        0.09
+                        0.09
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "ADCoefficient"
+                    0x34474c3b: list[f32] = {
+                        0.1
+                        0.1
+                        0.14
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x0a242b94 = 0xbc409284 {
@@ -52,13 +88,13 @@ entries: map[hash,embed] = {
                             0xd06c375d: f32 = 6
                             0x1cd7e522: f32 = 60
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.06
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xe1dd19a5
                         }
-                        0x5815b0a9 {
+                        0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 0.14
+                            0xb386dcf1: hash = 0x6f82dfe9
                         }
                     }
                 }
@@ -71,6 +107,31 @@ entries: map[hash,embed] = {
             }
             0xeed67cd5: list[string] = {
                 "ASSETS/Spells/Icons2D/Terrify.dds"
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_InfernalConduit"
+                    0x57b8b11b: link = 0xd7c27163
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 3
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "ADCoefficient"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_ADRatio"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "APCoefficient"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_APRatio"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

@@ -73,12 +73,74 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
             }
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x8d39bde6: string = "BaseHeal"
+                    0x34474c3b: list[f32] = {
+                        20
+                        45
+                        70
+                        95
+                        120
+                        145
+                        170
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "PercentHeal"
+                    0x34474c3b: list[f32] = {
+                        13
+                        13
+                        13
+                        13
+                        13
+                        13
+                        13
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "BuffDuration_unused"
+                    0x34474c3b: list[f32] = {
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "HasteAmount"
+                    0x34474c3b: list[f32] = {
+                        200
+                        200
+                        200
+                        200
+                        200
+                        200
+                        200
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "SteroidAmount_unused"
+                    0x34474c3b: list[f32] = {
+                        20
+                        30
+                        40
+                        50
+                        60
+                        70
+                        80
+                    }
+                }
+            }
             0x94572284: map[hash,pointer] = {
                 0xb9eefbce = 0xbc409284 {
                     0xd6b7a622: bool = true
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x39ce8652
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.9
@@ -147,8 +209,7 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 1
+                                    0x5127f14d: string = "BaseHeal"
                                     0x566f3406: string = "Spell_ListType_Healing"
                                 }
                                 0x9a1b3505 {
@@ -178,8 +239,8 @@ entries: map[hash,embed] = {
                                     }
                                     0xcd156c7f {
                                         0x4cec2c8a: u8 = 15
-                                        0x1cd83c4b: pointer = 0x8bc08357 {
-                                            0x8afb1a5f: i32 = 2
+                                        0x1cd83c4b: pointer = 0x332eb441 {
+                                            0xb386dcf1: hash = 0x9132d4dc
                                         }
                                     }
                                 }

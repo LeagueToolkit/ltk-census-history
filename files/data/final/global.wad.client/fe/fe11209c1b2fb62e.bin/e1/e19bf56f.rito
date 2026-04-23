@@ -22,16 +22,20 @@ entries: map[hash,embed] = {
                 0x251a5225: map[hash,f32] = {
                     0x31c180b5 = 3
                     0x2fa0fd0d = 3
-                    0xc5cfa6b8 = 1.6
-                    0xdbe35112 = 1.6
+                    0x000f6884 = 1.2
                     0x85d8a7e8 = 10
-                    0xa9ab7c37 = 0.8
+                    0xa9ab7c37 = 0.6
+                    0x6d5d9467 = 4
+                    0x5b70ffc9 = 20
+                    0x09a91dc8 = 0.08
+                    0xe30c799f = 0.06
+                    0x1d02880a = 2
                 }
                 0x90b03cc0: map[hash,embed] = {
                     0x8f061404 = 0xb12485e0 {
                         0x98be1607: map[hash,f32] = {
-                            0xdbe35112 = 1.4
-                            0xa9ab7c37 = 1
+                            0x000f6884 = 1.2
+                            0xa9ab7c37 = 0.8
                         }
                     }
                 }
@@ -42,7 +46,7 @@ entries: map[hash,embed] = {
                         }
                         0x50f145c0: list[pointer] = {
                             0x332eb441 {
-                                0xb386dcf1: hash = 0xdbe35112
+                                0xb386dcf1: hash = 0x000f6884
                             }
                         }
                     }
@@ -75,6 +79,22 @@ entries: map[hash,embed] = {
                             }
                         }
                     }
+                    0x58022635 = 0xbc409284 {
+                        0x50f145c0: list[pointer] = {
+                            0xee18a47b {
+                                0x0589a59c: hash = 0x6d5d9467
+                                0x0b65bc23: hash = 0x5b70ffc9
+                            }
+                            0x5f5c70a4 {
+                                0xb386dcf1: hash = 0xe30c799f
+                            }
+                            0x5f5c70a4 {
+                                0x4cec2c8a: u8 = 2
+                                0x7d3150ec: u8 = 2
+                                0xb386dcf1: hash = 0x09a91dc8
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -103,6 +123,22 @@ entries: map[hash,embed] = {
                     }
                 }
             }
+            0x3d7822a4 {
+                0x6eac7015: string = "ASSETS/Perks/Styles/Domination/HailOfBlades/HailOfBladesCD.lua"
+                0xca93d232: embed = 0x5e7e5a06 {
+                    0x7f0f5a79: pointer = 0x4633d794 {
+                        0xf1f20d72: string = "buff_desc_HailOfBlades_CombatChecker"
+                    }
+                }
+            }
+            0x3d7822a4 {
+                0x6eac7015: string = "ASSETS/Perks/Styles/Domination/HailOfBlades/HailOfBladesBuff.lua"
+                0xca93d232: embed = 0x5e7e5a06 {
+                    0x7f0f5a79: pointer = 0x4633d794 {
+                        0xf1f20d72: string = "buff_desc_HailOfBlades_CombatChecker"
+                    }
+                }
+            }
         }
         0x5f8284a2: pointer = 0xef3a0f33 {
             0xd2f58721: map[hash,link] = {
@@ -110,6 +146,6 @@ entries: map[hash,embed] = {
                 0xc06b35b1 = 0x7222048a
             }
         }
-        0xc0d42723: string = "8.11"
+        0xc0d42723: string = "16.9"
     }
 }

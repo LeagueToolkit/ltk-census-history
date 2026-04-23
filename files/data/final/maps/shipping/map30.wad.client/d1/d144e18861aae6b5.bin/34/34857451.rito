@@ -11,49 +11,85 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "DamageAmp"
                     0x34474c3b: list[f32] = {
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
+                        0.25
+                        0.25
+                        0.3
+                        0.45
+                        0.5
+                        0.5
+                        0.5
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "HealingAmp"
                     0x34474c3b: list[f32] = {
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
+                        0.25
+                        0.25
+                        0.3
+                        0.45
+                        0.5
+                        0.5
+                        0.5
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "ShieldingAmp"
                     0x34474c3b: list[f32] = {
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
+                        0.25
+                        0.25
+                        0.3
+                        0.45
+                        0.5
+                        0.5
+                        0.5
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "Haste"
                     0x34474c3b: list[f32] = {
-                        70
-                        70
-                        70
-                        70
-                        70
-                        70
-                        70
+                        45
+                        45
+                        60
+                        90
+                        90
+                        90
+                        90
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "RAmpScaling"
+                    0x34474c3b: list[f32] = {
+                        0.05
+                        0.05
+                        0.05
+                        0.05
+                        0.05
+                        0.05
+                        0.05
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "RHasteScaling"
+                    0x34474c3b: list[f32] = {
+                        10
+                        10
+                        10
+                        10
+                        10
+                        10
+                        10
                     }
                 }
             }
@@ -67,6 +103,23 @@ entries: map[hash,embed] = {
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Cherry_BacktoBasics_Name"
                         "keySummary" = "Cherry_BacktoBasics_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 3
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "DamageAmp"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_DamageAndHealingAmplification"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Haste"
+                                    0x566f3406: string = "Spell_ListType_Cherry_Haste"
+                                }
+                            }
+                        }
                     }
                 }
             }

@@ -11,13 +11,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "HealToDamageConversion"
                     0x34474c3b: list[f32] = {
-                        0.7
-                        0.7
-                        0.7
-                        0.7
-                        0.7
-                        0.7
-                        0.7
+                        0.5
+                        0.5
+                        1
+                        1
+                        1
+                        1
+                        1
                     }
                 }
                 0x005008a6 {
@@ -32,6 +32,18 @@ entries: map[hash,embed] = {
                         1000
                     }
                 }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                }
             }
             0xeed67cd5: list[string] = {
                 "ASSETS/Spells/Icons2D/Terrify.dds"
@@ -43,6 +55,19 @@ entries: map[hash,embed] = {
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Cherry_CircleofDeath_Name"
                         "keySummary" = "Cherry_CircleofDeath_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 2
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "HealToDamageConversion"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_HealtoDamageRatio"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
                     }
                 }
             }

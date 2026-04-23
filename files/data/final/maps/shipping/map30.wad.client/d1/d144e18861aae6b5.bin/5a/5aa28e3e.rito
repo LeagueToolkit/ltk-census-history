@@ -20,6 +20,54 @@ entries: map[hash,embed] = {
                         50
                     }
                 }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "APcoefficient"
+                    0x34474c3b: list[f32] = {
+                        0.04
+                        0.04
+                        0.07
+                        0.07
+                        0.07
+                        0.07
+                        0.07
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "ADcoefficient"
+                    0x34474c3b: list[f32] = {
+                        0.07
+                        0.07
+                        0.09
+                        0.09
+                        0.09
+                        0.09
+                        0.09
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "Healthcoefficient"
+                    0x34474c3b: list[f32] = {
+                        0.005
+                        0.005
+                        0.0075
+                        0.0075
+                        0.0075
+                        0.0075
+                        0.0075
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x82cb04b9 = 0xbc409284 {
@@ -28,18 +76,18 @@ entries: map[hash,embed] = {
                             0xd06c375d: f32 = 1.25
                             0x1cd7e522: f32 = 50
                         }
-                        0x5815b0a9 {
+                        0x5f5c70a4 {
                             0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 0.05
+                            0xb386dcf1: hash = 0xe1dd19a5
                         }
-                        0x5815b0a9 {
+                        0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 0.075
+                            0xb386dcf1: hash = 0x6f82dfe9
                         }
-                        0x5815b0a9 {
+                        0x5f5c70a4 {
                             0x4cec2c8a: u8 = 12
-                            0x295c2889: f32 = 0.005
+                            0xb386dcf1: hash = 0x4f815128
                         }
                     }
                 }
@@ -61,6 +109,31 @@ entries: map[hash,embed] = {
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Cherry_Clothesline_Name"
                         "keyTooltip" = "Cherry_Clothesline_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 2
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Healthcoefficient"
+                                    0xf506c7e6: f32 = 400
+                                    0x566f3406: string = "Spell_ListType_Cherry_HealthCoefficient"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "ADcoefficient"
+                                    0xf506c7e6: f32 = 400
+                                    0x566f3406: string = "Spell_ListType_Cherry_ADCoefficient"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "APcoefficient"
+                                    0xf506c7e6: f32 = 400
+                                    0x566f3406: string = "Spell_ListType_Cherry_APCoefficient"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
                     }
                 }
             }

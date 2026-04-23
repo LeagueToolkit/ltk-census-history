@@ -11,49 +11,49 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "BonusAD"
                     0x34474c3b: list[f32] = {
+                        0.15
+                        0.25
                         0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
+                        0.45
+                        0.55
+                        0.65
+                        0.75
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "BonusHP"
                     0x34474c3b: list[f32] = {
+                        0.15
+                        0.25
                         0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
-                        0.35
+                        0.45
+                        0.55
+                        0.65
+                        0.75
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "BonusAS"
                     0x34474c3b: list[f32] = {
+                        0.15
+                        0.2
                         0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
+                        0.3
+                        0.35
+                        0.4
+                        0.45
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "BonusMS"
                     0x34474c3b: list[f32] = {
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
                     }
                 }
                 0x005008a6 {
@@ -116,6 +116,18 @@ entries: map[hash,embed] = {
                         650
                     }
                 }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                    }
+                }
             }
             0xeed67cd5: list[string] = {
                 "ASSETS/Spells/Icons2D/Terrify.dds"
@@ -127,6 +139,31 @@ entries: map[hash,embed] = {
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Cherry_DrawYourSword_Name"
                         "keySummary" = "Cherry_DrawYourSword_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 3
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BonusAD"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_ADRatio"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BonusHP"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_HealthPercentage"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BonusAS"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_AS"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
                     }
                 }
             }

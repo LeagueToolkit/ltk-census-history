@@ -11,22 +11,49 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "ShieldDuration"
                     0x34474c3b: list[f32] = {
-                        12
-                        12
-                        12
-                        12
-                        12
-                        12
-                        12
+                        8
+                        8
+                        10
+                        15
+                        15
+                        15
+                        15
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "BaseValue"
+                    0x34474c3b: list[f32] = {
+                        100
+                        100
+                        200
+                        300
+                        300
+                        300
+                        300
                     }
                 }
             }
             0x94572284: map[hash,pointer] = {
                 0x40ee74ec = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xb35aa769
+                        }
                         0x15fecdbc {
                             0xd06c375d: f32 = 50
-                            0x1cd7e522: f32 = 350
+                            0x1cd7e522: f32 = 200
                         }
                     }
                 }
@@ -41,6 +68,21 @@ entries: map[hash,embed] = {
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Cherry_FallenAegis_Name"
                         "keyTooltip" = "Cherry_FallenAegis_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 2
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "ShieldDuration"
+                                    0x566f3406: string = "Spell_ListType_Cherry_Duration"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseValue"
+                                    0x566f3406: string = "Spell_ListType_ShieldAmount"
+                                }
+                            }
+                        }
                     }
                 }
             }

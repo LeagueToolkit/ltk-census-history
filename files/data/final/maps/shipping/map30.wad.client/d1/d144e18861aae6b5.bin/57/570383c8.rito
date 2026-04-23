@@ -11,13 +11,56 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "HealPercent"
                     0x34474c3b: list[f32] = {
+                        0.075
                         0.15
+                        0.225
+                        0.3
+                        0.375
+                        0.45
+                        0.525
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "3x6HealPercent"
+                    0x34474c3b: list[f32] = {
+                        0.05
+                        0.1
                         0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
-                        0.15
+                        0.2
+                        0.25
+                        0.3
+                        0.35
+                    }
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0xcab626a5 = 0xbc409284 {
+                    0x37070a8d: u8 = 5
+                    0x50f145c0: list[pointer] = {
+                        0x4ad0847a {
+                            0x02490112: hash = 0xaf6ecc4c
+                            0x295c2889: f32 = 1
+                        }
+                    }
+                }
+                0xac16d3ed = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x5cf69ece {
+                            0xad62f672: f32 = 150
+                            0x02deb550: f32 = 30
+                        }
                     }
                 }
             }
@@ -31,6 +74,19 @@ entries: map[hash,embed] = {
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Cherry_ParasiticRelationship_Name"
                         "keySummary" = "Cherry_ParasiticRelationship_Summary"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 2
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "HealPercent"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_HealPercentage"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
                     }
                 }
             }

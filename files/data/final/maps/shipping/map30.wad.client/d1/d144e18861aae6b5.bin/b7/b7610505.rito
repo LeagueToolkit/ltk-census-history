@@ -11,13 +11,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "CritHeal"
                     0x34474c3b: list[f32] = {
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
+                        0.35
+                        0.35
+                        0.55
+                        0.55
+                        0.55
+                        0.55
+                        0.55
                     }
                 }
                 0x005008a6 {
@@ -32,6 +32,69 @@ entries: map[hash,embed] = {
                         0.25
                     }
                 }
+                0x005008a6 {
+                    0x8d39bde6: string = "CritHealRatio"
+                    0x34474c3b: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "CriticalMissleTriggerRange"
+                    0x34474c3b: list[f32] = {
+                        550
+                        550
+                        550
+                        550
+                        550
+                        550
+                        550
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "SpellIDCD"
+                    0x34474c3b: list[f32] = {
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                        5
+                    }
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x5c2f8217 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xa47419e3
+                        }
+                        0x5f5c70a4 {
+                            0x4cec2c8a: u8 = 9
+                            0x7d3150ec: u8 = 2
+                            0xb386dcf1: hash = 0xe8e55586
+                        }
+                    }
+                    0x5a2297d3: bool = true
+                }
             }
             0xeed67cd5: list[string] = {
                 "ASSETS/Spells/Icons2D/Terrify.dds"
@@ -43,6 +106,19 @@ entries: map[hash,embed] = {
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Cherry_CriticalHealing_Name"
                         "keySummary" = "Cherry_CriticalHealing_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 2
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "CritHeal"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_CriticalHealingPercentage"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
                     }
                 }
             }

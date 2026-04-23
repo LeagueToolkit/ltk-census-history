@@ -11,13 +11,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "SpellDamagePerStack"
                     0x34474c3b: list[f32] = {
-                        0.03
-                        0.03
-                        0.03
-                        0.03
-                        0.03
-                        0.03
-                        0.03
+                        0.02
+                        0.02
+                        0.04
+                        0.06
+                        0.06
+                        0.07
+                        0.08
                     }
                 }
                 0x005008a6 {
@@ -45,27 +45,15 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "ADPerStack"
+                    0x8d39bde6: string = "MaxLevel"
                     0x34474c3b: list[f32] = {
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "ASPerStack"
-                    0x34474c3b: list[f32] = {
-                        0.02
-                        0.02
-                        0.02
-                        0.02
-                        0.02
-                        0.02
-                        0.02
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
                     }
                 }
             }
@@ -80,6 +68,25 @@ entries: map[hash,embed] = {
                 0
                 0
                 0
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_RighteousFury"
+                    0x57b8b11b: link = 0xd7c27163
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 3
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "SpellDamagePerStack"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_Cherry_DamageAmp"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

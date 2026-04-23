@@ -13,11 +13,11 @@ entries: map[hash,embed] = {
                     0x34474c3b: list[f32] = {
                         8
                         8
-                        8
-                        8
-                        8
-                        8
-                        8
+                        12
+                        16
+                        99
+                        99
+                        99
                     }
                 }
                 0x005008a6 {
@@ -45,27 +45,51 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "ASReductionPerCounter"
+                    0x8d39bde6: string = "ASReduction"
                     0x34474c3b: list[f32] = {
-                        -0.03
-                        -0.03
-                        -0.03
-                        -0.03
-                        -0.03
-                        -0.03
-                        -0.03
+                        0
+                        0
+                        0
+                        0.3
+                        0.3
+                        0.3
+                        0.3
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "StartingBees"
                     0x34474c3b: list[f32] = {
+                        0
                         1
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
+                        2
+                        3
+                        4
+                        5
+                        6
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "BaseDamageMax"
+                    0x34474c3b: list[f32] = {
+                        100
+                        100
+                        100
+                        100
+                        100
+                        100
+                        100
                     }
                 }
                 0x005008a6 {
@@ -81,20 +105,21 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "BaseDamageMax"
+                    0x8d39bde6: string = "SpellCooldown"
                     0x34474c3b: list[f32] = {
-                        100
-                        100
-                        100
-                        100
-                        100
-                        100
-                        100
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
                     }
                 }
             }
             0x94572284: map[hash,pointer] = {
                 0x18f0ea4e = 0xbc409284 {
+                    0x72c5c2a8: u32 = 1
                     0x50f145c0: list[pointer] = {
                         0xee18a47b {
                             0x0589a59c: hash = 0xf33ee833
@@ -133,12 +158,15 @@ entries: map[hash,embed] = {
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "DebuffDuration"
+                                    0x5127f14d: string = "StartingBees"
+                                    0x566f3406: string = "Spell_ListType_Cherry_StartingBees"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "StartingBees"
+                                    0x5127f14d: string = "MaxBeeStacks"
+                                    0x566f3406: string = "Spell_ListType_MaxStacks"
                                 }
                             }
                         }
