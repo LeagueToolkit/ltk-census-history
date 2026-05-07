@@ -4,7 +4,6 @@ version: u32 = 3
 linked: list[string] = {}
 entries: map[hash,embed] = {
     0xe82739cc = 0xaf9f3bac {
-        0xc7e16877: pointer = 0x4e771e24 {}
         0xe2db859f: string = "Options_Tab_hotkeys_WASD"
         0xa4b002d7: list2[pointer] = {
             0xf362fded {
@@ -1022,6 +1021,18 @@ entries: map[hash,embed] = {
                                                     0x518d5fc0 {
                                                         0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_ItemShop_SwitchShopTabs"
                                                         0x2a078c9c: string = "[WASD]ShopSwitchTabs"
+                                                    }
+                                                    0x518d5fc0 {
+                                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_ItemShop_PurchaseRecommended1"
+                                                        0x2a078c9c: string = "[WASD]ShopPurchaseRecommended1"
+                                                    }
+                                                    0x518d5fc0 {
+                                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_ItemShop_PurchaseRecommended2"
+                                                        0x2a078c9c: string = "[WASD]ShopPurchaseRecommended2"
+                                                    }
+                                                    0x518d5fc0 {
+                                                        0xca0e79b5: string = "Options_Hotkeys_AdditionalHotkeys_ItemShop_PurchaseRecommended3"
+                                                        0x2a078c9c: string = "[WASD]ShopPurchaseRecommended3"
                                                     }
                                                 }
                                             }
@@ -2164,7 +2175,18 @@ entries: map[hash,embed] = {
                 0x2645681b: vec4 = { -0.003, 0, -0.011, -0.028 }
             }
             0xd79b9cc2 {
-                0xc7e16877: pointer = 0xd4737a04 {}
+                0xc7e16877: pointer = 0x0a6743a7 {
+                    0xabd6be4c: list[pointer] = {
+                        0xd4737a04 {}
+                        0xcd391c99 {
+                            0x442474e9: bool = false
+                            0x420c4abd: bool = false
+                            0x1dde7980: bool = false
+                            0x0f623792: bool = false
+                            0x047600fd: bool = false
+                        }
+                    }
+                }
                 0x694aaa0b: hash = 0x3cd8d5b2
                 0xca0e79b5: string = "Options_WASDAdvancedSettings"
                 0x3a79338f: list[pointer] = {

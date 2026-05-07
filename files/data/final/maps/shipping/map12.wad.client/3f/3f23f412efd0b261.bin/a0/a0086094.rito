@@ -1,0 +1,58 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xa0086094 = 0x0a3f1520 {
+        0x8d39bde6: hash = 0x6476eef4
+        0x93cf6a73: list2[pointer] = {
+            0x3196ef58 {
+                0x6d2badf4: u8 = 2
+            }
+            0x2be06ec4 {
+                0x94911120: pointer = 0x7a0c339d {
+                    0xa2e4c271: string = "[ ]"
+                    0x371f336e: pointer = 0xc749aa30 {
+                        0x6bfb316f: string = "MoveCursorLeft"
+                        0x5307f5e1: link = 0xe5539ecf
+                    }
+                }
+                0xae8f2281: f32 = -1
+            }
+            0x2be06ec4 {
+                0x94911120: pointer = 0x7a0c339d {
+                    0xa2e4c271: string = "[ ]"
+                    0x371f336e: pointer = 0xc749aa30 {
+                        0x6bfb316f: string = "MoveCursorRight"
+                        0x5307f5e1: link = 0xe5539ecf
+                    }
+                }
+            }
+        }
+        0x8e568fa0: list2[pointer] = {
+            0x3196ef58 {
+                0x6d2badf4: u8 = 3
+                0x316c9fa1: bool = true
+            }
+            0x2be06ec4 {
+                0x94911120: pointer = 0x7a0c339d {
+                    0xa2e4c271: string = "[ ]"
+                    0x371f336e: pointer = 0xc749aa30 {
+                        0x6bfb316f: string = "MoveCursorUp"
+                        0x5307f5e1: link = 0xe5539ecf
+                    }
+                }
+                0xae8f2281: f32 = -1
+            }
+            0x2be06ec4 {
+                0x94911120: pointer = 0x7a0c339d {
+                    0xa2e4c271: string = "[ ]"
+                    0x371f336e: pointer = 0xc749aa30 {
+                        0x6bfb316f: string = "MoveCursorDown"
+                        0x5307f5e1: link = 0xe5539ecf
+                    }
+                }
+            }
+        }
+    }
+}

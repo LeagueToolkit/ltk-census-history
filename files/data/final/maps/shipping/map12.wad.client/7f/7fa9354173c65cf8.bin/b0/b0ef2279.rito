@@ -32,6 +32,60 @@ entries: map[hash,embed] = {
                         0.045
                     }
                 }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevel"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevelManaSpendThreshold"
+                    0x34474c3b: list[f32] = {
+                        400
+                        400
+                        400
+                        400
+                        400
+                        400
+                        400
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxLevelPerTriggerDamageAmp"
+                    0x34474c3b: list[f32] = {
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                    }
+                }
+            }
+            0xfb56608c: map[hash,embed] = {
+                0x497ae878 = 0x6b2f7a8d {
+                    0x52fde74f: list[embed] = {
+                        0x005008a6 {
+                            0x8d39bde6: string = "ManaPercentDamagePercent"
+                            0x34474c3b: list[f32] = {
+                                0.045
+                                0.045
+                                0.09
+                                0.135
+                                0.135
+                                0.135
+                                0.135
+                            }
+                        }
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0xaa5cf752 = 0xbc409284 {
@@ -43,8 +97,8 @@ entries: map[hash,embed] = {
                 }
                 0x12cfcbfc = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x763d871b {
-                            0x295c2889: f32 = 0.045
+                        0x2b25a73a {
+                            0x137cf12a: hash = 0x46a102eb
                         }
                     }
                 }
@@ -93,6 +147,19 @@ entries: map[hash,embed] = {
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Kiwi_Juiced_Name"
                         "keySummary" = "Kiwi_Juiced_Tooltip"
+                    }
+                    0x91ed07c9: map[string,embed] = {
+                        "LevelUp" = 0xfb33f2f3 {
+                            0x071a48dc: u32 = 2
+                            0x5a94b0cc: list[embed] = {
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "ManaPercentDamagePercent"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_AdditionalDamage"
+                                    0xac307ed6: u32 = 1
+                                }
+                            }
+                        }
                     }
                 }
             }
