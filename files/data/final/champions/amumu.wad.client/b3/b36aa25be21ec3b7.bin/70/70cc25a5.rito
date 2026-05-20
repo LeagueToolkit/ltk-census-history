@@ -74,13 +74,61 @@ entries: map[hash,embed] = {
                         0.5
                     }
                 }
+                0x005008a6 {
+                    0x8d39bde6: string = "BaseDamage"
+                    0x34474c3b: list[f32] = {
+                        35
+                        65
+                        95
+                        125
+                        155
+                        185
+                        215
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "BaseDamageReduction"
+                    0x34474c3b: list[f32] = {
+                        0
+                        5
+                        7
+                        9
+                        11
+                        13
+                        15
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "CDROnHit"
+                    0x34474c3b: list[f32] = {
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "PassiveScaling"
+                    0x34474c3b: list[f32] = {
+                        0.03
+                        0.03
+                        0.03
+                        0.03
+                        0.03
+                        0.03
+                        0.03
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0xc1154e11 = 0xbc409284 {
                     0xcbcac618: u8 = 6
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x525a87ee
                         }
                         0x5815b0a9 {
                             0x4cec2c8a: u8 = 1
@@ -96,8 +144,8 @@ entries: map[hash,embed] = {
                 }
                 0xd547ff49 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 2
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.5
@@ -170,16 +218,14 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 1
+                                    0x5127f14d: string = "BaseDamageReduction"
                                     0x566f3406: string = "Spell_ListType_DamageReduced"
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 2
+                                    0x5127f14d: string = "BaseDamage"
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                             }
