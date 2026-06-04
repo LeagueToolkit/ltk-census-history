@@ -1,0 +1,55 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x846243a1 = 0x5e7e5a06 {
+        0xe095d841: string = "Augment_Overextender"
+        0xc8e37ef0: string = "Augment_Overextender"
+        0x56d2be52: pointer = 0x43368569 {
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x8d39bde6: string = "DamageIncrease"
+                    0x34474c3b: list[f32] = {
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "CannonRangeIncrease"
+                    0x34474c3b: list[f32] = {
+                        12000
+                        12000
+                        12000
+                        12000
+                        12000
+                        12000
+                        12000
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Spells/Icons2D/Terrify.dds"
+            }
+            0x92a53e77: list[hash] = {
+                0xbdc292b1
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_Overextender"
+                    0x57b8b11b: link = 0xd7c27163
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "Kiwi_ARAM_Overextender_Name"
+                        "keySummary" = "Kiwi_Overextender_Summary"
+                        "keyTooltip" = "Kiwi_Overextender_Summary"
+                    }
+                }
+            }
+        }
+    }
+}

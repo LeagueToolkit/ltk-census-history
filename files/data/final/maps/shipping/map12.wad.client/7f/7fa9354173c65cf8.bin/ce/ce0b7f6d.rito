@@ -1,0 +1,40 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xce0b7f6d = 0x5e7e5a06 {
+        0xe095d841: string = "Augment_ARAM_SustainingStrike"
+        0xc8e37ef0: string = "Augment_ARAM_SustainingStrike"
+        0x56d2be52: pointer = 0x43368569 {
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x8d39bde6: string = "Lifesteal"
+                    0x34474c3b: list[f32] = {
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                    }
+                }
+            }
+            0x92a53e77: list[hash] = {
+                0xd636a01b
+            }
+            0x048557ff: embed = 0x7dd1a902 {
+                0x2831605b: pointer = 0xa4e13b57 {
+                    0xb482c52c: string = "Augment_ARAM_SustainingStrike"
+                    0x57b8b11b: link = 0xd7c27163
+                    0x0381f7e2: map[string,string] = {
+                        "keyName" = "ARAM_Augment_SustainingStrike_Name"
+                        "keySummary" = "ARAM_Augment_SustainingStrike_Desc"
+                        "keyTooltip" = "ARAM_Augment_SustainingStrike_Tooltip"
+                    }
+                }
+            }
+        }
+    }
+}

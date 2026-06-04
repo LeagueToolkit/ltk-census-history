@@ -10,7 +10,14 @@ entries: map[hash,embed] = {
             0x9c677a2c: u32 = 32
             0xecf3f88d: u32 = 8192
             0x3e1edbdb: list[string] = {
-                "Trait_SwapsIntoImmobilizingCCSpell"
+                "Trait_ImmobilizingCCAbility"
+                "Trait_DamageAbility"
+                "Trait_RecastOrReplaceSpell"
+                "Trait_Strike"
+                "Trait_SignatureSpell"
+                "Trait_Target_Directional"
+                "Trait_Ranged_Piercing"
+                "Trait_AoE"
             }
             0x06afef1b: list2[embed] = {
                 0x005008a6 {
@@ -238,6 +245,18 @@ entries: map[hash,embed] = {
                 4
                 4
             }
+            0x85d8a7e8: embed = 0x0a0eddc9 {
+                0x34474c3b: list[f32] = {
+                    4
+                    4
+                    4
+                    4
+                    4
+                    4
+                    4
+                }
+                0x0a3e0478: f32 = 4
+            }
             0xf4ca428f: u8 = 2
             0xab245046: bool = true
             0xe321919c: bool = true
@@ -253,6 +272,18 @@ entries: map[hash,embed] = {
                 450
                 450
                 450
+            }
+            0x0e1136d1: embed = 0x0a0eddc9 {
+                0x34474c3b: list[f32] = {
+                    450
+                    450
+                    450
+                    450
+                    450
+                    450
+                    450
+                }
+                0x0a3e0478: f32 = 450
             }
             0xb7250b1c: list[f32] = {
                 100

@@ -1,0 +1,46 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xaf1e1ec3 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFTEvent5YR_Explorer_Cashout19_Option3"
+        0x0773669d: map[string,pointer] = {
+            "MeepTypeUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_ArmoryKeyCompleted"
+                }
+            }
+            "Item" = 0x80996016 {
+                0x3a79338f: list2[link] = {
+                    0xddade800
+                    0xddade800
+                }
+            }
+            "ThreeStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFTEvent5YR_Milio"
+                    "TFTEvent5YR_Neeko"
+                    "TFTEvent5YR_Skarner"
+                }
+            }
+            "TwoStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFTEvent5YR_Brock"
+                }
+            }
+            "FourStarSpecificUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFTEvent5YR_Qiyana"
+                }
+            }
+            "ItemByKey" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "RADIANTITEMS_SET5"
+                    "RADIANTITEMS_SET5"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

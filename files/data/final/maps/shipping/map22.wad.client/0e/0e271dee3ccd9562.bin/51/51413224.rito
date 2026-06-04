@@ -1,0 +1,32 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x51413224 = 0xb25c0a3f {
+        0x3a79338f: map[hash,pointer] = {
+            0xdb7760bd = 0xa783cfd5 {
+                0xe1ad931b: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    2000, 0, 2000, 1
+                }
+                0x8d39bde6: string = "MapAudio_Observatory_Amb_Loop"
+                0xccf79327: u8 = 127
+                0x2a078c9c: string = "Play_sfx_tft_env_observatory_amb_loop"
+            }
+            0xb8908fff = 0xa783cfd5 {
+                0xe1ad931b: mtx44 = {
+                    1, 0, 0, 0
+                    0, 1, 0, 0
+                    0, 0, 1, 0
+                    3150, -1500, 1000, 1
+                }
+                0x8d39bde6: string = "MapAudio_armillary_sphere"
+                0xccf79327: u8 = 127
+                0x2a078c9c: string = "Play_sfx_tft_env_observatory_golden_armillary_sphere"
+            }
+        }
+    }
+}

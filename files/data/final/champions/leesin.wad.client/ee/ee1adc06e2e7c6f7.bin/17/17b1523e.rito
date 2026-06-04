@@ -9,41 +9,59 @@ entries: map[hash,embed] = {
         0x56d2be52: pointer = 0x43368569 {
             0xecf3f88d: u32 = 6154
             0x44b7e8dd: string = "LeeSinQOne"
+            0x3e1edbdb: list[string] = {
+                "Trait_DamageAbility"
+                "Trait_RecastOrReplaceSpell"
+                "Trait_SignatureSpell"
+                "Trait_Ranged_StopsFirstHit"
+            }
             0x06afef1b: list2[embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "Q1BaseDamage"
                     0x34474c3b: list[f32] = {
-                        35
-                        65
-                        95
-                        125
-                        155
-                        185
-                        215
+                        30
+                        60
+                        90
+                        120
+                        150
+                        180
+                        210
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "Q2BaseDamage"
                     0x34474c3b: list[f32] = {
-                        35
-                        65
-                        95
-                        125
-                        155
-                        185
-                        215
+                        30
+                        60
+                        90
+                        120
+                        150
+                        180
+                        210
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "Q1ADRatio"
+                    0x34474c3b: list[f32] = {
+                        0.9
+                        0.9
+                        0.9
+                        0.9
+                        0.9
+                        0.9
+                        0.9
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "Q2ADRatio"
                     0x34474c3b: list[f32] = {
-                        0.95
-                        0.95
-                        0.95
-                        0.95
-                        0.95
-                        0.95
-                        0.95
+                        0.9
+                        0.9
+                        0.9
+                        0.9
+                        0.9
+                        0.9
+                        0.9
                     }
                 }
                 0x005008a6 {
@@ -115,10 +133,10 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0xfbdd8817
                         }
-                        0x5815b0a9 {
+                        0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 0.95
+                            0xb386dcf1: hash = 0xa0cab191
                         }
                     }
                 }
@@ -160,6 +178,17 @@ entries: map[hash,embed] = {
                 6
                 6
             }
+            0x85d8a7e8: embed = 0x0a0eddc9 {
+                0x34474c3b: list[f32] = {
+                    11
+                    10
+                    9
+                    8
+                    7
+                    6
+                    6
+                }
+            }
             0xe321919c: bool = true
             0xd13b3d08: bool = true
             0xf47a22e5: bool = true
@@ -172,6 +201,18 @@ entries: map[hash,embed] = {
                 1200
                 1200
                 1200
+            }
+            0x0e1136d1: embed = 0x0a0eddc9 {
+                0x34474c3b: list[f32] = {
+                    1200
+                    1200
+                    1200
+                    1200
+                    1200
+                    1200
+                    1200
+                }
+                0x0a3e0478: f32 = 1200
             }
             0xd4c233b3: list[f32] = {
                 1100
@@ -242,6 +283,17 @@ entries: map[hash,embed] = {
                 50
                 50
                 50
+            }
+            0x210f9ec0: embed = 0x630af303 {
+                0x34474c3b: list[f32] = {
+                    50
+                    50
+                    50
+                    50
+                    50
+                    50
+                }
+                0x0a3e0478: f32 = 50
             }
             0x77b9f839: u32 = 1
             0x5d46764f: pointer = 0xdf6dc76a {}

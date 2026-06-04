@@ -1,0 +1,44 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x1cc9085f = 0x5e7e5a06 {
+        0xe095d841: string = "Augment_Bonk"
+        0xc8e37ef0: string = "Augment_Bonk"
+        0x56d2be52: pointer = 0x43368569 {
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x8d39bde6: string = "DamageMultiplier"
+                    0x34474c3b: list[f32] = {
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "AoERange"
+                    0x34474c3b: list[f32] = {
+                        300
+                        300
+                        300
+                        300
+                        300
+                        300
+                        300
+                    }
+                }
+            }
+            0xeed67cd5: list[string] = {
+                "ASSETS/Characters/Mordekaiser/HUD/Icons2D/MordekaiserQ.dds"
+            }
+            0x92a53e77: list[hash] = {
+                0x02fe9b18
+            }
+        }
+    }
+}

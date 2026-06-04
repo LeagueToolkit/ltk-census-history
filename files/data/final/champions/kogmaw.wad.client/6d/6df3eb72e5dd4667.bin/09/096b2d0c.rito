@@ -11,6 +11,9 @@ entries: map[hash,embed] = {
             0x44b7e8dd: string = "KogMawLivingArtillery"
             0x3e1edbdb: list[string] = {
                 "Trait_Ultimate"
+                "Trait_DamageAbility"
+                "Trait_Target_Area"
+                "Trait_AoE"
             }
             0x06afef1b: list2[embed] = {
                 0x005008a6 {
@@ -220,6 +223,17 @@ entries: map[hash,embed] = {
                 2
                 2
             }
+            0x85d8a7e8: embed = 0x0a0eddc9 {
+                0x34474c3b: list[f32] = {
+                    2
+                    2
+                    1.5
+                    1
+                    2
+                    2
+                    2
+                }
+            }
             0xbae514d4: bool = true
             0xe321919c: bool = true
             0x534cce1b: bool = false
@@ -232,6 +246,17 @@ entries: map[hash,embed] = {
                 1200
                 1200
                 1200
+            }
+            0x0e1136d1: embed = 0x0a0eddc9 {
+                0x34474c3b: list[f32] = {
+                    1300
+                    1300
+                    1550
+                    1800
+                    1200
+                    1200
+                    1200
+                }
             }
             0xb7250b1c: list[f32] = {
                 240
@@ -273,6 +298,17 @@ entries: map[hash,embed] = {
                 40
                 40
                 40
+            }
+            0x210f9ec0: embed = 0x630af303 {
+                0x34474c3b: list[f32] = {
+                    40
+                    40
+                    40
+                    40
+                    40
+                    40
+                }
+                0x0a3e0478: f32 = 40
             }
             0x77b9f839: u32 = 2
             0x5d46764f: pointer = 0x9b0f2144 {}

@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xbdf03b19 = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFTEvent5YR_Explorer_Cashout13_Option3"
+        0x0773669d: map[string,pointer] = {
+            "MeepTypeUnit" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_ArmoryKeyCompleted"
+                    "TFT_ArmoryKeyCompleted"
+                    "TFT_ArmoryKeyCompleted"
+                }
+            }
+            "Gold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 15
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

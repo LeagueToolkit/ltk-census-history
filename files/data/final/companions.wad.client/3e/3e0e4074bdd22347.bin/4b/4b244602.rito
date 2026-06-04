@@ -41,6 +41,22 @@ entries: map[hash,embed] = {
         }
         0xd0ab46b8: list2[embed] = {
             0xde480eef {
+                0x8d39bde6: string = "modelHeight"
+                0x425ed3ca: vec4 = { 275, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "rimOffset"
+                0x425ed3ca: vec4 = { 0.3, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "albedoNewMax"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "albedoNewMin"
+                0x425ed3ca: vec4 = { 0.1, 0, 0, 0 }
+            }
+            0xde480eef {
                 0x8d39bde6: string = "Color_Fresnel"
                 0x425ed3ca: vec4 = { 1.5, 0, 0, 0 }
             }
@@ -50,11 +66,11 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "AlphaFresnel_Bias"
-                0x425ed3ca: vec4 = { 3, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 2, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "X_Scale"
-                0x425ed3ca: vec4 = { 1.6758324, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 1.676, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Y_Scale"
@@ -69,11 +85,11 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "Color1"
-                0x425ed3ca: vec4 = { 0, 1, 0.7499962, 0.5499962 }
+                0x425ed3ca: vec4 = { 0, 1, 0.7499962, 1 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Color2"
-                0x425ed3ca: vec4 = { 0, 0.9100023, 0.60999465, 0.5000076 }
+                0x425ed3ca: vec4 = { 0, 0.9100023, 0.60999465, 1 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Bloom_Intensity"
@@ -82,7 +98,14 @@ entries: map[hash,embed] = {
         }
         0xdd7ddb9d: list2[embed] = {
             0x0e2212a1 {
+                0x8d39bde6: string = "USE_ALBEDO_REMAP"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_RIM"
+            }
+            0x0e2212a1 {
                 0x8d39bde6: string = "USE_ADDITIVE_PANNER"
+                0x61342fd0: bool = false
             }
         }
         0xe6d67ded: map[string,string] = {

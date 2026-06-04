@@ -1,0 +1,19 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x175e696e = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFTEvent5YR_Explorer_Cashout15_Option4"
+        0x0773669d: map[string,pointer] = {
+            "TrainingDummy_Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT5_Item_WarmogsArmorRadiant"
+                    "TFT5_Item_SunfireCapeRadiant"
+                    "TFT5_Item_RedemptionRadiant"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

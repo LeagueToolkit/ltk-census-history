@@ -11,6 +11,11 @@ entries: map[hash,embed] = {
             0xecf3f88d: u32 = 15567
             0x3e1edbdb: list[string] = {
                 "Trait_AttackReset"
+                "Trait_DamageAbility"
+                "Trait_Shield"
+                "Trait_DoT"
+                "Trait_Low_Damage"
+                "Trait_AoE"
             }
             0x06afef1b: list2[embed] = {
                 0x005008a6 {
@@ -167,6 +172,18 @@ entries: map[hash,embed] = {
                 12
                 12
             }
+            0x85d8a7e8: embed = 0x0a0eddc9 {
+                0x34474c3b: list[f32] = {
+                    12
+                    12
+                    12
+                    12
+                    12
+                    12
+                    12
+                }
+                0x0a3e0478: f32 = 12
+            }
             0xe321919c: bool = true
             0x534cce1b: bool = false
             0x1b9cbd9b: list[f32] = {
@@ -177,6 +194,18 @@ entries: map[hash,embed] = {
                 1000
                 1100
                 1200
+            }
+            0x0e1136d1: embed = 0x0a0eddc9 {
+                0x34474c3b: list[f32] = {
+                    600
+                    700
+                    800
+                    900
+                    1000
+                    1100
+                    1200
+                }
+                0x0a3e0478: f32 = 600
             }
             0xd4c233b3: list[f32] = {
                 350
@@ -225,6 +254,17 @@ entries: map[hash,embed] = {
                 60
                 60
                 60
+            }
+            0x210f9ec0: embed = 0x630af303 {
+                0x34474c3b: list[f32] = {
+                    60
+                    60
+                    60
+                    60
+                    60
+                    60
+                }
+                0x0a3e0478: f32 = 60
             }
             0x77b9f839: u32 = 1
             0x5d46764f: pointer = 0x645ba277 {}

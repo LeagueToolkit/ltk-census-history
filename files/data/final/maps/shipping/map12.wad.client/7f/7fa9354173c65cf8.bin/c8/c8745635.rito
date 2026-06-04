@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc8745635 = 0x8d31b69b {
+        0xbc1b3d88: hash = 0xe4164c81
+        0xa2bf8c3e: string = "PressureCookerQuest"
+        0x4796bf5f: string = "Kiwi_BurnBabyBurn_Name"
+        0xc88f1a9b: string = "PressureCooker_QuestComplete"
+        0x06b06978: embed = 0x7a1cab0d {
+            0xf0a363e3: string = "ASSETS/UX/Kiwi/Augments/Icons/ShakenNotStirred_large.tex"
+        }
+        0xee2e0dbc: bool = true
+        0x5385fe0a: list2[embed] = {
+            0x898bb7cb {
+                0x7fec0982: u32 = 1500
+                0x03d6a5a2: string = "PressureCooker1_Quest_Desc"
+            }
+            0x898bb7cb {
+                0x7fec0982: u32 = 15000
+                0x03d6a5a2: string = "PressureCooker2_Quest_Desc"
+            }
+            0x898bb7cb {
+                0x7fec0982: u32 = 30000
+                0x03d6a5a2: string = "PressureCooker3_Quest_Desc"
+            }
+        }
+    }
+}

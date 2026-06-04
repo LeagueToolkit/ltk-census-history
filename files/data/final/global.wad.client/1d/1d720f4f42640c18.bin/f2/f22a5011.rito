@@ -38,12 +38,12 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 40
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "AAStacks"
-                0x24f2ec89: f32 = 1
+                0x19efbfdb: string = "AAStacksMelee"
+                0x24f2ec89: f32 = 2
             }
             0xb2c62c87 {
-                0x19efbfdb: string = "SpellStacks"
-                0x24f2ec89: f32 = 2
+                0x19efbfdb: string = "SpellStacksMelee"
+                0x24f2ec89: f32 = 4
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "UltAHPerStack"
@@ -56,6 +56,36 @@ entries: map[hash,embed] = {
             0xb2c62c87 {
                 0x19efbfdb: string = "MaxAH"
                 0x24f2ec89: f32 = 80
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "AAStacksRangedMultiplier"
+                0x24f2ec89: f32 = 0.5
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "SpellStacksRangedMultiplier"
+                0x24f2ec89: f32 = 0.75
+            }
+        }
+        0x0ac4f0d5: map[hash,pointer] = {
+            0xc2a027ce = 0xe9a3c91d {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x4bd9daf6
+                    }
+                }
+                0x68508370: pointer = 0x332eb441 {
+                    0xb386dcf1: hash = 0xb47b239e
+                }
+            }
+            0xff67a4d0 = 0xe9a3c91d {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x0053650c
+                    }
+                }
+                0x68508370: pointer = 0x332eb441 {
+                    0xb386dcf1: hash = 0x2b6b0ae8
+                }
             }
         }
         0xb739c155: f32 = 0.08

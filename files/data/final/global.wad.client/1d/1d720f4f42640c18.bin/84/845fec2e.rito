@@ -14,6 +14,7 @@ entries: map[hash,embed] = {
         }
         0x5b0a81be: list[link] = {
             0x165d7c1f
+            0x48ff8661
         }
         0x0b44452a: i32 = 6000
         0x51c4b876: bool = true
@@ -62,6 +63,10 @@ entries: map[hash,embed] = {
                 0x24f2ec89: f32 = 2.5
             }
             0xb2c62c87 {
+                0x19efbfdb: string = "ExplosionSize"
+                0x24f2ec89: f32 = 300
+            }
+            0xb2c62c87 {
                 0x19efbfdb: string = "DamageToHealthPercentage"
                 0x24f2ec89: f32 = 0.015
             }
@@ -100,6 +105,17 @@ entries: map[hash,embed] = {
                 }
                 0x7f93cf4e: hash = 0xe22a4dfe
             }
+            0x43138551 = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x15fecdbc {
+                        0xd06c375d: f32 = 50
+                    }
+                    0x5815b0a9 {
+                        0x4cec2c8a: u8 = 12
+                        0x295c2889: f32 = 0.05
+                    }
+                }
+            }
         }
         0x5b98619f: f32 = 25
         0x06d997bb: f32 = 1000
@@ -136,6 +152,7 @@ entries: map[hash,embed] = {
                     "keyTooltipExternal" = "Item_223069_TooltipExternal"
                     "keyTooltipExtendedRules" = "Item_223069_TooltipExtendedRules"
                     "keySummary" = "Item_223069_Summary"
+                    "keyFlavorText" = "Item_223069_FlavorText"
                 }
                 0x91ed07c9: map[string,embed] = {
                     "Stats" = 0xfb33f2f3 {
@@ -179,6 +196,7 @@ entries: map[hash,embed] = {
                 0x85931761 = 0x5d54fca7
                 0x90d58cbb = 0xc560c971
                 0x39ba8bcd = 0x07fe987f
+                0xa09796bf = 0xf3b7050d
             }
         }
     }

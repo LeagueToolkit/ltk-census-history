@@ -1,0 +1,25 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x90f33d8e = 0x60e00531 {
+        0x19efbfdb: string = "ArmoryContent_TFTEvent5YR_Explorer_Cashout10_Option1"
+        0x0773669d: map[string,pointer] = {
+            "Gold" = 0x4012fd7e {
+                0x24f2ec89: i32 = 2
+            }
+            "ItemByKey" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "RADIANTITEMS_SET5"
+                }
+            }
+            "Item" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFT_Consumable_ItemReroller"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

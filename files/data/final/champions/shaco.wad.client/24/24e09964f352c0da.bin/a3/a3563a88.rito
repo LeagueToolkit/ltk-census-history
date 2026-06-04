@@ -41,6 +41,22 @@ entries: map[hash,embed] = {
         }
         0xd0ab46b8: list2[embed] = {
             0xde480eef {
+                0x8d39bde6: string = "albedoNewMin"
+                0x425ed3ca: vec4 = { 0.1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "modelHeight"
+                0x425ed3ca: vec4 = { 275, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "albedoNewMax"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "rimOffset"
+                0x425ed3ca: vec4 = { 0.3, 0, 0, 0 }
+            }
+            0xde480eef {
                 0x8d39bde6: string = "DistortIntensity"
                 0x425ed3ca: vec4 = { 1, 0, 0, 0 }
             }
@@ -150,6 +166,12 @@ entries: map[hash,embed] = {
         }
         0xdd7ddb9d: list2[embed] = {
             0x0e2212a1 {
+                0x8d39bde6: string = "USE_ALBEDO_REMAP"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_RIM"
+            }
+            0x0e2212a1 {
                 0x8d39bde6: string = "USE_FRESNEL_FOR_ALPHA"
                 0x61342fd0: bool = false
                 0x5fb91e8c: string = "Alpha"
@@ -231,6 +253,90 @@ entries: map[hash,embed] = {
                 }
             }
         }
-        0x86875ff3: pointer = 0x2d6bf1a2 {}
+        0x86875ff3: pointer = 0x2d6bf1a2 {
+            0x99108c85: list[embed] = {
+                0x4db865fc {
+                    0x8d39bde6: string = "Diffuse_Texture"
+                    0xef286ca5: list[embed] = {
+                        0x21d0c864 {
+                            0xe55419df: pointer = 0x9233f657 {
+                                0x7aceca0f: list[pointer] = {
+                                    0x087188b5 {
+                                        0x30b2f4b2: list[hash] = {
+                                            0x5a81bdb0
+                                        }
+                                    }
+                                    0x90bc9b17 {
+                                        0x7c698268: u32 = 1
+                                        0x126af138: pointer = 0xd05c1920 {
+                                            0xe55419df: pointer = 0x7fc1d873 {
+                                                0xfbd16fb5: hash = 0x5a81bdb0
+                                            }
+                                            0xb9780647: embed = 0xfe064c88 {
+                                                0x5d68eeb5: list[f32] = {
+                                                    0
+                                                    0.11
+                                                    0.12
+                                                    0.5
+                                                    0.51
+                                                    0.5189388
+                                                    0.53
+                                                    0.54
+                                                    0.55
+                                                    0.5605306
+                                                    0.5662857
+                                                    0.6106939
+                                                    1
+                                                }
+                                                0x34474c3b: list[f32] = {
+                                                    0.79938054
+                                                    0.8
+                                                    1.2
+                                                    1.2010177
+                                                    0.9
+                                                    0.77818584
+                                                    1.2
+                                                    0.8
+                                                    1.2
+                                                    0.82300884
+                                                    1.0496594
+                                                    0.9607573
+                                                    0.8014602
+                                                }
+                                            }
+                                        }
+                                        0x156af5f1: pointer = 0x70fff2b7 {
+                                            0x24f2ec89: f32 = 1
+                                        }
+                                    }
+                                }
+                            }
+                            0xb311d4ef: string = "ASSETS/Characters/Shaco/Skins/Skin71/Shaco_Skin71_Weapen_Q_diffuse_TX_CM.SKINS_Shaco_Skin71.tex"
+                        }
+                        0x21d0c864 {
+                            0xe55419df: pointer = 0x9233f657 {
+                                0x7aceca0f: list[pointer] = {
+                                    0xd4933ea0 {}
+                                    0xd5a6ab25 {
+                                        0x85045366: pointer = 0x0d373ad1 {
+                                            0xa10ad504: u8 = 10
+                                        }
+                                    }
+                                    0xd5a6ab25 {
+                                        0x85045366: pointer = 0x8afb0060 {
+                                            0xc8e37ef0: string = "sylasrstatstonemanager"
+                                        }
+                                    }
+                                    0xd5a6ab25 {
+                                        0x85045366: pointer = 0xbd60ee1b {}
+                                    }
+                                }
+                            }
+                            0xb311d4ef: string = "ASSETS/Characters/Shaco/Skins/Skin71/Shaco_Skin71_Weapen_Q_diffuse_TX_CM.SKINS_Shaco_Skin71.tex"
+                        }
+                    }
+                }
+            }
+        }
     }
 }
