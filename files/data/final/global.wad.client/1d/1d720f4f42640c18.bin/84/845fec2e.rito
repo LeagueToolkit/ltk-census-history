@@ -68,7 +68,35 @@ entries: map[hash,embed] = {
             }
             0xb2c62c87 {
                 0x19efbfdb: string = "DamageToHealthPercentage"
-                0x24f2ec89: f32 = 0.015
+                0x24f2ec89: f32 = 0.035
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ProcDPSMultiplier"
+                0x24f2ec89: f32 = 1
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ChampProcDPSMultiplier"
+                0x24f2ec89: f32 = 1.5
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "Cooldown"
+                0x24f2ec89: f32 = 12
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ProcAoE"
+                0x24f2ec89: f32 = 350
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ChampProcAoE"
+                0x24f2ec89: f32 = 500
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ProcDamageHPRatio"
+                0x24f2ec89: f32 = 0.02
+            }
+            0xb2c62c87 {
+                0x19efbfdb: string = "ProcBaseDamage"
+                0x24f2ec89: f32 = 20
             }
         }
         0xfb56608c: map[hash,embed] = {
@@ -76,7 +104,15 @@ entries: map[hash,embed] = {
                 0x06afef1b: list[embed] = {
                     0xb2c62c87 {
                         0x19efbfdb: string = "DamageToHealthPercentage"
-                        0x24f2ec89: f32 = 0.04
+                        0x24f2ec89: f32 = 0.07
+                    }
+                    0xb2c62c87 {
+                        0x19efbfdb: string = "ProcDamageHPRatio"
+                        0x24f2ec89: f32 = 0.15
+                    }
+                    0xb2c62c87 {
+                        0x19efbfdb: string = "ProcBaseDamage"
+                        0x24f2ec89: f32 = 45
                     }
                 }
             }
@@ -89,6 +125,7 @@ entries: map[hash,embed] = {
                     }
                     0x5f5c70a4 {
                         0x4cec2c8a: u8 = 12
+                        0x7d3150ec: u8 = 2
                         0xb386dcf1: hash = 0x543f3cc3
                     }
                 }
@@ -113,6 +150,18 @@ entries: map[hash,embed] = {
                     0x5815b0a9 {
                         0x4cec2c8a: u8 = 12
                         0x295c2889: f32 = 0.05
+                    }
+                }
+            }
+            0x20f1bdcc = 0xbc409284 {
+                0x50f145c0: list[pointer] = {
+                    0x332eb441 {
+                        0xb386dcf1: hash = 0x5d12aa2d
+                    }
+                    0x5f5c70a4 {
+                        0x4cec2c8a: u8 = 12
+                        0x7d3150ec: u8 = 2
+                        0xb386dcf1: hash = 0xd082d99f
                     }
                 }
             }

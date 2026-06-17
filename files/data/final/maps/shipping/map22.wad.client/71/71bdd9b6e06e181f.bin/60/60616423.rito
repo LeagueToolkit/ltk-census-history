@@ -1,0 +1,44 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x60616423 = 0xd186c31a {
+        0x19efbfdb: string = "TFT_Augment_BRB"
+        0xe98b297e: list[link] = {
+            0x560943b8
+            0xaff7cb1b
+        }
+        0xadb3e562: embed = 0xd65315ee {
+            0xdf085b93: map[hash,pointer] = {
+                0xa8bbf652 = 0x977517c6 {
+                    0x24f2ec89: f32 = 2
+                }
+                0x90a3817e = 0x977517c6 {
+                    0x24f2ec89: f32 = 3
+                }
+            }
+        }
+        0xa47a6adf: list2[hash] = {
+            0xce1fd21c
+            0xb72bd3bf
+            0x92e7310e
+            0xd12ae4b6
+            0xd22ae649
+            0x7aaa3b47
+            0xc5c463aa
+            0x77b330ea
+            0x8fba48a3
+        }
+        0xb4ee03e8: bool = true
+        0xc3143d66: string = "TFT_Augment_BRB_name"
+        0x765f18da: string = "TFT_Augment_BRB_dsc"
+        0xd434d358: string = "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/BRB-II.tex"
+        0x8bee2972: string = "ASSETS/Maps/TFT/Icons/Augments/Hexcore/BRB-II.tex"
+        0x41b0f90b: hash = 0xe7d38341
+        0xc9becee9: hash = 0xd4c7944c
+        0x5371e38f: option[rgba] = {
+            { 76, 241, 255, 255 }
+        }
+    }
+}
