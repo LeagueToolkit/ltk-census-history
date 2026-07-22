@@ -45,25 +45,25 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "DamagePerHit"
                     0x34474c3b: list[f32] = {
-                        5
-                        6
-                        7
                         8
-                        9
                         10
-                        11
+                        12
+                        14
+                        16
+                        18
+                        20
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "OnHitRatio"
                     0x34474c3b: list[f32] = {
-                        0.08
-                        0.08
-                        0.08
-                        0.08
-                        0.08
-                        0.08
-                        0.08
+                        0.12
+                        0.12
+                        0.12
+                        0.12
+                        0.12
+                        0.12
+                        0.12
                     }
                 }
                 0x005008a6 {
@@ -81,49 +81,49 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "MonsterMod"
                     0x34474c3b: list[f32] = {
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
-                        1.5
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "MissingHealthMult"
                     0x34474c3b: list[f32] = {
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "DRPercent"
                     0x34474c3b: list[f32] = {
+                        0.1
+                        0.2
                         0.3
-                        0.35
                         0.4
-                        0.45
                         0.5
-                        0.55
                         0.6
+                        0.7
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "BonusLifeSteal"
                     0x34474c3b: list[f32] = {
+                        0.15
                         0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
+                        0.25
+                        0.3
+                        0.35
+                        0.4
+                        0.45
                     }
                 }
             }
@@ -140,7 +140,7 @@ entries: map[hash,embed] = {
                             0x4914452d: pointer = 0x5815b0a9 {
                                 0x4cec2c8a: u8 = 4
                                 0x7d3150ec: u8 = 2
-                                0x295c2889: f32 = 0.5
+                                0x295c2889: f32 = 0.4
                             }
                         }
                     }
@@ -152,7 +152,7 @@ entries: map[hash,embed] = {
                         }
                         0x5815b0a9 {
                             0x4cec2c8a: u8 = 2
-                            0x295c2889: f32 = 0.08
+                            0x295c2889: f32 = 0.12
                         }
                     }
                 }
@@ -161,16 +161,12 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0xe2a44f49
                         }
-                        0x5815b0a9 {
-                            0x4cec2c8a: u8 = 18
-                            0x295c2889: f32 = 1
-                        }
                     }
                     0x5a2297d3: bool = true
                 }
                 0x6e43d37c = 0x070e3593 {
                     0x2c77adff: pointer = 0x9ef92080 {
-                        0xe202bca9: f32 = 4
+                        0xe202bca9: f32 = 2
                     }
                     0xd6b7a622: bool = true
                     0x7f93cf4e: hash = 0xef37922d
@@ -182,23 +178,23 @@ entries: map[hash,embed] = {
             }
             0xf26881a0: f32 = 0
             0x9ecac3a1: list[f32] = {
-                20
-                20
-                19
+                24
+                24
+                21
                 18
-                17
-                16
-                16
+                15
+                12
+                12
             }
             0x85d8a7e8: embed = 0x0a0eddc9 {
                 0x34474c3b: list[f32] = {
-                    20
-                    20
-                    19
+                    24
+                    24
+                    21
                     18
-                    17
-                    16
-                    16
+                    15
+                    12
+                    12
                 }
             }
             0x1b9cbd9b: list[f32] = {
@@ -250,6 +246,12 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "DRPercent"
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_DamageReduction"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BonusLifeSteal"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_ListType_LifeSteal"
                                     0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {

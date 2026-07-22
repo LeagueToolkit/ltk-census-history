@@ -1,0 +1,38 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xfcebe13e = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/LoL/Jade/JadePlayerFrame/UIBase/Player_Frame_Root/LevelUp/LevelUp1_Button"
+        0x2063cb13: link = 0x26f83bbe
+        0x5a94b0cc: list2[link] = {
+            0x4ef2b78f
+            0xc539c883
+            0x62e7a936
+            0xbc75d410
+            0x4e6617aa
+        }
+        0x6bf3194e: link = 0x4e6617aa
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xc539c883
+            }
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xbc75d410
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x4ef2b78f
+            }
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x62e7a936
+            }
+        }
+    }
+}

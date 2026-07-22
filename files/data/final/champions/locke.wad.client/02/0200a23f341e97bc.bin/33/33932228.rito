@@ -23,13 +23,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "BaseMoveSpeed"
                     0x34474c3b: list[f32] = {
-                        0.35
                         0.4
-                        0.45
-                        0.5
-                        0.55
-                        0.6
-                        0.65
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
+                        0.4
                     }
                 }
                 0x005008a6 {
@@ -59,13 +59,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "BaseDamageRestoreAmount"
                     0x34474c3b: list[f32] = {
-                        10
+                        20
                         40
-                        70
+                        60
+                        80
                         100
-                        130
-                        160
-                        190
+                        120
+                        140
                     }
                 }
                 0x005008a6 {
@@ -116,6 +116,84 @@ entries: map[hash,embed] = {
                         1
                     }
                 }
+                0x005008a6 {
+                    0x8d39bde6: string = "HealCapAPRatio"
+                    0x34474c3b: list[f32] = {
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                        0.6
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "HealCapLevel1Value"
+                    0x34474c3b: list[f32] = {
+                        150
+                        150
+                        150
+                        150
+                        150
+                        150
+                        150
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "HealCapLevel18Value"
+                    0x34474c3b: list[f32] = {
+                        450
+                        450
+                        450
+                        450
+                        450
+                        450
+                        450
+                    }
+                }
+            }
+            0xfb56608c: map[hash,embed] = {
+                0x497ae878 = 0x6b2f7a8d {
+                    0x52fde74f: list[embed] = {
+                        0x005008a6 {
+                            0x8d39bde6: string = "BaseDamageRestoreAmount"
+                            0x34474c3b: list[f32] = {
+                                20
+                                80
+                                140
+                                200
+                                260
+                                320
+                                380
+                            }
+                        }
+                        0x005008a6 {
+                            0x8d39bde6: string = "HealCapLevel1Value"
+                            0x34474c3b: list[f32] = {
+                                225
+                                225
+                                225
+                                225
+                                225
+                                225
+                                225
+                            }
+                        }
+                        0x005008a6 {
+                            0x8d39bde6: string = "HealCapLevel18Value"
+                            0x34474c3b: list[f32] = {
+                                675
+                                675
+                                675
+                                675
+                                675
+                                675
+                                675
+                            }
+                        }
+                    }
+                }
             }
             0x94572284: map[hash,pointer] = {
                 0x9f49799f = 0xbc409284 {
@@ -135,7 +213,7 @@ entries: map[hash,embed] = {
                             0xb386dcf1: hash = 0x6fda3861
                         }
                         0x5815b0a9 {
-                            0x295c2889: f32 = 1.2
+                            0x295c2889: f32 = 1
                         }
                     }
                 }
@@ -157,12 +235,12 @@ entries: map[hash,embed] = {
                 }
                 0x035921bc = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x15fecdbc {
-                            0xd06c375d: f32 = 150
-                            0x1cd7e522: f32 = 450
+                        0xee18a47b {
+                            0x0589a59c: hash = 0xac95ccf9
+                            0x0b65bc23: hash = 0x8a4b3f41
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.6
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0x7c4e2ec3
                         }
                     }
                 }
@@ -192,7 +270,7 @@ entries: map[hash,embed] = {
             }
             0xfbd16fb5: string = "Spell2"
             0xeed67cd5: list[string] = {
-                "ASSETS/Characters/Locke/HUD/Icons2D/Locke_W.Locke.dds"
+                "ASSETS/Characters/Locke/HUD/Icons2D/Locke_W.dds"
             }
             0x11704a2b: f32 = 0
             0xf26881a0: f32 = 0
@@ -325,12 +403,6 @@ entries: map[hash,embed] = {
                                 0x9a1b3505 {
                                     0x5127f14d: string = "BaseDamageRestoreAmount"
                                     0x566f3406: string = "Spell_ListType_DamageRestored"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "BaseMoveSpeed"
-                                    0xf506c7e6: f32 = 100
-                                    0x566f3406: string = "Spell_ListType_MovementSpeed"
-                                    0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cost"

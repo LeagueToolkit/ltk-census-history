@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x5c7f9ec0 = 0x2a4b4fcd {
+        0x37386ae0: string = "bdef339b-06ab-4344-87c0-8b2c72741466"
+        0x6eacca83: string = "EventHub/JadePlayerAccountLevel/RewardGroups/19_Jade_PAL_Emote"
+        0x081f82f1: string = "rewardgroup_name_01_Jade_PAL_CelebrationTitle"
+        0x346f3b69: string = "rewardgroup_description_19_Jade_LevelUp"
+        0xa1d9de0b: list[pointer] = {
+            0x9f4272ac {
+                0x31c5f01c: string = "game_summoner_emote_name_5127"
+                0xd35466b8: string = "season_reward_desc_title_emote"
+                0xfc9adf03: pointer = 0x77274757 {
+                    0xb35135fa: string = "ASSETS/Loadouts/SummonerEmotes/Events/Classic/5127_Caution_Singed_Inventory.tex"
+                }
+                0x13bddc7b: string = "fa2a521d-31cc-4ffd-8ef5-8bf3c1434cc9"
+                0x0ba947a2: link = 0x531d96d7
+            }
+        }
+        0x14d7d5a7: u8 = 2
+        0xee192a3e: embed = 0xd443ea96 {
+            0x83172271: embed = 0xe27f0273 {
+                0x87ac0600: u8 = 2
+                0xc12d04c6: string = "ASSETS/Rewards/Jade/jade_bg_celebration.png"
+            }
+        }
+    }
+}

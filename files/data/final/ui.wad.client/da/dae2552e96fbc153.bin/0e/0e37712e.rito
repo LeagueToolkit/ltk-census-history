@@ -1,0 +1,37 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x0e37712e = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/LoL/Jade/JadeCombatOverview/UIBase/CombatOverview/CO_ToggleButton"
+        0x2063cb13: link = 0x113b151e
+        0x5a94b0cc: list2[link] = {
+            0x2da69a54
+            0xf4b592d3
+            0xd78d2785
+            0x7723189c
+        }
+        0xdf2b45ce: bool = true
+        0x6bf3194e: link = 0xd78d2785
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x2da69a54
+            }
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xf4b592d3
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x7723189c
+            }
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0x84b6cf03: string = "play_sfx_hud_base_Generic_Button_Click"
+            0xb416d0a8: string = "play_sfx_hud_base_Generic_Button_Click"
+        }
+    }
+}

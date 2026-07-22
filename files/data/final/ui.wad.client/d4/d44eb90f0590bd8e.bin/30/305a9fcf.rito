@@ -1,0 +1,38 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x305a9fcf = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/LoL/Jade/JadeItemShop/UIBase/ItemShop/ItemShop_ItemDetails/ItemShop_Bundle_PurchaseButton"
+        0x2063cb13: link = 0xfe08191c
+        0x5a94b0cc: list2[link] = {
+            0x35e5ecdc
+            0xec696e94
+            0xfcce1b13
+            0x4f62f2d3
+            0xf2e6692d
+        }
+        0x6bf3194e: link = 0xf2e6692d
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xec696e94
+            }
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0xfcce1b13
+            }
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x35e5ecdc
+            }
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x4f62f2d3
+            }
+        }
+    }
+}

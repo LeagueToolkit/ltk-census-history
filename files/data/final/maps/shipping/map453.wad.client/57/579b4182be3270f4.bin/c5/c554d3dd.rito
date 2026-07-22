@@ -1,0 +1,28 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xc554d3dd = 0x6b91544a {
+        0x9cfb5e22: f32 = 2.4
+        0xc62a9137: list2[embed] = {
+            0x41c19efe {
+                0x8d39bde6: string = "FaeLights_Order"
+                0x2adc883e: link = 0x4d23db3b
+                0x08e786db: rgba = { 0, 0, 255, 0 }
+                0x1c45cf5c: rgba = { 128, 255, 0, 128 }
+            }
+            0x41c19efe {
+                0x8d39bde6: string = "FaeLights_Chaos"
+                0x2adc883e: link = 0x4d23db3b
+                0x08e786db: rgba = { 0, 255, 0, 0 }
+                0x1c45cf5c: rgba = { 255, 128, 0, 128 }
+            }
+            0x41c19efe {
+                0x8d39bde6: string = "Squid_Ink_Chaos"
+                0x2adc883e: link = 0x83b1af49
+                0x08e786db: rgba = { 255, 0, 0, 0 }
+            }
+        }
+    }
+}

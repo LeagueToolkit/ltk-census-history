@@ -1,0 +1,40 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x6a7a6eaa = 0x787e8697 {
+        0xdcb68071: string = "CharacterScaling_Jade"
+        0x84874d36: hash = 0x6a7a6eaa
+        0xf9f16781: map[hash,embed] = {
+            0x69523460 = 0x3641a323 {
+                0x160da1c3: list2[pointer] = {
+                    0x851b8dc5 {
+                        0xd851ffa3: string = "b36c25a3-50c2-4f3a-b128-200a32383e48"
+                        0x8a25e7be: pointer = 0xf6b622c6 {
+                            0x4a9c9bdf: pointer = 0x2f0c3844 {}
+                            0x8a25e7be: string = "CharacterScale"
+                        }
+                    }
+                    0x15ebaa9c {
+                        0xd851ffa3: string = "b2cdd253-ed86-4551-98b3-1ed53c587a76"
+                        0x798fbc5d: string = "-1 + iv.CharacterScale"
+                        0x9a032455: embed = 0xf6b622c6 {
+                            0x4a9c9bdf: pointer = 0x2f0c3844 {}
+                            0x8a25e7be: string = "actualScale"
+                        }
+                    }
+                }
+            }
+            0xd844d98f = 0x3641a323 {
+                0x160da1c3: list2[pointer] = {
+                    null
+                }
+            }
+        }
+        0x0f7352bb: embed = 0xbe608a4c {
+            0xb60e6a51: bool = true
+            0x4830d8fb: bool = true
+        }
+    }
+}

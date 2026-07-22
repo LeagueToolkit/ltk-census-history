@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4005da94 = 0x2a4b4fcd {
+        0x37386ae0: string = "2247fb1f-d406-4687-9262-1e73bb67b114"
+        0x6eacca83: string = "EventHub/JadePlayerAccountLevel/RewardGroups/26_Jade_PAL_Ward_Skin"
+        0x081f82f1: string = "rewardgroup_name_01_Jade_PAL_CelebrationTitle"
+        0x346f3b69: string = "rewardgroup_description_26_Jade_LevelUp"
+        0xa1d9de0b: list[pointer] = {
+            0x9f4272ac {
+                0x31c5f01c: string = "game_character_skin_displayname_SightWard_267"
+                0xd35466b8: string = "season_reward_desc_title_ward"
+                0xfc9adf03: pointer = 0x77274757 {
+                    0xb35135fa: string = "ASSETS/Rewards/Jade/PixelPerfect_Ward.tex"
+                }
+                0x13bddc7b: string = "0854cdbc-0292-465d-bb26-46ec7578530c"
+                0x0ba947a2: link = 0xe20af511
+            }
+        }
+        0x14d7d5a7: u8 = 2
+        0xee192a3e: embed = 0xd443ea96 {
+            0x83172271: embed = 0xe27f0273 {
+                0x87ac0600: u8 = 2
+                0xc12d04c6: string = "ASSETS/Rewards/Jade/jade_bg_celebration.png"
+            }
+        }
+    }
+}

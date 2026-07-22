@@ -8,19 +8,19 @@ entries: map[hash,embed] = {
         0x0a6f0eb5: list2[embed] = {
             0x0904b150 {
                 0xb311d4ef: string = "Diffuse_Texture"
-                0xf0a363e3: string = "ASSETS/Characters/Vayne/Skins/Skin73/Vayne_Skin73_R_Hand_TX_CM.Chroma_Vayne_Demoncursed.tex"
+                0xf0a363e3: string = "ASSETS/Characters/Vayne/Skins/Skin73/Vayne_Skin73_R_Hand_TX_CM.tex"
                 0x111ec6d2: u32 = 2
                 0x101ec53f: u32 = 2
             }
             0x0904b150 {
                 0xb311d4ef: string = "Mask_Texture"
-                0xf0a363e3: string = "ASSETS/Characters/Vayne/Skins/Skin67/Vayne_Skin67_R_Hand_Mask.SKINS_Vayne_Skin67.tex"
+                0xf0a363e3: string = "ASSETS/Characters/Vayne/Skins/Skin67/Vayne_Skin67_R_Hand_Mask.tex"
                 0x111ec6d2: u32 = 1
                 0x101ec53f: u32 = 1
             }
             0x0904b150 {
                 0xb311d4ef: string = "Pattern_01"
-                0xf0a363e3: string = "ASSETS/Characters/Vayne/Skins/Skin73/Vayne_Skin73_R_Hand_TX_CM.Chroma_Vayne_Demoncursed.tex"
+                0xf0a363e3: string = "ASSETS/Characters/Vayne/Skins/Skin73/Vayne_Skin73_R_Hand_TX_CM.tex"
             }
             0x0904b150 {
                 0xb311d4ef: string = "Pattern_02"
@@ -35,7 +35,7 @@ entries: map[hash,embed] = {
             }
             0x0904b150 {
                 0xb311d4ef: string = "Distortion_Texture"
-                0xf0a363e3: string = "ASSETS/Characters/Vayne/Skins/Skin67/Vayne_Skin67_Demon_Head_Distortion.SKINS_Vayne_Skin67.tex"
+                0xf0a363e3: string = "ASSETS/Characters/Vayne/Skins/Skin67/Vayne_Skin67_Demon_Head_Distortion.tex"
             }
             0x0904b150 {
                 0xb311d4ef: string = "Distortion_Texture_02"
@@ -43,7 +43,7 @@ entries: map[hash,embed] = {
             }
             0x0904b150 {
                 0xb311d4ef: string = "Gradient"
-                0xf0a363e3: string = "ASSETS/Characters/Vayne/Skins/Skin67/Vayne_Skin67_HeadDemonHand_Gradient.SKINS_Vayne_Skin67.tex"
+                0xf0a363e3: string = "ASSETS/Characters/Vayne/Skins/Skin67/Vayne_Skin67_HeadDemonHand_Gradient.tex"
                 0x111ec6d2: u32 = 1
                 0x101ec53f: u32 = 1
                 0x0f1ec3ac: u32 = 1
@@ -84,8 +84,32 @@ entries: map[hash,embed] = {
                 0xb311d4ef: string = "DeformMask"
                 0xf0a363e3: string = "ASSETS/Shared/Materials/black.tex"
             }
+            0x0904b150 {
+                0xb311d4ef: string = "Alpha_Multiplier_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/white.tex"
+            }
         }
         0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "Ribbon_U_Remap"
+                0x425ed3ca: vec4 = { 0, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Ribbon_V_Remap"
+                0x425ed3ca: vec4 = { 0, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Ribbon_Amplitude"
+                0x425ed3ca: vec4 = { 17, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Ribbon_MoveSpeed"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Ribbon_SegmentCount"
+                0x425ed3ca: vec4 = { 5, 0, 0, 0 }
+            }
             0xde480eef {
                 0x8d39bde6: string = "modelHeight"
                 0x425ed3ca: vec4 = { 275, 0, 0, 0 }
@@ -340,6 +364,16 @@ entries: map[hash,embed] = {
         }
         0xdd7ddb9d: list2[embed] = {
             0x0e2212a1 {
+                0x8d39bde6: string = "USE_ALPHA_MULTIPLIER_TEXTURE"
+                0x61342fd0: bool = false
+                0x5fb91e8c: string = "Alpha"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_VERTEX_ANIMATION_TO_SIMULATE_RIBBON"
+                0x61342fd0: bool = false
+                0x5fb91e8c: string = "Vertex_Animation"
+            }
+            0x0e2212a1 {
                 0x8d39bde6: string = "USE_ALBEDO_REMAP"
             }
             0x0e2212a1 {
@@ -491,7 +525,7 @@ entries: map[hash,embed] = {
                                     }
                                 }
                             }
-                            0xb311d4ef: string = "ASSETS/Characters/Vayne/Skins/Skin73/Vayne_Skin73_R_Hand_Ult_TX_CM.Chroma_Vayne_Demoncursed.tex"
+                            0xb311d4ef: string = "ASSETS/Characters/Vayne/Skins/Skin73/Vayne_Skin73_R_Hand_Ult_TX_CM.tex"
                         }
                     }
                 }

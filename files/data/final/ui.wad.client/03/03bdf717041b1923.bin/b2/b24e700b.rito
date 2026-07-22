@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb24e700b = 0x732ae9dd {
+        0x4a4536af: list[pointer] = {
+            0xaa3a44aa {
+                0x2fa0fd0d: f32 = 3.25
+                0xcc87b8ae: f32 = 190
+            }
+            0x4dd5511e {
+                0x2fa0fd0d: f32 = 3.3
+                0xd373cfe7: u8 = 22
+            }
+            0x450ff991 {
+                0x2fa0fd0d: f32 = 3.5
+                0x4469955f: vec2 = { 0, 0 }
+                0xbbda0faa: vec2 = { 3, 3 }
+            }
+        }
+    }
+}

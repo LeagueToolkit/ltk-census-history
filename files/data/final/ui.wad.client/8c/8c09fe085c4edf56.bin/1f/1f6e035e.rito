@@ -1,0 +1,23 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x1f6e035e = 0x81665919 {
+        0x2dc3bb11: file = 0xa06bea469d5a1e8f
+        0x3f19432c: link = 0x1b4a431c
+        0xcc5d06d5: hash = 0x6b930cde
+        0x0dfd634b: hash = 0xd8e7fa68
+        0x58322317: hash = 0x509656ff
+        0xb9cd03d1: embed = 0x39a9452c {
+            0x0400cac9: string = "shop_autobuild_can_purchase"
+            0x3518798d: string = "shop_autobuild_can_purchase_components"
+            0xf2714556: string = "shop_autobuild_switch_target"
+            0x8322a528: string = "shop_autobuild_want_to_build"
+            0x09cc6881: string = "shop_autobuild_too_expensive"
+            0x24e31fac: string = "shop_autobuild_trivial"
+            0xec824f6b: string = "shop_autobuild_unpurchasable"
+            0x97dec6cf: string = "shop_autobuild_out_of_range"
+        }
+    }
+}

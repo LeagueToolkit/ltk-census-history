@@ -104,6 +104,33 @@ entries: map[hash,embed] = {
                         0.6
                     }
                 }
+                0x005008a6 {
+                    0x8d39bde6: string = "Level1MS"
+                    0x34474c3b: list[f32] = {
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MSBonusPerLevelAtAndAfter"
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MSAdditionalBonusAtThreshold"
+                    0x34474c3b: list[f32] = {
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                        0.1
+                    }
+                }
             }
             0xfb56608c: map[hash,embed] = {
                 0x497ae878 = 0x6b2f7a8d {
@@ -130,6 +157,30 @@ entries: map[hash,embed] = {
                                 0.7
                                 0.7
                                 0.7
+                            }
+                        }
+                        0x005008a6 {
+                            0x8d39bde6: string = "MSAdditionalBonusAtThreshold"
+                            0x34474c3b: list[f32] = {
+                                0.15
+                                0.15
+                                0.15
+                                0.15
+                                0.15
+                                0.15
+                                0.15
+                            }
+                        }
+                        0x005008a6 {
+                            0x8d39bde6: string = "Level1MS"
+                            0x34474c3b: list[f32] = {
+                                0.4
+                                0.4
+                                0.4
+                                0.4
+                                0.4
+                                0.4
+                                0.4
                             }
                         }
                     }
@@ -213,20 +264,24 @@ entries: map[hash,embed] = {
                 0xdd1924b0 = 0xbc409284 {
                     0xcbcac618: u8 = 6
                     0x50f145c0: list[pointer] = {
-                        0x5cf69ece {
-                            0xad62f672: f32 = 0.3
-                            0x7b5d1934: list[embed] = {
-                                0x8e93d8ee {
-                                    0xa77654ae: u32 = 6
-                                    0xd5fd07ed: f32 = 0.1
+                        0x4ce08984 {
+                            0x91d404a5: hash = 0xa54323a8
+                            0xbbd778a2: hash = 0x4347a7eb
+                            0x9823b29a: list2[embed] = {
+                                0x0333530c {
+                                    0x9b99e7dd: u32 = 6
+                                    0xae9b464d: hash = 0xcaadc665
+                                    0xb0d8b2ac: hash = 0x4347a7eb
                                 }
-                                0x8e93d8ee {
-                                    0xa77654ae: u32 = 11
-                                    0xd5fd07ed: f32 = 0.1
+                                0x0333530c {
+                                    0x9b99e7dd: u32 = 11
+                                    0xae9b464d: hash = 0xcaadc665
+                                    0xb0d8b2ac: hash = 0x4347a7eb
                                 }
-                                0x8e93d8ee {
-                                    0xa77654ae: u32 = 16
-                                    0xd5fd07ed: f32 = 0.1
+                                0x0333530c {
+                                    0x9b99e7dd: u32 = 16
+                                    0xae9b464d: hash = 0xcaadc665
+                                    0xb0d8b2ac: hash = 0x4347a7eb
                                 }
                             }
                         }

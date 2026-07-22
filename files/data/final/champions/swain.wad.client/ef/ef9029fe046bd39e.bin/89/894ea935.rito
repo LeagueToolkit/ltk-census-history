@@ -8,19 +8,19 @@ entries: map[hash,embed] = {
         0x0a6f0eb5: list2[embed] = {
             0x0904b150 {
                 0xb311d4ef: string = "Diffuse_Texture"
-                0xf0a363e3: string = "ASSETS/Characters/Swain/Skins/Skin43/Swain_Skin43_TX_CM.Chroma_Swain_FriedChicken.tex"
+                0xf0a363e3: string = "ASSETS/Characters/Swain/Skins/Skin43/Swain_Skin43_TX_CM.tex"
                 0x111ec6d2: u32 = 2
                 0x101ec53f: u32 = 2
             }
             0x0904b150 {
                 0xb311d4ef: string = "Mask_Texture"
-                0xf0a363e3: string = "ASSETS/Characters/Swain/Skins/Skin42/Swain_Skin42_Flowmap_Mask.SKINS_Swain_Skin42.tex"
+                0xf0a363e3: string = "ASSETS/Characters/Swain/Skins/Skin42/Swain_Skin42_Flowmap_Mask.tex"
                 0x111ec6d2: u32 = 1
                 0x101ec53f: u32 = 1
             }
             0x0904b150 {
                 0xb311d4ef: string = "Pattern_01"
-                0xf0a363e3: string = "ASSETS/Characters/Swain/Skins/Skin43/Swain_Skin43_TX_CM.Chroma_Swain_FriedChicken.tex"
+                0xf0a363e3: string = "ASSETS/Characters/Swain/Skins/Skin43/Swain_Skin43_TX_CM.tex"
             }
             0x0904b150 {
                 0xb311d4ef: string = "Pattern_02"
@@ -54,7 +54,7 @@ entries: map[hash,embed] = {
             }
             0x0904b150 {
                 0xb311d4ef: string = "FlowMap_Texture"
-                0xf0a363e3: string = "ASSETS/Characters/SwainDemonForm/Skins/Skin42/SwainDemonForm_Skin42_Flowmap.SKINS_Swain_Skin42.tex"
+                0xf0a363e3: string = "ASSETS/Characters/SwainDemonForm/Skins/Skin42/SwainDemonForm_Skin42_Flowmap.tex"
             }
             0x0904b150 {
                 0xb311d4ef: string = "FlowMap_Texture_02"
@@ -70,7 +70,7 @@ entries: map[hash,embed] = {
             }
             0x0904b150 {
                 0xb311d4ef: string = "Fresnel_Color_Texture"
-                0xf0a363e3: string = "ASSETS/Characters/Swain/Skins/Skin43/Swain_Skin43_Arm_Fresnel_Color.Chroma_Swain_FriedChicken.tex"
+                0xf0a363e3: string = "ASSETS/Characters/Swain/Skins/Skin43/Swain_Skin43_Arm_Fresnel_Color.tex"
             }
             0x0904b150 {
                 0xb311d4ef: string = "Fresnel_Mask"
@@ -84,8 +84,32 @@ entries: map[hash,embed] = {
                 0xb311d4ef: string = "DeformMask"
                 0xf0a363e3: string = "ASSETS/Shared/Materials/black.tex"
             }
+            0x0904b150 {
+                0xb311d4ef: string = "Alpha_Multiplier_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/white.tex"
+            }
         }
         0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "Ribbon_U_Remap"
+                0x425ed3ca: vec4 = { 0, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Ribbon_V_Remap"
+                0x425ed3ca: vec4 = { 0, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Ribbon_Amplitude"
+                0x425ed3ca: vec4 = { 17, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Ribbon_MoveSpeed"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Ribbon_SegmentCount"
+                0x425ed3ca: vec4 = { 5, 0, 0, 0 }
+            }
             0xde480eef {
                 0x8d39bde6: string = "modelHeight"
                 0x425ed3ca: vec4 = { 275, 0, 0, 0 }
@@ -336,6 +360,16 @@ entries: map[hash,embed] = {
             }
         }
         0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_ALPHA_MULTIPLIER_TEXTURE"
+                0x61342fd0: bool = false
+                0x5fb91e8c: string = "Alpha"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_VERTEX_ANIMATION_TO_SIMULATE_RIBBON"
+                0x61342fd0: bool = false
+                0x5fb91e8c: string = "Vertex_Animation"
+            }
             0x0e2212a1 {
                 0x8d39bde6: string = "USE_ALBEDO_REMAP"
             }

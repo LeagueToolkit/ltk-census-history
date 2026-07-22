@@ -1,0 +1,54 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x223a0eea = 0x25e82b58 {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/LoL/Jade/JadeItemShop/UIBase/ItemShop/ItemShop_PurchaseButton"
+        0x2063cb13: link = 0x6b930cde
+        0x5a94b0cc: list2[link] = {
+            0x97b797dc
+            0x32ed1f7b
+            0x6ee7c42d
+            0x4e3b1994
+            0x4f16fe48
+            0x4c7323d3
+            0x6e43a414
+            0x936f0e13
+            0x6ee0b554
+            0xe05ab899
+            0xcb0fddc4
+        }
+        0x6bf3194e: link = 0x6ee7c42d
+        0x1bf466b2: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x4e3b1994
+                0x4f16fe48
+            }
+            0xeec29756: link = 0xcb0fddc4
+        }
+        0xbcd200cf: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x936f0e13
+                0xe05ab899
+            }
+            0xeec29756: link = 0x6ee0b554
+        }
+        0xad0f8882: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x97b797dc
+                0xe05ab899
+            }
+            0xeec29756: link = 0x32ed1f7b
+        }
+        0x78ba88b4: embed = 0x6780c1c5 {
+            0xafbfe7cf: list2[link] = {
+                0x4c7323d3
+            }
+            0xeec29756: link = 0x6e43a414
+        }
+        0xa30565cd: pointer = 0xfc2d67aa {
+            0xd84e3078: string = "Play_sfx_hud_base_Store_Select"
+        }
+    }
+}

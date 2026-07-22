@@ -1,0 +1,43 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xdf0f3d08 = 0xc8400f38 {
+        0x6bfb316f: string = "PointAndClick Replay(constant)"
+        0x8d39bde6: hash = 0xf8c85e67
+        0x82d6dcb0: list2[pointer] = {
+            0xc8d6dccd {
+                0x5ff6cd50: list2[pointer] = {
+                    0x2152c2a1 {
+                        0xfd36c650: bool = true
+                        0x5e3d5ec0: list2[u32] = {
+                            5
+                            6
+                            7
+                        }
+                    }
+                }
+                0xf248d989: link = 0xf5ce6f38
+                0x01d6318d: u32 = 11
+            }
+            0xcaefc854 {
+                0xf248d989: link = 0xd77f30cc
+            }
+            0xe9b3cb22 {
+                0xf248d989: link = 0x4c29ec64
+                0x00fbeff0: u32 = 1
+            }
+        }
+        0x5ff6cd50: list2[pointer] = {
+            0x65d58192 {}
+            0x49401c5c {
+                0xfd36c650: bool = true
+                0x5e3d5ec0: list2[u32] = {
+                    2
+                }
+            }
+            0xf5e4e61d {}
+        }
+    }
+}

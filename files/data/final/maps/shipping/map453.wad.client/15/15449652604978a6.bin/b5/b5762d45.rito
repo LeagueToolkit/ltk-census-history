@@ -1,0 +1,121 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb5762d45 = 0xff9d3409 {
+        0x8d39bde6: string = "Maps/KitPieces/Jade/Base/Materials/Default/Jade_GroundLane_AA_MAT"
+        0x5127f14d: u32 = 0
+        0x0a6f0eb5: list2[embed] = {
+            0x0904b150 {
+                0xb311d4ef: string = "Mask_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/TerrainBlending/Jade/jade_ground_blends.tex"
+                0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
+                0xb311d4ef: string = "Bottom_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/TerrainBlending/Jade/Chaos_dirt.tex"
+                0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
+                0xb311d4ef: string = "Middle_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/TerrainBlending/Jade/gravel_stone_TX_CM.tex"
+                0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
+                0xb311d4ef: string = "Top_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/TerrainBlending/Jade/order_dirt.tex"
+                0x0f1ec3ac: u32 = 1
+            }
+            0x0904b150 {
+                0xb311d4ef: string = "Extras_Texture"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/TerrainBlending/Jade/grass_TX_CM.tex"
+                0x0f1ec3ac: u32 = 1
+            }
+        }
+        0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "B_mask_multiplier"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "G_mask_multiplier"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "R_mask_multiplier"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Bottom_Tiling"
+                0x425ed3ca: vec4 = { 0.03, 0.03, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "WS_Multiplier"
+                0x425ed3ca: vec4 = { 0.1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Mid_Tiling"
+                0x425ed3ca: vec4 = { 0.03, 0.03, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Top_Tiling"
+                0x425ed3ca: vec4 = { 0.03, 0.03, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Extra_Tiling"
+                0x425ed3ca: vec4 = { 0.03, 0.03, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Tint"
+            }
+        }
+        0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_TOP"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_EXTRAS"
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "SHOW_RED_MASK"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "SHOW_GREEN_MASK"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "SHOW_BLUE_MASK"
+                0x61342fd0: bool = false
+            }
+        }
+        0xe6d67ded: map[string,string] = {
+            "NUM_BLEND_WEIGHTS" = "4"
+        }
+        0x844f384e: list[embed] = {
+            0x060a4413 {
+                0x8d39bde6: string = "normal"
+                0x623cd25c: list[embed] = {
+                    0x8537d0c2 {
+                        0x355d5568: link = 0xe25b830f
+                        0x23b75597: bool = true
+                        0x22c0c7d0: u32 = 6
+                        0xa0958d01: u32 = 6
+                        0xbe0abbf5: u32 = 7
+                        0x7385e534: u32 = 7
+                    }
+                }
+            }
+        }
+        0x9330e6b6: list[embed] = {
+            0x735b4c95 {
+                0x8d39bde6: string = "transition"
+                0xb696a5fe: string = "normal"
+                0xe6d67ded: map[string,string] = {
+                    "TRANSITION" = "1"
+                }
+            }
+        }
+    }
+}

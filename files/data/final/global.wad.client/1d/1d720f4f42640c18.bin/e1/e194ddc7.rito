@@ -1,0 +1,27 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe194ddc7 = 0x5e7e5a06 {
+        0xe095d841: string = "ItemFeralFlare_Stacking_Buff_Jade"
+        0xc8e37ef0: string = "ItemFeralFlare_Stacking_Buff_Jade"
+        0x56d2be52: pointer = 0x43368569 {
+            0xeed67cd5: list[string] = {
+                "ASSETS/Items/Icons2D/Jade/3160_Feral_Flare.dds"
+            }
+        }
+        0x7f0f5a79: pointer = 0x4633d794 {
+            0xf1f20d72: string = "buff_desc_ItemIonicSpark_Counter_Buff_Jade"
+            0x2831605b: pointer = 0x5eaafbf6 {
+                0xb482c52c: string = "ItemFeralFlare_Stacking_Buff_Jade"
+                0x57b8b11b: link = 0xb34f999a
+                0x0381f7e2: map[string,string] = {
+                    "keyName" = "ItemFeralFlare_Stacking_buff_name"
+                    "keyTooltip" = "ItemFeralFlare_Stacking_buff_description"
+                }
+            }
+            0x00d019c1: bool = false
+        }
+    }
+}

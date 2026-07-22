@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xceecac75 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_ER_TOPLANEITEMS"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFTEventER_Item_Ohmwrecker"
+                    "TFTEventER_Item_SwordOfTheDivine"
+                    "TFTEventER_Item_BlackCleaver"
+                    "TFTEventER_Item_BannerOfCommand"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

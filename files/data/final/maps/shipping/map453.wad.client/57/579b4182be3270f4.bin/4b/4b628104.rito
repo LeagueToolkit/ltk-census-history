@@ -1,0 +1,30 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4b628104 = 0x2a4b4fcd {
+        0x37386ae0: string = "07e124ad-99c6-4b21-828b-4c6b29979b07"
+        0x6eacca83: string = "EventHub/JadePlayerAccountLevel/RewardGroups/03_Jade_PAL_Masteries"
+        0x081f82f1: string = "rewardgroup_name_01_Jade_PAL_CelebrationTitle"
+        0x346f3b69: string = "rewardgroup_description_03_Jade_LevelUp"
+        0xa1d9de0b: list[pointer] = {
+            0x1cfeba20 {
+                0x31c5f01c: string = "rewards_title_03_Jade_PAL_Masteries"
+                0xd35466b8: string = "rewards_details_03_Jade_PAL_Masteries"
+                0x4b728fd8: i16 = 500
+                0xfc9adf03: pointer = 0x77274757 {
+                    0xb35135fa: string = "ASSETS/Rewards/Jade/jade_reward_Masteries_BE.tex"
+                }
+                0x13bddc7b: string = "6e4b2a5c-dfbb-5f9f-9194-718107047829"
+            }
+        }
+        0x14d7d5a7: u8 = 2
+        0xee192a3e: embed = 0xd443ea96 {
+            0x83172271: embed = 0xe27f0273 {
+                0x87ac0600: u8 = 2
+                0xc12d04c6: string = "ASSETS/Rewards/Jade/jade_bg_celebration.png"
+            }
+        }
+    }
+}

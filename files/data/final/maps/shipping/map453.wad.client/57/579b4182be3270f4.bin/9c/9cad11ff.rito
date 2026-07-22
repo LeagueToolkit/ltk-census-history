@@ -1,0 +1,29 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x9cad11ff = 0x2a4b4fcd {
+        0x37386ae0: string = "9562bc66-e5bd-4406-80dc-cd283f7381ee"
+        0x6eacca83: string = "EventHub/JadePlayerAccountLevel/RewardGroups/05_Jade_PAL_VotingPower_1"
+        0x081f82f1: string = "rewardgroup_name_VotingPower_1"
+        0x346f3b69: string = "rewardgroup_description_05_Jade_LevelUp"
+        0xa1d9de0b: list[pointer] = {
+            0xa4fcf99f {
+                0x31c5f01c: string = "rewardgroup_name_VotingPower_1"
+                0xd35466b8: string = "rewards_details_05_Jade_PAL_VotingPower_1"
+                0xfc9adf03: pointer = 0x77274757 {
+                    0xb35135fa: string = "ASSETS/Rewards/Jade/jade_voting_power.tex"
+                }
+                0x13bddc7b: string = "8f95e804-11fe-4df5-8ba8-d00132432e41"
+            }
+        }
+        0x14d7d5a7: u8 = 2
+        0xee192a3e: embed = 0xd443ea96 {
+            0x83172271: embed = 0xe27f0273 {
+                0x87ac0600: u8 = 2
+                0xc12d04c6: string = "ASSETS/Rewards/Jade/jade_bg_celebration.png"
+            }
+        }
+    }
+}

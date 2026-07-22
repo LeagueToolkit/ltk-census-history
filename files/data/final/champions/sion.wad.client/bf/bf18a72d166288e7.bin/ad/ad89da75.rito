@@ -208,6 +208,66 @@ entries: map[hash,embed] = {
                         0.4
                     }
                 }
+                0x005008a6 {
+                    0x8d39bde6: string = "BaseShield"
+                    0x34474c3b: list[f32] = {
+                        60
+                        60
+                        75
+                        90
+                        105
+                        120
+                        120
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "BaseDamage"
+                    0x34474c3b: list[f32] = {
+                        15
+                        40
+                        65
+                        90
+                        115
+                        140
+                        165
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxHPDamageRatio"
+                    0x34474c3b: list[f32] = {
+                        14
+                        14
+                        14
+                        14
+                        14
+                        14
+                        14
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "DetonateRecastCooldown"
+                    0x34474c3b: list[f32] = {
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "ShieldDuration"
+                    0x34474c3b: list[f32] = {
+                        6
+                        6
+                        6
+                        6
+                        6
+                        6
+                        6
+                    }
+                }
             }
             0xfb56608c: map[hash,embed] = {
                 0x497ae878 = 0x6b2f7a8d {
@@ -398,8 +458,8 @@ entries: map[hash,embed] = {
             0x94572284: map[hash,pointer] = {
                 0x6594c758 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xa8c1dce1
                         }
                         0x5f5c70a4 {
                             0xb386dcf1: hash = 0xf4c0c480
@@ -412,8 +472,8 @@ entries: map[hash,embed] = {
                 }
                 0x1ddee768 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 2
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
                         }
                         0x5f5c70a4 {
                             0xb386dcf1: hash = 0x84381950
@@ -547,13 +607,11 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 1
+                                    0x5127f14d: string = "BaseShield"
                                     0x566f3406: string = "Spell_ListType_ShieldAmount"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 2
+                                    0x5127f14d: string = "BaseDamage"
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {

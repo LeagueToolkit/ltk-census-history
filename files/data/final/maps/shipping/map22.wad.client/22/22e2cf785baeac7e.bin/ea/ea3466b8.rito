@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xea3466b8 = 0x60e00531 {
+        0x19efbfdb: string = "ItemKeyDefinition_ER_GOLDITEMS"
+        0x0773669d: map[string,pointer] = {
+            "Definitions" = 0xbe542f32 {
+                0x24f2ec89: list[string] = {
+                    "TFTEventER_Item_LuckyPick"
+                    "TFTEventER_Item_PhilosophersStone"
+                    "TFTEventER_Item_HeartOfGold"
+                    "TFTEventER_Item_AvariceBlade"
+                }
+            }
+        }
+        0x9be36761: link = 0xb874104c
+    }
+}

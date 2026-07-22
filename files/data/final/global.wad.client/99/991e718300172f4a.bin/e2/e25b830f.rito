@@ -1,0 +1,140 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xe25b830f = 0x205255d6 {
+        0x897eefc2: link = 0x62b174c9
+        0x48a52ed9: list[embed] = {
+            0x816753d8 {
+                0x8d39bde6: string = "B_mask_multiplier"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "B_mask_multiplier"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "G_mask_multiplier"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "G_mask_multiplier"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "R_mask_multiplier"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "R_mask_multiplier"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Tint"
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Tint"
+                        0x0640657c: u32 = 15
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Bottom_Tiling"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Bottom_Tiling"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "WS_Multiplier"
+                0xd872e2a5: vec4 = { 0.01, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "WS_Multiplier"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Mid_Tiling"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Mid_Tiling"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Top_Tiling"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Top_Tiling"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Extra_Tiling"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Extra_Tiling"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+        }
+        0x3291437b: list[embed] = {
+            0x60a292e6 {
+                0x8d39bde6: string = "USE_TOP"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "USE_EXTRAS"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "SHOW_RED_MASK"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "SHOW_GREEN_MASK"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "SHOW_BLUE_MASK"
+            }
+        }
+        0x99108c85: list[embed] = {
+            0x31d1e223 {
+                0x8d39bde6: string = "Mask_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/TerrainBlending/Noise3.tex"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Bottom_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/TerrainBlending/Cobblestone_albedo.tex"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Middle_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/TerrainBlending/ODY_dirt_512.tex"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Top_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/TerrainBlending/ODY_Ground_Dirt03_512.tex"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "Extras_Texture"
+                0x32b374fa: string = "ASSETS/Shared/Materials/TerrainBlending/ODY_Ground_Grass01_512.tex"
+            }
+        }
+        0x1d369c29: string = "Shaders/StaticMesh/4TextureBlend_UVBased_baseMat"
+    }
+}

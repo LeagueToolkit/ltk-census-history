@@ -1,0 +1,20 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x421966de = 0x89a3465f {
+        0x8d39bde6: string = "ClientStates/Gameplay/UX/LoL/Jade/JadeGameHeaderReplay/UIBase/GameStats/TB_Dragons_T2Layout"
+        0x2063cb13: link = 0xbade4d9f
+        0x5a94b0cc: list2[link] = {
+            0xf6fa897d
+            0xae9f8cf2
+            0xd0ca6095
+        }
+        0x031afe7d: link = 0xd0ca6095
+        0xfa4c41a0: pointer = 0xb277fa06 {
+            0xf00a885b: u8 = 1
+        }
+        0xb824a2c2: bool = true
+    }
+}
