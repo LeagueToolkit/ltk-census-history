@@ -5,6 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x5cec844c = 0x5e7e5a06 {
         0xe095d841: string = "Jade_LuxR"
+        0x1d369c29: hash = 0x5cec844c
         0xc8e37ef0: string = "Jade_LuxR"
         0x56d2be52: pointer = 0x43368569 {
             0x9c677a2c: u32 = 4194308
@@ -26,85 +27,26 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "ResetPercent"
+                    0x8d39bde6: string = "APRatio"
                     0x34474c3b: list[f32] = {
-                        0.2
-                        0.3
-                        0.4
-                        0.5
-                        0.6
-                        0.7
-                        0.8
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "ResetAssistWindow"
-                    0x34474c3b: list[f32] = {
-                        1.75
-                        1.75
-                        1.75
-                        1.75
-                        1.75
-                        1.75
-                        1.75
-                    }
-                }
-            }
-            0xf9c2333e: map[hash,embed] = {
-                0x497ae878 = 0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        45
-                        55
-                        45
-                        35
-                        30
-                        30
-                        30
-                    }
-                }
-                0x8f061404 = 0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        80
-                        80
-                        70
-                        60
-                        60
-                        60
-                        60
-                    }
-                }
-                0xa110bc47 = 0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        80
-                        80
-                        70
-                        60
-                        60
-                        60
-                        60
-                    }
-                }
-                0xbffdf499 = 0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        80
-                        80
-                        70
-                        60
-                        60
-                        60
-                        60
+                        0.85
+                        0.85
+                        0.85
+                        0.85
+                        0.85
+                        0.85
+                        0.85
                     }
                 }
             }
             0x94572284: map[hash,pointer] = {
                 0x1ddee768 = 0xbc409284 {
-                    0xcbcac618: u8 = 6
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0x59e94c40
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.75
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xe30c799f
                         }
                     }
                 }
@@ -126,14 +68,15 @@ entries: map[hash,embed] = {
             }
             0x85d8a7e8: embed = 0x0a0eddc9 {
                 0x34474c3b: list[f32] = {
+                    100
                     80
-                    80
-                    65
-                    50
-                    50
-                    50
-                    50
+                    60
+                    40
+                    20
+                    0
+                    -20
                 }
+                0x0a3e0478: f32 = 100
             }
             0xe321919c: bool = true
             0x551b248c: bool = true

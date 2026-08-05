@@ -5,8 +5,56 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x321f8464 = 0x5e7e5a06 {
         0xe095d841: string = "GnarPassive"
+        0x1d369c29: hash = 0x321f8464
         0xc8e37ef0: string = "GnarPassive"
         0x56d2be52: pointer = 0x43368569 {
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x8d39bde6: string = "MegaHealthStartingValue"
+                    0x34474c3b: list[f32] = {
+                        100
+                        100
+                        100
+                        100
+                        100
+                        100
+                        100
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MegaHealthEndingValue"
+                    0x34474c3b: list[f32] = {
+                        831
+                        831
+                        831
+                        831
+                        831
+                        831
+                        831
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "TiredDuration"
+                    0x34474c3b: list[f32] = {
+                        15
+                        15
+                        15
+                        15
+                        15
+                        15
+                        15
+                    }
+                }
+            }
+            0xfb56608c: map[hash,embed] = {
+                0x497ae878 = 0x6b2f7a8d {
+                    0x52fde74f: list[embed] = {
+                        0x005008a6 {
+                            0x8d39bde6: string = "TiredDuration"
+                        }
+                    }
+                }
+            }
             0x94572284: map[hash,pointer] = {
                 0x9fe02272 = 0xbc409284 {
                     0xd6b7a622: bool = true
@@ -45,10 +93,9 @@ entries: map[hash,embed] = {
                 0x1f1f3eb7 = 0xbc409284 {
                     0xd6b7a622: bool = true
                     0x50f145c0: list[pointer] = {
-                        0x15fecdbc {
-                            0xd06c375d: f32 = 100
-                            0x1cd7e522: f32 = 831
-                            0x7fe8e3b3: bool = true
+                        0xee18a47b {
+                            0x0589a59c: hash = 0x3bc6ebe6
+                            0x0b65bc23: hash = 0x56285017
                         }
                     }
                 }

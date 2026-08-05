@@ -5,6 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x4ba8cad9 = 0x5e7e5a06 {
         0xe095d841: string = "TFT17_TwistedFateSpell"
+        0x1d369c29: hash = 0x4ba8cad9
         0xc8e37ef0: string = "TFT17_TwistedFateSpell"
         0x56d2be52: pointer = 0x43368569 {
             0xecf3f88d: u32 = 16143
@@ -14,10 +15,10 @@ entries: map[hash,embed] = {
                     0x8d39bde6: string = "DamageMin"
                     0x34474c3b: list[f32] = {
                         180
-                        205
-                        305
-                        460
-                        800
+                        30
+                        45
+                        70
+                        120
                         500
                         500
                     }
@@ -26,12 +27,24 @@ entries: map[hash,embed] = {
                     0x8d39bde6: string = "DamageMax"
                     0x34474c3b: list[f32] = {
                         330
-                        450
-                        675
-                        1015
-                        1725
+                        680
+                        1020
+                        1550
+                        2650
                         1000
                         1000
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxHealthDamage"
+                    0x34474c3b: list[f32] = {
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
+                        0.15
                     }
                 }
             }

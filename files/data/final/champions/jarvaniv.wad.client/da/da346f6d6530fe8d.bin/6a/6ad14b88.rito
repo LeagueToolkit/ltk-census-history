@@ -5,6 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x6ad14b88 = 0x5e7e5a06 {
         0xe095d841: string = "Jade_JarvanIVDemacianStandard"
+        0x1d369c29: hash = 0x6ad14b88
         0xc8e37ef0: string = "Jade_JarvanIVDemacianStandard"
         0x56d2be52: pointer = 0x43368569 {
             0x9c677a2c: u32 = 4
@@ -14,39 +15,9 @@ entries: map[hash,embed] = {
                 "PositiveEffect_Boon"
             }
             0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        7
-                        10
-                        13
-                        16
-                        19
-                        22
-                        25
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        80
-                        60
-                        105
-                        150
-                        195
-                        240
-                        280
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.175
-                        0.2
-                        0.225
-                        0.25
-                        0.275
-                        0.3
-                        0.325
-                    }
-                }
+                0x92d4987c {}
+                0x92d4987c {}
+                0x92d4987c {}
                 0x92d4987c {
                     0x425ed3ca: list[f32] = {
                         8
@@ -67,51 +38,15 @@ entries: map[hash,embed] = {
             }
             0x06afef1b: list2[embed] = {
                 0x005008a6 {
-                    0x8d39bde6: string = "EDashSpeed"
+                    0x8d39bde6: string = "BaseDamage"
                     0x34474c3b: list[f32] = {
-                        1400
-                        1400
-                        1400
-                        1400
-                        1400
-                        1400
-                        1400
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "EBehindJarvanCheck"
-                    0x34474c3b: list[f32] = {
-                        400
-                        400
-                        400
-                        400
-                        400
-                        400
-                        400
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "EKnockUpAoE"
-                    0x34474c3b: list[f32] = {
-                        0
-                        180
-                        180
-                        180
-                        180
-                        180
-                        180
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "PermanentAttackSpeed"
-                    0x34474c3b: list[f32] = {
-                        0.175
-                        0.2
-                        0.225
-                        0.25
-                        0.275
-                        0.3
-                        0.325
+                        15
+                        60
+                        105
+                        150
+                        195
+                        240
+                        285
                     }
                 }
                 0x005008a6 {
@@ -150,36 +85,6 @@ entries: map[hash,embed] = {
                         25
                     }
                 }
-                0x005008a6 {
-                    0x8d39bde6: string = "BaseDamage"
-                    0x34474c3b: list[f32] = {
-                        15
-                        60
-                        105
-                        150
-                        195
-                        240
-                        285
-                    }
-                }
-            }
-            0xfb56608c: map[hash,embed] = {
-                0x497ae878 = 0x6b2f7a8d {
-                    0x52fde74f: list[embed] = {
-                        0x005008a6 {
-                            0x8d39bde6: string = "APRatio"
-                            0x34474c3b: list[f32] = {
-                                1
-                                1
-                                1
-                                1
-                                1
-                                1
-                                1
-                            }
-                        }
-                    }
-                }
             }
             0x94572284: map[hash,pointer] = {
                 0x1ddee768 = 0xbc409284 {
@@ -193,7 +98,6 @@ entries: map[hash,embed] = {
                     }
                 }
             }
-            0x295c2889: f32 = 0.8
             0xfbd16fb5: string = "Spell3"
             0xeed67cd5: list[string] = {
                 "ASSETS/UX/Jade/S3Icons/SameSized/JarvanIV_DemacianStandard.dds"
@@ -296,11 +200,11 @@ entries: map[hash,embed] = {
             0x210f9ec0: embed = 0x630af303 {
                 0x34474c3b: list[f32] = {
                     55
-                    55
-                    55
-                    55
-                    55
-                    55
+                    60
+                    65
+                    70
+                    75
+                    80
                 }
                 0x0a3e0478: f32 = 55
             }
@@ -332,19 +236,15 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "PassiveAttackSpeed"
                                     0x33c02d93: i32 = 3
                                     0xf506c7e6: f32 = 100
-                                    0x566f3406: string = "Spell_ListType_PassiveAttackSpeed"
-                                    0xac307ed6: u32 = 1
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "PassiveAttackSpeed"
-                                    0x33c02d93: i32 = 3
-                                    0xf506c7e6: f32 = 100
-                                    0x566f3406: string = "Spell_ListType_ActiveAttackSpeed"
+                                    0x566f3406: string = "Spell_ListType_AttackSpeed"
                                     0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "PassiveArmor"
-                                    0x566f3406: string = "Spell_JarvanIVE_ListType_PassiveArmor_Jade"
+                                    0x566f3406: string = "Spell_ListType_Armor"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cost"
                                 }
                             }
                         }

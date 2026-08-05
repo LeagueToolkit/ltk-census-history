@@ -5,6 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0xa6765c46 = 0x5e7e5a06 {
         0xe095d841: string = "Jade_MissFortuneViciousStrikes"
+        0x1d369c29: hash = 0xa6765c46
         0xc8e37ef0: string = "Jade_MissFortuneViciousStrikes"
         0x56d2be52: pointer = 0x43368569 {
             0x9c677a2c: u32 = 4
@@ -12,87 +13,15 @@ entries: map[hash,embed] = {
             0x44b7e8dd: string = "Jade_MissFortuneViciousStrikes"
             0x06afef1b: list2[embed] = {
                 0x005008a6 {
-                    0x8d39bde6: string = "PassiveBaseMS"
-                    0x34474c3b: list[f32] = {
-                        25
-                        30
-                        35
-                        40
-                        45
-                        50
-                        55
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "PassiveMaxMS"
-                    0x34474c3b: list[f32] = {
-                        50
-                        60
-                        70
-                        80
-                        90
-                        100
-                        110
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "LoveTapBaseRefund"
-                    0x34474c3b: list[f32] = {
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "ActiveAS"
-                    0x34474c3b: list[f32] = {
-                        0.25
-                        0.4
-                        0.55
-                        0.7
-                        0.85
-                        1
-                        1.15
-                    }
-                }
-                0x005008a6 {
                     0x8d39bde6: string = "ActiveDuration"
                     0x34474c3b: list[f32] = {
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "PassiveBaseMSOOC"
-                    0x34474c3b: list[f32] = {
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                        4
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "PassiveMaxMSExtraOOC"
-                    0x34474c3b: list[f32] = {
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
+                        6
+                        6
+                        6
+                        6
+                        6
+                        6
+                        6
                     }
                 }
                 0x005008a6 {
@@ -110,13 +39,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "DamageOnHItPerStack"
                     0x34474c3b: list[f32] = {
-                        2
                         4
                         6
                         8
                         10
                         12
                         14
+                        16
                     }
                 }
                 0x005008a6 {
@@ -132,39 +61,15 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "MaximumDamageOnHItPerStack"
-                    0x34474c3b: list[f32] = {
-                        10
-                        20
-                        30
-                        40
-                        50
-                        60
-                        70
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "MaximumDamageOnHitPerStackAPRatio"
-                    0x34474c3b: list[f32] = {
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                    }
-                }
-                0x005008a6 {
                     0x8d39bde6: string = "MaxStacks"
                     0x34474c3b: list[f32] = {
-                        5
-                        5
-                        5
-                        5
-                        5
-                        5
-                        5
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
                     }
                 }
                 0x005008a6 {
@@ -203,15 +108,11 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x9926de8a = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0x2359dfa3
-                        }
-                        0x5f5c70a4 {
-                            0xb386dcf1: hash = 0x3ee73141
-                        }
+                0x9926de8a = 0x070e3593 {
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0x6810ef40
                     }
+                    0x7f93cf4e: hash = 0x7a5be266
                 }
             }
             0xfbd16fb5: string = "Spell1"
@@ -338,7 +239,8 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_DamageperStack"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "MaximumDamageOnHItPerStack"
+                                    0x5127f14d: string = "DamageOnHItPerStack"
+                                    0xf506c7e6: f32 = 4
                                     0x566f3406: string = "Spell_ListType_MaximumBonusDamage"
                                 }
                                 0x9a1b3505 {
@@ -355,19 +257,6 @@ entries: map[hash,embed] = {
         0x7f0f5a79: pointer = 0x4633d794 {
             0xf1f20d72: string = "Buff_MissFortuneWSelf_Jade_Tooltip"
         }
-        0x4048c61e: pointer = 0xf195e56b {
-            0xec17e271: list2[embed] = {
-                0xb09016f6 {
-                    0x77e5e41c: u32 = 2
-                    0x725bd4d5: pointer = 0xbc409284 {
-                        0x50f145c0: list[pointer] = {
-                            0x332eb441 {
-                                0xb386dcf1: hash = 0xd4c9729b
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        0x4048c61e: pointer = 0xf195e56b {}
     }
 }

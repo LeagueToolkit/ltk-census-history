@@ -5,6 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x790bed2f = 0x5e7e5a06 {
         0xe095d841: string = "Jade_BlitzcrankStaticField"
+        0x1d369c29: hash = 0x790bed2f
         0xc8e37ef0: string = "Jade_BlitzcrankStaticField"
         0x56d2be52: pointer = 0x43368569 {
             0xecf3f88d: u32 = 6154
@@ -19,21 +20,21 @@ entries: map[hash,embed] = {
                         100
                         200
                         300
-                        300
-                        300
-                        300
+                        400
+                        500
+                        600
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "ZapCountdown"
+                    0x8d39bde6: string = "PassiveAPRatio"
                     0x34474c3b: list[f32] = {
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
+                        0.2
                     }
                 }
                 0x005008a6 {
@@ -51,37 +52,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "ActiveBaseDamage"
                     0x34474c3b: list[f32] = {
-                        150
-                        250
-                        375
+                        100
+                        200
+                        300
+                        400
                         500
-                        500
-                        500
-                        500
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "SilenceDuration"
-                    0x34474c3b: list[f32] = {
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "PassiveAPRatio"
-                    0x34474c3b: list[f32] = {
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
+                        600
+                        700
                     }
                 }
                 0x005008a6 {
@@ -97,63 +74,20 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "PassiveManaRatio"
+                    0x8d39bde6: string = "SilenceDuration"
                     0x34474c3b: list[f32] = {
-                        0.05
-                        0.05
-                        0.05
-                        0.05
-                        0.05
-                        0.05
-                        0.05
-                    }
-                }
-            }
-            0xfb56608c: map[hash,embed] = {
-                0x497ae878 = 0x6b2f7a8d {
-                    0x52fde74f: list[embed] = {
-                        0x005008a6 {
-                            0x8d39bde6: string = "ActiveAPRatio"
-                            0x34474c3b: list[f32] = {
-                                1
-                                1
-                                1
-                                1
-                                1
-                                1
-                                1
-                            }
-                        }
-                        0x005008a6 {
-                            0x8d39bde6: string = "PassiveBaseDamage"
-                            0x34474c3b: list[f32] = {
-                                10
-                                60
-                                110
-                                160
-                                210
-                                260
-                                310
-                            }
-                        }
-                        0x005008a6 {
-                            0x8d39bde6: string = "PassiveAPRatio"
-                            0x34474c3b: list[f32] = {
-                                0.2
-                                0.2
-                                0.2
-                                0.2
-                                0.2
-                                0.2
-                                0.2
-                            }
-                        }
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
                     }
                 }
             }
             0x94572284: map[hash,pointer] = {
                 0x1e8d73fe = 0xbc409284 {
-                    0xcbcac618: u8 = 6
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0xd928f29f

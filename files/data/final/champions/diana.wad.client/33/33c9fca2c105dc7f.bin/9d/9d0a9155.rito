@@ -89,8 +89,48 @@ entries: map[hash,embed] = {
                 0xb311d4ef: string = "Alpha_Multiplier_Texture"
                 0xf0a363e3: string = "ASSETS/Shared/Materials/white.tex"
             }
+            0x0904b150 {
+                0xb311d4ef: string = "Holographic_Shape"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/black.tex"
+            }
+            0x0904b150 {
+                0xb311d4ef: string = "Holographic_Mask"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/black.tex"
+            }
+            0x0904b150 {
+                0xb311d4ef: string = "Holographic_Color"
+                0xf0a363e3: string = "ASSETS/Shared/Materials/black.tex"
+            }
         }
         0xd0ab46b8: list2[embed] = {
+            0xde480eef {
+                0x8d39bde6: string = "Holographic_Tiling"
+                0x425ed3ca: vec4 = { 77, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Holographic_Mask_Intensity"
+                0x425ed3ca: vec4 = { 0.5, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Holographic_Mask_Tiling"
+                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Holographic_Mask_Scroll_Direction"
+                0x425ed3ca: vec4 = { 0.1, -1, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Holographic_Mask_Scroll_Speed"
+                0x425ed3ca: vec4 = { 0.3, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Holographic_Parallax_Tiling"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Holographic_Parallax_Height"
+                0x425ed3ca: vec4 = { 9, 0, 0, 0 }
+            }
             0xde480eef {
                 0x8d39bde6: string = "Ribbon_U_Remap"
                 0x425ed3ca: vec4 = { 0, 1, 0, 0 }
@@ -366,6 +406,11 @@ entries: map[hash,embed] = {
             }
         }
         0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_HOLOGRAPHIC_MATRIX"
+                0x61342fd0: bool = false
+                0x5fb91e8c: string = "Holographic"
+            }
             0x0e2212a1 {
                 0x8d39bde6: string = "USE_ALPHA_MULTIPLIER_TEXTURE"
                 0x61342fd0: bool = false

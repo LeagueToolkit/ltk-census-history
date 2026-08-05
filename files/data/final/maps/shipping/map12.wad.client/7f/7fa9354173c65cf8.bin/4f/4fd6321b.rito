@@ -1,0 +1,56 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x4fd6321b = 0x5e7e5a06 {
+        0xe095d841: string = "Augment_Upgrade_Ravenous"
+        0x1d369c29: hash = 0x4fd6321b
+        0xc8e37ef0: string = "Augment_Upgrade_Ravenous"
+        0x56d2be52: pointer = 0x43368569 {
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x8d39bde6: string = "Cooldown"
+                    0x34474c3b: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "Gold"
+                    0x34474c3b: list[f32] = {
+                        500
+                        500
+                        500
+                        500
+                        500
+                        500
+                        500
+                    }
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x41353c52 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x9ef92080 {
+                            0xe202bca9: f32 = 0.18
+                        }
+                    }
+                    0x5a2297d3: bool = true
+                }
+                0x6496b454 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x9ef92080 {
+                            0xe202bca9: f32 = 0.06
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

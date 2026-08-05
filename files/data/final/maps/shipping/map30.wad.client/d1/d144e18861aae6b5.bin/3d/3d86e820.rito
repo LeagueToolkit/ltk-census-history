@@ -5,6 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x3d86e820 = 0x5e7e5a06 {
         0xe095d841: string = "Augment_NowYouSeeMe"
+        0x1d369c29: hash = 0x3d86e820
         0xc8e37ef0: string = "Augment_NowYouSeeMe"
         0x56d2be52: pointer = 0x43368569 {
             0x9c677a2c: u32 = 36
@@ -24,13 +25,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "MSBuffAmount"
                     0x34474c3b: list[f32] = {
-                        0.5
-                        0.5
                         0.75
-                        0.5
-                        0.5
-                        0.5
-                        0.5
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                        0.75
+                        0.75
                     }
                 }
                 0x005008a6 {
@@ -91,6 +92,18 @@ entries: map[hash,embed] = {
                         0.25
                         0.25
                         0.25
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "CloneDuration"
+                    0x34474c3b: list[f32] = {
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
+                        4
                     }
                 }
             }
@@ -161,10 +174,8 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_Cooldown"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "MSBuffAmount"
-                                    0xf506c7e6: f32 = 100
-                                    0x566f3406: string = "Spell_ListType_MovementSpeed"
-                                    0xac307ed6: u32 = 1
+                                    0x5127f14d: string = "PortalCap"
+                                    0x566f3406: string = "Spell_ListType_PortalCap"
                                 }
                             }
                         }

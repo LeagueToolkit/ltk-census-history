@@ -5,18 +5,41 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x75783e15 = 0x5e7e5a06 {
         0xe095d841: string = "Augment_NatureIsHealing"
+        0x1d369c29: hash = 0x75783e15
         0xc8e37ef0: string = "Augment_NatureIsHealing"
         0x56d2be52: pointer = 0x43368569 {
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x8d39bde6: string = "BrushCooldown"
+                    0x34474c3b: list[f32] = {
+                        20
+                        20
+                        20
+                        20
+                        20
+                        20
+                        20
+                    }
+                }
+            }
             0x94572284: map[hash,pointer] = {
-                0xe2595974 = 0xbc409284 {
+                0x7b6cc2f7 = 0xbc409284 {
+                    0xcbcac618: u8 = 5
+                    0x37070a8d: u8 = 5
                     0x50f145c0: list[pointer] = {
-                        0x15fecdbc {
-                            0xd06c375d: f32 = 0.006
-                            0x1cd7e522: f32 = 0.021
+                        0x9ef92080 {
+                            0xe202bca9: f32 = 0.15
                         }
                     }
                     0x5a2297d3: bool = true
-                    0x08d47ee4: i32 = 2
+                }
+                0x73406a1c = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x15fecdbc {
+                            0xd06c375d: f32 = 40
+                            0x1cd7e522: f32 = 300
+                        }
+                    }
                 }
             }
             0xeed67cd5: list[string] = {

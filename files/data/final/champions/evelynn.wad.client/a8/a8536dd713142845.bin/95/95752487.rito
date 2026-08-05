@@ -5,6 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x95752487 = 0x5e7e5a06 {
         0xe095d841: string = "EvelynnR"
+        0x1d369c29: hash = 0x95752487
         0xc8e37ef0: string = "EvelynnR"
         0x56d2be52: pointer = 0x43368569 {
             0xecf3f88d: u32 = 6154
@@ -142,6 +143,42 @@ entries: map[hash,embed] = {
                         1.25
                     }
                 }
+                0x005008a6 {
+                    0x8d39bde6: string = "BaseDamage"
+                    0x34474c3b: list[f32] = {
+                        0
+                        125
+                        250
+                        375
+                        500
+                        650
+                        775
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "CritBonus"
+                    0x34474c3b: list[f32] = {
+                        1.4
+                        1.4
+                        1.4
+                        1.4
+                        1.4
+                        1.4
+                        1.4
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "CritTreshold"
+                    0x34474c3b: list[f32] = {
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                    }
+                }
             }
             0xf9c2333e: map[hash,embed] = {
                 0x497ae878 = 0x92d4987c {
@@ -192,8 +229,8 @@ entries: map[hash,embed] = {
             0x94572284: map[hash,pointer] = {
                 0x59e94c40 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.75
@@ -333,13 +370,11 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 3
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 1
+                                    0x5127f14d: string = "BaseDamage"
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 1
+                                    0x5127f14d: string = "BaseDamage"
                                     0xf506c7e6: f32 = 2.4
                                     0x566f3406: string = "Spell_ListType_EvelynnEmpoweredDamage"
                                 }

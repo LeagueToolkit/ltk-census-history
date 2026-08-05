@@ -5,6 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0x480b74fd = 0x5e7e5a06 {
         0xe095d841: string = "KalistaRx"
+        0x1d369c29: hash = 0x480b74fd
         0xc8e37ef0: string = "KalistaRx"
         0x56d2be52: pointer = 0x43368569 {
             0x9c677a2c: u32 = 4
@@ -49,6 +50,20 @@ entries: map[hash,embed] = {
                 0x92d4987c {}
                 0x92d4987c {}
                 0x92d4987c {}
+            }
+            0x06afef1b: list2[embed] = {
+                0x005008a6 {
+                    0x8d39bde6: string = "KnockupDuration"
+                    0x34474c3b: list[f32] = {
+                        0
+                        1
+                        1.5
+                        2
+                        0
+                        0
+                        0
+                    }
+                }
             }
             0xf9c2333e: map[hash,embed] = {
                 0xa110bc47 = 0x92d4987c {
@@ -180,8 +195,7 @@ entries: map[hash,embed] = {
                                     0x5127f14d: string = "Cooldown"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 2
+                                    0x5127f14d: string = "KnockupDuration"
                                     0x566f3406: string = "Spell_ListType_KnockupDuration"
                                 }
                             }
@@ -250,8 +264,8 @@ entries: map[hash,embed] = {
                     0x77e5e41c: u32 = 16777216
                     0x725bd4d5: pointer = 0xbc409284 {
                         0x50f145c0: list[pointer] = {
-                            0x8bc08357 {
-                                0x8afb1a5f: i32 = 2
+                            0x332eb441 {
+                                0xb386dcf1: hash = 0x8283ecb6
                             }
                         }
                     }

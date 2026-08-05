@@ -5,6 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0xb946f72e = 0x5e7e5a06 {
         0xe095d841: string = "PoppyQ"
+        0x1d369c29: hash = 0xb946f72e
         0xc8e37ef0: string = "PoppyQ"
         0x56d2be52: pointer = 0x43368569 {
             0x9c677a2c: u32 = 4
@@ -16,99 +17,17 @@ entries: map[hash,embed] = {
                 "Trait_Melee_SmallWindup"
                 "Trait_AoE"
             }
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        30
-                        30
-                        55
-                        80
-                        105
-                        130
-                        130
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                        0.5
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        15
-                        20
-                        25
-                        30
-                        35
-                        40
-                        45
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        9
-                        9
-                        9
-                        9
-                        9
-                        9
-                        9
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        50
-                        50
-                        80
-                        110
-                        140
-                        170
-                        170
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        100
-                        100
-                        100
-                        100
-                        100
-                        100
-                        100
-                    }
-                }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-            }
             0x06afef1b: list2[embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "HealthDamagePercent"
                     0x34474c3b: list[f32] = {
+                        6.5
+                        7
+                        7.5
+                        8
+                        8.5
                         9
-                        9
-                        9
-                        9
-                        9
-                        9
-                        9
+                        9.5
                     }
                 }
                 0x005008a6 {
@@ -136,15 +55,15 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "Slow_"
+                    0x8d39bde6: string = "BaseMoveSpeedMod"
                     0x34474c3b: list[f32] = {
-                        15
-                        20
-                        25
-                        30
-                        35
-                        40
-                        45
+                        0.17
+                        0.2
+                        0.23
+                        0.26
+                        0.29
+                        0.32
+                        0.35
                     }
                 }
                 0x005008a6 {
@@ -162,31 +81,13 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "MaxHealthDamageToNonHeroes"
                     0x34474c3b: list[f32] = {
-                        45
-                        75
-                        105
-                        135
-                        165
-                        195
+                        50
+                        85
+                        120
+                        155
+                        190
                         225
-                    }
-                }
-            }
-            0xfb56608c: map[hash,embed] = {
-                0x497ae878 = 0x6b2f7a8d {
-                    0x52fde74f: list[embed] = {
-                        0x005008a6 {
-                            0x8d39bde6: string = "HealthDamagePercent"
-                            0x34474c3b: list[f32] = {
-                                8
-                                8
-                                8
-                                8
-                                8
-                                8
-                                8
-                            }
-                        }
+                        260
                     }
                 }
             }
@@ -199,12 +100,24 @@ entries: map[hash,embed] = {
                         0x5815b0a9 {
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 1
+                            0x295c2889: f32 = 0.75
                         }
                     }
                 }
+                0x4b504bad = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x4517d404
+                        }
+                        0x5815b0a9 {
+                            0x4cec2c8a: u8 = 12
+                            0x7d3150ec: u8 = 2
+                            0x295c2889: f32 = 8e-05
+                        }
+                    }
+                    0x5a2297d3: bool = true
+                }
             }
-            0x295c2889: f32 = 1
             0xfbd16fb5: string = ""
             0xeed67cd5: list[string] = {
                 "ASSETS/Characters/Poppy/HUD/Icons2D/Poppy_Q.dds"
@@ -300,7 +213,13 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Slow_"
+                                    0x5127f14d: string = "HealthDamagePercent"
+                                    0x566f3406: string = "Spell_ListType_PercentMaxHealth"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "BaseMoveSpeedMod"
+                                    0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_ListType_Slow"
                                     0xac307ed6: u32 = 1
                                 }

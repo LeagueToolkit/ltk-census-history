@@ -5,6 +5,7 @@ linked: list[string] = {}
 entries: map[hash,embed] = {
     0xcf07ad34 = 0x5e7e5a06 {
         0xe095d841: string = "VladimirQ"
+        0x1d369c29: hash = 0xcf07ad34
         0xc8e37ef0: string = "VladimirQ"
         0x56d2be52: pointer = 0x43368569 {
             0xecf3f88d: u32 = 6154
@@ -109,6 +110,78 @@ entries: map[hash,embed] = {
                         0.35
                     }
                 }
+                0x005008a6 {
+                    0x8d39bde6: string = "BaseDamage"
+                    0x34474c3b: list[f32] = {
+                        60
+                        80
+                        100
+                        120
+                        140
+                        160
+                        180
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "BaseHeal"
+                    0x34474c3b: list[f32] = {
+                        15
+                        20
+                        25
+                        30
+                        35
+                        40
+                        45
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "Empowered___HealPer100AP_0_1_"
+                    0x34474c3b: list[f32] = {
+                        0.04
+                        0.04
+                        0.04
+                        0.04
+                        0.04
+                        0.04
+                        0.04
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "DamagePercentAmp"
+                    0x34474c3b: list[f32] = {
+                        85
+                        85
+                        85
+                        85
+                        85
+                        85
+                        85
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "FrenzyDuration"
+                    0x34474c3b: list[f32] = {
+                        2.5
+                        2.5
+                        2.5
+                        2.5
+                        2.5
+                        2.5
+                        2.5
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MinionHealPercent"
+                    0x34474c3b: list[f32] = {
+                        35
+                        35
+                        35
+                        35
+                        35
+                        35
+                        35
+                    }
+                }
             }
             0xfb56608c: map[hash,embed] = {
                 0x497ae878 = 0x6b2f7a8d {
@@ -144,8 +217,8 @@ entries: map[hash,embed] = {
             0x94572284: map[hash,pointer] = {
                 0xc417cd94 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 1
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
                         }
                         0x5815b0a9 {
                             0x295c2889: f32 = 0.6
@@ -154,8 +227,8 @@ entries: map[hash,embed] = {
                 }
                 0x57ecfba9 = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
-                        0x8bc08357 {
-                            0x8afb1a5f: i32 = 2
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x39ce8652
                         }
                         0x5f5c70a4 {
                             0xb386dcf1: hash = 0x7078d029
@@ -336,13 +409,11 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 1
+                                    0x5127f14d: string = "BaseDamage"
                                     0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Effect%dAmount"
-                                    0x33c02d93: i32 = 2
+                                    0x5127f14d: string = "BaseHeal"
                                     0x566f3406: string = "Spell_ListType_Healing"
                                 }
                                 0x9a1b3505 {
