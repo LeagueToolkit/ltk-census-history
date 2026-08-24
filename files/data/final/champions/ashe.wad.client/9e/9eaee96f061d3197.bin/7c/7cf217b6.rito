@@ -23,13 +23,37 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "RBaseDamage"
                     0x34474c3b: list[f32] = {
-                        0
+                        75
                         250
                         425
                         600
-                        800
-                        1000
-                        1200
+                        775
+                        950
+                        1125
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "APRatio"
+                    0x34474c3b: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "StunDurationPerDistance"
+                    0x34474c3b: list[f32] = {
+                        0.00125
+                        0.00125
+                        0.00125
+                        0.00125
+                        0.00125
+                        0.00125
+                        0.00125
                     }
                 }
                 0x005008a6 {
@@ -69,39 +93,39 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "AoE"
+                    0x8d39bde6: string = "AreaDamageMod"
                     0x34474c3b: list[f32] = {
-                        1
                         0.5
                         0.5
                         0.5
                         0.5
                         0.5
-                        1
+                        0.5
+                        0.5
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "APRatio"
+                    0x8d39bde6: string = "MovementSpeedMod"
                     0x34474c3b: list[f32] = {
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
+                        -0.5
+                        -0.5
+                        -0.5
+                        -0.5
+                        -0.5
+                        -0.5
+                        -0.5
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "QMovespeedModifier"
+                    0x8d39bde6: string = "SlowDuration"
                     0x34474c3b: list[f32] = {
-                        -0.5
-                        -0.5
-                        -0.5
-                        -0.5
-                        -0.5
-                        -0.5
-                        -0.5
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
+                        3
                     }
                 }
             }
@@ -118,7 +142,7 @@ entries: map[hash,embed] = {
                 }
                 0x6b932875 = 0xbc409284 {
                     0x2c77adff: pointer = 0x332eb441 {
-                        0xb386dcf1: hash = 0x3c2c4814
+                        0xb386dcf1: hash = 0xd69c28d3
                     }
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
@@ -129,18 +153,12 @@ entries: map[hash,embed] = {
                         }
                     }
                 }
-                0x42e917e9 = 0x070e3593 {
-                    0x2c77adff: pointer = 0x9ef92080 {
-                        0xe202bca9: f32 = 0.5
-                    }
-                    0x7f93cf4e: hash = 0x6b5c55b9
-                }
             }
             0xfbd16fb5: string = "Spell4"
             0xeed67cd5: list[string] = {
                 "ASSETS/UX/Jade/S3Icons/SameSized/Ashe_EnchantedArrow.dds"
             }
-            0x7e2571a5: string = "ASSETS/Characters/Jade_Ashe/HUD/Icons2D/Bowmaster_EnchantedArrow_Circle.tex"
+            0x7e2571a5: file = 0xa09b57dec9497738
             0x11704a2b: f32 = 0.25
             0xf26881a0: f32 = 1
             0x9ecac3a1: list[f32] = {

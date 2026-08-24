@@ -37,16 +37,6 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "WaterDistortion"
-                0xd872e2a5: vec4 = { 0.006, 0, 0, 0 }
-                0x74672198: list[embed] = {
-                    0x14a2befa {
-                        0x8d39bde6: string = "WaterDistortion"
-                        0x0640657c: u32 = 1
-                    }
-                }
-            }
-            0x816753d8 {
                 0x8d39bde6: string = "NormalIntensity"
                 0xd872e2a5: vec4 = { 1, 0, 0, 0 }
                 0x74672198: list[embed] = {
@@ -57,21 +47,40 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "VoidTendrilNormalIntensity"
-                0xd872e2a5: vec4 = { 0.35, 0, 0, 0 }
+                0x8d39bde6: string = "MinWaterDisturbanceToShow"
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "VoidTendrilNormalIntensity"
+                        0x8d39bde6: string = "MinWaterDisturbanceToShow"
                         0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "VoidTendrilSoftness"
-                0xd872e2a5: vec4 = { 0.15, 0, 0, 0 }
+                0x8d39bde6: string = "WaterDisturbanceEdgeOffset"
+                0xd872e2a5: vec4 = { 2, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "VoidTendrilSoftness"
+                        0x8d39bde6: string = "WaterDisturbanceEdgeOffset"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "WaterEdgeSoftness"
+                0xd872e2a5: vec4 = { 0.2, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "WaterEdgeSoftness"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "WaterDistortion"
+                0xd872e2a5: vec4 = { 0.006, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "WaterDistortion"
                         0x0640657c: u32 = 1
                     }
                 }
@@ -242,22 +251,92 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "ShoreFoamSpeed"
-                0xd872e2a5: vec4 = { 0.125, 0, 0, 0 }
+                0x8d39bde6: string = "ShoreFoamRippleCount"
+                0xd872e2a5: vec4 = { 0.2, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "ShoreFoamSpeed"
+                        0x8d39bde6: string = "ShoreFoamRippleCount"
                         0x0640657c: u32 = 1
                     }
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "ShoreFoamContrast"
-                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x8d39bde6: string = "ShoreFoamRippleDistortionMinMax"
+                0xd872e2a5: vec4 = { 0.5, 1, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "ShoreFoamContrast"
+                        0x8d39bde6: string = "ShoreFoamRippleDistortionMinMax"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "ShoreFoamTiling"
+                0xd872e2a5: vec4 = { 0.5, 0.5, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "ShoreFoamTiling"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "ShoreFoamPanner"
+                0xd872e2a5: vec4 = { 0, 0.005, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "ShoreFoamPanner"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "ShoreFoamRippleDistortionTiling"
+                0xd872e2a5: vec4 = { 0.5, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "ShoreFoamRippleDistortionTiling"
                         0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "ShoreFoamRippleSpeed"
+                0xd872e2a5: vec4 = { 0.2, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "ShoreFoamRippleSpeed"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "ShoreFoamUVDistTile"
+                0xd872e2a5: vec4 = { 1, 1, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "ShoreFoamUVDistTile"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "ShoreFoamUVDistPanner"
+                0xd872e2a5: vec4 = { 0.07, 0.07, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "ShoreFoamUVDistPanner"
+                        0x0640657c: u32 = 3
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "ShoreFoamUVDistStrength"
+                0xd872e2a5: vec4 = { 0.05, 0.05, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "ShoreFoamUVDistStrength"
+                        0x0640657c: u32 = 3
                     }
                 }
             }
@@ -276,6 +355,26 @@ entries: map[hash,embed] = {
                 0x74672198: list[embed] = {
                     0x14a2befa {
                         0x8d39bde6: string = "WaterRoughness"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "VoidTendrilNormalIntensity"
+                0xd872e2a5: vec4 = { 0.35, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "VoidTendrilNormalIntensity"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "VoidTendrilSoftness"
+                0xd872e2a5: vec4 = { 0.15, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "VoidTendrilSoftness"
                         0x0640657c: u32 = 1
                     }
                 }
@@ -351,6 +450,16 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
+                0x8d39bde6: string = "WaterDisturbanceReflectionOffset"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "WaterDisturbanceReflectionOffset"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
                 0x8d39bde6: string = "ReflectionDistortionStrength"
                 0xd872e2a5: vec4 = { 0.03, 0, 0, 0 }
                 0x74672198: list[embed] = {
@@ -396,6 +505,9 @@ entries: map[hash,embed] = {
                 0x8d39bde6: string = "USE_WATER"
             }
             0x60a292e6 {
+                0x8d39bde6: string = "SAND_DISTURBANCE"
+            }
+            0x60a292e6 {
                 0x8d39bde6: string = "USE_VOID_PREVIEW_IN_MM"
                 0x066e669c: bool = true
             }
@@ -407,58 +519,58 @@ entries: map[hash,embed] = {
         0x99108c85: list[embed] = {
             0x31d1e223 {
                 0x8d39bde6: string = "CurlNormal"
-                0x32b374fa: string = "ASSETS/Shared/Materials/CurlNoiseFlow_NM.tex"
+                0x32b374fa: file = 0x7f70d42ae90bdfe7
                 0x02e7fb4c: string = "EnvironmentWrap"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "WaterNormal"
-                0x32b374fa: string = "ASSETS/Shared/Materials/Mantis_Water_02_NM.tex"
+                0x32b374fa: file = 0x217d0f92024b3891
                 0x02e7fb4c: string = "EnvironmentWrap"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "BAKED_NORMAL_TEXTURE"
-                0x32b374fa: string = "ASSETS/Shared/Materials/Cobble_moss_NM.tex"
+                0x32b374fa: file = 0x3a227bc5f91df6f6
                 0x02e7fb4c: string = "EnvironmentClamp"
-            }
-            0x31d1e223 {
-                0x8d39bde6: string = "VoidNormal2"
-                0x32b374fa: string = "ASSETS/Maps/TerrainPaint/PaintLayers/Mantis/VisualSpike/Mantis_VisualSpike_VoidTendrils_AB_NM.tex"
-                0x02e7fb4c: string = "EnvironmentWrap"
-            }
-            0x31d1e223 {
-                0x8d39bde6: string = "VoidHeight"
-                0x32b374fa: string = "ASSETS/Maps/TerrainPaint/PaintLayers/Mantis/VisualSpike/Mantis_VisualSpike_VoidTendrils_AC_H.tex"
-                0x02e7fb4c: string = "EnvironmentWrap"
-            }
-            0x31d1e223 {
-                0x8d39bde6: string = "VoidAlbedo2"
-                0x32b374fa: string = "ASSETS/Maps/TerrainPaint/PaintLayers/Mantis/VisualSpike/Mantis_VisualSpike_VoidTendrils_AB_ALB.tex"
-                0x02e7fb4c: string = "EnvironmentWrap"
-            }
-            0x31d1e223 {
-                0x8d39bde6: string = "VoidNormal"
-                0x32b374fa: string = "ASSETS/Maps/TerrainPaint/PaintLayers/Mantis/VisualSpike/Mantis_VisualSpike_VoidTendrils_AC_NM.tex"
-                0x02e7fb4c: string = "EnvironmentWrap"
-            }
-            0x31d1e223 {
-                0x8d39bde6: string = "FoamSparkleNoise"
-                0x32b374fa: string = "ASSETS/Shared/Materials/Foam_Sparkle_Noise_M.tex"
-                0x02e7fb4c: string = "EnvironmentWrap"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "BAKED_DIFFUSE_TEXTURE"
-                0x32b374fa: string = "ASSETS/Shared/Materials/Cobble_moss_Albedo.tex"
+                0x32b374fa: file = 0x1f8402492d4358cd
                 0x02e7fb4c: string = "EnvironmentClamp"
             }
             0x31d1e223 {
-                0x8d39bde6: string = "Caustics"
-                0x32b374fa: string = "ASSETS/Shared/Materials/velvet_Mantis_Caustics_Mask_03.tex"
+                0x8d39bde6: string = "FoamSparkleNoise"
+                0x32b374fa: file = 0xf623fe504d06af7b
+                0x02e7fb4c: string = "EnvironmentWrap"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "ShoreTexturePacked"
+                0x32b374fa: file = 0x3ca2d26ea7ad725b
                 0x02e7fb4c: string = "EnvironmentWrap"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "BAKED_RMA_TEXTURE"
-                0x32b374fa: string = "ASSETS/Shared/Materials/Cobble_moss_rma.tex"
+                0x32b374fa: file = 0x8da401ef89986c21
                 0x02e7fb4c: string = "EnvironmentClamp"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "VoidNormal2"
+                0x32b374fa: file = 0x9c14f39640488ce6
+                0x02e7fb4c: string = "EnvironmentWrap"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "VoidHeight"
+                0x32b374fa: file = 0x25814f9d5ade3a77
+                0x02e7fb4c: string = "EnvironmentWrap"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "VoidAlbedo2"
+                0x32b374fa: file = 0xd04e8e6b05c288ea
+                0x02e7fb4c: string = "EnvironmentWrap"
+            }
+            0x31d1e223 {
+                0x8d39bde6: string = "VoidNormal"
+                0x32b374fa: file = 0xce31d1d265fff16b
+                0x02e7fb4c: string = "EnvironmentWrap"
             }
         }
         0xae29287b: map[string,string] = {

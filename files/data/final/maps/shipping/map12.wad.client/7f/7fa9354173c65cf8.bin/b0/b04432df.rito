@@ -1,0 +1,22 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0xb04432df = 0x8d31b69b {
+        0xbc1b3d88: hash = 0xcfc9fb2b
+        0xa2bf8c3e: string = "UltraHydraQuest"
+        0x4796bf5f: string = "Quest_UltraHydra_Max_Summary"
+        0xc88f1a9b: string = "Quest_UltraHydra_Max_Tooltip"
+        0x06b06978: embed = 0x7a1cab0d {
+            0xf0a363e3: file = 0x4b5169c0a22907b9
+        }
+        0x5385fe0a: list2[embed] = {
+            0x898bb7cb {
+                0x7fec0982: u32 = 3
+                0x03d6a5a2: string = "Augment_Quest_UltraHydra_Milestone3"
+            }
+        }
+        0xc504ece0: bool = true
+    }
+}

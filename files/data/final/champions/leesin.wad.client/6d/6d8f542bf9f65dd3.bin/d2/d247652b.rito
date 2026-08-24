@@ -12,7 +12,7 @@ entries: map[hash,embed] = {
             0x44b7e8dd: string = "Jade_LeeSinQOne_Jade"
             0x06afef1b: list2[embed] = {
                 0x005008a6 {
-                    0x8d39bde6: string = "Q1BaseDamage"
+                    0x8d39bde6: string = "BaseDamage"
                     0x34474c3b: list[f32] = {
                         20
                         50
@@ -24,19 +24,7 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "Q2BaseDamage"
-                    0x34474c3b: list[f32] = {
-                        20
-                        50
-                        80
-                        110
-                        140
-                        170
-                        200
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "Q2ADRatio"
+                    0x8d39bde6: string = "ADRatio"
                     0x34474c3b: list[f32] = {
                         0.9
                         0.9
@@ -45,18 +33,6 @@ entries: map[hash,embed] = {
                         0.9
                         0.9
                         0.9
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "Q2MaxMissingHealthMod"
-                    0x34474c3b: list[f32] = {
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
-                        1
                     }
                 }
                 0x005008a6 {
@@ -72,18 +48,6 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "CherryBonusHaste"
-                    0x34474c3b: list[f32] = {
-                        30
-                        30
-                        30
-                        30
-                        30
-                        30
-                        30
-                    }
-                }
-                0x005008a6 {
                     0x8d39bde6: string = "DashSpeed"
                     0x34474c3b: list[f32] = {
                         1350
@@ -95,57 +59,57 @@ entries: map[hash,embed] = {
                         1350
                     }
                 }
-            }
-            0xf9c2333e: map[hash,embed] = {
-                0x497ae878 = 0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        9.5
-                        8.5
-                        7.5
-                        6.5
-                        5.5
-                        4.5
-                        3.5
+                0x005008a6 {
+                    0x8d39bde6: string = "MissingHealthDamage"
+                    0x34474c3b: list[f32] = {
+                        0.08
+                        0.08
+                        0.08
+                        0.08
+                        0.08
+                        0.08
+                        0.08
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "MaxMonsterHealthDamage"
+                    0x34474c3b: list[f32] = {
+                        400
+                        400
+                        400
+                        400
+                        400
+                        400
+                        400
                     }
                 }
             }
             0x94572284: map[hash,pointer] = {
                 0x69a14e52 = 0xbc409284 {
-                    0xcbcac618: u8 = 6
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
-                            0xb386dcf1: hash = 0xfbdd8817
-                        }
-                        0x5815b0a9 {
-                            0x4cec2c8a: u8 = 2
-                            0x7d3150ec: u8 = 2
-                            0x295c2889: f32 = 0.9
-                        }
-                    }
-                }
-                0x75fcff8e = 0xbc409284 {
-                    0xcbcac618: u8 = 6
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0xac1126c6
+                            0xb386dcf1: hash = 0x03da00f9
                         }
                         0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
-                            0xb386dcf1: hash = 0xbe9fa9aa
+                            0xb386dcf1: hash = 0x382d671b
                         }
                     }
                 }
-                0xca82d804 = 0x070e3593 {
-                    0x2c77adff: pointer = 0x9ef92080 {
-                        0xe202bca9: f32 = 2
+                0x75fcff8e = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x03da00f9
+                        }
+                        0x5f5c70a4 {
+                            0x4cec2c8a: u8 = 2
+                            0x7d3150ec: u8 = 2
+                            0xb386dcf1: hash = 0x382d671b
+                        }
                     }
-                    0xcbcac618: u8 = 6
-                    0xd6b7a622: bool = true
-                    0x7f93cf4e: hash = 0x75fcff8e
                 }
             }
-            0xd7141e61: f32 = 2
             0xfbd16fb5: string = "Spell1"
             0xeed67cd5: list[string] = {
                 "ASSETS/UX/Jade/S3Icons/SameSized/BlindMonKQOne.dds"
@@ -163,14 +127,15 @@ entries: map[hash,embed] = {
             }
             0x85d8a7e8: embed = 0x0a0eddc9 {
                 0x34474c3b: list[f32] = {
-                    11
+                    12
                     11
                     10
                     9
                     8
                     7
-                    7
+                    6
                 }
+                0x0a3e0478: f32 = 12
             }
             0xe321919c: bool = true
             0xd13b3d08: bool = true
@@ -294,20 +259,16 @@ entries: map[hash,embed] = {
                         "keyName" = "Spell_LeeSinQOne_Jade_Name"
                         "keySummary" = "Spell_LeeSinQOne_Jade_Summary"
                         "keyTooltip" = "Spell_LeeSinQOne_Jade_Tooltip"
+                        "keyTooltipExtendedBelowLine" = "Spell_Jade_LeeSinQOne_TooltipExtendedBelowLine"
                     }
                     0x91ed07c9: map[string,embed] = {
                         "LevelUp" = 0xfb33f2f3 {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "Q1BaseDamage"
+                                    0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
-                                    0x566f3406: string = "Spell_ListType_LeeSinQSonicWaveDamage"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "Q2BaseDamage"
-                                    0x33c02d93: i32 = 2
-                                    0x566f3406: string = "Spell_ListType_LeeSinResonatingStrikeMinimumBaseDamage"
+                                    0x566f3406: string = "Spell_ListType_Damage"
                                 }
                                 0x9a1b3505 {
                                     0x5127f14d: string = "Cooldown"
@@ -367,7 +328,7 @@ entries: map[hash,embed] = {
                                 0x88536426: hash = 0x69a14e52
                             }
                             0xf3cbe7b2 {
-                                0x88536426: hash = 0xca82d804
+                                0x88536426: hash = 0x75fcff8e
                             }
                         }
                     }

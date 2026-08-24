@@ -425,6 +425,26 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
+                0x8d39bde6: string = "Fresnel_Intensity"
+                0xd872e2a5: vec4 = { 1, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel_Intensity"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
+                0x8d39bde6: string = "Fresnel_subtract"
+                0xd872e2a5: vec4 = { 2, 0, 0, 0 }
+                0x74672198: list[embed] = {
+                    0x14a2befa {
+                        0x8d39bde6: string = "Fresnel_subtract"
+                        0x0640657c: u32 = 1
+                    }
+                }
+            }
+            0x816753d8 {
                 0x8d39bde6: string = "Distortion_Tiling_02"
                 0xd872e2a5: vec4 = { 1, 1, 0, 0 }
                 0x74672198: list[embed] = {
@@ -790,6 +810,12 @@ entries: map[hash,embed] = {
                 0xaae99956: bool = true
             }
             0x60a292e6 {
+                0x8d39bde6: string = "PATTERN_ONE_MASK_FRESNEL"
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "PATTERN_ONE_ADDITIVE_MASK"
+            }
+            0x60a292e6 {
                 0x8d39bde6: string = "USE_PATTERN_ONE"
                 0xaae99956: bool = true
             }
@@ -844,95 +870,95 @@ entries: map[hash,embed] = {
         0x99108c85: list[embed] = {
             0x31d1e223 {
                 0x8d39bde6: string = "DeformNoise"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
             }
             0x31d1e223 {
                 0x8d39bde6: string = "DeformMask"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Diffuse_Texture"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
             }
             0x31d1e223 {
                 0x8d39bde6: string = "FBM_Texture"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
                 0x02e7fb4c: string = "Wrap_No_Mip"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Gradient"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
                 0x02e7fb4c: string = "Clamp_No_Mip"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "FlowMap_Texture"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Distortion_Texture"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
                 0x02e7fb4c: string = "Wrap_No_Mip"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Pattern_01"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
             }
             0x31d1e223 {
                 0x8d39bde6: string = "FlowMap_Texture_02"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Distortion_Texture_02"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
                 0x02e7fb4c: string = "Wrap_No_Mip"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Pattern_02"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Mask_Texture"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Fresnel_Color_Texture"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Fresnel_Mask"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Screen_Space_Texture"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
                 0x02e7fb4c: string = "Wrap_No_Mip"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Holographic_Color"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
                 0x02e7fb4c: string = "Wrap_No_Mip"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Holographic_Mask"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
                 0x02e7fb4c: string = "Wrap_No_Mip"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Holographic_Shape"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
                 0x02e7fb4c: string = "Wrap_No_Mip"
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Lightness_Adjustment_Texture"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Alpha_Multiplier_Texture"
-                0x32b374fa: string = "ASSETS/Shared/Materials/white.tex"
+                0x32b374fa: file = 0xe4078d70e5b8ff89
             }
             0x31d1e223 {
                 0x8d39bde6: string = "Bloom_Mask"
-                0x32b374fa: string = "ASSETS/Shared/Materials/black.tex"
+                0x32b374fa: file = 0x392f857d87a0dcbb
             }
         }
         0xae29287b: map[string,string] = {

@@ -23,19 +23,19 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "ActiveDot"
+                    0x8d39bde6: string = "PassiveAPRatio"
                     0x34474c3b: list[f32] = {
-                        14
-                        22
-                        30
-                        38
-                        46
-                        54
-                        62
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
+                        0.25
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "ActiveDotTotal"
+                    0x8d39bde6: string = "ActiveDot"
                     0x34474c3b: list[f32] = {
                         70
                         110
@@ -44,6 +44,18 @@ entries: map[hash,embed] = {
                         230
                         270
                         310
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "ActiveAPRatio"
+                    0x34474c3b: list[f32] = {
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
                     }
                 }
                 0x005008a6 {
@@ -77,31 +89,26 @@ entries: map[hash,embed] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0xe8ec14f2
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.25
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xedb9e272
                         }
                     }
                 }
-                0xfd502790 = 0xbc409284 {
+                0x8b3077db = 0xbc409284 {
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
                             0xb386dcf1: hash = 0xd613336a
                         }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 0.2
+                        0x5f5c70a4 {
+                            0xb386dcf1: hash = 0xed717a95
                         }
                     }
                 }
-                0xbac8cb48 = 0xbc409284 {
-                    0xd6b7a622: bool = true
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0x80142f04
-                        }
-                        0x5815b0a9 {
-                            0x295c2889: f32 = 1
-                        }
+                0x5948c87d = 0x070e3593 {
+                    0x2c77adff: pointer = 0x9ef92080 {
+                        0xe202bca9: f32 = 0.2
                     }
+                    0x7f93cf4e: hash = 0x8b3077db
                 }
             }
             0xfbd16fb5: string = "Crit"
@@ -249,7 +256,7 @@ entries: map[hash,embed] = {
                                     0x566f3406: string = "Spell_ListType_TristanaPassiveExplosionDamage"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "ActiveDotTotal"
+                                    0x5127f14d: string = "ActiveDot"
                                     0x33c02d93: i32 = 4
                                     0x566f3406: string = "Spell_ListType_DamageOverTime"
                                 }
@@ -270,7 +277,7 @@ entries: map[hash,embed] = {
             0x6d548702: pointer = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
                     0xf3cbe7b2 {
-                        0x88536426: hash = 0xfd502790
+                        0x88536426: hash = 0x8b3077db
                     }
                 }
             }

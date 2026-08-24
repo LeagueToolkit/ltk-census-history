@@ -1,0 +1,29 @@
+#PROP_text
+type: string = "PROP"
+version: u32 = 3
+linked: list[string] = {}
+entries: map[hash,embed] = {
+    0x71045e35 = 0x5e7e5a06 {
+        0xe095d841: string = "Augment_Quest_UltraHydra"
+        0x1d369c29: hash = 0x71045e35
+        0xc8e37ef0: string = "Augment_Quest_UltraHydra"
+        0x56d2be52: pointer = 0x43368569 {
+            0x94572284: map[hash,pointer] = {
+                0xec66d793 = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x9ef92080 {
+                            0xe202bca9: f32 = 500
+                        }
+                    }
+                }
+                0xdd06bf3e = 0xbc409284 {
+                    0x50f145c0: list[pointer] = {
+                        0x9ef92080 {
+                            0xe202bca9: f32 = 1200
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

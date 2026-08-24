@@ -12,51 +12,63 @@ entries: map[hash,embed] = {
             0x44b7e8dd: string = "Jade_MissFortuneScattershot"
             0x06afef1b: list2[embed] = {
                 0x005008a6 {
-                    0x8d39bde6: string = "BaseDamagePerSecond"
+                    0x8d39bde6: string = "BaseDamage"
                     0x34474c3b: list[f32] = {
-                        0
-                        90
-                        145
-                        200
-                        255
-                        310
-                        330
+                        35
+                        95
+                        155
+                        215
+                        275
+                        335
+                        395
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "BaseDuration"
+                    0x8d39bde6: string = "APRatio"
                     0x34474c3b: list[f32] = {
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
-                        2
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
+                        0.8
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "BaseSlowAmount"
+                    0x8d39bde6: string = "MoveSpeedMod"
                     0x34474c3b: list[f32] = {
-                        0.12
-                        0.2
-                        0.28
-                        0.36
-                        0.44
-                        0.52
-                        0.6
+                        -0.12
+                        -0.2
+                        -0.28
+                        -0.36
+                        -0.44
+                        -0.52
+                        -0.6
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "APRatioPerSecond"
+                    0x8d39bde6: string = "SlowDuration"
                     0x34474c3b: list[f32] = {
-                        0.8
-                        0.8
-                        0.8
-                        0.8
-                        0.8
-                        0.8
-                        0.8
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                        1
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "Duration"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
                     }
                 }
                 0x005008a6 {
@@ -71,56 +83,18 @@ entries: map[hash,embed] = {
                         4
                     }
                 }
-                0x005008a6 {
-                    0x8d39bde6: string = "CastDelay"
-                    0x34474c3b: list[f32] = {
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                        0.25
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "SlowPer100AP"
-                    0x34474c3b: list[f32] = {
-                        6e-04
-                        6e-04
-                        6e-04
-                        6e-04
-                        6e-04
-                        6e-04
-                        6e-04
-                    }
-                }
             }
             0x94572284: map[hash,pointer] = {
-                0x14fb8a67 = 0xbc409284 {
+                0x1ddee768 = 0xbc409284 {
                     0xcbcac618: u8 = 6
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
-                            0xb386dcf1: hash = 0x27fb6084
+                            0xb386dcf1: hash = 0x03da00f9
                         }
                         0x5f5c70a4 {
-                            0xb386dcf1: hash = 0x47b9abba
+                            0xb386dcf1: hash = 0xe30c799f
                         }
                     }
-                }
-                0xeaf11e4c = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0xa1c190b1
-                        }
-                    }
-                    0x5a2297d3: bool = true
-                }
-                0x1ddee768 = 0x070e3593 {
-                    0x2c77adff: pointer = 0x332eb441 {
-                        0xb386dcf1: hash = 0x8f56ae28
-                    }
-                    0x7f93cf4e: hash = 0x14fb8a67
                 }
             }
             0xfbd16fb5: string = "Spell3"
@@ -215,14 +189,14 @@ entries: map[hash,embed] = {
             }
             0x210f9ec0: embed = 0x630af303 {
                 0x34474c3b: list[f32] = {
+                    70
+                    75
                     80
-                    80
-                    80
-                    80
-                    80
-                    80
+                    85
+                    90
+                    95
                 }
-                0x0a3e0478: f32 = 80
+                0x0a3e0478: f32 = 70
             }
             0x77b9f839: u32 = 2
             0x5d46764f: pointer = 0x9b0f2144 {}
@@ -244,15 +218,18 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "BaseDamagePerSecond"
+                                    0x5127f14d: string = "BaseDamage"
                                     0x33c02d93: i32 = 1
                                     0x566f3406: string = "Spell_ListType_DamagePerSecond"
                                 }
                                 0x9a1b3505 {
-                                    0x5127f14d: string = "BaseSlowAmount"
-                                    0xf506c7e6: f32 = 100
+                                    0x5127f14d: string = "MoveSpeedMod"
+                                    0xf506c7e6: f32 = -100
                                     0x566f3406: string = "Spell_ListType_Slow"
                                     0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "Cost"
                                 }
                             }
                         }
@@ -288,7 +265,7 @@ entries: map[hash,embed] = {
             0x6d548702: pointer = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
                     0xf3cbe7b2 {
-                        0x88536426: hash = 0x14fb8a67
+                        0x88536426: hash = 0x1ddee768
                     }
                 }
             }
@@ -297,8 +274,8 @@ entries: map[hash,embed] = {
                     0x77e5e41c: u32 = 1
                     0x725bd4d5: pointer = 0xbc409284 {
                         0x50f145c0: list[pointer] = {
-                            0xf3cbe7b2 {
-                                0x88536426: hash = 0xeaf11e4c
+                            0x332eb441 {
+                                0xb386dcf1: hash = 0x4b504bad
                             }
                         }
                     }

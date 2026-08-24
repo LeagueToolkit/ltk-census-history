@@ -15,54 +15,6 @@ entries: map[hash,embed] = {
             }
             0x06afef1b: list2[embed] = {
                 0x005008a6 {
-                    0x8d39bde6: string = "BaseWaves"
-                    0x34474c3b: list[f32] = {
-                        12
-                        14
-                        16
-                        18
-                        20
-                        22
-                        24
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "BaseChannelDuration"
-                    0x34474c3b: list[f32] = {
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                        3
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "tADRatio"
-                    0x34474c3b: list[f32] = {
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                        0.4
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "APRatio"
-                    0x34474c3b: list[f32] = {
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                        0.2
-                    }
-                }
-                0x005008a6 {
                     0x8d39bde6: string = "BaseDamagePerWave"
                     0x34474c3b: list[f32] = {
                         35
@@ -72,6 +24,54 @@ entries: map[hash,embed] = {
                         155
                         185
                         215
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "ADRatio"
+                    0x34474c3b: list[f32] = {
+                        0.45
+                        0.45
+                        0.45
+                        0.45
+                        0.45
+                        0.45
+                        0.45
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "APRatio"
+                    0x34474c3b: list[f32] = {
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                        0.3
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "ChannelDuration"
+                    0x34474c3b: list[f32] = {
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                        2
+                    }
+                }
+                0x005008a6 {
+                    0x8d39bde6: string = "TotalWaves"
+                    0x34474c3b: list[f32] = {
+                        8
+                        8
+                        8
+                        8
+                        8
+                        8
+                        8
                     }
                 }
             }
@@ -84,45 +84,16 @@ entries: map[hash,embed] = {
                         0x5f5c70a4 {
                             0x4cec2c8a: u8 = 2
                             0x7d3150ec: u8 = 2
-                            0xb386dcf1: hash = 0x5114133d
+                            0xb386dcf1: hash = 0x382d671b
                         }
                         0x5f5c70a4 {
                             0xb386dcf1: hash = 0xe30c799f
                         }
                     }
                 }
-                0xd9b681ed = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0x0c9b48de
-                        }
-                    }
-                }
-                0x47549ba4 = 0xbc409284 {
-                    0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0x0ce8fc67
-                        }
-                    }
-                    0x08d47ee4: i32 = 1
-                }
-                0xeaae6e99 = 0x070e3593 {
-                    0x2c77adff: pointer = 0x84a63373 {
-                        0xa066cc28: list[pointer] = {
-                            0x5f5c70a4 {
-                                0x4cec2c8a: u8 = 2
-                                0xb386dcf1: hash = 0x5114133d
-                            }
-                            0x5f5c70a4 {
-                                0xb386dcf1: hash = 0xe30c799f
-                            }
-                        }
-                    }
-                    0x7f93cf4e: hash = 0xd9b681ed
-                }
                 0x1ddee768 = 0x070e3593 {
-                    0x2c77adff: pointer = 0x9ef92080 {
-                        0xe202bca9: f32 = 8
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0xd9b681ed
                     }
                     0xd6b7a622: bool = true
                     0x7f93cf4e: hash = 0x35a413d1
@@ -275,7 +246,7 @@ entries: map[hash,embed] = {
                         0xeb34d5d7: option[f32] = {
                             1400
                         }
-                        0xdce6908c: string = "ASSETS/Characters/Jade_MissFortune/HUD/Textures/MF_ConicRangeIndicator.tex"
+                        0xdce6908c: file = 0x6cf5f318d9e8dd86
                     }
                 }
             }
@@ -284,13 +255,8 @@ entries: map[hash,embed] = {
             0x450d68a0: u32 = 0
             0x6d548702: pointer = 0xbc409284 {
                 0x50f145c0: list[pointer] = {
-                    0xad106e67 {
-                        0x46144074: pointer = 0xf3cbe7b2 {
-                            0x88536426: hash = 0x35a413d1
-                        }
-                        0x4914452d: pointer = 0xf3cbe7b2 {
-                            0x88536426: hash = 0xd9b681ed
-                        }
+                    0xf3cbe7b2 {
+                        0x88536426: hash = 0x1ddee768
                     }
                 }
             }
