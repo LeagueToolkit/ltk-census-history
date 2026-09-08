@@ -435,11 +435,11 @@ entries: map[hash,embed] = {
                 }
             }
             0x816753d8 {
-                0x8d39bde6: string = "Fresnel_subtract"
+                0x8d39bde6: string = "Fresnel_pow"
                 0xd872e2a5: vec4 = { 2, 0, 0, 0 }
                 0x74672198: list[embed] = {
                     0x14a2befa {
-                        0x8d39bde6: string = "Fresnel_subtract"
+                        0x8d39bde6: string = "Fresnel_pow"
                         0x0640657c: u32 = 1
                     }
                 }
@@ -820,6 +820,9 @@ entries: map[hash,embed] = {
                 0xaae99956: bool = true
             }
             0x60a292e6 {
+                0x8d39bde6: string = "PATTERN_TWO_ADDITIVE_MASK"
+            }
+            0x60a292e6 {
                 0x8d39bde6: string = "USE_PATTERN_TWO"
             }
             0x60a292e6 {
@@ -828,6 +831,9 @@ entries: map[hash,embed] = {
             0x60a292e6 {
                 0x8d39bde6: string = "USE_FRESNEL_COLOR_TEXTURE"
                 0xaae99956: bool = true
+            }
+            0x60a292e6 {
+                0x8d39bde6: string = "USE_INNER_FRESNEL"
             }
             0x60a292e6 {
                 0x8d39bde6: string = "USE_FRESNEL"
@@ -904,6 +910,10 @@ entries: map[hash,embed] = {
                 0x32b374fa: file = 0x392f857d87a0dcbb
             }
             0x31d1e223 {
+                0x8d39bde6: string = "Fresnel_Mask"
+                0x32b374fa: file = 0x392f857d87a0dcbb
+            }
+            0x31d1e223 {
                 0x8d39bde6: string = "FlowMap_Texture_02"
                 0x32b374fa: file = 0x392f857d87a0dcbb
             }
@@ -925,7 +935,7 @@ entries: map[hash,embed] = {
                 0x32b374fa: file = 0x392f857d87a0dcbb
             }
             0x31d1e223 {
-                0x8d39bde6: string = "Fresnel_Mask"
+                0x8d39bde6: string = "Inner_Fresnel_Mask"
                 0x32b374fa: file = 0x392f857d87a0dcbb
             }
             0x31d1e223 {

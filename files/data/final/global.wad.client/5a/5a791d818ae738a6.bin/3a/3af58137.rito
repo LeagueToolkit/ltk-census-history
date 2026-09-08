@@ -27,41 +27,9 @@ entries: map[hash,embed] = {
                 "PositiveEffect_Boon"
                 "Trait_SummonerSpell"
             }
-            0x251a5225: list[embed] = {
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        40
-                        40
-                        40
-                        40
-                        40
-                        40
-                        40
-                    }
-                }
-                0x92d4987c {
-                    0x425ed3ca: list[f32] = {
-                        40
-                        40
-                        40
-                        40
-                        40
-                        40
-                        40
-                    }
-                }
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-                0x92d4987c {}
-            }
             0x06afef1b: list2[embed] = {
                 0x005008a6 {
-                    0x8d39bde6: string = "SelfMana"
+                    0x8d39bde6: string = "ManaRestorePercent"
                     0x34474c3b: list[f32] = {
                         40
                         40
@@ -73,47 +41,36 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "AllyMana"
+                    0x8d39bde6: string = "MasteryRestorePercent"
                     0x34474c3b: list[f32] = {
-                        40
-                        40
-                        40
-                        40
-                        40
-                        40
-                        40
-                    }
-                }
-                0x005008a6 {
-                    0x8d39bde6: string = "MasteryBonus"
-                    0x34474c3b: list[f32] = {
-                        1.25
-                        1.25
-                        1.25
-                        1.25
-                        1.25
-                        1.25
-                        1.25
+                        50
+                        50
+                        50
+                        50
+                        50
+                        50
+                        50
                     }
                 }
             }
             0x94572284: map[hash,pointer] = {
                 0x6497bf05 = 0xbc409284 {
+                    0x2c77adff: pointer = 0x9ef92080 {
+                        0xe202bca9: f32 = 0.01
+                    }
                     0x50f145c0: list[pointer] = {
-                        0x332eb441 {
-                            0xb386dcf1: hash = 0xffab55b8
+                        0x2b25a73a {
+                            0x137cf12a: hash = 0x903bade1
                         }
                     }
                 }
                 0x5dc99e95 = 0xbc409284 {
+                    0x2c77adff: pointer = 0x9ef92080 {
+                        0xe202bca9: f32 = 0.01
+                    }
                     0x50f145c0: list[pointer] = {
-                        0xad106e67 {
-                            0x46144074: pointer = 0x332eb441 {
-                                0xb386dcf1: hash = 0xffab55b8
-                            }
-                            0x4914452d: pointer = 0x332eb441 {
-                                0xb386dcf1: hash = 0x5ab59051
-                            }
+                        0x2b25a73a {
+                            0x137cf12a: hash = 0x3a28b835
                         }
                     }
                 }
@@ -125,25 +82,31 @@ entries: map[hash,embed] = {
                     }
                 }
                 0xf2cc4cd5 = 0xbc409284 {
+                    0x2c77adff: pointer = 0x9ef92080 {
+                        0xe202bca9: f32 = 0.01
+                    }
+                    0x37070a8d: u8 = 5
                     0x50f145c0: list[pointer] = {
                         0x332eb441 {
-                            0xb386dcf1: hash = 0x4a17b5c8
+                            0xb386dcf1: hash = 0x903bade1
                         }
                     }
+                    0x5a2297d3: bool = true
                 }
                 0x370c2a05 = 0xbc409284 {
+                    0x2c77adff: pointer = 0x9ef92080 {
+                        0xe202bca9: f32 = 0.01
+                    }
+                    0x37070a8d: u8 = 5
                     0x50f145c0: list[pointer] = {
-                        0xad106e67 {
-                            0x46144074: pointer = 0x332eb441 {
-                                0xb386dcf1: hash = 0x4a17b5c8
-                            }
-                            0x4914452d: pointer = 0x332eb441 {
-                                0xb386dcf1: hash = 0x5ab59051
-                            }
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0x3a28b835
                         }
                     }
+                    0x5a2297d3: bool = true
                 }
                 0x9a25849e = 0xe9ced584 {
+                    0x37070a8d: u8 = 5
                     0x011436b4: hash = 0xf2cc4cd5
                     0x006fde67: hash = 0x370c2a05
                     0xc0482365: pointer = 0x5b1f9358 {
@@ -243,7 +206,6 @@ entries: map[hash,embed] = {
                 0x2831605b: pointer = 0xa4e13b57 {
                     0xb482c52c: string = "SummonerMana_Jade"
                     0x57b8b11b: link = 0xb5df7ddb
-                    0xfea35e52: bool = false
                     0x0381f7e2: map[string,string] = {
                         "keyName" = "Spell_SummonerMana_Name"
                         "keySummary" = "Spell_SummonerMana_Jade_Summary"

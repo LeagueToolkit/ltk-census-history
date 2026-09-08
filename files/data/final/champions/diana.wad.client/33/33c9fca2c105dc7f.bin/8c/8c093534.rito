@@ -7,6 +7,10 @@ entries: map[hash,embed] = {
         0x8d39bde6: string = "Characters/Diana/Skins/Skin77/Materials/Body_Main"
         0x0a6f0eb5: list2[embed] = {
             0x0904b150 {
+                0xb311d4ef: string = "Inner_Fresnel_Mask"
+                0xf0a363e3: file = 0x392f857d87a0dcbb
+            }
+            0x0904b150 {
                 0xb311d4ef: string = "Diffuse_Texture"
                 0xf0a363e3: file = 0xa66eeb5242c07c0f
             }
@@ -102,7 +106,7 @@ entries: map[hash,embed] = {
         }
         0xd0ab46b8: list2[embed] = {
             0xde480eef {
-                0x8d39bde6: string = "Fresnel_subtract"
+                0x8d39bde6: string = "Fresnel_pow"
                 0x425ed3ca: vec4 = { 0.05, 0, 0, 0 }
             }
             0xde480eef {
@@ -410,6 +414,14 @@ entries: map[hash,embed] = {
             }
         }
         0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "USE_INNER_FRESNEL"
+                0x61342fd0: bool = false
+            }
+            0x0e2212a1 {
+                0x8d39bde6: string = "PATTERN_TWO_ADDITIVE_MASK"
+                0x61342fd0: bool = false
+            }
             0x0e2212a1 {
                 0x8d39bde6: string = "PATTERN_ONE_MASK_FRESNEL"
                 0x61342fd0: bool = false

@@ -149,25 +149,25 @@ entries: map[hash,embed] = {
                 0x005008a6 {
                     0x8d39bde6: string = "ActiveAD"
                     0x34474c3b: list[f32] = {
-                        5
-                        12
-                        19
-                        26
-                        33
-                        40
-                        47
+                        6
+                        14
+                        22
+                        30
+                        38
+                        46
+                        54
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "ActiveMS"
                     0x34474c3b: list[f32] = {
-                        0.05
-                        0.08
-                        0.11
+                        0.06
+                        0.1
                         0.14
-                        0.17
-                        0.2
-                        0.23
+                        0.18
+                        0.22
+                        0.26
+                        0.3
                     }
                 }
                 0x005008a6 {
@@ -183,27 +183,50 @@ entries: map[hash,embed] = {
                     }
                 }
                 0x005008a6 {
-                    0x8d39bde6: string = "AllyActiveAD"
+                    0x8d39bde6: string = "AllyShareRatio"
                     0x34474c3b: list[f32] = {
-                        2.5
-                        6
-                        9.5
-                        13
-                        16.5
-                        20
-                        23.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
+                        0.5
                     }
                 }
                 0x005008a6 {
                     0x8d39bde6: string = "AllyActiveMS"
                     0x34474c3b: list[f32] = {
-                        0.025
-                        0.04
-                        0.055
+                        0.03
+                        0.05
                         0.07
-                        0.085
-                        0.1
-                        0.115
+                        0.09
+                        0.11
+                        0.13
+                        0.15
+                    }
+                }
+            }
+            0x94572284: map[hash,pointer] = {
+                0x2afc05a4 = 0xbc409284 {
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0x96692a65
+                    }
+                    0x37070a8d: u8 = 5
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xe6e6e0ea
+                        }
+                    }
+                }
+                0xa2a00bc1 = 0xbc409284 {
+                    0x2c77adff: pointer = 0x332eb441 {
+                        0xb386dcf1: hash = 0x96692a65
+                    }
+                    0x50f145c0: list[pointer] = {
+                        0x332eb441 {
+                            0xb386dcf1: hash = 0xe9c8d08f
+                        }
                     }
                 }
             }
@@ -326,6 +349,16 @@ entries: map[hash,embed] = {
                             0x071a48dc: u32 = 5
                             0x5a94b0cc: list[embed] = {
                                 0x9a1b3505 {
+                                    0x5127f14d: string = "PassiveAD"
+                                    0x566f3406: string = "Spell_GangplankE_Jade_LevelUpPassiveAD_Name"
+                                }
+                                0x9a1b3505 {
+                                    0x5127f14d: string = "PassiveMS"
+                                    0xf506c7e6: f32 = 100
+                                    0x566f3406: string = "Spell_GangplankE_Jade_LevelUpPassiveMS_Name"
+                                    0xac307ed6: u32 = 1
+                                }
+                                0x9a1b3505 {
                                     0x5127f14d: string = "ActiveAD"
                                     0x33c02d93: i32 = 3
                                     0x566f3406: string = "Spell_GangplankE_Jade_LevelUpActiveAD_Name"
@@ -335,16 +368,6 @@ entries: map[hash,embed] = {
                                     0x33c02d93: i32 = 1
                                     0xf506c7e6: f32 = 100
                                     0x566f3406: string = "Spell_GangplankE_Jade_LevelUpActiveMS_Name"
-                                    0xac307ed6: u32 = 1
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "PassiveAD"
-                                    0x566f3406: string = "Spell_GangplankE_Jade_LevelUpPassiveAD_Name"
-                                }
-                                0x9a1b3505 {
-                                    0x5127f14d: string = "PassiveMS"
-                                    0xf506c7e6: f32 = 100
-                                    0x566f3406: string = "Spell_GangplankE_Jade_LevelUpPassiveMS_Name"
                                     0xac307ed6: u32 = 1
                                 }
                                 0x9a1b3505 {
