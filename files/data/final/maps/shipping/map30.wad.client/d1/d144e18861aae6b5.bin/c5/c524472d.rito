@@ -21,6 +21,14 @@ entries: map[hash,embed] = {
         }
         0xd0ab46b8: list2[embed] = {
             0xde480eef {
+                0x8d39bde6: string = "Saturation_Blend_Amount"
+                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+            }
+            0xde480eef {
+                0x8d39bde6: string = "Refraction_Blend_Amount"
+                0x425ed3ca: vec4 = { 5, 0, 0, 0 }
+            }
+            0xde480eef {
                 0x8d39bde6: string = "Refraction_Texture_Use_Panning"
                 0x425ed3ca: vec4 = { 1, 0, 0, 0 }
             }
@@ -29,6 +37,7 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "Refraction_Texture_Rotation_Angle"
+                0x425ed3ca: vec4 = { 0.9, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Refraction_Texture_Rotation_Center"
@@ -36,26 +45,27 @@ entries: map[hash,embed] = {
             }
             0xde480eef {
                 0x8d39bde6: string = "Refraction_Chromatic_Aberration_B_Intensity"
-                0x425ed3ca: vec4 = { 0.98, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 0.95, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Refraction_Chromatic_Aberration_G_Intensity"
-                0x425ed3ca: vec4 = { 1, 0, 0, 0 }
+                0x425ed3ca: vec4 = { 0.98, 0, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Refraction_Chromatic_Aberration_R_Intensity"
-                0x425ed3ca: vec4 = { 1.02, 0, 0, 0 }
-            }
-            0xde480eef {
-                0x8d39bde6: string = "Refraction_Intensity"
                 0x425ed3ca: vec4 = { 1, 0, 0, 0 }
             }
             0xde480eef {
+                0x8d39bde6: string = "Refraction_Intensity"
+                0x425ed3ca: vec4 = { 0.015, 0, 0, 0 }
+            }
+            0xde480eef {
                 0x8d39bde6: string = "Refraction_Texture_Panner"
+                0x425ed3ca: vec4 = { -0.35, 1, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Refraction_Texture_Tile"
-                0x425ed3ca: vec4 = { 1, 1, 0, 0 }
+                0x425ed3ca: vec4 = { 0.75, 0.75, 0, 0 }
             }
             0xde480eef {
                 0x8d39bde6: string = "Sheen_Scale"
@@ -111,6 +121,10 @@ entries: map[hash,embed] = {
             }
         }
         0xdd7ddb9d: list2[embed] = {
+            0x0e2212a1 {
+                0x8d39bde6: string = "ENABLE_SATURATION"
+                0x61342fd0: bool = false
+            }
             0x0e2212a1 {
                 0x8d39bde6: string = "ENABLE_REFRACTION"
                 0x61342fd0: bool = false
