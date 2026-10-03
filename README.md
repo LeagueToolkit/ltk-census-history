@@ -93,4 +93,5 @@ The format and the measurements behind it are described in ltk-census-sync, `doc
 ## License
 
 The data is dedicated to the public domain, without warranty, and grants no right in Riot Games'
-own work: [LICENSE](LICENSE). ltk-census-history isn't endorsed by Riot Games.
+own work, such as the strings the bins hold, which are quoted: [LICENSE](LICENSE).
+ltk-census-history isn't endorsed by Riot Games.
