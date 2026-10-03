@@ -1,13 +1,14 @@
 # League of Legends census history
 
 Every live build of the League of Legends game client from patch 8.20 (October 2018) to now, as a
-git history: **one commit per build, one file per fact**, so a patch reads as a diff. Written by
-`census export git` from the ltk-census database, and kept up by `census append` from each new
-build's own bytes; nothing here is edited by hand.
+git history: **one commit per build, one file per fact**, so a patch reads as a diff. The builds
+up to 16.19.8207193 were written by an export from a database of past builds; each build after it
+is appended from its own bytes by [ltk-census-sync](https://github.com/LeagueToolkit/ltk-census-sync).
+Nothing here is edited by hand.
 
-**This branch holds only this file.** The history is on the branch `history`, whose newest tree has
-1.4 million files -- one small file per WAD entry or bin entry -- which is why it is not what
-a plain clone checks out.
+**This branch holds only this file and the license.** The history is on the branch `history`,
+whose newest tree has 1.4 million files -- one small file per WAD entry or bin entry -- which is
+why it is not what a plain clone checks out.
 
 ## Getting it
 
@@ -16,7 +17,7 @@ To work with the data:
 
 ```sh
 # the history only, without checking out a million files
-git clone --single-branch --branch history --no-checkout https://github.com/moonshadow565/ltk-census-history.git census
+git clone --single-branch --branch history --no-checkout https://github.com/LeagueToolkit/ltk-census-history.git census
 cd census
 
 # then read it without a working tree
@@ -31,8 +32,9 @@ git sparse-checkout set --no-cone /build.yaml /census.yaml /schema/ '*.rito' '*/
 git checkout history
 ```
 
-Each patch's last build is tagged with the patch's name (`8.20` ... `16.19`), so
-`git diff 16.18 16.19` is one patch. Each commit message is the build's version followed by
+Each patch is tagged with its name (`8.20` ... `16.19`) at its newest build when the next patch
+began, so `git diff 16.18 16.19` is one patch. A tag never moves: a hotfix that came after it lands
+after it, and `build.yaml` says which build a commit is. Each commit message is the build's version followed by
 trailers, so `git log --grep 'Census-Source: rads'` finds builds without reading a tree:
 
 ```
@@ -82,6 +84,13 @@ files/<manifest path>/xx/<hash>.bin/yy/<entry>.rito   one entry of a bin, as rit
   `build.yaml`: their `manifest` is a census id (no RMAN manifest exists for them), their date the
   client executable's link time. Builds before 8.20 shipped game data partly as loose files and are
   not in this history.
+- **Realms.** Up to 16.19.8207193, `realms` lists the live realms that shipped a build. After it,
+  the history follows NA1 alone, and `realms` is `NA1`.
 
-The format, the measurements behind it and what was left out are described in the ltk-census
-repository, `docs/GIT.md`.
+The format and the measurements behind it are described in ltk-census-sync, `docs/FORMAT.md` and
+`docs/RUNS.md`.
+
+## License
+
+The data is dedicated to the public domain, without warranty, and grants no right in Riot Games'
+own work: [LICENSE](LICENSE). ltk-census-history isn't endorsed by Riot Games.
